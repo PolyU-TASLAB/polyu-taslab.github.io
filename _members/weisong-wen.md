@@ -4,8 +4,7 @@ image: images/weisong.jpg
 role: pi
 affiliation: Hong Kong Polytechnic University
 aliases:
-  - J. Smith
-  - J Smith
+  - 
 links:
   home-page: https://weisongwen.github.io/
   orcid: 0000-0003-4158-0913
