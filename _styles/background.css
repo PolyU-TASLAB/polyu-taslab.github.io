@@ -9,7 +9,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: var(--image);
+  background-image: url("images/AboutPolyU_Campus1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
