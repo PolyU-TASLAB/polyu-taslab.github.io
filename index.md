@@ -1,9 +1,10 @@
 ---
 ---
 
-# PolyU-TASLAB's Website
+# PolyU TAS LAB's Website
 
-An engaging 1-3 sentence description of your lab.
+Welcome to the Trustworthy Autonomous Systems Laboratory (TAS Lab) at the Polytechnic University of Hong Kong. TAS Lab is committed to the research of truly reliable unmanned systems that can be applied to various industries, including but not limited to unmanned aerial vehicles (UAV), autonomous driving and control.
+
 
 {% include section.html %}
 
@@ -11,7 +12,7 @@ An engaging 1-3 sentence description of your lab.
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+**Trustworthiness** **Intelligence**  **Innovation**  **Autonomy**
 
 {%
   include button.html
