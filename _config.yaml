@@ -2,8 +2,8 @@
 title: TAS LAB
 subtitle: Trustworthy Autonomous Systems Laboratory
 description: Welcome to the Trustworthy Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.
-header: project/Lab_Web/images/AboutPolyU_Campus1.png
-footer: project/Lab_Web/images/AboutPolyU_Campus9.jpg
+header: images/AboutPolyU_Campus1.png
+footer: images/AboutPolyU_Campus9.jpg
 proofer: false
 
 # site social media and other links
