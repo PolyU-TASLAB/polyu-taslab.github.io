@@ -27,7 +27,7 @@ Welcome to the Trustworthy Autonomous Systems Laboratory (TAS Lab) at the Polyte
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/3DLA-GNSS.jpg"
   link="research"
   title="Our Research"
   text=text
