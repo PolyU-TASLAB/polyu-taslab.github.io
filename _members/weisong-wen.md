@@ -1,6 +1,6 @@
 ---
 name: Wen Weisong
-image: images/weisong.jpg
+image: images/weisong.png
 role: pi
 affiliation: Hong Kong Polytechnic University
 aliases:
