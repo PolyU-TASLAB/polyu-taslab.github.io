@@ -37,7 +37,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include figure.html
   image="images/AboutPolyU_Campus3.png"
-  caption="Lorem ipsum"
+  caption=" "
 %}
 
 {% endcapture %}
@@ -47,7 +47,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include figure.html
   image="images/AboutPolyU_Campus5.jpg"
-  caption="Lorem ipsum"
+  caption=" "
 %}
 
 {% endcapture %}
