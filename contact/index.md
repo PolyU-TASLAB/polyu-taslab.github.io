@@ -36,7 +36,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/weisong.jpg"
+  image="images/weisong.png"
   caption="Lorem ipsum"
 %}
 
