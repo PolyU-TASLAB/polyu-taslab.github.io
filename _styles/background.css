@@ -5,7 +5,7 @@
   z-index: 1;
 }
 
-.background:before {
+.background::after {
   content: "";
   position: absolute;
   inset: 0;
