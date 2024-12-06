@@ -7,29 +7,23 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<!-- Include a large landscape photo below the TEAM title -->
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/people_photos/team.jpg" alt="Team Banner" 
+       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+</div>
 
-{% include section.html %}
+#### Faculty (Principal Investigator)
+{% include list_pi.html data="members" component="portrait_pi" filters="role: pi" %}
+#### Postdoctoral Fellows
+{% include list_students.html data="members" component="portrait_students" filters="role: phd" %}
+#### Ph.D. Students
+{% include list_students.html data="members" component="portrait_students" filters="role: phd" %}
+#### M.S. Students
+{% include list_students.html data="members" component="portrait_students" filters="role: ms" %}
+#### Undergraduate Students
+{% include list_students.html data="members" component="portrait_students" filters="role: under" %}
+#### Visiting Scholar/Students
+{% include list_students.html data="members" component="portrait_students" filters="role: visiting" %}
+#### Alumni
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
-
-{% include section.html background="images/background.jpg" dark=true %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include section.html %}
-
-{% capture content %}
-
-{% include figure.html image="images/weisong.png" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
