@@ -3,7 +3,7 @@
 
 # PolyU TAS LAB's Website
 
-Welcome to the Trustworthy Autonomous Systems Laboratory (TAS Lab) at the Polytechnic University of Hong Kong. TAS Lab is committed to the research of truly reliable unmanned systems that can be applied to various industries, including but not limited to unmanned aerial vehicles (UAV), autonomous driving and control.
+The Trustworthy Autonomous Systems Laboratory is at the forefront of pioneering advancements in autonomous system technology, emphasizing the importance of safety, reliability, and ethical standards. Our laboratory is home to a diverse group of researchers and engineers who specialize in artificial intelligence, robotics, cybersecurity, and human-systems interaction. Together, we are committed to developing autonomous systems that inspire confidence and trust among users and stakeholders. Through collaborative efforts with industry partners, academic institutions, and policymakers, our team addresses the complex challenges of integrating autonomous systems into society, ensuring they operate transparently and responsibly.
 
 
 {% include section.html %}
