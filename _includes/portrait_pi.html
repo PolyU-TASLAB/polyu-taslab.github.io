@@ -9,7 +9,7 @@
 
 {% assign type = site.data.types[member.role] %}
 
-<div class="portrait-wrapper-pi">
+<div class="portrait-wrapper">
   <a
     {% if page.slug != member.slug %}
       href="{{ member.url | relative_url }}"
@@ -24,14 +24,14 @@
 
     <img
       src="{{ member.image | relative_url }}"
-      class="portrait-image-pi"
+      class="portrait-image"
       alt="member portrait"
       
       {% include fallback.html %}
     >
 
     {% if member.name %}
-      <span class="portrait-name-pi">
+      <span class="portrait-name">
         {{ member.name }}
       </span>
     {% endif %}
