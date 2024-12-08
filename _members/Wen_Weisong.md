@@ -11,8 +11,8 @@ links:
   email: welson.wen@polyu.edu.hk
   profile: 
 
-display_1: Assistant Professor， Ph.D.(PolyU), M.Eng.(CAU), B.Eng. (BISTU), MIEEE, MION
-display_2: Research Areas Autonomous Driving; Robotics, Mapping, and Localization; Sensor Fusion; GNSS; SLAM
+display_1: Assistant Professor, Ph.D.(PolyU), M.Eng.(CAU), B.Eng. (BISTU), MIEEE, MION
+display_2: Research Areas &#58 Autonomous Driving; Robotics, Mapping, and Localization; Sensor Fusion; GNSS; SLAM
 ---
 
 Dr. Weisong Wen is an Assistant Professor at the Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University. He was also the associate director of Intelligent Positioning and Navigation Lab-IPNL which is led by Dr. Li-ta Hsu (He is also my Lifelong Mentor). Dr. Wen aims to build algorithm foundations for trustworthy navigation and control of autonomous systems. In particular, he aims to design pratical trustworthy and interactive autonomous systems (drones and intelligent vehicles) for the future society.
