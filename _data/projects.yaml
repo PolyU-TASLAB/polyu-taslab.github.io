@@ -1,19 +1,18 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Huawei-PolyU High-accuracy Localization Project (second phase) 
+  subtitle: Knowledge Transfer to Unmanned Autonomous Systems
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
+  #link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
   tags:
     - resource
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: Factor Graph Optimization for GNSS Positioning 
+  subtitle: Knowledge Transfer to Smart Devices
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  image: images/project/huaweiFGO.png
+  #link: https://github.com/
+  description: Developed a framework, which uses the FGO to fuse both the pseudorange and Doppler measurements for positioning. 
   repo: greenelab/lab-website-template
   tags:
     - resource
