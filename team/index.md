@@ -9,9 +9,7 @@ nav:
 
 <!-- Include a large landscape photo below the TEAM title -->
 
-<div style="text-align: center;">
-  ![Team Photo](image/team/team.jpg)
-</div>
+![Team Photo](image/team/team.jpg)
 
 #### Faculty (Principal Investigator)
 {% include list_pi.html data="members" component="portrait_pi" filters="role == 'pi'"  %}
