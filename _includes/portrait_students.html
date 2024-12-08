@@ -1,0 +1,57 @@
+{% if include.lookup %}
+  {% assign member = site.members 
+    | where_exp: "member", "member.slug == include.lookup"
+    | first
+  %}
+{% else %}
+  {% assign member = include %}
+{% endif %}
+
+{% assign type = site.data.types[member.role] %}
+
+<div class="portrait-wrapper">
+  <a
+    {% if page.slug != member.slug %}
+      href="{{ member.url | relative_url }}"
+    {% endif %}
+    class="portrait"
+    data-style="{{ include.style }}"
+    aria-label="{{ member.name | default: "member link" }}"
+  >
+    {% if type %}
+      {% include icon.html icon=type.icon %}
+    {% endif %}
+
+    <img
+      src="{{ member.image | relative_url }}"
+      class="portrait-image"
+      alt="member portrait"
+      
+      {% include fallback.html %}
+    >
+
+    {% if member.name %}
+      <span class="portrait-name">
+        {{ member.name }}
+      </span>
+    {% endif %}
+
+    {% if member.display_1 %}
+      <span class="display_1">
+        {{member.display_1}}
+      </span>
+    {% endif %}
+
+    {% if member.display_2 %}
+      <span class="display_2">
+        {{member.display_2}}
+      </span>
+    {% endif %}
+
+    {% if member.display_3 %}
+      <span class="display_3">
+        {{member.display_3}}
+      </span>
+    {% endif %}
+  </a>
+</div>
