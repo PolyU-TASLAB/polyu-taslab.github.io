@@ -9,9 +9,8 @@ nav:
 
 <!-- Include a large landscape photo below the TEAM title -->
 
-<div style="text-align: center; ">
-  <img src="" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div style="text-align: center;">
+  ![Team Photo](image/team/team.jpg)
 </div>
 
 #### Faculty (Principal Investigator)
