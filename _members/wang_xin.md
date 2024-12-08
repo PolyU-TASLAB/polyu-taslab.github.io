@@ -1,6 +1,6 @@
 ---
 name: Wang Xin
-image: wxx.jpg
+image: images/wang_xin.jpg
 role: ra
 affiliation: Hong Kong Polytechnic University
 order: 1
