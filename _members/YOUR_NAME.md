@@ -1,7 +1,7 @@
 ---
 name: Tim Member
 image: images/team/YOUR_NAME.jpg
-role: pi  # pi / phd / ms / under / postdoc
+role: phd  # pi / phd / ms / under / postdoc
 description: Senior Programmer 
 aliases:
   - T Member
