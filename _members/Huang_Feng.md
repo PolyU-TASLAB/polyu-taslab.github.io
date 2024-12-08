@@ -1,5 +1,5 @@
 ---
-name: Wen Weisong
+name: HUANG Feng
 image: images/team/huangfeng.jpg
 role: phd  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
