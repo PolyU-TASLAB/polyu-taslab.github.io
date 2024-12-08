@@ -1,11 +1,16 @@
 ---
-name: Sarah Johnson
-image: images/photo.jpg
-description: Lead Programmer
-role: programmer
+name: XXX
+image: images/teams/weisong.png
+role: pi
+affiliation: Hong Kong Polytechnic University
+aliases:
+  - 
 links:
-  email: sarah.johnson@gmail.com
-  twitter: sarahjohnson
+  people-homepage: 
+  people-email: 
+  people-gs: 
+  people-twitter: 
+display_1: 'Assistant Professor'
+display_2: 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
