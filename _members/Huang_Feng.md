@@ -3,7 +3,7 @@ name: HUANG Feng
 image: images/team/huangfeng.jpg
 role: phd  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
-order: 11
+order: 2
 
 links:
   home-page: https://darrenwong.github.io/
