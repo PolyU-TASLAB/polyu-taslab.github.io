@@ -13,8 +13,8 @@ links:
   email: welson.wen@polyu.edu.hk
   profile: 
 
-display_1: Assistant Professor, Ph.D.(PolyU), M.Eng.(CAU), B.Eng. (BISTU), MIEEE, MION
-display_2: Research Areas &#58 Autonomous Driving; Robotics, Mapping, and Localization; Sensor Fusion; GNSS; SLAM
+display_1: Assistant Professor, Ph.D.(PolyU), M.Eng.(CAU), B.Eng. (BISTU)
+display_2: MIEEE, MION
 ---
 
 <!--  Add a short self introduction here -->
