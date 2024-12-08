@@ -1,11 +1,11 @@
-- title: Huawei-PolyU High-accuracy Localization Project (second phase) 
+- title: Huawei-PolyU High-accuracy Localization Project
   subtitle: Knowledge Transfer to Unmanned Autonomous Systems
   group: featured
-  image: images/photo.jpg
+  image: images/project/huaweiMappingPhase2.jpg
   #link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  tags:
-    - resource
+  description: Developed LiDAR aided GNSS-RTK method based on the GNSS/IMU/LiDAR to provide highly accurate positioning results in the urban canyons.
+  # tags:
+  #   - resource
 
 - title: Factor Graph Optimization for GNSS Positioning 
   subtitle: Knowledge Transfer to Smart Devices
@@ -13,19 +13,19 @@
   image: images/project/huaweiFGO.png
   #link: https://github.com/
   description: Developed a framework, which uses the FGO to fuse both the pseudorange and Doppler measurements for positioning. 
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  # repo: greenelab/lab-website-template
+  # tags:
+  #   - resource
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
+- title: Advanced Smart Mobility Road-Side and Edge System
+  subtitle: Advanced Smart Mobility Road-Side and Edge System
+  image: images/project/roadside_itf.png
+  #link: https://github.com/
+  description: Develop an automatic map creation and update system that utilizes hybrid multi-round data collection and processing through the Advanced Smart Mobility Roadside and Edge System.
+  #repo: greenelab/lab-website-template
+  #tags:
+  # - resource
+   # - publication
 
 - title: Cool Web App
   subtitle: a subtitle
