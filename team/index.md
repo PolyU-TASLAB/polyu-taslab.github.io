@@ -14,7 +14,7 @@ nav:
 </div>
 
 #### Faculty (Principal Investigator)
-{% include list_students.html data="members" component="portrait_students" filters="role == 'pi'"  %}
+{% include list_pi.html data="members" component="portrait_pi" filters="role == 'pi'"  %}
 #### Postdoctoral Fellows
 {% include list_students.html data="members" component="portrait_students" filters="role == 'postdoc'" %}
 #### Ph.D. Students
