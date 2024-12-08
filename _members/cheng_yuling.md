@@ -1,7 +1,7 @@
 ---
 name: CHENG Yuling
 image: images/team/cheng_yuling.jpg
-role: Mphil
+role: ms
 affiliation: Hong Kong Polytechnic University
 order: 1
 
