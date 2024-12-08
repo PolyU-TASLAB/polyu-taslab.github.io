@@ -1,14 +1,13 @@
-- title: Cool Dataset
+- title: Huawei-PolyU High-accuracy Localization Project
   subtitle: a subtitle
   group: featured
   image: images/photo.jpg
   link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
   tags:
     - resource
 
-- title: Cool Package
+- title: Factor Graph Optimization for GNSS Positioning 
   subtitle: a subtitle
   group: featured
   image: images/photo.jpg
