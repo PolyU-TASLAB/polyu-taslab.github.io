@@ -14,7 +14,7 @@ links:
   profile: 
 
 display_1: Ph.D. Student, M.Sc.(HKUST), B.Eng.(SZU)
-display_2: Spring 2024 -- Present
+display_2: Spring 2021 -- Present
 
 ---
 
