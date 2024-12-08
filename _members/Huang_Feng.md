@@ -6,10 +6,10 @@ affiliation: Hong Kong Polytechnic University
 order: 11
 
 links:
-  home-page: https://weisongwen.github.io/
+  home-page: https://darrenwong.github.io/
   orcid: 0000-0002-3821-5993
-  google-scholar: https://scholar.google.com/citations?user=amFxKFcAAAAJ
-  github: https://github.com/DarrenWong
+  google-scholar: user=amFxKFcAAAAJ
+  github: DarrenWong
   email: darren-f.huang@connect.polyu.hk
   profile: 
 
