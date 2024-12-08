@@ -1,347 +1,347 @@
-# DO NOT EDIT, GENERATED AUTOMATICALLY
+# # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1109/TVT.2021.3069212
-  title: 3D Point Clouds Data Super Resolution-Aided LiDAR Odometry for Vehicular
-    Positioning in Urban Canyons
-  authors:
-  - Jiang Yue
-  - Weisong Wen
-  - Jin Han
-  - Li-Ta Hsu
-  publisher: IEEE Transactions on Vehicular Technology
-  date: '2021-05-01'
-  link: https://doi.org/g8tzct
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1002/navi.421
-  title: 'Factor graph optimization for GNSS/INS integration: A comparison with the
-    extended Kalman filter'
-  authors:
-  - Weisong Wen
-  - Tim Pfeifer
-  - Xiwei Bai
-  - "Li\u2010Ta Hsu"
-  publisher: NAVIGATION
-  date: '2021-05-22'
-  link: https://doi.org/gj5n6w
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/TITS.2019.2961128
-  title: GNSS NLOS Exclusion Based on Dynamic Object Detection Using LiDAR Point Cloud
-  authors:
-  - Weisong Weisong Wen
-  - Guohao Zhang
-  - Li-Ta Hsu
-  publisher: IEEE Transactions on Intelligent Transportation Systems
-  date: '2021-02-01'
-  link: https://doi.org/gprd59
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.33012/2020.17557
-  title: 3D LiDAR Aided GNSS and Its Tightly Coupled Integration with INS Via Factor
-    Graph Optimization
-  authors:
-  - Weisong Wen
-  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
-    of The Institute of Navigation
-  date: '2020-10-28'
-  link: https://doi.org/g8tzcv
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/TVT.2020.2981093
-  title: Extending Shadow Matching to Tightly-Coupled GNSS/INS Integration System
-  authors:
-  - Guohao Zhang
-  - Weisong Wen
-  - Bing Xu
-  - Li-Ta Hsu
-  publisher: IEEE Transactions on Vehicular Technology
-  date: '2020-05-01'
-  link: https://doi.org/ggq4dk
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/PLANS46316.2020.9110157
-  title: 'GNSS/LiDAR Integration Aided by Self-Adaptive Gaussian Mixture Models in
-    Urban Scenarios: An Approach Robust to Non-Gaussian Noise'
-  authors:
-  - Weisong Wen
-  - Xiwei Bai
-  - Li-Ta Hsu
-  - Tim Pfeifer
-  publisher: 2020 IEEE/ION Position, Location and Navigation Symposium (PLANS)
-  date: '2020-04-01'
-  link: https://doi.org/g8tzcw
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/ACCESS.2020.3006210
-  title: Multi-Agent Collaborative GNSS/Camera/INS Integration Aided by Inter-Ranging
-    for Vehicular Navigation in Urban Areas
-  authors:
-  - Weisong Wen
-  - Xiwei Bai
-  - Guohao Zhang
-  - Shengdong Chen
-  - Feng Yuan
-  - Li-Ta Hsu
-  publisher: IEEE Access
-  date: '2020-01-01'
-  link: https://doi.org/g8tzcx
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/PLANS46316.2020.9109962
-  title: New Integrated Navigation Scheme for the Level 4 Autonomous Vehicles in Dense
-    Urban Areas
-  authors:
-  - Li-Ta Hsu
-  - Weisong Wen
-  publisher: 2020 IEEE/ION Position, Location and Navigation Symposium (PLANS)
-  date: '2020-04-01'
-  link: https://doi.org/gpsz9f
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/MITS.2020.2994131
-  title: Object-Detection-Aided GNSS and Its Integration With Lidar in Highly Urbanized
-    Areas
-  authors:
-  - Weisong Wen
-  - Guohao Zhang
-  - Li-Ta Hsu
-  publisher: IEEE Intelligent Transportation Systems Magazine
-  date: '2020-01-01'
-  link: https://doi.org/gqqbhp
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/PLANS46316.2020.9109963
-  title: Perception-aided Visual-Inertial Integrated Positioning in Dynamic Urban
-    Areas
-  authors:
-  - Xiwei Bai
-  - Bo Zhang
-  - Weisong Wen
-  - Li-Ta Hsu
-  - Huiyun Li
-  publisher: 2020 IEEE/ION Position, Location and Navigation Symposium (PLANS)
-  date: '2020-04-01'
-  link: https://doi.org/gkzh9d
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.3390/rs12101686
-  title: Robust Visual-Inertial Integrated Navigation System Aided by Online Sensor
-    Model Adaption for Autonomous Ground Vehicles in Urban Areas
-  authors:
-  - Xiwei Bai
-  - Weisong Wen
-  - Li-Ta Hsu
-  publisher: Remote Sensing
-  date: '2020-05-25'
-  link: https://doi.org/ghrstp
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/ICRA40945.2020.9196526
-  title: 'UrbanLoco: A Full Sensor Suite Dataset for Mapping and Localization in Urban
-    Scenes'
-  authors:
-  - Weisong Wen
-  - Yiyang Zhou
-  - Guohao Zhang
-  - Saman Fahandezh-Saadi
-  - Xiwei Bai
-  - Wei Zhan
-  - Masayoshi Tomizuka
-  - Li-Ta Hsu
-  publisher: 2020 IEEE International Conference on Robotics and Automation (ICRA)
-  date: '2020-05-01'
-  link: https://doi.org/g8tzcz
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1049/iet-its.2019.0587
-  title: "Using Sky\u2010pointing fish\u2010eye camera and LiDAR to aid GNSS single\u2010\
-    point positioning in urban canyons"
-  authors:
-  - Xiwei Bai
-  - Weisong Wen
-  - "Li\u2010Ta Hsu"
-  publisher: IET Intelligent Transport Systems
-  date: '2020-05-29'
-  link: https://doi.org/g8tzc2
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/CIS.2019.00063
-  title: Combining Deep Gaussian Process and Rule-Based Method for Decision-Making
-    in Self-Driving Simulation with Small Data
-  authors:
-  - Wenqi Fang
-  - Huiyun Li
-  - Shaobo Dang
-  - Hui Huang
-  - Lei Peng
-  - Li-Ta Hsu
-  - Weisong Wen
-  publisher: 2019 15th International Conference on Computational Intelligence and
-    Security (CIS)
-  date: '2019-12-01'
-  link: https://doi.org/g8tzc3
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1002/navi.335
-  title: Correcting NLOS by 3D LiDAR and building height to improve GNSS single point
-    positioning
-  authors:
-  - Weisong Wen
-  - Guohao Zhang
-  - "Li\u2010Ta Hsu"
-  publisher: Navigation
-  date: '2019-12-01'
-  link: https://doi.org/g8tzc4
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.33012/2019.17129
-  title: Performance Comparison of GNSS/INS Integrations Based on EKF and Factor Graph
-    Optimization
-  authors:
-  - Weisong Wen
-  - Yin Chiu Kan
-  - Li-Ta Hsu
-  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
-    of The Institute of Navigation
-  date: '2019-10-11'
-  link: https://doi.org/ggtk8c
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.33012/2019.16845
-  title: Real-time GNSS NLOS Detection and Correction Aided by Sky-Pointing Camera
-    and 3D LiDAR
-  authors:
-  - Xiwei Bai
-  - Weisong Wen
-  - Guohao Zhang
-  - Li-Ta Hsu
-  publisher: ION Pacific PNT
-  date: '2019-05-01'
-  link: https://doi.org/g8tzc5
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1007/s10291-019-0872-9
-  title: Rectification of GNSS-based collaborative positioning using 3D building models
-    in urban areas
-  authors:
-  - Guohao Zhang
-  - Weisong Wen
-  - Li-Ta Hsu
-  publisher: GPS Solutions
-  date: '2019-06-06'
-  link: https://doi.org/g8tzc6
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/TVT.2019.2944680
-  title: Tightly Coupled GNSS/INS Integration via Factor Graph and Aided by Fish-Eye
-    Camera
-  authors:
-  - Weisong Wen
-  - Xiwei Bai
-  - Yin Chiu Kan
-  - Li-Ta Hsu
-  publisher: IEEE Transactions on Vehicular Technology
-  date: '2019-11-01'
-  link: https://doi.org/ggtk79
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1049/el.2018.8075
-  title: Uncertainty estimation of LiDAR matching aided by dynamic vehicle detection
-    and high definition map
-  authors:
-  - W. Wen
-  - X. Bai
-  - W. Zhan
-  - M. Tomizuka
-  - "L.\u2010T. Hsu"
-  publisher: Electronics Letters
-  date: '2019-03-01'
-  link: https://doi.org/ggtk78
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.3390/s18113928
-  title: Performance Analysis of NDT-based Graph SLAM for Autonomous Vehicle in Diverse
-    Typical Driving Scenarios of Hong Kong
-  authors:
-  - Weisong Wen
-  - Li-Ta Hsu
-  - Guohao Zhang
-  publisher: Sensors
-  date: '2018-11-14'
-  link: https://doi.org/ggrgr2
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/PLANS.2018.8373540
-  title: A novel GNSS based V2V cooperative localization to exclude multipath effect
-    using consistency checks
-  authors:
-  - Guohao Zhang
-  - Weisong Wen
-  - Li-Ta Hsu
-  publisher: 2018 IEEE/ION Position, Location and Navigation Symposium (PLANS)
-  date: '2018-04-01'
-  link: https://doi.org/g8tzc7
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.33012/2018.15830
-  title: Collaborative GNSS Positioning with the Aids of 3D City Models
-  authors:
-  - Guohao Zhang
-  - Weisong Wen
-  - Li-Ta Hsu
-  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
-    of The Institute of Navigation
-  date: '2018-10-26'
-  link: https://doi.org/g8tzc8
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.33012/2018.15984
-  title: Correcting GNSS NLOS by 3D LiDAR and Building Height
-  authors:
-  - Weisong Wen
-  - Guohao Zhang
-  - Li-Ta Hsu
-  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
-    of The Institute of Navigation
-  date: '2018-10-26'
-  link: https://doi.org/g54dhj
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/PLANS.2018.8373377
-  title: 'Exclusion of GNSS NLOS receptions caused by dynamic objects in heavy traffic
-    urban scenarios using real-time 3D point cloud: An approach without 3D maps'
-  authors:
-  - Weisong Wen
-  - Guohao Zhang
-  - Li-Ta Hsu
-  publisher: 2018 IEEE/ION Position, Location and Navigation Symposium (PLANS)
-  date: '2018-04-01'
-  link: https://doi.org/g8tzc9
-  orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+# - id: doi:10.1109/TVT.2021.3069212
+#   title: 3D Point Clouds Data Super Resolution-Aided LiDAR Odometry for Vehicular
+#     Positioning in Urban Canyons
+#   authors:
+#   - Jiang Yue
+#   - Weisong Wen
+#   - Jin Han
+#   - Li-Ta Hsu
+#   publisher: IEEE Transactions on Vehicular Technology
+#   date: '2021-05-01'
+#   link: https://doi.org/g8tzct
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1002/navi.421
+#   title: 'Factor graph optimization for GNSS/INS integration: A comparison with the
+#     extended Kalman filter'
+#   authors:
+#   - Weisong Wen
+#   - Tim Pfeifer
+#   - Xiwei Bai
+#   - "Li\u2010Ta Hsu"
+#   publisher: NAVIGATION
+#   date: '2021-05-22'
+#   link: https://doi.org/gj5n6w
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1109/TITS.2019.2961128
+#   title: GNSS NLOS Exclusion Based on Dynamic Object Detection Using LiDAR Point Cloud
+#   authors:
+#   - Weisong Weisong Wen
+#   - Guohao Zhang
+#   - Li-Ta Hsu
+#   publisher: IEEE Transactions on Intelligent Transportation Systems
+#   date: '2021-02-01'
+#   link: https://doi.org/gprd59
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.33012/2020.17557
+#   title: 3D LiDAR Aided GNSS and Its Tightly Coupled Integration with INS Via Factor
+#     Graph Optimization
+#   authors:
+#   - Weisong Wen
+#   publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+#     of The Institute of Navigation
+#   date: '2020-10-28'
+#   link: https://doi.org/g8tzcv
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1109/TVT.2020.2981093
+#   title: Extending Shadow Matching to Tightly-Coupled GNSS/INS Integration System
+#   authors:
+#   - Guohao Zhang
+#   - Weisong Wen
+#   - Bing Xu
+#   - Li-Ta Hsu
+#   publisher: IEEE Transactions on Vehicular Technology
+#   date: '2020-05-01'
+#   link: https://doi.org/ggq4dk
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1109/PLANS46316.2020.9110157
+#   title: 'GNSS/LiDAR Integration Aided by Self-Adaptive Gaussian Mixture Models in
+#     Urban Scenarios: An Approach Robust to Non-Gaussian Noise'
+#   authors:
+#   - Weisong Wen
+#   - Xiwei Bai
+#   - Li-Ta Hsu
+#   - Tim Pfeifer
+#   publisher: 2020 IEEE/ION Position, Location and Navigation Symposium (PLANS)
+#   date: '2020-04-01'
+#   link: https://doi.org/g8tzcw
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1109/ACCESS.2020.3006210
+#   title: Multi-Agent Collaborative GNSS/Camera/INS Integration Aided by Inter-Ranging
+#     for Vehicular Navigation in Urban Areas
+#   authors:
+#   - Weisong Wen
+#   - Xiwei Bai
+#   - Guohao Zhang
+#   - Shengdong Chen
+#   - Feng Yuan
+#   - Li-Ta Hsu
+#   publisher: IEEE Access
+#   date: '2020-01-01'
+#   link: https://doi.org/g8tzcx
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1109/PLANS46316.2020.9109962
+#   title: New Integrated Navigation Scheme for the Level 4 Autonomous Vehicles in Dense
+#     Urban Areas
+#   authors:
+#   - Li-Ta Hsu
+#   - Weisong Wen
+#   publisher: 2020 IEEE/ION Position, Location and Navigation Symposium (PLANS)
+#   date: '2020-04-01'
+#   link: https://doi.org/gpsz9f
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1109/MITS.2020.2994131
+#   title: Object-Detection-Aided GNSS and Its Integration With Lidar in Highly Urbanized
+#     Areas
+#   authors:
+#   - Weisong Wen
+#   - Guohao Zhang
+#   - Li-Ta Hsu
+#   publisher: IEEE Intelligent Transportation Systems Magazine
+#   date: '2020-01-01'
+#   link: https://doi.org/gqqbhp
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1109/PLANS46316.2020.9109963
+#   title: Perception-aided Visual-Inertial Integrated Positioning in Dynamic Urban
+#     Areas
+#   authors:
+#   - Xiwei Bai
+#   - Bo Zhang
+#   - Weisong Wen
+#   - Li-Ta Hsu
+#   - Huiyun Li
+#   publisher: 2020 IEEE/ION Position, Location and Navigation Symposium (PLANS)
+#   date: '2020-04-01'
+#   link: https://doi.org/gkzh9d
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.3390/rs12101686
+#   title: Robust Visual-Inertial Integrated Navigation System Aided by Online Sensor
+#     Model Adaption for Autonomous Ground Vehicles in Urban Areas
+#   authors:
+#   - Xiwei Bai
+#   - Weisong Wen
+#   - Li-Ta Hsu
+#   publisher: Remote Sensing
+#   date: '2020-05-25'
+#   link: https://doi.org/ghrstp
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1109/ICRA40945.2020.9196526
+#   title: 'UrbanLoco: A Full Sensor Suite Dataset for Mapping and Localization in Urban
+#     Scenes'
+#   authors:
+#   - Weisong Wen
+#   - Yiyang Zhou
+#   - Guohao Zhang
+#   - Saman Fahandezh-Saadi
+#   - Xiwei Bai
+#   - Wei Zhan
+#   - Masayoshi Tomizuka
+#   - Li-Ta Hsu
+#   publisher: 2020 IEEE International Conference on Robotics and Automation (ICRA)
+#   date: '2020-05-01'
+#   link: https://doi.org/g8tzcz
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1049/iet-its.2019.0587
+#   title: "Using Sky\u2010pointing fish\u2010eye camera and LiDAR to aid GNSS single\u2010\
+#     point positioning in urban canyons"
+#   authors:
+#   - Xiwei Bai
+#   - Weisong Wen
+#   - "Li\u2010Ta Hsu"
+#   publisher: IET Intelligent Transport Systems
+#   date: '2020-05-29'
+#   link: https://doi.org/g8tzc2
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1109/CIS.2019.00063
+#   title: Combining Deep Gaussian Process and Rule-Based Method for Decision-Making
+#     in Self-Driving Simulation with Small Data
+#   authors:
+#   - Wenqi Fang
+#   - Huiyun Li
+#   - Shaobo Dang
+#   - Hui Huang
+#   - Lei Peng
+#   - Li-Ta Hsu
+#   - Weisong Wen
+#   publisher: 2019 15th International Conference on Computational Intelligence and
+#     Security (CIS)
+#   date: '2019-12-01'
+#   link: https://doi.org/g8tzc3
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1002/navi.335
+#   title: Correcting NLOS by 3D LiDAR and building height to improve GNSS single point
+#     positioning
+#   authors:
+#   - Weisong Wen
+#   - Guohao Zhang
+#   - "Li\u2010Ta Hsu"
+#   publisher: Navigation
+#   date: '2019-12-01'
+#   link: https://doi.org/g8tzc4
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.33012/2019.17129
+#   title: Performance Comparison of GNSS/INS Integrations Based on EKF and Factor Graph
+#     Optimization
+#   authors:
+#   - Weisong Wen
+#   - Yin Chiu Kan
+#   - Li-Ta Hsu
+#   publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+#     of The Institute of Navigation
+#   date: '2019-10-11'
+#   link: https://doi.org/ggtk8c
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.33012/2019.16845
+#   title: Real-time GNSS NLOS Detection and Correction Aided by Sky-Pointing Camera
+#     and 3D LiDAR
+#   authors:
+#   - Xiwei Bai
+#   - Weisong Wen
+#   - Guohao Zhang
+#   - Li-Ta Hsu
+#   publisher: ION Pacific PNT
+#   date: '2019-05-01'
+#   link: https://doi.org/g8tzc5
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1007/s10291-019-0872-9
+#   title: Rectification of GNSS-based collaborative positioning using 3D building models
+#     in urban areas
+#   authors:
+#   - Guohao Zhang
+#   - Weisong Wen
+#   - Li-Ta Hsu
+#   publisher: GPS Solutions
+#   date: '2019-06-06'
+#   link: https://doi.org/g8tzc6
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1109/TVT.2019.2944680
+#   title: Tightly Coupled GNSS/INS Integration via Factor Graph and Aided by Fish-Eye
+#     Camera
+#   authors:
+#   - Weisong Wen
+#   - Xiwei Bai
+#   - Yin Chiu Kan
+#   - Li-Ta Hsu
+#   publisher: IEEE Transactions on Vehicular Technology
+#   date: '2019-11-01'
+#   link: https://doi.org/ggtk79
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1049/el.2018.8075
+#   title: Uncertainty estimation of LiDAR matching aided by dynamic vehicle detection
+#     and high definition map
+#   authors:
+#   - W. Wen
+#   - X. Bai
+#   - W. Zhan
+#   - M. Tomizuka
+#   - "L.\u2010T. Hsu"
+#   publisher: Electronics Letters
+#   date: '2019-03-01'
+#   link: https://doi.org/ggtk78
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.3390/s18113928
+#   title: Performance Analysis of NDT-based Graph SLAM for Autonomous Vehicle in Diverse
+#     Typical Driving Scenarios of Hong Kong
+#   authors:
+#   - Weisong Wen
+#   - Li-Ta Hsu
+#   - Guohao Zhang
+#   publisher: Sensors
+#   date: '2018-11-14'
+#   link: https://doi.org/ggrgr2
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1109/PLANS.2018.8373540
+#   title: A novel GNSS based V2V cooperative localization to exclude multipath effect
+#     using consistency checks
+#   authors:
+#   - Guohao Zhang
+#   - Weisong Wen
+#   - Li-Ta Hsu
+#   publisher: 2018 IEEE/ION Position, Location and Navigation Symposium (PLANS)
+#   date: '2018-04-01'
+#   link: https://doi.org/g8tzc7
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.33012/2018.15830
+#   title: Collaborative GNSS Positioning with the Aids of 3D City Models
+#   authors:
+#   - Guohao Zhang
+#   - Weisong Wen
+#   - Li-Ta Hsu
+#   publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+#     of The Institute of Navigation
+#   date: '2018-10-26'
+#   link: https://doi.org/g8tzc8
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.33012/2018.15984
+#   title: Correcting GNSS NLOS by 3D LiDAR and Building Height
+#   authors:
+#   - Weisong Wen
+#   - Guohao Zhang
+#   - Li-Ta Hsu
+#   publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+#     of The Institute of Navigation
+#   date: '2018-10-26'
+#   link: https://doi.org/g54dhj
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
+# - id: doi:10.1109/PLANS.2018.8373377
+#   title: 'Exclusion of GNSS NLOS receptions caused by dynamic objects in heavy traffic
+#     urban scenarios using real-time 3D point cloud: An approach without 3D maps'
+#   authors:
+#   - Weisong Wen
+#   - Guohao Zhang
+#   - Li-Ta Hsu
+#   publisher: 2018 IEEE/ION Position, Location and Navigation Symposium (PLANS)
+#   date: '2018-04-01'
+#   link: https://doi.org/g8tzc9
+#   orcid: 0000-0003-4158-0913
+#   plugin: orcid.py
+#   file: orcid.yaml
