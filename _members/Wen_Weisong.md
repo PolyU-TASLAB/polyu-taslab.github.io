@@ -14,7 +14,8 @@ links:
   profile: 
 
 display_1: Assistant Professor, Ph.D.(PolyU), M.Eng.(CAU), B.Eng. (BISTU)
-display_2: MIEEE, MION
+display_2: Spring 2024 -- Present
+
 ---
 
 <!--  Add a short self introduction here -->
