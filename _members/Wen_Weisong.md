@@ -4,7 +4,7 @@ image: images/team/weisong.png
 role: pi
 affiliation: Hong Kong Polytechnic University
 aliases:
-  - 
+
 links:
   home-page: https://weisongwen.github.io/
   orcid: 0000-0003-4158-0913
