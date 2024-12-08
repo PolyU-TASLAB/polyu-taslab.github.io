@@ -18,8 +18,9 @@
   #   - resource
 
 - title: Advanced Smart Mobility Road-Side and Edge System
-  subtitle: Advanced Smart Mobility Road-Side and Edge System
+  subtitle: Innovation and Technology Fund with ASTRI
   image: images/project/roadside_itf.png
+  group: featured
   #link: https://github.com/
   description: Develop an automatic map creation and update system that utilizes hybrid multi-round data collection and processing through the Advanced Smart Mobility Roadside and Edge System.
   #repo: greenelab/lab-website-template
