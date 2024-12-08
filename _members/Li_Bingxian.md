@@ -3,7 +3,7 @@ name: Li Bingxian
 image: images/team/liu_bingxian.jpg
 role: phd
 affiliation: Hong Kong Polytechnic University
-order: 
+order: 7
 
 links:
   home-page: 
