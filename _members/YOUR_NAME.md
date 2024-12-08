@@ -1,18 +1,17 @@
 ---
-name: Tim Member
-image: images/team/YOUR_NAME.jpg
-role: phd  # pi / phd / ms / under / postdoc
-description: Senior Programmer 
-aliases:
-  - T Member
-  - T. Member
-  - Timothy Member
+name: YOUR_NAME
+image: teams/weisong.jpg
+role: ms
+affiliation: POLYU
+order: 118
+# aliases:
+#   - Y. Xia
+#   - Y Xia
 links:
-  home-page: https://tims-website.com/
-  email: tim-member@email.com
-  twitter: tims_twitter
+  # people-homepage: https://jyao97.github.io/
+  # people-email: jyao073@ucr.edu
+  # people-gs: https://scholar.google.com/citations?user=P6I5HF8AAAAJ
+  # people-office: 344 Winston Chung Hall (WCH)
+display_1: 'M.S. Student in Robotics'
+display_2: 'Fall 2024 -- Present'
 ---
-
-A bio for Tim, written in Markdown.
-A descriptions of his academic studies, his recent accomplishments, his goals for the future, his likes/dislikes, etc.
-One or two paragraphs is probably best.
