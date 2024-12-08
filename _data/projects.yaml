@@ -1,7 +1,7 @@
 - title: Huawei-PolyU High-accuracy Localization Project
   subtitle: Knowledge Transfer to Unmanned Autonomous Systems
   group: featured
-  image: images/project/huaweiMappingPhase2.png
+  image: images/project/huawei_mapping.gif
   #link: https://github.com/
   description: Developed LiDAR aided GNSS-RTK method based on the GNSS/IMU/LiDAR to provide highly accurate positioning results in the urban canyons.
   # tags:
