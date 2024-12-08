@@ -183,10 +183,29 @@ def cite_with_manubot(_id):
         raise Exception("Manubot could not generate citation")
 
     # parse results as json
+    # try:
+    #     manubot = json.loads(output[0])[0]
+    # except Exception:
+    #     raise Exception("Couldn't parse Manubot response")
     try:
-        manubot = json.loads(output[0])[0]
-    except Exception:
-        raise Exception("Couldn't parse Manubot response")
+        # Ensure output[0] is a string
+        if not isinstance(output[0], (str, bytes, bytearray)):
+            raise TypeError(
+                f'Expected str, bytes, or bytearray but got {type(output[0]).__name__}')
+
+        # Remove BOM if present
+        json_string = output[0]
+        if isinstance(json_string, str) and json_string.startswith('\ufeff'):
+            json_string = json_string.lstrip('\ufeff')
+
+        # Parse JSON
+        manubot = json.loads(json_string)[0]
+    except json.JSONDecodeError as e:
+        print(f"JSON decode error: {e}")
+    except TypeError as e:
+        print(f"Type error: {e}")
+    except Exception as e:
+        print(f"Unexpected error: {e}")
 
     # new citation with only needed info
     citation = {}

@@ -7,10 +7,10 @@ order: 10
 # aliases:
 #   - 
 links:
-  # people-homepage: https://jyao97.github.io/
-  # people-email: jyao073@ucr.edu
-  # people-gs: https://scholar.google.com/citations?user=P6I5HF8AAAAJ
-  # people-office: 344 Winston Chung Hall (WCH)
+  home-page: https://printeger.github.io/
+  orcid: 0009-0008-2773-3702
+  email: 23131693r@connect.polyu.hk
+  google-scholar: 
 display_1: Ph.D. Student, M.Eng.(HEU), B.Eng.(NUAA)
 display_2: 'Spring 2024 -- Present'
 ---
