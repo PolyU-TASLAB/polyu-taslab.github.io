@@ -7,7 +7,7 @@ affiliation: Hong Kong Polytechnic University
 links:
   home-page: https://weisongwen.github.io/
   orcid: 0000-0003-4158-0913
-  gs: https://scholar.google.com/citations?user=N-AFqt8AAAAJ&hl=en
+  github: https://scholar.google.com/citations?user=N-AFqt8AAAAJ&hl=en
   email: welson.wen@polyu.edu.hk
   profile: 
 
