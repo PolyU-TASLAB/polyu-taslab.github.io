@@ -1,11 +1,11 @@
 ---
-title: Research
+title: News
 nav:
-  order: 4
-  tooltip: Published works
+  order: 1
+  tooltip: Recent News
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-light fa-newspaper" %}News
 
 <!-- TODO: Add content here. -->
 

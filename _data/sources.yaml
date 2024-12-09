@@ -359,6 +359,32 @@
     - 3DMA GNSS
   repo: 
 
+- id: 10.5194/isprs-archives-XLVIII-4-2024-607-2024
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Bai2024InvariantEKF.gif
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Bai2024InvariantEKF.pdf
+    - type:
+      text: 
+      link: 
+    - type: 
+      text: 
+      link:
+    - type: 
+      link: 
+  tags:
+    - Invariant Extended Kalman Filtering
+    - Deep learning
+    - Inertial odometry
+    - State estimation
+    - Pedestrian localization
+    - Low-cost
+  repo: 
+
 - id: doi:10.1109/TIV.2023.3339144
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
