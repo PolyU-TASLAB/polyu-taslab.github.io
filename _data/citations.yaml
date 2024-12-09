@@ -359,15 +359,15 @@
   date: '2024-01-01'
   link: https://doi.org/g8t4vb
   type: paper
-  image: null
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/enchancing_smartphone.png
   buttons:
   - type: manubot
     text: paper
-    link: null
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Enhancing%20Smartphone-based%20PedestrianPositioning%20Using%20Factor%20GraphOptimization%20with%20Indoor%20OutdoorDetection%20for%203DMA%20GNSS%20Visual-inertialState%20Estimation.pdf
   - type: source
     text: code
     link: null
-  - type: video
+  - type: data
     text: video
     link: null
   - type: website
