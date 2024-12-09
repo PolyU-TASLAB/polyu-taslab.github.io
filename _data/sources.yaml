@@ -1038,5 +1038,277 @@
     - Urban canyon
   repo: 
 
+#q update
+- id: doi:10.1109/ITSC55140.2022.9921906
+  type: paper
+  # description: GNSS Outliers Mitigation in Urban Areas Using Sparse Estimation Based on Factor Graph Optimization
+  # date: 2022-11-1
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Gnss_outliers_mitigation.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/EGNSS_Outliers_Mitigation_in_Urban_Areas_Using_Sparse_Estimation_Based_on_Factor_Graph_Optimization.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - Global navigation satellite system
+    - Urban areas
+    - Redundancy
+    - Receivers
+    - Position measurement
+    - Reflection
+    - Frequency estimation
+  repo: 
+
+- id: doi:10.1109/ITSC55140.2022.9921814
+  type: paper
+  # description: GNSS Outliers Mitigation in Urban Areas Using Sparse Estimation Based on Factor Graph Optimization
+  # date: 2022-11-1
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Lidar_aided_cycle.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Lidar_aided_cycle.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - Navigation
+    - GNSS-RTK
+    - LiDAR
+    - Cycle Slip
+    - Urban Canyons
+  repo: 
+#
+- id: doi:10.33012/2022.18545
+  type: paper
+  # description: GNSS Outliers Mitigation in Urban Areas Using Sparse Estimation Based on Factor Graph Optimization
+  # date: 2022-11-1
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/xxx.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/xxx.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - 
+  repo: 
+
+#
+- id: doi:10.33012/2022.18337
+  type: paper
+  # description: GNSS Outliers Mitigation in Urban Areas Using Sparse Estimation Based on Factor Graph Optimization
+  # date: 2022-11-1
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/xxx.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/xxx.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - 
+  repo: 
+#
+- id: doi:10.33012/2022.18382
+  type: paper
+  # description: Real-time Factor Graph Optimization Aided by Graduated Non-convexity Based Outlier Mitigation for Smartphone Decimeter Challenge
+  # date: 2022-11-1
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/xxx.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/xxx.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - 
+  repo: 
 
 
+- id: 10.33012/navi.527
+  type: paper
+  # description: AGPC-SLAM: Absolute ground plane constrained 3D LiDAR SLAM
+  # date: 2022-11-1
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/AGPC-SLAM.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/AGPC-SLAM.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - dynamic object
+    - ground plane constraint
+    - lidar SLAM
+    - urban canyons
+  repo: 
+
+- id: doi:10.1109/LRA.2022.3201694
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Tightly_Coupled_Integration.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Tightly_Coupled_Integration.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - GNSS
+    - INS
+    - localization
+    - sensor fusion
+  repo: 
+
+- id: doi:10.1109/LRA.2022.3201694
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/GNSS-RTK_Adaptively_Integrated.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/GNSS-RTK_Adaptively_Integrated.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - adaptive GNSS-RTK/LIO fusion
+    - GNSS-RTK selection
+    - globally urban positioning
+    - factor
+    - graph optimization
+  repo: 
+
+- id: doi:10.1109/TITS.2022.3167710
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/3D_LiDAR_Aided_GNSS_NLOS_Mitigation_in_Urban_Canyons.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/3D_LiDAR_Aided_GNSS_NLOS_Mitigation_in_Urban_Canyons.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - GNSS
+    - 3D LiDAR
+    - GNSS NLOS detection
+    - NLOS correction and remodeling
+    - automobile-level GNSS
+    - receiver
+    - urban canyons
+  repo: 
+
+- id: doi:10.1109/MITS.2021.3092731
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Point_Wise_or_Feature_Wise.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Point_Wise_or_Feature_Wise.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - Feature extraction
+    - Point cloud compression
+    - Real-time systems
+    - Laser radar
+    - Three-dimensional displays
+    - Heuristic algorithms
+    - Global navigation satellite system
+    - Autonomous systems
+  repo: 
+
+- id: doi:10.1109/TVT.2021.3130909
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/GNSS_6297.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/GNSS_6297.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - GNSS
+    - NLOS
+    - navigation
+    - factor graph
+    - optimization
+    - graduated non-convexity
+    - adaptive tunning,
+    - non-convex Geman McClure
+    - urban canyons
+  repo: 
