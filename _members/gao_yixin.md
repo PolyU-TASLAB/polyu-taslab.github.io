@@ -3,7 +3,7 @@ name: GAO Yixin
 image: images/team/yixin.jpg
 role: phd  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
-order: 6
+order: 7
 
 links:
   home-page: 
