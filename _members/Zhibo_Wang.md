@@ -1,6 +1,6 @@
 ---
 name: Wang Zhibo
-image: images/team/wang_zhibo.png
+image: images/team/wang_zhibo.jpg
 role: ms  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
 order: 101
