@@ -3,7 +3,7 @@ name: QIN Qijun
 image: images/team/qijun.jpg
 role: under # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
-order: 1
+order: 2
 
 links:
   github: https://github.com/QuintinUmi
