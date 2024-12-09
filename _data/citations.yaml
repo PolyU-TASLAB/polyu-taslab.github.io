@@ -1259,11 +1259,11 @@
   date: '2024-10-21'
   link: https://doi.org/g8t5nb
   type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/ECMD.gif
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Bai2024InvariantEKF.gif
   buttons:
   - type: manubot
     text: paper
-    link: C:\Users\darren\Documents\GitHub\polyu-taslab.github.io\research\papers\Bai2024InvariantEKF.pdf
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Bai2024InvariantEKF.pdf
   - type: null
     text: null
     link: null
@@ -1296,7 +1296,7 @@
   date: '2024-01-01'
   link: https://doi.org/g8t488
   type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Bai2024InvariantEKF.png
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/ECMD.gif
   buttons:
   - type: manubot
     text: paper
