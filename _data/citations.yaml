@@ -1467,7 +1467,7 @@
   date: '2024-01-01'
   link: https://doi.org/g8t54n
   type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Xuruijie2024CKF.png
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/Xuruijie2024CKF.png
   buttons:
   - type: manubot
     text: paper
@@ -1501,7 +1501,7 @@
   date: '2024-01-01'
   link: https://doi.org/g8t54p
   type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Yang2024Subspace.png
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/Yang2024Subspace.png
   buttons:
   - type: manubot
     text: paper
@@ -1535,7 +1535,7 @@
   date: '2024-12-01'
   link: https://doi.org/g8t54q
   type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Bai2024FGOPedestrian.png
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/Bai2024FGOPedestrian.png
   buttons:
   - type: manubot
     text: paper
@@ -1565,7 +1565,7 @@
   date: '2024-01-01'
   link: https://doi.org/g8t54r
   type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/zhengxi2024.png
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/zhengxi2024.png
   buttons:
   - type: manubot
     text: paper
