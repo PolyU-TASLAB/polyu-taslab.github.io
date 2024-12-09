@@ -52,13 +52,11 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Wen_Factor_graph_for
-    GNSS.png
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Wen_Factor_graph_for_GNSS.png
   buttons:
   - type: manubot
     text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Wen_Factor_graph_for
-      GNSS.pdf
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Wen_Factor_graph_for_GNSS.pdf
   - type: source
     text: code
     link: null
