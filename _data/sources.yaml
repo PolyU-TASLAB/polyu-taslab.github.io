@@ -359,15 +359,15 @@
     - 3DMA GNSS
   repo: 
 
-- id: 10.5194/isprs-archives-XLVIII-4-2024-607-2024
+- id: doi:10.5194/isprs-archives-XLVIII-4-2024-607-2024
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Bai2024InvariantEKF.gif
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/Bai2024InvariantEKF.png
   buttons:
     - type: manubot
       text: paper
-      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Bai2024InvariantEKF.pdf
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/Bai2024InvariantEKF.pdf
     - type:
       text: 
       link: 
@@ -384,6 +384,104 @@
     - Pedestrian localization
     - Low-cost
   repo: 
+
+- id: doi:10.1109/TIM.2024.3470043
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/Bai2024ReviewPedestrian.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/BaiShiyu2024Toward_Persistent_Spatial_Awareness_A_Review_of_Pedestrian_Dead_Reckoning-Centric_Indoor_Positioning_With_Smartphones.pdf
+    - type:
+      text: 
+      link: 
+    - type: 
+      text: 
+      link:
+    - type: 
+      link: 
+  tags:
+    - Indoor positioning
+    - Infrastructure-dependent
+    - Infrastructure-free
+    - Pedestrian dead reckoning (PDR)
+    - Smartphones
+  repo: 
+
+
+- id: doi:10.1109/TIV.2024.3467115
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/Zhang2024SafetyQuantifiable.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/Zhang2024SafetyQuantifiable.pdf
+    - type:
+      text: 
+      link: 
+    - type: 
+      text: 
+      link:
+    - type: 
+      link: 
+  tags:
+    - 3D LiDAR
+    - Non-convexity
+    - Planar features
+    - Safety-quantifiable Localization
+    - Urban canyons
+  repo: 
+
+- id: doi:10.33012/2024.19908
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/ivan2024GNSS.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/Ivan2024GNSS24-0239.pdf
+    - type:
+      text: 
+      link: 
+    - type: 
+      text: 
+      link:
+    - type: 
+      link: 
+  tags:
+    - Time-Differenced Carrier Phase
+    - Differentiable Factor Graph Optimization
+  repo: 
+
+- id: doi:10.33012/2024.19805
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/runzhi2024pyrtklib.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/runzhihu2024pyrtklib2409.12996v1.pdf
+    - type:
+      text: 
+      link: 
+    - type: 
+      text: 
+      link:
+    - type: 
+      link: 
+  tags:
+    - Artificial intelligence
+    - Deep learning 
+    - GNSS
+    - RTKLIB
+  repo: 
+
 
 - id: doi:10.1109/TIV.2023.3339144
   type: paper
