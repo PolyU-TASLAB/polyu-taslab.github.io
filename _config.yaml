@@ -34,6 +34,11 @@ defaults:
       type: "posts"
     values:
       layout: post
+  # markdown files in /_projects_info
+  - scope:
+      type: "projects_info"
+    values:
+      layout: post
 
 collections:
   # generate page for each member
@@ -41,6 +46,9 @@ collections:
     output: true
   # generate page for each post
   posts:
+    output: true
+  # generate page for each project
+  projects_info:
     output: true
 
 # jekyll plugins
