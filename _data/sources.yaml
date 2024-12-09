@@ -25,6 +25,291 @@
     - 3DMA GNSS
   repo: 
 
+- id: doi:10.1109/TIM.2021.3126010
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Degeneration-aware.gif
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Degeneration-Aware_Outlier_Mitigation_for_Visual_Inertial_Integrated_Navigation_System_in_Urban_Canyons.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - GNC
+    - navigation
+    - optimizaiton method
+    - outlier measurement
+    - urban canyons
+    - VINS
+    - Visual odometry
+  repo: 
+
+- id: doi:10.33012/2021.18089
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Zhang_Continuous_Gnss-Rtk_Aided.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Zhang_Continuous_Gnss-Rtk_Aided.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - GNSS-RTK
+    - GNSS
+    - NLOS
+    - urban canyons
+    - LIO
+  repo:
+  
+- id: doi:10.33012/2021.17994
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Ng_3D_Mapping_Aided.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Ng_3D_Mapping_Aided.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - GNSS
+    - Mapping
+    - NLOS
+    - Gauss-Newton
+    - 3DMA
+  repo:
+  
+- id: doi:10.33012/2021.18072
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Wen_3D_Lidar_Aided.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Wen_3D_Lidar_Aided.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - GNSS
+    - GNSS-RTK
+    - Localization
+    - NLOS
+    - FGO
+    - PCM
+  repo:
+  
+  # need to check 
+  # UrbanNav
+- id: doi:10.33012/2021.17895
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/UrbanNav.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/UrbanNav.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - UrbanNav
+    - Dataset
+  repo:
+  
+- id: doi:10.33012/2021.18083
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Huang_Coarse-To-Fine_Lidar-Based_Slam.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Huang_Coarse-To-Fine_Lidar-Based_Slam.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - SLAM
+    - Lidar
+    - Localization
+    - DNN
+    - Dynamic object removal
+  repo:
+  
+- id: doi:10.33012/2021.18157
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Wen_Integrity_Monitoring_Gnss.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Wen_Integrity_Monitoring_Gnss.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - GNSS
+    - FGO
+    - Failure detection and exclusion
+    - urban canyon
+  repo:
+
+- id: doi:10.1002/navi.421
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Wen_Factor_graph_for GNSS.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Wen_Factor_graph_for GNSS.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - GNSS
+    - extended Kalman filter
+    - Failure detection and exclusion
+    - urban canyon
+    - FGO
+    - INS
+    - integration
+    - navigation
+    - positioning
+    - window size
+  repo:
+  
+- id: doi:10.3390/rs13122371
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/remotesensing-13-02371-v2-1.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/remotesensing-13-02371-v2-1.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - LiDAR-inertial odometry
+    - loosely-coupled integration
+    - adaptive covariance estimation
+    - urban canyons
+    - mapping
+    - Autonomous system
+  repo:
+
+- id: doi:10.1109/ICRA48506.2021.9562037
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/wen3-p7-wen-large.gif
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Towards_Robust_GNSS_Positioning_and_Real-time_Kinematic_Using_Factor_Graph_Optimization.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - GNSS
+    - GNSS-RTK
+    - Localization
+    - urban canyons
+    - mapping
+    - Autonomous vehicle
+    - FGO 
+  repo:
+
+- id: doi:10.1109/TVT.2021.3069212
+  type: paper
+  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+  # date: 2020-12-4
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/wen5-3069212-large.gif
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/3D_Point_Clouds_Data_Super_Resolution-Aided_LiDAR_Odometry_for_Vehicular_Positioning_in_Urban_Canyons.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - LiDAR
+    - NDT
+    - sparse point clouds
+    - superresolution
+    - convolutional neural network
+    - LiDAR odometry
+    - vehicular positioning
+  repo:
 - id: doi:10.33012/2020.17557
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
