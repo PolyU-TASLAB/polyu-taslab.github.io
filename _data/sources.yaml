@@ -363,11 +363,11 @@
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/ECMD.gif
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Bai2024InvariantEKF.gif
   buttons:
     - type: manubot
       text: paper
-      link: C:\Users\darren\Documents\GitHub\polyu-taslab.github.io\research\papers\Bai2024InvariantEKF.pdf
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Bai2024InvariantEKF.pdf
     - type:
       text: 
       link: 
@@ -389,7 +389,7 @@
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Bai2024InvariantEKF.png
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/ECMD.gif
   buttons:
     - type: manubot
       text: paper
