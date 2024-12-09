@@ -1,7 +1,7 @@
 ---
 name: Guan Li
 image: images/team/guan_li.jpg
-role: ms  # pi / postdoc / phd / ms / under / ra / visiting
+role: ra  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
 order: 7
 
