@@ -80,7 +80,7 @@ Together, we are committed to developing autonomous systems that inspire confide
 
 {%
   include feature.html
-  image="images/team/team.jpg"
+  image="images/team/team.png"
   link="team"
   title="Our Team"
   text=text
