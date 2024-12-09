@@ -1428,3 +1428,340 @@
   repo: null
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1109/ITSC55140.2022.9921906
+  title: GNSS Outliers Mitigation in Urban Areas Using Sparse Estimation Based on
+    Factor Graph Optimization
+  authors:
+  - Xiwei Bai
+  - Weisong Wen
+  - Guohao Zhang
+  - Hoi-Fung Ng
+  - Li-Ta Hsu
+  publisher: 2022 IEEE 25th International Conference on Intelligent Transportation
+    Systems (ITSC)
+  date: '2022-10-08'
+  link: https://doi.org/g7kbfv
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Gnss_outliers_mitigation.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/EGNSS_Outliers_Mitigation_in_Urban_Areas_Using_Sparse_Estimation_Based_on_Factor_Graph_Optimization.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - Global navigation satellite system
+  - Urban areas
+  - Redundancy
+  - Receivers
+  - Position measurement
+  - Reflection
+  - Frequency estimation
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ITSC55140.2022.9921814
+  title: LiDAR Aided Cycle Slip Detection for GNSS Real-Time Kinematic Positioning
+    in Urban Environments
+  authors:
+  - Feng Huang
+  - Weisong Wen
+  - Hoi-Fung Ng
+  - Li-Ta Hsu
+  publisher: 2022 IEEE 25th International Conference on Intelligent Transportation
+    Systems (ITSC)
+  date: '2022-10-08'
+  link: https://doi.org/g8t5rx
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Lidar_aided_cycle.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Lidar_aided_cycle.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - Navigation
+  - GNSS-RTK
+  - LiDAR
+  - Cycle Slip
+  - Urban Canyons
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.33012/2022.18545
+  title: 3D LiDAR Aided GNSS Real-time Kinematic Positioning via Coarse-to-fine Batch
+    Optimization for High Accuracy Mapping in Dense Urban Canyons
+  authors:
+  - Xikun Liu
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2022-10-20'
+  link: https://doi.org/g8t5rz
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/xxx.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/xxx.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - null
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.33012/2022.18337
+  title: 'Factor Graph Optimization for Tightly-Coupled GNSS Pseudorange/Doppler/Carrier
+    Phase/INS Integration: Performance in Urban Canyons of Hong Kong'
+  authors:
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2022-10-20'
+  link: https://doi.org/g8t5r2
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/xxx.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/xxx.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - null
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.33012/2022.18382
+  title: Real-time Factor Graph Optimization Aided by Graduated Non-convexity Based
+    Outlier Mitigation for Smartphone Decimeter Challenge
+  authors:
+  - Yihan Zhong
+  - Weisong Wen
+  - Hoi-Fung Ng
+  - Xiwei Bai
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2022-10-20'
+  link: https://doi.org/g8t5r3
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/xxx.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/xxx.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - null
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.33012/navi.527
+  title: 'AGPC-SLAM: Absolute Ground Plane Constrained 3D Lidar SLAM'
+  authors:
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: 'NAVIGATION: Journal of the Institute of Navigation'
+  date: '2022-01-01'
+  link: https://doi.org/gsk2zv
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/AGPC-SLAM.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/AGPC-SLAM.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - dynamic object
+  - ground plane constraint
+  - lidar SLAM
+  - urban canyons
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/LRA.2022.3201694
+  title: Continuous and Precise Positioning in Urban Environments by Tightly Coupled
+    Integration of GNSS, INS and Vision
+  authors:
+  - Xingxing Li
+  - Shengyu Li
+  - Yuxuan Zhou
+  - Zhiheng Shen
+  - Xuanbin Wang
+  - Xin Li
+  - Weisong Wen
+  publisher: IEEE Robotics and Automation Letters
+  date: '2022-10-01'
+  link: https://doi.org/gqqdvw
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/GNSS-RTK_Adaptively_Integrated.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/GNSS-RTK_Adaptively_Integrated.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - adaptive GNSS-RTK/LIO fusion
+  - GNSS-RTK selection
+  - globally urban positioning
+  - factor
+  - graph optimization
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TITS.2022.3167710
+  title: 3D LiDAR Aided GNSS NLOS Mitigation in Urban Canyons
+  authors:
+  - Weisong Weisong Wen
+  - Li-Ta Hsu
+  publisher: IEEE Transactions on Intelligent Transportation Systems
+  date: '2022-10-01'
+  link: https://doi.org/gqhp38
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/3D_LiDAR_Aided_GNSS_NLOS_Mitigation_in_Urban_Canyons.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/3D_LiDAR_Aided_GNSS_NLOS_Mitigation_in_Urban_Canyons.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GNSS
+  - 3D LiDAR
+  - GNSS NLOS detection
+  - NLOS correction and remodeling
+  - automobile-level GNSS
+  - receiver
+  - urban canyons
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/MITS.2021.3092731
+  title: Point Wise or Feature Wise? A Benchmark Comparison of Publicly Available
+    Lidar Odometry Algorithms in Urban Canyons
+  authors:
+  - Feng Huang
+  - Weisong Wen
+  - Jiachen Zhang
+  - Li-Ta Hsu
+  publisher: IEEE Intelligent Transportation Systems Magazine
+  date: '2022-11-01'
+  link: https://doi.org/g8t5r4
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Point_Wise_or_Feature_Wise.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Point_Wise_or_Feature_Wise.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - Feature extraction
+  - Point cloud compression
+  - Real-time systems
+  - Laser radar
+  - Three-dimensional displays
+  - Heuristic algorithms
+  - Global navigation satellite system
+  - Autonomous systems
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TVT.2021.3130909
+  title: GNSS Outlier Mitigation via Graduated Non-Convexity Factor Graph Optimization
+  authors:
+  - Weisong Wen
+  - Guohao Zhang
+  - Li-Ta Hsu
+  publisher: IEEE Transactions on Vehicular Technology
+  date: '2022-01-01'
+  link: https://doi.org/gpsz9w
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/GNSS_6297.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/GNSS_6297.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GNSS
+  - NLOS
+  - navigation
+  - factor graph
+  - optimization
+  - graduated non-convexity
+  - adaptive tunning,
+  - non-convex Geman McClure
+  - urban canyons
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
