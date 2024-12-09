@@ -17,7 +17,7 @@ display_2: Fall 2025
 <!--  Add a short self introduction here -->
 <!-- Like Research Areas -->
 
-Yiyu Tang (Member, IEEE) will receive a BEng degree in Aviation Engineering from Hong Kong Polytechnic University (PolyU), HongKong, China, in May 2025, and will be a Mphil student at The Hong Kong Polytechnic University (PolyU),in 2025.   
+Yiyu Tang will receive a BEng degree in Aviation Engineering from Hong Kong Polytechnic University (PolyU), HongKong, China, in May 2025, and will be a Mphil student at The Hong Kong Polytechnic University (PolyU),in 2025.   
 
 
 **Research Areas**
