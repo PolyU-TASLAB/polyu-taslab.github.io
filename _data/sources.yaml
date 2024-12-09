@@ -1875,26 +1875,6 @@
     -
   repo: 
  
-- id: 
-  type: patent
-  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
-  # date: 2020-12-4
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/patent.png
-  buttons:
-    - type: manubot
-      text: paper
-      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/US12123961.pdf
-    - type: source
-      text: code
-      link: 
-    - type: data
-      text: video
-      link:
-    - type: website
-      link: 
-  tags:
-    -
-  repo: 
 
 - id: doi:10.33012/2023.18637
   type: paper
