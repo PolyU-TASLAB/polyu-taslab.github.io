@@ -1247,6 +1247,41 @@
   repo: null
   plugin: sources.py
   file: sources.yaml
+- id: 10.5194/isprs-archives-XLVIII-4-2024-607-2024
+  title: Invariant Extended Kalman Filtering for Pedestrian Deep-Inertial Odometry
+  authors:
+  - Shiyu Bai
+  - Weisong Wen
+  - Yue Yu
+  - Li-Ta Hsu
+  publisher: The International Archives of the Photogrammetry, Remote Sensing and
+    Spatial Information Sciences
+  date: '2024-10-21'
+  link: https://doi.org/g8t5nb
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/ECMD.gif
+  buttons:
+  - type: manubot
+    text: paper
+    link: C:\Users\darren\Documents\GitHub\polyu-taslab.github.io\research\papers\Bai2024InvariantEKF.pdf
+  - type: null
+    text: null
+    link: null
+  - type: null
+    text: null
+    link: null
+  - type: null
+    link: null
+  tags:
+  - Invariant Extended Kalman Filtering
+  - Deep learning
+  - Inertial odometry
+  - State estimation
+  - Pedestrian localization
+  - Low-cost
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1109/TIV.2023.3339144
   title: 'ECMD: An Event-Centric Multisensory Driving Dataset for SLAM'
   authors:
@@ -1261,7 +1296,7 @@
   date: '2024-01-01'
   link: https://doi.org/g8t488
   type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/ECMD.gif
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Bai2024InvariantEKF.png
   buttons:
   - type: manubot
     text: paper
