@@ -135,9 +135,11 @@
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/UrbanNav.png
+  buttons:
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/UrbanNav.pdf
+    - type: source
       text: code
       link: 
     - type: data
@@ -238,6 +240,7 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/remotesensing-13-02371-v2-1.pdf
+    - type: source
       text: code
       link: 
     - type: data
@@ -259,9 +262,11 @@
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/wen3-p7-wen-large.gif
+  buttons:
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Towards_Robust_GNSS_Positioning_and_Real-time_Kinematic_Using_Factor_Graph_Optimization.pdf
+    - type: source
       text: code
       link: 
     - type: data
@@ -284,9 +289,11 @@
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/wen5-3069212-large.gif
+  buttons:
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/3D_Point_Clouds_Data_Super_Resolution-Aided_LiDAR_Odometry_for_Vehicular_Positioning_in_Urban_Canyons.pdf
+    - type: source
       text: code
       link: 
     - type: data
