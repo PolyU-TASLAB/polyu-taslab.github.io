@@ -43,7 +43,7 @@
   subtitle: Carbon Neutrality Funding Scheme - supported projects in 2023/24 exercise
   image: images/project/uav_clean.png
   link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description:  Develop a sustainable, autonomous window cleaning system for the PolyU Jockey Club Innovation Tower using advanced UAV technology. The system integrates GNSS, IMU, LiDAR, and vision sensors for precise navigation and efficient cleaning of complex high-rise structures.
   repo: greenelab/lab-website-template
   tags:
     - software
