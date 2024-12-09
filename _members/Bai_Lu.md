@@ -1,7 +1,7 @@
 ---
-name: Wen Weisong
+name: Bai Lu
 image: images/team/bai_lu.jpg
-role: pi  # pi / postdoc / phd / ms / under / ra / visiting
+role: postdoc  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
 order: 5
 
