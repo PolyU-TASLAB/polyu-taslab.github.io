@@ -1,18 +1,27 @@
-- id: doi:10.1371/journal.pcbi.1007128
+- id: doi:https://doi.org/10.47852/bonviewJDSIS42022961
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   date: 2020-12-4
   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
   buttons:
     - type: manubot
+      text: paper
       link: https://greenelab.github.io/meta-review/
     - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
+      text: code
+      link: 
+    - type: video
+      text: video
+      link:
     - type: website
-      link: http://manubot.org/
+      link: 
   tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+    - FGO
+    - pedestrian positioning 
+    - smartphone
+    - sensor integration 
+    - IO
+    - VINS
+    - 3DMA GNSS
+  repo: 
 
