@@ -1247,7 +1247,7 @@
   repo: null
   plugin: sources.py
   file: sources.yaml
-- id: 10.5194/isprs-archives-XLVIII-4-2024-607-2024
+- id: doi:10.5194/isprs-archives-XLVIII-4-2024-607-2024
   title: Invariant Extended Kalman Filtering for Pedestrian Deep-Inertial Odometry
   authors:
   - Shiyu Bai
@@ -1259,11 +1259,11 @@
   date: '2024-10-21'
   link: https://doi.org/g8t5nb
   type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Bai2024InvariantEKF.gif
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/Bai2024InvariantEKF.png
   buttons:
   - type: manubot
     text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Bai2024InvariantEKF.pdf
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/Bai2024InvariantEKF.pdf
   - type: null
     text: null
     link: null
@@ -1279,6 +1279,146 @@
   - State estimation
   - Pedestrian localization
   - Low-cost
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TIM.2024.3470043
+  title: 'Toward Persistent Spatial Awareness: A Review of Pedestrian Dead Reckoning-Centric
+    Indoor Positioning With Smartphones'
+  authors:
+  - Shiyu Bai
+  - Weisong Wen
+  - You Li
+  - Chuang Shi
+  - Li-Ta Hsu
+  publisher: IEEE Transactions on Instrumentation and Measurement
+  date: '2024-01-01'
+  link: https://doi.org/g8t5zb
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/Bai2024ReviewPedestrian.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/BaiShiyu2024Toward_Persistent_Spatial_Awareness_A_Review_of_Pedestrian_Dead_Reckoning-Centric_Indoor_Positioning_With_Smartphones.pdf
+  - type: null
+    text: null
+    link: null
+  - type: null
+    text: null
+    link: null
+  - type: null
+    link: null
+  tags:
+  - Indoor positioning
+  - Infrastructure-dependent
+  - Infrastructure-free
+  - Pedestrian dead reckoning (PDR)
+  - Smartphones
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TIV.2024.3467115
+  title: Safety-Quantifiable Planar-Feature-based LiDAR Localization with a Prior
+    Map for Intelligent Vehicles in Urban Scenarios
+  authors:
+  - Jiachen Zhang
+  - Xikun Liu
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: IEEE Transactions on Intelligent Vehicles
+  date: '2024-01-01'
+  link: https://doi.org/g8t5zc
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/Zhang2024SafetyQuantifiable.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/Zhang2024SafetyQuantifiable.pdf
+  - type: null
+    text: null
+    link: null
+  - type: null
+    text: null
+    link: null
+  - type: null
+    link: null
+  tags:
+  - 3D LiDAR
+  - Non-convexity
+  - Planar features
+  - Safety-quantifiable Localization
+  - Urban canyons
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.33012/2024.19908
+  title: DGNSS Corrected Pseudorange and Time-Differenced Carrier Phase (TDCP) Measurements
+    using Differentiable Factor Graph Optimization (DFGO)
+  authors:
+  - Hoi-Fung Ng
+  - Penghui Xu
+  - Yihan Zhong
+  - Guohao Zhang
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2024-10-09'
+  link: https://doi.org/g8t5zd
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/ivan2024GNSS.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/Ivan2024GNSS24-0239.pdf
+  - type: null
+    text: null
+    link: null
+  - type: null
+    text: null
+    link: null
+  - type: null
+    link: null
+  tags:
+  - Time-Differenced Carrier Phase
+  - Differentiable Factor Graph Optimization
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.33012/2024.19805
+  title: Factor Graph Optimization Based Multi Epoch Ambiguity Resolution for GNSS
+    RTK and its Evaluation in Hong Kong Urban Canyons
+  authors:
+  - Yuan Li
+  - Xikun Liu
+  - Weisong Wen
+  - Li-Ta Hsu
+  - Yilong Yuan
+  - Guangyu Bian
+  - Qiaoyun Chen
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2024-10-09'
+  link: https://doi.org/g8t5zf
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/runzhi2024pyrtklib.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/runzhihu2024pyrtklib2409.12996v1.pdf
+  - type: null
+    text: null
+    link: null
+  - type: null
+    text: null
+    link: null
+  - type: null
+    link: null
+  tags:
+  - Artificial intelligence
+  - Deep learning
+  - GNSS
+  - RTKLIB
   repo: null
   plugin: sources.py
   file: sources.yaml
