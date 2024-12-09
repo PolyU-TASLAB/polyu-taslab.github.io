@@ -3,7 +3,7 @@ name: Wang Yingying
 image: images/team/wang_yingying.jpg
 role: postdoc  # pi / postdoc / phd / ms / under / visiting
 affiliation: Hong Kong Polytechnic University
-order: 1
+order: 2
 
 links:
   home-page: http://www.ee.cuhk.edu.hk/~yywang/

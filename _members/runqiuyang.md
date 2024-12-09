@@ -3,7 +3,7 @@ name: Yang Runqiu
 image: images/team/yang_runqiu.jpg
 role: postdoc
 affiliation: Hong Kong Polytechnic University
-order: 2
+order: 3
 
 links:
   home-page: n/a
