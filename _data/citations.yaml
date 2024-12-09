@@ -12,8 +12,31 @@
   date: '2021-05-01'
   link: https://doi.org/g8tzct
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/wen5-3069212-large.gif
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/3D_Point_Clouds_Data_Super_Resolution-Aided_LiDAR_Odometry_for_Vehicular_Positioning_in_Urban_Canyons.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - LiDAR
+  - NDT
+  - sparse point clouds
+  - superresolution
+  - convolutional neural network
+  - LiDAR odometry
+  - vehicular positioning
+  repo: null
 - id: doi:10.1002/navi.421
   title: 'Factor graph optimization for GNSS/INS integration: A comparison with the
     extended Kalman filter'
@@ -26,8 +49,34 @@
   date: '2021-05-22'
   link: https://doi.org/gj5n6w
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Wen_Factor_graph_for_GNSS.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Wen_Factor_graph_for_GNSS.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GNSS
+  - extended Kalman filter
+  - Failure detection and exclusion
+  - urban canyon
+  - FGO
+  - INS
+  - integration
+  - navigation
+  - positioning
+  - window size
+  repo: null
 - id: doi:10.1109/TITS.2019.2961128
   title: GNSS NLOS Exclusion Based on Dynamic Object Detection Using LiDAR Point Cloud
   authors:
@@ -38,8 +87,31 @@
   date: '2021-02-01'
   link: https://doi.org/gprd59
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/GNEB.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/GNEB.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GPS
+  - GNSS
+  - NLOS
+  - LiDAR
+  - 3D point clouds
+  - object detection
+  - positioning
+  repo: null
 - id: doi:10.33012/2020.17557
   title: 3D LiDAR Aided GNSS and Its Tightly Coupled Integration with INS Via Factor
     Graph Optimization
@@ -50,8 +122,28 @@
   date: '2020-10-28'
   link: https://doi.org/g8tzcv
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/3LAG.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/3D_LiDAR_Aided_GNSS_and_Its_Tightly_Coupled_Integration_with_INS_Via_FGO.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - FGO
+  - 3D LiDAR
+  - NLOS
+  - 3DMA GNSS
+  repo: null
 - id: doi:10.1109/TVT.2020.2981093
   title: Extending Shadow Matching to Tightly-Coupled GNSS/INS Integration System
   authors:
@@ -63,8 +155,35 @@
   date: '2020-05-01'
   link: https://doi.org/ggq4dk
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/ESMT.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/ESMT.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - Global navigation satellite system
+  - Position measurement
+  - Satellites
+  - Buildings
+  - Three-dimensional displays
+  - Estimation
+  - Noise measurement
+  - GNSS
+  - sensor integration
+  - localization
+  - 3D building model
+  repo: null
 - id: doi:10.1109/PLANS46316.2020.9110157
   title: 'GNSS/LiDAR Integration Aided by Self-Adaptive Gaussian Mixture Models in
     Urban Scenarios: An Approach Robust to Non-Gaussian Noise'
@@ -77,8 +196,31 @@
   date: '2020-04-01'
   link: https://doi.org/g8tzcw
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/GLIA.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/GLIA.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GNSS
+  - LiDAR
+  - Positioning
+  - Non-Gaussian noise
+  - Factor graph optimization
+  - Gaussian mixture models
+  - Urban canyon
+  repo: null
 - id: doi:10.1109/ACCESS.2020.3006210
   title: Multi-Agent Collaborative GNSS/Camera/INS Integration Aided by Inter-Ranging
     for Vehicular Navigation in Urban Areas
@@ -93,8 +235,31 @@
   date: '2020-01-01'
   link: https://doi.org/g8tzcx
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/MACG.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/MACG.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - Sensors
+  - Global navigation satellite system
+  - Collaboration
+  - Cameras
+  - Receivers
+  - Optimization
+  - Three-dimensional displays
+  repo: null
 - id: doi:10.1109/PLANS46316.2020.9109962
   title: New Integrated Navigation Scheme for the Level 4 Autonomous Vehicles in Dense
     Urban Areas
@@ -105,8 +270,32 @@
   date: '2020-04-01'
   link: https://doi.org/gpsz9f
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/NINS.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/NINS.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - Autonomous Driving Vehicle
+  - Positioning
+  - Perception
+  - GNSS
+  - LiDAR
+  - Camera
+  - PASIN
+  - Urban canyon
+  repo: null
 - id: doi:10.1109/MITS.2020.2994131
   title: Object-Detection-Aided GNSS and Its Integration With Lidar in Highly Urbanized
     Areas
@@ -118,8 +307,30 @@
   date: '2020-01-01'
   link: https://doi.org/gqqbhp
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/NDAG.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/NDAG.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - Global navigation satellite system
+  - Three-dimensional displays
+  - Laser radar
+  - Simultaneous localization and mapping
+  - Uncertainty
+  - Urban areas
+  repo: null
 - id: doi:10.1109/PLANS46316.2020.9109963
   title: Perception-aided Visual-Inertial Integrated Positioning in Dynamic Urban
     Areas
@@ -133,8 +344,30 @@
   date: '2020-04-01'
   link: https://doi.org/gkzh9d
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/PVIIPD.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Perception_aided_Visual-Inertial_Integrated_Positioning_in_Dynamic_Urban_Areas.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - Visual Odometry
+  - INS
+  - VINS
+  - Navigation
+  - Positioning
+  - Urban Areas
+  repo: null
 - id: doi:10.3390/rs12101686
   title: Robust Visual-Inertial Integrated Navigation System Aided by Online Sensor
     Model Adaption for Autonomous Ground Vehicles in Urban Areas
@@ -146,8 +379,31 @@
   date: '2020-05-25'
   link: https://doi.org/ghrstp
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/RVIN.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/RVIN.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - visual-inertial integrated navigation system (VINS)
+  - VINS
+  - dynamic objects
+  - adaptive tuning
+  - positioning
+  - autonomous systems
+  - urban canyons
+  repo: null
 - id: doi:10.1109/ICRA40945.2020.9196526
   title: 'UrbanLoco: A Full Sensor Suite Dataset for Mapping and Localization in Urban
     Scenes'
@@ -164,8 +420,31 @@
   date: '2020-05-01'
   link: https://doi.org/g8tzcz
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/UrbanLoco.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/UrbanLoco.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - Global navigation satellite system
+  - Cameras
+  - Laser radar
+  - Urban areas
+  - Robot sensing systems
+  - Trajectory
+  - Satellites
+  repo: null
 - id: doi:10.1049/iet-its.2019.0587
   title: "Using Sky\u2010pointing fish\u2010eye camera and LiDAR to aid GNSS single\u2010\
     point positioning in urban canyons"
@@ -177,8 +456,25 @@
   date: '2020-05-29'
   link: https://doi.org/g8tzc2
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/USFC.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/USFC.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - null
+  repo: null
 - id: doi:10.1109/CIS.2019.00063
   title: Combining Deep Gaussian Process and Rule-Based Method for Decision-Making
     in Self-Driving Simulation with Small Data
@@ -195,8 +491,28 @@
   date: '2019-12-01'
   link: https://doi.org/g8tzc3
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/CDGP.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/CDGP.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - gaussian process
+  - kernel function
+  - rule-based
+  - decision-making
+  repo: null
 - id: doi:10.1002/navi.335
   title: Correcting NLOS by 3D LiDAR and building height to improve GNSS single point
     positioning
@@ -208,8 +524,27 @@
   date: '2019-12-01'
   link: https://doi.org/g8tzc4
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/CN3L.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/CN3L.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - NLOS
+  - GNSS
+  - 3D LiDAR
+  repo: null
 - id: doi:10.33012/2019.17129
   title: Performance Comparison of GNSS/INS Integrations Based on EKF and Factor Graph
     Optimization
@@ -222,8 +557,32 @@
   date: '2019-10-11'
   link: https://doi.org/ggtk8c
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/PCGI.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/PCGI.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GNSS
+  - INS
+  - Integration
+  - Extended Kalman filter
+  - Factor graph optimization
+  - Window size
+  - Urban canyons
+  - Positioning Navigation
+  repo: null
 - id: doi:10.33012/2019.16845
   title: Real-time GNSS NLOS Detection and Correction Aided by Sky-Pointing Camera
     and 3D LiDAR
@@ -236,8 +595,31 @@
   date: '2019-05-01'
   link: https://doi.org/g8tzc5
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Bai_Real-Time_Gnss_Nlos.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Bai_Real-Time_Gnss_Nlos.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - FGO
+  - 3D LiDAR
+  - NLOS
+  - RTK
+  - 3DMA GNSS
+  - Cameras
+  - Sensors
+  repo: null
 - id: doi:10.1007/s10291-019-0872-9
   title: Rectification of GNSS-based collaborative positioning using 3D building models
     in urban areas
@@ -249,8 +631,27 @@
   date: '2019-06-06'
   link: https://doi.org/g8tzc6
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/RGCP.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/RGCP.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GNSS
+  - 3D model
+  - urban canyon
+  repo: null
 - id: doi:10.1109/TVT.2019.2944680
   title: Tightly Coupled GNSS/INS Integration via Factor Graph and Aided by Fish-Eye
     Camera
@@ -263,8 +664,31 @@
   date: '2019-11-01'
   link: https://doi.org/ggtk79
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/TCGI.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/TCGI.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GNSS
+  - INS
+  - camera
+  - integration
+  - factor graph
+  - positioning
+  - autonomous driving
+  repo: null
 - id: doi:10.1049/el.2018.8075
   title: Uncertainty estimation of LiDAR matching aided by dynamic vehicle detection
     and high definition map
@@ -278,8 +702,27 @@
   date: '2019-03-01'
   link: https://doi.org/ggtk78
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/UELM.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/UELM.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - 3D LiDAR
+  - Uncertainty estimation
+  - dynamic detection
+  repo: null
 - id: doi:10.3390/s18113928
   title: Performance Analysis of NDT-based Graph SLAM for Autonomous Vehicle in Diverse
     Typical Driving Scenarios of Hong Kong
@@ -291,8 +734,29 @@
   date: '2018-11-14'
   link: https://doi.org/ggrgr2
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/PANG.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/PANG.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - Localization
+  - NDT
+  - Graph SLAM
+  - LiDAR
+  - Autonomous Vehicle
+  repo: null
 - id: doi:10.1109/PLANS.2018.8373540
   title: A novel GNSS based V2V cooperative localization to exclude multipath effect
     using consistency checks
@@ -304,8 +768,32 @@
   date: '2018-04-01'
   link: https://doi.org/g8tzc7
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/ANGV.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/ANGV.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GNSS
+  - multipath
+  - NLOS
+  - V2V
+  - cooperative localization
+  - autonomous driving
+  - urban
+  - double difference
+  repo: null
 - id: doi:10.33012/2018.15830
   title: Collaborative GNSS Positioning with the Aids of 3D City Models
   authors:
@@ -317,8 +805,29 @@
   date: '2018-10-26'
   link: https://doi.org/g8tzc8
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/CGPA.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/CGPA.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GNSS
+  - NLOS
+  - 3D Model
+  - 3DMA GNSS
+  - V2V
+  repo: null
 - id: doi:10.33012/2018.15984
   title: Correcting GNSS NLOS by 3D LiDAR and Building Height
   authors:
@@ -330,8 +839,28 @@
   date: '2018-10-26'
   link: https://doi.org/g54dhj
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/CGN3.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/CGN3.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GNSS
+  - NLOS
+  - 3D LiDAR
+  - 3DMA GNSS
+  repo: null
 - id: doi:10.1109/PLANS.2018.8373377
   title: 'Exclusion of GNSS NLOS receptions caused by dynamic objects in heavy traffic
     urban scenarios using real-time 3D point cloud: An approach without 3D maps'
@@ -343,8 +872,31 @@
   date: '2018-04-01'
   link: https://doi.org/g8tzc9
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/EGNR.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/EGNR.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GPS
+  - GNSS
+  - LiDAR
+  - 3D point clouds
+  - Object detection
+  - NLOS exclusion
+  - Urban canyon
+  repo: null
 - id: doi:10.47852/bonviewJDSIS42022961
   title: "Enhancing Smartphone-based\u202FPedestrian Positioning: Using Factor Graph\
     \ Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State\
@@ -380,6 +932,464 @@
   - IO
   - VINS
   - 3DMA GNSS
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TIM.2021.3126010
+  title: Degeneration-Aware Outlier Mitigation for Visual Inertial Integrated Navigation
+    System in Urban Canyons
+  authors:
+  - Xiwei Bai
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: IEEE Transactions on Instrumentation and Measurement
+  date: '2021-01-01'
+  link: https://doi.org/gsk25m
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Degeneration-aware.gif
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Degeneration-Aware_Outlier_Mitigation_for_Visual_Inertial_Integrated_Navigation_System_in_Urban_Canyons.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GNC
+  - navigation
+  - optimizaiton method
+  - outlier measurement
+  - urban canyons
+  - VINS
+  - Visual odometry
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.33012/2021.18089
+  title: Continuous GNSS-RTK Aided by LiDAR/Inertial Odometry with Intelligent GNSS
+    Selection in Urban Canyons
+  authors:
+  - Jiachen Zhang
+  - Weisong Wen
+  - Feng Huang
+  - Xiaodong Chen
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2021-10-13'
+  link: https://doi.org/g8t45c
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Zhang_Continuous_Gnss-Rtk_Aided.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Zhang_Continuous_Gnss-Rtk_Aided.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GNSS-RTK
+  - GNSS
+  - NLOS
+  - urban canyons
+  - LIO
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.33012/2021.17994
+  title: '3D Mapping Aided GNSS Using Gauss-Newton Algorithm: An Example on GNSS Shadow
+    Matching'
+  authors:
+  - Hoi-Fung Ng
+  - Guohao Zhang
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2021-10-13'
+  link: https://doi.org/g8t45d
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Ng_3D_Mapping_Aided.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Ng_3D_Mapping_Aided.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GNSS
+  - Mapping
+  - NLOS
+  - Gauss-Newton
+  - 3DMA
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.33012/2021.18072
+  title: 3D LiDAR Aided GNSS Real-time Kinematic Positioning
+  authors:
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2021-10-13'
+  link: https://doi.org/g7vx59
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Wen_3D_Lidar_Aided.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Wen_3D_Lidar_Aided.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - FGO
+  - 3D LiDAR
+  - NLOS
+  - RTK
+  - 3DMA GNSS
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.33012/2021.17895
+  title: UrbanNav:An Open-Sourced Multisensory Dataset for Benchmarking Positioning
+    Algorithms Designed for Urban Areas
+  authors:
+  - Li-Ta Hsu
+  - Nobuaki Kubo
+  - Weisong Wen
+  - Wu Chen
+  - Zhizhao Liu
+  - Taro Suzuki
+  - Junichi Meguro
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2021-10-13'
+  link: https://doi.org/g8t45f
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/UrbanNav.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/UrbanNav.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - UrbanNav
+  - Dataset
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.33012/2021.18083
+  title: A Coarse-to-Fine LiDAR-Based SLAM with Dynamic Object Removal in Dense Urban
+    Areas
+  authors:
+  - Feng Huang
+  - Donghui Shen
+  - Weisong Wen
+  - Jiachen Zhang
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2021-10-13'
+  link: https://doi.org/gsk2vg
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Huang_Coarse-To-Fine_Lidar-Based_Slam.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Huang_Coarse-To-Fine_Lidar-Based_Slam.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - SLAM
+  - Lidar
+  - Localization
+  - DNN
+  - Dynamic object removal
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.33012/2021.18157
+  title: Integrity Monitoring for GNSS Positioning Via Factor Graph Optimization in
+    Urban Canyons
+  authors:
+  - Weisong Wen
+  - Qian Meng
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2021-10-13'
+  link: https://doi.org/g8t45g
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Wen_Integrity_Monitoring_Gnss.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Wen_Integrity_Monitoring_Gnss.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GNSS
+  - FGO
+  - Failure detection and exclusion
+  - urban canyon
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/rs13122371
+  title: Coarse-to-Fine Loosely-Coupled LiDAR-Inertial Odometry for Urban Positioning
+    and Mapping
+  authors:
+  - Jiachen Zhang
+  - Weisong Wen
+  - Feng Huang
+  - Xiaodong Chen
+  - Li-Ta Hsu
+  publisher: Remote Sensing
+  date: '2021-06-17'
+  link: https://doi.org/gkzjdq
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/remotesensing-13-02371-v2-1.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/remotesensing-13-02371-v2-1.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - LiDAR-inertial odometry
+  - loosely-coupled integration
+  - adaptive covariance estimation
+  - urban canyons
+  - mapping
+  - Autonomous system
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ICRA48506.2021.9562037
+  title: Towards Robust GNSS Positioning and Real-time Kinematic Using Factor Graph
+    Optimization
+  authors:
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: 2021 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2021-05-30'
+  link: https://doi.org/gprd6g
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/wen3-p7-wen-large.gif
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Towards_Robust_GNSS_Positioning_and_Real-time_Kinematic_Using_Factor_Graph_Optimization.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GNSS
+  - GNSS-RTK
+  - Localization
+  - urban canyons
+  - mapping
+  - Autonomous vehicle
+  - FGO
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TIV.2023.3339144
+  title: 'ECMD: An Event-Centric Multisensory Driving Dataset for SLAM'
+  authors:
+  - Peiyu Chen
+  - Weipeng Guan
+  - Feng Huang
+  - Yihan Zhong
+  - Weisong Wen
+  - Li-Ta Hsu
+  - Peng Lu
+  publisher: IEEE Transactions on Intelligent Vehicles
+  date: '2024-01-01'
+  link: https://doi.org/g8t488
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/ECMD.gif
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/ECMD_An_Event-Centric_Multisensory_Driving_Dataset_for_SLAM.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - Cameras
+  - Sensors
+  - Laser radar
+  - Simultaneous localization and mapping
+  - Visualization
+  - Sensor systems
+  - Robots
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.48550/arXiv.2008.03694
+  title: 'LiDAR Data Enrichment Using Deep Learning Based on High-Resolution Image:
+    An Approach to Achieve High-Performance LiDAR SLAM Using Low-cost LiDAR'
+  authors:
+  - Jiang Yue
+  - Weisong Wen
+  - Jing Han
+  - Li-Ta Hsu
+  publisher: arXiv
+  date: '2020-01-01'
+  link: https://doi.org/g8t489
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/LDEUDL.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/LDEUDL.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - LiDAR
+  - Point Clouds
+  - Depth Completion
+  - Convolutional Neural Network
+  - NDT
+  - SLAM
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.48550/arXiv.2004.10572
+  title: 'It is time for Factor Graph Optimization for GNSS/INS Integration: Comparison
+    between FGO and EKF'
+  authors:
+  - Weisong Wen
+  - Tim Pfeifer
+  - Xiwei Bai
+  - Li-Ta Hsu
+  publisher: arXiv
+  date: '2020-01-01'
+  link: https://doi.org/gpsz8b
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2004.10572v2.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2004.10572v2.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - GNSS
+  - INS
+  - Integration
+  - Extended Kalman filter
+  - Factor graph optimization
+  - Window size
+  - Urban canyons
+  - Positioning Navigation
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TITS.2020.2988531
+  title: 3D Mapping Database Aided GNSS Based Collaborative Positioning Using Factor
+    Graph Optimization
+  authors:
+  - Guohao Zhang
+  - Hoi-Fung Ng
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: IEEE Transactions on Intelligent Transportation Systems
+  date: '2021-10-01'
+  link: https://doi.org/ggt6br
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/3MDA.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/3MDA.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - Global navigation satellite system
+  - Collaboration
+  - Roads
+  - Ray tracing
+  - Three-dimensional displays
+  - Optimization
+  - Satellites
   repo: null
   plugin: sources.py
   file: sources.yaml
