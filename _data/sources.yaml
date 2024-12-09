@@ -6,11 +6,11 @@
   buttons:
     - type: manubot
       text: paper
-      link: 
-    - type: source
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Enhancing%20Smartphone-based%20PedestrianPositioning%20Using%20Factor%20GraphOptimization%20with%20Indoor%20OutdoorDetection%20for%203DMA%20GNSS%20Visual-inertialState%20Estimation.pdf
+    - type: sourcehttps://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/enchancing_smartphone.png
       text: code
       link: 
-    - type: video
+    - type: data
       text: video
       link:
     - type: website

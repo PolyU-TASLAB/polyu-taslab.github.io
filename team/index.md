@@ -30,6 +30,8 @@ nav:
 {% include list_students.html data="members" component="portrait_students" filters="role == 'visiting'" %}
 #### Alumni
 
+
+
 #### Diversity, Equity, and Inclusion (inspired by Dr. [Shreyas Kousik](https://www.shreyaskousik.com/))
 Autonomous systems is a way to increase equity in society, because they have the potential to help people across boundaries of ability or advantage. As I have found in my outreach work, robots in particular are a great way to bring a wide variety of people together in inclusive environments. But, it's also critical that we as engineers do the hard work now of creating diverse and inclusive communities that strive towards equitable applications of technology. I am eager to discuss these topics and efforts, so feel free to send me an email!
 
