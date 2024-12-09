@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Join Us!
 nav:
   order: 6
   tooltip: Email, address, and location
