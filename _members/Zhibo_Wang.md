@@ -13,7 +13,7 @@ links:
   email: csu.z.wang.apply@gmail.com
   profile: 
 
-display_1: mphil ,B.Eng. (CSU)
+display_1: mphil, B.Eng. (CSU)
 display_2: 
 ---
 
