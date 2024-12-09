@@ -28,6 +28,17 @@
   # - resource
    # - publication
 
+- title: Reliable UAV Perception and Perching Solutions in Urban Streets
+  subtitle: Smart Street light Poles with UAV Airports
+  image: images/project/Smart_Street_light_Poles_with_UAV_Airports.png
+  group: featured
+  #link: https://github.com/
+  description: Develop a comprehensive UAV perception and Perching solution, focusing on the integration of smart streetlight poles with a UAV takeoff, landing, and battery exchange platform
+  #repo: greenelab/lab-website-template
+  #tags:
+  # - resource
+   # - publication
+
 - title: Cool Web App
   subtitle: a subtitle
   image: images/photo.jpg
