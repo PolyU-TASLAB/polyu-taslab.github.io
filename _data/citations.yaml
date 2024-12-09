@@ -345,34 +345,41 @@
   orcid: 0000-0003-4158-0913
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
+- id: doi:10.47852/bonviewJDSIS42022961
+  title: "Enhancing Smartphone-based\u202FPedestrian Positioning: Using Factor Graph\
+    \ Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State\
+    \ Estimation"
   authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
+  - Ho Hiu-Yi
+  - Ng Hoi-Fung
+  - Wen Weisong
+  - Gu Yanlei
+  - Hsu Li-Ta
+  publisher: Journal of Data Science and Intelligent Systems
+  date: '2024-01-01'
+  link: https://doi.org/g8t4vb
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  image: null
   buttons:
   - type: manubot
-    link: https://greenelab.github.io/meta-review/
+    text: paper
+    link: null
   - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
+    text: code
+    link: null
+  - type: video
+    text: video
+    link: null
   - type: website
-    link: http://manubot.org/
+    link: null
   tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
+  - FGO
+  - pedestrian positioning
+  - smartphone
+  - sensor integration
+  - IO
+  - VINS
+  - 3DMA GNSS
+  repo: null
   plugin: sources.py
   file: sources.yaml
