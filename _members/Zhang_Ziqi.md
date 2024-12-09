@@ -1,7 +1,7 @@
 ---
 name: Zhang Ziqi
 image: images/team/Zhang_Ziqi.JPG
-role: Ms  # pi / postdoc / phd / ms / under / ra / visiting
+role: ms  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
 order: 1
 

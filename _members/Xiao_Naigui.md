@@ -3,7 +3,7 @@ name: Xiao Naigui
 image: images/team/XNG.jpg
 role: phd
 affiliation: Hong Kong Polytechnic University
-order: 5
+order: 6
 # aliases:
 #   - 
 links:
