@@ -2,7 +2,7 @@
 title: Projects
 nav:
   order: 3
-  tooltip: Software, datasets, and more
+  tooltip: 
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
@@ -15,7 +15,7 @@ nav:
 
 {% include search-box.html %}
 
-{% include tags.html tags=site.tags %}
+<!-- {% include tags.html tags=site.tags %} -->
 
 {% include search-info.html %}
 
