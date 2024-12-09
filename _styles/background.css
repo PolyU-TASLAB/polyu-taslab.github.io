@@ -9,11 +9,11 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("images/AboutPolyU_Campus1.png");
+  background-image: var(--image);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  opacity: 0.25;
+  opacity: 0.1;
   z-index: -1;
 }
 
