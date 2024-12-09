@@ -6,7 +6,7 @@
   buttons:
     - type: manubot
       text: paper
-      link: https://greenelab.github.io/meta-review/
+      link: 
     - type: source
       text: code
       link: 
