@@ -9,18 +9,14 @@ nav:
 
 <!-- Add content here -->
 
-{% include tags.html tags="publication, resource, website" %}
+<!-- {% include tags.html tags="publication, resource, website" %} -->
+
+{% include section.html %}
+
+{% include search-box.html %}
+
+{% include tags.html tags=site.tags %}
 
 {% include search-info.html %}
 
-{% include section.html %}
-
-## Featured
-
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
-
-{% include section.html %}
-
-## More
-
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+{% include list.html data="project_info" component="post-excerpt" %}
