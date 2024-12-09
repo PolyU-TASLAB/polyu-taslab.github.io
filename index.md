@@ -32,7 +32,7 @@ Together, we are committed to developing autonomous systems that inspire confide
 
 {%
   include feature.html
-  image="images/3DLA-GNSS.jpg"
+  image="images/coding.jpg"
   link="research"
   title="Our Research"
   text=text
