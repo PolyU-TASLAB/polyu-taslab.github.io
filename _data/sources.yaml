@@ -1693,7 +1693,7 @@
     - urban canyons
   repo: 
 
-  id: doi:10.5194/isprs-archives-XLVIII-1-W1-2023-473-2023
+- id: doi:10.5194/isprs-archives-XLVIII-1-W1-2023-473-2023
   type: paper
   # description: 10.5194/isprs-archives-XLVIII-1-W1-2023-473-2023
   # date: 2023-5-25
@@ -1717,7 +1717,7 @@
     - Efficient mapping
   repo: 
 
-id: doi:10.5194/isprs-archives-XLVIII-1-W1-2023-175-2023
+- id: doi:10.5194/isprs-archives-XLVIII-1-W1-2023-175-2023
   type: paper
   # description: 10.5194/isprs-archives-XLVIII-1-W1-2023-473-2023
   # date: 2023-5-25
@@ -1746,7 +1746,7 @@ id: doi:10.5194/isprs-archives-XLVIII-1-W1-2023-175-2023
     - FGO 
   repo: 
 
-id: doi:10.1109/TIV.2023.3273185
+- id: doi:10.1109/TIV.2023.3273185
   type: paper
   # description: Integration of Vehicle Dynamic Model and System Identification Model for Extending the Navigation Service Under Sensor Failures
   # date: 2023-5-8
@@ -1773,7 +1773,7 @@ id: doi:10.1109/TIV.2023.3273185
     - Navigation
   repo: 
 
-id: doi:10.1109/PLANS53410.2023.10139983
+- id: doi:10.1109/PLANS53410.2023.10139983
   type: paper
   # description: LiDAR Feature Outlier Mitigation Aided by Graduated Non-convexity Relaxation for Safety-critical Localization in Urban Canyons
   # date: 2023-4
@@ -1800,7 +1800,7 @@ id: doi:10.1109/PLANS53410.2023.10139983
     - Navigation
   repo: 
  
- - id: doi:10.33012/navi.660
+- id: doi:10.33012/navi.660
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
@@ -1827,7 +1827,7 @@ id: doi:10.1109/PLANS53410.2023.10139983
     - urban canyons
   repo: 
 
- - id: doi:10.1109/PLANS53410.2023.10140089
+- id: doi:10.1109/PLANS53410.2023.10140089
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
@@ -1854,7 +1854,7 @@ id: doi:10.1109/PLANS53410.2023.10139983
     - Sensor
   repo: 
 
- id: doi:10.1049/itr2.12273
+- id: doi:10.1049/itr2.12273
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
@@ -1875,7 +1875,7 @@ id: doi:10.1109/PLANS53410.2023.10139983
     -
   repo: 
  
- id: 
+- id: 
   type: patent
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
@@ -1896,7 +1896,7 @@ id: doi:10.1109/PLANS53410.2023.10139983
     -
   repo: 
 
-   - id: doi:10.33012/2023.18637
+- id: doi:10.33012/2023.18637
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
@@ -1917,7 +1917,7 @@ id: doi:10.1109/PLANS53410.2023.10139983
     -
   repo: 
 
-   id: doi:10.48550/arXiv.2212.05477
+- id: doi:10.48550/arXiv.2212.05477
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
@@ -1938,7 +1938,7 @@ id: doi:10.1109/PLANS53410.2023.10139983
     - Robotics
   repo: 
 
-   - id: doi:10.48550/arXiv.2211.15127
+- id: doi:10.48550/arXiv.2211.15127
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
