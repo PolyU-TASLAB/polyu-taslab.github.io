@@ -10,7 +10,7 @@ nav:
 <!-- Include a large landscape photo below the TEAM title -->
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/team/team.jpg" alt="Team Banner" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/team/team.png" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
@@ -18,9 +18,9 @@ nav:
 {% include list_pi.html data="members" component="portrait_pi" filters="role == 'pi'"  %}
 #### Postdoctoral Fellows
 {% include list_students.html data="members" component="portrait_students" filters="role == 'postdoc'" %}
-#### Ph.D. Students
+#### Ph.D./MPhil Students
 {% include list_students.html data="members" component="portrait_students" filters="role == 'phd'" %}
-#### M.S./MPhil Students
+<!-- #### M.S./MPhil Students -->
 {% include list_students.html data="members" component="portrait_students" filters="role == 'ms'" %}
 #### Research/Project Assistant
 {% include list_students.html data="members" component="portrait_students" filters="role == 'ra'" %}
