@@ -1,6 +1,6 @@
 ---
 name: Chen Yingming
-image: images/team/chen_yingming.jpg
+image: images/team/yingming_chen.jpg
 role: ra  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
 order: 3
