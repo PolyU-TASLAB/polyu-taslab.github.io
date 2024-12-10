@@ -31,7 +31,7 @@ sources = []
 # plugins = ["google-scholar", "pubmed", "orcid", "sources"]
 # plugins = ["google-scholar"]
 # plugins = ["google-scholar", "orcid"]
-plugins = ["sources"]
+plugins = ["google-scholar", "sources"]
 
 
 
