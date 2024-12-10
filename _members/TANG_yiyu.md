@@ -11,7 +11,7 @@ links:
    
 
 display_1: M.Phil.(Polyu), B.Eng. (Polyu)
-display_2: Fall 2025
+display_2: To join in fall 2025
 ---
 
 <!--  Add a short self introduction here -->

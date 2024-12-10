@@ -14,7 +14,7 @@ links:
   profile: 
 
 display_1: mphil, B.Eng. (CSU)
-display_2: 
+display_2: To join in fall 2025
 ---
 
 <!--  Add a short self introduction here -->
