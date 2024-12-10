@@ -1,0 +1,59 @@
+{% if include.lookup %}
+  {% assign proj = site.infos 
+    | where_exp: "proj", "proj.slug == include.lookup"
+    | first
+    | default: include
+  %}
+{% else %}
+  {% assign proj = include %}
+{% endif %}
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    {% assign url = proj.url %}
+    {% assign title = proj.title %}
+    {% assign image = proj.image %}
+
+    {% if image %}
+      <a
+        href="{{ url | relative_url | uri_escape }}"
+        class="post-excerpt-image"
+        aria-label="{{ title | default: "excerpt link" | regex_strip }}"
+      >
+        <img
+          src="{{ image | relative_url | uri_escape }}"
+          alt="{{ title | default: "excerpt image" | regex_strip }}"
+          loading="lazy"
+          {% include fallback.html %}
+        >
+      </a>
+    {% endif %}
+
+    <div class="post-excerpt-text">
+      <a href="{{ url | relative_url | uri_escape }}">{{ title }}</a>
+
+      {%
+        include proj-info.html
+        author=proj.author
+        published=proj.date
+        updated=proj.last_modified_at
+        tags=proj.tags
+      %}
+
+      {% assign excerpt = proj.content
+        | default: ""
+        | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
+        | default: proj.excerpt
+        | default: ""
+        | strip_html
+      %}
+      {% assign search = proj.content
+        | strip_newlines
+        | regex_strip
+      %}
+      <p data-search="{{ search }}">
+        {{ excerpt }}
+      </p>
+    </div>
+  </div>
+</div>
