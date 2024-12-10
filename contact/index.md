@@ -10,11 +10,12 @@ nav:
 <!-- Add content here.  -->
 ### Openings
 
-We regularly have multiple openings for Postdoc/PhD/Mphil/RA/Internships (All-year-round) to work on research projects related to navigation, robotics and trustworthy autonomous systems in general. If you are a PolyU student (Undergraduate and MSc students seeking URIS or dissertation supervision) interested in working with me, feel free to drop me an email (together with your transcript and brief introduction) or walk in my office at room R820!
+We regularly have multiple openings for Postdoc/PhD/MPhil/RA/Internships (All year round) to work on research related to trustworthy autonomous systems in general, including UAV and self-driving cars. If you are a PolyU student (Undergraduate and MSc students seeking URIS or dissertation supervision) interested in working with me, feel free to drop me an email (together with your transcript and brief introduction) or walk into my office at room R820!
 
-**Postdoc/RA positions** (Regular quotas): Navigation with multi-sensory integration, autonomous systems, unmanned aerial vehicles (UAV), semantic aided positioning, map update and qualification, hardware-software co-design for next generation navigation chips, urban GNSS positioning, GNSS RTK, PPP, PPP-RTK, multi-agent collaborative positioning. For those interested, please send us you CV, representative publications list and research statement/proposal. (We will reply you within one week if you are shortlisted for interview).
+**Postdoc/RA positions** (Regular quotas): High precise perception positioning control with multi-sensory integration, autonomous systems, unmanned aerial vehicles (UAV), semantic aided positioning, map update and qualification, hardware-software co-design for next-generation navigation chips, urban GNSS positioning, GNSS RTK, PPP, PPP-RTK, multi-agent collaborative positioning. For those interested, please send us your CV, representative publications list, and research statement/proposal. (We will reply to you within one week if you are shortlisted for an interview). For any candidate, you MUST have at least one of the following properties: (1) a strong publication record! Or (2) strong capabilities in coding (at least C++ or Python) or hardware. Or (3) strong capabilities in preparing research proposals.
 
-**PhD/Mphil topics** (Regular quotas): Safety-certifiable navigation, visual semantic aided positioning, urban GNSS positioning, GNSS RTK, PPP, PPP-RTK, collaborative positioning. For those interested, please send us your CV, representative publications list and research proposal. (We will reply you within one week if you are shortlisted for interview).
+**PhD/MPhil topics** (Regular quotas): Safety-certifiable positioning, control, and perception for autonomous systems. For more topics we are working on, please refer to our project page. For those interested, please send us your CV, representative publications list, and research proposal. (We will reply to you within one week if you are shortlisted for an interview).
+
 
 {%
   include button.html
