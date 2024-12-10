@@ -2087,14 +2087,14 @@
       link:
     - type: website
       link: 
-    tags:
-      - Location awareness
-      - Vehicle dynamics 
-      - System identification
-      - GNSS
-      - Laser rader
-      - Cameras
-      - Navigation
+  tags:
+    - Location awareness
+    - Vehicle dynamics 
+    - System identification
+    - GNSS
+    - Laser rader
+    - Cameras
+    - Navigation
   repo: 
 
 - id: doi:10.1109/PLANS53410.2023.10139983
