@@ -64,7 +64,7 @@ In this way, we aim for TAS Lab staff, students, and collaborators around the wo
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/aaelogo.png"
        style="width: 100%; height: auto; object-fit: cover; max-width: 250px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/feng.png"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 100px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
+       style="width: 100%; height: auto; object-fit: cover; max-width: 100px; margin: 0 auto; vertical-align: middle;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/RIAM_Logo.png"
        style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
 </div>
@@ -74,10 +74,10 @@ In this way, we aim for TAS Lab staff, students, and collaborators around the wo
        style="width: 100%; height: auto; object-fit: cover; max-width: 180px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/UGC_logo.png"
        style="width: 100%; height: auto; object-fit: cover; max-width: 220px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/RGC_logo.jpg"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/itc-logo.png"
        style="width: 100%; height: auto; object-fit: cover; max-width: 250px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/RGC_logo.jpg"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
@@ -85,11 +85,11 @@ In this way, we aim for TAS Lab staff, students, and collaborators around the wo
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/TD_logo.png"
        style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/huawei_logo.webp"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 120px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
+       style="width: 100%; height: auto; object-fit: cover; max-width: 120px; margin: 0 auto; vertical-align: middle;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/meituan_logo.png"
        style="width: 100%; height: auto; object-fit: cover; max-width: 120px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/honor-logo-black.svg"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 120px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
+       style="width: 100%; height: auto; object-fit: cover; max-width: 120px; margin: 0 auto; vertical-align: middle;">
     <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/guangdong_logo.png"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; vertical-align: middle;">
 </div>
