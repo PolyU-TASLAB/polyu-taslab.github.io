@@ -7,10 +7,10 @@ tags: Localization, GNSS, 3D LIDAR, urban canyon
 order: 
 ---
 
-Department of Science and Technology of Guangdong Province (GDSTC)
+Department of Science and Technology of Guangdong Province (GDSTC) 廣東省科學技術廳
 
 ## Funding Body
-Department of Science and Technology of Guangdong Province (GDSTC)
+Department of Science and Technology of Guangdong Province (GDSTC) 廣東省科學技術廳
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/huawei_mapping.gif" alt="Team Banner" 

@@ -1,17 +1,17 @@
 ---
-title: Vision Aided GNSS-RTK Positioning for UAV System in Urban Canyons
+title: Vehicle-infrastructure Collaboration for Connected Unmanned Ground and Aerial Vehicles in Complex Urban Canyons
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
-image: images/project/meituan.png
-tags: Localization, UAV, urban canyons, GNSS, RTK, Vision
+image: 
+tags: Unmanned Ground Vehicle, Unmanned Aerial Vehicle, Cooperation, urban canyons
 order: 
 ---
 
-深圳市美團機器人研究院
+PolyU (UGC)
 
 ## Funding Body
 
-深圳市美團機器人研究院
+PolyU (UGC)
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/huawei_mapping.gif" alt="Team Banner" 

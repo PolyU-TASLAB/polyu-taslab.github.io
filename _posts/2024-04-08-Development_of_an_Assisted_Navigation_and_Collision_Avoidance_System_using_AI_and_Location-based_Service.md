@@ -1,17 +1,17 @@
 ---
-title: Vision Aided GNSS-RTK Positioning for UAV System in Urban Canyons
+title: Development of an Assisted Navigation and Collision Avoidance System using AI and Location-based Service
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
-image: images/project/meituan.png
-tags: Localization, UAV, urban canyons, GNSS, RTK, Vision
+image: images/project/stf.png
+tags:  AI, 3DMA-RTK, Vehicle Risk Prediction, Collision Avoidance
 order: 
 ---
 
-深圳市美團機器人研究院
+Transport Department
 
 ## Funding Body
 
-深圳市美團機器人研究院
+Transport Department
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/huawei_mapping.gif" alt="Team Banner" 
