@@ -137,7 +137,10 @@ for index, source in enumerate(sources):
     citation = {}
 
     # source id
-    _id = get_safe(source, "id", "").strip()
+    # _id = get_safe(source, "id", "").strip()
+    _id = get_safe(source, "id", "")
+    if _id:
+        _id = _id.strip()
 
     # Manubot doesn't work without an id
     if _id:
