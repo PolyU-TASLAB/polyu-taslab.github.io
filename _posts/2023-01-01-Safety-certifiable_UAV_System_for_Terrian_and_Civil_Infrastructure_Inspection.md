@@ -2,16 +2,16 @@
 title: Safety-certifiable UAV System for Terrian and Civil Infrastructure Inspection
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
-image: images/project/huawei_mapping.gif
+image: 
 tags: Localization, UAV
 order: 
 ---
 
-
+PolyU (UGC)
 
 ## Funding Body
 
-Projects of RILS/PolyU (UGC)
+PolyU (UGC)
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/huawei_mapping.gif" alt="Team Banner" 

@@ -2,16 +2,16 @@
 title: Data-driven-assisted GNSS RTK/INS Navigation for Autonomous Systems in Urban Canyons
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
-image: images/project/huawei_mapping.gif
+image: 
 tags: INS, urban canyons, GNSS, RTK, Autonomous System
 order: 
 ---
 
-
+PolyU (UGC)
 
 ## Funding Body
 
-Financial Support for Non-PAIR Research Centres
+PolyU (UGC)
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/huawei_mapping.gif" alt="Team Banner" 

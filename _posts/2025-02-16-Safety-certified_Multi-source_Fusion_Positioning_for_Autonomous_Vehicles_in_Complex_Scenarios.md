@@ -1,17 +1,17 @@
 ---
-title: Vision Aided GNSS-RTK Positioning for UAV System in Urban Canyons
+title: Safety-certified Multi-source Fusion Positioning for Autonomous Vehicles in Complex Scenarios
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
-image: images/project/meituan.png
-tags: Localization, UAV, urban canyons, GNSS, RTK, Vision
+image: 
+tags:   Localization, Sensor fusion, Safety, Autonomous Vehicle
 order: 
 ---
 
-深圳市美團機器人研究院
+Innovation and Technology Commission
 
 ## Funding Body
 
-深圳市美團機器人研究院
+Innovation and Technology Commission
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/huawei_mapping.gif" alt="Team Banner" 

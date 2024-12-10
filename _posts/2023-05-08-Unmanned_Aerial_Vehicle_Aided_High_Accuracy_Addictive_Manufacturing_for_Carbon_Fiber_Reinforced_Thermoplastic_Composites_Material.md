@@ -2,16 +2,16 @@
 title: Unmanned Aerial Vehicle Aided High Accuracy Addictive Manufacturing for Carbon Fiber Reinforced Thermoplastic Composites MaterialCanyons
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
-image: images/project/huawei_mapping.gif
+image: 
 tags: UAV, Manufacturing
 order: 
 ---
 
-
+RIAM, PolyU
 
 ## Funding Body
 
-Projects of RIAM/RIAM, PolyU
+RIAM, PolyU
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/huawei_mapping.gif" alt="Team Banner" 
