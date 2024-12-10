@@ -14,6 +14,7 @@ display_2:
   - Merit Award, Best URIS Research Project 2024  
   - Attended PRSC 2024  
   - Dean's Honours List, PolyU (2022-2023)  
+  - To join Mphil in fall 2025
 ---
 
 <!--  Add a short self introduction here -->
