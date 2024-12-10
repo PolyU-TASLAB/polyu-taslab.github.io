@@ -10,7 +10,9 @@ links:
   email: lubai@buaa.edu.cn
   profile: 
 
-display_1: postdoc, Ph.D.(BUAA), M.Eng.(BUAA), B.Eng.(BUAA)
+display_1: 
+  - postdoc, Ph.D.(BUAA), M.Eng.(BUAA), B.Eng.(BUAA)
+  - To join in fall 2025
 ---
 
 <!--  Add a short self introduction here -->
