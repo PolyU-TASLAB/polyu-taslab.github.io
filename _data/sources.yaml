@@ -368,14 +368,14 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/Bai2024InvariantEKF.pdf
-    - type:
-      text: 
+    - type: source
+      text: code
       link: 
-    - type: 
-      text: 
+    - type: data
+      text: video
       link:
-    - type: 
-      link: 
+    - type: website
+      link:  
   tags:
     - Invariant Extended Kalman Filtering
     - Deep learning
@@ -394,13 +394,13 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/BaiShiyu2024Toward_Persistent_Spatial_Awareness_A_Review_of_Pedestrian_Dead_Reckoning-Centric_Indoor_Positioning_With_Smartphones.pdf
-    - type:
-      text: 
+    - type: source
+      text: code
       link: 
-    - type: 
-      text: 
+    - type: data
+      text: video
       link:
-    - type: 
+    - type: website
       link: 
   tags:
     - Indoor positioning
@@ -419,13 +419,13 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/Zhang2024SafetyQuantifiable.pdf
-    - type:
-      text: 
+    - type: source
+      text: code
       link: 
-    - type: 
-      text: 
+    - type: data
+      text: video
       link:
-    - type: 
+    - type: website
       link: 
   tags:
     - 3D LiDAR
@@ -444,13 +444,13 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/Ivan2024GNSS24-0239.pdf
-    - type:
-      text: 
+    - type: source
+      text: code
       link: 
-    - type: 
-      text: 
+    - type: data
+      text: video
       link:
-    - type: 
+    - type: website
       link: 
   tags:
     - Time-Differenced Carrier Phase
@@ -466,13 +466,13 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/runzhihu2024pyrtklib2409.12996v1.pdf
-    - type:
-      text: 
+    - type: source
+      text: code
       link: 
-    - type: 
-      text: 
+    - type: data
+      text: video
       link:
-    - type: 
+    - type: website
       link: 
   tags:
     - Artificial intelligence
@@ -490,13 +490,13 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/Xia2024_Meas._Sci._Technol._35_126302.pdf
-    - type:
-      text: 
+    - type: source
+      text: code
       link: 
-    - type: 
-      text: 
+    - type: data
+      text: video
       link:
-    - type: 
+    - type: website
       link: 
   tags:
     - Altitude estimation
@@ -514,14 +514,14 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/XuRuijie2024Nonlinearity-Aware_ZUPT-Aided_Pedestrian_Inertial_Navigation.pdf
-    - type:
-      text: 
+    - type: source
+      text: code
       link: 
-    - type: 
-      text: 
+    - type: data
+      text: video
       link:
-    - type: 
-      link: 
+    - type: website
+      link:  
   tags:
     - Altitude estimation
     - Inertial compensation
@@ -538,13 +538,13 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/YangPenggao2024Subspace-based_Adaptive_GMM_Error_Modeling_for_Fault-Aware_Pseudorange-based_Positioning_in_Urban_Canyons.pdf
-    - type:
-      text: 
+    - type: source
+      text: code
       link: 
-    - type: 
-      text: 
+    - type: data
+      text: video
       link:
-    - type: 
+    - type: website
       link: 
   tags:
     - Cubature Kalman filter 
@@ -563,13 +563,13 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/BaiShiyu2024Factor_Graph_Optimization-Based_Smartphone_IMU-Only_Indoor_SLAM_With_Multihypothesis_Turning_Behavior_Loop_Closures.pdf
-    - type:
-      text: 
+    - type: source
+      text: code
       link: 
-    - type: 
-      text: 
+    - type: data
+      text: video
       link:
-    - type: 
+    - type: website
       link: 
   tags:
     - Pedestrian dead reckoning
@@ -585,13 +585,13 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/Zhengxi2024Tightly-coupled_Visual_Inertial_Map_Integration.pdf
-    - type:
-      text: 
+    - type: source
+      text: code
       link: 
-    - type: 
-      text: 
+    - type: data
+      text: video
       link:
-    - type: 
+    - type: website
       link: 
   tags:
     - Visual inertial odometry (VIO)
@@ -609,13 +609,13 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/SiyuanDu2024A_Novel_Consistent-Robust_SINS_GNSS_NHC_Integrated_Navigation_Method_for_Autonomous_Vehicles_Under_Intermittent_GNSS_Outage.pdf
-    - type:
-      text: 
+    - type: source
+      text: code
       link: 
-    - type: 
-      text: 
+    - type: data
+      text: video
       link:
-    - type: 
+    - type: website
       link: 
   tags:
     - Autonomous vehicles
@@ -632,14 +632,14 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/ChenZhiqiang2024ICRARELEAD.pdf
-    - type:
-      text: 
+    - type: source
+      text: code
       link: 
-    - type: 
-      text: 
+    - type: data
+      text: video
       link:
-    - type: 
-      link: 
+    - type: website
+      link:  
   tags:
     - ESIKF
     - Graduated Non-Convexit
@@ -655,13 +655,13 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/Zhu_2024_Meas._Sci._Technol._35_086303.pdf
-    - type:
-      text: 
+    - type: source
+      text: code
       link: 
-    - type: 
-      text: 
+    - type: data
+      text: video
       link:
-    - type: 
+    - type: website
       link: 
   tags:
     - Vehicle localization
@@ -678,13 +678,13 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/YihanZhong2024Trajectory_Smoothing_Using_GNSS_PDR_Integration_via_Factor_Graph_Optimization_in_Urban_Canyons.pdf
-    - type:
-      text: 
+    - type: source
+      text: code
       link: 
-    - type: 
-      text: 
+    - type: data
+      text: video
       link:
-    - type: 
+    - type: website
       link: 
   tags:
     - Factor graph optimization
@@ -701,13 +701,13 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/PeiwenYang2024TightlyJoined.odf
-    - type:
-      text: 
+    - type: source
+      text: code
       link: 
-    - type: 
-      text: 
+    - type: data
+      text: video
       link:
-    - type: 
+    - type: website
       link: 
   tags:
     - Positioning; 
@@ -726,13 +726,13 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/WenyuYang2024LiDAR_Stereo_Visual_Inertial_Pose_Estimation_Based_on_Feedforward_and_Feedbacks.pdf
-    - type:
-      text: 
+    - type: source
+      text: code
       link: 
-    - type: 
-      text: 
+    - type: data
+      text: video
       link:
-    - type: 
+    - type: website
       link: 
   tags:
     - LiDAR Stereo Visual Inertial odometry
@@ -2057,7 +2057,7 @@
   buttons:
     - type: manubot
       text: paper
-      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Integration of Vehicle Dynamic Model and System Identification Model for Extending the Navigation Service Under Sensor Failures.pdf
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/IVDMS.pdf
     - type: source
       text: code
       link: 
@@ -2067,7 +2067,11 @@
     - type: website
       link: 
   tags:
-    - 
+    - Autonomous  vehicles
+    - localization
+    - sensor  failure
+    - system identification
+    - vehicle dynamic models
   repo: 
 
 - id: 10.1049/itr2.12524
@@ -2088,14 +2092,13 @@
     - type: website
       link: 
   tags:
-    - Location awareness
-    - Vehicle dynamics 
-    - System identification
+    - HDVM
+    - Vector Map
+    - LiDAR
     - GNSS
-    - Laser rader
-    - Cameras
-    - Navigation
-  repo: 
+    - INS
+    - intelligent vehicles
+  repo: https://github.com/ebhrz/HDMap
 
 - id: doi:10.1109/PLANS53410.2023.10139983
   type: paper
@@ -2105,7 +2108,7 @@
   buttons:
     - type: manubot
       text: paper
-      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/LiDAR Feature Outlier Mitigation Aided by Graduated Non-convexity Relaxation for Safetycritical Localization in Urban Canyons.pdf
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Lidar_Feature_outlier.pdf
     - type: source
       text: code
       link: 
@@ -2115,25 +2118,38 @@
     - type: website
       link: 
   tags:
+    - 3D  LiDAR
+    - satety-critical  localization
+    - urban canyons
+    - fault detection and exclusion
+    - graduated non-convexity relaxation
   repo: 
 
 - id: 10.1109/TIM.2024.3369156
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/COST-EFFECTIVE.png
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/wen3-3369156-large.gif
   buttons:
     - type: manubot
       text: paper
-      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/7594.pdf
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Enhancing_GNSS_Positioning_Accuracy_for_Road_Monitoring_Systems_A_Factor_Graph_Optimization_Approach_Aided_by_Geospatial_Information.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link:   
   tags:
-    - Location awareness
-    - Weight measurement
-    - Resistance
-    - 3D displays
-    - Laser rader
-    - Pose estimation
-    - Navigation
+    - Factor graph optimization
+    - FGO
+    - geospatial information
+    - global navigation satellite system 
+    - GNSS
+    - map
+    - navigation
   repo: 
  
 - id: doi:10.33012/navi.660
@@ -2154,37 +2170,42 @@
     - type: website
       link: 
   tags:
-    - Autonomous Driving Vehicles
-    - Visual localization
-    - 3D LiDAR maps
-    - Image reconstruction
-    - Matching geometry
+    - factor graph optimization
+    - FGO
+    - fault detection and exclusion
+    - GNSS positioning
+    - GNSS
+    - integrity-constrained positioning
+    - integrity monitoring
+    - switch variables
+    - urban canyons
   repo: 
 
-- id: 
-  type: paper
-  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
-  # date: 2020-12-4
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/COST-EFFECTIVE.png
-  buttons:
-    - type: manubot
-      text: paper
-      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/7594.pdf
-    - type: source
-      text: code
-      link: 
-    - type: data
-      text: video
-      link:
-    - type: website
-      link: 
-  tags:
-    - Autonomous Driving Vehicles
-    - Visual localization
-    - 3D LiDAR maps
-    - Image reconstruction
-    - Matching geometry
-  repo: 
+#  PolyU Thsis
+# - id: 
+#   type: paper
+#   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+#   # date: 2020-12-4
+#   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/COST-EFFECTIVE.png
+#   buttons:
+#     - type: manubot
+#       text: paper
+#       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/7594.pdf
+#     - type: source
+#       text: code
+#       link: 
+#     - type: data
+#       text: video
+#       link:
+#     - type: website
+#       link: 
+#   tags:
+#     - Autonomous Driving Vehicles
+#     - Visual localization
+#     - 3D LiDAR maps
+#     - Image reconstruction
+#     - Matching geometry
+#   repo: 
 
 - id: 10.33012/navi.602
   type: paper
@@ -2211,7 +2232,7 @@
     - localization
     - positioning
     - urban canyons
-  repo: 
+  repo: https://github.com/IPNL-POLYU/UrbanNavDataset
 
 - id: 10.1109/TIV.2023.3339144
   type: paper
@@ -2222,15 +2243,21 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2311.02327v1.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: https://arclab-hku.github.io/ecmd/
   tags:
-    - FGO
-    - Fault detection and exclusion
-    - GNSS Positioning
-    - Integrity-constrained positioning
-    - Integrity monitoring
-    - switch variables
-    - urban canyons
-  repo: 
+    - Event-based Vision
+    - Multi-sensor Fusion
+    - SLAM
+    - Autonomous Driving
+    - Dataset
+  repo: https://arclab-hku.github.io/ecmd/
 
 - id: doi:10.1109/PLANS53410.2023.10140089
   type: paper
@@ -2250,31 +2277,40 @@
     - type: website
       link: 
   tags:
-    - Event-based Vision
-    - Multi-sensor
-    - Fusion
-    - SLAM
-    - Autonomous Driving
-    - Dataset
+    - localization
+    - vehicle dynamic model
+    - online system identification formatting
+    - autonomous systems
+    - sensor failures
   repo: 
 
-- id: 10.1109/TIV.2023.3338141
-  type: paper
-  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
-  # date: 2020-12-4
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Object-Aware.png
-  buttons:
-    - type: manubot
-      text: paper
-      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Dynamic_Object-Aware_LiDAR_Odometry_Aided_by_Joint_Weightings_Estimation_in_Urban_Areas.pdf
-    - Location awareness
-    - Navigation
-    - System dynamics
-    - Computational modeling
-    - Process control
-    - Sensor system
-    - Sensor
-  repo: 
+# repeated 
+# - id: 10.1109/TIV.2023.3338141
+#   type: paper
+#   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
+#   # date: 2020-12-4
+#   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Object-Aware.png
+#   buttons:
+#     - type: manubot
+#       text: paper
+#       :link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Dynamic_Object-Aware_LiDAR_Odometry_Aided_by_Joint_Weightings_Estimation_in_Urban_Areas.pdf
+#     - type: source
+#       text: code
+#       link: 
+#     - type: data
+#       text: video
+#       link:
+#     - type: website
+#       link: 
+#   tags:
+#     - Location awareness
+#     - Navigation
+#     - System dynamics
+#     - Computational modeling
+#     - Process control
+#     - Sensor system
+#     - Sensor
+#   repo: 
 
 - id: doi:10.1049/itr2.12273
   type: paper
@@ -2284,8 +2320,7 @@
   buttons:
     - type: manubot
       text: paper
-      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/IET Intelligent Trans Sys - 2022 - Zhong - Low‐cost solid‐state LiDAR inertial‐based localization with prior map for.pdf
-    - type: source
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Zhong_Low_cost_Lidar.pdf
       text: code
       link: 
     - type: data
@@ -2310,8 +2345,21 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Dynamic_Object-Aware_LiDAR_Odometry_Aided_by_Joint_Weightings_Estimation_in_Urban_Areas.pdf
-    -
-  repo: 
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: https://github.com/DarrenWong/code_for_dynaLO
+  tags:
+    - 3D LiDAR
+    - weighting estimation
+    - dynamic objects
+    - urban areas
+    - autonomous driving
+  repo: https://github.com/DarrenWong/code_for_dynaLO
  
 
 - id: doi:10.33012/2023.18637
@@ -2332,7 +2380,8 @@
     - type: website
       link: 
   tags:
-    -
+    - Autonomous Mobile Robots
+    - vehicle dynamic models
   repo: 
 
 - id: doi:10.48550/arXiv.2212.05477
@@ -2354,10 +2403,11 @@
       link: 
   tags:
     - 3D LiDAR
-    - weighting estimation
-    - dynamic objects
-    - urban areas
-    - autonomous driving
+    - GNSS-RTK
+    - Perception-aided integration
+    - NLOS exclusion
+    - Geometry distribution
+    - Urban canyons
   repo: 
 
 - id: 10.1109/TIV.2023.3323648
@@ -2369,9 +2419,21 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/GLIO_Tightly-Coupled_GNSS_LiDAR_IMU_Integration_for_Continuous_and_Drift-Free_State_Estimation_of_Intelligent_Vehicles_in_Urban_Areas.pdf
-
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: https://github.com/XikunLiu-huskit/GLIO
+  tags:
     - Robotics
-  repo: 
+    - Tightly-Coupled
+    - GNSS
+    - LiDAR 
+    - IMU
+  repo: https://github.com/XikunLiu-huskit/GLIO
 
 - id: doi:10.48550/arXiv.2211.15127
   type: paper
@@ -2442,6 +2504,9 @@
     - type: website
       link: 
   tags:
+    - Tightly-coupled
+    - localization
+    - Line Feature-aided
   repo: 
 
 
@@ -2461,8 +2526,14 @@
       text: video
       link:
     - type: website
-      link: 
+      link: https://sites.google.com/view/v2x-cooperative-navigation
   tags:
+    - Roadside Infrastructure
+    - LiDAR
+    - mapping
+    - localization
+    - V2X
+    - FGO
   repo: 
 
 - id: 10.1109/ITSC57777.2023.10422216
@@ -2481,8 +2552,12 @@
       text: video
       link:
     - type: website
-      link: 
+      link: https://sites.google.com/view/v2x-cooperative-navigation
   tags:
+    - C-V2X
+    - GNSS
+    - roadside units
+    - Continuous Error Map
   repo: 
 
 - id: 10.1109/ITSC57777.2023.10422540
@@ -2528,17 +2603,22 @@
     - type: website
       link: 
   tags:
-  repo: 
+    - FGO
+    - UAV
+    - MPC
+    - GNSS
+
+  repo: https://github.com/RoboticsPolyu/IPN_MPC
 
 - id: 10.33012/navi.590
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/navi.590.full.png
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/navi_590.png
   buttons:
     - type: manubot
       text: paper
-      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/navi.590.full.pdf
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/3DVAGRTK.pdf
     - type: source
       text: code
       link: 
@@ -2555,6 +2635,8 @@
     - NLOS
   repo: 
 
+
+#  To-Do : uplaod original doc
 - id: 10.33012/2023.19447
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
@@ -2588,7 +2670,7 @@
   buttons:
     - type: manubot
       text: paper
-      link: https://html.rhhz.net/jmsa/html/20230315.htm
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/s11804_023_00367_1.pdf
     - type: source
       text: code
       link: 
@@ -2598,10 +2680,10 @@
     - type: website
       link: 
   tags:
-    - 3D vision
-    - autonomous system
-    - GNSS-RTK
-    - urban canyons    - NLOS
-    - Robotics
-    - System and Control
+    - Maritime autonomous surface ships
+    - Deep learning 
+    - DL
+    - Artificial intelligence
+    - AI
+    - Review
   repo: 
