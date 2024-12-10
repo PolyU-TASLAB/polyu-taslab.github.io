@@ -129,7 +129,7 @@ header[data-big] .home {
   flex-grow: 0;
 }
 header[data-big] .logo {
-  height: 120px;
+  height: 160px;
   flex-shrink: 0;
 }
 header[data-big] .title-text {
