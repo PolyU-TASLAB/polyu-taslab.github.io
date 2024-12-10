@@ -1,5 +1,5 @@
 {% if include.lookup %}
-  {% assign post = site.projects 
+  {% assign post = site.infos 
     | where_exp: "post", "post.slug == include.lookup"
     | first
     | default: include
