@@ -64,9 +64,9 @@ In this way, we aim for TAS Lab staff, students, and collaborators around the wo
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/aaelogo.png"
        style="width: 100%; height: auto; object-fit: cover; max-width: 250px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/feng.png"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 250px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/RIAM_Logo.png"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 100px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
+       style="width: 100%; height: auto; object-fit: cover; max-width: 120px; margin: 0 auto; border-radius: 15px; vertical-align: middle;">
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
