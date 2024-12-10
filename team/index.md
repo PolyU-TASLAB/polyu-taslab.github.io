@@ -39,3 +39,45 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
 #### Diversity, Equity, and Inclusion (inspired by Dr. [Shreyas Kousik](https://www.shreyaskousik.com/))
 Autonomous systems is a way to increase equity in society, because they have the potential to help people across boundaries of ability or advantage. As I have found in my outreach work, robots in particular are a great way to bring a wide variety of people together in inclusive environments. But, it's also critical that we as engineers do the hard work now of creating diverse and inclusive communities that strive towards equitable applications of technology. I am eager to discuss these topics and efforts, so feel free to send me an email!
 
+
+#### We are grateful for the continued support we receive from:
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/polyu_logo.png"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/aaelogo.png"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/RIAM_Logo.png"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/RILSlogo.png"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/UGC_logo.png"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/RGC_logo.png"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/itc-logo.png"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/TD_logo.png"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/huawei_logo.webp"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/honor-logo-black.svg"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/meituan_logo.png"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+</div>
+
+<div style="text-align: center; margin-bottom: 20px;">
+<img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/RGC_logo.png"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/itc-logo.png"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/TD_logo.png"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/huawei_logo.webp"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/honor-logo-black.svg"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/meituan_logo.png"
+       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; border-radius: 15px;">
+</div>
