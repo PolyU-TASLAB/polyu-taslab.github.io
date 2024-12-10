@@ -11,5 +11,5 @@ Develop a comprehensive UAV perception and Perching solution, focusing on the in
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/Smart_Street_light_Poles_with_UAV_Airports.png" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+       style="width: 70%; height: auto; object-fit: cover; max-width: 600px; margin: 0 auto; border-radius: 15px;">
 </div>
