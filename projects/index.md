@@ -22,4 +22,4 @@ nav:
 <!-- {% include list.html data="_infos" component="info-excerpt" %}
  -->
 
- {% include list_students.html data="projects" component="portrait_students" filters="author == 'XNG'" %}
+ {% include list_infos.html data="infos" component="proj_excerpt" %}
