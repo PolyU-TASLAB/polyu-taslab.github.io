@@ -5,7 +5,6 @@ subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 image: images/project/huawei_mapping.gif
 tags: Localization, mapping
 order: 
-display_1: 123
 ---
 
 Developed LiDAR aided GNSS-RTK method based on the GNSS/IMU/LiDAR to provide highly accurate positioning results in the urban canyons.
