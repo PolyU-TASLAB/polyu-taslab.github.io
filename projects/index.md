@@ -19,4 +19,7 @@ nav:
 
 {% include search-info.html %}
 
-{% include list.html data="_infos" component="info-excerpt" %}
+<!-- {% include list.html data="_infos" component="info-excerpt" %}
+ -->
+
+ {% include list_students.html data="infos" component="portrait_students" filters="author == 'XNG'" %}
