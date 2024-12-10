@@ -19,8 +19,8 @@ We regularly have multiple openings for Postdoc/PhD/Mphil/RA/Internships (All-
 {%
   include button.html
   type="email"
-  text="tas.lab.polyu@gmail.com"
-  link="tas.lab.polyu@gmail.com"
+  text="welson.wen@polyu.edu.hk"
+  link="welson.wen@polyu.edu.hk"
 %}
 {%
   include button.html
