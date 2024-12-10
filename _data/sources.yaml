@@ -673,7 +673,7 @@
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/YihanZhong2024Trajectory_Smoothing_Using_GNSS_PDR_Integration.png
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/YihanZhong2024Trajectory_Smoothing_Using_GNSS_PDR_Integration.png
   buttons:
     - type: manubot
       text: paper
@@ -696,7 +696,7 @@
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
-  image: 
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/peiwen2024Tightlyjoined.png
   buttons:
     - type: manubot
       text: paper
