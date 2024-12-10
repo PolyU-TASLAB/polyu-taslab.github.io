@@ -30,8 +30,8 @@ sources = []
 # in-order list of plugins to run
 # plugins = ["google-scholar", "pubmed", "orcid", "sources"]
 # plugins = ["google-scholar"]
-# plugins = ["google-scholar", "orcid"]
-plugins = ["google-scholar", "sources"]
+plugins = ["orcid", "sources"]
+# plugins = ["google-scholar","sources"]
 
 
 
