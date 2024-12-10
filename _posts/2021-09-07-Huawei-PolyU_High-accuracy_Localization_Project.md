@@ -9,6 +9,8 @@ order:
 
 Developed LiDAR aided GNSS-RTK method based on the GNSS/IMU/LiDAR to provide highly accurate positioning results in the urban canyons.
 
+Huawei Technologies Co.Ltd.
+
 ## Funding Body
 
 Huawei Technologies Co.Ltd.
