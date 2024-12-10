@@ -2,15 +2,14 @@
 title: Research on GNSS Urban Positioning Algorithm Based on 3D LiDAR
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
-image: images/project/huawei_mapping.gif
+image: 
 tags: Localization, GNSS, 3D LIDAR, urban canyon
 order: 
 ---
 
-
+Department of Science and Technology of Guangdong Province (GDSTC)
 
 ## Funding Body
-
 Department of Science and Technology of Guangdong Province (GDSTC)
 
 <div style="text-align: center; margin-bottom: 20px;">
