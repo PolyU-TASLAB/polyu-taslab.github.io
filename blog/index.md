@@ -9,9 +9,9 @@ nav:
 
 <!-- Add content here.  -->
 
-{% include section.html %}
+<!-- {% include section.html %}
 
-{% include search-box.html %}
+{% include search-box.html %} -->
 
 <!-- {% include tags.html tags=site.tags %}
 
