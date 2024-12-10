@@ -9,9 +9,13 @@ nav:
 
 <!-- Include a large landscape photo below the TEAM title -->
 
+Our lab is made up of a highly engaged and collaborative team of researchers. We recognize that diverse teams do better research. We foster an environment where team members are treated equally, and where we respect and admire our differences. The team includes postdocs, students at all levels, staff, and our lab mascots.
+
+
+
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/team/team.png" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+       style="width: 70%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
 #### Faculty (Principal Investigator)
