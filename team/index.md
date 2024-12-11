@@ -90,9 +90,9 @@ In this way, we aim for TAS Lab staff, students, and collaborators around the wo
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/RGC_logo.jpg"
        style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 20 auto; vertical-align: middle;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/guangdong_logo.png"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 20 auto; vertical-align: middle;">
+       style="width: 100%; height: auto; object-fit: cover; max-width: 170px; margin: 20 auto; vertical-align: middle;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/huawei_logo.webp"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 20 auto; vertical-align: middle;">
+       style="width: 100%; height: auto; object-fit: cover; max-width: 180px; margin: 20 auto; vertical-align: middle;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/honor-logo-black.svg"
        style="width: 100%; height: auto; object-fit: cover; max-width: 120px; margin: 20 auto; vertical-align: middle;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/meituan_logo.png"
