@@ -42,16 +42,21 @@ To fulfill our mission to advance collaborative approaches and practical solutio
 
 We strive to do so as a moral imperative and also because:
 
-•	Diversity drives richer ideas and solutions.
-•	Equity ensures that all voices are heard and valued.
-•	Inclusion results in a seat at the decision-making table.
-•	Belonging means that we all feel welcome and confident in our roles.
+-	Diversity drives richer ideas and solutions.
+
+-	Equity ensures that all voices are heard and valued.
+
+-	Inclusion results in a seat at the decision-making table.
+
+-	Belonging means that we all feel welcome and confident in our roles.
 
 As such, TAS Lab is committed to:
 
-•	Dedicating time and creating safe spaces for people to voice diverse perspectives in decision making, teaching, research, and in our work with community partners.
-•	Acknowledging, working to understand, and repairing the power imbalances that have historically marginalized many voices, including in the field of international development.
-•	Progressively becoming more diverse, equitable, and inclusive, and ultimately becoming an anti-racist organization.
+-	Dedicating time and creating safe spaces for people to voice diverse perspectives in decision making, teaching, research, and in our work with community partners.
+
+-	Acknowledging, working to understand, and repairing the power imbalances that have historically marginalized many voices, including in the field of international development.
+
+-	Progressively becoming more diverse, equitable, and inclusive, and ultimately becoming an anti-racist organization.
 In this way, we aim for TAS Lab staff, students, and collaborators around the world to be able to design for a more equitable world.
 
 
