@@ -7,11 +7,11 @@ tags: Localization, UAV, urban canyons, GNSS, RTK, Vision
 order: 
 ---
 
-深圳市美團機器人研究院
+Meituan (Collaborative)/深圳市美團機器人研究院
 
 ## Funding Body
 
-深圳市美團機器人研究院
+Meituan (Collaborative)/深圳市美團機器人研究院
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/huawei_mapping.gif" alt="Team Banner" 
