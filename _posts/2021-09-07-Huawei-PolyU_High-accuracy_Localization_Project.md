@@ -19,7 +19,7 @@ Huawei Technologies Co.Ltd. (Aug 2021 - Aug 2022)
 
 ## Researcher
 
-Dr. Weisong Wen, Dr. Li-Ta Hsu, Dr. Jiachen Zhang, Dr. Xiwei Bai, HUANG Feng, Xikun Liu
+[Dr. Weisong Wen](https://polyu-taslab.github.io/members/Wen_Weisong.html), Dr. Li-Ta Hsu, Dr. Jiachen Zhang, Dr. Xiwei Bai, [HUANG Feng](https://polyu-taslab.github.io/members/Huang_Feng.html), [Xikun Liu](https://polyu-taslab.github.io/members/liu_xikun.html)
 
 ## Status
 
@@ -41,7 +41,6 @@ Completed
 
 ## Achievements
 
-* 3DLA GNSS-RTK is disassembly applied in Huawei CarBu mapping program.
 * 3DLA GNSS-RTK received award at TechConnect 2021 due to impactful research and innovation.  
 * Wen, W. W., & Hsu, L. T. (2022). 3D LiDAR aided GNSS NLOS mitigation in urban canyons. IEEE Transactions on Intelligent Transportation Systems, 23(10), 18224-18236. 
 * Liu, X., Wen, W., Huang, F., Gao, H., Wang, Y., & Hsu, L. T. (2024). 3D LiDAR aided GNSS NLOS mitigation for reliable GNSS-RTK positioning in urban canyons. Journal of Geodesy (Major revision).
