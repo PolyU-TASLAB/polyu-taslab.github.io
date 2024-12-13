@@ -38,11 +38,11 @@ defaults:
   - scope:
       type: "events"
     values:
-      layout: events
+      layout: post
   - scope:
       type: "blog"
     values:
-      layout: blog
+      layout: post
 
 collections:
   # generate page for each member
