@@ -18,4 +18,4 @@ nav:
 
 {% include search-info.html %}
 
-{% include list.html data="blog" component="post-excerpt" %}
+{% include list.html data="blog" component="post-excerpt" style="rich" %}
