@@ -1,9 +1,9 @@
 ---
 title: Example news
-subtitle: 
-# author: 
+subtitle: Example news
+# author: xxx
 image: images/project/huawei_mapping.gif
-tags: 
+tags: news
 order: 
 ---
 
@@ -22,4 +22,6 @@ Add Main body here.
 </div>
 
 <!-- Add video. -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m2Lm8RY2uYI?si=3g26doqQz-9AnBOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="text-align: center; margin-bottom: 20px;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/m2Lm8RY2uYI?si=3g26doqQz-9AnBOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>

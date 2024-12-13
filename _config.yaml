@@ -52,8 +52,6 @@ collections:
   posts:
     output: true
   # generate page for each project
-  projects_info:
-    output: true
   events:
     output: true
   blog:
