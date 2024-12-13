@@ -1,6 +1,6 @@
 ---
-title: Huawei-PolyU High-accuracy Localization Project
-subtitle: Knowledge Transfer to Unmanned Autonomous Systems
+title: Example news
+subtitle: 
 # author: XNG
 image: images/project/huawei_mapping.gif
 tags: Localization, mapping, sensor fusion
