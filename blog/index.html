@@ -501,6 +501,517 @@
 <!-- Add content here.  -->
   </section>
 
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<div class="search-box">
+  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
+  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
+    <i class="icon fa-solid fa-magnifying-glass"></i>
+  </button>
+</div>
+
+<!-- 
+
+
+  <div
+    class="tags"
+    
+    
+      data-link="/blog/"
+    
+  >
+    
+      <a
+        href="/blog/?search=&quot;tag: localization&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;localization&quot;"
+      >
+        localization
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: mapping&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;mapping&quot;"
+      >
+        mapping
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: sensor-fusion&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;sensor-fusion&quot;"
+      >
+        sensor-fusion
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: rtk&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;rtk&quot;"
+      >
+        rtk
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: gnss&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;gnss&quot;"
+      >
+        gnss
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: lidar&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;lidar&quot;"
+      >
+        lidar
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: imu&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;imu&quot;"
+      >
+        imu
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: virtual-satellites&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;virtual-satellites&quot;"
+      >
+        virtual-satellites
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: cycle-slip-detection&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;cycle-slip-detection&quot;"
+      >
+        cycle-slip-detection
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: 3d&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;3d&quot;"
+      >
+        3d
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: urban&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;urban&quot;"
+      >
+        urban
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: canyon&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;canyon&quot;"
+      >
+        canyon
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: uav&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;uav&quot;"
+      >
+        uav
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: canyons&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;canyons&quot;"
+      >
+        canyons
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: vision&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;vision&quot;"
+      >
+        vision
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: manufacturing&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;manufacturing&quot;"
+      >
+        manufacturing
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: sensor&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;sensor&quot;"
+      >
+        sensor
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: fusion&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;fusion&quot;"
+      >
+        fusion
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: fgo&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;fgo&quot;"
+      >
+        fgo
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: unmanned&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;unmanned&quot;"
+      >
+        unmanned
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: ground&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;ground&quot;"
+      >
+        ground
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: vehicle&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;vehicle&quot;"
+      >
+        vehicle
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: aerial&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;aerial&quot;"
+      >
+        aerial
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: cooperation&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;cooperation&quot;"
+      >
+        cooperation
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: robotics&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;robotics&quot;"
+      >
+        robotics
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: ins&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;ins&quot;"
+      >
+        ins
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: autonomous&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;autonomous&quot;"
+      >
+        autonomous
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: system&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;system&quot;"
+      >
+        system
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: ai&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;ai&quot;"
+      >
+        ai
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: 3dma-rtk&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;3dma-rtk&quot;"
+      >
+        3dma-rtk
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: risk&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;risk&quot;"
+      >
+        risk
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: prediction&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;prediction&quot;"
+      >
+        prediction
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: collision&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;collision&quot;"
+      >
+        collision
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: avoidance&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;avoidance&quot;"
+      >
+        avoidance
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: advanced&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;advanced&quot;"
+      >
+        advanced
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: safety&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;safety&quot;"
+      >
+        safety
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: systems&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;systems&quot;"
+      >
+        systems
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: automated&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;automated&quot;"
+      >
+        automated
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: operation&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;operation&quot;"
+      >
+        operation
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: motion&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;motion&quot;"
+      >
+        motion
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: planning&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;planning&quot;"
+      >
+        planning
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: navigation&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;navigation&quot;"
+      >
+        navigation
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: marine&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;marine&quot;"
+      >
+        marine
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: and&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;and&quot;"
+      >
+        and
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: surface&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;surface&quot;"
+      >
+        surface
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: intelligent&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;intelligent&quot;"
+      >
+        intelligent
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: vehicles&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;vehicles&quot;"
+      >
+        vehicles
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: inertial&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;inertial&quot;"
+      >
+        inertial
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: landing&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;landing&quot;"
+      >
+        landing
+      </a>
+    
+      <a
+        href="/blog/?search=&quot;tag: perching&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;perching&quot;"
+      >
+        perching
+      </a>
+    
+  </div>
+
+ -->
+
+<div class="search-info"></div>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+      <a href="/blog/2021-09-07-example_blog.html" class="post-excerpt-image" aria-label="Test blog">
+        <img src="/images/project/huawei_mapping.gif" alt="Test blog" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="post-excerpt-text">
+      <a href="/blog/2021-09-07-example_blog.html">Test blog</a>
+
+      <div class="post-info">
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally start on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>September 07, 2021</span>
+    </span>
+  
+
+  
+    <span data-tooltip="Last updated on">
+      <i class="icon fa-solid fa-clock-rotate-left"></i>
+      <span>December 13, 2024</span>
+    </span>
+  
+</div>
+
+
+  
+
+
+  <div class="tags" data-link="/blog">
+    
+      <a href="blog?search=%22tag:%20localization%22" class="tag" data-tooltip='Show items with the tag "localization"'>
+        localization
+      </a>
+    
+      <a href="blog?search=%22tag:%20mapping%22" class="tag" data-tooltip='Show items with the tag "mapping"'>
+        mapping
+      </a>
+    
+      <a href="blog?search=%22tag:%20sensor%22" class="tag" data-tooltip='Show items with the tag "sensor"'>
+        sensor
+      </a>
+    
+      <a href="blog?search=%22tag:%20fusion%22" class="tag" data-tooltip='Show items with the tag "fusion"'>
+        fusion
+      </a>
+    
+  </div>
+
+
+
+
+
+      
+      
+      <p data-search="-- Add breif description here. -- p Add breif description here. p p Huawei Technologies Co.Ltd. p h2 id funding-body Funding Body h2 p Huawei Technologies Co.Ltd. p div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project huawei mapping.gif alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div">
+        
+Add breif description here.
+
+      </p>
+    </div>
+  </div>
+</div>
+  </section>
+
 
     </main>
     
