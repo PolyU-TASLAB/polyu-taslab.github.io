@@ -36,7 +36,7 @@ defaults:
       layout: post
   # markdown files in /_projects_info
   - scope:
-      type: "projects_info"
+      type: "events"
     values:
       layout: post
 
