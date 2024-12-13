@@ -15,7 +15,7 @@ In this project, the LiDAR aided GNSS-RTK method based on the GNSS/IMU/LiDAR is 
 
 ## Funding Body
 
-Huawei Technologies Co.Ltd. (HK$2,150,000, Aug 2021 - Aug 2022)
+Huawei Technologies Co.Ltd. (Aug 2021 - Aug 2022)
 
 ## Researcher
 
@@ -38,3 +38,14 @@ Completed
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/huawei_mapping.gif" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
+
+## Achievements
+
+* 3DLA GNSS-RTK is disassembly applied in Huawei CarBu mapping program.
+* 3DLA GNSS-RTK received award at TechConnect 2021 due to impactful research and innovation.  
+* Wen, W. W., & Hsu, L. T. (2022). 3D LiDAR aided GNSS NLOS mitigation in urban canyons. IEEE Transactions on Intelligent Transportation Systems, 23(10), 18224-18236. 
+* Liu, X., Wen, W., Huang, F., Gao, H., Wang, Y., & Hsu, L. T. (2024). 3D LiDAR aided GNSS NLOS mitigation for reliable GNSS-RTK positioning in urban canyons. Journal of Geodesy (Major revision).
+* Zhong, Y., Huang, F., Zhang, J., Wen, W., & Hsu, L. T. (2023). Low‐cost solid‐state LiDAR/inertial‐based localization with prior map for autonomous systems in urban scenarios. IET Intelligent Transport Systems, 17(3), 474-486. 
+* Zhang, J., Wen, W., Huang, F., Wang, Y., Chen, X., & Hsu, L. T. (2022). GNSS-RTK Adaptively Integrated with LiDAR/IMU Odometry for Continuously Global Positioning in Urban Canyons. Applied Sciences, 12(10), 5193.
+* Huang, F., Wen, W., Ng, H. F., & Hsu, L. T. (2022, October). Lidar aided cycle slip detection for gnss real-time kinematic positioning in urban environments. In 2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC) (pp. 1572-1578). IEEE. 
+* Wen, W., & Hsu, L. T. (2021, September). 3D LiDAR aided GNSS real-time kinematic positioning. In Proceedings of the 34th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2021) (pp. 2212-2220).
