@@ -9,7 +9,7 @@ links:
   home-page: https://darrenwong.github.io/
   orcid: 0000-0002-3821-5993
   google-scholar: amFxKFcAAAAJ
-  github: DarrenWong
+  github: https://github.com/DarrenWong
   email: darren-f.huang@connect.polyu.hk
   profile: 
 
