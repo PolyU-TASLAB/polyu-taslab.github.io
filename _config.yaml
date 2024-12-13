@@ -39,6 +39,10 @@ defaults:
       type: "events"
     values:
       layout: events
+  - scope:
+      type: "blog"
+    values:
+      layout: blog
 
 collections:
   # generate page for each member
@@ -51,6 +55,8 @@ collections:
   projects_info:
     output: true
   events:
+    output: true
+  blog:
     output: true
 
 # jekyll plugins
