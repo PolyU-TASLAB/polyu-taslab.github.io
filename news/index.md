@@ -11,10 +11,10 @@ nav:
 
 {% include section.html %}
 
-## Events & News
-
 {% include search-box.html %}
+
+{% include tags.html tags=site.tags %}
 
 {% include search-info.html %}
 
-{% include list.html data="events" component="post-excerpt" style="rich" %}
+{% include list.html data="events" component="post-excerpt" %}
