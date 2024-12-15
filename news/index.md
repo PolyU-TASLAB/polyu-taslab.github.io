@@ -17,4 +17,4 @@ nav:
 
 {% include search-info.html %}
 
-{% include list.html data="events" component="post-excerpt" %}
+{% include list.html data="events" component="post-excerpt" style="rich" %}
