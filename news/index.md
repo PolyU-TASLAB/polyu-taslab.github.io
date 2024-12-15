@@ -5,7 +5,7 @@ nav:
   tooltip: Recent News
 ---
 
-# {% include icon.html icon="fa-light fa-bullhorn" %}News
+# {% include icon.html icon="fa-light fa-bullhorn" %}Events & News
 
 <!-- TODO: Add content here. -->
 
