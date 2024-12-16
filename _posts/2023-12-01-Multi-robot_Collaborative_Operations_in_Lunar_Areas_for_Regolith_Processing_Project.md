@@ -6,7 +6,9 @@ image: images/project/speed_4_combined_arms.gif
 tags: Multi-robot collaboration, MPC, mapping, Leader-Follower Formation Algorithm, sensor-fusion, Visual odometry, LiDAR, IMU
 order: 
 ---
+
 ## Abstract
+
 
 Research on the lunar surface necessitates significant involvement of Unmanned Autonomous Systems (UASs), including autonomous vehicles equipped with robotic arms for the collection of soil samples from the challenging terrain. Two primary challenges must be overcome in executing such tasks: firstly, ensuring precise control accuracy on the rugged surface, and secondly, addressing the safety concerns associated with the operation of space robotics.
 
