@@ -2,7 +2,7 @@
 title: Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing (first phase)
 subtitle: High Accuracy Positioning with Multi-sensory Integration for Robotics in Complex Scenarios
 # author: CYM
-image: images/project/robotic_arms.gif
+image: images/project/speed_4_combined_arms.gif
 tags: Multi-robot collaboration, MPC, mapping, Leader-Follower Formation Algorithm, sensor-fusion, Visual odometry, LiDAR, IMU
 order: 
 ---
@@ -41,6 +41,10 @@ Ongoing
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/speed_4_combined_arms.gif alt="Team Banner" 
+       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+</div>
 ## Achievements
 
 * 3DLA GNSS-RTK received award at TechConnect 2021 due to impactful research and innovation.  
