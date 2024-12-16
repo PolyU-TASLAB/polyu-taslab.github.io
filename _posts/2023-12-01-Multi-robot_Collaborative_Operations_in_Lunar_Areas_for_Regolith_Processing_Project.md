@@ -2,7 +2,7 @@
 title: Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing (first phase)
 subtitle: High Accuracy Positioning with Multi-sensory Integration for Robotics in Complex Scenarios
 # author: CYM
-image: images/project/speed_4_combined_arms.gif
+image: images/project/prototype.png
 tags: Multi-robot collaboration, MPC, mapping, Leader-Follower Formation Algorithm, sensor-fusion, Visual odometry, LiDAR, IMU
 order: 
 ---
