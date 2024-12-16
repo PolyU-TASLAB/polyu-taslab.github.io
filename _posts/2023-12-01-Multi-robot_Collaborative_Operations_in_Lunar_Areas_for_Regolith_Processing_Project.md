@@ -8,11 +8,9 @@ order:
 ---
 ## Abstract
 
-Researches on lunar surface requires heavy participation of Unmanned Autonomous Systems(UASs), such as autonomous vehicle with robotic arms to collect soil samples from the rugged surface.
+Research on the lunar surface necessitates significant involvement of Unmanned Autonomous Systems (UASs), including autonomous vehicles equipped with robotic arms for the collection of soil samples from the challenging terrain. Two primary challenges must be overcome in executing such tasks: firstly, ensuring precise control accuracy on the rugged surface, and secondly, addressing the safety concerns associated with the operation of space robotics.
 
-Accurate positioning is one of the indispensable components for the fully autonomous driving vehicle. Global Navigation Satellite System (GNSS) Real-time Kinematic (RTK) has shown centimeter-level absolute positioning results in open-sky areas. However, it is also known suffering from polluted GNSS measurements and poor satellites' geometry due to signal blockage and reflection in urban canyons, like Hong Kong and Tokyo, where are filled with tall buildings and excessive dynamic objects (moving vehicles, pedestrians). Apart from GNSS, the onboard sensors for positioning also include light detection and ranging (LiDAR) and the inertial measurement unit (IMU). However, the accuracy of LiDAR positioning is also deteriorated due to the unexpected dynamic objects. Moreover, without a prior map, it will also suffer from drift during long-term operation even with the help of IMU. 
 
-In this project, the LiDAR aided GNSS-RTK method based on the GNSS/IMU/LiDAR is developed to provide highly accurate positioning results in the urban canyons mentioned above. The developed system firstly takes the advantage of raw measurements from GNSS, LiDAR and IMU by tightly integrating them into a nonlinear optimization problem to obtain accurate float solution. Particularly, NLOS exclusion and cycle slip detection are performed to eliminate the impact of the outliers. Secondly, the system utilizes the LiDAR landmarks as "virtual satellites" to improve the distribution geometry of the received satellites to achieve a higher possibility on fix resolution. The evaluation results in urban canyons of Hong Kong show the effectiveness of the developed method.
 
 
 ## Funding Body
@@ -21,7 +19,7 @@ Research Centre for Deep Space Explorations(RCDSE) (Dec 2023 - Dec 2025)
 
 ## Researcher
 
-[Dr. Weisong Wen](https://polyu-taslab.github.io/members/Wen_Weisong.html), Dr. Li-Ta Hsu, Dr. Jiachen Zhang, Dr. Xiwei Bai, [HUANG Feng](https://polyu-taslab.github.io/members/Huang_Feng.html), [Xikun Liu](https://polyu-taslab.github.io/members/liu_xikun.html)
+[Dr. Weisong Wen](https://polyu-taslab.github.io/members/Wen_Weisong.html) ,
 
 ## Status
 
