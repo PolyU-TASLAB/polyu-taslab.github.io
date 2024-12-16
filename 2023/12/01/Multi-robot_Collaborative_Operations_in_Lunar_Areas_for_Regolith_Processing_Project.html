@@ -39,21 +39,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing | TAS LAB</title>
+<title>Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing (first phase) | TAS LAB</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing">
+<meta name="title" content="Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing (first phase)">
 <meta name="description" content="Trustworthy Autonomous Systems Laboratory. Welcome to the Trustworthy Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 
-<meta property="og:title" content="Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing">
+<meta property="og:title" content="Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing (first phase)">
 <meta property="og:site_title" content="TAS LAB">
 <meta property="og:description" content="Trustworthy Autonomous Systems Laboratory. Welcome to the Trustworthy Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="og:url" content="https://polyu-taslab.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing">
+<meta property="twitter:title" content="Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing (first phase)">
 <meta property="twitter:description" content="Trustworthy Autonomous Systems Laboratory. Welcome to the Trustworthy Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="twitter:url" content="https://polyu-taslab.github.io">
 <meta property="twitter:card" content="summary_large_image">
@@ -69,9 +69,9 @@
     
       "@type": "WebSite",
     
-    "name": "Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing",
+    "name": "Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing (first phase)",
     "description": "Trustworthy Autonomous Systems Laboratory. Welcome to the Trustworthy Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
-    "headline": "Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing",
+    "headline": "Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing (first phase)",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -442,13 +442,13 @@
 
   <section class="background" data-size="1">
     <!--
-  background: ;
+  background: images/project/huawei_mapping.gif;
   dark: ;
   size: 1;
 -->
 
 
-<h1 class="center">Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing</h1>
+<h1 class="center">Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing (first phase)</h1>
 
 <div class="post-info">
   
@@ -477,12 +477,52 @@
 
   <div class="tags" data-link="/blog">
     
-      <a href="blog?search=%22tag:%20robotics%22" class="tag" data-tooltip='Show items with the tag "robotics"'>
-        robotics
+      <a href="blog?search=%22tag:%20multi-robot%22" class="tag" data-tooltip='Show items with the tag "multi-robot"'>
+        multi-robot
       </a>
     
-      <a href="blog?search=%22tag:%20cooperation%22" class="tag" data-tooltip='Show items with the tag "cooperation"'>
-        cooperation
+      <a href="blog?search=%22tag:%20collaboration%22" class="tag" data-tooltip='Show items with the tag "collaboration"'>
+        collaboration
+      </a>
+    
+      <a href="blog?search=%22tag:%20mpc%22" class="tag" data-tooltip='Show items with the tag "mpc"'>
+        mpc
+      </a>
+    
+      <a href="blog?search=%22tag:%20mapping%22" class="tag" data-tooltip='Show items with the tag "mapping"'>
+        mapping
+      </a>
+    
+      <a href="blog?search=%22tag:%20leader-follower%22" class="tag" data-tooltip='Show items with the tag "leader-follower"'>
+        leader-follower
+      </a>
+    
+      <a href="blog?search=%22tag:%20formation%22" class="tag" data-tooltip='Show items with the tag "formation"'>
+        formation
+      </a>
+    
+      <a href="blog?search=%22tag:%20algorithm%22" class="tag" data-tooltip='Show items with the tag "algorithm"'>
+        algorithm
+      </a>
+    
+      <a href="blog?search=%22tag:%20sensor-fusion%22" class="tag" data-tooltip='Show items with the tag "sensor-fusion"'>
+        sensor-fusion
+      </a>
+    
+      <a href="blog?search=%22tag:%20visual%22" class="tag" data-tooltip='Show items with the tag "visual"'>
+        visual
+      </a>
+    
+      <a href="blog?search=%22tag:%20odometry%22" class="tag" data-tooltip='Show items with the tag "odometry"'>
+        odometry
+      </a>
+    
+      <a href="blog?search=%22tag:%20lidar%22" class="tag" data-tooltip='Show items with the tag "lidar"'>
+        lidar
+      </a>
+    
+      <a href="blog?search=%22tag:%20imu%22" class="tag" data-tooltip='Show items with the tag "imu"'>
+        imu
       </a>
     
   </div>
@@ -500,15 +540,49 @@
 -->
 
 
-<p>RCDSE, PolyU</p>
+<h2 id="abstract">Abstract</h2>
+
+<p>Researches on lunar surface requires heavy participation of Unmanned Autonomous Systems(UASs), such as autonomous vehicle with robotic arms to collect soil samples from the rugged surface.</p>
+
+<p>Accurate positioning is one of the indispensable components for the fully autonomous driving vehicle. Global Navigation Satellite System (GNSS) Real-time Kinematic (RTK) has shown centimeter-level absolute positioning results in open-sky areas. However, it is also known suffering from polluted GNSS measurements and poor satellites’ geometry due to signal blockage and reflection in urban canyons, like Hong Kong and Tokyo, where are filled with tall buildings and excessive dynamic objects (moving vehicles, pedestrians). Apart from GNSS, the onboard sensors for positioning also include light detection and ranging (LiDAR) and the inertial measurement unit (IMU). However, the accuracy of LiDAR positioning is also deteriorated due to the unexpected dynamic objects. Moreover, without a prior map, it will also suffer from drift during long-term operation even with the help of IMU.</p>
+
+<p>In this project, the LiDAR aided GNSS-RTK method based on the GNSS/IMU/LiDAR is developed to provide highly accurate positioning results in the urban canyons mentioned above. The developed system firstly takes the advantage of raw measurements from GNSS, LiDAR and IMU by tightly integrating them into a nonlinear optimization problem to obtain accurate float solution. Particularly, NLOS exclusion and cycle slip detection are performed to eliminate the impact of the outliers. Secondly, the system utilizes the LiDAR landmarks as “virtual satellites” to improve the distribution geometry of the received satellites to achieve a higher possibility on fix resolution. The evaluation results in urban canyons of Hong Kong show the effectiveness of the developed method.</p>
 
 <h2 id="funding-body">Funding Body</h2>
 
-<p>RCDSE, PolyU</p>
+<p>Research Centre for Deep Space Explorations(RCDSE) (Dec 2023 - Dec 2025)</p>
+
+<h2 id="researcher">Researcher</h2>
+
+<p><a href="https://polyu-taslab.github.io/members/Wen_Weisong.html">Dr. Weisong Wen</a>, Dr. Li-Ta Hsu, Dr. Jiachen Zhang, Dr. Xiwei Bai, <a href="https://polyu-taslab.github.io/members/Huang_Feng.html">HUANG Feng</a>, <a href="https://polyu-taslab.github.io/members/liu_xikun.html">Xikun Liu</a></p>
+
+<h2 id="status">Status</h2>
+
+<p>Ongoing</p>
+
+<h2 id="system-framework">System Framework</h2>
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/huawei_mapping_framework.png" alt="Team Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+</div>
+
+<h2 id="demonstration">Demonstration</h2>
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/huawei_mapping.gif" alt="Team Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
+
+<h2 id="achievements">Achievements</h2>
+
+<ul>
+  <li>3DLA GNSS-RTK received award at TechConnect 2021 due to impactful research and innovation.</li>
+  <li>Wen, W. W., &amp; Hsu, L. T. (2022). 3D LiDAR aided GNSS NLOS mitigation in urban canyons. IEEE Transactions on Intelligent Transportation Systems, 23(10), 18224-18236.</li>
+  <li>Liu, X., Wen, W., Huang, F., Gao, H., Wang, Y., &amp; Hsu, L. T. (2024). 3D LiDAR aided GNSS NLOS mitigation for reliable GNSS-RTK positioning in urban canyons. Journal of Geodesy (Major revision).</li>
+  <li>Zhong, Y., Huang, F., Zhang, J., Wen, W., &amp; Hsu, L. T. (2023). Low‐cost solid‐state LiDAR/inertial‐based localization with prior map for autonomous systems in urban scenarios. IET Intelligent Transport Systems, 17(3), 474-486.</li>
+  <li>Zhang, J., Wen, W., Huang, F., Wang, Y., Chen, X., &amp; Hsu, L. T. (2022). GNSS-RTK Adaptively Integrated with LiDAR/IMU Odometry for Continuously Global Positioning in Urban Canyons. Applied Sciences, 12(10), 5193.</li>
+  <li>Huang, F., Wen, W., Ng, H. F., &amp; Hsu, L. T. (2022, October). Lidar aided cycle slip detection for gnss real-time kinematic positioning in urban environments. In 2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC) (pp. 1572-1578). IEEE.</li>
+  <li>Wen, W., &amp; Hsu, L. T. (2021, September). 3D LiDAR aided GNSS real-time kinematic positioning. In Proceedings of the 34th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2021) (pp. 2212-2220).</li>
+</ul>
   </section>
 
   
@@ -527,16 +601,16 @@
   <span>
     
       <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
-      <a href="/2023/10/15/Vehicle-infrastructure_Collaboration_for_Connected_Unmanned_Ground_and_Aerial_Vehicles_in_Complex_Urban_Canyons.html">
-        Vehicle-infrastructure Collaboration for Connected Unmanned Ground and Aerial Vehicles in Complex Urban Canyons
+      <a href="/2023/12/01/Multi-robot_Collaborative_Operations_in_Lunar_Areas_for_Regolith_Processing.html">
+        Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing
       </a>
     
   </span>
   <span>
     
       Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/2023/12/01/Multi-robot_Collaborative_Operations_in_Lunar_Areas_for_Regolith_Processing_Project.html">
-        Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing (first phase)
+      <a href="/2024/01/01/Data-driven-assisted_GNSS_RTK-INS_Navigation_for_Autonomous_Systems_in_Urban_Canyons.html">
+        Data-driven-assisted GNSS RTK/INS Navigation for Autonomous Systems in Urban Canyons
       </a>
     
   </span>
