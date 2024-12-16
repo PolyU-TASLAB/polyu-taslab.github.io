@@ -7,10 +7,9 @@ tags: Multi-robot collaboration, MPC, mapping, Leader-Follower Formation Algorit
 order: 
 ---
 
-## Abstract
-
-
 Research on the lunar surface necessitates significant involvement of Unmanned Autonomous Systems (UASs), including autonomous vehicles equipped with robotic arms for the collection of soil samples from the challenging terrain. Two primary challenges must be overcome in executing such tasks: firstly, ensuring precise control accuracy on the rugged surface, and secondly, addressing the safety concerns associated with the operation of space robotics.
+
+## Abstract
 
 In order to address the challenges encountered during the scientific research task, a multi-robot collaboration system has been proposed. The system leverages multi-robot positioning techniques to ensure precise and accurate positioning. By incorporating Factor Graph Optimization (FGO) in conjunction with multi-sensor aided GNSS positioning, the system aims to enhance the overall positioning accuracy. Our FGO-based RTK/INS/Odometer (RIO) integration successfully mitigates outliers, achieving a Root Mean Square Error (RMSE) of 0.30 meters. This represents a significant improvement of 79.2% and 93.6% compared to RTKLIB-RTK and F9P-RTK, respectively. Within our multi-robot framework, FGO-based RIO-OM plays a crucial role in optimizing the collective state of the entire team. By integrating individual robot position estimates, relative position data, and sensor information into a comprehensive global optimization problem, the system ensures efficient and effective collaboration among the robots.
 
