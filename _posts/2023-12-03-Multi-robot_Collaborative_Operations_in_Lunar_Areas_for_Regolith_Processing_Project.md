@@ -26,7 +26,7 @@ Research Centre for Deep Space Explorations  (Dec 2023 - Dec 2025)
 
 ## Researcher
 
-[Dr. Weisong Wen](https://polyu-taslab.github.io/members/Wen_Weisong.html), Dr. Li-Ta Hsu, Dr. Jiachen Zhang, Dr. Xiwei Bai, [HUANG Feng](https://polyu-taslab.github.io/members/Huang_Feng.html), [Xikun Liu](https://polyu-taslab.github.io/members/liu_xikun.html)
+[Dr. Weisong Wen](https://polyu-taslab.github.io/members/Wen_Weisong.html), Qian Liang
 
 ## Status
 
