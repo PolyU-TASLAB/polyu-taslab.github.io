@@ -1,9 +1,9 @@
 ---
-title: Huawei-PolyU High-accuracy Localization Project (second phase)
-subtitle: Knowledge Transfer to Unmanned Autonomous Systems
+title: Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing
+subtitle: High Accuracy Positioning with Multi-sensory Integration for Robotics in Complex Scenarios
 # author: CYM
 image: images/project/prototype.png
-tags: Localization, mapping, sensor-fusion, RTK, GNSS, LiDAR, IMU, Virtual-satellites, Cycle-slip-detection
+tags:  Multi-robot-collaboration, MPC, mapping, Leader-Follower-Formation-Algorithm, sensor-fusion, LiDAR, IMU
 order: 
 ---
 ## Abstract
@@ -17,7 +17,7 @@ Looking ahead, the future research trajectory will be centered around further en
 
 ## Funding Body
 
-Huawei Technologies Co.Ltd. (Aug 2021 - Aug 2022)
+Research Centre for Deep Space Explorations  (Dec 2023 - Dec 2025)
 
 ## Researcher
 
@@ -25,7 +25,7 @@ Huawei Technologies Co.Ltd. (Aug 2021 - Aug 2022)
 
 ## Status
 
-Completed
+Ongoing
 
 ## System Framework
 
