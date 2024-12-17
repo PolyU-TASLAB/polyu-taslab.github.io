@@ -1,5 +1,5 @@
 ---
-title: Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing (first phase)
+title: Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing
 subtitle: High Accuracy Positioning with Multi-sensory Integration for Robotics in Complex Scenarios
 # author: XNG
 image: 
