@@ -8,6 +8,11 @@ order:
 ---
 ## Abstract
 
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/rugged_surface_problem_lunar.jpg" alt="Team Banner" 
+       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+</div>
+
 Research conducted on the lunar surface necessitates the utilization of Unmanned Autonomous Systems (UASs) equipped with sophisticated robotic arms designed for the purpose of collecting soil samples. The primary challenges encountered in this endeavor revolve around the need for precise control over the UASs while navigating through rugged and uneven terrain, all while ensuring the utmost safety of the operation. To tackle these challenges head-on, a cutting-edge multi-robot collaboration system has been conceptualized and put forth as a solution. This innovative system leverages the power of Factor Graph Optimization (FGO) to achieve unparalleled accuracy in positioning the UASs during the soil sample collection process.
 
 <div style="text-align: center; margin-bottom: 20px;">
