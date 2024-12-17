@@ -1,9 +1,9 @@
 ---
-title: Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing (first phase)
-subtitle: High Accuracy Positioning with Multi-sensory Integration for Robotics in Complex Scenarios
-# author: CYM
+title: Huawei-PolyU High-accuracy Localization Project (second phase)
+subtitle: Knowledge Transfer to Unmanned Autonomous Systems
+# author: XNG
 image: images/project/huawei_mapping.gif
-tags: Multi-robot collaboration, control, mapping, sensor-fusion, Visual odometry, LiDAR, IMU, 
+tags: Localization, mapping, sensor-fusion, RTK, GNSS, LiDAR, IMU, Virtual-satellites, Cycle-slip-detection
 order: 
 ---
 ## Abstract
@@ -15,7 +15,7 @@ In this project, the LiDAR aided GNSS-RTK method based on the GNSS/IMU/LiDAR is 
 
 ## Funding Body
 
-Research Centre for Deep Space Explorations(RCDSE) (Aug 2021 - Aug 2022)
+Huawei Technologies Co.Ltd. (Aug 2021 - Aug 2022)
 
 ## Researcher
 
