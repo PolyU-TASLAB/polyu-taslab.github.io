@@ -17,7 +17,7 @@ Looking ahead, the future research trajectory will be centered around further en
 
 ## Funding Body
 
-Research Centre for Deep Space Explorations(RCDSE) (Dec 2023 - Dec 2025)
+Research Centre for Deep Space Explorations(RCDSE). (Dec 2023 - Dec 2025)
 
 ## Researcher
 
