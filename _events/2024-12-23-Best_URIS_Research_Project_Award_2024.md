@@ -7,6 +7,9 @@ tags: news
 order: 
 ---
 
+A High-definition Map generation method based on the integration of semantic segmentation and SLAM algorithms was developed, providing new possibilities for large-scale data resources in intelligent transportation and autonomous driving.
+
+
 ## A high-definition map with traffic signs based on LiDAR-Visual-IMU fusion SLAM method
 
 A high-definition map (HD map) is a crucial component of autonomous driving and intelligent transportation systems. However, generating HD maps for large-scale urban environments involves enormous data volumes—reaching hundreds of terabytes—leading to significant manual costs for data extraction and labelling. This research introduces a novel method for HD map generation by integrating semantic segmentation with SLAM algorithms. The system combines data from LiDAR, cameras, and IMU sensors to construct 3D colour scenes, while the images features are extracted and labelled such as lanes, traffic lights, and road signs through semantic segmentation and then fused into the 3D scene, producing an HD map embedded with labelling information. This approach provides a scalable solution for acquisition and generating segmented and labelled training data, essential for autonomous driving development. In the future, advanced multi-modal AI technologies will be integrated to fuse higher-dimensional data, and the system has the potential to be deployed on drones, enabling more flexible and efficient mapping.
