@@ -1,9 +1,9 @@
 ---
-title: Huawei-PolyU High-accuracy Localization Project (second phase)
-subtitle: Knowledge Transfer to Unmanned Autonomous Systems
-# author: XNG
-image: images/project/huawei_mapping.png
-tags: Localization, mapping, sensor-fusion, RTK, GNSS, LiDAR, IMU, Virtual-satellites, Cycle-slip-detection
+title: Reliable UAV Perception and Perching Solutions in Urban Streets
+subtitle: Smart Street light Poles with UAV Airports
+# author: ZHAO Jiaqi
+image: images/project/Smart_Street_light_Poles_with_UAV_Airports.png
+tags: Landing, UAV Perching, UAV Airport
 order: 
 ---
 
@@ -26,6 +26,16 @@ POLYU AAE(Capstone Project)
 [Dr. Weisong Wen](https://polyu-taslab.github.io/members/Wen_Weisong.html), [Mr. ZHAO Jiaqi](https://polyu-taslab.github.io/members/ZHAO_Jiaqi.html), Mr. Li Mingjue, [Mr. HU Jiahao](https://polyu-taslab.github.io/members/hujiahao.html), [Mr. Xiao Naigui](https://polyu-taslab.github.io/members/Xiao_Naigui.html), Mr. FU Chenlei
 ## Status
 In progress
+
+
+<!-- ---
+title: Huawei-PolyU High-accuracy Localization Project (second phase)
+subtitle: Knowledge Transfer to Unmanned Autonomous Systems
+# author: XNG
+image: images/project/huawei_mapping.gif
+tags: Localization, mapping, sensor-fusion, RTK, GNSS, LiDAR, IMU, Virtual-satellites, Cycle-slip-detection
+order: 
+--- -->
 
 
 <!-- Developed LiDAR aided GNSS-RTK method based on the GNSS/IMU/LiDAR to provide highly accurate positioning results in the urban canyons.
