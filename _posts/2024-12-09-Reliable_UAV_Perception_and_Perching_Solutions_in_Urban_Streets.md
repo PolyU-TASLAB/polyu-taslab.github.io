@@ -6,6 +6,9 @@ image: images/project/Smart_Street_light_Poles_with_UAV_Airports.png
 tags: Landing, UAV Perching, UAV Airport
 order: 
 ---
+
+Develop a comprehensive UAV perception and Perching solution, focusing on the integration of smart streetlight poles with a UAV takeoff, landing, and battery exchange platform
+
 ## Abstract
 
 Develop a comprehensive UAV perception and Perching solution, focusing on the integration of smart streetlight poles with a UAV takeoff, landing, and battery exchange platform
