@@ -7,7 +7,28 @@ tags: Localization, mapping, sensor-fusion, RTK, GNSS, LiDAR, IMU, Virtual-satel
 order: 
 ---
 
-Developed LiDAR aided GNSS-RTK method based on the GNSS/IMU/LiDAR to provide highly accurate positioning results in the urban canyons.
+Develop a comprehensive UAV perception and Perching solution, focusing on the integration of smart streetlight poles with a UAV takeoff, landing, and battery exchange platform
+
+## Abstract
+
+Develop a comprehensive UAV perception and Perching solution, focusing on the integration of smart streetlight poles with a UAV takeoff, landing, and battery exchange platform
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/Smart_Street_light_Poles_with_UAV_Airports.png" alt="Team Banner" 
+       style="width: 70%; height: auto; object-fit: cover; max-width: 600px; margin: 0 auto; border-radius: 15px;">
+</div>
+
+## Funding Body
+
+POLYU AAE(Capstone Project) 
+
+## Researcher
+
+[Dr. Weisong Wen](https://polyu-taslab.github.io/members/Wen_Weisong.html), [Mr. ZHAO Jiaqi](https://polyu-taslab.github.io/members/ZHAO_Jiaqi.html), Mr. Li Mingjue, [Mr. HU Jiahao](https://polyu-taslab.github.io/members/hujiahao.html), [Mr. Xiao Naigui](https://polyu-taslab.github.io/members/Xiao_Naigui.html), Mr. FU Chenlei
+## Status
+In progress
+
+
+<!-- Developed LiDAR aided GNSS-RTK method based on the GNSS/IMU/LiDAR to provide highly accurate positioning results in the urban canyons.
 
 ## Introduction
 Accurate positioning is one of the indispensable components for the fully autonomous driving vehicle. Global Navigation Satellite System (GNSS) Real-time Kinematic (RTK) has shown centimeter-level absolute positioning results in open-sky areas. However, it is also known suffering from polluted GNSS measurements and poor satellites' geometry due to signal blockage and reflection in urban canyons, like Hong Kong and Tokyo, where are filled with tall buildings and excessive dynamic objects (moving vehicles, pedestrians). Apart from GNSS, the onboard sensors for positioning also include light detection and ranging (LiDAR) and the inertial measurement unit (IMU). However, the accuracy of LiDAR positioning is also deteriorated due to the unexpected dynamic objects. Moreover, without a prior map, it will also suffer from drift during long-term operation even with the help of IMU. 
@@ -47,4 +68,4 @@ Completed
 * Zhong, Y., Huang, F., Zhang, J., Wen, W., & Hsu, L. T. (2023). Low‐cost solid‐state LiDAR/inertial‐based localization with prior map for autonomous systems in urban scenarios. IET Intelligent Transport Systems, 17(3), 474-486. 
 * Zhang, J., Wen, W., Huang, F., Wang, Y., Chen, X., & Hsu, L. T. (2022). GNSS-RTK Adaptively Integrated with LiDAR/IMU Odometry for Continuously Global Positioning in Urban Canyons. Applied Sciences, 12(10), 5193.
 * Huang, F., Wen, W., Ng, H. F., & Hsu, L. T. (2022, October). Lidar aided cycle slip detection for gnss real-time kinematic positioning in urban environments. In 2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC) (pp. 1572-1578). IEEE. 
-* Wen, W., & Hsu, L. T. (2021, September). 3D LiDAR aided GNSS real-time kinematic positioning. In Proceedings of the 34th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2021) (pp. 2212-2220).
+* Wen, W., & Hsu, L. T. (2021, September). 3D LiDAR aided GNSS real-time kinematic positioning. In Proceedings of the 34th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2021) (pp. 2212-2220). -->
