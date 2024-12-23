@@ -2,7 +2,7 @@
 title: Huawei-PolyU High-accuracy Localization Project (second phase)
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
-image: images/project/huawei_mapping.gif
+image: images/project/huawei_mapping.png
 tags: Localization, mapping, sensor-fusion, RTK, GNSS, LiDAR, IMU, Virtual-satellites, Cycle-slip-detection
 order: 
 ---
