@@ -16,7 +16,7 @@ With the widespread use of the global navigation satellite systems (GNSS) in veh
 Tencent Dadi Tongtu (Beijing) Technology Co., Ltd 騰訊大地通途北京科技有限公司
 
 ## Researcher
-Yuan Li, Xikun Liu, [Weisong Wen](https://polyu-taslab.github.io/members/Wen_Weisong.html), Li-ta Hsu, Yilong Yuan, Guangyu Bian, Qiaoyun Chen
+Yuan Li, [Xikun Liu](https://polyu-taslab.github.io/members/liu_xikun.html), [Weisong Wen](https://polyu-taslab.github.io/members/Wen_Weisong.html), Li-ta Hsu, Yilong Yuan, Guangyu Bian, Qiaoyun Chen
 
 ## Status
 
