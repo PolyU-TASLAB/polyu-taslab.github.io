@@ -2,7 +2,7 @@
 title: Research on GNSS Urban Positioning Algorithm Based on 3D LiDAR
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
-image: images/project/GDSTC/nlos_detection_gif.gif
+image: images/project/GDSTC/fgo.png
 tags: Localization, mapping, sensor-fusion, RTK, GNSS, LiDAR, IMU
 order: 
 ---

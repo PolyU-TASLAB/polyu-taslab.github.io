@@ -35,7 +35,7 @@ Completed
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
-## Mapping Results
+## Demonstration
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/stf/demo_gif.gif" alt="Team Banner" 
