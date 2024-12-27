@@ -82,4 +82,4 @@ The Trustworthy Autonomous Systems (TAS) Laboratory is at the forefront of pione
   text=text
 %}
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+<!-- <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script> -->

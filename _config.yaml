@@ -4,6 +4,7 @@ subtitle: Trustworthy Autonomous Systems Laboratory
 description: Welcome to the Trustworthy Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.
 header: images/AboutPolyU_Campus9.jpg
 footer: images/AboutPolyU_Campus1.png
+footer: <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
 proofer: false
 
 # site social media and other links
