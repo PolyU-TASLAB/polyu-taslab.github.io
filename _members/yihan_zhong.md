@@ -1,6 +1,6 @@
 ---
 name: Zhong Yihan
-image: images/team/zhong_yihan.jpg
+image: images/team/yihan_zhong.jpg
 role: phd  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
 order: 2
