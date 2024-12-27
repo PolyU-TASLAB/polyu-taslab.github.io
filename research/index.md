@@ -14,9 +14,10 @@ nav:
 ## Videos
 
 <!-- Add video. -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q0nq1vHeinM?si=qCn-JtP2m65mRTAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m2Lm8RY2uYI?si=zngdOnxZlOHG4s0V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="display: flex; justify-content: space-between;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Q0nq1vHeinM?si=qCn-JtP2m65mRTAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/m2Lm8RY2uYI?si=zngdOnxZlOHG4s0V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 {% include section.html %}
 
