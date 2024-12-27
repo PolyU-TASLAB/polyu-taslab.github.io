@@ -62,7 +62,7 @@ We regularly have multiple openings for Postdoc/PhD/MPhil/RA/Internships (All ye
 
 {% include section.html %}
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=f2eded&w=600&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=0d324c&cmo=a82525&cmn=3ace3a'></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=842d2d&w=600&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=ffffff&cmo=1748a3&cmn=f2ff3b'></script>
 
 {% capture col1 %}
 
