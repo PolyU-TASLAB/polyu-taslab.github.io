@@ -28,19 +28,19 @@ POLYU AAE(Capstone Project)
 [Dr. Weisong Wen](https://polyu-taslab.github.io/members/Wen_Weisong.html), [Mr. ZHAO Jiaqi](https://polyu-taslab.github.io/members/ZHAO_Jiaqi.html), Mr. Li Mingjue, [Mr. HU Jiahao](https://polyu-taslab.github.io/members/hujiahao.html), [Mr. Xiao Naigui](https://polyu-taslab.github.io/members/Xiao_Naigui.html), Mr. FU Chenlei
 ## Status
 <div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <div style="text-align: center; margin: 0 10px;">
-    <p style="margin-bottom: 10px;">UAV Landing Demo</p>
+  <div style="position: relative; text-align: center; margin: 0 10px;">
+    <p style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin: 0; color: white; font-weight: bold; background-color: rgba(0, 0, 0, 0.5); padding: 5px 10px; border-radius: 5px;">UAV Landing Demo</p>
     <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/UAV_Perching/compressed_landing_successful.gif" alt="Team Banner" 
-         style="width: 60%; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px;">
+         style="width: 65%; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px;">
   </div>
-  <div style="text-align: center; margin: 0 10px;">
-    <p style="margin-bottom: 10px;">UAV Airport</p>
+  <div style="position: relative; text-align: center; margin: 0 10px;">
+    <p style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin: 0; color: white; font-weight: bold; background-color: rgba(0, 0, 0, 0.5); padding: 5px 10px; border-radius: 5px;">UAV Airport</p>
     <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/UAV_Perching/UAV_Airport.png" alt="Team Banner" 
          style="width: 100%; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px;">
   </div>
-  <div style="text-align: center; margin: 0 10px;">
-    <p style="margin-bottom: 10px;">UAV Battery Wireless Charging and Health Management Solution</p>
+  <div style="position: relative; text-align: center; margin: 0 10px;">
+    <p style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin: 0; color: white; font-weight: bold; background-color: rgba(0, 0, 0, 0.5); padding: 5px 10px; border-radius: 5px;">UAV Battery Wireless Charging and Health Management Solution</p>
     <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/UAV_Perching/Power_Distribution_Board.png" alt="Team Banner" 
-         style="width: 60%; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px;">
+         style="width: 65%; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px;">
   </div>
 </div>
