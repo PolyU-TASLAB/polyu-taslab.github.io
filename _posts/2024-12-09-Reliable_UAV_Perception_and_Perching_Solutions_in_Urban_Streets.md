@@ -40,7 +40,7 @@ POLYU AAE(Capstone Project)
   </div>
   <div style="text-align: center; margin: 0 10px; display: flex; flex-direction: column; align-items: center;">
     <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/UAV_Perching/Power_Distribution_Board.png" alt="Team Banner" 
-         style="width: 60%; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px;">
+         style="width: 80%; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px;">
     <p style="margin-top: 10px; text-align: center;">UAV Battery Wireless Charging and Health<br>Management Solution</p>
   </div>
 </div>
