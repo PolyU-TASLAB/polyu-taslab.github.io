@@ -31,16 +31,16 @@ POLYU AAE(Capstone Project)
   <div style="text-align: center; margin: 0 10px;">
     <p style="margin-bottom: 10px;">UAV Landing Demo</p>
     <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/UAV_Perching/compressed_landing_successful.gif" alt="Team Banner" 
-         style="width: 70%; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px;">
+         style="width: 60%; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px;">
   </div>
   <div style="text-align: center; margin: 0 10px;">
     <p style="margin-bottom: 10px;">UAV Airport</p>
     <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/UAV_Perching/UAV_Airport.png" alt="Team Banner" 
-         style="width: 70%; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px;">
+         style="width: 100%; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px;">
   </div>
   <div style="text-align: center; margin: 0 10px;">
     <p style="margin-bottom: 10px;">UAV Battery Wireless Charging and Health Management Solution</p>
     <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/UAV_Perching/Power_Distribution_Board.png" alt="Team Banner" 
-         style="width: 70%; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px;">
+         style="width: 60%; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px;">
   </div>
 </div>
