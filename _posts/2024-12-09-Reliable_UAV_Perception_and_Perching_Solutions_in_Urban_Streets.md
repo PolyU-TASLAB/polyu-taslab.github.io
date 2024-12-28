@@ -25,7 +25,7 @@ POLYU AAE(Capstone Project)
 
 ## Researcher
 
-[Dr. Weisong Wen](https://polyu-taslab.github.io/members/Wen_Weisong.html), [Mr. ZHAO Jiaqi](https://polyu-taslab.github.io/members/ZHAO_Jiaqi.html), Mr. Li Mingjue, [Mr. HU Jiahao](https://polyu-taslab.github.io/members/hujiahao.html), [Mr. Xiao Naigui](https://polyu-taslab.github.io/members/Xiao_Naigui.html), Mr. FU Chenlei
+[Dr. Weisong Wen](https://polyu-taslab.github.io/members/Wen_Weisong.html), [Mr. ZHAO Jiaqi](https://polyu-taslab.github.io/members/ZHAO_Jiaqi.html), Mr. Li Mingjue, [Mr. HU Jiahao](https://polyu-taslab.github.io/members/hujiahao.html), [Mr. Xiao Naigui](https://polyu-taslab.github.io/members/Xiao_Naigui.html), Mr. FU Chenlei, Mr. Yangmokui
 ## Status
 <div style="display: flex; justify-content: center; margin-bottom: 20px;">
   <div style="text-align: center; margin: 0 10px; display: flex; flex-direction: column; align-items: center;">
