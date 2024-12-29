@@ -44,7 +44,7 @@ POLYU AAE(Capstone Project)
 
 ## Status
 
-<div style="display: flex; justify-content: center; margin-bottom: 20px;">
+<div style="display: flex; justify-content: center; gap: 20px; margin-bottom: 20px;">
   <div style="text-align: center; margin: 0 10px; display: flex; flex-direction: column; align-items: center;">
     <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/UAV_Perching/compressed_landing_successful.gif" alt="Team Banner" 
          style="width: 60%; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px;">
