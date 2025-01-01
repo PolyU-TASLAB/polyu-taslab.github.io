@@ -1,8 +1,8 @@
 ---
-title: Dr. Runqiu Yang Conduct Presentation at HKPC Academy on 27TH December
+title: Dr. Runqiu Yang Conduct Presentation at HKPC Academy on 27th December
 subtitle: Example news
 # author: xxx
-image: images/news/Dr_runqiu_Yang_photo_HKPC.png
+image: images/news/Dr_runqiu_Yang_photo_HKPC.jpg
 tags: news
 order: 
 ---
