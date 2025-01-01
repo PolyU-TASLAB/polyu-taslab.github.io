@@ -2,7 +2,7 @@
 title: Dr. Runqiu Yang Conduct Presentation at HKPC Academy on 27TH December
 subtitle: Example news
 # author: xxx
-image: images/news/Qijun_URIS_award_2024.png
+image: images/news/Dr_runqiu_Yang_photo_HKPC.png
 tags: news
 order: 
 ---
@@ -15,14 +15,14 @@ During the session, Dr. Yang provided an in-depth introduction to space transpor
 Dr. Yang’s presentation provided high school students with valuable insights into the technologies that will drive the future of space transportation, preparing them to think critically about the challenges and opportunities in the aerospace industry. The event, held at HKPC Academy in Kowloon, Hong Kong, was a significant contribution to nurturing future aerospace talents in the region.
 
 
-## Mapping Demonstration
+## Photos
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Dr_Runqiu_Yang_talk_in_HKPC.jpg" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
-div style="text-align: center; margin-bottom: 20px;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Dr_runqiu_Yang_photo_HKPC.jpg" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
