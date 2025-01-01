@@ -8,7 +8,7 @@ order:
 ---
 
 
-## Construction of Space Stations – Introduction to Space Transportation Systems
+## The first event of University of Macau - Hunan University – The Hong Kong Polytechnic University Academic Salon on Autonomous Systems
 
 The University of Macau - Hunan University – The Hong Kong Polytechnic University Academic Salon on Autonomous Systems successfully launched its first session on December 27. This monthly event, collaboratively organized by three renowned research groups—The Intelligent Machine Research Lab (IMRL) led by Dr. Kong Hui at the University of Macau, The Neuromorphic Automation and Intelligence Lab (NAIL) led by Prof. Zhou Yi at Hunan University, and the Trustworthy Autonomous Systems Lab (TAS LAB) led by Dr. Wen Weisong at The Hong Kong Polytechnic University—aims to foster communication, collaboration, and knowledge exchange among young scholars in the field of autonomous systems.
 
