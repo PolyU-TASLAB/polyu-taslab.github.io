@@ -1,5 +1,5 @@
 ---
-title: Dr. Wen Invited to Speake at Lanzhou University on 15th December 
+title: Dr. Wen is Invited to Talk at Lanzhou University on 15th December 
 subtitle: Example news
 # author: xxx
 image: images/project/poster_20241215.png
@@ -8,7 +8,7 @@ order:
 ---
 
 <!-- Add breif description here.  -->
-Dr. Wen 's lectureat Lanzhou University,titled "3D LiDAR Aided (3DLA) Urban GNSS Positioning for Autonomous Systems in Urban Canyons", focus on the challenges and advancements in urban positioning for autonomous driving vehicles. 
+Dr. Wen's lecture at Lanzhou University, titled “3D LiDAR Aided (3DLA) Urban GNSS Positioning for Autonomous Systems in Urban Canyons”, focuses on the challenges and advancements in urban positioning for autonomous driving vehicles.
 
 
 <!-- Add Main body here -->
