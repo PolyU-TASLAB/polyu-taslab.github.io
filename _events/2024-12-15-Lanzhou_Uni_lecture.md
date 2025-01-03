@@ -8,7 +8,7 @@ order:
 ---
 
 <!-- Add breif description here.  -->
-Dr. Wen's lecture at Lanzhou University, titled “3D LiDAR Aided (3DLA) Urban GNSS Positioning for Autonomous Systems in Urban Canyons”, focuses on the challenges and advancements in urban positioning for autonomous driving vehicles.
+Dr. Wen's lecture at Lanzhou University, titled "3D LiDAR Aided (3DLA) Urban GNSS Positioning for Autonomous Systems in Urban Canyons", focuses on the challenges and advancements in urban positioning for autonomous driving vehicles.
 
 
 <!-- Add Main body here -->
