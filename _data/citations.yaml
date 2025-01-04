@@ -1718,7 +1718,7 @@
   repo: null
   plugin: sources.py
   file: sources.yaml
-- id: doi:arXiv.2404.14724
+- id: 10.48550/arXiv.2404.14724
   title: Tightly Joined Positioning and Control Model for Unmanned Aerial Vehicles
     Based on Factor Graph Optimization
   authors:
@@ -1727,14 +1727,14 @@
   - Shiyu Bai
   - Li-Ta Hsu
   publisher: arXiv
-  date: '2024-04-22'
-  link: https://doi.org/arxiv.2404.14724
+  date: '2024-01-01'
+  link: https://doi.org/g8xpq9
   type: paper
   image: null
   buttons:
   - type: manubot
     text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/PeiwenYang2024TightlyJoined.odf
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/2404.14724v2.pdf
   - type: source
     text: code
     link: null
@@ -1748,44 +1748,6 @@
   - Model predictive contro
   - Dynamic mode
   - Factor graph optimization
-  repo: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1109/TIV.2023.3339144
-  title: 'ECMD: An Event-Centric Multisensory Driving Dataset for SLAM'
-  authors:
-  - Peiyu Chen
-  - Weipeng Guan
-  - Feng Huang
-  - Yihan Zhong
-  - Weisong Wen
-  - Li-Ta Hsu
-  - Peng Lu
-  publisher: IEEE Transactions on Intelligent Vehicles
-  date: '2024-01-01'
-  link: https://doi.org/g8t488
-  type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/ECMD.gif
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/ECMD_An_Event-Centric_Multisensory_Driving_Dataset_for_SLAM.pdf
-  - type: source
-    text: code
-    link: null
-  - type: data
-    text: video
-    link: null
-  - type: website
-    link: null
-  tags:
-  - Cameras
-  - Sensors
-  - Laser radar
-  - Simultaneous localization and mapping
-  - Visualization
-  - Sensor systems
-  - Robots
   repo: null
   plugin: sources.py
   file: sources.yaml
@@ -2705,6 +2667,42 @@
   repo: https://github.com/ebhrz/HDMap
   plugin: sources.py
   file: sources.yaml
+- id: 10.5194/isprs-archives-XLVIII-1-W1-2023-227-2023
+  title: COST-EFFECTIVE CAMERA LOCALIZATION AIDED BY PRIOR POINT CLOUDS MAPS FOR LEVEL
+    3 AUTONOMOUS DRIVING VEHICLES
+  authors:
+  - Y.-T. Leung
+  - X. Zheng
+  - H.-Y. Ho
+  - W. Wen
+  - L.-T. Hsu
+  publisher: The International Archives of the Photogrammetry, Remote Sensing and
+    Spatial Information Sciences
+  date: '2023-05-25'
+  link: https://doi.org/g8xprb
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/COST-EFFECTIVE.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/isprs-archives-XLVIII-1-W1-2023-227-2023.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - Autonomous Driving Vehicles
+  - Visual localization
+  - 3D LiDAR maps
+  - Image reconstruction
+  - Matching geometry
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
 - id: 10.33012/navi.602
   title: 'Hong Kong UrbanNav: An Open-Source Multisensory Dataset for Benchmarking
     Urban Navigation Algorithms'
@@ -3014,7 +3012,6 @@
   - type: website
     link: null
   tags:
-  - indoor localization
   - simultaneous localization and mapping (SLAM)
   - factor graph optimization (FGO)
   - smart phone
@@ -3154,6 +3151,40 @@
   - Artificial intelligence
   - AI
   - Review
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/TIV.2023.3282623
+  title: An Improved Inertial Preintegration Model in Factor Graph Optimization for
+    High Accuracy Positioning of Intelligent Vehicles
+  authors:
+  - Liang Zhang
+  - Weisong Wen
+  - Li-Ta Hsu
+  - Tao Zhang
+  publisher: IEEE Transactions on Intelligent Vehicles
+  date: '2024-01-01'
+  link: https://doi.org/g8xprc
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/20250104231017.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/An_Improved_Inertial_Preintegration_Model_in_Factor_Graph_Optimization_for_High_Accuracy_Positioning_of_Intelligent_Vehicles.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - Factor graph optimization
+  - IMU preintegration
+  - inertial navigation
+  - integrated navigation
+  - vehicle navigation
   repo: null
   plugin: sources.py
   file: sources.yaml
