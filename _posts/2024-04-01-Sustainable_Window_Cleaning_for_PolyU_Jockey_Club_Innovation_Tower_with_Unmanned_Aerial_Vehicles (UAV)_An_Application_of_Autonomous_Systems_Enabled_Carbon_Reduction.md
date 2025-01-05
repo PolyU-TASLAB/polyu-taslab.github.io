@@ -27,7 +27,7 @@ Ongoing
 ## UAV Test
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <h1 style="font-size: 2.0em; margin-bottom: 20px; line-height: 1.2;">
+  <h1 style="font-size: 1.5em; margin-bottom: 20px; line-height: 1.2;">
     Outdoor test
   </h1>
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/windows_cleaning_test.gif" alt="Team Banner" 
@@ -35,56 +35,74 @@ Ongoing
 </div>
 
 
-<div style="display: flex; justify-content: space-between; gap: 20px;">
-  <h1 style="font-size: 2.0em; margin-bottom: 20px; line-height: 1.2;">
+<div style="text-align: center; margin-bottom: 20px;">
+  <h1 style="font-size: 1.5em; margin-bottom: 20px; line-height: 1.2;">
     Indoor test
   </h1>
-  <iframe width="1120" height="630" src="https://www.youtube.com/embed/m2Lm8RY2uYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="888" height="500" src="https://www.youtube.com/embed/m2Lm8RY2uYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## Interview
 
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <h1 style="font-size: 2.0em; margin-bottom: 20px; line-height: 1.2;">
+  <h1 style="font-size: 1.5em; margin-bottom: 20px; line-height: 1.2;">
     TVB interviewed us about the low-altitude economy (LAE)
   </h1>
   <img width="560" height="315" src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/TVB.JPG" alt="TVB Interview about LAE">
   <iframe width="560" height="315" src="//player.bilibili.com/player.html?bvid=BV1bhrKY3EcJ&spm_id_from=333.999.0.0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 
-Video link:
-
-[https://evtolasia.com/2024/06/01/hong-kongs-low-altitude-economy-opportunities-and-policy-considerations](https://evtolasia.com/2024/06/01/hong-kongs-low-altitude-economy-opportunities-and-policy-considerations)
-
-[https://news.tvb.com/tc/programme/financemagazine](https://news.tvb.com/tc/programme/financemagazine)
-
-[https://news.tvb.com/tc/finance/665a72c4b08fa1987b3d6350/財經-財經透視香港低空經濟何時起飛](https://news.tvb.com/tc/finance/665a72c4b08fa1987b3d6350/財經-財經透視香港低空經濟何時起飛)
+<p style="text-align: left; font-size: 1.0em; margin-bottom: 10px;">
+  Video link:
+</p>
+<div style="text-align: left; font-size: 1.0em;">
+  <a href="https://evtolasia.com/2024/06/01/hong-kongs-low-altitude-economy-opportunities-and-policy-considerations" target="_blank" style="display: block; color: #007BFF; text-decoration: none;">
+    https://evtolasia.com/2024/06/01/hong-kongs-low-altitude-economy-opportunities-and-policy-considerations
+  </a>
+  <a href="https://news.tvb.com/tc/programme/financemagazine" target="_blank" style="display: block; color: #007BFF; text-decoration: none;">
+    https://news.tvb.com/tc/programme/financemagazine
+  </a>
+  <a href="https://news.tvb.com/tc/finance/665a72c4b08fa1987b3d6350/財經-財經透視香港低空經濟何時起飛" target="_blank" style="display: block; color: #007BFF; text-decoration: none;">
+    https://news.tvb.com/tc/finance/665a72c4b08fa1987b3d6350/財經-財經透視香港低空經濟何時起飛
+  </a>
+</div>
 
  
 <div style="text-align: center; margin-bottom: 20px;">
-  <h1 style="font-size: 2.0em; margin-bottom: 20px; line-height: 1.2;">
+  <h1 style="font-size: 1.5em; margin-bottom: 20px; line-height: 1.2;">
     Mingpao interviewed us about the low-altitude economy (LAE)
   </h1>
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/MINGBAO.JPG" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
-Video link:
-
-[https://news.mingpao.com/pns/港聞/article/20240531/s00002/1717094795920/學者倡訂法規認證基建助低空經濟-研無人機洗大廈外牆-料潛在利潤每年逾3億](https://news.mingpao.com/pns/港聞/article/20240531/s00002/1717094795920/學者倡訂法規認證基建助低空經濟-研無人機洗大廈外牆-料潛在利潤每年逾3億)
-
-[https://www.youtube.com/watch?v=m2Lm8RY2uYI](https://www.youtube.com/watch?v=m2Lm8RY2uYI)
+<p style="text-align: left; font-size: 1.0em; margin-bottom: 10px;">
+  Video link:
+</p>
+<div style="text-align: left; font-size: 1.0em;">
+  <a href="https://news.mingpao.com/pns/港聞/article/20240531/s00002/1717094795920/學者倡訂法規認證基建助低空經濟-研無人機洗大廈外牆-料潛在利潤每年逾3億" target="_blank" style="display: block; color: #007BFF; text-decoration: none;">
+    https://news.mingpao.com/pns/港聞/article/20240531/s00002/1717094795920/學者倡訂法規認證基建助低空經濟-研無人機洗大廈外牆-料潛在利潤每年逾3億
+  </a>
+  <a href="https://www.youtube.com/watch?v=m2Lm8RY2uYI" target="_blank" style="display: block; color: #007BFF; text-decoration: none;">
+    https://www.youtube.com/watch?v=m2Lm8RY2uYI
+  </a>
+</div>
 
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <h1 style="font-size: 2.0em; margin-bottom: 20px; line-height: 1.2;">
+  <h1 style="font-size: 1.5em; margin-bottom: 20px; line-height: 1.2;">
     Interview with RTHK on the Development of Drones in the Low Altitude Economy (LAE)
   </h1>
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/rthk.jpg" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
-Video link:
-
-[https://www.rthk.hk/tv/dtt32/programme/vibranthongkong/episode/959611](https://www.rthk.hk/tv/dtt32/programme/vibranthongkong/episode/959611)
+<p style="text-align: left; font-size: 1.0em; margin-bottom: 10px;">
+  Video link:
+</p>
+<div style="text-align: left; font-size: 1.0em;">
+  <a href="https://www.rthk.hk/tv/dtt32/programme/vibranthongkong/episode/959611" target="_blank" style="display: block; color: #007BFF; text-decoration: none;">
+    https://www.rthk.hk/tv/dtt32/programme/vibranthongkong/episode/959611
+  </a>
+</div>
