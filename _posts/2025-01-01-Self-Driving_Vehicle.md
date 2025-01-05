@@ -1,5 +1,5 @@
 ---
-title: Research and Test on Autonomous Driving Vehicle 
+title: Test on Autonomous Driving Vehicle 
 # subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: Zhang Ziqi
 image: images/projects/ADV.png
