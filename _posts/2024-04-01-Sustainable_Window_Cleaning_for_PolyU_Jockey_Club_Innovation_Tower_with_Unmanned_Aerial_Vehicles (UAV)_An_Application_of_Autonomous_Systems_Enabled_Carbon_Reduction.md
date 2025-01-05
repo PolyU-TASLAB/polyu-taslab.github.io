@@ -63,7 +63,6 @@ Mingpao interviewed us about the low-altitude economy (LAE)
 
 Video link:
 [https://news.mingpao.com/pns/港聞/article/20240531/s00002/1717094795920/學者倡訂法規認證基建助低空經濟-研無人機洗大廈外牆-料潛在利潤每年逾3億](https://news.mingpao.com/pns/港聞/article/20240531/s00002/1717094795920/學者倡訂法規認證基建助低空經濟-研無人機洗大廈外牆-料潛在利潤每年逾3億)
-
 [https://www.youtube.com/watch?v=m2Lm8RY2uYI](https://www.youtube.com/watch?v=m2Lm8RY2uYI)
 
 Interview with RTHK on the development of drones in the Low Altitude Economy (LAE)
