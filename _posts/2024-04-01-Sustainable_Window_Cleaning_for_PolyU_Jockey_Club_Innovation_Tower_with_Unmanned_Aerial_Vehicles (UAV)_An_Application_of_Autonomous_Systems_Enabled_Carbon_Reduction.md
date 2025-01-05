@@ -51,11 +51,11 @@ TVB interviewed us about the low-altitude economy (LAE)
 
 Link:
 
-[1] https://evtolasia.com/2024/06/01/hong-kongs-low-altitude-economy-opportunities-and-policy-considerations/
+[https://evtolasia.com/2024/06/01/hong-kongs-low-altitude-economy-opportunities-and-policy-considerations/](https://evtolasia.com/2024/06/01/hong-kongs-low-altitude-economy-opportunities-and-policy-considerations)
 
-[2] https://news.tvb.com/tc/programme/financemagazine
+[https://news.tvb.com/tc/programme/financemagazine](https://news.tvb.com/tc/programme/financemagazine)
 
-[3] https://news.tvb.com/tc/finance/665a72c4b08fa1987b3d6350/財經-財經透視香港低空經濟何時起飛
+[https://news.tvb.com/tc/finance/665a72c4b08fa1987b3d6350/財經-財經透視香港低空經濟何時起飛] (https://news.tvb.com/tc/finance/665a72c4b08fa1987b3d6350/財經-財經透視香港低空經濟何時起飛)
 
 
 Mingpao interviewed us about the low-altitude economy (LAE) 
@@ -66,9 +66,9 @@ Mingpao interviewed us about the low-altitude economy (LAE)
 
 Link:
 
-[1] https://news.mingpao.com/pns/港聞/article/20240531/s00002/1717094795920/學者倡訂法規認證基建助低空經濟-研無人機洗大廈外牆-料潛在利潤每年逾3億
+[https://news.mingpao.com/pns/港聞/article/20240531/s00002/1717094795920/學者倡訂法規認證基建助低空經濟-研無人機洗大廈外牆-料潛在利潤每年逾3億](https://news.mingpao.com/pns/港聞/article/20240531/s00002/1717094795920/學者倡訂法規認證基建助低空經濟-研無人機洗大廈外牆-料潛在利潤每年逾3億)
 
-[2] Demo video: https://www.youtube.com/watch?v=m2Lm8RY2uYI
+[Demo video:](https://www.youtube.com/watch?v=m2Lm8RY2uYI)
 
 Interview with RTHK on the development of drones in the Low Altitude Economy (LAE)
 <div style="text-align: center; margin-bottom: 20px;">
@@ -76,4 +76,4 @@ Interview with RTHK on the development of drones in the Low Altitude Economy (LA
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
-Link:https://www.rthk.hk/tv/dtt32/programme/vibranthongkong/episode/959611
+[https://www.rthk.hk/tv/dtt32/programme/vibranthongkong/episode/959611](https://www.rthk.hk/tv/dtt32/programme/vibranthongkong/episode/959611)
