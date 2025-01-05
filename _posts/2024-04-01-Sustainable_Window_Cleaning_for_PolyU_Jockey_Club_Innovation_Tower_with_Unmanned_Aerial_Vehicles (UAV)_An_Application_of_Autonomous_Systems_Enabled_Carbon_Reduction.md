@@ -39,13 +39,13 @@ Outdoor test
 
 Indoor test
 <div style="display: flex; justify-content: space-between; gap: 20px;">
-    <iframe width="1120" height="630" src="https://www.youtube.com/watch?v=m2Lm8RY2uYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="1120" height="630" src="https://www.youtube.com/embed/m2Lm8RY2uYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## Interview
 TVB interviewed us about the low-altitude economy (LAE)
 <div style="display: flex; justify-content: space-between; gap: 20px;">
-    <iframe width="560" height="315" src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/TVB.JPG" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+    <img width="560" height="315" src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/TVB.JPG" alt="TVB Interview about LAE">
     <iframe width="560" height="315" src="//player.bilibili.com/player.html?isOutside=true&aid=113752041198224&bvid=BV1v76RYHEdL&cid=25740055592&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 
