@@ -2,11 +2,12 @@
 title: Sustainable Window Cleaning for PolyU Jockey Club Innovation Tower with Unmanned Aerial Vehicles (UAV):An Application of Autonomous Systems Enabled Carbon Reduction
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
-image: images/project/windows_cleaning_test.gif
+image: images/project/uav_clean.png
 tags:  Unmanned Aerial Vehicle
 order: 
 ---
 
+PolyU (UGC)
 
 ## Introduction
 Skyscrapers are one of the features of Hong Kong and its window cleaning is a time-consuming and dangerous work that needs to be completed regularly. The typical solution is to use big machines, such as the “Movable platform” or the “Bosun’s chair” with high power, to navigate the window cleaners to the building’s exterior. Take the PolyU Jockey Club Innovation Tower (JCIT) as an example, 20,000 HKD are required by the cleaning industry to clean 100 m^2 areas (less than 1/20 of the total areas of the JCIT surface) in two weeks. Based on the fuel assumption, a value of carbon emission of 277.8 kgCO2 was caused by the JCIT cleaning in two weeks. The value of the carbon emission will be even more significant when cleaning the rest of the JCIT due to the irregular shape of the JCIT. In fact, part of the JCIT surface is very difficult to clean due to the highly irregular surface which is out of the reach of the typical “Movable platform” or the “Bosun’s chair”. Bigger machines are required but lead to unacceptable carbon reduction accordingly. A solution to efficiently complete the window cleaning is practical and highly expected, which can directly help with carbon reduction at the PolyU campus. Moreover, this is highly expected by lots of “Skyscrapers” in Hong Kong. 
