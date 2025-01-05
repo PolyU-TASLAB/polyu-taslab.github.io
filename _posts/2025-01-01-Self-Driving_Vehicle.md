@@ -13,5 +13,5 @@ A critical aspect of autonomous vehicles is their ability to sense and localize 
 
 ### ADV Test Video 
 <div style="max-width: 850px; margin: 0 auto; border-radius: 15px; overflow: hidden;">
-  ![ADV](https://www.youtube.com/embed/Q0nq1vHeinM?si=qCn-JtP2m65mRTAE)
+  ![](https://youtu.be/Q0nq1vHeinM?si=lihSraa4tPM_4kMv)
 </div>
