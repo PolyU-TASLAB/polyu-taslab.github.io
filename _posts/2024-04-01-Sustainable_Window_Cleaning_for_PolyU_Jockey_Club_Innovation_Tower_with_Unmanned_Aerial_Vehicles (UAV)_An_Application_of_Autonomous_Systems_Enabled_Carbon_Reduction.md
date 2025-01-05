@@ -2,7 +2,7 @@
 title: Sustainable Window Cleaning for PolyU Jockey Club Innovation Tower with Unmanned Aerial Vehicles (UAV):An Application of Autonomous Systems Enabled Carbon Reduction
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
-image: images/project/uav_clean.png
+image: images/project/windows_cleaning_test.gif
 tags:  Unmanned Aerial Vehicle
 order: 
 ---
