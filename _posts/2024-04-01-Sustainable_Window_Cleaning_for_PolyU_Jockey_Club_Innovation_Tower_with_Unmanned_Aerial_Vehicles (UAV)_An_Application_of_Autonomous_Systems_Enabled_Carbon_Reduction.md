@@ -46,16 +46,13 @@ Indoor test
 TVB interviewed us about the low-altitude economy (LAE)
 <div style="display: flex; justify-content: space-between; gap: 20px;">
     <img width="560" height="315" src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/TVB.JPG" alt="TVB Interview about LAE">
-    <iframe width="560" height="315" src="//player.bilibili.com/player.html?isOutside=true&aid=113752041198224&bvid=BV1v76RYHEdL&cid=25740055592&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+    <iframe width="560" height="315" src="//player.bilibili.com/player.html?bvid=BV1bhrKY3EcJ&spm_id_from=333.999.0.0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 
-Link:
-
+Video link:
 [https://evtolasia.com/2024/06/01/hong-kongs-low-altitude-economy-opportunities-and-policy-considerations/](https://evtolasia.com/2024/06/01/hong-kongs-low-altitude-economy-opportunities-and-policy-considerations)
-
 [https://news.tvb.com/tc/programme/financemagazine](https://news.tvb.com/tc/programme/financemagazine)
-
-[https://news.tvb.com/tc/finance/665a72c4b08fa1987b3d6350/財經-財經透視香港低空經濟何時起飛] (https://news.tvb.com/tc/finance/665a72c4b08fa1987b3d6350/財經-財經透視香港低空經濟何時起飛)
+[https://news.tvb.com/tc/finance/665a72c4b08fa1987b3d6350/財經-財經透視香港低空經濟何時起飛](https://news.tvb.com/tc/finance/665a72c4b08fa1987b3d6350/財經-財經透視香港低空經濟何時起飛)
 
 
 Mingpao interviewed us about the low-altitude economy (LAE) 
@@ -64,8 +61,7 @@ Mingpao interviewed us about the low-altitude economy (LAE)
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
-Link:
-
+Video link:
 [https://news.mingpao.com/pns/港聞/article/20240531/s00002/1717094795920/學者倡訂法規認證基建助低空經濟-研無人機洗大廈外牆-料潛在利潤每年逾3億](https://news.mingpao.com/pns/港聞/article/20240531/s00002/1717094795920/學者倡訂法規認證基建助低空經濟-研無人機洗大廈外牆-料潛在利潤每年逾3億)
 
 [Demo video:](https://www.youtube.com/watch?v=m2Lm8RY2uYI)
@@ -76,4 +72,5 @@ Interview with RTHK on the development of drones in the Low Altitude Economy (LA
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
+Video link:
 [https://www.rthk.hk/tv/dtt32/programme/vibranthongkong/episode/959611](https://www.rthk.hk/tv/dtt32/programme/vibranthongkong/episode/959611)
