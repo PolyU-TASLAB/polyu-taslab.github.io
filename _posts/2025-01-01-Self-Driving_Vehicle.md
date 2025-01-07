@@ -2,7 +2,7 @@
 title: Test on Autonomous Driving Vehicle 
 # subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: Zhang Ziqi
-image: images/projects/Vehicle/ADV.png
+image: images/project/Vehicle/ADV.png
 tags: Autonomous-Driving
 order: 
 ---
