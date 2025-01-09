@@ -2,7 +2,7 @@
 title: TASLAB research visit to Sha Tau Kok Restricted Area for Pilot North East New Territories Rural Waste Reduction and Sustainability Project on 30th December
 subtitle: Example news
 # author: Yingming Chen
-image: images/news/Dr_runqiu_Yang_photo_HKPC.jpg
+image: images/news/STK_research_view.jpg
 tags: news
 order: 
 ---
@@ -23,12 +23,21 @@ This successful field survey marks a significant milestone for the project, layi
 ## Photos
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Dr_Runqiu_Yang_talk_in_HKPC.jpg" alt="Team Banner" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/STK_research_tool.png" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Dr_runqiu_Yang_photo_HKPC.jpg" alt="Team Banner" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/STK_research_sites.png" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/STK_research_KATO.png" alt="Team Banner" 
+       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+</div>
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/STK_research_view" alt="Team Banner" 
+       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+</div>
