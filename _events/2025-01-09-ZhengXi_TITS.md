@@ -7,7 +7,7 @@ tags: news
 order: 
 ---
 
-It is great to share that our paper (*Safety-quantifiable Line Feature-based Monocular Visual Localization with 3D Prior Map", by Zheng, Xi; Wen, weisong*; Hsu, Li-Ta) is accepted by the *IEEE Transactions on Intelligent Transportation Systems*. Congratulations to Xi Zheng., etc. The open-source code is available at [Github](https://github.com/ZHENGXi-git/PriorLineVisualLocalization).
+It is great to share that our paper (*Safety-quantifiable Line Feature-based Monocular Visual Localization with 3D Prior Map", by Zheng, Xi; Wen, Weisong*; Hsu, Li-Ta) is accepted by the *IEEE Transactions on Intelligent Transportation Systems*. Congratulations to Xi Zheng., etc. The open-source code is available at [Github](https://github.com/ZHENGXi-git/PriorLineVisualLocalization).
 
 ## Abstract
 
