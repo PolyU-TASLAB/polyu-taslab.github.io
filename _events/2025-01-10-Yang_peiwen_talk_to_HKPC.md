@@ -7,9 +7,7 @@ tags: news
 order: 
 ---
 
-Technology Leadership: Application Prospects of Low Altitude Economy in Hong Kong by 2025
-
-## Construction of Space Stations – Introduction to Space Transportation Systems
+## Technology Leadership: Application Prospects of Low Altitude Economy in Hong Kong by 2025
 
 The trend of digital transformation in the supply chain cannot be ignored to enhance operational efficiency and keep pace with the times, in order to improve the efficiency of Hong Kong’s logistics industry and enterprise operations, and maintain international competitiveness.
 Organized by the Hong Kong Shippers’ Committee, with the Productivity Council serving as the executing agency and supported by the Hong Kong Special Administrative Region Government’s Industry and Trade Department’s “Support Fund”, the “Promoting the Implementation of Digital Transformation Execution Capability in the Logistics Industry and Hong Kong Small and Medium-sized Enterprises” will hold the following themed seminars related to supply chain digital transformation and logistics development.
