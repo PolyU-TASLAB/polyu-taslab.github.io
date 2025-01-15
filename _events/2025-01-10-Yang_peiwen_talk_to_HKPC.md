@@ -6,6 +6,7 @@ image: images/news/YangPeiwen_talk_HKPC.jpg
 tags: news
 order: 
 ---
+We are pleased to share with you that on January 10, 2025, our doctoral student Yang Peiwen, representing the TAS LAB of The Hong Kong Polytechnic University, gave a speech at the Hong Kong Productivity Council (香港生产力局）on the following topics: Technology Leadership: Application Prospects of Low Altitude Economy in Hong Kong by 2025. He shared the development status of the low-altitude economy, industry opportunities, and especially the current academic research in TAS LAB. 
 
 ## Technology Leadership: Application Prospects of Low Altitude Economy in Hong Kong by 2025
 
