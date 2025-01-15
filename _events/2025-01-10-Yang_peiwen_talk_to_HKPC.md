@@ -1,5 +1,5 @@
 ---
-title: Our PhD student Peiwen Yang Delivery Talk at HKPC on 10th Jan 2025
+title: Our PhD student Peiwen Yang Gave a Speech at HKPC on 10th Jan 2025
 subtitle: Example news
 # author: xxx
 image: images/news/YangPeiwen_talk_HKPC.jpg
