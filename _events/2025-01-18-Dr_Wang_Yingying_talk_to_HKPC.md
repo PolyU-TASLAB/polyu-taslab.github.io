@@ -2,7 +2,7 @@
 title: Dr. WANG Yingying gave a talk at Shanghai Jiaotong University on 18th January
 subtitle: Example news
 # author: xxx
-image: images/news/Dr_Yingying_WANG_SJTU.jpg
+image: images/news/Dr_Yingying_WANG_SJTU.png
 tags: news
 order: 
 ---
@@ -15,12 +15,12 @@ Low-cost, unobtrusive, and non-intrusive sensing for indoor pedestrian localizat
 
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Dr_Yingying_WANG_SJTU_group_photo.jpg" alt="Team Banner" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Dr_Yingying_WANG_SJTU_group_photo.png" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Dr_Yingying_WANG_SJTU.jpg" alt="Team Banner" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Dr_Yingying_WANG_SJTU.png" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
