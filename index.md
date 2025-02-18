@@ -2,9 +2,10 @@
 ---
 
 # PolyU TAS LAB's Website
-<p align="center" style="font-family: 'Calibri';">
+
+<div align="center" style="font-family: 'Arial';">
 The Trustworthy AI and Autonomous Systems (TAS) Laboratory is at the forefront of pioneering advancements in autonomous systems (such as UAV and self-driving cars) technology, emphasizing the importance of safety, reliability, and ethical standards. Our laboratory is home to a diverse group of researchers and engineers who specialize in artificial intelligence, robotics, cybersecurity, and human-system interaction. Together, we are committed to developing autonomous systems that inspire confidence and trust among users and stakeholders. Through collaborative efforts with industry partners, academic institutions, and policymakers, our team addresses the complex challenges of integrating autonomous systems into society, ensuring they operate transparently and responsibly.
-</p>
+</div>
 
 
 {% include section.html %}
