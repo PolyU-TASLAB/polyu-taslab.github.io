@@ -1,5 +1,5 @@
 ---
-title: Test on Autonomous Driving Vehicle 
+title: Our Autonomous Platforms
 # subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: Zhang Ziqi
 image: images/project/Vehicle/ADV.png
@@ -29,16 +29,14 @@ Here is the sensor suite:
 
 ## ADV Demo Video 
 
-## Testing
+### Testing
 <div style="max-width: 850px; margin: 0 auto; border-radius: 15px; overflow: hidden;">
   <iframe width="850" height="480" src="https://www.youtube.com/embed/Q0nq1vHeinM" frameborder="0" allowfullscreen></iframe>
   <p style="text-align: center; margin-top: 10px;">ADV in PolyU Campus</p>
 </div>
 
 <div style="max-width: 850px; margin: 0 auto; border-radius: 15px; overflow: hidden;">
-  <iframe width="850" height="480" src="<div style="max-width: 850px; margin: 0 auto; border-radius: 15px; overflow: hidden;">
   <iframe width="850" height="480" src="https://www.youtube.com/embed/Q0nq1vHeinM" frameborder="0" allowfullscreen></iframe>
-
   <p style="text-align: center; margin-top: 10px;">ADV in PolyU-Wuxi Research Institute</p>
 </div>
 
@@ -50,7 +48,6 @@ Here is the sensor suite:
 </div> -->
 ### Carla Simulation Video
 
-#### integration with LiDARs and Cameras
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/Vehicle/Carla.gif" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
@@ -59,4 +56,5 @@ Here is the sensor suite:
 
 
 ### Researcher
+
 [Dr. Weisong Wen](https://polyu-taslab.github.io/members/Wen_Weisong.html), [Mr. Zhang Ziqi](https://polyu-taslab.github.io/members/Zhang_Ziqi.html), [Mr. Huang Feng](https://polyu-taslab.github.io/members/Huang_Feng.html)
