@@ -6,7 +6,7 @@ image: images/project/Vehicle/ADV.png
 tags: Autonomous-Driving
 order: 
 ---
-Demonstration of our Autonomous Driving Vehicle and sensor platform.
+Demonstration of our Autonomous Driving Vehicles and their onboard sensor platforms.
 
 ## Introduction
 
@@ -14,6 +14,9 @@ An autonomous car, also known as a self-driving vehicle, is a sophisticated mode
 
 A critical aspect of autonomous vehicles is their ability to sense and localize themselves within their surroundings. This capability is essential for navigating complex environments, avoiding obstacles, and making real-time driving decisions. Accurate sensing and localization allow autonomous cars to interpret data from their surroundings and respond appropriately to dynamic conditions.
 
+The autonomous driving vehicle operates under the comprehensive control of a CANBUS system. The host computer establishes a connection with the MCU, which is equipped with integrated ROS messaging capabilities. This integration allows the system to convert ROS messages into CAN signals, which are then transmitted to the MCU.
+
+This architecture provides us with extensive access to the vehicle's functionalities. We can not only relay vital velocity information but also manage gear settings, including Drive (D), Park (P), Reverse (R), and Neutral (N). Additionally, the system enables control of various lighting functions, enhancing both safety and operational efficiency. Overall, this setup ensures seamless communication between components, facilitating precise control and monitoring of the vehicle’s performance.
 ## Sensor Platform
 
 Currently, our lab has two autonomous vehicles deployed on the PolyU Main Campus and the PolyU-Wuxi Research Institute. Both vehicles are equipped with unique sensors, including LiDAR, cameras, and integrated GNSS/INS, for localization and navigation.
@@ -36,7 +39,7 @@ Here is the sensor suite:
 </div>
 
 <div style="max-width: 850px; margin: 0 auto; border-radius: 15px; overflow: hidden;">
-  <iframe width="850" height="480" src="https://www.youtube.com/embed/Q0nq1vHeinM" frameborder="0" allowfullscreen></iframe>
+  <iframe width="850" height="480" src="https://youtu.be/xPd1KiWvAK8?si=o-ETk9Tx3xcYCiPe" frameborder="0" allowfullscreen></iframe>
   <p style="text-align: center; margin-top: 10px;">ADV in PolyU-Wuxi Research Institute</p>
 </div>
 
