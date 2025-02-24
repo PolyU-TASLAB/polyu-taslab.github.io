@@ -17,7 +17,7 @@ Dr. Wen introduced them to the Intelligent Transportation Unmanned Systems Cente
 
 The center also exhibits portable handheld data mapping equipment capable of collecting data and mapping in real time on different terrains. The technology promises major advances in areas such as environmental monitoring and urban planning. In addition, the integrated communication, navigation and control board, a complex fusion of key functions essential for unmanned systems, is demonstrated, simplified into a single, efficient unit.
 
-One of the highlights was the introduction to humanoid robots engineered to mimic human movements and interactions. These robots hold immense potential in service industries and complex operational tasks, indicating a future where automation and human-like robotics collaborate seamlessly.
+A key highlight was the demonstration of an autonomous driving vehicle. This self-driving car exemplifies the institute's strides in intelligent transportation, showcasing sophisticated algorithms and sensor technologies that enable safe and efficient navigation without human intervention. Another highlight was the introduction to humanoid robots engineered to mimic human movements and interactions. These robots hold immense potential in service industries and complex operational tasks, indicating a future where automation and human-like robotics collaborate seamlessly.
 
 The visit underscored the institute's robust collaborations with local enterprises in Wuxi. Dr. Wen explained how these partnerships bridge academic research with practical industry applications, fostering innovation and driving economic growth in the region. The Chairman and Professor Man expressed appreciation for these collaborative efforts, noting their importance in advancing technological development and benefiting the broader community.
 
@@ -26,8 +26,12 @@ The visit underscored the institute's robust collaborations with local enterpris
        style="width: 30%; height: auto; object-fit: cover; border-radius: 15px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/wuxi_2nd_2.jpg" alt="Dr. Wen Weisong Talk" 
        style="width: 30%; height: auto; object-fit: cover; border-radius: 15px;">
-     <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/wuxi_2nd_1.jpg" alt="Dr. Wen Weisong Talk" 
+</div>
+<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/wuxi_1st_1.jpg" alt="Dr. Wen Weisong Talk" 
        style="width: 30%; height: auto; object-fit: cover; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/wuxi_2nd_1.jpg" alt="Dr. Wen Weisong Talk" 
+    style="width: 30%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 <div style="text-align: center; margin-bottom: 20px;">
   Dr. Weisong Wen introduced the facilities and achievements of the Intelligent Transportation Unmanned Systems Center.
