@@ -2,7 +2,7 @@
 title: Chairman of the PolyU Council Membership and Ir Professor H.C. MAN visit the Hong Kong Polytechnic  University - Wuxi Technology and Innovation Research Institute on Feb 23, 2025
 subtitle: news
 # author: xxx
-image: images/news/together1.jpg
+image: images/news/wuxi_2nd_3.jpg
 tags: news
 order: 
 ---
@@ -23,15 +23,15 @@ The visit underscored the institute's robust collaborations with local enterpris
 
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/wuxi_2nd_3.jpg" alt="Team Banner" 
-       style="width: 30%; height: auto; object-fit: cover; border-radius: 15px;">
+       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/wuxi_2nd_2.jpg" alt="Dr. Wen Weisong Talk" 
-       style="width: 30%; height: auto; object-fit: cover; border-radius: 15px;">
+       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/wuxi_1st_1.jpg" alt="Dr. Wen Weisong Talk" 
-       style="width: 30%; height: auto; object-fit: cover; border-radius: 15px;">
+       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/wuxi_2nd_1.jpg" alt="Dr. Wen Weisong Talk" 
-    style="width: 30%; height: auto; object-fit: cover; border-radius: 15px;">
+    style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 <div style="text-align: center; margin-bottom: 20px;">
   Dr. Weisong Wen introduced the facilities and achievements of the Intelligent Transportation Unmanned Systems Center.
