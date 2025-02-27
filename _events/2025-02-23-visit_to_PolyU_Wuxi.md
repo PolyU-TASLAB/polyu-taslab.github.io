@@ -1,5 +1,5 @@
 ---
-title: Chairman of the PolyU Council Membership and Ir Professor H.C. MAN visit the Hong Kong Polytechnic  University - Wuxi Technology and Innovation Research Institute on Feb 23, 2025
+title: Chairman of the PolyU Council Membership, Ir Professor H.C. MAN and Vice President in Research and Innovation visit the Hong Kong Polytechnic  University - Wuxi Technology and Innovation Research Institute on Feb 23, 2025
 subtitle: news
 # author: xxx
 image: images/news/wuxi_2nd_3.jpg
@@ -7,9 +7,9 @@ tags: news
 order: 
 ---
 
-## Chairman of the PolyU Council Membership and Ir Professor H.C. MAN visit the Hong Kong Polytechnic  University - Wuxi Technology and Innovation Research Institute on Feb 23, 2025
+## Chairman of the PolyU Council Membership, Ir Professor H.C. MAN and Vice President in Research and Innovation visit the Hong Kong Polytechnic  University - Wuxi Technology and Innovation Research Institute on Feb 23, 2025
 
-Dr LAM Tai-fai, the Chairman of Hong Kong Polytechnic University Council Membership and Ir Professor H.C. Man, the Dean of Faculty of Engineering concluded an insightful visit to the Hong Kong Polytechnic  University - Wuxi Technology and Innovation Research Institute on Feb 23, 2025.
+Dr LAM Tai-fai, the Chairman of Hong Kong Polytechnic University Council Membership, Ir Professor H.C. Man, the Dean of Faculty of Engineering and vice president in research and innovation concluded an insightful visit to the Hong Kong Polytechnic University - Wuxi Technology and Innovation Research Institute on Feb 23, 2025.
 
 Dr. Wen Weisong, Director of the Institute's Intelligent Transportation & Unmanned Systems Center, led the delegation on a tour of the Intelligent Transportation & Unmanned Systems Center.
 
