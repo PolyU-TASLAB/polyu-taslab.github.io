@@ -24,19 +24,19 @@ This discussion focuses on three main topics:
 The discussion has deeply thrived in the inspection sights of the participants, and has emerged meaningful thoughts over the low-altitude economy affected industries.
 
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/mainimages/news/SFHKvist/opinionExchange4.jpg" alt="Team Banner" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/SFHKvist/opinionExchange4.jpg" alt="Kenny Talk" 
        style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/SFHKvist/Introduction2.jpg" alt="Dr. Wen Weisong Talk" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/SFHKvist/Introduction2.jpg" alt="Group Discussion" 
        style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/SFHKvist/opinionExchange2.jpg" alt="Dr. Wen Weisong Talk" 
        style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/SFHKvist/opinionExchange.jpg" alt="Dr. Wen Weisong Talk" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/SFHKvist/opinionExchange.jpg" alt="Exchanging Opinions" 
     style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 <div style="text-align: center; margin-bottom: 20px;">
-  Dr. Wen Weisong is exchanging opinions about the low-altitude economy policies with Mr. Kenny Lau.
+  Members of Taslab actively exchanged their opinions with Kenny Lau.
 </div>
 
 As a global logistics hub, Hong Kong is uniquely positioned to lead the low-altitude economy—a burgeoning sector projected to unlock billions in economic value through aerial logistics, surveillance, and passenger transport. SF Express, a pioneer in drone delivery trials across Greater China, brings critical industry insights, while PolyU TASLab’s cutting-edge research in aeronautical systems provides the technical backbone for scalable solutions.
