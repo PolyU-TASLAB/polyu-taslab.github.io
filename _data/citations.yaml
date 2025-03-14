@@ -902,13 +902,13 @@
     \ Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State\
     \ Estimation"
   authors:
-  - Ho Hiu-Yi
-  - Ng Hoi-Fung
-  - Wen Weisong
-  - Gu Yanlei
-  - Hsu Li-Ta
+  - Hiu-Yi Ho
+  - Hoi-Fung Ng
+  - Weisong Wen
+  - Yanlei Gu
+  - Li-Ta Hsu
   publisher: Journal of Data Science and Intelligent Systems
-  date: '2024-01-01'
+  date: '2024-10-31'
   link: https://doi.org/g8t4vb
   type: paper
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/enchancing_smartphone.png
@@ -1498,7 +1498,7 @@
   - Weisong Wen
   - Li-Ta Hsu
   publisher: IEEE Transactions on Intelligent Vehicles
-  date: '2024-01-01'
+  date: '2025-01-01'
   link: https://doi.org/g8t54p
   type: paper
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/Yang2024Subspace.png
