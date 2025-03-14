@@ -36,7 +36,7 @@ The discussion has deeply thrived in the inspection sights of the participants, 
     style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 <div style="text-align: center; margin-bottom: 20px;">
-  Dr. Wen Weisong is exchanging opinions about the low-altitude economy policies with Mr. Kenny Lau.
+   Active discussion between the TASLab members and Kenny Lau.
 </div>
 
 As a global logistics hub, Hong Kong is uniquely positioned to lead the low-altitude economy—a burgeoning sector projected to unlock billions in economic value through aerial logistics, surveillance, and passenger transport. SF Express, a pioneer in drone delivery trials across Greater China, brings critical industry insights, while PolyU TASLab’s cutting-edge research in aeronautical systems provides the technical backbone for scalable solutions.
