@@ -7,7 +7,7 @@ tags: news
 order: 
 ---
 
-##Discussion over the LAE development in Hong Kong with CTO of the SFexpress Hong Kong, Kenny Lau at Hong Kong Polytechnic University - TASLab on Mar 14th,2025
+## Discussion over the LAE development in Hong Kong with CTO of the SFexpress Hong Kong, Kenny Lau at Hong Kong Polytechnic University - TASLab on Mar 14th,2025
 
 The Trustworthy Autonomous Systems Laboratory (TASLab) at The Hong Kong Polytechnic University (PolyU) is honored to welcome Mr. Kenny Lau, Chief Technology Officer of S.F. Express Hong Kong, for a strategic visit on Mar 14th,2025. This high-level engagement will focus on advancing Unmanned Aerial Vehicle (UAV) technologies and accelerating the development of Hong Kong’s low-altitude economy—a transformative sector poised to redefine urban logistics, emergency response, and regional connectivity.
 
