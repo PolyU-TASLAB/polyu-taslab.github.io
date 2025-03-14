@@ -24,7 +24,7 @@ This discussion focuses on three main topics:
 The discussion has deeply thrived in the inspection sights of the participants, and has emerged meaningful thoughts over the low-altitude economy affected industries.
 
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/mainimages/news/SFHKvist/opinionExchange4.jpg" alt="Kenny Talk" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/SFHKvist/opinionExchange4.jpg" alt="Kenny Talk" 
        style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/SFHKvist/Introduction2.jpg" alt="Dicussions" 
        style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
