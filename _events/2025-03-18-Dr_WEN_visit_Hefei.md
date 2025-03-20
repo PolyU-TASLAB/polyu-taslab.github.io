@@ -26,4 +26,4 @@ The LAE scenario includes urban delivery.
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/hefei_LAE/evtol.jpg" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
-The eVTOL enter the mass production phase.
+The eVTOL has entered the mass production phase.
