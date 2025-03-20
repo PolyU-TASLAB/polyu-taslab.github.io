@@ -19,11 +19,11 @@ We look forward to the next phase of collaboration and advancing innovation in t
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/hefei_LAE/LAE_demo.jpg" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
-The LAE scenario includes inner-city delivery.
+The LAE scenario includes urban delivery.
 
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/hefei_LAE/evtol.png" alt="Team Banner" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/hefei_LAE/evtol.jpg" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 The eVTOL enter the mass production phase.
