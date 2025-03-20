@@ -9,7 +9,7 @@ order:
 
 ## Dr. Wen is invited to join R&D and collaboration meetings with ASTRI in Hefei.
 
-Hefei City, located in Anhui Province, has been selected as one of the pilot cities for low-altitude economy (LAE) reform by the Central Air Traffic Management Committee. As part of this initiative, Hefei is actively advancing its aerospace information industry and exploring new opportunities in this field.
+Hefei City, located in Anhui Province, has been selected as one of the pilot cities for low-altitude economy (LAE) reform by the Central Air Traffic Management Committee. As part of this initiative, Hefei is actively advancing its LAE industry and exploring new opportunities in this field.
 
 In March 2025, Dr. Wen was invited to participate in R&D and collaboration meetings with ASTRI and several GBA key industrial partners. With support from the Hefei Government and the Advanced Technology Application and Promotion Centre, several LAE scenarios and related supply chain initiatives were showcased, sparking potential collaborations in LAE development and smart mobility solutions.
 
