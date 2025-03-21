@@ -21,4 +21,6 @@ The collaboration underscores Hong Kong’s role as a hub for interdisciplinary 
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/joint_lab.jpg" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
-Dr. Runqiu Yang (left), Mr. Kai Xiao, CEO of Linxai Robotics (middle), and Dr. Weisong Wen (right) at the Department of Aeronautical and Aviation Engineering.
+<div style="text-align: center; margin-bottom: 20px;">
+  Dr. Runqiu Yang (left), Mr. Kai Xiao, CEO of Linxai Robotics (middle), and Dr. Weisong Wen (right) at the Department of Aeronautical and Aviation Engineering.
+</div>
