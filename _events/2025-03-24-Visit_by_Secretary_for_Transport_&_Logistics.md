@@ -25,9 +25,8 @@ The secretary has praised the team's hardwork and expressed an optimistic opinio
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/T&LVisit/introduction1.jpg" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-</div>
+<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/T&LVisit/introduction1.jpg" alt="Introduction" 
+       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
 <div style="text-align: center; margin-bottom: 20px;">
    Dr. Wen Weisong explaining the research proposal to the Secretary Hon. Mable Chan, JP.
