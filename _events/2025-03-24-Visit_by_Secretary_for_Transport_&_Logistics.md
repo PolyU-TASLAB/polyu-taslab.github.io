@@ -21,7 +21,7 @@ HONG KONG – In a significant step toward advancing smart city initiatives, Hon
 The secretary has praised the team's hardwork and expressed an optimistic opinion towards the development of this innovative window-cleaning UAV project. 
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/T&LVisit/IMG_0005.JPEG" alt="GroupPic" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/T&LVisit/IMG_0005.JPEG" alt="GroupPic" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
