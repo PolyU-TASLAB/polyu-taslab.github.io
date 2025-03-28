@@ -12,18 +12,30 @@ order:
 
 #### Demonstration of D15R Facade Cleaning Drone
 The Trustworthy Autonomous Systems Laboratory (TASLAB) at The Hong Kong Polytechnic University (PolyU) today paid a visit to JIUSI Intelligent Aviation Technology (Shenzhen) Co., Ltd., a leading provider of autonomous drones for smart city maintenance, highlighted by an impressive demonstration of Jiusi's next-generation facade cleaning drone.
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/Folded.JPEG" alt="Folded" 
-       style="width: 45%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/Decompressed.JPEG" alt="Decompressed" 
-       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
+<div style="display: flex; gap: 20px; justify-content: center; margin-bottom: 20px;">
+  <div style="flex: 1; max-width: 45%; height: 300px; border-radius: 15px; overflow: hidden;">
+    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/Folded.JPEG" 
+         alt="Folded" 
+         style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+  <div style="flex: 1; max-width: 45%; height: 300px; border-radius: 15px; overflow: hidden;">
+    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/Decompressed.JPEG" 
+         alt="Decompressed" 
+         style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
 </div>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/demo1.JPEG" alt="Fliud" 
-       style="width: 45%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/demo2.JPEG" alt="Demo1" 
-       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
+<div style="display: flex; gap: 20px; justify-content: center; margin-bottom: 20px;">
+  <div style="flex: 1; max-width: 45%; height: 300px; border-radius: 15px; overflow: hidden;">
+    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/demo1.JPEG" 
+         alt="Fluid" 
+         style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+  <div style="flex: 1; max-width: 45%; height: 300px; border-radius: 15px; overflow: hidden;">
+    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/demo2.JPEG" 
+         alt="Demo1" 
+         style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
 </div>
 Jiusi adopted two RTK anttana solution to secure the accurate positioning of the drone, ensuring accurate and precise operations. Featuring uniquely designed interchangeable nozzles, Jiusi's cleaning drone accomplishes wall surface cleaning through two optimized missions: During the first flight, a cavity nozzle generates adhesive foam to fix the cleaning solution onto glass curtain walls, allowing sufficient time for the solution to react with and degrade stubborn stains. The second mission employs a high-pressure nozzle to spray plasma-enhanced water, effectively removing residual contaminants while minimizing water streaks on the curtain wall surface through precision rinsing.The facade cleaning drone has showed a remarkable stability and efficiency in cleaning performance. According to the pilot, the drone can clean 500 meters square per hour.
 
@@ -34,7 +46,7 @@ Although the drone has demonstrated its stability and efficiency in cleaning per
 -The challenge of accurate positioning when drone is approaching the facades.
 -The need for optimizing the cleaning and fail-safe strategies.
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/disscussion1.png" alt="Discussion1" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/discussion1.png" alt="Discussion1" 
        style="width: 45%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/discussion2.png" alt="Discussion2" 
        style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
