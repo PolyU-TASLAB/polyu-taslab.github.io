@@ -2,7 +2,7 @@
 title: Successfully Application on Low-altitude Sandbox Project
 subtitle: news
 # author: Ziqi
-image: images/news/Dr_ShiyuBai_talk_Beihang.jpg
+image: images/news/flight_route.jpeg
 tags: news
 order: 
 ---
