@@ -2,7 +2,7 @@
 title: Dr. BAI Shiyu delivered a talk at the Satellite Navigation 2025 – International Workshop for Young Scientists, held at Beihang University on March 27
 subtitle:  news
 # author: xxx
-image: images/news/Dr_ShiyuBai_talk_Beihang.png
+image: images/news/Dr_ShiyuBai_talk_Beihang.jpg
 tags: news
 order: 
 ---
