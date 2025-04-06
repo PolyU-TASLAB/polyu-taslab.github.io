@@ -2,7 +2,7 @@
 title: Successfully Application on Low-altitude Sandbox Project
 subtitle: news
 # author: Ziqi
-image: images/news/flight_route.jpeg
+image: images/news/sandbox1.jpg
 tags: news
 order: 
 ---
@@ -21,7 +21,15 @@ In a recent public address, **Chief Executive Mr. John Lee** emphasized the LAE 
 
 Mr. Lee reaffirmed the Government’s commitment to developing Hong Kong into both an **international innovation and technology centre** and a **hub for high-calibre talent**, with the LAE serving as a crucial pillar in this transformation. TAS Lab’s project contributes directly to this forward-looking initiative by combining academic research with field application.
 
-## Project Scope and Locations
+<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/sandbox1.jpg" alt="Banner" 
+       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/sandbox2.jpg" alt="Banner" 
+       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
+</div>
+
+
+<!-- ## Project Scope and Locations
 
 The approved project runs from **January 2 to December 30, 2025**, and includes UAV operations at:
 
@@ -29,9 +37,9 @@ The approved project runs from **January 2 to December 30, 2025**, and includes 
 - **Gleneagles Hospital Hong Kong (GHK)**
 - **Hong Kong-Shenzhen Innovation and Technology Park (HSITP)**
 
-These locations were chosen for their strategic importance in innovation, healthcare logistics, and cross-boundary technological collaboration. All operations will be conducted within the regulatory limit of **300 feet above ground level (AGL)** and under strict safety protocols.
+These locations were chosen for their strategic importance in innovation, healthcare logistics, and cross-boundary technological collaboration. All operations will be conducted within the regulatory limit of **300 feet above ground level (AGL)** and under strict safety protocols. -->
 
-## Test Flight Route
+<!-- ## Test Flight Route
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/flight_route.jpeg" alt="Team Banner" 
@@ -42,9 +50,9 @@ These locations were chosen for their strategic importance in innovation, health
 
 - **Trial 1**: [HKSTP](https://maps.app.goo.gl/29PSaCwyMyyXfcjz6) ↔ [Tai Po InnoPark Vertiport](https://maps.app.goo.gl/xZB2bAZR3RQAAWDu6)  
 - **Trial 2**: [GHK](https://maps.app.goo.gl/8znQBu2QMD8pkqMP7) ↔ [Wong Nai Chung Park](https://maps.app.goo.gl/bpxcnHbtMuAJSjTNA)  
-- **Trial 3**: [HSITP](https://maps.app.goo.gl/w7LWf6cKMYUqPtpC7)
+- **Trial 3**: [HSITP](https://maps.app.goo.gl/w7LWf6cKMYUqPtpC7) -->
 
-## Objectives and Contributions
+<!-- ## Objectives and Contributions
 
 The project is designed to demonstrate the safe, scalable, and innovative use of UAVs in real-world urban settings. Core objectives include:
 
@@ -89,6 +97,6 @@ The 12-month project will unfold in four main phases:
 
 TAS Lab is proud to contribute to this pivotal national initiative that merges **academic research**, **industrial implementation**, and **policy shaping**. As Hong Kong sets its sights on becoming a regional leader in the **low-altitude economy**, projects like this will lay the groundwork for a sustainable and intelligent "smart sky" ecosystem.
 
----
+--- -->
 
 For more about the Low-altitude Economy Regulatory Sandbox, visit [TLB’s official website](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html).
