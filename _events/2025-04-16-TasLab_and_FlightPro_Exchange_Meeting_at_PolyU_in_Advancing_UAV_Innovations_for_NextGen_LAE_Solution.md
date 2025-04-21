@@ -3,7 +3,7 @@ title: TASLab and FlightPro Exchange Meeting at PolyU in Advancing UAV Innovatio
 
 subtitle: news
 # author: Yingming
-image: images/news/InnoEX2025/FlightPro.jpg
+image: images/news/FlightPro2.jpg
 tags: news
 order: 
 ---
