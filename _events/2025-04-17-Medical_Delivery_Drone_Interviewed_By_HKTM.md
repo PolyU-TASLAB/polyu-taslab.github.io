@@ -3,7 +3,7 @@ title: TASLab’s Medical Delivery Drone Project Showcased at HK SciFest, Featur
 
 subtitle: news
 # author: Yingming
-image: images/news/SCIFEST/RTHK2.jpg
+image: images/news/SCIFEST/RTHKInterview2.jpg
 tags: news
 order: 
 ---
@@ -21,7 +21,7 @@ The Smart Traffic Light System can functioning as a fixed charging station to co
 
 
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/SCIFEST/RTHK2" alt="Banner" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/SCIFEST/RTHKinterview" alt="Banner" 
        style="width: 90%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 
