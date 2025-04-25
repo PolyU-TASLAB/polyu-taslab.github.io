@@ -22,9 +22,3 @@ This partnership marks a forward-looking step in bridging cutting-edge AI techno
 <div style="text-align: center; margin-bottom: 20px;">
   Ph.D. student Runzhi (left) and Prof. Jinling Wang (right) during their first meeting at UNSW.
 </div>
-
-<ATTACHMENT_LINK>
-<LINK_INDEX>1</LINK_INDEX>
-<LINK_URL>https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Runzhi_and_Prof_Wang.jpg</LINK_URL>
-<LINK_CONTENT>Runzhi and Prof. Wang at UNSW</LINK_CONTENT>
-</ATTACHMENT_LINK>
