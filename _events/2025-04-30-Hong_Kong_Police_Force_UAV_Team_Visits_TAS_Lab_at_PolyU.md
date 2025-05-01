@@ -17,11 +17,16 @@ Upon arrival, the UAV team engaged in close discussions with members of TAS Lab,
 **Dr. Wen Weisong**, Assistant Professor at PolyU and Principal Investigator(PI) of TAS Lab, joined the event and conducted **in-depth discussions with the delegation on topics such as UAV regulation and risk management**. Both parties expressed a strong willingness to pursue future cooperation.
 
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/HK_Police_visit_1.jpg" alt="Banner" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/HK_Police_visit_2.jpg" alt="Banner" 
        style="width: 90%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 
 The visit concluded with a guided tour of the TAS Lab’s facilities, including the UAV flight area, navigation test platforms, and autonomous system testing platforms. The exchange laid a solid foundation for upcoming collaborative efforts between the university and the Hong Kong Police Force.
 
-
+<div style="display: flex; justify-content: center; margin-bottom: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/HK_Police_visit_1.jpg" alt="Banner" 
+       style="width: 60%; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/HK_Police_visit_3.jpg" alt="Banner" 
+       style="width: 70%; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px;">
+</div>
 
