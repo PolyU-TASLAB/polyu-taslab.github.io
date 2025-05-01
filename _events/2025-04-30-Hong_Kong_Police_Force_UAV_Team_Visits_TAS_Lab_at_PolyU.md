@@ -1,5 +1,5 @@
 ---
-title: Hong Kong Police Force UAV Team Visits the TAS Laboratory at PolyU
+title: Hong Kong Police Force UAV Team Visits PolyU TAS Lab to Foster Collaboration in UAV Technology and Safety
 
 subtitle: news
 # author: ZHAO Jiaqi
@@ -8,20 +8,20 @@ tags: news
 order: 
 ---
 
-# TASLab’s Medical Delivery Drone Project Showcased at HK SciFest, Featured by RTHK Pioneering UAV Technology for Emergency Healthcare Logistics
+# Hong Kong Police Force UAV Team Visits PolyU TAS Lab to Foster Collaboration in UAV Technology and Safety
 
-**HONG KONG, April 2025** — The **Trustworthy Autonomous Systems Lab (TAS Lab)** at The Hong Kong Polytechnic University demonstrated its **life-saving Medical Delivery Drone System** at the **Hong Kong Science Festival (HK SciFest)**, drawing significant public and media attention. The project was spotlighted in an exclusive interview by **Radio Television Hong Kong (RTHK)**, highlighting its potential to transform emergency medical supply chains in remote and urban areas.
+On **April 30, 2025**, the UAV Team from the Hong Kong Police Force, led by Superintendent KO Chung-ying from the Key and Search Division of the Major Events Division, visited the **TAS Lab at The Hong Kong Polytechnic University (PolyU)**. The visit aimed to facilitate technical exchanges and explore collaboration opportunities in the field of UAV technology and safety.
 
-# Revolutionizing Healthcare Logistics
-The drone system, developed under TASLab’s **Low-altitude Economy (LAE)** Regulatory Sandbox trials, is designed to deliver critical medical payloads—such as vaccines, blood samples, and emergency medications—to hospitals, clinics, and disaster zones with unprecedented speed and reliability. Cooperating with the **Hong Kong Applied Science and Technology Research Institute (Astri)**, TASLab will deploy the Medical Delivery Drone System along with the **Smart Traffic Light** Project developed with Astri to realize the exact harmony of infrastructures development with smart city applications. 
+Upon arrival, the UAV team engaged in close discussions with members of TAS Lab, covering a wide range of topics including UAV applications in urban environments, system design, and operational safety.
 
-The Smart Traffic Light System can functioning as a fixed charging station to collect and recharge the off-shift drone, greatly increase the sustainability of the medical delivery drone and its operating range.
-
-
-
+**Dr. Wen Weisong**, Assistant Professor at PolyU and Principal Investigator(PI) of TAS Lab, joined the event and conducted **in-depth discussions with the delegation on topics such as UAV regulation and risk management**. Both parties expressed a strong willingness to pursue future cooperation.
 
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/HK_Police_visit_1.jpg" alt="Banner" 
        style="width: 90%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
+
+The visit concluded with a guided tour of the TAS Lab’s facilities, including the UAV flight area, navigation test platforms, and autonomous system testing platforms. The exchange laid a solid foundation for upcoming collaborative efforts between the university and the Hong Kong Police Force.
+
+
 
