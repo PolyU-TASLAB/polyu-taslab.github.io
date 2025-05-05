@@ -2,7 +2,7 @@
 title: Our paper is accpeted by IEEE Transactions on Intelligent Transportation Systems
 subtitle: Example news
 # author: xxx
-image: images/news/Zheng2024TITS_feature.png
+image: images/news/runzhi_TITS_train_process.png
 tags: news
 order: 
 ---
