@@ -459,16 +459,11 @@
   
     <span data-tooltip="Originally start on">
       <i class="icon fa-regular fa-calendar"></i>
-      <span>January 09, 2025</span>
+      <span>May 05, 2025</span>
     </span>
   
 
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>May 05, 2025</span>
-    </span>
-   -->
+  <!--  -->
 </div>
 
 
@@ -496,16 +491,22 @@
 -->
 
 
-<p>It is great to share that our paper (<em>Safety-quantifiable Line Feature-based Monocular Visual Localization with 3D Prior Map”, by Zheng, Xi; Wen, Weisong</em>; Hsu, Li-Ta) is accepted by the <em>IEEE Transactions on Intelligent Transportation Systems</em>. Congratulations to Xi Zheng., etc. The open-source code is available at <a href="https://github.com/ZHENGXi-git/PriorLineVisualLocalization">Github</a>.</p>
+<p>It is great to share that our paper (<em>pyrtklib: An open-source package for tightly coupled deep learning and GNSS integration for positioning in urban canyons”, by Runzhi Hu, Penghui Xu, Yihan Zhong, Weisong Wen</em>) is accepted by the <em>IEEE Transactions on Intelligent Transportation Systems</em>. Congratulations to Runzhi., etc. The open-source code is available at <a href="https://github.com/IPNL-POLYU/pyrtklib">Github</a>.</p>
 
 <h2 id="abstract">Abstract</h2>
 
-<p>Accurate and safety-quantifiable localization is of great significance for safety-critical autonomous systems, such as unmanned ground vehicles (UGV) and unmanned aerial vehicles (UAV). The visual odometry-based method can provide accurate positioning in a short period but is subjected to drift over time. Moreover, the quantification of the safety of the localization solution (the error is bounded by a certain value) is still a challenge. To fill the gaps, this paper proposes a safetyquantifiable line feature-based visual localization method with a prior map. The visual-inertial odometry provides a highfrequency local pose estimation which serves as the initial guess for the visual localization. By obtaining a visual line feature pair association, a foot point-based constraint is proposed to construct the cost function between the 2D lines extracted from the real-time image and the 3D lines extracted from the high-precision prior 3D point cloud map. Moreover, a global navigation satellite systems (GNSS) receiver autonomous integrity monitoring (RAIM) inspired method is employed to quantify the safety of the derived localization solution. Among that, an outlier rejection (also well-known as fault detection and exclusion) strategy is employed via the weighted sum of squares residual with a Chi-squared probability distribution. A protection level (PL) scheme considering multiple outliers is derived and utilized to quantify the potential error bound of the localization solution in both position and rotation domains. The effectiveness of the proposed safety-quantifiable localization system is verified using the datasets collected in the UAV indoor and UGV outdoor environments. The open-source code is available at <a href="https://github.com/ZHENGXi-git/PriorLineVisualLocalization">Github</a>.</p>
+<p>Global Navigation Satellite Systems (GNSS) are crucial for intelligent transportation systems (ITS), providing essential positioning capabilities globally. However, in urban canyons, the GNSS performance could significantly degraded due to the blockage of direct GNSS signals. The pseudorange measurements are largely affected and the conventional model of weighting observations is not suitable in urban canyons. This paper addresses these challenges by integrating Artificial Intelligence (AI), specifically deep learning, into GNSS positioning process to enhance positioning accuracy. Traditional methods have primarily focused on pseudorange correction due to the absence of ground truth for weight estimation. In response, we propose an innovative indirect training approach using deep learning to optimize both pseudorange bias and weight estimation, aiming to minimize the positioning errors. To support this integration, we developed pyrtklib, a Python binding for the open-source RTKLIB tool, bridging the gap between traditional GNSS algorithms, typically developed in Fortran or C, and modern Python-based AI frameworks. Comparative analyses demonstrate that our method surpasses established tools like goGPS and RTKLIB in positioning accuracy, marking a significant advancement in the field. The source code of tightly coupled deep learning and GNSS integration, along with pyrtklib, is available on GitHub at <a href="https://github.com/ebhrz/TDL-GNSS">TDL-GNSS</a> and <a href="https://github.com/IPNL-POLYU/pyrtklib">pyrtklib</a>.</p>
 
 <h2 id="system-framework">System Framework</h2>
 
+<h3 id="training">Training</h3>
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Zheng2024TITS.png" alt="Team Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/runzhi_TITS_train_process.png" alt="Team Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+</div>
+
+<h3 id="prediction">Prediction</h3>
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/runzhi_TITS_predict_process.png" alt="Team Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
   </section>
 
@@ -525,17 +526,12 @@
   <span>
     
       <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
-      <a href="/events/2024-12-30-WuZhiQiao.html">
-        TASLAB research visit to Sha Tau Kok Restricted Area for Pilot North East New Territories Rural Waste Reduction and Sustainability Project on 30th December
+      <a href="/events/2025-05-05-ZhengXi_TITS.html">
+        Our paper is accpeted by IEEE Transactions on Intelligent Transportation Systems
       </a>
     
   </span>
   <span>
-    
-      Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/events/2025-01-10-PolyU_ASTRI_LAE_show.html">
-        PolyU-ASTRI Showcases Innovations in Low-Altitude Economy Technologies in Shenzhen on Jan 10, 2025
-      </a>
     
   </span>
 </div>
