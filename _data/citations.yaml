@@ -3188,3 +3188,141 @@
   repo: null
   plugin: sources.py
   file: sources.yaml
+- id: 10.1109/TIM.2024.3451578
+  title: Nonlinearity-Aware ZUPT-Aided Pedestrian Inertial Navigation Based on Cubature
+    Kalman Filter in Urban Canyons
+  authors:
+  - Ruijie Xu
+  - Shichao Chen
+  - Shiyu Bai
+  - Weisong Wen
+  publisher: IEEE Transactions on Instrumentation and Measurement
+  date: '2024-01-01'
+  link: https://doi.org/g8t54n
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/ZUPT-Aided.gif
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Nonlinearity-Aware_ZUPT-Aided_Pedestrian_Inertial_Navigation_Based_on_Cubature_Kalman_Filter_in_Urban_Canyons.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - Cubature Kalman filter
+  - CKF
+  - inertial sensor
+  - nonlinearity
+  - pedestrian navigation
+  - zero-velocity detection
+  repo: https://github.com/RuijieXu0408/PINSdatasets-based-on-Xsens-IMU.
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1088/1361-6501/ad7487
+  title: Indoor altitude estimation assisted by inertial compensation and online floor
+    modeling
+  authors:
+  - Ming Xia
+  - Jiale Wang
+  - Chuang Shi
+  - Weisong Wen
+  publisher: Measurement Science and Technology
+  date: '2024-09-05'
+  link: https://doi.org/g8t54m
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/mstad7487f6_lr.jpg
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Xia_2024_Meas._Sci._Technol._35_126302.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - altitude estimation
+  - inertial compensation
+  - floor modeling
+  - gait classification
+  - indoor positioning
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.33012/navi.660
+  title: Integrity-Constrained Factor Graph Optimization for GNSS Positioning in Urban
+    Canyons
+  authors:
+  - Xiao Xia
+  - Weisong Wen,
+  - Li-Ta Hsu
+  publisher: 'NAVIGATION: Journal of the Institute of Navigation'
+  date: '2024-01-01'
+  link: https://doi.org/g8t575
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/F1.medium.gif
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/navi.660.pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - factor graph optimization
+  - fault detection and exclusion
+  - GNSS positioning
+  - integrity-constrained positioning
+  - integrity monitoring
+  - switch variables
+  - urban canyons
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/TIV.2024.3467115
+  title: Safety-Quantifiable Planar-Feature-based LiDAR Localization with a Prior
+    Map for Intelligent Vehicles in Urban Scenarios
+  authors:
+  - Jiachen Zhang
+  - Xikun Liu
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: IEEE Transactions on Intelligent Vehicles
+  date: '2024-01-01'
+  link: https://doi.org/g8t5zc
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-05-08_02-32-43.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Safety-Quantifiable_Planar-Feature-based_LiDAR_Localization_with_a_Prior_Map_for_Intelligent_Vehicles_in_Urban_Scenarios(1).pdf
+  - type: source
+    text: code
+    link: null
+  - type: data
+    text: video
+    link: null
+  - type: website
+    link: null
+  tags:
+  - 3D LiDAR
+  - Non-convexity
+  - Planar features
+  - Safety-quantifiable Localization
+  - Urban canyons
+  repo: null
+  plugin: sources.py
+  file: sources.yaml
