@@ -2715,3 +2715,141 @@
 
 
 
+- id: 10.1109/TIM.2024.3451578
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/ZUPT-Aided.gif
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Nonlinearity-Aware_ZUPT-Aided_Pedestrian_Inertial_Navigation_Based_on_Cubature_Kalman_Filter_in_Urban_Canyons.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - Cubature Kalman filter
+    - CKF
+    - inertial sensor
+    - nonlinearity 
+    - pedestrian navigation
+    - zero-velocity detection
+  repo: https://github.com/RuijieXu0408/PINSdatasets-based-on-Xsens-IMU.
+
+- id: 10.1088/1361-6501/ad7487
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/mstad7487f6_lr.jpg
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Xia_2024_Meas._Sci._Technol._35_126302.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - altitude estimation
+    - inertial compensation
+    - floor modeling
+    - gait classification
+    - indoor positioning
+  repo: 
+
+- id: 10.33012/navi.660
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/F1.medium.gif
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/navi.660.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - factor graph optimization
+    - fault detection and exclusion
+    - GNSS positioning
+    - integrity-constrained positioning
+    - integrity monitoring
+    - switch variables
+    - urban canyons
+  repo: 
+
+- id: 10.1109/TIV.2024.3467115
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/10919536-fig-1-source-small.gif
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Safety-Quantifiable_Planar-Feature-based_LiDAR_Localization_with_a_Prior_Map_for_Intelligent_Vehicles_in_Urban_Scenarios.pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - factor graph optimization
+    - Planning and Control
+    - UAV
+  repo: 
+
+- id: 10.1109/TIV.2024.3467115
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-05-08_02-32-43.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Safety-Quantifiable_Planar-Feature-based_LiDAR_Localization_with_a_Prior_Map_for_Intelligent_Vehicles_in_Urban_Scenarios(1).pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - 3D LiDAR
+    - Non-convexity
+    - Planar features
+    - Safety-quantifiable Localization
+    - Urban canyons
+  repo: 
+
+  - id: 10.1109/TIV.2024.3467115
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-05-08_02-32-43.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Safety-Quantifiable_Planar-Feature-based_LiDAR_Localization_with_a_Prior_Map_for_Intelligent_Vehicles_in_Urban_Scenarios(1).pdf
+    - type: source
+      text: code
+      link: 
+    - type: data
+      text: video
+      link:
+    - type: website
+      link: 
+  tags:
+    - 3D LiDAR
+    - Non-convexity
+    - Planar features
+    - Safety-quantifiable Localization
+    - Urban canyons
+  repo: 
