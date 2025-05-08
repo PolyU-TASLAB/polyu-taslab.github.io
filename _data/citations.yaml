@@ -1282,7 +1282,7 @@
   repo: null
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/TIM.2024.3470043
+- id: 10.1109/TIM.2024.3470043
   title: 'Toward Persistent Spatial Awareness: A Review of Pedestrian Dead Reckoning-Centric
     Indoor Positioning With Smartphones'
   authors:
@@ -1419,72 +1419,6 @@
   - Deep learning
   - GNSS
   - RTKLIB
-  repo: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1088/1361-6501/ad7487
-  title: Indoor altitude estimation assisted by inertial compensation and online floor
-    modeling
-  authors:
-  - Ming Xia
-  - Jiale Wang
-  - Chuang Shi
-  - Weisong Wen
-  publisher: Measurement Science and Technology
-  date: '2024-09-05'
-  link: https://doi.org/g8t54m
-  type: paper
-  image: null
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/Xia2024_Meas._Sci._Technol._35_126302.pdf
-  - type: source
-    text: code
-    link: null
-  - type: data
-    text: video
-    link: null
-  - type: website
-    link: null
-  tags:
-  - Altitude estimation
-  - Inertial compensation,
-  - Floor modeling
-  - Gait classification
-  repo: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1109/TIM.2024.3451578
-  title: Nonlinearity-Aware ZUPT-Aided Pedestrian Inertial Navigation Based on Cubature
-    Kalman Filter in Urban Canyons
-  authors:
-  - Ruijie Xu
-  - Shichao Chen
-  - Shiyu Bai
-  - Weisong Wen
-  publisher: IEEE Transactions on Instrumentation and Measurement
-  date: '2024-01-01'
-  link: https://doi.org/g8t54n
-  type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/Xuruijie2024CKF.png
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/XuRuijie2024Nonlinearity-Aware_ZUPT-Aided_Pedestrian_Inertial_Navigation.pdf
-  - type: source
-    text: code
-    link: null
-  - type: data
-    text: video
-    link: null
-  - type: website
-    link: null
-  tags:
-  - Altitude estimation
-  - Inertial compensation
-  - Floor modeling
-  - Gait classification
   repo: null
   plugin: sources.py
   file: sources.yaml
@@ -2342,11 +2276,11 @@
   date: '2024-01-01'
   link: https://doi.org/g8t575
   type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/urban.png
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/F1.medium.gif
   buttons:
   - type: manubot
     text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/navi.660.full.pdf
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/navi.660.pdf
   - type: source
     text: code
     link: null
@@ -2357,10 +2291,8 @@
     link: null
   tags:
   - factor graph optimization
-  - FGO
   - fault detection and exclusion
   - GNSS positioning
-  - GNSS
   - integrity-constrained positioning
   - integrity monitoring
   - switch variables
@@ -3188,7 +3120,7 @@
   repo: null
   plugin: sources.py
   file: sources.yaml
-- id: 10.1109/TIM.2024.3451578
+- id: doi:10.1109/TIM.2024.3451578
   title: Nonlinearity-Aware ZUPT-Aided Pedestrian Inertial Navigation Based on Cubature
     Kalman Filter in Urban Canyons
   authors:
@@ -3257,72 +3189,211 @@
   repo: null
   plugin: sources.py
   file: sources.yaml
-- id: 10.33012/navi.660
-  title: Integrity-Constrained Factor Graph Optimization for GNSS Positioning in Urban
-    Canyons
+- id: doi:10.1109/JIOT.2024.3521404
+  title: '3DIO: Low-Drift 3-D Deep-Inertial Odometry for Indoor Localization Using
+    an IMU'
   authors:
-  - Xiao Xia
-  - Weisong Wen,
-  - Li-Ta Hsu
-  publisher: 'NAVIGATION: Journal of the Institute of Navigation'
-  date: '2024-01-01'
-  link: https://doi.org/g8t575
+  - Shiyu Bai
+  - Weisong Wen
+  - Chuang Shi
+  publisher: IEEE Internet of Things Journal
+  date: '2024-12-23'
+  link: https://doi.org/g9hrnm
   type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/F1.medium.gif
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/wen3-3521404-small.gif
   buttons:
   - type: manubot
     text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/navi.660.pdf
-  - type: source
-    text: code
-    link: null
-  - type: data
-    text: video
-    link: null
-  - type: website
-    link: null
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/3DIO_Low-Drift_3-D_Deep-Inertial_Odometry_for_Indoor_Localization_Using_an_IMU.pdf
   tags:
-  - factor graph optimization
-  - fault detection and exclusion
-  - GNSS positioning
-  - integrity-constrained positioning
-  - integrity monitoring
-  - switch variables
-  - urban canyons
-  repo: null
+  - 3-D space
+  - deep learning
+  - indoor localization
+  - inertial measurement unit (IMU)
+  - inertial odometry
+  - Invariant extended Kalman filter (InEKF).
   plugin: sources.py
   file: sources.yaml
-- id: 10.1109/TIV.2024.3467115
-  title: Safety-Quantifiable Planar-Feature-based LiDAR Localization with a Prior
-    Map for Intelligent Vehicles in Urban Scenarios
+- id: doi:10.1109/TMC.2025.3526196
+  title: Graph-Based Indoor 3D Pedestrian Location Tracking With Inertial-Only Perception
   authors:
-  - Jiachen Zhang
-  - Xikun Liu
+  - Shiyu Bai
   - Weisong Wen
+  - Dongzhe Su
   - Li-Ta Hsu
-  publisher: IEEE Transactions on Intelligent Vehicles
-  date: '2024-01-01'
-  link: https://doi.org/g8t5zc
+  publisher: IEEE Transactions on Mobile Computing
+  date: '2025-01-06'
+  link: https://doi.org/g9gh5g
   type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-05-08_02-32-43.png
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/hsu1-3526196-small.gif
   buttons:
   - type: manubot
     text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Safety-Quantifiable_Planar-Feature-based_LiDAR_Localization_with_a_Prior_Map_for_Intelligent_Vehicles_in_Urban_Scenarios(1).pdf
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Graph-Based_Indoor_3D_Pedestrian_Location_Tracking_With_Inertial-Only_Perception.pdf
+  tags:
+  - Indoor localization
+  - pedestrians
+  - inertial perception
+  - SLAM
+  - factor graph optimization
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/JIOT.2025.3527555
+  title: A Novel Lie Group-based Reliable IMM Estimation Method for SINS/GNSS/OD/NHC
+    Integrated Navigation in Complex Environments
+  authors:
+  - Siyuan Du
+  - Yulong Huang
+  - Weisong Wen
+  - Yonggang Zhang
+  publisher: IEEE Internet of Things Journal
+  date: '2025-01-09'
+  link: https://doi.org/g9hrnn
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Screenshot.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/A_Novel_Lie_Group-based_Reliable_IMM_Estimation_Method_for_SINS_GNSS_OD_NHC_Integrated_Navigation_in_Complex_Environments.pdf
+  tags:
+  - Autonomous vehicle
+  - integrated navigation
+  - Lie group
+  - interactive multiple model
+  - mounting error angle
+  - variational Bayesian
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/JSEN.2025.3540790
+  title: Multisensor Plug-and-Play Navigation Based on Resilient Information Filter
+  authors:
+  - Qian Meng
+  - Chang Su
+  - Yingying Jiang
+  - Weisong Wen
+  - Xiaolin Meng
+  publisher: IEEE Sensors Journal
+  date: '2025-02-26'
+  link: https://doi.org/g9hrnp
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/meng1-3540790-small.gif
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Multisensor_Plug-and-Play_Navigation_Based_on_Resilient_Information_Filter.pdf
+  tags:
+  - Asynchronous information
+  - information filter (IF)
+  - multisensor integration
+  - plug and play
+  - resilient navigation
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TCE.2025.3552892
+  title: 'Urban GNSS Positioning for Consumer Electronics: 3D Mapping and Advanced
+    Signal Processing'
+  authors:
+  - Jiale Wang
+  - Ming Xia
+  - Deyou Zhang
+  - Weisong Wen
+  - Wu Chen
+  - Chuang Shi
+  publisher: IEEE Transactions on Consumer Electronics
+  date: '2025-03-19'
+  link: https://doi.org/g9hrnq
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Screenshot1.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Urban_GNSS_Positioning_for_Consumer_Electronics_3D_Mapping_and_Advanced_Signal_Processing.pdf
+  tags:
+  - Consumer electronics
+  - GNSS
+  - smartphones
+  - 3D building models
+  - accurate positioning
+  - urban navigation
+  - stochastic modeling
+  - signal processing
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.33012/navi.684
+  title: 'Fault Detection Algorithm for Gaussian Mixture Noises: An Application in
+    Lidar/IMU Integrated Localization Systems'
+  authors:
+  - Penggao Yan
+  - Zhengdao Li
+  - Feng Huang
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: 'NAVIGATION: Journal of the Institute of Navigation'
+  date: '2025-03-19'
+  link: https://doi.org/g9hrnr
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Screenshot2.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/navi.684.full.pdf
+  tags:
+  - 2D lidar/IMU-based localization
+  - chi-squared test
+  - EKF, fault detection
+  - Gaussian mixture model
+  - non-Gaussian noise
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TITS.2025.3552691
+  title: 'pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS
+    Integration for Positioning in Urban Canyons'
+  authors:
+  - Runzhi Hu
+  - Penghui Xu
+  - Yihan Zhong
+  - Weisong Wen
+  publisher: IEEE Transactions on Intelligent Transportation Systems
+  date: '2025-04-11'
+  link: https://doi.org/g9hrns
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Screenshot3.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/pyrtklib_An_Open-Source_Package_for_Tightly_Coupled_Deep_Learning_and_GNSS_Integration_for_Positioning_in_Urban_Canyons.pdf
+  tags:
+  - Artificial intelligence
+  - deep learning
+  - GNSS
+  - RTKLIB
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TAES.2025.3566347
+  title: Online Dynamic Model Calibration for Reliable Control of Quadrotor Based
+    on Factor Graph Optimization
+  authors:
+  - PEIWEN YANG
+  - WEISONG WEN
+  - SHIYU BAI
+  - JIAHAO HU
+  publisher: IEEE Transactions on Aerospace and Electronic Systems
+  date: '2025-05-01'
+  link: https://doi.org/g9hrnt
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Screenshot4.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Online_Dynamic_Model_Calibration_for_Reliable_Control_of_Quadrotor_Based_on_Factor_Graph_Optimization.pdf
   - type: source
     text: code
-    link: null
-  - type: data
-    text: video
-    link: null
-  - type: website
-    link: null
+    link: https://github.com/RoboticsPolyu/QUAD_DYN
   tags:
-  - 3D LiDAR
-  - Non-convexity
-  - Planar features
-  - Safety-quantifiable Localization
-  - Urban canyons
-  repo: null
+  - Artificial intelligence
+  - deep learning
+  - GNSS
+  - RTKLIB
+  repo: https://github.com/RoboticsPolyu/QUAD_DYN
   plugin: sources.py
   file: sources.yaml
