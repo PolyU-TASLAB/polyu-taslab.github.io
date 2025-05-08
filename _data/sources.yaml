@@ -2663,10 +2663,7 @@
     - integrated navigation
     - vehicle navigation
   repo:
-
-
-
-
+  
 - id: doi:10.1109/TIM.2024.3451578
   type: paper
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/ZUPT-Aided.gif
