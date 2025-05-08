@@ -388,7 +388,7 @@
 - id: doi:10.1109/TIM.2024.3470043
   type: paper
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
-  # date: 2020-12-4
+  date: 2024-10-14
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/Bai2024ReviewPedestrian.png
   buttons:
     - type: manubot
