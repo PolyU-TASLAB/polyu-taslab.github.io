@@ -2,7 +2,7 @@
 title: Ph.D. Student XU Ruijie Presents Novel Wi-Fi RTT/LiDAR/IMU Integration Framework at IEEE/ION PLANS 2025
 subtitle: news
 # author: Ruijie Xu
-image: images/news/Ruijie0508_1.jpg images/news/Ruijie0508_2.jpg
+image: images/news/Ruijie0508_2.jpg
 tags: news
 order: 
 ---
