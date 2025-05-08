@@ -1671,13 +1671,6 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Zhong_Low_cost_Lidar.pdf
-      text: code
-      link: 
-    - type: data
-      text: video
-      link:
-    - type: website
-      link: 
   tags:
     - 3D LiDAR
     - weighting estimation
