@@ -12,14 +12,14 @@ order:
 From April 28 to May 1, 2025, PhD student Ruijie Xu from TASLAB attended the prestigious IEEE/ION Position, Location and Navigation Symposium (PLANS) in Salt Lake City, Utah, USA. At this leading conference for positioning, navigation, and timing technologies, Xu presented innovative research titled *Tightly-Coupled Wi-Fi/LiDAR/Inertial Integration via Factor Graph Optimization for UAS.*
 
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/blob/main/images/news/Ruijie0508_1.png" alt="Banner" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Ruijie0508_1.png" alt="Banner" 
        style="width: 100%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 
 The presented work addresses critical challenges of positioning in outdoor-indoor transition scenarios for Unmanned Autonomous Systems (UAS) by introducing a novel tightly-coupled multi-sensor fusion framework via FGO, implementing comprehensive integration of Wi-Fi Round-Trip-Time (RTT), LiDAR, and inertial measurements at the raw data level within a unified factor graph optimization framework. The proposed approach employs fault detection exclusion method to effectively handle both RTT measurement anomalies and LiDAR-inertial odometry drift. Experimental results demonstrated remarkable positioning accuracy in controlled indoor and challenging outdoor environments, respectively—representing substantial improvements over both conventional Wi-Fi RTT positioning and traditional LiDAR-inertial odometry.
 
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/blob/main/images/news/Ruijie0508_2.jpg" alt="Banner" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Ruijie0508_2.jpg" alt="Banner" 
        style="width: 100%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 
