@@ -2655,6 +2655,9 @@
   - type: manubot
     text: paper
     link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/pyrtklib_An_Open-Source_Package_for_Tightly_Coupled_Deep_Learning_and_GNSS_Integration_for_Positioning_in_Urban_Canyons.pdf
+  - type: source
+    text: code
+    link: https://github.com/IPNL-POLYU/pyrtklib
   tags:
   - Artificial intelligence
   - deep learning
