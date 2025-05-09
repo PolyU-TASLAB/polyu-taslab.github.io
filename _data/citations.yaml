@@ -984,14 +984,6 @@
   - type: manubot
     text: paper
     link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/Bai2024InvariantEKF.pdf
-  - type: source
-    text: code
-    link: null
-  - type: data
-    text: video
-    link: null
-  - type: website
-    link: null
   tags:
   - Invariant Extended Kalman Filtering
   - Deep learning
@@ -1227,14 +1219,6 @@
   - type: manubot
     text: paper
     link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2024/ChenZhiqiang2024ICRARELEAD.pdf
-  - type: source
-    text: code
-    link: null
-  - type: data
-    text: video
-    link: null
-  - type: website
-    link: null
   tags:
   - ESIKF
   - Graduated Non-Convexit
@@ -1829,13 +1813,8 @@
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/NA.png
   buttons:
   - type: manubot
-    text: code
-    link: null
-  - type: data
-    text: video
-    link: null
-  - type: website
-    link: null
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Zhong_Low_cost_Lidar.pdf
   tags:
   - 3D LiDAR
   - weighting estimation
@@ -1941,14 +1920,6 @@
   - type: manubot
     text: paper
     link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Enhancing_GNSS_Positioning_Accuracy_for_Road_Monitoring_Systems_A_Factor_Graph_Optimization_Approach_Aided_by_Geospatial_Information.pdf
-  - type: source
-    text: code
-    link: null
-  - type: data
-    text: video
-    link: null
-  - type: website
-    link: null
   tags:
   - Factor graph optimization
   - FGO
@@ -2125,12 +2096,6 @@
   - type: manubot
     text: paper
     link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2311.02327v1.pdf
-  - type: source
-    text: code
-    link: null
-  - type: data
-    text: video
-    link: null
   - type: website
     link: https://arclab-hku.github.io/ecmd/
   tags:
@@ -2160,12 +2125,6 @@
   - type: manubot
     text: paper
     link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Dynamic_Object-Aware_LiDAR_Odometry_Aided_by_Joint_Weightings_Estimation_in_Urban_Areas.pdf
-  - type: source
-    text: code
-    link: null
-  - type: data
-    text: video
-    link: null
   - type: website
     link: https://github.com/DarrenWong/code_for_dynaLO
   tags:
@@ -2193,12 +2152,6 @@
   - type: manubot
     text: paper
     link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/GLIO_Tightly-Coupled_GNSS_LiDAR_IMU_Integration_for_Continuous_and_Drift-Free_State_Estimation_of_Intelligent_Vehicles_in_Urban_Areas.pdf
-  - type: source
-    text: code
-    link: null
-  - type: data
-    text: video
-    link: null
   - type: website
     link: https://github.com/XikunLiu-huskit/GLIO
   tags:
@@ -2281,12 +2234,6 @@
   - type: manubot
     text: paper
     link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Roadside_Infrastructure_assisted_LiDAR_Inertial-based_Mapping_for_Intelligent_Vehicles_in_Urban_Areas.pdf
-  - type: source
-    text: code
-    link: null
-  - type: data
-    text: video
-    link: null
   - type: website
     link: https://sites.google.com/view/v2x-cooperative-navigation
   tags:
@@ -2318,12 +2265,6 @@
   - type: manubot
     text: paper
     link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Adaptive_Multi-Sensor_Integrated_Navigation_System_Aided_by_Continuous_Error_Map_from_RSU_for_Autonomous_Vehicles_in_Urban_Areas.pdf
-  - type: source
-    text: code
-    link: null
-  - type: data
-    text: video
-    link: null
   - type: website
     link: https://sites.google.com/view/v2x-cooperative-navigation
   tags:
