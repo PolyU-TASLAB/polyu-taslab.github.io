@@ -14,7 +14,7 @@ From May 9th to 11th, 2025, The **Low-altitude Economy (LAE) Exhibition** 2025 o
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/FlightProEx.jpg" alt="Banner" 
        style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
-    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/PhoenixWingsEX.jpg" alt="Discussion2" 
+    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/PhoenixWingsEX.jpg" alt="Discussion2" 
         style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 
