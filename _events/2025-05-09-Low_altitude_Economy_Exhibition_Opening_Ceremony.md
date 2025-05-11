@@ -12,10 +12,10 @@ order:
 From May 9th to 11th, 2025, The **Low-altitude Economy (LAE) Exhibition** 2025 officially launched today at Hong Kong Cyberport, marking a significant milestone in the city’s push to become a regional hub for aerial innovation. The three-day event, running from May 9-11, features groundbreaking UAV technologies from leading companies such as FlightPro and Phoenix Wings (丰翼), highlighting Hong Kong’s growing role in smart urban mobility and logistics.
 
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/FlightProEx.jpg" alt="Banner" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/FlightProEX.jpg" alt="FlightPro" 
        style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
-    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/PhoenixWingsEX.jpg" alt="Discussion2" 
-        style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/PhoenixWingsEX.jpg" alt="PhoenixEX" 
+      style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 
 # Government and Industry Leaders Emphasize LAE’s Potential
