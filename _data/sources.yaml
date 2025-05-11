@@ -2018,6 +2018,7 @@
     - deep learning
     - GNSS
     - RTKLIB
+  repo: https://github.com/IPNL-POLYU/pyrtklib
 
 - id: doi:10.1109/TAES.2025.3566347
   type: paper
