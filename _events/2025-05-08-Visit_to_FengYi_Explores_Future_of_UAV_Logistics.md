@@ -23,7 +23,7 @@ Phoenix Wings Technology (Shenzhen) Co., Ltd., a subsidiary of SF Group, is comm
 
 As the first company in China to obtain a civil unmanned aircraft operator certificate, Fengyu Technology has maintained a leading position in the logistics drone sector. It focuses on extended applications in express delivery, medical services, emergency response, and inspections. Phoenix Wings Technology has achieved full-terrain coverage, spanning urban areas, plains, plateaus, mountains, snowy regions, and islands. Starting from Asia, the company has expanded its services to Europe, Africa, and South America, cooperating with local partners in 18 countries.
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/phoenixwings/3.jpg" alt="FlightPro" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/phoenixwings/3.png" alt="FlightPro" 
        style="width: 90%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 
@@ -40,7 +40,7 @@ The visit included a comprehensive introduction to the history of Phoenix Wings 
 </div>
 
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/phoenixwings/6.jpg.jpg" alt="FlightPro" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/phoenixwings/6.jpg.jpg" alt="FlightPro2" 
        style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/phoenixwings/7.jpg" alt="PhoenixEX" 
       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
