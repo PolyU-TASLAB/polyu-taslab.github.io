@@ -40,7 +40,7 @@ The visit included a comprehensive introduction to the history of Phoenix Wings 
 </div>
 
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/phoenixwings/6.jpg.jpg" alt="FlightPro2" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/phoenixwings/6.jpg" alt="FlightPro2" 
        style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/phoenixwings/7.jpg" alt="PhoenixEX" 
       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
