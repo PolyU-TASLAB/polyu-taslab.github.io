@@ -2,7 +2,7 @@
 title: Ph.D. Candidate Xikun Liu Visits the University of California, Los Angeles for Collaborative Research on Intelligent Planning for Disaster-Relief Robotics
 subtitle: news
 # author: Runzhi Hu
-image: images/news/xikun_RASP.jpg
+image: images/news/xikun_RSAP.jpg
 tags: news
 order: 
 ---
