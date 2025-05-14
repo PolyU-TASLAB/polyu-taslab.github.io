@@ -16,7 +16,7 @@ During the visit, he will focus on intelligent autonomous planning for ground ro
 This visit lays a solid foundation for continued academic exchange and collaboration between the groups. Both sides look forward to exploring long-term research partnerships and advancing the frontiers of intelligent robotics.
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Runzhi_and_Prof_Wang.jpg" alt="" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/xikun_RSAP.jpg" alt="" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 <div style="text-align: center; margin-bottom: 20px;">
