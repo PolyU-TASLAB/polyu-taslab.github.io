@@ -23,4 +23,4 @@ The presented work addresses critical challenges of positioning in outdoor-indoo
        style="width: 30%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 
-The participation in IEEE/ION PLANS 2024 provided valuable opportunities for academic exchange and collaboration with international researchers in the positioning and navigation community, further strengthening our lab's global research presence in navigation and positioning field.
+The participation in IEEE/ION PLANS 2025 provided valuable opportunities for academic exchange and collaboration with international researchers in the positioning and navigation community, further strengthening our lab's global research presence in navigation and positioning field.
