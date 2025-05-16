@@ -7,7 +7,7 @@ tags: news
 order: 
 ---
 
-## Ph.D. Candidate Xikun Liu Visits the University of California, Los Angeles for Collaborative Research on Intelligent Planning for Disaster-Relief Robotics
+## Visiting LinxAI Intelligent Technology Co., Ltd: A Glimpse into the Future of Quadruped Robotics
 
 Dr. Runqiu Yang and MPhil student Yuling Cheng recently visited LinxAI Intelligent Technology Co., Ltd, where they toured the company's quadruped robot assembly base and cutting-edge research laboratory. During their visit, they engaged in in-depth discussions with LinxAI’s engineering team, exchanging insights on the latest advancements in robotic locomotion, AI-driven control systems, and industrial applications of quadruped robots.
 
