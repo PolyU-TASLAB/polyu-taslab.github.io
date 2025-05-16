@@ -16,9 +16,9 @@ The visit provided a firsthand look at LinxAI’s innovative manufacturing proce
 This interaction underscores the growing synergy between academia and industry in pushing the boundaries of intelligent robotics. LinxAI’s advancements signal exciting possibilities for the next generation of autonomous, agile, and AI-powered quadruped robots.
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/xikun_RSAP.jpg" alt="" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/linxai_robotics.jpg" alt="" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 <div style="text-align: center; margin-bottom: 20px;">
-  The platform of ground vehicle.
+  The testing quadruped robot.
 </div>
