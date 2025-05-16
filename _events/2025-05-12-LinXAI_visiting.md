@@ -2,7 +2,7 @@
 title: Dr. Runqiu Yang and Yuling Cheng Visit LinxAI Intelligent Technology Co., Ltd
 subtitle: news
 # author: Runqiu Yang
-image: images/news/xikun_RSAP.jpg
+image: images/news/linxai_robotics.jpg
 tags: news
 order: 
 ---
