@@ -12,7 +12,7 @@ links:
   email: fengyu@mail.nankai.edu.cn
   profile: 
 
-display_1: Joint Ph.D. Student (PolyU), B.Eng. (NKU)
+display_1: Ph.D. Student (PolyU-NKU), B.Eng. (NKU)
 display_2: To join in fall 2025
 ---
 
