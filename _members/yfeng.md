@@ -6,9 +6,9 @@ affiliation: Hong Kong Polytechnic University
 order: 2
 
 links:
-  home-page:
+  home-page: /
   orcid: 0000-0001-7867-2788
-  google-scholar: 
+  google-scholar: / 
   email: fengyu@mail.nankai.edu.cn
   profile: 
 
