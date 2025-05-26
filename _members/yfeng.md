@@ -3,7 +3,7 @@ name: Feng Yu
 image: images/team/yfeng.jpg
 role: phd  # pi / postdoc / phd / ms / under / visiting
 affiliation: Hong Kong Polytechnic University
-order: 2
+order: 42
 
 links:
   home-page: /
