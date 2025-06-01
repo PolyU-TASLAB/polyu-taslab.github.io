@@ -13,7 +13,7 @@ links:
   email: xinxx7.wang@polyu.edu.hk
   profile: 
 
-display_1: MPhil Student (PolyU), M.Eng.(BIT), B.Eng.(NUC)
+display_1: PhD student (PolyU), M.Eng.(BIT), B.Eng.(NUC)
 display_2: May 2025 -- Present
 ---
 
