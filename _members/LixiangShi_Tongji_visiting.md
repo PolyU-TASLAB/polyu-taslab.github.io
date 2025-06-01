@@ -3,7 +3,7 @@ name: Yuxiang Shi
 image: images/team/Yuxiang_SHI_tongji.jpg
 role: visiting  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Tongji University
-order: 1
+order: 2
 
 links:
   home-page: N/A

@@ -13,8 +13,8 @@ links:
   email: qian.yang@polyu.edu.hk
   profile: 
 
-display_1: Project Administrative Assistant, B.Eng. (TYUT)
-display_2: Jul 2024 -- Present
+display_1: Mphil student(PolyU). (TYUT)
+display_2: May 2025 -- Present
 ---
 
 <!--  Add a short self introduction here -->
