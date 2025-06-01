@@ -1,7 +1,7 @@
 ---
 name: Zihao Wang
 image: images/team/Zihao-Wang.png
-role: visting  # pi / postdoc / phd / ms / under / ra / visiting
+role: visiting  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Wuhan University
 order: 1
 
