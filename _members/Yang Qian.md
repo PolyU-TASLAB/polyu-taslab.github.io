@@ -1,9 +1,9 @@
 ---
 name: Yang Qian
 image: images/team/yangqian.jpg
-role: ra  # pi / postdoc / phd / ms / under / ra / visiting
+role: ms  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
-order: 1
+order: 103
 
 links:
   home-page: 
@@ -20,7 +20,7 @@ display_2: Jul 2024 -- Present
 <!--  Add a short self introduction here -->
 <!-- Like Research Areas -->
 
-Yang Qian received her bachelor's degree in Mechanical Design, Manufacturing, and Automation from Taiyuan University of Technology in 2023. She is currently a Project Administrative Assistant in the Department of Aeronautical and Aviation Engineering at The Hong Kong Polytechnic University, Hong Kong.
+Yang Qian received her bachelor's degree in Mechanical Design, Manufacturing, and Automation from Taiyuan University of Technology in 2023. She is currently a Mphil student in the Department of Aeronautical and Aviation Engineering at The Hong Kong Polytechnic University, Hong Kong.
 
 **Research Areas**
 UAV positioning and navigation

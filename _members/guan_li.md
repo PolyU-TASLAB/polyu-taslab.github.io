@@ -1,9 +1,9 @@
 ---
 name: Guan Li
 image: images/team/guan_li.jpg
-role: ra  # pi / postdoc / phd / ms / under / ra / visiting
+role: alumni  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
-order: 7
+order: 1
 
 links:
   home-page: https://guanli.netlify.app/

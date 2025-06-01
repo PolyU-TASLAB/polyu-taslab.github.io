@@ -1,9 +1,9 @@
 ---
 name: Wang Xin
 image: images/team/wang_xin.jpg
-role: ra
+role: ms
 affiliation: Hong Kong Polytechnic University
-order: 1
+order: 102
 
 links:
   home-page: 
@@ -13,14 +13,14 @@ links:
   email: xinxx7.wang@polyu.edu.hk
   profile: 
 
-display_1: Research Assistant(PolyU), M.Eng.(BIT), B.Eng.(NUC)
-display_2: May 2024 -- Present
+display_1: MPhil Student (PolyU), M.Eng.(BIT), B.Eng.(NUC)
+display_2: May 2025 -- Present
 ---
 
 <!--  Add a short self introduction here -->
 <!-- Like Research Areas -->
 
-Xin Wang received the B.E. degree in Electronic Science and Technology from the North University of China (NUC), Taiyuan, China, in 2019., and an MEng degree in Electronic Information from Beijing Institute of Technology (BIT), Beijing, China, in 2023. After that, she is currently as an Research Assistant at AAE of PolyU since 2024. 
+Xin Wang received the B.E. degree in Electronic Science and Technology from the North University of China (NUC), Taiyuan, China, in 2019, and the M.Eng. degree in Electronic Information from the Beijing Institute of Technology (BIT), Beijing, China, in 2023. She is currently pursuing a Ph.D. degree in the Department of Aeronautical and Aviation Engineering (AAE) at The Hong Kong Polytechnic University (PolyU). Her research interests include visual navigation,  deep learning and AI-assisted wireless signal modeling.
 
 **Research Areas**
 Indoor positioning; AI-assisted wireless signal modelling; deep learning
