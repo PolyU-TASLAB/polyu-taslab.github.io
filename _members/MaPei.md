@@ -1,7 +1,7 @@
 ---
 name: Ma Pei
 image: images/team/Ma_Pei.jpg
-role: ra  
+role: alumni  
 affiliation: Hong Kong Polytechnic University
 order: 1
 
@@ -14,7 +14,7 @@ links:
   profile: 
 
 display_1: Research Assistant, M.Eng.(CAUC), B.Eng. (XPU)
-display_2: May 2024 -- Present
+display_2: May 2024 -- May 2025
 ---
 
 <!--  Add a short self introduction here -->

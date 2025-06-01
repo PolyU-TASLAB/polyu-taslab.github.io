@@ -33,6 +33,8 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
 #### Visiting Scholar/Students
 {% include list_students.html data="members" component="portrait_students" filters="role == 'visiting'" %}
 #### Alumni
+{% include list_students.html data="members" component="portrait_students" filters="role == 'alumni'" %}
+
 
 
 

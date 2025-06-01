@@ -14,14 +14,14 @@ links:
   profile: 
 
 display_1: M.S and B.Eng. (WHU)
-display_2: Sep 2023 -- Present
+display_2: To be join in fall 2025
 
 ---
 
 <!--  Add a short self introduction here -->
 <!-- Like Research Areas -->
 
-Mr. Zihao Wang currently pursuing a Master’s degree in Geodesy and Survey Engineering at the GNSS Research Center,Wuhan University. My research focuses on state estimation through multi-sensor fusion, with particular emphasis on high-precision GNSS data processing (PPP-RTK), visual-inertial-odometry, vehicle motion constraint, and advanced filtering technique such as square root information filtering.
+Mr. Zihao Wang currently pursuing a Master’s degree in Geodesy and Survey Engineering at the GNSS Research Center,Wuhan University. His research focuses on state estimation through multi-sensor fusion, with particular emphasis on high-precision GNSS data processing (PPP-RTK), visual-inertial-odometry, vehicle motion constraint, and advanced filtering technique such as square root information filtering.
 
 
 **Research Areas**
