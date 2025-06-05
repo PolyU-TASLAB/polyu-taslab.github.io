@@ -5,7 +5,7 @@ subtitle: news
 image: images/news/Atal_session.jpg
 tags: news
 order:
-
+---
 TAS Lab Holds Information Exchange Session with ATAL Company to Foster Industry-Academia Collaboration
 Researchers from the TAS Lab recently hosted an information exchange session with representatives from ATAL Company, a leading firm in iconic building design and management. The meeting, held on June 3rd, 2025, aimed to strengthen ties between academia and industry while exploring collaborative opportunities in drone applications under the scenario of Low-altitude Economy.
 
@@ -15,4 +15,12 @@ The session covered key topics such as Inspection Drones and the Building Cleani
 
 The event concluded with plans for future engagements, including workshops and research partnerships, to further synergize expertise from both organizations.
 
-<div style="text-align: center; margin-bottom: 20px;"> <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Atal_session.jpg" alt="" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;"> </div> <div style="text-align: center; margin-bottom: 20px;"> TAS Lab and ATAL representatives. </div>
+
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Atal_session.jpg" alt="" 
+       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+</div>
+<div style="text-align: center; margin-bottom: 20px;">
+    TAS Lab and ATAL representatives.
+</div>
