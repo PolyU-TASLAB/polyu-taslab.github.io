@@ -1,7 +1,7 @@
 ---
 title: TAS Lab Presents Wearable Navigation Concept for Visually Impaired Individuals at Nanchang Health Expo
 subtitle: news
-# author:
+# author: Wang Xiangru
 image: images/news/Nanchang_Health_Expo/ProfWen&Xiangru.jpg
 tags: news
 order:
