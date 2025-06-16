@@ -2090,3 +2090,19 @@
     - rapid fingerprint database establishment 
     - self-attention enhanced presequence warmup long short-term memory(PSW-LSTM)
     - smartphone
+
+# - id: doi:10.1109/TIM.2025.3568977
+#   type: paper
+#   date: 2025-05-12
+#   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Screenshot7.png
+#   buttons:
+#     - type: manubot
+#       text: paper
+#       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Self-Attention-Enhanced_PSW-LSTM_for_3-D_Indoor_Pedestrian_Positioning_With_Integrated_Wi-Fi_Magnetometer_and_Barometer_Sensors.pdf
+#   tags:
+#     - 3-D indoor positioning
+#     - multisource sensors fusion
+#     - rapid fingerprint database establishment 
+#     - self-attention enhanced presequence warmup long short-term memory(PSW-LSTM)
+#     - smartphone
+
