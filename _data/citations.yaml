@@ -2694,3 +2694,88 @@
   repo: https://github.com/RoboticsPolyu/QUAD_DYN
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1109/TITS.2025.3572620
+  title: Safety-Quantifiable Line Feature-Based Monocular Visual Localization With
+    3D Prior Map
+  authors:
+  - Xi Zheng
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: IEEE Transactions on Intelligent Transportation Systems
+  date: '2025-06-02'
+  link: https://doi.org/g9qf62
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Screenshot5.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Safety-Quantifiable_Line_Feature-Based_Monocular_Visual_Localization_With_3D_Prior_Map.pdf
+  - type: source
+    text: code
+    link: https://github.com/ZHENGXi-git/SafetyQuantifiable-PLVINS
+  tags:
+  - Safety quantification
+  - state estimation
+  - visual localization
+  - prior map
+  - outlier rejection
+  - protection level
+  repo: https://github.com/ZHENGXi-git/SafetyQuantifiable-PLVINS
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TIM.2025.3573351
+  title: Continuous Error Map Aided Adaptive Multi-Sensor Integration for Connected
+    Autonomous Vehicles in Urban Scenarios
+  authors:
+  - Feng Huang
+  - Weisong Wen
+  - Guohao Zhang
+  - Dongzhe Su
+  - Yulong Huang
+  publisher: IEEE Transactions on Instrumentation and Measurement
+  date: '2025-05-26'
+  link: https://doi.org/g9qf63
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Screenshot6.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Continuous_Error_Map_Aided_Adaptive_Multi-Sensor_Integration_for_Connected_Autonomous_Vehicles_in_Urban_Scenarios.pdf
+  - type: source
+    text: code
+    link: https://github.com/DarrenWong/continuous_error_map
+  tags:
+  - Continuous Error Map
+  - C-V2X
+  - Multi-Sensor Integrated Positioning
+  - Urban Scenarios
+  repo: https://github.com/DarrenWong/continuous_error_map
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TIM.2025.3568977
+  title: Self-Attention-Enhanced PSW-LSTM for 3-D Indoor Pedestrian Positioning With
+    Integrated Wi-Fi, Magnetometer, and Barometer Sensors
+  authors:
+  - Zhanpeng Zhang
+  - Jiale Wang
+  - Ming Xia
+  - Chuang Shi
+  - Weisong Wen
+  - Deyou Zhang
+  publisher: IEEE Transactions on Instrumentation and Measurement
+  date: '2025-05-12'
+  link: https://doi.org/g9qf64
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Screenshot7.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Self-Attention-Enhanced_PSW-LSTM_for_3-D_Indoor_Pedestrian_Positioning_With_Integrated_Wi-Fi_Magnetometer_and_Barometer_Sensors.pdf
+  tags:
+  - 3-D indoor positioning
+  - multisource sensors fusion
+  - rapid fingerprint database establishment
+  - self-attention enhanced presequence warmup long short-term memory(PSW-LSTM)
+  - smartphone
+  plugin: sources.py
+  file: sources.yaml
