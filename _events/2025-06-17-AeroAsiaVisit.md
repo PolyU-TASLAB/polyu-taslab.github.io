@@ -1,7 +1,7 @@
 ---
 title: Messe Frankfurt Representatives Visit TAS-Lab to Discuss Future Collaborations
 subtitle: news
-author: Wang Xiangru
+# author: Wang Xiangru
 image: images/news/AeroAsiaVisit/group.jpg
 tags: news
 order:
