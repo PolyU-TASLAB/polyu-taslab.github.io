@@ -2,7 +2,7 @@
 title: Messe Frankfurt Representatives Visit TAS-Lab to Discuss Future Collaborations
 subtitle: news
 author: Wang Xiangru
-image: images/news/AeroAsia/group.jpg
+image: images/news/AeroAsiaVisit/group.jpg
 tags: news
 order:
 ---
@@ -20,7 +20,7 @@ In return, Mr. Alles and Ms. Tse introduced their major upcoming exhibition, **A
 The meeting concluded with a shared enthusiasm for future collaborations between the TAS-Lab and Messe Frankfurt.
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AeroAsia/group.jpg" alt="Group photo of TAS-Lab members with Messe Frankfurt representatives." 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AeroAsiaVisit/group.jpg" alt="Group photo of TAS-Lab members with Messe Frankfurt representatives." 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 <div style="text-align: center; margin-bottom: 20px;">
