@@ -2,7 +2,7 @@
 title: Hong Kong Polytechnic University Visits Hong Kong Police FDC to Enhance Collaboration on Drone Applications
 subtitle: news
 # author: Yingming Chen
-image: 
+image: images/news/HKPD/police3.jpg
 tags: news
 order:
 ---
@@ -19,9 +19,16 @@ The Hong Kong Police Force continues to explore technological advancements to en
 
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Atal_session.jpg" alt="" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/HKPD/police.jpg" alt="" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 <div style="text-align: center; margin-bottom: 20px;">
-    Test pics.
+    Police force recruitment introduction.
+</div>
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/HKPD/police2.jpg" alt="" 
+       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+</div>
+<div style="text-align: center; margin-bottom: 20px;">
+    Simulation testing of the police force training program.
 </div>
