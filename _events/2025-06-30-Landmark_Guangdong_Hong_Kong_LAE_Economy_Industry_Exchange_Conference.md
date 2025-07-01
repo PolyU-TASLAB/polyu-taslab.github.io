@@ -16,39 +16,27 @@ The conference opened with remarks from **Mr. Zhu Xiaojun**, Deputy Director-Gen
 
 #### Policy Insights and Municipal Investment Opportunities
 **Mr. Lin Zhichun**, Head of the Guangdong Low-Altitude Economy Task Force, delivered a policy briefing outlining regulatory frameworks and incentives to accelerate industry growth. Representatives from Guangzhou, Shenzhen, and Zhuhai further presented their cities’ strategic advantages in low-altitude technology investment, highlighting infrastructure, talent pools, and pilot programs.
-<div style="display: flex; gap: 20px; justify-content: center; margin-bottom: 20px;">
-  <div style="flex: 1; max-width: 45%; height: 300px; border-radius: 15px; overflow: hidden;">
-    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/GDHKExchange/lanzhong/celeb/CaiLiYun.jpg" 
-         alt="Hostess Ms.Cai LiYun" 
-         style="width: 100%; height: 100%; object-fit: cover;">
-  </div>
-  <div style="flex: 1; max-width: 45%; height: 300px; border-radius: 15px; overflow: hidden;">
-    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/DHKExchange/lanzhong/celeb/Zhu.jpg" 
-         alt="Deputy Director General of the Guangdong Provincial Department of Commerce Mr. Zhu Xiaojun" 
-         style="width: 100%; height: 100%; object-fit: cover;">
-  </div>
+<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/GDHKExchange/lanzhong/celeb/CaiLiYun.jpg" alt="Hostess Ms.CaiLiYun" 
+       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/GDHKExchange/lanzhong/celeb/Zhu.jpg" alt="Mr.Zhu Xiaojun" 
+      style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 
-<div style="display: flex; gap: 20px; justify-content: center; margin-bottom: 20px;">
-  <div style="flex: 1; max-width: 45%; height: 300px; border-radius: 15px; overflow: hidden;">
-    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/DHKExchange/lanzhong/celeb/Ge.jpg" 
-         alt="Legislative Council Member and Founding President of the Greater Bay Area LAE Alliance Ms. Elizabeth Quat" 
-         style="width: 100%; height: 100%; object-fit: cover;">
-  </div>
-  <div style="flex: 1; max-width: 45%; height: 300px; border-radius: 15px; overflow: hidden;">
-    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/DHKExchange/lanzhong/celeb/Lin.jpg" 
-         alt="Head of the Guangdong LAE Task Force Mr. Lin Zhichun" 
-         style="width: 100%; height: 100%; object-fit: cover;">
-  </div>
+<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/GDHKExchange/lanzhong/celeb/Ge.jpg" alt="Dr. Elizabeth Quat" 
+       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/GDHKExchange/lanzhong/celeb/Lin.jpg" alt="Mr. Lin Zhichun" 
+      style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 
 #### Cutting-Edge Industry Showcase
 The project roadshow segment featured leading enterprises such as **EHang**, **Kobot**, and **Fengyi Technology**, showcasing advancements in autonomous aerial vehicles (AAVs), drone delivery networks, and AI-driven air traffic management. Of particular interest to our lab was **Shenzhen-based Lingling Infinite Technology**, which demonstrated lightweight drone solutions for smart city applications—an area aligning with PolyU’s research in trustworthy autonomous systems.
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/DHKExchange/lanzhong/Lanzhong1.jpg" alt="Lanz Technology Demonstrate their products" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/GDHKExchange/lanzhong/Lanzhong1.jpg" alt="Lanz Technology Demonstrate their products" 
        style="width: 45%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/DHKExchange/lanzhong/Lanzhong2.jpg" alt="Lanz Technology Module X300" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/GDHKExchange/lanzhong/Lanzhong2.jpg" alt="Lanz Technology Module X300" 
        style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 
