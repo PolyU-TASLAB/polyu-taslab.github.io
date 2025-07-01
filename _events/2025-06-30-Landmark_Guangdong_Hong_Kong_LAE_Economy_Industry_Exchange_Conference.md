@@ -24,7 +24,7 @@ The conference opened with remarks from **Mr. Zhu Xiaojun**, Deputy Director-Gen
   </div>
   <div style="flex: 1; max-width: 45%; height: 300px; border-radius: 15px; overflow: hidden;">
     <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/DHKExchange/lanzhong/celeb/Zhu.jpg" 
-         alt="Deputy Director-General of the Guangdong Provincial Department of Commerce Mr. Zhu Xiaojun" 
+         alt="Deputy Director General of the Guangdong Provincial Department of Commerce Mr. Zhu Xiaojun" 
          style="width: 100%; height: 100%; object-fit: cover;">
   </div>
 </div>
@@ -32,12 +32,12 @@ The conference opened with remarks from **Mr. Zhu Xiaojun**, Deputy Director-Gen
 <div style="display: flex; gap: 20px; justify-content: center; margin-bottom: 20px;">
   <div style="flex: 1; max-width: 45%; height: 300px; border-radius: 15px; overflow: hidden;">
     <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/DHKExchange/lanzhong/celeb/Ge.jpg" 
-         alt="Legislative Council Member and Founding President of the Greater Bay Area Low-Altitude Economy Alliance Ms. Elizabeth Quat" 
+         alt="Legislative Council Member and Founding President of the Greater Bay Area LAE Alliance Ms. Elizabeth Quat" 
          style="width: 100%; height: 100%; object-fit: cover;">
   </div>
   <div style="flex: 1; max-width: 45%; height: 300px; border-radius: 15px; overflow: hidden;">
     <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/DHKExchange/lanzhong/celeb/Lin.jpg" 
-         alt="Head of the Guangdong Low-Altitude Economy Task Force Mr. Lin Zhichun" 
+         alt="Head of the Guangdong LAE Task Force Mr. Lin Zhichun" 
          style="width: 100%; height: 100%; object-fit: cover;">
   </div>
 </div>
