@@ -2,7 +2,7 @@
 title: PolyU Trustworthy Autonomous System Lab Member Attends Landmark Guangdong-Hong Kong Low-Altitude Economy Industry Exchange Conference
 subtitle: news
 # author: Chen Yingming
-image: images/news/DHKExchange/lanzhong/celeb/Zhu.jpg
+image: images/news/GDHKExchange/lanzhong/celeb/Zhu.jpg
 tags: news
 order: 
 ---
