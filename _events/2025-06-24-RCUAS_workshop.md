@@ -48,7 +48,7 @@ The First RCUAS Research Workshop successfully fostered knowledge exchange and c
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/RCUAS_workshop/Figure4.png" alt="" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
-div style="text-align: center; margin-bottom: 20px;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/RCUAS_workshop/Figure5.jpg" alt="" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
