@@ -1,5 +1,5 @@
 ---
-title: Three papers and one workshop are accepted by ITSC 2025
+title: Three Papers and One Workshop are Accepted by ITSC 2025
 subtitle: news
 #author: Yixin GAO
 image: images/news/ITSC2025/workshop_program.png
@@ -7,7 +7,7 @@ tags: news
 order:
 ---
 
-## Three papers and one workshop are accepted by ITSC 2025
+## Three Papers and One Workshop are Accepted by ITSC 2025
 
 **Hong Kong – July 5, 2025** – TAS Lab is proud to announce its significant presence at the upcoming **2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC 2025)**. The prestigious international conference, scheduled for November 18-21, 2025, in Gold Coast, Australia, will feature **three accepted research papers** and a **dedicated workshop** led by our research team. This exceptional achievement underscores our group's leadership and commitment to advancing cutting-edge solutions in the field of intelligent transportation.
 
