@@ -7,7 +7,7 @@ tags: news
 order: 
 ---
 
-It is great to share that our paper (*Roadside GNSS Aided Multi-Sensor Integrated System for Vehicle Positioning in Urban Areas", by Feng Huang1*, Yihan Zhong1*, Hang Chen, Dongzhe Su, Jin Wu, Weisong Wen† and Li-Ta Hsu) is accepted by the *IEEE IROS 2025*. The data will be available at [Github](https://github.com/DarrenWong/RSG-GLIO).
+It is great to share that our paper (*Roadside GNSS Aided Multi-Sensor Integrated System for Vehicle Positioning in Urban Areas", by Feng Huang*, Yihan Zhong*, Hang Chen, Dongzhe Su, Jin Wu, Weisong Wen and Li-Ta Hsu) is accepted by the IEEE IROS 2025. The data will be available at [Github](https://github.com/DarrenWong/RSG-GLIO).
 
 ## Abstract
 
