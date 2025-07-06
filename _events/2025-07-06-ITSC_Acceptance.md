@@ -1,7 +1,7 @@
 ---
 title: Three papers and one workshop are accepted by ITSC 2025
 subtitle: news
-author: Yixin GAO
+#author: Yixin GAO
 image: images/news/ITSC2025/workshop_program.jpg
 tags: news
 order:
