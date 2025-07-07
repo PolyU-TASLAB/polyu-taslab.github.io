@@ -20,19 +20,44 @@ o	Regulatory hurdles: Delays in AOP (Advance Operation Permit) approvals and cro
 o	Collaborative solutions: Proposals included redefining logistics drones as "flying trucks" for smoother customs clearance (inspired by DJI) and prioritizing "from suburbs to cities, goods to people" for phased regulation.
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0702LAEWorkshop/Wen.jpg" alt="Host PolyU Assistant Professor Wen Weisong Introducing Sandbox Project Cooperated with SUTPC Digital Technology (Hong Kong) Limited, Hong Kong Broadband Network (HKBN) Limited, and Gleneagles Hospital Hong Kong (GHK). " 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <figure>
+    <img 
+      src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0702LAEWorkshop/Wen.jpg" 
+      alt="PolyU Assistant Professor Wen Weisong introducing the sandbox project in collaboration with SUTPC, HKBN, and Gleneagles Hospital." 
+      style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;"
+    >
+    <figcaption style="font-weight: bold; margin-top: 10px;">
+      PolyU Assistant Professor Wen Weisong introducing the sandbox project in collaboration with SUTPC, HKBN, and Gleneagles Hospital.
+    </figcaption>
+  </figure>
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0702LAEWorkshop/SUTPC.jpg" alt="SUTPC Representitive Mr.Xue Cheng Introducing Sandbox Practices And Associated Business Initiatives." 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <figure>
+    <img 
+      src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0702LAEWorkshop/SUTPC.jpg" 
+      alt="Mr. Xue Cheng from SUTPC presenting sandbox implementation strategies and related business opportunities." 
+      style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;"
+    >
+    <figcaption style="font-weight: bold; margin-top: 10px;">
+      Mr. Xue Cheng from SUTPC presenting sandbox implementation strategies and related business opportunities.
+    </figcaption>
+  </figure>
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0702LAEWorkshop/Part.png" alt="SWorkshop Participants(Upper Left: AEROFUGIA ;Upper Middle: Beijing Racobit Electronic Information Technology Co. ;Upper Right: Zero Gravity Aircraft ;Bottom Left: Phoenix Wings ;Bottom Middle: Gaode Map ;Bottom Right: ASTRI ;)  Sharing Practices And Insights Of The LAE Future." 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <figure>
+    <img 
+      src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0702LAEWorkshop/Part.png" 
+      alt="SWorkshop Participants(Upper Left: AEROFUGIA ;Upper Middle: Beijing Racobit Electronic Information Technology Co. ;Upper Right: Zero Gravity Aircraft ;Bottom Left: Phoenix Wings ;Bottom Middle: Gaode Map ;Bottom Right: ASTRI ;)  Sharing Practices And Insights Of The LAE Future." 
+      style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;"
+    >
+    <figcaption style="font-weight: bold; margin-top: 10px;">
+      SWorkshop Participants(Upper Left: AEROFUGIA ;Upper Middle: Beijing Racobit Electronic Information Technology Co. ;Upper Right: Zero Gravity Aircraft ;Bottom Left: Phoenix Wings ;Bottom Middle: Gaode Map ;Bottom Right: ASTRI ;)  Sharing Practices And Insights Of The LAE Future.
+    </figcaption>
+  </figure>
 </div>
+
 
 ### 2.	Industry Innovations:
 o	**SF Express (丰翼)**: Revealed plans for **heavy-duty drone (25kg+)** trials by mid-July, with existing success in blood sample deliveries (7,000+ flights in Shenzhen).
