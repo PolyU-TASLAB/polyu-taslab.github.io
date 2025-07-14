@@ -7,7 +7,7 @@ tags: news
 order: 
 ---
 
-It is great to share that our paper (“Tightly Joined Positioning and Control Model for Unmanned Aerial Vehicles Based on Factor Graph Optimization”, by Peiwen Yang, Weisong Wen*, Member, and Li-Ta Hsu) is accepted by the IEEE Transactions on Vehicular Technology. Congratulations to Peiwen., etc. 
+It is great to share that our paper (“Tightly Joined Positioning and Control Model for Unmanned Aerial Vehicles Based on Factor Graph Optimization”, by Peiwen Yang, Weisong Wen, Shiyu Bai, and Li-Ta Hsu) is accepted by the IEEE Transactions on Vehicular Technology. Congratulations to Peiwen., etc.
 
 ## Abstract
 
