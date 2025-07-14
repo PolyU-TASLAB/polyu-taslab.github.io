@@ -2,7 +2,7 @@
 title: Our paper is accepted by IEEE Transactions on Vehicular Technology
 subtitle: Example news
 # author: xxx
-image: images/news/peiwen_TVT_system_framework1.png
+image: images/news/peiwen_TVT_system_framework2.png
 tags: news
 order: 
 ---
