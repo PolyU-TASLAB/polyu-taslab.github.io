@@ -2532,7 +2532,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/JIOT.2025.3527555
-  title: A Novel Lie Group-based Reliable IMM Estimation Method for SINS/GNSS/OD/NHC
+  title: A Novel Lie Group-Based Reliable IMM Estimation Method for SINS/GNSS/OD/NHC
     Integrated Navigation in Complex Environments
   authors:
   - Siyuan Du
