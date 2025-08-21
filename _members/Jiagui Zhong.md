@@ -1,7 +1,7 @@
 ---
 name: Zhong Jiagui
 image: images/team/zhong_jiagui
-role: ra  # pi / postdoc / phd / ms / under / ra / visiting
+role: phd  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
 order: 5
 
@@ -26,3 +26,4 @@ Jiagui Zhong is currently pursuing the Ph.D. degree in the Department of Aeronau
 **Research Areas**
 
 Robotics; Unmanned Systems; Navigation; Control Theory
+
