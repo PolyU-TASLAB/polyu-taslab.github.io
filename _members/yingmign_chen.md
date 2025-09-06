@@ -13,7 +13,7 @@ links:
   email: yingming.chen@polyu.edu.hk
   profile: 
 
-display_1: Master of Philosophy,  B.Eng. (Western University of Ontario)
+display_1: Mphil Student,  B.Eng. (Western University of Ontario)
 display_2: Spring 2024
 ---
 
@@ -24,3 +24,4 @@ Chen Yingming received a BEng degree in Computer Engineering from Western Univer
 
 **Research Areas**
 Robotics, MPC Control;  SLAM
+
