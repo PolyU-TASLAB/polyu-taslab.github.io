@@ -9,7 +9,8 @@ links:
   email: zhangqi318@hotmail.com
   profile: 
 
-display: M.Phil. Student, B.Eng.(NUIST)
+display_1: M.Phil. Student, B.Eng.(NUIST)
+display_2: Fall 2025
 ---
 
 <!--  Add a short self introduction here -->
@@ -18,4 +19,5 @@ display: M.Phil. Student, B.Eng.(NUIST)
 Qi Zhang received a BEng degree from Nanjing University of Information Science and Technology (NUIST). He is currently pursuing his M.Phil. degree at The Hong Kong Polytechnic University (PolyU).
 
 **Research Areas**
+
 UAV, Mapping, and Localization; Sensor Fusion; GNSS
