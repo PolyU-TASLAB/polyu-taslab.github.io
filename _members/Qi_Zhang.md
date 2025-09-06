@@ -3,7 +3,7 @@ name: Qi Zhang
 image: images/team/qi_zhang.png
 role: ms
 affiliation: Hong Kong Polytechnic University
-order: 40
+order: 104
 
 links:
   email: zhangqi318@hotmail.com
@@ -21,3 +21,4 @@ Qi Zhang received a BEng degree from Nanjing University of Information Science a
 **Research Areas**
 
 UAV, Mapping, and Localization; Sensor Fusion; GNSS
+
