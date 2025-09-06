@@ -3,7 +3,7 @@ name: Yang Qian
 image: images/team/yangqian.jpg
 role: ms  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
-order: 1
+order: 103
 
 links:
   home-page: 
