@@ -2091,18 +2091,31 @@
     - self-attention enhanced presequence warmup long short-term memory(PSW-LSTM)
     - smartphone
 
-# - id: doi:10.1109/TIM.2025.3568977
-#   type: paper
-#   date: 2025-05-12
-#   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Screenshot7.png
-#   buttons:
-#     - type: manubot
-#       text: paper
-#       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Self-Attention-Enhanced_PSW-LSTM_for_3-D_Indoor_Pedestrian_Positioning_With_Integrated_Wi-Fi_Magnetometer_and_Barometer_Sensors.pdf
-#   tags:
-#     - 3-D indoor positioning
-#     - multisource sensors fusion
-#     - rapid fingerprint database establishment 
-#     - self-attention enhanced presequence warmup long short-term memory(PSW-LSTM)
-#     - smartphone
+- id: arXiv:2507.03987
+  type: paper
+  date: 2025-07-05
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-18-39.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2507.03987v1.pdf
+  tags:
+    - Faulty GNSS Measurements
+    - Non-Gaussian Noise
 
+- id: doi:10.1109/TITS.2025.3596582
+  type: paper
+  date: 2025-08-19
+  # image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+  # buttons:
+  #   - type: manubot
+  #     text: paper
+  #     link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2404.14724v2.pdf
+  tags:
+    - 3D LiDAR
+    - global navigation satellite system (GNSS)
+    - perception-aided integration
+    - NLOS correction
+    - Doppler measurement model
+    - geometry distribution
+    - urban canyons
