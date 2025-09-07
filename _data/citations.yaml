@@ -2779,3 +2779,48 @@
   - smartphone
   plugin: sources.py
   file: sources.yaml
+- id: arXiv:2507.03987
+  title: An Efficient Detector for Faulty GNSS Measurements Detection With Non-Gaussian
+    Noises
+  authors:
+  - Penggao Yan
+  - Baoshan Song
+  - Xiao Xia
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: arXiv
+  date: '2025-07-05'
+  link: https://arxiv.org/abs/2507.03987
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-18-39.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2507.03987v1.pdf
+  tags:
+  - Faulty GNSS Measurements
+  - Non-Gaussian Noise
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TITS.2025.3596582
+  title: 3D LiDAR Aided GNSS NLOS Correction by Direction-of-Arrival Estimation Using
+    Doppler Measurements in Urban Canyons
+  authors:
+  - Xikun Liu
+  - Weisong Wen
+  - Liyuan Zhang
+  - Li-Ta Hsu
+  publisher: IEEE Transactions on Intelligent Transportation Systems
+  date: '2025-08-19'
+  link: https://doi.org/g92s6v
+  type: paper
+  tags:
+  - 3D LiDAR
+  - global navigation satellite system (GNSS)
+  - perception-aided integration
+  - NLOS correction
+  - Doppler measurement model
+  - geometry distribution
+  - urban canyons
+  plugin: sources.py
+  file: sources.yaml
