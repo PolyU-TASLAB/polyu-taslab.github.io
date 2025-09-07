@@ -1,7 +1,7 @@
 ---
 name: Bai Shiyu
 image: images/team/shiyu_bai.jpg
-role: postdalumni  
+role: alumni  
 affiliation: Hong Kong Polytechnic University
 order: 1
 
