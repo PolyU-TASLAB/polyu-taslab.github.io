@@ -14,7 +14,7 @@ links:
   profile: 
 
 display_1: Postdoctoral Fellow, Ph.D.(BIT), B.Sc. (BIT)
-display_2: Autumn 2024 -- Present
+display_2: Fall 2024 -- Present
 ---
 
 <!--  Add a short self introduction here -->
@@ -24,4 +24,5 @@ Runqiu Yang received a BSc degree in flight vehicle design and engineering from 
 
 **Research Areas**
 Convex optimization; Optimal control; Reinforcement learning; Model predictive control; Legged robots
+
 
