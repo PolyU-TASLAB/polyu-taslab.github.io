@@ -14,13 +14,16 @@ links:
   profile: 
 
 display_1: Postdoctoral Fellow, Ph.D.(BIT), B.Sc. (BIT)
-display_2: Autumn 2024 -- Present
+display_2: Sep 2024 -- Present
 ---
 
 <!--  Add a short self introduction here -->
 <!-- Like Research Areas -->
 
-Runqiu Yang received a BSc degree in Flight Vehicle Design and Engineering from Beijing Institute of Technology (BIT), Beijing, China, in 2018, and a PhD degree in Aeronautical and Astronautical Science and Technology from Beijing Institute of Technology (BIT), Beijing, China, in 2024. He has published 6 SCI papers in IEEE TAC, Automatica, and JGCD, and 2 conference papers in the field of guidance, control, and optimization of flight vehicles. 
+Runqiu Yang received a BSc degree in flight vehicle design and engineering from Beijing Institute of Technology (BIT), Beijing, China, in 2018, and a PhD degree in aeronautical and astronautical science and technology from Beijing Institute of Technology (BIT), Beijing, China, in 2024. His research interests include convex optimization, optimal control, model predictive control, reinforcement learning, and their applications in aerospace engineering and robotics.
 
 **Research Areas**
-Convex Optimization; Optimal Control; Computational Guidance and Control; Model Predictive Control
+Convex optimization; Optimal control; Reinforcement learning; Model predictive control; Legged robots
+
+
+
