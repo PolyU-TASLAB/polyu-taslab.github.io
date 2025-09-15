@@ -7,15 +7,20 @@ tags: news
 order: 
 ---
 
-## MTR team visited TAS-LAB
+## Visit to Chevalier Group Cold Storage
 
-**Hong Kong, 15 July 2025** – A delegation from MTR Corporation, consisting of Ir. Prof. Lawrence Poon, Mr. Kody Lee, and Mr. Henry Cheung, met with researchers at TAS-LAB to explore potential technology partnerships.
+
+**Hong Kong, 7th August 2025** – The Trustworthy Autonomous Systems Laboratory (TASLAB) at The Hong Kong Polytechnic University (PolyU), led by Prof. Wen, visited the advanced cold storage facilities of Chevalier Group on August 7, 2025. The visit aimed to explore innovations in cold chain logistics and discuss potential collaborations between academia and industry.
 
 Dr. Wen presented the lab's latest research in autonomous systems. The discussion focused on the potential application of these advanced technologies to enhance operational efficiency and infrastructure maintenance. Both parties explored pathways for future collaboration, aiming to leverage the lab's research capabilities to address real-world industrial challenges.
 
 ---
+### Corporate Introduction
+Chevalier Group is a leading provider of integrated cold chain and logistics solutions, specializing in temperature-controlled storage, transportation, and distribution services. With state-of-the-art facilities and a strong focus on sustainability and technological innovation, Chevalier Group serves a diverse range of industries, including food and beverage, pharmaceuticals, and perishable goods. Yet, there are still pain points in the coldchain storage. As the manager introduced, since Chevalier is a massive enterprise with quite history, there exists 
 
-### Summary of Discussion
+
+---
+### Visit Highlights
 
 * **Advanced Autonomous Systems:** TAS-LAB showcased its expertise in developing autonomous drones and advanced navigation systems designed to operate reliably in complex, GPS-denied environments. The lab's ability to create highly specialized hardware and software for specific tasks was highlighted.
 
