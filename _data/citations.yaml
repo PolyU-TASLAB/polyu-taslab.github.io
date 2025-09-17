@@ -2824,3 +2824,24 @@
   - urban canyons
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1109/TAES.2025.3607718
+  title: Unified Sufficient Conditions for Exact Convex Relaxation of Nonconvex Optimal
+    Control Problems
+  authors:
+  - Runqiu Yang
+  - Weisong Wen
+  - Peiwen Yang
+  - Zichen Zhao
+  - Fengtianyi Huang
+  publisher: IEEE Transactions on Aerospace and Electronic Systems
+  date: '2025-09-09'
+  link: https://doi.org/g93v27
+  type: paper
+  tags:
+  - Optimal control
+  - Convex relaxation
+  - Trajectory planning
+  - Convex optimization
+  - Mars landing
+  plugin: sources.py
+  file: sources.yaml
