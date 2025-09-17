@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html><head>    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style>
+        .container {
+            width: 998px;
+            margin: 0 auto;
+        }
+        .header {
+            height: 70px;
+            font-size: 28px;
+            color: #999999;
+            border-bottom: 3px solid #FFC300;
+            overflow: hidden;
+            display: none;
+        }
+        .logo {
+            margin-top: 8px;
+            margin-left: 1px;
+            height: 54px;
+            line-height: 54px;
+            padding-left: 160px;
+            background: url('https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/mtlog.png') no-repeat;
+            background-size: auto 54px;
+        }
+        .dpHeader {
+            height: 70px;
+            font-size: 28px;
+            color: #999999;
+            border-bottom: 3px solid #ff6633;
+            overflow: hidden;
+            display: none;
+        }
+        .dpLogo {
+            margin-top: 16px;
+            margin-left: 1px;
+            line-height: 44px;
+            padding-left: 160px;
+            background: url('https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/dplogo.png') no-repeat;
+            background-size: auto 40px;
+        }
+        .content {
+            min-height: 335px;
+            position: relative;
+        }
+        .footer {
+            font-size: 12px;
+            color: #999999;
+            padding: 13px 8px;
+            border-top: 1px solid #e1e1e1;
+            text-align: center;
+            display: none;
+        }
+        .root {
+            height: 100%;
+        }
+    </style>
+    <title>验证中心</title>
+    <link rel="dns-prefetch" href="//awp-assets.meituan.net" />
+    <link rel="dns-prefetch" href="//verify.meituan.com" />
+    <link rel="dns-prefetch" href="//s0.meituan.net" />
+
+    <script type="text/javascript" src="https://s0.meituan.net/mxx/yoda/yoda.seed.js"></script>
+    <!-- <script type="text/javascript" defer src="https://s3plus.meituan.net/v1/mss_f231eb419c414559a1837748d11d4312/yoda-resources/necaptcha/index.js"></script> -->
+</head> <body>    <div class='container'>
+        <div class='header' id='header'>
+            <div class='logo' id='logo'>身份核实</div>
+        </div>
+        <div class='content'>
+            <div class='root' id='root'></div>
+        </div>
+        <div class='footer' id='footer'>©美团网 meituan.com 京ICP证070791号 京公网安备 11000002002052号</div>
+    </div>
+                                                        <script type="text/javascript">        window.yodaTheme = setTheme;
+        function setTheme(theme) {
+            var theme = theme || 'meituan';
+            var header = document.getElementById('header');
+            header.style.display = "block";
+            var logo = document.getElementById('logo');
+            var footer = document.getElementById('footer');
+            footer.style.display = "block";
+
+            var link = document.createElement('link');
+            link.rel = 'shortcut icon';
+            link.type = 'image/x-icon';
+
+            if (theme === 'meituan' || theme === 'mt' || theme === '') {
+                link.href = '/static/favicon.ico';
+            }
+            if (theme === 'dianping' || theme === 'dp') {
+                header.className = 'dpHeader';
+                logo.className = 'dpLogo';
+                footer.innerHTML = '© 2003-2021 dianping.com, All Rights Reserved.';
+                link.href = '//www.dpfile.com/s/res/favicon.5ff777c11d7833e57e01c9d192b7e427.ico';
+            }
+
+            document.head.appendChild(link);
+        }
+
+            var options = {
+            requestCode: "1dded5731f93479abc48f43bb914f7d2",
+            succCallbackUrl: "https\x3A\x2F\x2Foptimus\x2Dmtsi\x2Emeituan\x2Ecom\x2Foptimus\x2FverifyResult\x3ForiginUrl\x3Dhttps\x253A\x252F\x252Fwww\x2Emeituan\x2Ecom\x252F",
+            failCallbackUrl: "",
+            root: "root",
+            theme: "meituan",
+            isMobile: false,
+            yodaLanguage: "",
+            display: ""
+        }
+        YodaSeed(options, "");
+    </script></body></html>
