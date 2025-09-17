@@ -2119,3 +2119,18 @@
     - Doppler measurement model
     - geometry distribution
     - urban canyons
+
+- id: doi:10.1109/TAES.2025.3607718
+  type: paper
+  date: 2025-09-09
+  # image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+  # buttons:
+  #   - type: manubot
+  #     text: paper
+  #     link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2404.14724v2.pdf
+  tags:
+    - Optimal control
+    - Convex relaxation
+    - Trajectory planning
+    - Convex optimization
+    - Mars landing
