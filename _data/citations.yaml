@@ -1103,7 +1103,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/TIV.2024.3450198
-  title: Subspace-based Adaptive GMM Error Modeling for Fault-Aware Pseudorange-based
+  title: Subspace-Based Adaptive GMM Error Modeling for Fault-Aware Pseudorange-Based
     Positioning in Urban Canyons
   authors:
   - Penggao Yan
@@ -1112,7 +1112,7 @@
   - Weisong Wen
   - Li-Ta Hsu
   publisher: IEEE Transactions on Intelligent Vehicles
-  date: '2025-01-01'
+  date: '2025-05-01'
   link: https://doi.org/g8t54p
   type: paper
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/Yang2024Subspace.png
@@ -1153,14 +1153,14 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/TIV.2024.3419101
-  title: Tightly-coupled Visual/Inertial/Map Integration with Observability Analysis
+  title: Tightly-Coupled Visual/Inertial/Map Integration With Observability Analysis
     for Reliable Localization of Intelligent Vehicles
   authors:
   - Xi Zheng
   - Weisong Wen
   - Li-Ta Hsu
   publisher: IEEE Transactions on Intelligent Vehicles
-  date: '2024-01-01'
+  date: '2025-02-01'
   link: https://doi.org/g8t54r
   type: paper
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/zhengxi2024.png
@@ -1185,7 +1185,7 @@
   - Weisong Wen
   - Yonggang Zhang
   publisher: IEEE Transactions on Intelligent Vehicles
-  date: '2024-01-01'
+  date: '2024-12-01'
   link: https://doi.org/g8t54s
   type: paper
   image: null
@@ -2724,7 +2724,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/TIM.2025.3573351
-  title: Continuous Error Map Aided Adaptive Multi-Sensor Integration for Connected
+  title: Continuous Error Map-Aided Adaptive Multisensor Integration for Connected
     Autonomous Vehicles in Urban Scenarios
   authors:
   - Feng Huang
@@ -2822,5 +2822,26 @@
   - Doppler measurement model
   - geometry distribution
   - urban canyons
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TAES.2025.3607718
+  title: Unified Sufficient Conditions for Exact Convex Relaxation of Nonconvex Optimal
+    Control Problems
+  authors:
+  - Runqiu Yang
+  - Weisong Wen
+  - Peiwen Yang
+  - Zichen Zhao
+  - Fengtianyi Huang
+  publisher: IEEE Transactions on Aerospace and Electronic Systems
+  date: '2025-09-09'
+  link: https://doi.org/g93v27
+  type: paper
+  tags:
+  - Optimal control
+  - Convex relaxation
+  - Trajectory planning
+  - Convex optimization
+  - Mars landing
   plugin: sources.py
   file: sources.yaml
