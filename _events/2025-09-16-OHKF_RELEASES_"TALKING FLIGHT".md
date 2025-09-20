@@ -29,7 +29,7 @@ At the same time, we invited researchers from Our Hong Kong Foundation (OHKF) to
 <div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0916TALK/image2.png" alt="Low-Altitude Patent Seminar" 
        style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0916TALK/image3.png" alt="Mr.Zhu Xiaojun" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0916TALK/image3.jpg" alt="Mr.Zhu Xiaojun" 
       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
 </div>
 
