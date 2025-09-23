@@ -53,14 +53,14 @@ The event went beyond traditional academic presentations by incorporating practi
 </div>
 
 ### TASLAB participating MarsTalk
-Prof. Wen Weisong is also invited as the special guests of this talk. Other TASLAB members also helped hosting this event.
+TASLAB members also helped hosting this event.
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0914MarsTalk/WenWeisong.jpg" alt="" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0914MarsTalk/GroupTas.jpg" alt="" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 <div style="text-align: center; margin-bottom: 20px;">
-    Prof. Wen as special guest
+    TASLAB group photo.
 </div>
 
 
