@@ -6,8 +6,6 @@ image: images/news/0914MarsTalk/marstalk.jpg
 tags: news
 order:
 ---
-## Hong Kong Launches Low Altitude Economy Drone Take-off Reliability Index Launching Ceremony 2025
-
 *Hong Kong, September 14th, 2025* – The Hong Kong Polytechnic University (PolyU) successfully hosted the Meituan Marstalk today, bringing together leading experts in robotics, automation, and artificial intelligence to explore technological breakthroughs in intelligent systems for dynamic environments.
 The ceremony featured a keynote address by representatives from HKISA, who emphasized the critical role of the new index in promoting trust and scalability in commercial and civic drone applications. The index will provide a measurable framework to evaluate drone performance, maintenance standards, and operational safety—key factors for integration into urban airspace.
 
