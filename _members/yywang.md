@@ -6,7 +6,7 @@ affiliation: Hong Kong Polytechnic University
 order: 2
 
 links:
-  home-page: http://www.ee.cuhk.edu.hk/~yywang/
+  home-page: https://yywang.pages.dev/
   orcid: 0000-0003-3293-0790
   google-scholar: https://scholar.google.com/citations?user=bRwHOgwAAAAJ&hl=zh-CN
   email: ying5wang@polyu.edu.hk
@@ -22,3 +22,4 @@ Yingying Wang received the B.E. degree in Electronic Engineering from Northeaste
 
 **Research Areas**
 Smart sensing; Robotics; Sensor Fusion; Inertial Measurement Unit; Wireless Sensing
+
