@@ -13,7 +13,7 @@ links:
   email: shannon-h.li@polyu.edu.hk
   profile: 
 
-display_1: Research Assistant,B.Eng. (DLPU), R&D Rngineer(Unmanned Systems Field, Shenzhen ,China)
+display_1: Research Assistant,B.Eng. (DLPU), R&D Engineer(Unmanned Systems Field, Shenzhen ,China)
 display_2: Spring 2025 -- Present
 
 ---
