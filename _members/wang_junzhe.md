@@ -1,6 +1,6 @@
 ---
 name: WANG Junzhe
-image: images/team/wang_junzhe.jpeg
+image: images/team/wang_junzhe.png
 role: ms
 affiliation: Hong Kong Polytechnic University
 order: 114
