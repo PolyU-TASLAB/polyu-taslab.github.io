@@ -12,6 +12,6 @@ display_2: Fall 2025
 ---
 <!--  Add a short self introduction here -->
 <!-- Like Research Areas -->
-Qi Zhang received a BEng degree from the Hong Kong University of Science and Technology (HKUST). He is currently pursuing his M.Phil. degree at The Hong Kong Polytechnic University (PolyU).
+WANG Junzhe received a BEng degree from the Hong Kong University of Science and Technology (HKUST). He is currently pursuing his M.Phil. degree at The Hong Kong Polytechnic University (PolyU).
 **Research Areas**
 UAV, Mapping, and Localization; Sensor Fusion; GNSS
