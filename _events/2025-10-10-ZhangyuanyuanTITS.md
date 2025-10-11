@@ -2,7 +2,7 @@
 title: Our paper is accepted by IEEE Transactions on Intelligent Transportation Systems
 subtitle: news
 # author: XIAO Naigui
-image: images/news/0930SouthernPower/image.png
+image: images/news/1010ZYYTITIS/1.png
 tags: news
 order:
 ---
