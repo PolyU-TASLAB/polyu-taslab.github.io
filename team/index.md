@@ -18,10 +18,10 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
 
 <style>
 .team-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 2.2em;
-  justify-content: center;
+  justify-items: center;
   margin: 2em 0;
 }
 .team-section-title {
