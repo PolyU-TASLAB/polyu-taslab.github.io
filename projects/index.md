@@ -5,167 +5,207 @@ nav:
   tooltip: 
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-wrench" %}Research Projects
 
-<div class="projects-hero">
-  <div class="projects-hero-content">
-    <h2>Scientific Research & Innovation</h2>
-    <p>
-      Explore our portfolio of cutting-edge projects at the intersection of trustworthy AI, autonomous systems, and robotics. Each project is driven by scientific rigor, innovation, and a commitment to real-world impact. Our team collaborates across disciplines to advance the state of the art in autonomy, safety, and intelligent systems.
-    </p>
+<div class="project-container">
+  <div class="search-section">
+    <div class="search-box">
+      <input type="text" id="project-search" placeholder="Search projects..." oninput="window.onSearchInput(this)">
+      <button type="button" onclick="window.onSearchClear()">
+        <i class="icon fa-solid fa-magnifying-glass"></i>
+      </button>
+      <div id="search-suggestions" class="search-suggestions"></div>
+    </div>
+    
+    <div class="tags-wrapper">
+      <button class="tags-toggle" onclick="toggleTags()">
+        <i class="fa-solid fa-tags"></i> Categories
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="tags-container collapsed">
+        {% include tags.html tags=site.tags %}
+      </div>
+    </div>
+  </div>
+
+  {% include search-info.html %}
+
+  <div class="projects-timeline">
+    {% include list.html data="posts" component="post-excerpt" %}
   </div>
 </div>
 
 <style>
-.projects-hero {
-  background: linear-gradient(90deg, #f5f7fa 0%, #e9ecef 100%);
-  border-radius: 18px;
-  margin: 2em 0 2.5em 0;
-  padding: 2.5em 1.5em 2em 1.5em;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
-  text-align: center;
+.project-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
-.projects-hero-content h2 {
-  font-size: 2em;
-  font-weight: 700;
-  margin-bottom: 0.4em;
-  color: #1a1a1a;
-  letter-spacing: 0.01em;
+
+.search-section {
+  background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
 }
-.projects-hero-content p {
-  font-size: 1.13em;
-  color: #444;
-  max-width: 700px;
+
+.search-box {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.search-box input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
+  outline: none;
+}
+
+.search-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: none;
+}
+
+.tags-wrapper {
+  max-width: 600px;
   margin: 0 auto;
 }
 
-.projects-search-container {
-  display: flex;
-  justify-content: center;
-  margin: 2em 0 1.5em 0;
-}
-.search-box {
+.tags-toggle {
   width: 100%;
-  max-width: 420px;
+  padding: 1rem;
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tags-container {
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.tags-container.collapsed {
+  height: 0;
+  margin-top: 0;
+}
+
+.projects-timeline {
   position: relative;
-}
-.search-box input[type="text"] {
-  width: 100%;
-  padding: 0.85em 2.5em 0.85em 1.1em;
-  border-radius: 10px;
-  border: 1.5px solid #b6c2d1;
-  font-size: 1.08em;
-  background: #f8fafc;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-  transition: border-color 0.18s, box-shadow 0.18s;
-}
-.search-box input[type="text"]:focus {
-  border-color: #3b82f6;
-  outline: none;
-  box-shadow: 0 4px 18px rgba(59,130,246,0.08);
-}
-.search-box button {
-  position: absolute;
-  right: 0.7em;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  color: #3b82f6;
-  font-size: 1.2em;
-  cursor: pointer;
-}
-.search-suggestions {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 110%;
-  background: #fff;
-  border: 1px solid #e5e7eb;
-  border-radius: 0 0 10px 10px;
-  box-shadow: 0 4px 18px rgba(0,0,0,0.07);
-  z-index: 10;
-  max-height: 200px;
-  overflow-y: auto;
-  display: none;
-}
-.search-suggestions.active {
-  display: block;
-}
-.search-suggestions li {
-  padding: 0.7em 1em;
-  cursor: pointer;
-  font-size: 1.03em;
-  color: #222;
-}
-.search-suggestions li:hover {
-  background: #f1f5f9;
+  max-width: 800px;
+  margin: 4rem auto;
 }
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2.2em;
-  margin: 2.5em 0;
+.projects-timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background: #e2e8f0;
 }
 
-.card {
-  background: #fff;
-  border-radius: 14px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
-  transition: box-shadow 0.18s, transform 0.18s;
-  border: 1px solid #e5e7eb;
-  display: flex;
-  flex-direction: column;
-  min-height: 420px;
+.post-excerpt {
+  position: relative;
+  width: calc(50% - 30px);
+  margin: 2rem 0;
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
 }
-.card:hover {
-  box-shadow: 0 6px 24px rgba(0,0,0,0.13);
-  transform: translateY(-4px) scale(1.012);
-  border-color: #b6c2d1;
+
+.post-excerpt:hover {
+  transform: translateY(-5px);
 }
-.card-image img {
-  border-radius: 14px 14px 0 0;
-  object-fit: cover;
-  width: 100%;
-  height: 180px;
-  background: #f5f5f5;
+
+.post-excerpt:nth-child(odd) {
+  margin-left: auto;
 }
-.card-title {
-  font-size: 1.13em;
-  font-weight: 700;
-  color: #1a1a1a;
-  margin-bottom: 0.2em;
+
+.post-excerpt::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  background: #3b82f6;
+  border-radius: 50%;
 }
-.card-subtitle {
-  color: #888;
-  font-size: 0.97em;
+
+.post-excerpt:nth-child(odd)::before {
+  left: -40px;
 }
-.card-text {
-  padding: 1em 1.1em 1.2em 1.1em;
-  flex: 1 1 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+
+.post-excerpt:nth-child(even)::before {
+  right: -40px;
 }
 </style>
 
-{% include section.html %}
+<script>
+function toggleTags() {
+  const container = document.querySelector('.tags-container');
+  container.classList.toggle('collapsed');
+  
+  const icon = document.querySelector('.tags-toggle .fa-chevron-down');
+  icon.style.transform = container.classList.contains('collapsed') ? 'rotate(0deg)' : 'rotate(180deg)';
+}
 
-<div class="projects-search-container">
-  <div class="search-box">
-    <!-- The input below should be wired to JS for suggestions -->
-    <input type="text" placeholder="Search projects..." oninput="window.onSearchInput(this)">
-    <button type="button" onclick="window.onSearchClear()">
-      <i class="icon fa-solid fa-magnifying-glass"></i>
-    </button>
-    <ul class="search-suggestions" id="project-search-suggestions"></ul>
-  </div>
-</div>
+// Smart search suggestions
+const searchInput = document.getElementById('project-search');
+const suggestionsContainer = document.getElementById('search-suggestions');
+let projectTitles = []; // Populate this with your project titles
 
-{% include tags.html tags=site.tags %}
-{% include search-info.html %}
+searchInput.addEventListener('input', function(e) {
+  const value = e.target.value.toLowerCase();
+  if (value.length < 2) {
+    suggestionsContainer.style.display = 'none';
+    return;
+  }
 
-<div class="projects-grid">
-  {% include list.html data="posts" component="post-excerpt" %}
-</div>
+  const suggestions = projectTitles.filter(title => 
+    title.toLowerCase().includes(value)
+  ).slice(0, 5);
+
+  if (suggestions.length) {
+    suggestionsContainer.innerHTML = suggestions
+      .map(s => `<div class="suggestion-item">${s}</div>`)
+      .join('');
+    suggestionsContainer.style.display = 'block';
+  } else {
+    suggestionsContainer.style.display = 'none';
+  }
+});
+
+// Close suggestions when clicking outside
+document.addEventListener('click', function(e) {
+  if (!searchInput.contains(e.target)) {
+    suggestionsContainer.style.display = 'none';
+  }
+});
+</script>
