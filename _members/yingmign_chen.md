@@ -14,7 +14,7 @@ links:
   profile: 
 
 display_1: M.Phil. Student,  B.Eng. (Western University of Ontario)
-display_2: Spring 2024
+display_2: Spring 2024 -- Present
 ---
 
 <!--  Add a short self introduction here -->
