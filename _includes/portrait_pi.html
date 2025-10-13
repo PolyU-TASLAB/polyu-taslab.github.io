@@ -9,7 +9,7 @@
 
 {% assign type = site.data.types[member.role] %}
 
-<div class="portrait-wrapper" style="width: 240px; margin: 0 auto;">
+<div class="portrait-wrapper" style="width: 240px; margin: 0 auto; display: flex; flex-direction: column; align-items: center;">
   <a
     {% if page.slug != member.slug %}
       href="{{ member.url | relative_url }}"
@@ -40,14 +40,8 @@
     {% endif %}
 
     {% if member.display_1 %}
-      <span class="display_1" style="font-size: 0.98em; color: #666;">
+      <span class="display_1" style="font-size: 0.98em; color: #666; margin-bottom: 0.5em; text-align: left; width: 100%; display: block;">
         {{member.display_1}}
-      </span>
-    {% endif %}
-
-    {% if member.display_2 %}
-      <span class="display_2" style="font-size: 0.95em; color: #888;">
-        {{member.display_2}}
       </span>
     {% endif %}
 
@@ -55,6 +49,12 @@
       <span class="display_3" style="font-size: 0.95em; color: #aaa;">
         {{member.display_3}}
       </span>
+    {% endif %}
+
+    {% if member.description %}
+      <div class="portrait-desc" style="margin-top: 0.8em; text-align: left; width: 100%; font-size: 0.97em; color: #444;">
+        {{ member.description | markdownify | strip_html }}
+      </div>
     {% endif %}
   </a>
 </div>

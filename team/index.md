@@ -32,6 +32,54 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
   letter-spacing: 0.01em;
   text-align: center;
 }
+.portrait-wrapper {
+  width: 240px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portrait {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 1.2em 1.5em;
+  transition: box-shadow 0.2s;
+  min-width: 200px;
+  max-width: 240px;
+}
+.portrait-image {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1em;
+  border: 3px solid #eaeaea;
+}
+.portrait-name {
+  font-size: 1.08em;
+  font-weight: 700;
+  color: #222;
+}
+.display_1 {
+  font-size: 0.98em;
+  color: #666;
+  margin-bottom: 0.5em;
+  text-align: left;
+  width: 100%;
+  display: block;
+}
+.portrait-desc {
+  margin-top: 0.8em;
+  text-align: left;
+  width: 100%;
+  font-size: 0.97em;
+  color: #444;
+}
 </style>
 
 <div class="team-section-title">Faculty (Principal Investigator)</div>
