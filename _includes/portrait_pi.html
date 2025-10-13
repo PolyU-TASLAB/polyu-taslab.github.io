@@ -9,7 +9,7 @@
 
 {% assign type = site.data.types[member.role] %}
 
-<div class="portrait-wrapper">
+<div class="portrait-wrapper" style="display: flex; flex-direction: column; align-items: center; margin: 1.5em 0;">
   <a
     {% if page.slug != member.slug %}
       href="{{ member.url | relative_url }}"
@@ -17,6 +17,7 @@
     class="portrait"
     data-style="{{ include.style }}"
     aria-label="{{ member.name | default: "member link" }}"
+    style="display: flex; flex-direction: column; align-items: center; background: #fff; border-radius: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); padding: 1.2em 1.5em; transition: box-shadow 0.2s; min-width: 220px; max-width: 260px;"
   >
     {% if type %}
       {% include icon.html icon=type.icon %}
@@ -26,30 +27,30 @@
       src="{{ member.image | relative_url }}"
       class="portrait-image"
       alt="member portrait"
-      
+      style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; margin-bottom: 1em; border: 3px solid #eaeaea;"
       {% include fallback.html %}
     >
 
     {% if member.name %}
-      <span class="portrait-name">
+      <span class="portrait-name" style="font-size: 1.15em; font-weight: 700; color: #222;">
         {{ member.name }}
       </span>
     {% endif %}
 
     {% if member.display_1 %}
-      <span class="display_1">
+      <span class="display_1" style="font-size: 0.98em; color: #666;">
         {{member.display_1}}
       </span>
     {% endif %}
 
     {% if member.display_2 %}
-      <span class="display_2">
+      <span class="display_2" style="font-size: 0.95em; color: #888;">
         {{member.display_2}}
       </span>
     {% endif %}
 
     {% if member.display_3 %}
-      <span class="display_3">
+      <span class="display_3" style="font-size: 0.95em; color: #aaa;">
         {{member.display_3}}
       </span>
     {% endif %}
