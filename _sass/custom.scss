@@ -1,0 +1,179 @@
+---
+title: Projects
+nav:
+  order: 3
+  tooltip:
+---
+
+# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+
+<div class="projects-header">
+  <h1>Our Projects</h1>
+  <p>Explore our latest projects and initiatives.</p>
+</div>
+
+<div class="search-section">
+  <div class="search-container">
+    <input type="text" id="project-search" placeholder="Search projects..." />
+    <div class="search-suggestions" id="search-suggestions"></div>
+  </div>
+</div>
+
+<div class="tags-section">
+  <div class="tags-toggle">
+    <button id="toggle-tags">Show Tags</button>
+  </div>
+  <div class="tags-content" id="tags-content">
+    <!-- Tags will be populated here -->
+  </div>
+</div>
+
+{% include section.html %}
+
+{% include search-box.html %}
+
+{% include tags.html tags=site.tags %}
+
+{% include search-info.html %}
+
+{% include list.html data="posts" component="post-excerpt" %}
+
+<script>
+  // JavaScript for smart search and collapsible tags
+  document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('project-search');
+    const suggestionsBox = document.getElementById('search-suggestions');
+    const toggleTagsButton = document.getElementById('toggle-tags');
+    const tagsContent = document.getElementById('tags-content');
+
+    // Initialize Fuse.js for search functionality
+    const fuse = new Fuse(posts, {
+      keys: ['title', 'excerpt'],
+      threshold: 0.3
+    });
+
+    searchInput.addEventListener('input', function() {
+      const query = this.value;
+      const results = fuse.search(query);
+      displaySuggestions(results);
+    });
+
+    function displaySuggestions(results) {
+      suggestionsBox.innerHTML = '';
+      if (results.length === 0) {
+        suggestionsBox.classList.remove('active');
+        return;
+      }
+
+      results.forEach(result => {
+        const item = document.createElement('div');
+        item.classList.add('suggestion-item');
+        item.textContent = result.item.title;
+        item.addEventListener('click', () => {
+          window.location.href = result.item.url;
+        });
+        suggestionsBox.appendChild(item);
+      });
+
+      suggestionsBox.classList.add('active');
+    }
+
+    toggleTagsButton.addEventListener('click', function() {
+      tagsContent.classList.toggle('expanded');
+      this.textContent = tagsContent.classList.contains('expanded') ? 'Hide Tags' : 'Show Tags';
+    });
+  });
+</script>
+
+<style>
+  .projects-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .projects-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .search-section {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+  }
+
+  .search-container {
+    position: relative;
+  }
+
+  .search-container input {
+    width: 100%;
+    padding: 12px 20px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: all 0.3s;
+  }
+
+  .search-container input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(var(--primary-rgb), 0.1);
+  }
+
+  .search-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1000;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+  }
+
+  .search-suggestions.active {
+    display: block;
+  }
+
+  .suggestion-item {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+
+  .suggestion-item:hover {
+    background: #f5f5f5;
+  }
+
+  .tags-section {
+    margin-bottom: 2rem;
+  }
+
+  .tags-toggle {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .tags-toggle button {
+    background: none;
+    border: none;
+    color: var(--primary);
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  .tags-toggle button:hover {
+    text-decoration: underline;
+  }
+
+  .tags-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .tags-content.expanded {
+    max-height: 500px;
+  }
+</style>
