@@ -47,7 +47,6 @@ document.addEventListener('DOMContentLoaded', function() {
     tagsExpanded = !tagsExpanded;
     if (tagsExpanded) {
       tagsContent.classList.add('expanded');
-      // Dynamically set max-height to fit all tags
       tagsContent.style.maxHeight = tagsContent.scrollHeight + "px";
       toggleText.textContent = 'Hide Tags';
       toggleIcon.classList.remove('fa-chevron-down');
@@ -62,100 +61,114 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // --- Gather tags and projects ---
-  const projectEls = Array.from(document.querySelectorAll('.post-excerpt'));
-  const allTags = new Set();
-  const projects = projectEls.map(post => {
-    const title = post.querySelector('h3')?.textContent?.trim() || '';
-    const tags = Array.from(post.querySelectorAll('.tag')).map(tag => {
-      const t = tag.textContent.trim();
-      allTags.add(t);
-      return t;
+  // Wait for posts to render (in case of async includes)
+  setTimeout(() => {
+    const projectEls = Array.from(document.querySelectorAll('.post-excerpt'));
+    const allTags = new Set();
+    const projects = projectEls.map(post => {
+      const title = post.querySelector('h3')?.textContent?.trim() || '';
+      const tags = Array.from(post.querySelectorAll('.tag')).map(tag => {
+        const t = tag.textContent.trim();
+        allTags.add(t);
+        return t;
+      });
+      return { title, tags, element: post };
     });
-    return { title, tags, element: post };
-  });
-  const tagsArr = Array.from(allTags).sort();
+    const tagsArr = Array.from(allTags).sort();
 
-  // --- Render tags as pills ---
-  function renderTags() {
-    tagsContent.innerHTML = tagsArr.map(tag =>
-      `<span class="tag-pill" data-tag="${tag}">${tag}</span>`
-    ).join('');
-  }
-  renderTags();
-
-  // --- Tag click filters projects ---
-  tagsContent.addEventListener('click', e => {
-    if (e.target.classList.contains('tag-pill')) {
-      const tag = e.target.dataset.tag;
-      searchInput.value = tag;
-      filterProjects(tag);
-      suggestionsContainer.classList.remove('active');
+    // --- Render tags as pills ---
+    function renderTags() {
+      tagsContent.innerHTML = tagsArr.map(tag =>
+        `<span class="tag-pill" data-tag="${tag}">${tag}</span>`
+      ).join('');
     }
-  });
+    renderTags();
 
-  // --- Smart search with suggestions ---
-  const searchInput = document.getElementById('project-search');
-  const suggestionsContainer = document.getElementById('search-suggestions');
-  const projectsList = document.getElementById('projects-list');
-
-  // Fuse for projects and tags
-  const fuse = new Fuse([
-    ...projects.map(p => ({ type: 'project', value: p.title })),
-    ...tagsArr.map(t => ({ type: 'tag', value: t }))
-  ], {
-    keys: ['value'],
-    threshold: 0.3
-  });
-
-  function filterProjects(query) {
-    const q = query.trim().toLowerCase();
-    projectEls.forEach(post => post.style.display = '');
-    if (!q) return;
-    projectEls.forEach(post => {
-      const title = post.querySelector('h3')?.textContent?.toLowerCase() || '';
-      const tags = Array.from(post.querySelectorAll('.tag')).map(tag => tag.textContent.toLowerCase());
-      if (!title.includes(q) && !tags.some(t => t.includes(q))) {
-        post.style.display = 'none';
+    // --- Tag click filters projects ---
+    tagsContent.addEventListener('click', e => {
+      if (e.target.classList.contains('tag-pill')) {
+        const tag = e.target.dataset.tag;
+        searchInput.value = tag;
+        filterProjects(tag);
+        suggestionsContainer.classList.remove('active');
       }
     });
-  }
 
-  searchInput.addEventListener('input', (e) => {
-    const value = e.target.value.trim();
-    if (value.length < 1) {
-      suggestionsContainer.classList.remove('active');
-      filterProjects('');
-      return;
-    }
-    const results = fuse.search(value).slice(0, 8);
-    if (results.length > 0) {
-      suggestionsContainer.innerHTML = results.map(r =>
-        `<div class="suggestion-item" data-type="${r.item.type}" data-value="${r.item.value}">
-          ${r.item.type === 'tag' ? '<i class="fa fa-tag"></i> ' : '<i class="fa fa-file-alt"></i> '}
-          ${r.item.value}
-        </div>`
-      ).join('');
-      suggestionsContainer.classList.add('active');
-    } else {
-      suggestionsContainer.classList.remove('active');
-    }
-    filterProjects(value);
-  });
+    // --- Smart search with suggestions ---
+    const searchInput = document.getElementById('project-search');
+    const suggestionsContainer = document.getElementById('search-suggestions');
+    const projectsList = document.getElementById('projects-list');
 
-  suggestionsContainer.addEventListener('mousedown', (e) => {
-    if (e.target.classList.contains('suggestion-item')) {
-      const val = e.target.dataset.value;
-      searchInput.value = val;
-      filterProjects(val);
-      suggestionsContainer.classList.remove('active');
-    }
-  });
+    // Fuse for projects and tags
+    const fuse = new Fuse([
+      ...projects.map(p => ({ type: 'project', value: p.title })),
+      ...tagsArr.map(t => ({ type: 'tag', value: t }))
+    ], {
+      keys: ['value'],
+      threshold: 0.3,
+      includeScore: true
+    });
 
-  document.addEventListener('click', (e) => {
-    if (!searchInput.contains(e.target) && !suggestionsContainer.contains(e.target)) {
-      suggestionsContainer.classList.remove('active');
+    function filterProjects(query) {
+      const q = query.trim().toLowerCase();
+      let visibleCount = 0;
+      projectEls.forEach(post => {
+        post.style.display = '';
+        const title = post.querySelector('h3')?.textContent?.toLowerCase() || '';
+        const tags = Array.from(post.querySelectorAll('.tag')).map(tag => tag.textContent.toLowerCase());
+        if (q && !title.includes(q) && !tags.some(t => t.includes(q))) {
+          post.style.display = 'none';
+        } else {
+          visibleCount++;
+        }
+      });
+      // Show info if no results
+      const info = document.getElementById('search-info');
+      if (q && visibleCount === 0) {
+        info.textContent = 'No projects found.';
+      } else {
+        info.textContent = '';
+      }
     }
-  });
+
+    searchInput.addEventListener('input', (e) => {
+      const value = e.target.value.trim();
+      if (value.length < 1) {
+        suggestionsContainer.classList.remove('active');
+        filterProjects('');
+        return;
+      }
+      const results = fuse.search(value).slice(0, 8);
+      if (results.length > 0) {
+        suggestionsContainer.innerHTML = results.map(r =>
+          `<div class="suggestion-item" data-type="${r.item.type}" data-value="${r.item.value}">
+            ${r.item.type === 'tag' ? '<i class="fa fa-tag"></i> ' : '<i class="fa fa-file-alt"></i> '}
+            ${r.item.value}
+          </div>`
+        ).join('');
+        suggestionsContainer.classList.add('active');
+      } else {
+        suggestionsContainer.classList.remove('active');
+      }
+      // If user types a tag, filter by tag, else by text
+      filterProjects(value);
+    });
+
+    suggestionsContainer.addEventListener('mousedown', (e) => {
+      if (e.target.classList.contains('suggestion-item')) {
+        const val = e.target.dataset.value;
+        searchInput.value = val;
+        filterProjects(val);
+        suggestionsContainer.classList.remove('active');
+      }
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!searchInput.contains(e.target) && !suggestionsContainer.contains(e.target)) {
+        suggestionsContainer.classList.remove('active');
+      }
+    });
+  }, 0); // End setTimeout
 });
 </script>
 
