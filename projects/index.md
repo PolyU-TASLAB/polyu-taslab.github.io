@@ -45,10 +45,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
   tagsToggleBtn.addEventListener('click', () => {
     tagsExpanded = !tagsExpanded;
-    tagsContent.classList.toggle('expanded', tagsExpanded);
-    toggleText.textContent = tagsExpanded ? 'Hide Tags' : 'Show Tags';
-    toggleIcon.classList.toggle('fa-chevron-down', !tagsExpanded);
-    toggleIcon.classList.toggle('fa-chevron-up', tagsExpanded);
+    if (tagsExpanded) {
+      tagsContent.classList.add('expanded');
+      // Dynamically set max-height to fit all tags
+      tagsContent.style.maxHeight = tagsContent.scrollHeight + "px";
+      toggleText.textContent = 'Hide Tags';
+      toggleIcon.classList.remove('fa-chevron-down');
+      toggleIcon.classList.add('fa-chevron-up');
+    } else {
+      tagsContent.classList.remove('expanded');
+      tagsContent.style.maxHeight = null;
+      toggleText.textContent = 'Show Tags';
+      toggleIcon.classList.remove('fa-chevron-up');
+      toggleIcon.classList.add('fa-chevron-down');
+    }
   });
 
   // --- Gather tags and projects ---
@@ -246,7 +256,7 @@ document.addEventListener('DOMContentLoaded', function() {
   padding-left: 2px;
 }
 .tags-content.expanded {
-  max-height: 120px;
+  /* Remove fixed max-height, let JS set it dynamically */
   padding-top: 0.5em;
 }
 .tag-pill {
