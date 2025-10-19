@@ -43,23 +43,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const toggleIcon = tagsToggleBtn.querySelector('i');
   let tagsExpanded = false;
 
-  tagsToggleBtn.addEventListener('click', () => {
-    tagsExpanded = !tagsExpanded;
-    if (tagsExpanded) {
-      tagsContent.classList.add('expanded');
-      tagsContent.style.maxHeight = tagsContent.scrollHeight + "px";
-      toggleText.textContent = 'Hide Tags';
-      toggleIcon.classList.remove('fa-chevron-down');
-      toggleIcon.classList.add('fa-chevron-up');
-    } else {
-      tagsContent.classList.remove('expanded');
-      tagsContent.style.maxHeight = null;
-      toggleText.textContent = 'Show Tags';
-      toggleIcon.classList.remove('fa-chevron-up');
-      toggleIcon.classList.add('fa-chevron-down');
-    }
-  });
-
   // --- Gather tags and projects ---
   // Wait for posts to render (in case of async includes)
   setTimeout(() => {
@@ -82,7 +65,9 @@ document.addEventListener('DOMContentLoaded', function() {
         `<span class="tag-pill" data-tag="${tag}">${tag}</span>`
       ).join('');
     }
-    renderTags();
+    function clearTags() {
+      tagsContent.innerHTML = '';
+    }
 
     // --- Tag click filters projects ---
     tagsContent.addEventListener('click', e => {
@@ -91,6 +76,26 @@ document.addEventListener('DOMContentLoaded', function() {
         searchInput.value = tag;
         filterProjects(tag);
         suggestionsContainer.classList.remove('active');
+      }
+    });
+
+    // --- Collapsible tags logic ---
+    tagsToggleBtn.addEventListener('click', () => {
+      tagsExpanded = !tagsExpanded;
+      if (tagsExpanded) {
+        tagsContent.classList.add('expanded');
+        tagsContent.style.maxHeight = tagsContent.scrollHeight + "px";
+        toggleText.textContent = 'Hide Tags';
+        toggleIcon.classList.remove('fa-chevron-down');
+        toggleIcon.classList.add('fa-chevron-up');
+        renderTags();
+      } else {
+        tagsContent.classList.remove('expanded');
+        tagsContent.style.maxHeight = null;
+        toggleText.textContent = 'Show Tags';
+        toggleIcon.classList.remove('fa-chevron-up');
+        toggleIcon.classList.add('fa-chevron-down');
+        clearTags();
       }
     });
 
