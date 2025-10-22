@@ -2,7 +2,7 @@
 title: OHKF Releases "Taking Flight — Forging a Future for Hong Kong’s Low-Altitude Economy" Report
 subtitle: news
 # author: Li Heng
-image: images/news/0916TALK/image.png
+image: images/news/0916TALK/image1.png
 tags: news
 order:
 ---
