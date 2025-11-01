@@ -10,11 +10,66 @@ nav:
 <!-- Add content here.  -->
 ### Openings
 
-We regularly have multiple openings for Postdoc/PhD/MPhil/RA/Internships (All year round) to work on research related to trustworthy autonomous systems in general, including UAV and self-driving cars. If you are a PolyU student (Undergraduate and MSc students seeking URIS or dissertation supervision) interested in working with me, feel free to drop me an email (together with your transcript and brief introduction) or walk into my office at room R820!
+### Openings
 
-**Postdoc/RA positions** (Regular quotas): High precise perception positioning control with multi-sensory integration, autonomous systems, unmanned aerial vehicles (UAV), semantic aided positioning, map update and qualification, hardware-software co-design for next-generation navigation chips, urban GNSS positioning, GNSS RTK, PPP, PPP-RTK, multi-agent collaborative positioning. For those interested, please send us your CV, representative publications list, and research statement/proposal. (We will reply to you within one week if you are shortlisted for an interview). For any candidate, you MUST have at least one of the following properties: (1) a strong publication record! Or (2) strong capabilities in coding (at least C++ or Python) or hardware. Or (3) strong capabilities in preparing research proposals.
+We regularly have multiple openings for Postdoc/PhD/MPhil/RA/Internships (all year round) to work on research related to **AI-driven trustworthy autonomous systems**, with a focus on **end-to-end autonomous UAVs** and **end-to-end self-driving cars**. If you are a PolyU student (Undergraduate and MSc students seeking URIS or dissertation supervision) interested in working with me, feel free to drop me an email at **welson.wen@polyu.edu.hk** (together with your transcript and brief introduction) or walk into my office at **room R820**!
 
-**PhD/MPhil topics** (Regular quotas): Safety-certifiable positioning, control, and perception for autonomous systems. For more topics we are working on, please refer to our project page. For those interested, please send us your CV, representative publications list, and research proposal. (We will reply to you within one week if you are shortlisted for an interview).
+---
+
+#### Postdoc/RA Positions (Regular Quotas)
+
+**Research areas include:**
+- Large AI models for autonomous systems
+- Foundation models for robotics
+- End-to-end learning for UAVs and self-driving cars
+- AI-enabled perception and control
+- Multimodal sensor fusion (LiDAR/Camera/IMU/GNSS)
+- Trustworthy AI for navigation and control
+- Vision-language models for drone perception
+- Deep reinforcement learning for UAV navigation
+- Semantic-aided positioning
+- Hardware-software co-design for next-generation navigation chips
+- Urban GNSS positioning (RTK, PPP, PPP-RTK)
+- Multi-agent collaborative positioning and control
+- Safety-certified AI systems
+
+**Application requirements:**
+For those interested, please send us your CV, representative publications list, and research statement/proposal to **welson.wen@polyu.edu.hk**. (We will reply to you within one week if you are shortlisted for an interview).
+
+**For any candidate, you MUST have at least one of the following:**
+1. A strong publication record in top-tier AI/robotics venues (e.g., NeurIPS, ICML, ICRA, IROS, CoRL, CVPR, ICCV); OR
+2. Strong capabilities in coding (proficient in C++ and/or Python, experience with PyTorch/TensorFlow/ROS); OR
+3. Strong capabilities in preparing competitive research proposals and securing funding.
+
+---
+
+#### PhD/MPhil Topics (Regular Quotas)
+
+**Core research themes:**
+- End-to-end learning for autonomous UAVs and self-driving cars
+- Safety-certifiable AI for perception, positioning, and control
+- Foundation models and large vision-language models for robotics
+- Multimodal learning for autonomous systems
+- AI-driven multi-sensor fusion and navigation
+- Deep reinforcement learning for UAV swarm coordination
+- Trustworthy AI for safety-critical applications
+
+For more specific topics we are working on, please refer to our [TAS Lab website](https://polyu-tas-lab.github.io/) and [project page](https://polyu.edu.hk/aae/dr-wen-weisong).
+
+**Application requirements:**
+For those interested, please send us your CV, representative publications list (if any), and a brief research proposal/statement of research interests to **welson.wen@polyu.edu.hk**. (We will reply to you within one week if you are shortlisted for an interview).
+
+---
+
+#### What We Offer
+
+- Access to cutting-edge UAV platforms, self-driving car testbeds, and GPU computing clusters
+- Collaboration with leading industry partners (Huawei, Tencent, Meituan, HONOR)
+- Opportunities to publish in top AI/robotics conferences and journals
+- A vibrant, diverse, and inclusive research environment with 30+ lab members
+- Funding support for conference travel and research equipment
+
+**Application materials:** CV + Publications/Coding portfolio + Research statement → **welson.wen@polyu.edu.hk**
 
 
 {%
