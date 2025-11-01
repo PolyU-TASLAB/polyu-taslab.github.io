@@ -54,7 +54,7 @@ For those interested, please send us your CV, representative publications list, 
 - Deep reinforcement learning for UAV swarm coordination
 - Trustworthy AI for safety-critical applications
 
-For more specific topics we are working on, please refer to our [TAS Lab website](https://polyu-tas-lab.github.io/) and [project page](https://polyu.edu.hk/aae/dr-wen-weisong).
+For more specific topics we are working on, please refer to our [TAS Lab website](https://polyu-taslab.github.io/) and [project page](https://polyu-taslab.github.io/projects/).
 
 **Application requirements:**
 For those interested, please send us your CV, representative publications list (if any), and a brief research proposal/statement of research interests to **welson.wen@polyu.edu.hk**. (We will reply to you within one week if you are shortlisted for an interview).
