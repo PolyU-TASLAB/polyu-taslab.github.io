@@ -8,7 +8,7 @@ order: 2
 links:
   home-page: 
   orcid: 0000-0002-1462-3642
-  google-scholar: https://scholar.google.com/citations?user=c1xJ5pIAAAAJ&hl=en&oi=ao
+  google-scholar: c1xJ5pIAAAAJ&hl=en&oi=ao
   github: https://github.com/Pirkaklo
   email: yi-han.zhong@connect.polyu.hk
   profile: 

@@ -8,7 +8,7 @@ order: 2
 links:
   home-page: 
   orcid: 0000-0001-8399-5127
-  google-scholar: https://scholar.google.com/citations?user=cfhVuzMAAAAJ&hl=zh-CN
+  google-scholar: cfhVuzMAAAAJ&hl=zh-CN
   github: https://github.com/ZHENGXi-git
   email: zheng-xi.zheng@connect.polyu.hk
   profile: 
