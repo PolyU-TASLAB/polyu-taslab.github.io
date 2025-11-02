@@ -8,7 +8,7 @@ order: 3
 links:
   home-page: n/a
   orcid: 0000-0001-6286-8217
-  google-scholar: https://scholar.google.com/citations?user=cDycNtAAAAAJ&hl=en
+  google-scholar: cDycNtAAAAAJ&hl=en
   github: n/a
   email: runqiu.yang@polyu.edu.hk
   profile: 

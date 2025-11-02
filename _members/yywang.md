@@ -8,7 +8,7 @@ order: 2
 links:
   home-page: https://yywang.pages.dev/
   orcid: 0000-0003-3293-0790
-  google-scholar: https://scholar.google.com/citations?user=bRwHOgwAAAAJ&hl=zh-CN
+  google-scholar: bRwHOgwAAAAJ&hl=zh-CN
   email: ying5wang@polyu.edu.hk
   profile: 
 
