@@ -2,7 +2,7 @@
 name: Fengchi ZHU
 image: images/team/fengchiZHU.jpg
 role: visiting  # pi / postdoc / phd / ms / under / ra / visiting
-affiliation:Harbin Engineering University
+affiliation: Harbin Engineering University
 order: 1
 
 links:
