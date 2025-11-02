@@ -3,7 +3,7 @@ name: Zhang Ziqi
 image: images/team/Zhang_Ziqi.JPG
 role: phd  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
-order: 2
+order: 3
 
 links:
   orcid: 0009-0001-1289-4932
