@@ -14,7 +14,7 @@ links:
   profile: 
 
 display_1: M.S and B.Eng. (WHU)
-display_2: To be join in fall 2025
+display_2: Sep 2025 - Dec 2025
 
 ---
 
