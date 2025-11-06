@@ -18,7 +18,7 @@ display_2: July 2025 - Present
 <!--  Add a short self introduction here -->
 <!-- Like Research Areas -->
 
-Mr.WANG Zhongqi is currently a final-year Undergraduate Student Assistant at Department of Mechanical Engineering, The Hong Kong Polytechnic University (PolyU). 
+Mr. WANG Zhongqi is currently a final-year Undergraduate Student Assistant at Department of Mechanical Engineering, The Hong Kong Polytechnic University (PolyU). 
 
 **Research Areas**
 Robotics, Reinforcement learning
