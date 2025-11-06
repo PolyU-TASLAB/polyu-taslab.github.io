@@ -3,7 +3,7 @@ name: WANG Zhongqi
 image: images/team/zhongqi_wang.jpg
 role: under
 affiliation: Hong Kong Polytechnic University
-order: 1
+order: 2
 
 links:
   home-page: 
