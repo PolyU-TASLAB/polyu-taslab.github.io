@@ -2,7 +2,7 @@
 title: KLT Dataset 
 subtitle: 
 author: Runzhi Hu
-image: #images/project/Vision_aided_GNSS_RTK/NLOS.gif
+image: images/opensource/kltdataset/NLOS_crop.gif
 tags: 
 order: 
 ---
