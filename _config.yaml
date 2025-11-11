@@ -41,7 +41,7 @@ defaults:
     values:
       layout: post
   - scope:
-      type: "blog"
+      type: "opensource"
     values:
       layout: post
 
@@ -56,6 +56,8 @@ collections:
   events:
     output: true
   blog:
+    output: true
+  opensource:
     output: true
 
 # jekyll plugins
