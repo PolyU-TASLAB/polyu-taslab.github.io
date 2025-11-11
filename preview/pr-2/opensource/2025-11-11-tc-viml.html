@@ -39,21 +39,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>TDL-GNSS | TAS LAB</title>
+<title>TC-VIML | TAS LAB</title>
 
 <link rel="icon" href="/preview/pr-/images/icon.png">
 
-<meta name="title" content="TDL-GNSS">
+<meta name="title" content="TC-VIML">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 
-<meta property="og:title" content="TDL-GNSS">
+<meta property="og:title" content="TC-VIML">
 <meta property="og:site_title" content="TAS LAB">
 <meta property="og:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="og:url" content="/preview/pr-">
 <meta property="og:image" content="/preview/pr-/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="TDL-GNSS">
+<meta property="twitter:title" content="TC-VIML">
 <meta property="twitter:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="twitter:url" content="/preview/pr-">
 <meta property="twitter:card" content="summary_large_image">
@@ -61,31 +61,37 @@
 
 
   <meta name="author" content='&lt;!-- Add breif description here.  --&gt;
-&lt;p&gt;A tightly coupled deep learning framework for GNSS.&lt;/p&gt;
+&lt;p&gt;Tightly-coupled Visual/Inertial/Map Integration with Observability Analysis for Reliable Localization of Intelligent Vehicles&lt;/p&gt;
 
 &lt;!-- Add Main body here --&gt;
-&lt;p&gt;This framework is built on pyrtklib and TASGNSS, designed to tightly integrate deep learning into the GNSS (Global Navigation Satellite System) processing workflow. For details, please refer to our official repository at &lt;a href="https://github.com/ebhrz/TDL-GNSS"&gt;TDL-GNSS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To enable reliable and drift-free localization for intelligent vehicles, we propose a tightly-coupled visual-inertial odometry (VIO) system that leverages a 3D prior line map. Unlike loosely-coupled methods, our approach deeply integrates line features into a factor graph optimization, supported by a robust cross-modality matching and outlier rejection strategy. For the first time, we rigorously prove that our system achieves full observability in global translation, leaving only the yaw angle unobservable. Evaluations in both simulated and real-world environments confirm the system’s effectiveness.&lt;/p&gt;
 
-&lt;p&gt;You can access the preprint version of our paper on arXiv and the published version on IEEE Xplore. We would greatly appreciate it if you cite our work:&lt;/p&gt;
+&lt;p&gt;For details, please refer to our official repository at &lt;a href="https://github.com/ZHENGXi-git/TC-VIML"&gt;TC-VIML&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;@ARTICLE{10965937,
-  author={Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong},
-  journal={IEEE Transactions on Intelligent Transportation Systems}, 
-  title={pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons}, 
-  year={2025},
-  volume={26},
-  number={7},
-  pages={10652-10662},
-  keywords={Global navigation satellite system;Deep learning;Python;Artificial intelligence;Weight measurement;Satellites;Receivers;Mathematical models;Training;Position measurement;Artificial intelligence;deep learning;GNSS;RTKLIB},
-  doi={10.1109/TITS.2025.3552691}}&lt;/p&gt;
+&lt;p&gt;And if you are using this code, please cite our paper by&lt;/p&gt;
+&lt;div class="language-latex highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;@article&lt;span class="p"&gt;{&lt;/span&gt;zheng2024tightly,
+  title=&lt;span class="p"&gt;{&lt;/span&gt;Tightly-coupled visual/inertial/map integration with observability analysis for reliable localization of intelligent vehicles&lt;span class="p"&gt;}&lt;/span&gt;,
+  author=&lt;span class="p"&gt;{&lt;/span&gt;Zheng, Xi and Wen, Weisong and Hsu, Li-Ta&lt;span class="p"&gt;}&lt;/span&gt;,
+  journal=&lt;span class="p"&gt;{&lt;/span&gt;IEEE Transactions on Intelligent Vehicles&lt;span class="p"&gt;}&lt;/span&gt;,
+  year=&lt;span class="p"&gt;{&lt;/span&gt;2024&lt;span class="p"&gt;}&lt;/span&gt;,
+  publisher=&lt;span class="p"&gt;{&lt;/span&gt;IEEE&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+
+@inproceedings&lt;span class="p"&gt;{&lt;/span&gt;zheng2023tightly,
+  title=&lt;span class="p"&gt;{&lt;/span&gt;Tightly-coupled line feature-aided visual inertial localization within lightweight 3d prior map for intelligent vehicles&lt;span class="p"&gt;}&lt;/span&gt;,
+  author=&lt;span class="p"&gt;{&lt;/span&gt;Zheng, Xi and Wen, Weisong and Hsu, Li-Ta&lt;span class="p"&gt;}&lt;/span&gt;,
+  booktitle=&lt;span class="p"&gt;{&lt;/span&gt;2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)&lt;span class="p"&gt;}&lt;/span&gt;,
+  pages=&lt;span class="p"&gt;{&lt;/span&gt;6019--6026&lt;span class="p"&gt;}&lt;/span&gt;,
+  year=&lt;span class="p"&gt;{&lt;/span&gt;2023&lt;span class="p"&gt;}&lt;/span&gt;,
+  organization=&lt;span class="p"&gt;{&lt;/span&gt;IEEE&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;!-- Add picture. --&gt;
 &lt;div style="text-align: center; margin-bottom: 20px;"&gt;
-  &lt;img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/opensource/TDL-GNSS/TDL_structure.png" alt="TDL-GNSS" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;" /&gt;
+  &lt;img src="https://github.com/ZHENGXi-git/TC-VIML/raw/main/support_files/image/framework.png" width="%30" height="%30" /&gt;
 &lt;/div&gt;
 
-&lt;!-- Add video. --&gt;
-&lt;!-- &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/m2Lm8RY2uYI?si=3g26doqQz-9AnBOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt; --&gt;
 '>
   <meta property="og:type" content="article">
   <meta property="og:updated_time" content="2025-11-11T14:45:35+00:00">
@@ -99,13 +105,13 @@
     "@context": "https://schema.org",
     
       "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "TDL-GNSS" },
+      "author": { "@type": "Person", "name": "TC-VIML" },
       "datePublished": "2025-11-11T00:00:00+00:00",
       "dateModified": "2025-11-11T14:45:35+00:00",
     
-    "name": "TDL-GNSS",
+    "name": "TC-VIML",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
-    "headline": "TDL-GNSS",
+    "headline": "TC-VIML",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.png" }
@@ -476,13 +482,13 @@
 
   <section class="background" data-size="1">
     <!--
-  background: images/papers/2024/runzhi2024pyrtklib.png;
+  background: images/opensource/zhengxi/framework.png;
   dark: ;
   size: 1;
 -->
 
 
-<h1 class="center">TDL-GNSS</h1>
+<h1 class="center">TC-VIML</h1>
 
 <div class="post-info">
   
@@ -490,7 +496,7 @@
     
       <span data-tooltip="Author">
         <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Runzhi Hu</span>
+        <span>Xi Zheng</span>
       </span>
     
   
@@ -522,31 +528,36 @@
 
 
 <!-- Add breif description here.  -->
-<p>A tightly coupled deep learning framework for GNSS.</p>
+<p>Tightly-coupled Visual/Inertial/Map Integration with Observability Analysis for Reliable Localization of Intelligent Vehicles</p>
 
 <!-- Add Main body here -->
-<p>This framework is built on pyrtklib and TASGNSS, designed to tightly integrate deep learning into the GNSS (Global Navigation Satellite System) processing workflow. For details, please refer to our official repository at <a href="https://github.com/ebhrz/TDL-GNSS">TDL-GNSS</a>.</p>
+<p>To enable reliable and drift-free localization for intelligent vehicles, we propose a tightly-coupled visual-inertial odometry (VIO) system that leverages a 3D prior line map. Unlike loosely-coupled methods, our approach deeply integrates line features into a factor graph optimization, supported by a robust cross-modality matching and outlier rejection strategy. For the first time, we rigorously prove that our system achieves full observability in global translation, leaving only the yaw angle unobservable. Evaluations in both simulated and real-world environments confirm the system’s effectiveness.</p>
 
-<p>You can access the preprint version of our paper on arXiv and the published version on IEEE Xplore. We would greatly appreciate it if you cite our work:</p>
+<p>For details, please refer to our official repository at <a href="https://github.com/ZHENGXi-git/TC-VIML">TC-VIML</a></p>
 
-<p>@ARTICLE{10965937,
-  author={Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong},
-  journal={IEEE Transactions on Intelligent Transportation Systems}, 
-  title={pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons}, 
-  year={2025},
-  volume={26},
-  number={7},
-  pages={10652-10662},
-  keywords={Global navigation satellite system;Deep learning;Python;Artificial intelligence;Weight measurement;Satellites;Receivers;Mathematical models;Training;Position measurement;Artificial intelligence;deep learning;GNSS;RTKLIB},
-  doi={10.1109/TITS.2025.3552691}}</p>
+<p>And if you are using this code, please cite our paper by</p>
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article<span class="p">{</span>zheng2024tightly,
+  title=<span class="p">{</span>Tightly-coupled visual/inertial/map integration with observability analysis for reliable localization of intelligent vehicles<span class="p">}</span>,
+  author=<span class="p">{</span>Zheng, Xi and Wen, Weisong and Hsu, Li-Ta<span class="p">}</span>,
+  journal=<span class="p">{</span>IEEE Transactions on Intelligent Vehicles<span class="p">}</span>,
+  year=<span class="p">{</span>2024<span class="p">}</span>,
+  publisher=<span class="p">{</span>IEEE<span class="p">}</span>
+<span class="p">}</span>
+
+@inproceedings<span class="p">{</span>zheng2023tightly,
+  title=<span class="p">{</span>Tightly-coupled line feature-aided visual inertial localization within lightweight 3d prior map for intelligent vehicles<span class="p">}</span>,
+  author=<span class="p">{</span>Zheng, Xi and Wen, Weisong and Hsu, Li-Ta<span class="p">}</span>,
+  booktitle=<span class="p">{</span>2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)<span class="p">}</span>,
+  pages=<span class="p">{</span>6019--6026<span class="p">}</span>,
+  year=<span class="p">{</span>2023<span class="p">}</span>,
+  organization=<span class="p">{</span>IEEE<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
 <!-- Add picture. -->
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/opensource/TDL-GNSS/TDL_structure.png" alt="TDL-GNSS" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <img src="https://github.com/ZHENGXi-git/TC-VIML/raw/main/support_files/image/framework.png" width="%30" height="%30">
 </div>
-
-<!-- Add video. -->
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/m2Lm8RY2uYI?si=3g26doqQz-9AnBOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
   </section>
 
   
@@ -565,12 +576,17 @@
   <span>
     
       <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
-      <a href="/preview/pr-/opensource/2025-11-11-tc-viml.html">
-        TC-VIML
+      <a href="/preview/pr-/opensource/2025-11-11-tasgnss.html">
+        TASGNSS
       </a>
     
   </span>
   <span>
+    
+      Next post <i class="icon fa-solid fa-angle-right"></i><br>
+      <a href="/preview/pr-/opensource/2025-11-11-tdl-gnss.html">
+        TDL-GNSS
+      </a>
     
   </span>
 </div>
