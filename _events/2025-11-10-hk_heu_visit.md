@@ -34,7 +34,7 @@ Mr. XIAO Naigui and Mr. HU Jiahao presented the lab's autonomous cleaning drone 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
-Mr. JIANG Yiping and Mr. GAO Zhen showcased the capabilities of the indoor flight arena and presented the lab's wider research outcomes in autonomous navigation and control.
+Prof. JIANG Yiping and Prof. GAO Zhen showcased the capabilities of the indoor flight arena and presented the lab's wider research outcomes in autonomous navigation and control.
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/1110_heu/heu3.jpg" alt="Team Banner" 
