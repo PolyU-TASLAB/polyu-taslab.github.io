@@ -1,16 +1,16 @@
 ---
-title:Professor Weisong Wen interviewed by UBeat on “Drone-Based Curtain Wall Cleaning” technology and prospects
+title:Professor Weisong Wen interviewed by UBeat on "Drone-Based Curtain Wall Cleaning" technology and prospects
 subtitle: news
 image: images/news/Ubeat/image1.png
 tags: news
 order:
 ---
 
-## Professor Weisong Wen interviewed by UBeat on “Drone-Based Curtain Wall Cleaning” technology and prospects
+## Professor Weisong Wen interviewed by UBeat on "Drone-Based Curtain Wall Cleaning" technology and prospects
 
-### “Drones for glass curtain wall cleaning: all parties gearing up.
+### Drones for glass curtain wall cleaning: all parties gearing up.
 
-UBeat recently ran the feature “Drones for glass curtain wall cleaning: all parties gearing up.” In the interview, TAS Lab lead and Assistant Professor Weisong Wen outlined the technology roadmap, regulatory compliance, and application outlook for drone-based curtain wall cleaning, showcasing the team’s progress in autonomous localization, control, and operational safety.
+UBeat recently ran the feature "Drones for glass curtain wall cleaning: all parties gearing up." In the interview, TAS Lab lead and Assistant Professor Weisong Wen outlined the technology roadmap, regulatory compliance, and application outlook for drone-based curtain wall cleaning, showcasing the team’s progress in autonomous localization, control, and operational safety.
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Ubeat/image2.png" alt="" 
