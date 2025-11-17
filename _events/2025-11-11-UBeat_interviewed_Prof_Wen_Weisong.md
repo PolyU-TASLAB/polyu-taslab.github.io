@@ -1,5 +1,5 @@
 ---
-title: Professor Weisong Wen Interviewed by UBeat on "Drone-Based Curtain Wall Cleaning" Technology and Prospects
+title: Prof. Weisong Wen Interviewed by UBeat on "Drone-Based Curtain Wall Cleaning" Technology and Prospects
 subtitle: 
 # author: xxx
 image: images/news/Ubeat/image1.png
