@@ -2,7 +2,7 @@
 title: Quadruped Robot Steals Spotlight at 28th Beijing-Hong Kong Economic Cooperation Symposium
 subtitle: 
 # author: xxx
-image: images/news/1112HK_BJ_sym/1.jpg
+image: images/news/1112HK_BJ_sym/4.jpg
 tags: news
 order: 
 ---
@@ -22,7 +22,7 @@ The symposium, themed "Beijing-Hong Kong Joining Hands, Connecting the World," b
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/1112HK_BJ_sym/4.jpg" alt="Team Banner" 
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/1112HK_BJ_sym/1.jpg" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
