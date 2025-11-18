@@ -2134,3 +2134,78 @@
     - Trajectory planning
     - Convex optimization
     - Mars landing
+
+- id: arXiv:2509.17198
+type: paper
+date: 2025-09-21
+# image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2509.17198v1.pdf
+tags:
+  - LEO satellite
+  - Doppler positioning
+  - signal of opportunity
+  - convex optimization
+  - semidefinite programming
+
+- id: arXiv:2509.21496
+type: paper
+date: 2025-09-25
+# image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2509.21496v1.pdf
+tags:
+  -
+
+- id: arXiv:2510.00524
+type: paper
+date: 2025-10-01
+# image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2510.00524v1.pdf
+tags:
+  -
+
+
+- id: arXiv:2510.04278
+type: paper
+date: 2025-10-05
+# image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2510.04278v1.pdf
+tags:
+  -
+
+- id: doi:10.1109/TITS.2025.3616580
+type: paper
+date: 2025-10-09
+# image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Learning_Safe_Optimal_and_Real-Time_Flight_Interaction_With_Deep_Confidence-Enhanced_Reachability_Guarantee.pdf
+tags:
+  - Deep reinforcement learning
+  - deep confidenceenhanced reachability guarantees
+  - joint planning and control
+  - unmanned aerial vehicles
+
+
+- id: arXiv:2510.08880
+type: paper
+date: 2025-10-10
+# image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2510.08880v1.pdf
+tags:
+  
