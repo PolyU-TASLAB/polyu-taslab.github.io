@@ -39,10 +39,10 @@ The workshop featured a series of high-impact presentations by renowned experts,
   </tr>
   <tr>
     <td style="width:33.3%; padding: 5px;">
-      <img src="../images/news/ITSC2025/zhou.jpg" style="width:100%; border-radius: 8px;">
+      <img src="../images/news/ITSC2025/zhou.JPG" style="width:100%; border-radius: 8px;">
     </td>
     <td style="width:33.3%; padding: 5px;">
-      <img src="../images/news/ITSC2025/shan.jpg"  style="width:100%; border-radius: 8px;">
+      <img src="../images/news/ITSC2025/shan.JPG"  style="width:100%; border-radius: 8px;">
     </td>
     <td style="; padding: 5px;">
       <img src="../images/news/ITSC2025/kousik.png" style="width:100%; border-radius: 8px;">
