@@ -2845,3 +2845,138 @@
   - Mars landing
   plugin: sources.py
   file: sources.yaml
+- id: arXiv:2509.17198
+  title: Certifiably Optimal Doppler Positioning using Opportunistic LEO Satellites
+  authors:
+  - Baoshan Song
+  - Weisong Wen
+  - Qi Zhang
+  - Bing Xu
+  - Li-Ta Hsu
+  publisher: arXiv
+  date: '2025-09-21'
+  link: https://arxiv.org/abs/2509.17198
+  type: paper
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2509.17198v1.pdf
+  tags:
+  - LEO satellite
+  - Doppler positioning
+  - signal of opportunity
+  - convex optimization
+  - semidefinite programming
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:2509.21496
+  title: 'Wall Inspector: Quadrotor Control in Wall-proximity Through Model Compensation'
+  authors:
+  - Peiwen Yang
+  - Weisong Wen
+  - Runqiu Yang
+  - Yingming Chen
+  - Cheuk Chi Tsang
+  publisher: arXiv
+  date: '2025-09-25'
+  link: https://arxiv.org/abs/2509.21496
+  type: paper
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2509.21496v1.pdf
+  tags:
+  - null
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:2510.00524
+  title: Two stage GNSS outlier detection for factor graph optimization based GNSS-RTK/INS/odometer
+    fusion
+  authors:
+  - Baoshan Song
+  - Penggao Yan
+  - Xiao Xia
+  - Yihan Zhong
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: arXiv
+  date: '2025-10-01'
+  link: https://arxiv.org/abs/2510.00524
+  type: paper
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2510.00524v1.pdf
+  tags:
+  - null
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:2510.04278
+  title: 'Integrated Planning and Control on Manifolds: Factor Graph Representation
+    and Toolkit'
+  authors:
+  - Peiwen Yang
+  - Weisong Wen
+  - Runqiu Yang
+  - Yuanyuan Zhang
+  - Jiahao Hu
+  - Yingming Chen
+  - Naigui Xiao
+  - Jiaqi Zhao
+  publisher: arXiv
+  date: '2025-10-05'
+  link: https://arxiv.org/abs/2510.04278
+  type: paper
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2510.04278v1.pdf
+  tags:
+  - null
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TITS.2025.3616580
+  title: Learning Safe, Optimal, and Real-Time Flight Interaction With Deep Confidence-Enhanced
+    Reachability Guarantee
+  authors:
+  - Yuanyuan Zhang
+  - Yingying Wang
+  - Penggao Yan
+  - Weisong Wen
+  publisher: IEEE Transactions on Intelligent Transportation Systems
+  date: '2025-10-09'
+  link: https://doi.org/hbbrm6
+  type: paper
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Learning_Safe_Optimal_and_Real-Time_Flight_Interaction_With_Deep_Confidence-Enhanced_Reachability_Guarantee.pdf
+  tags:
+  - Deep reinforcement learning
+  - deep confidenceenhanced reachability guarantees
+  - joint planning and control
+  - unmanned aerial vehicles
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:2510.08880
+  title: Online IMU-odometer Calibration using GNSS Measurements for Autonomous Ground
+    Vehicle Localization
+  authors:
+  - Baoshan Song
+  - Xiao Xia
+  - Penggao Yan
+  - Yihan Zhong
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: arXiv
+  date: '2025-10-10'
+  link: https://arxiv.org/abs/2510.08880
+  type: paper
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2510.08880v1.pdf
+  tags:
+  - null
+  plugin: sources.py
+  file: sources.yaml
