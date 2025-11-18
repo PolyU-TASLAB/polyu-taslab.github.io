@@ -13,7 +13,7 @@ links:
   email: yixin.gao@connect.polyu.hk
 
 display_1: PhD Student(PolyU), M.Eng.(ZJU), B.Eng. (UPC)
-display_2: Spring 2024 -- Present
+display_2: Fall 2024 -- Present
 ---
 
 <!--  Add a short self introduction here -->
