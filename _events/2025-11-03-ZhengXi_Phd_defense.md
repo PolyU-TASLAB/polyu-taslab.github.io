@@ -9,7 +9,7 @@ order:
 Congratulations to the successfully PhD oral defense of Dr. ZHENG Xi!
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="../images/news/20251103_Zhengxi/zhengxi_oral_defense.jpg" alt="Workshop main photo with speakers and attendees"
+  <img src="../images/news/20251103_Zhengxi/zhengxi_oral_defense.jpg" alt="group photos"
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
