@@ -1022,7 +1022,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/TIV.2024.3467115
-  title: Safety-Quantifiable Planar-Feature-based LiDAR Localization with a Prior
+  title: Safety-Quantifiable Planar-Feature-Based LiDAR Localization With a Prior
     Map for Intelligent Vehicles in Urban Scenarios
   authors:
   - Jiachen Zhang
@@ -1030,7 +1030,7 @@
   - Weisong Wen
   - Li-Ta Hsu
   publisher: IEEE Transactions on Intelligent Vehicles
-  date: '2024-01-01'
+  date: '2025-07-01'
   link: https://doi.org/g8t5zc
   type: paper
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/Zhang2024SafetyQuantifiable.png
