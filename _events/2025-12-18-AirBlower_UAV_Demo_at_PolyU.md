@@ -1,7 +1,7 @@
 ---
 title: T2 Airport Airlower UAV Demonstration at PolyU
 subtitle: news
-image: images/news/1218/image1.jpg
+image: images/news/1218/silent2.jpg
 tags: news
 ---
 
