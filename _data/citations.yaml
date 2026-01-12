@@ -2980,3 +2980,37 @@
   - null
   plugin: sources.py
   file: sources.yaml
+- id: arXiv:2512.20224
+  title: 'UrbanV2X: A Multisensory Vehicle-Infrastructure Dataset for Cooperative
+    Navigation in Urban Areas'
+  authors:
+  - Qijun Qin
+  - Ziqi Zhang
+  - Yihan Zhong
+  - Feng Huang
+  - Xikun Liu
+  - Runzhi Hu
+  - Hang Chen
+  - Wei Hu
+  - Dongzhe Su
+  - Jun Zhang
+  - Hoi-Fung Ng
+  - Weisong Wen
+  publisher: arXiv
+  date: '2025-12-23'
+  link: https://arxiv.org/abs/2512.20224
+  type: paper
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2512.20224v1.pdf
+  - type: source
+    text: code
+    link: https://polyu-taslab.github.io/UrbanV2X/
+  tags:
+  - Multi-sensor Fusion
+  - Roadside
+  - SLAM
+  - Autonomous Driving
+  plugin: sources.py
+  file: sources.yaml
