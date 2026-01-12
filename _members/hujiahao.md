@@ -1,7 +1,7 @@
 ---
 name: Hu Jiahao
 image: images/team/hu_jiahao.jpg
-role: ra  # pi / postdoc / phd / ms / under / visiting
+role: phd  # pi / postdoc / phd / ms / under / visiting
 affiliation: Hong Kong Polytechnic University
 order: 1
 

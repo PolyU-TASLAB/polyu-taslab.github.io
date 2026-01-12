@@ -2207,8 +2207,6 @@
     - type: manubot
       text: paper
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2510.08880v1.pdf
-  tags:
-    -
 
 - id: arXiv:2512.20224
   type: paper
@@ -2222,7 +2220,7 @@
       text: code
       link: https://polyu-taslab.github.io/UrbanV2X/
   tags:
-    - Multi-sensor Fusion
+    - Multisensor Fusion
     - Roadside Infrastructure
     - SLAM
     - Autonomous Driving

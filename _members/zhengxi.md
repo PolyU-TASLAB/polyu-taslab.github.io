@@ -1,7 +1,7 @@
 ---
 name: Zheng Xi
 image: images/team/zheng_xi.png
-role: phd  # pi / postdoc / phd / ms / under / ra / visiting
+role: alumni  # pi / postdoc / phd / ms / under / ra / visiting / alumni
 affiliation: Hong Kong Polytechnic University
 order: 2
 

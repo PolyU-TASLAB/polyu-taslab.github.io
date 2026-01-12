@@ -1,7 +1,7 @@
 ---
 name: ZHAO Jiaqi
 image: images/team/zhao_jiaqi.jpg
-role: under
+role: ms
 affiliation: Hong Kong Polytechnic University
 order: 1
 
