@@ -2209,3 +2209,20 @@
       link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2510.08880v1.pdf
   tags:
     -
+
+- id: arXiv:2512.20224
+  type: paper
+  date: 2025-12-23
+  # image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2512.20224v1.pdf
+    - type: source
+      text: code
+      link: https://polyu-taslab.github.io/UrbanV2X/
+  tags:
+    - Multi-sensor Fusion
+    - Roadside
+    - SLAM
+    - Autonomous Driving
