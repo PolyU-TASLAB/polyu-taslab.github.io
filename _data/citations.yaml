@@ -3009,7 +3009,7 @@
     link: https://polyu-taslab.github.io/UrbanV2X/
   tags:
   - Multi-sensor Fusion
-  - Roadside
+  - Roadside Infrastructure
   - SLAM
   - Autonomous Driving
   plugin: sources.py
