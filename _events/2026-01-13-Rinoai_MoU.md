@@ -8,7 +8,7 @@ tags: news
 
 ## PolyU AAE and Rino.ai sign MOU to advance autonomous delivery vehicle applications
 
-Our team has signed an MOU with Rino.ai, a leading L4 autonomous driving company, to co-develop and pilot autonomous vehicle applications on campus. Initial focus areas include last‑mile delivery and security patrols, with solutions tailored to dynamic pedestrian and traffic flows.
+We have signed an MOU with Rino.ai, a leading L4 autonomous driving company, to co-develop and pilot autonomous vehicle applications on campus. Initial focus areas include last‑mile delivery and security patrols, with solutions tailored to dynamic pedestrian and traffic flows.
 
 Rino.ai has deployed 2,000+ vehicles in 170+ cities, leads the industry in new‑order volume, and has begun large‑scale deliveries of its Robovan autonomous logistics vehicle. PolyU AAE contributes internationally recognized expertise in multi‑sensor fusion, vehicle‑dynamics optimization, and intelligent transportation, supported by PolyU’s broader strengths in EVs and smart mobility.
 
