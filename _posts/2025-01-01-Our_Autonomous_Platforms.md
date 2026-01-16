@@ -47,69 +47,42 @@ Our autonomous driving system implements a comprehensive end-to-end AI architect
 ### 1. Multi-Modal Perception Network
 **Function**: Fuses data from cameras, LiDAR, and GNSS/INS into unified spatial-temporal representations
 
-**Architecture**: 
-- Vision backbone (ResNet, EfficientNet, or Vision Transformers) for image feature extraction
-- PointNet++/VoxelNet for 3D point cloud processing
-- Multi-scale feature pyramid networks for detecting objects at various distances
-- Temporal fusion modules (ConvLSTM, 3D CNNs) for motion prediction
+**Architecture**: Vision backbone (ResNet, EfficientNet, or Vision Transformers) for image feature extraction; PointNet++/VoxelNet for 3D point cloud processing; Multi-scale feature pyramid networks for detecting objects at various distances; Temporal fusion modules (ConvLSTM, 3D CNNs) for motion prediction
 
 **Outputs**: Bird's-eye-view (BEV) semantic maps, 3D object detections, drivable area segmentation, lane boundary predictions
 
 ### 2. World Model & Prediction
 **Function**: Learns predictive models of how the environment evolves over time
 
-**Architecture**:
-- Recurrent neural networks (GRU/LSTM) or Transformers for sequential prediction
-- Probabilistic trajectory forecasting for surrounding vehicles and pedestrians
-- Occupancy grid prediction for future scene states
-- Attention mechanisms for modeling agent-agent interactions
+**Architecture**: Recurrent neural networks (GRU/LSTM) or Transformers for sequential prediction; Probabilistic trajectory forecasting for surrounding vehicles and pedestrians; Occupancy grid prediction for future scene states; Attention mechanisms for modeling agent-agent interactions
 
 **Outputs**: Multi-modal future trajectory distributions, predicted collision risks, uncertainty estimates
 
 ### 3. Planning & Decision-Making Network
 **Function**: Generates safe, comfortable, and efficient driving trajectories
 
-**Architecture**:
-- Hierarchical planning: High-level route planning + low-level trajectory optimization
-- Imitation learning from expert demonstrations (Behavioral Cloning, GAIL, DAgger)
-- Reinforcement learning for reward-driven policy optimization (PPO, SAC, TD3)
-- Cost volume networks for evaluating trajectory candidates
-- Attention-based reasoning for traffic rule compliance
+**Architecture**: Hierarchical planning with high-level route planning and low-level trajectory optimization; Imitation learning from expert demonstrations (Behavioral Cloning, GAIL, DAgger); Reinforcement learning for reward-driven policy optimization (PPO, SAC, TD3); Cost volume networks for evaluating trajectory candidates; Attention-based reasoning for traffic rule compliance
 
 **Outputs**: Reference trajectories (waypoints with velocity profiles), discrete actions (lane changes, stops)
 
 ### 4. Control Network
 **Function**: Executes planned trajectories through precise vehicle control
 
-**Architecture**:
-- PID controllers enhanced with learned gain scheduling
-- Model Predictive Control (MPC) with learned dynamics models
-- Direct end-to-end control networks (steering/throttle/brake prediction)
-- Residual learning to compensate for model uncertainties
+**Architecture**: PID controllers enhanced with learned gain scheduling; Model Predictive Control (MPC) with learned dynamics models; Direct end-to-end control networks (steering/throttle/brake prediction); Residual learning to compensate for model uncertainties
 
 **Outputs**: Low-level commands (steering angle, throttle percentage, brake pressure)
 
 ### 5. Safety & Verification Layer
 **Function**: Ensures AI decisions meet safety constraints and override when necessary
 
-**Components**:
-- Learned safety filters using reachability analysis
-- Rule-based fallback systems for edge cases
-- Uncertainty-aware decision-making (epistemic and aleatoric uncertainty)
-- Real-time monitoring and anomaly detection
-- Redundant sensor validation and fault diagnosis
+**Components**: Learned safety filters using reachability analysis; Rule-based fallback systems for edge cases; Uncertainty-aware decision-making (epistemic and aleatoric uncertainty); Real-time monitoring and anomaly detection; Redundant sensor validation and fault diagnosis
 
 **Outputs**: Safety scores, intervention flags, fail-safe commands
 
 ### 6. Continuous Learning Pipeline
 **Function**: Enables the system to improve from real-world deployment data
 
-**Components**:
-- On-vehicle data logging (sensor streams, AI decisions, interventions)
-- Offline reinforcement learning from logged experience
-- Active learning for identifying informative scenarios
-- Sim-to-real transfer learning using domain adaptation
-- Federated learning across vehicle fleet
+**Components**: On-vehicle data logging (sensor streams, AI decisions, interventions); Offline reinforcement learning from logged experience; Active learning for identifying informative scenarios; Sim-to-real transfer learning using domain adaptation; Federated learning across vehicle fleet
 
 **Outputs**: Updated model weights, identified edge cases, performance metrics
 
