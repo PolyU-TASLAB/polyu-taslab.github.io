@@ -542,81 +542,42 @@
 <h3 id="1-multi-modal-perception-network">1. Multi-Modal Perception Network</h3>
 <p><strong>Function</strong>: Fuses data from cameras, LiDAR, and GNSS/INS into unified spatial-temporal representations</p>
 
-<p><strong>Architecture</strong>:</p>
-<ul>
-  <li>Vision backbone (ResNet, EfficientNet, or Vision Transformers) for image feature extraction</li>
-  <li>PointNet++/VoxelNet for 3D point cloud processing</li>
-  <li>Multi-scale feature pyramid networks for detecting objects at various distances</li>
-  <li>Temporal fusion modules (ConvLSTM, 3D CNNs) for motion prediction</li>
-</ul>
+<p><strong>Architecture</strong>: Vision backbone (ResNet, EfficientNet, or Vision Transformers) for image feature extraction; PointNet++/VoxelNet for 3D point cloud processing; Multi-scale feature pyramid networks for detecting objects at various distances; Temporal fusion modules (ConvLSTM, 3D CNNs) for motion prediction</p>
 
 <p><strong>Outputs</strong>: Bird’s-eye-view (BEV) semantic maps, 3D object detections, drivable area segmentation, lane boundary predictions</p>
 
 <h3 id="2-world-model--prediction">2. World Model &amp; Prediction</h3>
 <p><strong>Function</strong>: Learns predictive models of how the environment evolves over time</p>
 
-<p><strong>Architecture</strong>:</p>
-<ul>
-  <li>Recurrent neural networks (GRU/LSTM) or Transformers for sequential prediction</li>
-  <li>Probabilistic trajectory forecasting for surrounding vehicles and pedestrians</li>
-  <li>Occupancy grid prediction for future scene states</li>
-  <li>Attention mechanisms for modeling agent-agent interactions</li>
-</ul>
+<p><strong>Architecture</strong>: Recurrent neural networks (GRU/LSTM) or Transformers for sequential prediction; Probabilistic trajectory forecasting for surrounding vehicles and pedestrians; Occupancy grid prediction for future scene states; Attention mechanisms for modeling agent-agent interactions</p>
 
 <p><strong>Outputs</strong>: Multi-modal future trajectory distributions, predicted collision risks, uncertainty estimates</p>
 
 <h3 id="3-planning--decision-making-network">3. Planning &amp; Decision-Making Network</h3>
 <p><strong>Function</strong>: Generates safe, comfortable, and efficient driving trajectories</p>
 
-<p><strong>Architecture</strong>:</p>
-<ul>
-  <li>Hierarchical planning: High-level route planning + low-level trajectory optimization</li>
-  <li>Imitation learning from expert demonstrations (Behavioral Cloning, GAIL, DAgger)</li>
-  <li>Reinforcement learning for reward-driven policy optimization (PPO, SAC, TD3)</li>
-  <li>Cost volume networks for evaluating trajectory candidates</li>
-  <li>Attention-based reasoning for traffic rule compliance</li>
-</ul>
+<p><strong>Architecture</strong>: Hierarchical planning with high-level route planning and low-level trajectory optimization; Imitation learning from expert demonstrations (Behavioral Cloning, GAIL, DAgger); Reinforcement learning for reward-driven policy optimization (PPO, SAC, TD3); Cost volume networks for evaluating trajectory candidates; Attention-based reasoning for traffic rule compliance</p>
 
 <p><strong>Outputs</strong>: Reference trajectories (waypoints with velocity profiles), discrete actions (lane changes, stops)</p>
 
 <h3 id="4-control-network">4. Control Network</h3>
 <p><strong>Function</strong>: Executes planned trajectories through precise vehicle control</p>
 
-<p><strong>Architecture</strong>:</p>
-<ul>
-  <li>PID controllers enhanced with learned gain scheduling</li>
-  <li>Model Predictive Control (MPC) with learned dynamics models</li>
-  <li>Direct end-to-end control networks (steering/throttle/brake prediction)</li>
-  <li>Residual learning to compensate for model uncertainties</li>
-</ul>
+<p><strong>Architecture</strong>: PID controllers enhanced with learned gain scheduling; Model Predictive Control (MPC) with learned dynamics models; Direct end-to-end control networks (steering/throttle/brake prediction); Residual learning to compensate for model uncertainties</p>
 
 <p><strong>Outputs</strong>: Low-level commands (steering angle, throttle percentage, brake pressure)</p>
 
 <h3 id="5-safety--verification-layer">5. Safety &amp; Verification Layer</h3>
 <p><strong>Function</strong>: Ensures AI decisions meet safety constraints and override when necessary</p>
 
-<p><strong>Components</strong>:</p>
-<ul>
-  <li>Learned safety filters using reachability analysis</li>
-  <li>Rule-based fallback systems for edge cases</li>
-  <li>Uncertainty-aware decision-making (epistemic and aleatoric uncertainty)</li>
-  <li>Real-time monitoring and anomaly detection</li>
-  <li>Redundant sensor validation and fault diagnosis</li>
-</ul>
+<p><strong>Components</strong>: Learned safety filters using reachability analysis; Rule-based fallback systems for edge cases; Uncertainty-aware decision-making (epistemic and aleatoric uncertainty); Real-time monitoring and anomaly detection; Redundant sensor validation and fault diagnosis</p>
 
 <p><strong>Outputs</strong>: Safety scores, intervention flags, fail-safe commands</p>
 
 <h3 id="6-continuous-learning-pipeline">6. Continuous Learning Pipeline</h3>
 <p><strong>Function</strong>: Enables the system to improve from real-world deployment data</p>
 
-<p><strong>Components</strong>:</p>
-<ul>
-  <li>On-vehicle data logging (sensor streams, AI decisions, interventions)</li>
-  <li>Offline reinforcement learning from logged experience</li>
-  <li>Active learning for identifying informative scenarios</li>
-  <li>Sim-to-real transfer learning using domain adaptation</li>
-  <li>Federated learning across vehicle fleet</li>
-</ul>
+<p><strong>Components</strong>: On-vehicle data logging (sensor streams, AI decisions, interventions); Offline reinforcement learning from logged experience; Active learning for identifying informative scenarios; Sim-to-real transfer learning using domain adaptation; Federated learning across vehicle fleet</p>
 
 <p><strong>Outputs</strong>: Updated model weights, identified edge cases, performance metrics</p>
 
