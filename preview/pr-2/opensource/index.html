@@ -1144,6 +1144,8 @@
 
 <div class="search-info"></div>
 
+<h3 id="2026">2026</h3>
+
 <div class="post-excerpt-container">
   <div class="post-excerpt">
     
@@ -1151,13 +1153,69 @@
     
 
     
-      <a href="/preview/pr-/opensource/2025-11-11-HDMap.html" class="post-excerpt-image" aria-label="Semantic-Vector HD Map">
-        <img src="/preview/pr-/images/opensource/HDMap/garage_half.gif" alt="Semantic-Vector HD Map" loading="lazy" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+
+    <div class="post-excerpt-text">
+      <a href="/preview/pr-/opensource/2026-01-17-TasFusion.html">TasFusion</a>
+
+      <div class="post-info">
+  
+    
+    
+      <span data-tooltip="Author">
+        <i class="icon fa-solid fa-feather-pointed"></i>
+        <span>ZHAO Jiaqi</span>
+      </span>
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally start on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>January 17, 2026</span>
+    </span>
+  
+
+  <!--  -->
+</div>
+
+
+  
+
+
+
+
+
+
+      
+      
+      <p data-search="-- Add breif description here. -- p ROS1 package designed for Ceres-based GNSS IMU loosely coupled sliding-window optimization p -- Add Main body here -- p TasFusion is a ROS1 package designed for multi-sensor navigation. Its core functionality provides a Ceres-based GNSS IMU loosely coupled sliding-window optimization framework, along with supporting tools including GNSS message definitions, NLOS exclusion utilities, a NovAtel driver, and NMEA ROS parsing scripts. p p The central sensor-fusion node supports IMU pre-integration, online bias estimation, marginalization to preserve historical information, and GPS position velocity constraints. All major functions can be flexibly enabled or disabled through parameters configured in launch files. p table align center width 100 tr td align center width 33 img src images opensource TasFusion board.png style width:100 ; max-width:380px; td td align center width 33 img src images opensource TasFusion demo.gif style width:100 ; max-width:380px; td td align center width 33 img src images opensource TasFusion longdata.png style width:100 ; max-width:380px; td tr table blockquote p Reference Hardware Platform a href https: www.bilibili.com video BV1fiaqzNEEm Introduction Video a : p p TasFusion has been validated on GNSS-IMU-4G integrated navigation module dual-IMU u-blox F9P-04B 4G uplink , providing high-frequency measurements and reliable telemetry for outdoor deployments. p p For inquiries regarding this hardware platform, please contact strong hbwu hkpolyu-wxresearch.cn strong . p blockquote -- Add picture. -- -- div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project huawei mapping.gif alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div -- -- Add video. -- -- iframe width 560 height 315 src https: www.youtube.com embed m2Lm8RY2uYI si 3g26doqQz-9AnBOi title YouTube video player frameborder 0 allow accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share referrerpolicy strict-origin-when-cross-origin allowfullscreen iframe --">
+        
+ROS1 package designed for Ceres-based GNSS/IMU loosely coupled sliding-window optimization
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<h3 id="2025">2025</h3>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+      <a href="/preview/pr-/opensource/2025-11-11-tdl-gnss.html" class="post-excerpt-image" aria-label="TDL-GNSS">
+        <img src="/preview/pr-/images/papers/2024/runzhi2024pyrtklib.png" alt="TDL-GNSS" loading="lazy" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
     <div class="post-excerpt-text">
-      <a href="/preview/pr-/opensource/2025-11-11-HDMap.html">Semantic-Vector HD Map</a>
+      <a href="/preview/pr-/opensource/2025-11-11-tdl-gnss.html">TDL-GNSS</a>
 
       <div class="post-info">
   
@@ -1198,253 +1256,9 @@
 
       
       
-      <p data-search="-- Add breif description here. -- p This is a pipeline to construct HD Semantic Map and HD Vector Map. p -- Add Main body here -- p This repository hosts an open-source HDVM high-definition vector map generation pipeline designed for autonomous vehicles, especially in intricate urban environments. Traditional HDVM creation methods often operate on a planar assumption, causing inaccuracies in real-world scenarios. Our solution, however, integrates data from GNSS global navigation satellite system , INS inertial navigation system , LiDAR, and cameras. p p The process starts with the extraction of semantic data from raw images using advanced architectures like Vision Transformer ViT and Swin Transformer. We then acquire the absolute 3D data of these semantic objects from 3D LiDAR depth and derive high-precision pose estimates from GNSS real-time kinematic GNSS-RTK and an INS navigation system. This semantic data aids in the extraction of vector information, such as lane markings, which forms the HDVM. p p A significant feature of this repo is its focus on HDVM accuracy. We ve examined the impact of two primary error sources: segmentation discrepancies and LiDAR-camera extrinsic parameter deviations. An error propagation scheme is provided to showcase how these sources can affect the HDVM s precision. p p For ease of setup and consistency, a Docker version of the pipeline is available and is the recommended method for deployment. p p For details, please refer to our official repository at a href https: github.com ebhrz HDMap HDMap a . p -- Add picture. -- div style text-align: center; margin-bottom: 20px; img src https: github.com ebhrz HDMap raw main img garage.gif alt HDMap style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div p If you find this code useful, we would appreciate it if you cite our paper. p div class language-latex highlighter-rouge div class highlight pre class highlight code article span class p span https: doi.org 10.1049 itr2.12524,author span class p span Hu, Runzhi and Bai, Shiyu and Wen, Weisong and Xia, Xin and Hsu, Li-Ta span class p span ,title span class p span Towards high-definition vector map construction based on multi-sensor integration for intelligent vehicles: Systems and error quantification span class p span ,journal span class p span IET Intelligent Transport Systems span class p span ,volume span class p span n a span class p span ,number span class p span n a span class p span ,pages span class p span ,keywords span class p span automated driving and intelligent vehicles, autonomous driving, navigation, sensor fusion span class p span ,doi span class p span https: doi.org 10.1049 itr2.12524 span class p span ,url span class p span https: ietresearch.onlinelibrary.wiley.com doi abs 10.1049 itr2.12524 span class p span ,eprint span class p span https: ietresearch.onlinelibrary.wiley.com doi pdf 10.1049 itr2.12524 span class p span span class p span code pre div div -- Add video. -- -- iframe width 560 height 315 src https: www.youtube.com embed m2Lm8RY2uYI si 3g26doqQz-9AnBOi title YouTube video player frameborder 0 allow accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share referrerpolicy strict-origin-when-cross-origin allowfullscreen iframe --">
+      <p data-search="-- Add breif description here. -- p A tightly coupled deep learning framework for GNSS. p -- Add Main body here -- p This framework is built on pyrtklib and TASGNSS, designed to tightly integrate deep learning into the GNSS Global Navigation Satellite System processing workflow. For details, please refer to our official repository at a href https: github.com ebhrz TDL-GNSS TDL-GNSS a . p p You can access the preprint version of our paper on arXiv and the published version on IEEE Xplore. We would greatly appreciate it if you cite our work: p p ARTICLE 10965937, author Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong , journal IEEE Transactions on Intelligent Transportation Systems , title pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons , year 2025 , volume 26 , number 7 , pages 10652-10662 , keywords Global navigation satellite system;Deep learning;Python;Artificial intelligence;Weight measurement;Satellites;Receivers;Mathematical models;Training;Position measurement;Artificial intelligence;deep learning;GNSS;RTKLIB , doi 10.1109 TITS.2025.3552691 p -- Add picture. -- div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images opensource TDL-GNSS TDL structure.png alt TDL-GNSS style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div -- Add video. -- -- iframe width 560 height 315 src https: www.youtube.com embed m2Lm8RY2uYI si 3g26doqQz-9AnBOi title YouTube video player frameborder 0 allow accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share referrerpolicy strict-origin-when-cross-origin allowfullscreen iframe --">
         
-This is a pipeline to construct HD Semantic Map and HD Vector Map.
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-      <a href="/preview/pr-/opensource/2025-11-11-kltdataset.html" class="post-excerpt-image" aria-label="KLT Dataset">
-        <img src="/preview/pr-/images/opensource/kltdataset/NLOS_crop.gif" alt="KLT Dataset" loading="lazy" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="post-excerpt-text">
-      <a href="/preview/pr-/opensource/2025-11-11-kltdataset.html">KLT Dataset</a>
-
-      <div class="post-info">
-  
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Runzhi Hu</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>January 17, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-
-
-
-
-      
-      
-      <p data-search="-- Add breif description here. -- p The KLT dataset is a light urban scenario dataset with LOS NLOS label p -- Add Main body here -- p The KLT dataset is a light urban scenario dataset containing GNSS raw measurements collected using a U-blox F9P receiver, ground truth provided by the SPAN-CPT system, and LOS NLOS labels for GPS and Beidou satellites. Additional data, such as IMU, LiDAR, and camera recordings, are also included in the ROS bag file. p p We also provide a start script and configuration files to enable researchers to get started with the dataset quickly and efficiently. p p For details, please refer to our official repository at a href https: github.com ebhrz KLTDataset KLT Dataset a . p -- Add picture. -- div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project Vision aided GNSS RTK NLOS.gif alt TDL-GNSS style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div -- Add video. -- -- iframe width 560 height 315 src https: www.youtube.com embed m2Lm8RY2uYI si 3g26doqQz-9AnBOi title YouTube video player frameborder 0 allow accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share referrerpolicy strict-origin-when-cross-origin allowfullscreen iframe --">
-        
-The KLT dataset is a light urban scenario dataset with LOS/NLOS label
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-      <a href="/preview/pr-/opensource/2025-11-11-plvins.html" class="post-excerpt-image" aria-label="SafetyQuantifiable-PLVINS">
-        <img src="/preview/pr-/images/opensource/zhengxi/framework2.png" alt="SafetyQuantifiable-PLVINS" loading="lazy" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="post-excerpt-text">
-      <a href="/preview/pr-/opensource/2025-11-11-plvins.html">SafetyQuantifiable-PLVINS</a>
-
-      <div class="post-info">
-  
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Xi Zheng</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>January 17, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-
-
-
-
-      
-      
-      <p data-search="-- Add breif description here. -- p Safety-quantifiable Line Feature-based Monocular Visual Localization with 3D Prior Map p -- Add Main body here -- p To address the drift and safety quantification challenges in visual localization, we propose a novel map-aided method that delivers both accurate pose estimates and a measurable error bound. By tightly integrating visual-inertial odometry with a prior line map, our system establishes geometric constraints between 2D image features and 3D map lines. Crucially, we introduce a GNSS-inspired integrity monitoring framework to compute a Protection Level PL , which quantifies the potential error in both position and orientation, thereby certifying the solution s safety. p p For details, please refer to our official repository at a href https: github.com ZHENGXi-git SafetyQuantifiable-PLVINS SafetyQuantifiable-PLVINS a p p And if you are using this code, please cite our paper by p div class language-latex highlighter-rouge div class highlight pre class highlight code article span class p span zheng2025safety, title span class p span Safety-quantifiable line feature-based monocular visual localization with 3d prior map span class p span , author span class p span Zheng, Xi and Wen, Weisong and Hsu, Li-Ta span class p span , journal span class p span IEEE Transactions on Intelligent Transportation Systems span class p span , year span class p span 2025 span class p span , publisher span class p span IEEE span class p span span class p span code pre div div -- Add picture. -- div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images opensource zhengxi framework2.png width 30 height 30 div">
-        
-Safety-quantifiable Line Feature-based Monocular Visual Localization with 3D Prior Map
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-
-    <div class="post-excerpt-text">
-      <a href="/preview/pr-/opensource/2025-11-11-pyrtklib.html">pyrtklib</a>
-
-      <div class="post-info">
-  
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Runzhi Hu</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>January 17, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-
-
-
-
-      
-      
-      <p data-search="-- Add breif description here. -- p Unleash all the performance of the most popular GNSS library RTKLIB in python. A python binding for RTKLIB provides full functions. p -- Add Main body here -- p This is a Python binding for RTKLIB, the most popular GNSS-RTK positioning C library. However, many researchers are currently using Python for research, especially in deep learning field. Thus, we implement this Python interface of RTKLIB to build a bridge between Python and positioning. By means of RTKLIB, you can easily read data from rinex file and process the positioning using the methods provided by RTKLIB, such as SPP, RTK, PPP. p p For details, please refer to our official repository at a href https: github.com IPNL-POLYU pyrtklib pyrtklib a a href https: pepy.tech projects pyrtklib img src https: static.pepy.tech personalized-badge pyrtklib period total amp;units INTERNATIONAL SYSTEM amp;left color BLACK amp;right color GREEN amp;left text downloads alt PyPI Downloads a . p p If you want to use the rtklib version based on rtklibexplorer rtklib demo5, please refer to a href https: github.com IPNL-POLYU pyrtklib demo5 pyrtklib demo5 a a href https: pepy.tech projects pyrtklib5 img src https: static.pepy.tech personalized-badge pyrtklib5 period total amp;units INTERNATIONAL SYSTEM amp;left color BLACK amp;right color GREEN amp;left text downloads alt PyPI Downloads a . p p For quick install, you can use pip by p div class language-bash highlighter-rouge div class highlight pre class highlight code pip span class nb install span pyrtklibpip span class nb install span pyrtklib5 span class c for rtklib demo5 span code pre div div p And if you are using this code, please cite our paper by p div class language-latex highlighter-rouge div class highlight pre class highlight code ARTICLE span class p span 10965937, author span class p span Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong span class p span , journal span class p span IEEE Transactions on Intelligent Transportation Systems span class p span , title span class p span pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons span class p span , year span class p span 2025 span class p span , volume span class p span 26 span class p span , number span class p span 7 span class p span , pages span class p span 10652-10662 span class p span , keywords span class p span Global navigation satellite system;Deep learning;Python;Artificial intelligence;Weight measurement;Satellites;Receivers;Mathematical models;Training;Position measurement;Artificial intelligence;deep learning;GNSS;RTKLIB span class p span , doi span class p span 10.1109 TITS.2025.3552691 span class p span code pre div div -- Add picture. -- -- div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project huawei mapping.gif alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div -- -- Add video. -- -- iframe width 560 height 315 src https: www.youtube.com embed m2Lm8RY2uYI si 3g26doqQz-9AnBOi title YouTube video player frameborder 0 allow accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share referrerpolicy strict-origin-when-cross-origin allowfullscreen iframe --">
-        
-Unleash all the performance of the most popular GNSS library – RTKLIB in python. A python binding for RTKLIB provides full functions.
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-
-    <div class="post-excerpt-text">
-      <a href="/preview/pr-/opensource/2025-11-11-tasgnss.html">TASGNSS</a>
-
-      <div class="post-info">
-  
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Runzhi Hu</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>January 17, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-
-
-
-
-      
-      
-      <p data-search="-- Add breif description here. -- p A simple python GNSS interface for positioning. p -- Add Main body here -- p This lib is based on a href https: github.com IPNL-POLYU pyrtklib pyrtklib a and provide a simple and modern interface for using. For more details, please refer to our website a href https: github.com PolyU-TASLAB TASGNSS tasgnss a and a href https: polyu-taslab.github.io TASGNSS document a p p For quick install, you can use pip by p div class language-bash highlighter-rouge div class highlight pre class highlight code pip span class nb install span tasgnss code pre div div -- Add picture. -- -- div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project huawei mapping.gif alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div -- -- Add video. -- -- iframe width 560 height 315 src https: www.youtube.com embed m2Lm8RY2uYI si 3g26doqQz-9AnBOi title YouTube video player frameborder 0 allow accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share referrerpolicy strict-origin-when-cross-origin allowfullscreen iframe --">
-        
-A simple python GNSS interface for positioning.
+A tightly coupled deep learning framework for GNSS.
 
       </p>
     </div>
@@ -1521,13 +1335,9 @@ Tightly-coupled Visual/Inertial/Map Integration with Observability Analysis for 
     
 
     
-      <a href="/preview/pr-/opensource/2025-11-11-tdl-gnss.html" class="post-excerpt-image" aria-label="TDL-GNSS">
-        <img src="/preview/pr-/images/papers/2024/runzhi2024pyrtklib.png" alt="TDL-GNSS" loading="lazy" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
 
     <div class="post-excerpt-text">
-      <a href="/preview/pr-/opensource/2025-11-11-tdl-gnss.html">TDL-GNSS</a>
+      <a href="/preview/pr-/opensource/2025-11-11-tasgnss.html">TASGNSS</a>
 
       <div class="post-info">
   
@@ -1568,9 +1378,257 @@ Tightly-coupled Visual/Inertial/Map Integration with Observability Analysis for 
 
       
       
-      <p data-search="-- Add breif description here. -- p A tightly coupled deep learning framework for GNSS. p -- Add Main body here -- p This framework is built on pyrtklib and TASGNSS, designed to tightly integrate deep learning into the GNSS Global Navigation Satellite System processing workflow. For details, please refer to our official repository at a href https: github.com ebhrz TDL-GNSS TDL-GNSS a . p p You can access the preprint version of our paper on arXiv and the published version on IEEE Xplore. We would greatly appreciate it if you cite our work: p p ARTICLE 10965937, author Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong , journal IEEE Transactions on Intelligent Transportation Systems , title pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons , year 2025 , volume 26 , number 7 , pages 10652-10662 , keywords Global navigation satellite system;Deep learning;Python;Artificial intelligence;Weight measurement;Satellites;Receivers;Mathematical models;Training;Position measurement;Artificial intelligence;deep learning;GNSS;RTKLIB , doi 10.1109 TITS.2025.3552691 p -- Add picture. -- div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images opensource TDL-GNSS TDL structure.png alt TDL-GNSS style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div -- Add video. -- -- iframe width 560 height 315 src https: www.youtube.com embed m2Lm8RY2uYI si 3g26doqQz-9AnBOi title YouTube video player frameborder 0 allow accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share referrerpolicy strict-origin-when-cross-origin allowfullscreen iframe --">
+      <p data-search="-- Add breif description here. -- p A simple python GNSS interface for positioning. p -- Add Main body here -- p This lib is based on a href https: github.com IPNL-POLYU pyrtklib pyrtklib a and provide a simple and modern interface for using. For more details, please refer to our website a href https: github.com PolyU-TASLAB TASGNSS tasgnss a and a href https: polyu-taslab.github.io TASGNSS document a p p For quick install, you can use pip by p div class language-bash highlighter-rouge div class highlight pre class highlight code pip span class nb install span tasgnss code pre div div -- Add picture. -- -- div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project huawei mapping.gif alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div -- -- Add video. -- -- iframe width 560 height 315 src https: www.youtube.com embed m2Lm8RY2uYI si 3g26doqQz-9AnBOi title YouTube video player frameborder 0 allow accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share referrerpolicy strict-origin-when-cross-origin allowfullscreen iframe --">
         
-A tightly coupled deep learning framework for GNSS.
+A simple python GNSS interface for positioning.
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+
+    <div class="post-excerpt-text">
+      <a href="/preview/pr-/opensource/2025-11-11-pyrtklib.html">pyrtklib</a>
+
+      <div class="post-info">
+  
+    
+    
+      <span data-tooltip="Author">
+        <i class="icon fa-solid fa-feather-pointed"></i>
+        <span>Runzhi Hu</span>
+      </span>
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally start on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>November 11, 2025</span>
+    </span>
+  
+
+  <!-- 
+    <span data-tooltip="Last updated on">
+      <i class="icon fa-solid fa-clock-rotate-left"></i>
+      <span>January 17, 2026</span>
+    </span>
+   -->
+</div>
+
+
+  
+
+
+
+
+
+
+      
+      
+      <p data-search="-- Add breif description here. -- p Unleash all the performance of the most popular GNSS library RTKLIB in python. A python binding for RTKLIB provides full functions. p -- Add Main body here -- p This is a Python binding for RTKLIB, the most popular GNSS-RTK positioning C library. However, many researchers are currently using Python for research, especially in deep learning field. Thus, we implement this Python interface of RTKLIB to build a bridge between Python and positioning. By means of RTKLIB, you can easily read data from rinex file and process the positioning using the methods provided by RTKLIB, such as SPP, RTK, PPP. p p For details, please refer to our official repository at a href https: github.com IPNL-POLYU pyrtklib pyrtklib a a href https: pepy.tech projects pyrtklib img src https: static.pepy.tech personalized-badge pyrtklib period total amp;units INTERNATIONAL SYSTEM amp;left color BLACK amp;right color GREEN amp;left text downloads alt PyPI Downloads a . p p If you want to use the rtklib version based on rtklibexplorer rtklib demo5, please refer to a href https: github.com IPNL-POLYU pyrtklib demo5 pyrtklib demo5 a a href https: pepy.tech projects pyrtklib5 img src https: static.pepy.tech personalized-badge pyrtklib5 period total amp;units INTERNATIONAL SYSTEM amp;left color BLACK amp;right color GREEN amp;left text downloads alt PyPI Downloads a . p p For quick install, you can use pip by p div class language-bash highlighter-rouge div class highlight pre class highlight code pip span class nb install span pyrtklibpip span class nb install span pyrtklib5 span class c for rtklib demo5 span code pre div div p And if you are using this code, please cite our paper by p div class language-latex highlighter-rouge div class highlight pre class highlight code ARTICLE span class p span 10965937, author span class p span Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong span class p span , journal span class p span IEEE Transactions on Intelligent Transportation Systems span class p span , title span class p span pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons span class p span , year span class p span 2025 span class p span , volume span class p span 26 span class p span , number span class p span 7 span class p span , pages span class p span 10652-10662 span class p span , keywords span class p span Global navigation satellite system;Deep learning;Python;Artificial intelligence;Weight measurement;Satellites;Receivers;Mathematical models;Training;Position measurement;Artificial intelligence;deep learning;GNSS;RTKLIB span class p span , doi span class p span 10.1109 TITS.2025.3552691 span class p span code pre div div -- Add picture. -- -- div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project huawei mapping.gif alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div -- -- Add video. -- -- iframe width 560 height 315 src https: www.youtube.com embed m2Lm8RY2uYI si 3g26doqQz-9AnBOi title YouTube video player frameborder 0 allow accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share referrerpolicy strict-origin-when-cross-origin allowfullscreen iframe --">
+        
+Unleash all the performance of the most popular GNSS library – RTKLIB in python. A python binding for RTKLIB provides full functions.
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+      <a href="/preview/pr-/opensource/2025-11-11-plvins.html" class="post-excerpt-image" aria-label="SafetyQuantifiable-PLVINS">
+        <img src="/preview/pr-/images/opensource/zhengxi/framework2.png" alt="SafetyQuantifiable-PLVINS" loading="lazy" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="post-excerpt-text">
+      <a href="/preview/pr-/opensource/2025-11-11-plvins.html">SafetyQuantifiable-PLVINS</a>
+
+      <div class="post-info">
+  
+    
+    
+      <span data-tooltip="Author">
+        <i class="icon fa-solid fa-feather-pointed"></i>
+        <span>Xi Zheng</span>
+      </span>
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally start on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>November 11, 2025</span>
+    </span>
+  
+
+  <!-- 
+    <span data-tooltip="Last updated on">
+      <i class="icon fa-solid fa-clock-rotate-left"></i>
+      <span>January 17, 2026</span>
+    </span>
+   -->
+</div>
+
+
+  
+
+
+
+
+
+
+      
+      
+      <p data-search="-- Add breif description here. -- p Safety-quantifiable Line Feature-based Monocular Visual Localization with 3D Prior Map p -- Add Main body here -- p To address the drift and safety quantification challenges in visual localization, we propose a novel map-aided method that delivers both accurate pose estimates and a measurable error bound. By tightly integrating visual-inertial odometry with a prior line map, our system establishes geometric constraints between 2D image features and 3D map lines. Crucially, we introduce a GNSS-inspired integrity monitoring framework to compute a Protection Level PL , which quantifies the potential error in both position and orientation, thereby certifying the solution s safety. p p For details, please refer to our official repository at a href https: github.com ZHENGXi-git SafetyQuantifiable-PLVINS SafetyQuantifiable-PLVINS a p p And if you are using this code, please cite our paper by p div class language-latex highlighter-rouge div class highlight pre class highlight code article span class p span zheng2025safety, title span class p span Safety-quantifiable line feature-based monocular visual localization with 3d prior map span class p span , author span class p span Zheng, Xi and Wen, Weisong and Hsu, Li-Ta span class p span , journal span class p span IEEE Transactions on Intelligent Transportation Systems span class p span , year span class p span 2025 span class p span , publisher span class p span IEEE span class p span span class p span code pre div div -- Add picture. -- div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images opensource zhengxi framework2.png width 30 height 30 div">
+        
+Safety-quantifiable Line Feature-based Monocular Visual Localization with 3D Prior Map
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+      <a href="/preview/pr-/opensource/2025-11-11-kltdataset.html" class="post-excerpt-image" aria-label="KLT Dataset">
+        <img src="/preview/pr-/images/opensource/kltdataset/NLOS_crop.gif" alt="KLT Dataset" loading="lazy" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="post-excerpt-text">
+      <a href="/preview/pr-/opensource/2025-11-11-kltdataset.html">KLT Dataset</a>
+
+      <div class="post-info">
+  
+    
+    
+      <span data-tooltip="Author">
+        <i class="icon fa-solid fa-feather-pointed"></i>
+        <span>Runzhi Hu</span>
+      </span>
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally start on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>November 11, 2025</span>
+    </span>
+  
+
+  <!-- 
+    <span data-tooltip="Last updated on">
+      <i class="icon fa-solid fa-clock-rotate-left"></i>
+      <span>January 17, 2026</span>
+    </span>
+   -->
+</div>
+
+
+  
+
+
+
+
+
+
+      
+      
+      <p data-search="-- Add breif description here. -- p The KLT dataset is a light urban scenario dataset with LOS NLOS label p -- Add Main body here -- p The KLT dataset is a light urban scenario dataset containing GNSS raw measurements collected using a U-blox F9P receiver, ground truth provided by the SPAN-CPT system, and LOS NLOS labels for GPS and Beidou satellites. Additional data, such as IMU, LiDAR, and camera recordings, are also included in the ROS bag file. p p We also provide a start script and configuration files to enable researchers to get started with the dataset quickly and efficiently. p p For details, please refer to our official repository at a href https: github.com ebhrz KLTDataset KLT Dataset a . p -- Add picture. -- div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project Vision aided GNSS RTK NLOS.gif alt TDL-GNSS style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div -- Add video. -- -- iframe width 560 height 315 src https: www.youtube.com embed m2Lm8RY2uYI si 3g26doqQz-9AnBOi title YouTube video player frameborder 0 allow accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share referrerpolicy strict-origin-when-cross-origin allowfullscreen iframe --">
+        
+The KLT dataset is a light urban scenario dataset with LOS/NLOS label
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+      <a href="/preview/pr-/opensource/2025-11-11-HDMap.html" class="post-excerpt-image" aria-label="Semantic-Vector HD Map">
+        <img src="/preview/pr-/images/opensource/HDMap/garage_half.gif" alt="Semantic-Vector HD Map" loading="lazy" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="post-excerpt-text">
+      <a href="/preview/pr-/opensource/2025-11-11-HDMap.html">Semantic-Vector HD Map</a>
+
+      <div class="post-info">
+  
+    
+    
+      <span data-tooltip="Author">
+        <i class="icon fa-solid fa-feather-pointed"></i>
+        <span>Runzhi Hu</span>
+      </span>
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally start on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>November 11, 2025</span>
+    </span>
+  
+
+  <!-- 
+    <span data-tooltip="Last updated on">
+      <i class="icon fa-solid fa-clock-rotate-left"></i>
+      <span>January 17, 2026</span>
+    </span>
+   -->
+</div>
+
+
+  
+
+
+
+
+
+
+      
+      
+      <p data-search="-- Add breif description here. -- p This is a pipeline to construct HD Semantic Map and HD Vector Map. p -- Add Main body here -- p This repository hosts an open-source HDVM high-definition vector map generation pipeline designed for autonomous vehicles, especially in intricate urban environments. Traditional HDVM creation methods often operate on a planar assumption, causing inaccuracies in real-world scenarios. Our solution, however, integrates data from GNSS global navigation satellite system , INS inertial navigation system , LiDAR, and cameras. p p The process starts with the extraction of semantic data from raw images using advanced architectures like Vision Transformer ViT and Swin Transformer. We then acquire the absolute 3D data of these semantic objects from 3D LiDAR depth and derive high-precision pose estimates from GNSS real-time kinematic GNSS-RTK and an INS navigation system. This semantic data aids in the extraction of vector information, such as lane markings, which forms the HDVM. p p A significant feature of this repo is its focus on HDVM accuracy. We ve examined the impact of two primary error sources: segmentation discrepancies and LiDAR-camera extrinsic parameter deviations. An error propagation scheme is provided to showcase how these sources can affect the HDVM s precision. p p For ease of setup and consistency, a Docker version of the pipeline is available and is the recommended method for deployment. p p For details, please refer to our official repository at a href https: github.com ebhrz HDMap HDMap a . p -- Add picture. -- div style text-align: center; margin-bottom: 20px; img src https: github.com ebhrz HDMap raw main img garage.gif alt HDMap style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div p If you find this code useful, we would appreciate it if you cite our paper. p div class language-latex highlighter-rouge div class highlight pre class highlight code article span class p span https: doi.org 10.1049 itr2.12524,author span class p span Hu, Runzhi and Bai, Shiyu and Wen, Weisong and Xia, Xin and Hsu, Li-Ta span class p span ,title span class p span Towards high-definition vector map construction based on multi-sensor integration for intelligent vehicles: Systems and error quantification span class p span ,journal span class p span IET Intelligent Transport Systems span class p span ,volume span class p span n a span class p span ,number span class p span n a span class p span ,pages span class p span ,keywords span class p span automated driving and intelligent vehicles, autonomous driving, navigation, sensor fusion span class p span ,doi span class p span https: doi.org 10.1049 itr2.12524 span class p span ,url span class p span https: ietresearch.onlinelibrary.wiley.com doi abs 10.1049 itr2.12524 span class p span ,eprint span class p span https: ietresearch.onlinelibrary.wiley.com doi pdf 10.1049 itr2.12524 span class p span span class p span code pre div div -- Add video. -- -- iframe width 560 height 315 src https: www.youtube.com embed m2Lm8RY2uYI si 3g26doqQz-9AnBOi title YouTube video player frameborder 0 allow accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share referrerpolicy strict-origin-when-cross-origin allowfullscreen iframe --">
+        
+This is a pipeline to construct HD Semantic Map and HD Vector Map.
 
       </p>
     </div>

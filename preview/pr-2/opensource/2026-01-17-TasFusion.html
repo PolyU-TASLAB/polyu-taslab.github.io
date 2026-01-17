@@ -39,21 +39,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>pyrtklib | TAS LAB</title>
+<title>TasFusion | TAS LAB</title>
 
 <link rel="icon" href="/preview/pr-/images/icon.png">
 
-<meta name="title" content="pyrtklib">
+<meta name="title" content="TasFusion">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 
-<meta property="og:title" content="pyrtklib">
+<meta property="og:title" content="TasFusion">
 <meta property="og:site_title" content="TAS LAB">
 <meta property="og:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="og:url" content="/preview/pr-">
 <meta property="og:image" content="/preview/pr-/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="pyrtklib">
+<meta property="twitter:title" content="TasFusion">
 <meta property="twitter:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="twitter:url" content="/preview/pr-">
 <meta property="twitter:card" content="summary_large_image">
@@ -61,32 +61,34 @@
 
 
   <meta name="author" content='&lt;!-- Add breif description here.  --&gt;
-&lt;p&gt;Unleash all the performance of the most popular GNSS library – RTKLIB in python. A python binding for RTKLIB provides full functions.&lt;/p&gt;
+&lt;p&gt;ROS1 package designed for Ceres-based GNSS/IMU loosely coupled sliding-window optimization&lt;/p&gt;
 
 &lt;!-- Add Main body here --&gt;
-&lt;p&gt;This is a Python binding for RTKLIB, the most popular GNSS-RTK positioning C library. However, many researchers are currently using Python for research, especially in deep learning field. Thus, we implement this Python interface of RTKLIB to build a bridge between Python and positioning. By means of RTKLIB, you can easily read data from rinex file and process the positioning using the methods provided by RTKLIB, such as SPP, RTK, PPP.&lt;/p&gt;
+&lt;p&gt;TasFusion is a ROS1 package designed for multi-sensor navigation. Its core functionality provides a Ceres-based GNSS/IMU loosely coupled sliding-window optimization framework, along with supporting tools including GNSS message definitions, NLOS exclusion utilities, a NovAtel driver, and NMEA ROS parsing scripts.&lt;/p&gt;
 
-&lt;p&gt;For details, please refer to our official repository at &lt;a href="https://github.com/IPNL-POLYU/pyrtklib"&gt;pyrtklib&lt;/a&gt; &lt;a href="https://pepy.tech/projects/pyrtklib"&gt;&lt;img src="https://static.pepy.tech/personalized-badge/pyrtklib?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="PyPI Downloads" /&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The central sensor-fusion node supports IMU pre-integration, online bias estimation, marginalization to preserve historical information, and GPS position/velocity constraints. All major functions can be flexibly enabled or disabled through parameters configured in launch files.&lt;/p&gt;
 
-&lt;p&gt;If you want to use the rtklib version based on rtklibexplorer/rtklib_demo5, please refer to &lt;a href="https://github.com/IPNL-POLYU/pyrtklib_demo5"&gt;pyrtklib_demo5&lt;/a&gt; &lt;a href="https://pepy.tech/projects/pyrtklib5"&gt;&lt;img src="https://static.pepy.tech/personalized-badge/pyrtklib5?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="PyPI Downloads" /&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;table align="center" width="100%"&gt;
+  &lt;tr&gt;
+    &lt;td align="center" width="33%"&gt;
+      &lt;img src="images/opensource/TasFusion/board.png" style="width:100%; max-width:380px;" /&gt;
+    &lt;/td&gt;
+    &lt;td align="center" width="33%"&gt;
+      &lt;img src="images/opensource/TasFusion/demo.gif" style="width:100%; max-width:380px;" /&gt;
+    &lt;/td&gt;
+    &lt;td align="center" width="33%"&gt;
+      &lt;img src="images/opensource/TasFusion/longdata.png" style="width:100%; max-width:380px;" /&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
 
-&lt;p&gt;For quick install, you can use pip by&lt;/p&gt;
-&lt;div class="language-bash highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib
-pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib5 &lt;span class="c"&gt;#for rtklib_demo5&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Reference Hardware Platform (&lt;a href="https://www.bilibili.com/video/BV1fiaqzNEEm"&gt;Introduction Video&lt;/a&gt;):&lt;/p&gt;
 
-&lt;p&gt;And if you are using this code, please cite our paper by&lt;/p&gt;
-&lt;div class="language-latex highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;@ARTICLE&lt;span class="p"&gt;{&lt;/span&gt;10965937,
-  author=&lt;span class="p"&gt;{&lt;/span&gt;Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong&lt;span class="p"&gt;}&lt;/span&gt;,
-  journal=&lt;span class="p"&gt;{&lt;/span&gt;IEEE Transactions on Intelligent Transportation Systems&lt;span class="p"&gt;}&lt;/span&gt;, 
-  title=&lt;span class="p"&gt;{&lt;/span&gt;pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons&lt;span class="p"&gt;}&lt;/span&gt;, 
-  year=&lt;span class="p"&gt;{&lt;/span&gt;2025&lt;span class="p"&gt;}&lt;/span&gt;,
-  volume=&lt;span class="p"&gt;{&lt;/span&gt;26&lt;span class="p"&gt;}&lt;/span&gt;,
-  number=&lt;span class="p"&gt;{&lt;/span&gt;7&lt;span class="p"&gt;}&lt;/span&gt;,
-  pages=&lt;span class="p"&gt;{&lt;/span&gt;10652-10662&lt;span class="p"&gt;}&lt;/span&gt;,
-  keywords=&lt;span class="p"&gt;{&lt;/span&gt;Global navigation satellite system;Deep learning;Python;Artificial intelligence;Weight measurement;Satellites;Receivers;Mathematical models;Training;Position measurement;Artificial intelligence;deep learning;GNSS;RTKLIB&lt;span class="p"&gt;}&lt;/span&gt;,
-  doi=&lt;span class="p"&gt;{&lt;/span&gt;10.1109/TITS.2025.3552691&lt;span class="p"&gt;}}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;p&gt;TasFusion has been validated on GNSS-IMU-4G integrated navigation module (dual-IMU + u-blox F9P-04B + 4G uplink), providing high-frequency measurements and reliable telemetry for outdoor deployments.&lt;/p&gt;
+
+  &lt;p&gt;For inquiries regarding this hardware platform, please contact &lt;strong&gt;hbwu@hkpolyu-wxresearch.cn&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;!-- Add picture. --&gt;
 &lt;!-- &lt;div style="text-align: center; margin-bottom: 20px;"&gt;
@@ -99,7 +101,7 @@ pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib5 &lt;span class="c"&gt;
 '>
   <meta property="og:type" content="article">
   <meta property="og:updated_time" content="2026-01-17T11:38:36+00:00">
-  <meta property="article:published_time" content="2025-11-11T00:00:00+00:00">
+  <meta property="article:published_time" content="2026-01-17T00:00:00+00:00">
   <meta property="article:modified_time" content="2026-01-17T11:38:36+00:00">
   <meta name="revised" content="2026-01-17T11:38:36+00:00">
 
@@ -109,13 +111,13 @@ pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib5 &lt;span class="c"&gt;
     "@context": "https://schema.org",
     
       "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "pyrtklib" },
-      "datePublished": "2025-11-11T00:00:00+00:00",
+      "author": { "@type": "Person", "name": "TasFusion" },
+      "datePublished": "2026-01-17T00:00:00+00:00",
       "dateModified": "2026-01-17T11:38:36+00:00",
     
-    "name": "pyrtklib",
+    "name": "TasFusion",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
-    "headline": "pyrtklib",
+    "headline": "TasFusion",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.png" }
@@ -492,7 +494,7 @@ pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib5 &lt;span class="c"&gt;
 -->
 
 
-<h1 class="center">pyrtklib</h1>
+<h1 class="center">TasFusion</h1>
 
 <div class="post-info">
   
@@ -500,7 +502,7 @@ pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib5 &lt;span class="c"&gt;
     
       <span data-tooltip="Author">
         <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Runzhi Hu</span>
+        <span>ZHAO Jiaqi</span>
       </span>
     
   
@@ -511,16 +513,11 @@ pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib5 &lt;span class="c"&gt;
   
     <span data-tooltip="Originally start on">
       <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
+      <span>January 17, 2026</span>
     </span>
   
 
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>January 17, 2026</span>
-    </span>
-   -->
+  <!--  -->
 </div>
   </section>
 
@@ -537,32 +534,28 @@ pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib5 &lt;span class="c"&gt;
 
 
 <!-- Add breif description here.  -->
-<p>Unleash all the performance of the most popular GNSS library – RTKLIB in python. A python binding for RTKLIB provides full functions.</p>
+<p>ROS1 package designed for Ceres-based GNSS/IMU loosely coupled sliding-window optimization</p>
 
 <!-- Add Main body here -->
-<p>This is a Python binding for RTKLIB, the most popular GNSS-RTK positioning C library. However, many researchers are currently using Python for research, especially in deep learning field. Thus, we implement this Python interface of RTKLIB to build a bridge between Python and positioning. By means of RTKLIB, you can easily read data from rinex file and process the positioning using the methods provided by RTKLIB, such as SPP, RTK, PPP.</p>
+<p>TasFusion is a ROS1 package designed for multi-sensor navigation. Its core functionality provides a Ceres-based GNSS/IMU loosely coupled sliding-window optimization framework, along with supporting tools including GNSS message definitions, NLOS exclusion utilities, a NovAtel driver, and NMEA ROS parsing scripts.</p>
 
-<p>For details, please refer to our official repository at <a href="https://github.com/IPNL-POLYU/pyrtklib">pyrtklib</a> <a href="https://pepy.tech/projects/pyrtklib"><img src="https://static.pepy.tech/personalized-badge/pyrtklib?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="PyPI Downloads"></a>.</p>
+<p>The central sensor-fusion node supports IMU pre-integration, online bias estimation, marginalization to preserve historical information, and GPS position/velocity constraints. All major functions can be flexibly enabled or disabled through parameters configured in launch files.</p>
 
-<p>If you want to use the rtklib version based on rtklibexplorer/rtklib_demo5, please refer to <a href="https://github.com/IPNL-POLYU/pyrtklib_demo5">pyrtklib_demo5</a> <a href="https://pepy.tech/projects/pyrtklib5"><img src="https://static.pepy.tech/personalized-badge/pyrtklib5?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="PyPI Downloads"></a>.</p>
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="33%"><img src="images/opensource/TasFusion/board.png" style="width:100%; max-width:380px;"></td>
+    <td align="center" width="33%"><img src="images/opensource/TasFusion/demo.gif" style="width:100%; max-width:380px;"></td>
+    <td align="center" width="33%"><img src="images/opensource/TasFusion/longdata.png" style="width:100%; max-width:380px;"></td>
+  </tr>
+</table>
 
-<p>For quick install, you can use pip by</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>pyrtklib
-pip <span class="nb">install </span>pyrtklib5 <span class="c">#for rtklib_demo5</span>
-</code></pre></div></div>
+<blockquote>
+  <p>Reference Hardware Platform (<a href="https://www.bilibili.com/video/BV1fiaqzNEEm">Introduction Video</a>):</p>
 
-<p>And if you are using this code, please cite our paper by</p>
-<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@ARTICLE<span class="p">{</span>10965937,
-  author=<span class="p">{</span>Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong<span class="p">}</span>,
-  journal=<span class="p">{</span>IEEE Transactions on Intelligent Transportation Systems<span class="p">}</span>, 
-  title=<span class="p">{</span>pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons<span class="p">}</span>, 
-  year=<span class="p">{</span>2025<span class="p">}</span>,
-  volume=<span class="p">{</span>26<span class="p">}</span>,
-  number=<span class="p">{</span>7<span class="p">}</span>,
-  pages=<span class="p">{</span>10652-10662<span class="p">}</span>,
-  keywords=<span class="p">{</span>Global navigation satellite system;Deep learning;Python;Artificial intelligence;Weight measurement;Satellites;Receivers;Mathematical models;Training;Position measurement;Artificial intelligence;deep learning;GNSS;RTKLIB<span class="p">}</span>,
-  doi=<span class="p">{</span>10.1109/TITS.2025.3552691<span class="p">}}</span>
-</code></pre></div></div>
+  <p>TasFusion has been validated on GNSS-IMU-4G integrated navigation module (dual-IMU + u-blox F9P-04B + 4G uplink), providing high-frequency measurements and reliable telemetry for outdoor deployments.</p>
+
+  <p>For inquiries regarding this hardware platform, please contact <strong>hbwu@hkpolyu-wxresearch.cn</strong>.</p>
+</blockquote>
 
 <!-- Add picture. -->
 <!-- <div style="text-align: center; margin-bottom: 20px;">
@@ -590,17 +583,12 @@ pip <span class="nb">install </span>pyrtklib5 <span class="c">#for rtklib_demo5<
   <span>
     
       <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
-      <a href="/preview/pr-/opensource/2025-11-11-plvins.html">
-        SafetyQuantifiable-PLVINS
+      <a href="/preview/pr-/opensource/2025-11-11-tdl-gnss.html">
+        TDL-GNSS
       </a>
     
   </span>
   <span>
-    
-      Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/preview/pr-/opensource/2025-11-11-tasgnss.html">
-        TASGNSS
-      </a>
     
   </span>
 </div>
