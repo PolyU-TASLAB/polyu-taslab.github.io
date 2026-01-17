@@ -2,7 +2,7 @@
 title: TasFusion
 subtitle: 
 author: ZHAO Jiaqi
-#image: images/project/huawei_mapping.gif
+image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/blob/main/images/opensource/TasFusion/demo.gif
 tags: 
 order: 
 ---
