@@ -2,7 +2,7 @@
 title: TasFusion
 subtitle: 
 author: ZHAO Jiaqi
-image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/blob/main/images/opensource/TasFusion/demo.gif
+image: images/opensource/TasFusion/demo.gif
 tags: 
 order: 
 ---
@@ -19,21 +19,17 @@ The central sensor-fusion node supports IMU pre-integration, online bias estimat
 <table align="center" width="100%">
   <tr>
     <td align="center" width="33%">
-      <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/blob/main/images/opensource/TasFusion/board.png" style="width:100%; max-width:380px;"/>
+      <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/opensource/TasFusion/board.png" style="width:100%; max-width:380px;"/>
     </td>
     <td align="center" width="33%">
-      <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/blob/main/images/opensource/TasFusion/demo.gif" style="width:100%; max-width:380px;"/>
+      <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/opensource/TasFusion/demo.gif" style="width:100%; max-width:380px;"/>
     </td>
     <td align="center" width="33%">
-      <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/blob/main/images/opensource/TasFusion/longdata.png" style="width:100%; max-width:380px;"/>
+      <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/opensource/TasFusion/longdata.png" style="width:100%; max-width:380px;"/>
     </td>
   </tr>
 </table>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/opensource/TasFusion/demo.gif" alt="demo gif" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-</div>
 
 > Reference Hardware Platform ([Introduction Video](https://www.bilibili.com/video/BV1fiaqzNEEm)):
 >
