@@ -2,7 +2,7 @@
 title: TasFusion
 subtitle: 
 author: ZHAO Jiaqi
-#image: images/project/huawei_mapping.gif
+image: images/opensource/TasFusion/demo.gif
 tags: 
 order: 
 ---
@@ -16,19 +16,37 @@ TasFusion is a ROS1 package designed for multi-sensor navigation. Its core funct
 
 The central sensor-fusion node supports IMU pre-integration, online bias estimation, marginalization to preserve historical information, and GPS position/velocity constraints. All major functions can be flexibly enabled or disabled through parameters configured in launch files.
 
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="33%">
-      <img src="images/opensource/TasFusion/board.png" style="width:100%; max-width:380px;"/>
-    </td>
-    <td align="center" width="33%">
-      <img src="images/opensource/TasFusion/demo.gif" style="width:100%; max-width:380px;"/>
-    </td>
-    <td align="center" width="33%">
-      <img src="images/opensource/TasFusion/longdata.png" style="width:100%; max-width:380px;"/>
-    </td>
-  </tr>
-</table>
+<div style="
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+">
+  <img src="images/opensource/TasFusion/board.png"
+       style="
+         width: 100%;
+         max-width: 380px;
+         flex: 1 1 300px;
+         border-radius: 15px;
+       " />
+
+  <img src="images/opensource/TasFusion/demo.gif"
+       style="
+         width: 100%;
+         max-width: 380px;
+         flex: 1 1 300px;
+         border-radius: 15px;
+       " />
+
+  <img src="images/opensource/TasFusion/longdata.png"
+       style="
+         width: 100%;
+         max-width: 380px;
+         flex: 1 1 300px;
+         border-radius: 15px;
+       " />
+</div>
 
 > Reference Hardware Platform ([Introduction Video](https://www.bilibili.com/video/BV1fiaqzNEEm)):
 >
