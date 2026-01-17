@@ -11,14 +11,14 @@ links:
   email: jiaqi.zhao@connect.polyu.hk
   profile: 
 
-display_1: B.Eng.(PolyU)
+display_1: M.Phil. Student, B.Eng.(PolyU)
 display_2: March 2024 - Present
 ---
 
 <!--  Add a short self introduction here -->
 <!-- Like Research Areas -->
 
-Mr. Zhao Jiaqi is currently a Year-4 Undergraduate Student Assistant at Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University(PolyU), supervised by Dr. Wen Weisong. 
+Mr. Zhao Jiaqi is currently a MPhil Student at Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University(PolyU), supervised by Dr. Wen Weisong. 
 
 **Research Areas**
-UAV Vision-Based Positioning and Navigation
+UAV end2end Positioning and Navigation
