@@ -8,7 +8,7 @@ order:
 ---
 <!-- Add breif description here.  -->
 
-ROS1 package designed for Ceres-based GNSS/IMU loosely coupled sliding-window optimization
+<!-- ROS1 package designed for Ceres-based GNSS/IMU loosely coupled sliding-window optimization -->
 
 <!-- Add Main body here -->
 
