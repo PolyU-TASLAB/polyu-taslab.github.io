@@ -6,7 +6,7 @@ affiliation: Hong Kong Polytechnic University
 order: 1
 
 links:
-  home-page: www.linkedin.com/in/jiaqi-zhao-7ab009228
+  home-page: https://www.linkedin.com/in/jiaqi-zhao-7ab009228
   github: https://github.com/Qiamp
   email: jiaqi.zhao@connect.polyu.hk
   profile: 
