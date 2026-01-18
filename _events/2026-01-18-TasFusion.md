@@ -1,7 +1,7 @@
 ---
-title: PolyU TAS LAB Releases TasFusion: A GNSS/IMU Sliding-Window Optimization Framework
+title: PolyU TAS LAB Releases TasFusion - A GNSS/IMU Sliding-Window Optimization Framework
 subtitle: news
-image: images/opensource/TasFusion/demo.gif
+image: images/opensource/TasFusion/longdata.png
 tags: news
 ---
 
