@@ -11,7 +11,7 @@ links:
   email: jiaqi.zhao@connect.polyu.hk
   profile: 
 
-display_1: M.Phil. Student, B.Eng.(PolyU)
+display_1: M.Phil. Student, B.Eng.(PolyU), Drone Captain with HKCAD & CAAC License
 display_2: March 2024 - Present
 ---
 
