@@ -11,7 +11,7 @@ links:
   profile: 
 
 display_1: 
-  - RA, M.Sc. (TUM), B.Eng. (WHU)
+  - PhD student, M.Sc. (TUM), B.Eng. (WHU)
 display_2: 
   - From Feb. 2025
 ---
