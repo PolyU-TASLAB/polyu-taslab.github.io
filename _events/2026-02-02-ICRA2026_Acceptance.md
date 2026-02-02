@@ -1,5 +1,5 @@
 ---
-title: Our paper is accpeted by IEEE ICRA 2026
+title: Our paper is accepted by IEEE ICRA 2026
 subtitle: Example news
 # author: xxx
 image: images/news/2026ICRA/system_framework.png

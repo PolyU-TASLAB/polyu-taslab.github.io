@@ -1,5 +1,5 @@
 ---
-title: Our paper is accpeted by IEEE IROS 2025
+title: Our paper is accepted by IEEE IROS 2025
 subtitle: Example news
 # author: xxx
 image: images/news/IROS2025_RSG_GLIO.png
