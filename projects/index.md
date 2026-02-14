@@ -7,6 +7,10 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
+<!-- {% include tags.html tags="publication, resource, website" %} -->
+
+{% include section.html %}
+
 ## Videos
 
 <div style="margin-top: 20px; margin-bottom: 20px; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap;">
@@ -18,8 +22,6 @@ nav:
   <iframe width="560" height="315" src="//player.bilibili.com/player.html?isOutside=true&aid=115920244638163&bvid=BV1GPkvBdEw9&cid=35479224564&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
   <iframe width="560" height="315" src="//player.bilibili.com/player.html?isOutside=true&aid=114776826971256&bvid=BV1UsgDzeE5J&cid=30968254232&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
-
-<!-- {% include tags.html tags="publication, resource, website" %} -->
 
 {% include section.html %}
 
