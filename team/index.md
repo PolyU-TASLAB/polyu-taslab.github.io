@@ -19,21 +19,32 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
 <style>
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 2.2em;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1.2em;
   justify-items: center;
-  margin: 2em 0;
+  margin: 1.2em 0 2em 0;
+  padding: 0;
+}
+.team-grid-pi {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5em;
+  justify-items: center;
+  margin: 1.2em 0 2em 0;
+  padding: 0;
 }
 .team-section-title {
-  font-size: 1.25em;
+  font-size: 1.2em;
   font-weight: 700;
-  margin: 2em 0 1em 0;
-  color: #1a1a1a;
+  margin: 2em 0 0.5em 0;
+  padding-bottom: 0.4em;
+  color: var(--primary, #0795d9);
   letter-spacing: 0.01em;
   text-align: center;
+  border-bottom: 2px solid var(--primary, #0795d9);
 }
 .portrait-wrapper {
-  width: 240px;
+  width: 160px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -45,45 +56,82 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
   flex-direction: column;
   align-items: center;
   background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
-  padding: 1.2em 1.5em;
-  transition: box-shadow 0.2s;
-  min-width: 200px;
-  max-width: 240px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+  padding: 0.8em 0.6em;
+  transition: box-shadow 0.2s, transform 0.2s;
+  min-width: 140px;
+  max-width: 170px;
+  text-decoration: none !important;
+}
+.portrait:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+  transform: translateY(-2px);
 }
 .portrait-image {
-  width: 110px;
-  height: 110px;
+  width: 90px;
+  height: 90px;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 1em;
-  border: 3px solid #eaeaea;
+  margin-bottom: 0.6em;
+  border: 2.5px solid var(--primary, #0795d9);
 }
 .portrait-name {
-  font-size: 1.08em;
-  font-weight: 700;
+  font-size: 0.95em;
+  font-weight: 600;
   color: #222;
+  text-align: center;
+  line-height: 1.3;
+  margin-bottom: 0.2em;
 }
 .display_1 {
-  font-size: 0.98em;
+  font-size: 0.8em;
   color: #666;
-  margin-bottom: 0.5em;
-  text-align: left;
+  text-align: center;
   width: 100%;
   display: block;
+  line-height: 1.3;
+  margin-bottom: 0.15em;
+}
+.display_2 {
+  font-size: 0.78em;
+  color: #999;
+  text-align: center;
+  width: 100%;
+  display: block;
+  line-height: 1.3;
 }
 .portrait-desc {
-  margin-top: 0.8em;
-  text-align: left;
+  margin-top: 0.4em;
+  text-align: center;
   width: 100%;
-  font-size: 0.97em;
-  color: #444;
+  font-size: 0.82em;
+  color: #555;
+  line-height: 1.3;
+}
+/* PI cards are slightly larger */
+.team-grid-pi .portrait-wrapper {
+  width: 220px;
+}
+.team-grid-pi .portrait {
+  min-width: 180px;
+  max-width: 220px;
+  padding: 1em 1em;
+}
+.team-grid-pi .portrait-image {
+  width: 120px;
+  height: 120px;
+}
+.team-grid-pi .portrait-name {
+  font-size: 1.05em;
+}
+.team-grid-pi .display_1 {
+  font-size: 0.88em;
 }
 </style>
 
 <div class="team-section-title">Faculty (Principal Investigator)</div>
-<div class="team-grid">
+<div class="team-grid-pi">
   {% include list_pi.html data="members" component="portrait_pi" filters="role == 'pi'" %}
 </div>
 
@@ -92,13 +140,13 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
   {% include list_students.html data="members" component="portrait_students" filters="role == 'postdoc'" %}
 </div>
 
-<div class="team-section-title">Ph.D./MPhil Students</div>
+<div class="team-section-title">Ph.D. / MPhil Students</div>
 <div class="team-grid">
   {% include list_students.html data="members" component="portrait_students" filters="role == 'phd'" %}
   {% include list_students.html data="members" component="portrait_students" filters="role == 'ms'" %}
 </div>
 
-<div class="team-section-title">Research/Project Assistant</div>
+<div class="team-section-title">Research / Project Assistant</div>
 <div class="team-grid">
   {% include list_students.html data="members" component="portrait_students" filters="role == 'ra'" %}
 </div>
@@ -108,7 +156,7 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
   {% include list_students.html data="members" component="portrait_students" filters="role == 'under'" %}
 </div>
 
-<div class="team-section-title">Visiting Scholar/Students</div>
+<div class="team-section-title">Visiting Scholars / Students</div>
 <div class="team-grid">
   {% include list_students.html data="members" component="portrait_students" filters="role == 'visiting'" %}
 </div>

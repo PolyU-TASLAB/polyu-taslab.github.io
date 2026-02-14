@@ -18,15 +18,10 @@
     data-style="{{ include.style }}"
     aria-label="{{ member.name | default: "member link" }}"
   >
-    {% if type %}
-      {% include icon.html icon=type.icon %}
-    {% endif %}
-
     <img
       src="{{ member.image | relative_url }}"
       class="portrait-image"
       alt="member portrait"
-      
       {% include fallback.html %}
     >
 
@@ -38,19 +33,13 @@
 
     {% if member.display_1 %}
       <span class="display_1">
-        {{member.display_1}}
+        {{ member.display_1 }}
       </span>
     {% endif %}
 
     {% if member.display_2 %}
       <span class="display_2">
-        {{member.display_2}}
-      </span>
-    {% endif %}
-
-    {% if member.display_3 %}
-      <span class="display_3">
-        {{member.display_3}}
+        {{ member.display_2 }}
       </span>
     {% endif %}
   </a>
