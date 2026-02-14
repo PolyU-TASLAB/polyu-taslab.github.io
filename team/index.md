@@ -103,38 +103,48 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
 }
 </style>
 
-<div class="team-section-title">Faculty (Principal Investigator)</div>
+{% assign pi_members = site.members | where: "role", "pi" %}
+{% assign postdoc_members = site.members | where: "role", "postdoc" %}
+{% assign phd_members = site.members | where: "role", "phd" %}
+{% assign ms_members = site.members | where: "role", "ms" %}
+{% assign phd_ms_count = phd_members.size | plus: ms_members.size %}
+{% assign ra_members = site.members | where: "role", "ra" %}
+{% assign under_members = site.members | where: "role", "under" %}
+{% assign visiting_members = site.members | where: "role", "visiting" %}
+{% assign alumni_members = site.members | where: "role", "alumni" %}
+
+<div class="team-section-title">Faculty / Principal Investigator ({{ pi_members.size }})</div>
 <div class="team-grid">
   {% include list_students.html data="members" component="portrait_students" filters="role == 'pi'" %}
 </div>
 
-<div class="team-section-title">Postdoctoral Fellows</div>
+<div class="team-section-title">Postdoctoral Fellows ({{ postdoc_members.size }})</div>
 <div class="team-grid">
   {% include list_students.html data="members" component="portrait_students" filters="role == 'postdoc'" %}
 </div>
 
-<div class="team-section-title">Ph.D. / MPhil Students</div>
+<div class="team-section-title">Ph.D. / MPhil Students ({{ phd_ms_count }})</div>
 <div class="team-grid">
   {% include list_students.html data="members" component="portrait_students" filters="role == 'phd'" %}
   {% include list_students.html data="members" component="portrait_students" filters="role == 'ms'" %}
 </div>
 
-<div class="team-section-title">Research / Project Assistant</div>
+<div class="team-section-title">Research / Project Assistant ({{ ra_members.size }})</div>
 <div class="team-grid">
   {% include list_students.html data="members" component="portrait_students" filters="role == 'ra'" %}
 </div>
 
-<div class="team-section-title">Undergraduate Students</div>
+<div class="team-section-title">Undergraduate Students ({{ under_members.size }})</div>
 <div class="team-grid">
   {% include list_students.html data="members" component="portrait_students" filters="role == 'under'" %}
 </div>
 
-<div class="team-section-title">Visiting Scholars / Students</div>
+<div class="team-section-title">Visiting Scholars / Students ({{ visiting_members.size }})</div>
 <div class="team-grid">
   {% include list_students.html data="members" component="portrait_students" filters="role == 'visiting'" %}
 </div>
 
-<div class="team-section-title">Alumni</div>
+<div class="team-section-title">Alumni ({{ alumni_members.size }})</div>
 <div class="team-grid">
   {% include list_students.html data="members" component="portrait_students" filters="role == 'alumni'" %}
 </div>
