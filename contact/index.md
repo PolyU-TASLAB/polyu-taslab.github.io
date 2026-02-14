@@ -9,52 +9,38 @@ nav:
 
 ### Openings
 
-We regularly have multiple openings for Postdoc/PhD/MPhil/RA/Internships (all year round) to work on research related to **AI-driven trustworthy autonomous systems**, with a focus on **end-to-end autonomous UAVs** and **end-to-end self-driving cars**. If you are a PolyU student (Undergraduate and MSc students seeking URIS or dissertation supervision) interested in working with me, feel free to drop me an email at **welson.wen@polyu.edu.hk** (together with your transcript and brief introduction) or walk into my office at **room R820**!
+We regularly have multiple openings for **Postdoc/PhD/MPhil/RA/Internships** (all year round) to work on research related to **AI-driven trustworthy autonomous systems**, with a focus on **end-to-end autonomous UAVs** and **end-to-end self-driving cars**. If you are a PolyU student (Undergraduate and MSc students seeking URIS or dissertation supervision) interested in working with me, feel free to drop me an email at **welson.wen@polyu.edu.hk** (together with your transcript and brief introduction) or walk into my office at **room R820**!
 
 ---
 
-#### Postdoc/RA Positions (Regular Quotas)
+#### Postdoc/PhD/MPhil/RA Research Directions
 
-**Research areas include:**
-- Large AI models for autonomous systems
-- Foundation models for robotics
-- End-to-end learning for UAVs and self-driving cars
-- AI-enabled perception and control
-- Multimodal sensor fusion (LiDAR/Camera/IMU/GNSS)
-- Trustworthy AI for navigation and control
-- Vision-language models for drone perception
-- Deep reinforcement learning for UAV navigation
-- Semantic-aided positioning
-- Hardware-software co-design for next-generation navigation chips
-- Urban GNSS positioning (RTK, PPP, PPP-RTK)
-- Multi-agent collaborative positioning and control
-- Safety-certified AI systems
+- Embodied AI and foundation models for robotics (drones, autonomous vehicles, ground robots)
+- High-precision positioning with multi-sensor fusion (LiDAR/Camera/IMU/GNSS) and integrity monitoring
+- End-to-end learning for self-driving cars and autonomous UAVs
+- Trustworthy and safety-certifiable AI for navigation and control
+- Software-hardware co-design for efficient embodied AI systems
+- Vision-language-action models and multimodal learning for autonomous systems
 
-**Application requirements:**
-For those interested, please send us your CV, representative publications list, and research statement/proposal to **welson.wen@polyu.edu.hk**. (We will reply to you within one week if you are shortlisted for an interview).
-
-**For any candidate, you MUST have at least one of the following:**
-1. A strong publication record in top-tier AI/robotics venues (e.g., NeurIPS, ICML, ICRA, IROS, CoRL, CVPR, ICCV); OR
-2. Strong capabilities in coding (proficient in C++ and/or Python, experience with PyTorch/TensorFlow/ROS); OR
-3. Strong capabilities in preparing competitive research proposals and securing funding.
+For more specific topics, please refer to our [TAS Lab website](https://polyu-taslab.github.io/) and [project page](https://polyu-taslab.github.io/projects/).
 
 ---
 
-#### PhD/MPhil Topics (Regular Quotas)
+#### Application Requirements
 
-**Core research themes:**
-- End-to-end learning for autonomous UAVs and self-driving cars
-- Safety-certifiable AI for perception, positioning, and control
-- Foundation models and large vision-language models for robotics
-- Multimodal learning for autonomous systems
-- AI-driven multi-sensor fusion and navigation
-- Deep reinforcement learning for UAV swarm coordination
-- Trustworthy AI for safety-critical applications
+For those interested, please send the following materials to **welson.wen@polyu.edu.hk**:
 
-For more specific topics we are working on, please refer to our [TAS Lab website](https://polyu-taslab.github.io/) and [project page](https://polyu-taslab.github.io/projects/).
+1. **CV** (with education background, publications, awards, and coding experience)
+2. **Representative publications list** (if any)
+3. **A detailed research proposal** (~6 pages) including abstract, background and literature review, research objectives, proposed methodology, expected outcomes, timeline, and references.
 
-**Application requirements:**
-For those interested, please send us your CV, representative publications list (if any), and a brief research proposal/statement of research interests to **welson.wen@polyu.edu.hk**. (We will reply to you within one week if you are shortlisted for an interview).
+We will reply to you within one week if you are shortlisted for an interview.
+
+**For any candidate, you MUST have at least two of the following:**
+
+1. A strong publication record in top-tier AI/robotics venues (e.g., NeurIPS, ICML, ICRA, IROS, CoRL, CVPR, ICCV);
+2. Strong capabilities in coding (proficient in C++ and/or Python, experience with PyTorch/TensorFlow/ROS);
+3. Awards or demonstrated excellence in robotics competitions (e.g., RoboMaster, ICRA competitions) are strongly preferred for PhD/MPhil applicants.
 
 ---
 
@@ -67,7 +53,6 @@ For those interested, please send us your CV, representative publications list (
 - Funding support for conference travel and research equipment
 
 **Application materials:** CV + Publications/Coding portfolio + Research statement → **welson.wen@polyu.edu.hk**
-
 
 {%
   include button.html
@@ -115,19 +100,3 @@ For those interested, please send us your CV, representative publications list (
 {% include section.html %}
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=7a0000&w=800&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=ffffff&cmo=288928&cmn=3acc3a&ct=000000'></script>
-
-{% capture col1 %}
-
-{% endcapture %}
-
-{% capture col2 %}
-
-{% endcapture %}
-
-{% capture col3 %}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
-
-
