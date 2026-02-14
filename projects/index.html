@@ -452,7 +452,7 @@
       
     
       
-        <a href="/projects/" data-tooltip="">
+        <a href="/projects/" data-tooltip="Research projects and demos">
           Projects
         </a>
       
@@ -498,44 +498,7 @@
     <h1 id="projects">
 <i class="icon fa-solid fa-wrench"></i>Projects</h1>
 
-<!-- 
-
-
-  <div
-    class="tags"
-    
-    
-      data-link="/projects/"
-    
-  >
-    
-      <a
-        href="/projects/?search=&quot;tag: publication&quot;"
-        class="tag"
-        data-tooltip="Show items with the tag &quot;publication&quot;"
-      >
-        publication
-      </a>
-    
-      <a
-        href="/projects/?search=&quot;tag: resource&quot;"
-        class="tag"
-        data-tooltip="Show items with the tag &quot;resource&quot;"
-      >
-        resource
-      </a>
-    
-      <a
-        href="/projects/?search=&quot;tag: website&quot;"
-        class="tag"
-        data-tooltip="Show items with the tag &quot;website&quot;"
-      >
-        website
-      </a>
-    
-  </div>
-
- -->
+<p class="center">Our ongoing and completed research projects span autonomous driving, drone systems, GNSS positioning, multi-sensor fusion, and embodied AI for robotics.</p>
   </section>
 
   
@@ -589,6 +552,8 @@
   size: ;
 -->
 
+<h2 id="research-projects">Research Projects</h2>
+
 <div class="search-box">
   <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
   <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
@@ -596,355 +561,9 @@
   </button>
 </div>
 
-<p><button id="toggle-tags" class="toggle-tags-btn">Show/Hide Tags</button></p>
-<div id="tags-section">
-  
-
-
-  <div class="tags" data-link="/projects/">
-    
-      <a href="/projects/?search=%22tag:%20localization%22" class="tag" data-tooltip='Show items with the tag "localization"'>
-        localization
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20mapping%22" class="tag" data-tooltip='Show items with the tag "mapping"'>
-        mapping
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20sensor-fusion%22" class="tag" data-tooltip='Show items with the tag "sensor-fusion"'>
-        sensor-fusion
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20rtk%22" class="tag" data-tooltip='Show items with the tag "rtk"'>
-        rtk
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20gnss%22" class="tag" data-tooltip='Show items with the tag "gnss"'>
-        gnss
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20lidar%22" class="tag" data-tooltip='Show items with the tag "lidar"'>
-        lidar
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20imu%22" class="tag" data-tooltip='Show items with the tag "imu"'>
-        imu
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20virtual-satellites%22" class="tag" data-tooltip='Show items with the tag "virtual-satellites"'>
-        virtual-satellites
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20cycle-slip-detection%22" class="tag" data-tooltip='Show items with the tag "cycle-slip-detection"'>
-        cycle-slip-detection
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20uav%22" class="tag" data-tooltip='Show items with the tag "uav"'>
-        uav
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20artificial%22" class="tag" data-tooltip='Show items with the tag "artificial"'>
-        artificial
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20intelligence%22" class="tag" data-tooltip='Show items with the tag "intelligence"'>
-        intelligence
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20deep%22" class="tag" data-tooltip='Show items with the tag "deep"'>
-        deep
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20learning%22" class="tag" data-tooltip='Show items with the tag "learning"'>
-        learning
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20manufacturing%22" class="tag" data-tooltip='Show items with the tag "manufacturing"'>
-        manufacturing
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20global%22" class="tag" data-tooltip='Show items with the tag "global"'>
-        global
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20navigation%22" class="tag" data-tooltip='Show items with the tag "navigation"'>
-        navigation
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20satellite%22" class="tag" data-tooltip='Show items with the tag "satellite"'>
-        satellite
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20system%22" class="tag" data-tooltip='Show items with the tag "system"'>
-        system
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20real-time%22" class="tag" data-tooltip='Show items with the tag "real-time"'>
-        real-time
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20kinematic%22" class="tag" data-tooltip='Show items with the tag "kinematic"'>
-        kinematic
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20positioning%22" class="tag" data-tooltip='Show items with the tag "positioning"'>
-        positioning
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20factor%22" class="tag" data-tooltip='Show items with the tag "factor"'>
-        factor
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20graph%22" class="tag" data-tooltip='Show items with the tag "graph"'>
-        graph
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20optimization%22" class="tag" data-tooltip='Show items with the tag "optimization"'>
-        optimization
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20multi%E2%80%91epoch%22" class="tag" data-tooltip='Show items with the tag "multi‑epoch"'>
-        multi‑epoch
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20ambiguity%22" class="tag" data-tooltip='Show items with the tag "ambiguity"'>
-        ambiguity
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20resolution%22" class="tag" data-tooltip='Show items with the tag "resolution"'>
-        resolution
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20urban%22" class="tag" data-tooltip='Show items with the tag "urban"'>
-        urban
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20canyons%22" class="tag" data-tooltip='Show items with the tag "canyons"'>
-        canyons
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20unmanned%22" class="tag" data-tooltip='Show items with the tag "unmanned"'>
-        unmanned
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20ground%22" class="tag" data-tooltip='Show items with the tag "ground"'>
-        ground
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20vehicle%22" class="tag" data-tooltip='Show items with the tag "vehicle"'>
-        vehicle
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20aerial%22" class="tag" data-tooltip='Show items with the tag "aerial"'>
-        aerial
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20cooperation%22" class="tag" data-tooltip='Show items with the tag "cooperation"'>
-        cooperation
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20multi-robot-collaboration%22" class="tag" data-tooltip='Show items with the tag "multi-robot-collaboration"'>
-        multi-robot-collaboration
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20mpc%22" class="tag" data-tooltip='Show items with the tag "mpc"'>
-        mpc
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20leader-follower-formation-algorithm%22" class="tag" data-tooltip='Show items with the tag "leader-follower-formation-algorithm"'>
-        leader-follower-formation-algorithm
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20nlos/multipath%22" class="tag" data-tooltip='Show items with the tag "nlos/multipath"'>
-        nlos/multipath
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20correction%22" class="tag" data-tooltip='Show items with the tag "correction"'>
-        correction
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20autonomous%22" class="tag" data-tooltip='Show items with the tag "autonomous"'>
-        autonomous
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20driving%22" class="tag" data-tooltip='Show items with the tag "driving"'>
-        driving
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20positional%22" class="tag" data-tooltip='Show items with the tag "positional"'>
-        positional
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20encoding%22" class="tag" data-tooltip='Show items with the tag "encoding"'>
-        encoding
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20multimodal%22" class="tag" data-tooltip='Show items with the tag "multimodal"'>
-        multimodal
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20network%22" class="tag" data-tooltip='Show items with the tag "network"'>
-        network
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20vision%22" class="tag" data-tooltip='Show items with the tag "vision"'>
-        vision
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20feature%22" class="tag" data-tooltip='Show items with the tag "feature"'>
-        feature
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20sensor%22" class="tag" data-tooltip='Show items with the tag "sensor"'>
-        sensor
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20fusion%22" class="tag" data-tooltip='Show items with the tag "fusion"'>
-        fusion
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20services%22" class="tag" data-tooltip='Show items with the tag "services"'>
-        services
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20multi-vehicle%22" class="tag" data-tooltip='Show items with the tag "multi-vehicle"'>
-        multi-vehicle
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20collaborative%22" class="tag" data-tooltip='Show items with the tag "collaborative"'>
-        collaborative
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20sensing%22" class="tag" data-tooltip='Show items with the tag "sensing"'>
-        sensing
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20ai%22" class="tag" data-tooltip='Show items with the tag "ai"'>
-        ai
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20aided%22" class="tag" data-tooltip='Show items with the tag "aided"'>
-        aided
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20signal%22" class="tag" data-tooltip='Show items with the tag "signal"'>
-        signal
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20tracing%22" class="tag" data-tooltip='Show items with the tag "tracing"'>
-        tracing
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20integration%22" class="tag" data-tooltip='Show items with the tag "integration"'>
-        integration
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20advanced%22" class="tag" data-tooltip='Show items with the tag "advanced"'>
-        advanced
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20safety%22" class="tag" data-tooltip='Show items with the tag "safety"'>
-        safety
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20systems%22" class="tag" data-tooltip='Show items with the tag "systems"'>
-        systems
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20automated%22" class="tag" data-tooltip='Show items with the tag "automated"'>
-        automated
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20operation%22" class="tag" data-tooltip='Show items with the tag "operation"'>
-        operation
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20motion%22" class="tag" data-tooltip='Show items with the tag "motion"'>
-        motion
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20planning%22" class="tag" data-tooltip='Show items with the tag "planning"'>
-        planning
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20marine%22" class="tag" data-tooltip='Show items with the tag "marine"'>
-        marine
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20and%22" class="tag" data-tooltip='Show items with the tag "and"'>
-        and
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20surface%22" class="tag" data-tooltip='Show items with the tag "surface"'>
-        surface
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20intelligent%22" class="tag" data-tooltip='Show items with the tag "intelligent"'>
-        intelligent
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20vehicles%22" class="tag" data-tooltip='Show items with the tag "vehicles"'>
-        vehicles
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20inertial%22" class="tag" data-tooltip='Show items with the tag "inertial"'>
-        inertial
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20landing%22" class="tag" data-tooltip='Show items with the tag "landing"'>
-        landing
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20perching%22" class="tag" data-tooltip='Show items with the tag "perching"'>
-        perching
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20airport%22" class="tag" data-tooltip='Show items with the tag "airport"'>
-        airport
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20autonomous-driving%22" class="tag" data-tooltip='Show items with the tag "autonomous-driving"'>
-        autonomous-driving
-      </a>
-    
-  </div>
-
-
-</div>
-<style>
-.toggle-tags-btn {
-  margin-bottom: 14px;
-  padding: 8px 20px;
-  border-radius: 8px;
-  border: 1.5px solid #bdbdbd;
-  background: #f5f5f5;
-  color: #1a73e8;
-  font-size: 1.08rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.2s, border-color 0.2s;
-}
-.toggle-tags-btn:hover {
-  background: var(--light-gray, #eaeaea);
-  border-color: #1a73e8;
-  color: #1a73e8;
-}
-</style>
-
-<script>
-document.getElementById('toggle-tags').onclick = function() {
-  var tags = document.getElementById('tags-section');
-  if (tags.style.display === 'none') {
-    tags.style.display = 'block';
-  } else {
-    tags.style.display = 'none';
-  }
-};
-</script>
-
 <div class="search-info"></div>
 
-<h3 id="2025">2025</h3>
+<h3 id="2025">2025 (2)</h3>
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
@@ -1086,7 +705,7 @@ document.getElementById('toggle-tags').onclick = function() {
   </div>
 </div>
 
-<h3 id="2024">2024</h3>
+<h3 id="2024">2024 (7)</h3>
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
@@ -1702,7 +1321,7 @@ document.getElementById('toggle-tags').onclick = function() {
   </div>
 </div>
 
-<h3 id="2023">2023</h3>
+<h3 id="2023">2023 (6)</h3>
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
@@ -2192,7 +1811,7 @@ document.getElementById('toggle-tags').onclick = function() {
   </div>
 </div>
 
-<h3 id="2022">2022</h3>
+<h3 id="2022">2022 (1)</h3>
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
@@ -2280,7 +1899,7 @@ document.getElementById('toggle-tags').onclick = function() {
   </div>
 </div>
 
-<h3 id="2021">2021</h3>
+<h3 id="2021">2021 (1)</h3>
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
