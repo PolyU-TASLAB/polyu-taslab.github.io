@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Publications
 
-More on [**Google Scholar**](https://scholar.google.com/citations?user=N-AFqt8AAAAJ&hl=en){:target="_blank"}
+More on [**Google Scholar**](https://scholar.google.com/citations?user=N-AFqt8AAAAJ&hl=en){:target="_blank"} \| *: Corresponding author
 {:.center}
 
 {% include section.html %}
