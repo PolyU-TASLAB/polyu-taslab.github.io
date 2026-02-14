@@ -101,6 +101,25 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
   color: #555;
   line-height: 1.3;
 }
+.portrait-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  margin-top: 0.4em;
+  padding-top: 0.3em;
+  border-top: 1px solid #eee;
+  width: 100%;
+}
+.portrait-link-icon {
+  color: #888;
+  font-size: 0.85em;
+  text-decoration: none !important;
+  transition: color 0.2s;
+  padding: 2px;
+}
+.portrait-link-icon:hover {
+  color: var(--primary, #0795d9);
+}
 </style>
 
 {% assign pi_members = site.members | where: "role", "pi" %}

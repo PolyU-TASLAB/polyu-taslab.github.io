@@ -10,37 +10,85 @@
 {% assign type = site.data.types[member.role] %}
 
 <div class="portrait-wrapper">
-  <a
-    {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url }}"
-    {% endif %}
-    class="portrait"
-    data-style="{{ include.style }}"
-    aria-label="{{ member.name | default: "member link" }}"
-  >
-    <img
-      src="{{ member.image | relative_url }}"
-      class="portrait-image"
-      alt="member portrait"
-      {% include fallback.html %}
+  <div class="portrait" data-style="{{ include.style }}">
+    <a
+      {% if page.slug != member.slug %}
+        href="{{ member.url | relative_url }}"
+      {% endif %}
+      style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;"
+      aria-label="{{ member.name | default: 'member link' }}"
     >
+      <img
+        src="{{ member.image | relative_url }}"
+        class="portrait-image"
+        alt="member portrait"
+        {% include fallback.html %}
+      >
 
-    {% if member.name %}
-      <span class="portrait-name">
-        {{ member.name }}
-      </span>
+      {% if member.name %}
+        <span class="portrait-name">
+          {{ member.name }}
+        </span>
+      {% endif %}
+
+      {% if member.display_1 %}
+        <span class="display_1">
+          {{ member.display_1 }}
+        </span>
+      {% endif %}
+
+      {% if member.display_2 %}
+        <span class="display_2">
+          {{ member.display_2 }}
+        </span>
+      {% endif %}
+    </a>
+
+    {% assign has_links = false %}
+    {% if member.links.home-page and member.links.home-page != "" and member.links.home-page != "/" %}
+      {% assign has_links = true %}
+    {% endif %}
+    {% if member.links.email and member.links.email != "" %}
+      {% assign has_links = true %}
+    {% endif %}
+    {% if member.links.google-scholar and member.links.google-scholar != "" and member.links.google-scholar != "/" %}
+      {% assign has_links = true %}
+    {% endif %}
+    {% if member.links.github and member.links.github != "" and member.links.github != "/" %}
+      {% assign has_links = true %}
     {% endif %}
 
-    {% if member.display_1 %}
-      <span class="display_1">
-        {{ member.display_1 }}
-      </span>
+    {% if has_links %}
+      <div class="portrait-links">
+        {% if member.links.home-page and member.links.home-page != "" and member.links.home-page != "/" %}
+          <a href="{{ member.links.home-page }}" target="_blank" rel="noopener" title="Homepage" class="portrait-link-icon">
+            <i class="fas fa-home"></i>
+          </a>
+        {% endif %}
+        {% if member.links.email and member.links.email != "" %}
+          <a href="mailto:{{ member.links.email }}" title="Email" class="portrait-link-icon">
+            <i class="fas fa-envelope"></i>
+          </a>
+        {% endif %}
+        {% if member.links.google-scholar and member.links.google-scholar != "" and member.links.google-scholar != "/" %}
+          {% assign scholar_url = member.links.google-scholar %}
+          {% unless scholar_url contains "http" %}
+            {% assign scholar_url = "https://scholar.google.com/citations?user=" | append: scholar_url %}
+          {% endunless %}
+          <a href="{{ scholar_url }}" target="_blank" rel="noopener" title="Google Scholar" class="portrait-link-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </a>
+        {% endif %}
+        {% if member.links.github and member.links.github != "" and member.links.github != "/" %}
+          {% assign github_url = member.links.github %}
+          {% unless github_url contains "http" %}
+            {% assign github_url = "https://github.com/" | append: github_url %}
+          {% endunless %}
+          <a href="{{ github_url }}" target="_blank" rel="noopener" title="GitHub" class="portrait-link-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        {% endif %}
+      </div>
     {% endif %}
-
-    {% if member.display_2 %}
-      <span class="display_2">
-        {{ member.display_2 }}
-      </span>
-    {% endif %}
-  </a>
+  </div>
 </div>
