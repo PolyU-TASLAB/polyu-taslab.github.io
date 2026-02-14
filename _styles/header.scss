@@ -99,13 +99,16 @@ nav {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
   font-family: var(--heading);
+  font-size: 0.88rem;
+  font-weight: var(--semi-bold);
   text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 nav > a {
-  padding: 5px;
+  padding: 4px 6px;
 }
 
 nav > a:hover {

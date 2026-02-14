@@ -5,7 +5,7 @@ nav:
   tooltip: Research projects and demos
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-diagram-project" %}Projects
 
 Our ongoing and completed research projects span autonomous driving, drone systems, GNSS positioning, multi-sensor fusion, and embodied AI for robotics.
 {:.center}

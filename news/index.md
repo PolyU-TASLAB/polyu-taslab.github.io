@@ -1,11 +1,11 @@
 ---
-title: Events & News
+title: News
 nav:
   order: 1
-  tooltip: Recent News
+  tooltip: Events and news
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Events & News
+# {% include icon.html icon="fa-solid fa-newspaper" %}News
 
 <!-- TODO: Add content here. -->
 

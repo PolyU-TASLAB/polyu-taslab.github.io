@@ -5,7 +5,7 @@ nav:
   tooltip: About our team
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Team
+# {% include icon.html icon="fa-solid fa-users" %}Team
 
 <div style="text-align: center; margin-bottom: 15px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/team/team.png" alt="Team Banner" 

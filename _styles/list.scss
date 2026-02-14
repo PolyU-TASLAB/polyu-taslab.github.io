@@ -3,8 +3,8 @@
 
 ul,
 ol {
-  margin: 8px 0;
-  padding-left: 28px;
+  margin: 6px 0;
+  padding-left: 24px;
 }
 
 ul {
@@ -12,10 +12,11 @@ ul {
 }
 
 li {
-  margin: 3px 0;
-  padding-left: 6px;
+  margin: 2px 0;
+  padding-left: 4px;
   text-align: justify;
   line-height: var(--spacing);
+  font-size: 0.95rem;
 
   ul,
   ol {
