@@ -7,9 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Team
 
-<div style="text-align: center; margin-bottom: 20px;">
+<div style="text-align: center; margin-bottom: 15px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/team/team.png" alt="Team Banner" 
-       style="width: 70%; height: auto; object-fit: cover; max-width: 600px; margin: 0 auto; border-radius: 15px;">
+       style="width: 40%; height: auto; object-fit: cover; max-width: 350px; margin: 0 auto; border-radius: 12px;">
 </div>
 
 Our lab is made up of a highly engaged and collaborative team of researchers. We recognize that diverse teams do better research. We foster an environment where team members are treated equally, and where we respect and admire our differences. The team includes postdocs, students at all levels, staff, and our lab mascots.
@@ -19,22 +19,14 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
 <style>
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 1.2em;
+  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+  gap: 1em;
   justify-items: center;
-  margin: 1.2em 0 2em 0;
-  padding: 0;
-}
-.team-grid-pi {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1.5em;
-  justify-items: center;
-  margin: 1.2em 0 2em 0;
+  margin: 1em 0 2em 0;
   padding: 0;
 }
 .team-section-title {
-  font-size: 1.2em;
+  font-size: 1.15em;
   font-weight: 700;
   margin: 2em 0 0.5em 0;
   padding-bottom: 0.4em;
@@ -44,7 +36,7 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
   border-bottom: 2px solid var(--primary, #0795d9);
 }
 .portrait-wrapper {
-  width: 160px;
+  width: 155px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -58,10 +50,10 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 1px 6px rgba(0,0,0,0.06);
-  padding: 0.8em 0.6em;
+  padding: 0.8em 0.5em;
   transition: box-shadow 0.2s, transform 0.2s;
-  min-width: 140px;
-  max-width: 170px;
+  min-width: 135px;
+  max-width: 165px;
   text-decoration: none !important;
 }
 .portrait:hover {
@@ -69,15 +61,15 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
   transform: translateY(-2px);
 }
 .portrait-image {
-  width: 90px;
-  height: 90px;
+  width: 88px;
+  height: 88px;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 0.6em;
+  margin-bottom: 0.5em;
   border: 2.5px solid var(--primary, #0795d9);
 }
 .portrait-name {
-  font-size: 0.95em;
+  font-size: 0.92em;
   font-weight: 600;
   color: #222;
   text-align: center;
@@ -85,16 +77,16 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
   margin-bottom: 0.2em;
 }
 .display_1 {
-  font-size: 0.8em;
+  font-size: 0.78em;
   color: #666;
   text-align: center;
   width: 100%;
   display: block;
   line-height: 1.3;
-  margin-bottom: 0.15em;
+  margin-bottom: 0.1em;
 }
 .display_2 {
-  font-size: 0.78em;
+  font-size: 0.75em;
   color: #999;
   text-align: center;
   width: 100%;
@@ -102,37 +94,18 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
   line-height: 1.3;
 }
 .portrait-desc {
-  margin-top: 0.4em;
+  margin-top: 0.3em;
   text-align: center;
   width: 100%;
-  font-size: 0.82em;
+  font-size: 0.78em;
   color: #555;
   line-height: 1.3;
-}
-/* PI cards are slightly larger */
-.team-grid-pi .portrait-wrapper {
-  width: 220px;
-}
-.team-grid-pi .portrait {
-  min-width: 180px;
-  max-width: 220px;
-  padding: 1em 1em;
-}
-.team-grid-pi .portrait-image {
-  width: 120px;
-  height: 120px;
-}
-.team-grid-pi .portrait-name {
-  font-size: 1.05em;
-}
-.team-grid-pi .display_1 {
-  font-size: 0.88em;
 }
 </style>
 
 <div class="team-section-title">Faculty (Principal Investigator)</div>
-<div class="team-grid-pi">
-  {% include list_pi.html data="members" component="portrait_pi" filters="role == 'pi'" %}
+<div class="team-grid">
+  {% include list_students.html data="members" component="portrait_students" filters="role == 'pi'" %}
 </div>
 
 <div class="team-section-title">Postdoctoral Fellows</div>
