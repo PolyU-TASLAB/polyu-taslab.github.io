@@ -2,19 +2,17 @@
 title: Opensource
 nav:
   order: 5
-  tooltip: Datset and code sharing
+  tooltip: Dataset and code sharing
 ---
 
 # {% include icon.html icon="fa-solid fa-code" %}Dataset and Code
 
-<!-- Add content here.  -->
-
+We are committed to open science and reproducible research. Below are the open-source tools, software packages, and datasets developed by TAS Lab. All repositories are publicly available on [**GitHub**](https://github.com/PolyU-TASLAB){:target="_blank"}.
+{:.center}
 
 {% include section.html %}
 
 {% include search-box.html %}
-
-<!-- {% include tags.html tags=site.tags %} -->
 
 {% include search-info.html %}
 

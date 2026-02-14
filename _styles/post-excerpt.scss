@@ -1,7 +1,7 @@
 ---
 ---
 
-$thumb-size: 200px;
+$thumb-size: 160px;
 $wrap: 800px;
 
 .post-excerpt-container {
@@ -10,18 +10,24 @@ $wrap: 800px;
 
 .post-excerpt {
   display: flex;
-  margin: 20px 0;
-  border-radius: var(--rounded);
+  margin: 12px 0;
+  border-radius: 6px;
   background: var(--background);
   overflow: hidden;
-  box-shadow: var(--shadow);
+  border-left: 3px solid var(--primary);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+
+.post-excerpt:hover {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
+  transform: translateY(-1px);
 }
 
 .post-excerpt-image {
   position: relative;
   width: $thumb-size;
   flex-shrink: 0;
-  // box-shadow: var(--shadow);
 }
 
 .post-excerpt-image img {
@@ -35,8 +41,8 @@ $wrap: 800px;
 .post-excerpt-text {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px 30px;
+  gap: 6px;
+  padding: 14px 20px;
   text-align: left;
 }
 
@@ -46,15 +52,27 @@ $wrap: 800px;
 
 .post-excerpt-text > a:first-child {
   width: 100%;
-  font-weight: var(--semi-bold);
+  font-weight: 600;
+  font-size: 1.05em;
+  color: var(--primary);
+  line-height: 1.4;
+}
+
+.post-excerpt-text > a:first-child:hover {
+  text-decoration: underline;
 }
 
 .post-excerpt-text > div {
   justify-content: flex-start;
+  font-size: 0.85em;
+  color: #777;
 }
 
 .post-excerpt-text > p {
   width: 100%;
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: #444;
 }
 
 @container (max-width: #{$wrap}) {
