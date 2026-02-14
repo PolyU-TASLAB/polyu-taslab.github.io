@@ -1,10 +1,10 @@
 section {
-  padding: 40px max(40px, (100% - 1000px) / 2);
+  padding: 30px max(30px, (100% - 1000px) / 2);
   transition: background var(--transition), color var(--transition);
 }
 
 section[data-size=wide] {
-  padding: 40px;
+  padding: 30px;
 }
 
 section[data-size=full] {

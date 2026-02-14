@@ -1,7 +1,7 @@
 ul,
 ol {
-  margin: 20px 0;
-  padding-left: 40px;
+  margin: 8px 0;
+  padding-left: 28px;
 }
 
 ul {
@@ -9,8 +9,8 @@ ul {
 }
 
 li {
-  margin: 5px 0;
-  padding-left: 10px;
+  margin: 3px 0;
+  padding-left: 6px;
   text-align: justify;
   line-height: var(--spacing);
 }
