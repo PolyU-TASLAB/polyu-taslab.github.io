@@ -4,6 +4,7 @@ title: Our Autonomous Platforms
 # author: Zhang Ziqi
 image: images/project/Vehicle/ADV.png
 tags: Autonomous-Driving
+research_direction: vehicles
 order: 
 ---
 

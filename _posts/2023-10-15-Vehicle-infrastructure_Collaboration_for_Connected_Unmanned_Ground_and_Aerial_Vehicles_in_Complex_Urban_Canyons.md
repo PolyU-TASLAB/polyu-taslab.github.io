@@ -4,6 +4,7 @@ subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
 image: 
 tags: Unmanned Ground Vehicle, Unmanned Aerial Vehicle, Cooperation, urban canyons
+research_direction: vehicles
 order: 
 ---
 

@@ -4,6 +4,7 @@ subtitle: AI-aided Navigation
 # author: XNG
 image: images/project/Data_driven_structure.png
 tags: GNSS Positioning, NLOS/Multipath Correction, Autonomous Driving, Positional Encoding, Multimodal Network, Vision Feature
+research_direction: gnss
 order: 
 ---
 ## Abstract

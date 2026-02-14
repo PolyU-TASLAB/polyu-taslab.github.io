@@ -4,6 +4,7 @@ subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
 image: images/project/stf/demo_gif.gif
 tags: Positioning Services, Multi-Vehicle Collaborative Sensing, AI aided GNSS, GNSS Signal Tracing, Sensor Integration
+research_direction: fusion
 order: 
 ---
 ## Abstract

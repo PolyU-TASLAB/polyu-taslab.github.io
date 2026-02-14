@@ -5,6 +5,7 @@ subtitle: A Factor Graph Optimization-Based Multiple‑epoch Ambiguity Resolutio
 # author: XNG
 image: images/project/Vision_aided_GNSS_RTK/framework.png
 tags: Global navigation satellite system, Real-time kinematic positioning, Factor graph optimization, Multi‑epoch ambiguity resolution, Urban canyons
+research_direction: gnss
 order: 
 ---
 ## Abstract

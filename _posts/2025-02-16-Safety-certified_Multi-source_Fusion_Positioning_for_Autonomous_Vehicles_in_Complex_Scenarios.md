@@ -3,7 +3,8 @@ title: Safety-certified Multi-source Fusion Positioning for Autonomous Vehicles 
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
 image: 
-tags:   Localization, Sensor fusion, Safety, Autonomous Vehicle
+tags: Localization, Sensor fusion, Safety, Autonomous Vehicle
+research_direction: fusion
 order: 
 ---
 

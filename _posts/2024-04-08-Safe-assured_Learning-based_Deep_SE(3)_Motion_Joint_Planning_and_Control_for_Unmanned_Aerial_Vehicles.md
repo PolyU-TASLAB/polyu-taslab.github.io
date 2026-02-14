@@ -3,7 +3,8 @@ title: Safe-assured Learning-based Deep SE(3) Motion Joint Planning and Control 
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
 image: 
-tags:   Advanced Vehicle Safety Systems, Automated Vehicle Operation, Motion Planning, Navigation, Aerial, Marine and Surface Intelligent Vehicles
+tags: Advanced Vehicle Safety Systems, Automated Vehicle Operation, Motion Planning, Navigation, Aerial, Marine and Surface Intelligent Vehicles
+research_direction: drones
 order: 
 ---
 

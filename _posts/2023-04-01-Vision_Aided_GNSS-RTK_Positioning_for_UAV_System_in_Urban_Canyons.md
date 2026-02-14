@@ -4,6 +4,7 @@ subtitle: Fisheye Camera Aided GNSS NLOS Detection and Learning-based Pseudorang
 # author: XNG
 image: images/project/Vision_aided_GNSS_RTK/framework.png
 tags: Artificial intelligence, Deep learning, GNSS
+research_direction: gnss
 order: 
 ---
 ## Abstract

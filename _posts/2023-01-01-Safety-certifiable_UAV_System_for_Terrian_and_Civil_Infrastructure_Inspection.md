@@ -4,6 +4,7 @@ subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
 image: 
 tags: Localization, UAV
+research_direction: drones
 order: 
 ---
 

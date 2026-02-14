@@ -4,6 +4,7 @@ subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
 image: images/project/huawei_mapping.gif
 tags: Localization, mapping, sensor-fusion, RTK, GNSS, LiDAR, IMU, Virtual-satellites, Cycle-slip-detection
+research_direction: gnss
 order: 
 --- 
 

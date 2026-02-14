@@ -4,6 +4,7 @@ subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
 image: images/project/GDSTC/fgo.png
 tags: Localization, mapping, sensor-fusion, RTK, GNSS, LiDAR, IMU
+research_direction: gnss
 order: 
 ---
 ## Abstract

@@ -3,7 +3,8 @@ title: AI assisted inertial navigation system
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
 image: images/project/Honor.png
-tags:  Inertial Navigation System, AI
+tags: Inertial Navigation System, AI
+research_direction: fusion
 order: 
 ---
 

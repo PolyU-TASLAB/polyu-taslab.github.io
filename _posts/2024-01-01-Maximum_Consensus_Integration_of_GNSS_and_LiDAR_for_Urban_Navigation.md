@@ -3,7 +3,8 @@ title: Maximum Consensus Integration of GNSS and LiDAR for Urban Navigation
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
 image: 
-tags:  GNSS, LIDAR, Sensor fusion
+tags: GNSS, LIDAR, Sensor fusion
+research_direction: gnss
 order: 
 ---
 

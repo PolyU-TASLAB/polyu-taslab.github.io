@@ -22,7 +22,7 @@ We regularly have multiple openings for <b class="blue">Postdoc/PhD/MPhil/RA/Int
 - <b class="blue">Software-hardware co-design</b> for efficient embodied AI systems
 - <b class="blue">Vision-language-action models</b> and multimodal learning for autonomous systems
 
-For more specific topics, please refer to our [TAS Lab website](https://polyu-taslab.github.io/) and [project page](https://polyu-taslab.github.io/projects/).
+For more specific topics, please refer to our [TAS Lab website](https://polyu-taslab.github.io/) and [research page](https://polyu-taslab.github.io/projects/).
 
 ---
 
@@ -97,6 +97,3 @@ We will reply to you within one week if you are shortlisted for an interview.
 
 {% include cols.html col1=col1 col2=col2 %}
 
-{% include section.html %}
-
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=7a0000&w=800&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=ffffff&cmo=288928&cmn=3acc3a&ct=000000'></script>

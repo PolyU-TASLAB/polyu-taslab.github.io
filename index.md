@@ -128,7 +128,7 @@ Our research aims to build algorithm foundations for <b class="blue">embodied AI
 {%
   include button.html
   link="projects"
-  text="Browse our projects"
+  text="Browse our research"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -139,7 +139,7 @@ Our research aims to build algorithm foundations for <b class="blue">embodied AI
   include feature.html
   image="images/project/all_set.jpg"
   link="projects"
-  title="Our Projects"
+  title="Our Research Projects"
   flip=true
   style="bare"
   text=text
@@ -163,3 +163,9 @@ Our research aims to build algorithm foundations for <b class="blue">embodied AI
   title="Our Team"
   text=text
 %}
+
+{% include section.html %}
+
+## Visitor Map
+
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=7a0000&w=800&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=ffffff&cmo=288928&cmn=3acc3a&ct=000000'></script>
