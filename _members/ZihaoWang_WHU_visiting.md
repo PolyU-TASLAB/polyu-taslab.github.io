@@ -1,20 +1,20 @@
 ---
 name: Zihao Wang
 image: images/team/Zihao-Wang.png
-role: visiting  # pi / postdoc / phd / ms / under / ra / visiting
+role: alumni  # pi / postdoc / phd / ms / under / ra / visiting / alumni
 affiliation: Wuhan University
-order: 1
+order: 8
 
 links:
-  home-page: N/A
+  home-page: 
   orcid: 0009-0000-0221-9768
-  google-scholar: N/A
-  github: N/A
+  google-scholar: 
+  github: 
   email: wzihao@whu.edu.cn
   profile: 
 
 display_1: M.S and B.Eng. (WHU)
-display_2: Sep 2025 - Dec 2025
+display_2: Visiting (Sept - Dec 2025)
 
 ---
 

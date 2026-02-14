@@ -14,7 +14,7 @@ links:
   profile: 
 
 display_1: Master of Philosophy, B.Eng. (BUAA)
-display_2: To join in fall 2025
+display_2: Sept 2025
 ---
 
 <!--  Add a short self introduction here -->

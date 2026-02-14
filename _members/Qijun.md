@@ -1,20 +1,16 @@
 ---
-name: QIN Qijun
+name: Qin Qijun
 image: images/team/qijun.jpg
-role: ms # pi / postdoc / phd / ms / under / ra / visiting
+role: ms  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
 order: 2
 
 links:
   github: https://github.com/QuintinUmi
   email: qijun.qin@connect.polyu.hk
-  
-display_1: BEng (HONS) Aviation Engineering (2021-2025)
-display_2: 
-  - Merit Award, Best URIS Research Project 2024  
-  - Attended PRSC 2024  
-  - Dean's Honours List, PolyU (2022-2023)  
-  - To join Mphil in fall 2025
+
+display_1: MPhil Student (PolyU), B.Eng. (PolyU)
+display_2: Fall 2025
 ---
 
 <!--  Add a short self introduction here -->

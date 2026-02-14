@@ -13,7 +13,7 @@ links:
   profile: 
 
 display_1: Ph.D. Student (PolyU-NKU), B.Eng. (NKU)
-display_2: To join in fall 2025
+display_2: Sept 2025
 ---
 
 <!--  Add a short self introduction here -->

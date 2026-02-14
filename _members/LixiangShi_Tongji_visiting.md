@@ -1,20 +1,20 @@
 ---
 name: Yuxiang Shi
 image: images/team/Yuxiang_SHI_tongji.jpg
-role: visiting  # pi / postdoc / phd / ms / under / ra / visiting
+role: alumni  # pi / postdoc / phd / ms / under / ra / visiting / alumni
 affiliation: Tongji University
-order: 2
+order: 9
 
 links:
-  home-page: N/A
-  orcid: N/A
-  google-scholar: N/A
-  github: N/A
+  home-page: 
+  orcid: 
+  google-scholar: 
+  github: 
   email: 2011200@tongji.edu.cn
   profile: 
 
-display_1: Phd student (Tongji) and B.Eng. (Southwest Jiaotong University)
-display_2: To be join in fall 2025
+display_1: Ph.D. Student (Tongji), B.Eng. (SWJTU)
+display_2: Visiting (2025)
 
 ---
 

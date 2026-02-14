@@ -13,7 +13,7 @@ links:
   profile: 
 
 display_1: Ph.D.(PolyU, NPU), B.Eng.(NPU)
-display_2: To join in fall 2025
+display_2: Jan 2026
 ---
 
 <!--  Add a short self introduction here -->
