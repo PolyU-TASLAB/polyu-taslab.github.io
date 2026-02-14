@@ -5,3 +5,9 @@ b,
 strong {
   font-weight: var(--bold);
 }
+
+// Blue bold emphasis for key terms
+.blue {
+  color: var(--primary);
+  font-weight: var(--bold);
+}

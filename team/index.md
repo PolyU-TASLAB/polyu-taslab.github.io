@@ -12,7 +12,7 @@ nav:
        style="width: 28%; height: auto; object-fit: cover; max-width: 230px; margin: 0 auto; border-radius: 10px;">
 </div>
 
-Our lab is made up of a highly engaged and collaborative team of researchers. We recognize that diverse teams do better research. We foster an environment where team members are treated equally, and where we respect and admire our differences. The team includes postdocs, students at all levels, staff, and our lab mascots.
+Our lab is made up of a <b class="blue">highly engaged and collaborative team</b> of researchers. We recognize that diverse teams do better research. We foster an environment where team members are treated equally, and where we respect and admire our differences. The team includes <b class="blue">postdocs</b>, <b class="blue">students at all levels</b>, <b class="blue">staff</b>, and our lab mascots.
 
 ---
 
@@ -172,14 +172,14 @@ Our lab is made up of a highly engaged and collaborative team of researchers. We
 
 #### Inclusion and Diversity
 
-To fulfill our mission to advance collaborative approaches and practical solutions to global poverty challenges, PolyU TAS Lab strives to foster diversity, equity, inclusion, and belonging in all we do.
+To fulfill our mission to advance collaborative approaches and practical solutions to global challenges, <b class="blue">PolyU TAS Lab</b> strives to foster <b class="blue">diversity, equity, inclusion, and belonging</b> in all we do.
 
 We strive to do so as a moral imperative and also because:
 
-- Diversity drives richer ideas and solutions.
-- Equity ensures that all voices are heard and valued.
-- Inclusion results in a seat at the decision-making table.
-- Belonging means that we all feel welcome and confident in our roles.
+- <b class="blue">Diversity</b> drives richer ideas and solutions.
+- <b class="blue">Equity</b> ensures that all voices are heard and valued.
+- <b class="blue">Inclusion</b> results in a seat at the decision-making table.
+- <b class="blue">Belonging</b> means that we all feel welcome and confident in our roles.
 
 As such, TAS Lab is committed to:
 
