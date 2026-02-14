@@ -86,7 +86,7 @@
 <!-- automatically get url from fonts used in theme file -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -494,7 +494,7 @@
   
   
 
-  <section class="background" data-size="1.25em">
+  <section class="background" data-size="1.2em">
     <h1 id="team">
 <i class="icon fa-solid fa-wrench"></i>Team</h1>
 
@@ -509,21 +509,32 @@
 <style>
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 2.2em;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1.2em;
   justify-items: center;
-  margin: 2em 0;
+  margin: 1.2em 0 2em 0;
+  padding: 0;
+}
+.team-grid-pi {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5em;
+  justify-items: center;
+  margin: 1.2em 0 2em 0;
+  padding: 0;
 }
 .team-section-title {
-  font-size: 1.25em;
+  font-size: 1.2em;
   font-weight: 700;
-  margin: 2em 0 1em 0;
-  color: #1a1a1a;
+  margin: 2em 0 0.5em 0;
+  padding-bottom: 0.4em;
+  color: var(--primary, #0795d9);
   letter-spacing: 0.01em;
   text-align: center;
+  border-bottom: 2px solid var(--primary, #0795d9);
 }
 .portrait-wrapper {
-  width: 240px;
+  width: 160px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -535,45 +546,82 @@
   flex-direction: column;
   align-items: center;
   background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
-  padding: 1.2em 1.5em;
-  transition: box-shadow 0.2s;
-  min-width: 200px;
-  max-width: 240px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+  padding: 0.8em 0.6em;
+  transition: box-shadow 0.2s, transform 0.2s;
+  min-width: 140px;
+  max-width: 170px;
+  text-decoration: none !important;
+}
+.portrait:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+  transform: translateY(-2px);
 }
 .portrait-image {
-  width: 110px;
-  height: 110px;
+  width: 90px;
+  height: 90px;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 1em;
-  border: 3px solid #eaeaea;
+  margin-bottom: 0.6em;
+  border: 2.5px solid var(--primary, #0795d9);
 }
 .portrait-name {
-  font-size: 1.08em;
-  font-weight: 700;
+  font-size: 0.95em;
+  font-weight: 600;
   color: #222;
+  text-align: center;
+  line-height: 1.3;
+  margin-bottom: 0.2em;
 }
 .display_1 {
-  font-size: 0.98em;
+  font-size: 0.8em;
   color: #666;
-  margin-bottom: 0.5em;
-  text-align: left;
+  text-align: center;
   width: 100%;
   display: block;
+  line-height: 1.3;
+  margin-bottom: 0.15em;
+}
+.display_2 {
+  font-size: 0.78em;
+  color: #999;
+  text-align: center;
+  width: 100%;
+  display: block;
+  line-height: 1.3;
 }
 .portrait-desc {
-  margin-top: 0.8em;
-  text-align: left;
+  margin-top: 0.4em;
+  text-align: center;
   width: 100%;
-  font-size: 0.97em;
-  color: #444;
+  font-size: 0.82em;
+  color: #555;
+  line-height: 1.3;
+}
+/* PI cards are slightly larger */
+.team-grid-pi .portrait-wrapper {
+  width: 220px;
+}
+.team-grid-pi .portrait {
+  min-width: 180px;
+  max-width: 220px;
+  padding: 1em 1em;
+}
+.team-grid-pi .portrait-image {
+  width: 120px;
+  height: 120px;
+}
+.team-grid-pi .portrait-name {
+  font-size: 1.05em;
+}
+.team-grid-pi .display_1 {
+  font-size: 0.88em;
 }
 </style>
 
 <div class="team-section-title">Faculty (Principal Investigator)</div>
-<div class="team-grid">
+<div class="team-grid-pi">
   
 
 
@@ -591,25 +639,31 @@
 
 
 
-<div class="portrait-wrapper" style="width: 240px; margin: 0 auto; display: flex; flex-direction: column; align-items: center;">
-  <a href="/preview/pr-/members/Wen_Weisong.html" class="portrait" data-style="" aria-label="Wen Weisong" style="display: flex; flex-direction: column; align-items: center; background: #fff; border-radius: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); padding: 1.2em 1.5em; transition: box-shadow 0.2s; min-width: 200px; max-width: 240px;">
+<div class="portrait-wrapper">
+  <a href="/preview/pr-/members/Wen_Weisong.html" class="portrait" data-style="" aria-label="Wen Weisong">
     
-      <span style="margin-bottom: 0.5em;">
+      <span style="margin-bottom: 0.3em;">
         <i class="icon fa-solid fa-microscope"></i>
       </span>
     
 
-    <img src="/preview/pr-/images/team/weisong.jpg" class="portrait-image" alt="member portrait" style="width: 110px; height: 110px; object-fit: cover; border-radius: 50%; margin-bottom: 1em; border: 3px solid #eaeaea;" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+    <img src="/preview/pr-/images/team/weisong.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-name" style="font-size: 1.08em; font-weight: 700; color: #222;">
+      <span class="portrait-name">
         Wen Weisong
       </span>
     
 
     
-      <span class="display_1" style="font-size: 0.98em; color: #666; margin-bottom: 0.5em; text-align: left; width: 100%; display: block;">
+      <span class="display_1">
         Assistant Professor, Ph.D.(PolyU), M.Eng.(CAU), B.Eng. (BISTU)
+      </span>
+    
+
+    
+      <span class="display_2">
+        Spring 2024 -- Present
       </span>
     
 
@@ -618,6 +672,7 @@
     
   </a>
 </div>
+
   
 
 </div>
@@ -638,10 +693,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/jiao_jianhao.html" class="portrait" data-style="" aria-label="Jianho Jiao">
-    
-      <i class="icon fa-solid fa-glasses"></i>
-    
-
     <img src="/preview/pr-/images/team/jianhaojiao_pict_2023.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -657,10 +708,9 @@
     
 
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -670,10 +720,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/yywang.html" class="portrait" data-style="" aria-label="Wang Yingying">
-    
-      <i class="icon fa-solid fa-glasses"></i>
-    
-
     <img src="/preview/pr-/images/team/wang_yingying.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -689,10 +735,9 @@
     
 
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -702,10 +747,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/runqiuyang.html" class="portrait" data-style="" aria-label="Yang Runqiu">
-    
-      <i class="icon fa-solid fa-glasses"></i>
-    
-
     <img src="/preview/pr-/images/team/yang_runqiu.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -725,46 +766,9 @@
         Sep 2024 -- Present
       </span>
     
-
-    
   </a>
 </div>
 
-  
-
-  
-
-
-
-<div class="portrait-wrapper">
-  <a href="/preview/pr-/members/Bai_Lu.html" class="portrait" data-style="" aria-label="Bai Lu">
-    
-      <i class="icon fa-solid fa-glasses"></i>
-    
-
-    <img src="/preview/pr-/images/team/bai_lu.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-name">
-        Bai Lu
-      </span>
-    
-
-    
-      <span class="display_1">
-        postdoc, Ph.D.(BUAA), M.Eng.(BUAA), B.Eng.(BUAA)
-      </span>
-    
-
-    
-      <span class="display_2">
-        Feb 2025 - Present
-      </span>
-    
-
-    
-  </a>
-</div>
 
   
 
@@ -774,10 +778,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/Huang_Feng.html" class="portrait" data-style="" aria-label="HUANG Feng">
-    
-      <i class="icon fa-solid fa-glasses"></i>
-    
-
     <img src="/preview/pr-/images/team/huangfeng.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -797,14 +797,13 @@
         May 2025 -- Present
       </span>
     
-
-    
   </a>
 </div>
 
+
 </div>
 
-<div class="team-section-title">Ph.D./MPhil Students</div>
+<div class="team-section-title">Ph.D. / MPhil Students</div>
 <div class="team-grid">
   
 
@@ -820,10 +819,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/Chen_Hongchang.html" class="portrait" data-style="" aria-label="Chen Hongchang">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
     <img src="/preview/pr-/images/team/hongchang.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -839,10 +834,9 @@
     
 
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -852,10 +846,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/hujiahao.html" class="portrait" data-style="" aria-label="Hu Jiahao">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
     <img src="/preview/pr-/images/team/hu_jiahao.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -871,46 +861,9 @@
     
 
     
-
-    
   </a>
 </div>
 
-  
-
-  
-
-
-
-<div class="portrait-wrapper">
-  <a href="/preview/pr-/members/yihan_zhong.html" class="portrait" data-style="" aria-label="Zhong Yihan">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
-    <img src="/preview/pr-/images/team/yihan_zhong.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-name">
-        Zhong Yihan
-      </span>
-    
-
-    
-      <span class="display_1">
-        Ph.D. Candidate(PolyU), M.Sc.(PolyU), B.Eng. (GXU), MION
-      </span>
-    
-
-    
-      <span class="display_2">
-        Fall 2022 -- Present
-      </span>
-    
-
-    
-  </a>
-</div>
 
   
 
@@ -920,10 +873,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/Zhang_Ziqi.html" class="portrait" data-style="" aria-label="Zhang Ziqi">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
     <img src="/preview/pr-/images/team/Zhang_Ziqi.JPG" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -943,46 +892,9 @@
         Fall 2024 - Present
       </span>
     
-
-    
   </a>
 </div>
 
-  
-
-  
-
-
-
-<div class="portrait-wrapper">
-  <a href="/preview/pr-/members/runzhi_hu.html" class="portrait" data-style="" aria-label="Runzhi Hu">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
-    <img src="/preview/pr-/images/team/runzhi_hu.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-name">
-        Runzhi Hu
-      </span>
-    
-
-    
-      <span class="display_1">
-        Ph.D. Candidate(PolyU), M.Eng.(CAU), B.Eng. (CAU)
-      </span>
-    
-
-    
-      <span class="display_2">
-        2022 fall - Present
-      </span>
-    
-
-    
-  </a>
-</div>
 
   
 
@@ -992,10 +904,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/Yangpeiwen.html" class="portrait" data-style="" aria-label="Yang Peiwen">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
     <img src="/preview/pr-/images/team/peiwen.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1011,10 +919,9 @@
     
 
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1024,10 +931,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/Jiagui%20Zhong.html" class="portrait" data-style="" aria-label="Zhong Jiagui">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
     <img src="/preview/pr-/images/team/zhong_jiagui" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1047,10 +950,9 @@
         September 2025 -- Present
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1060,10 +962,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/Xu_Ruijie.html" class="portrait" data-style="" aria-label="Xu Ruijie">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
     <img src="/preview/pr-/images/team/xu_ruijie.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1083,10 +981,9 @@
         fall 2023 -- Present
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1096,10 +993,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/zhang_yuanyuan.html" class="portrait" data-style="" aria-label="Zhang Yuanyuan">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
     <img src="/preview/pr-/images/team/zhang_yuanyuan.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1119,10 +1012,9 @@
         September 2023 -- Present
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1132,10 +1024,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/Xiao_Naigui.html" class="portrait" data-style="" aria-label="Xiao Naigui">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
     <img src="/preview/pr-/images/team/XNG.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1155,10 +1043,9 @@
         Spring 2024 -- Present
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1168,10 +1055,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/gao_yixin.html" class="portrait" data-style="" aria-label="GAO Yixin">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
     <img src="/preview/pr-/images/team/yixin.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1191,10 +1074,9 @@
         Fall 2024 -- Present
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1204,10 +1086,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/Li_Bingxian.html" class="portrait" data-style="" aria-label="Li Bingxian">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
     <img src="/preview/pr-/images/team/liu_bingxian.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1227,10 +1105,9 @@
         Autumn 2024 -- Present
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1240,10 +1117,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/XiangruWang.html" class="portrait" data-style="" aria-label="Wang Xiangru">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
     <img src="/preview/pr-/images/team/wang_xiangru.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1263,10 +1136,9 @@
         From Feb. 2025
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1276,10 +1148,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/yfeng.html" class="portrait" data-style="" aria-label="Feng Yu">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
     <img src="/preview/pr-/images/team/yfeng.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1299,10 +1167,9 @@
         To join in fall 2025
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1312,10 +1179,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/xpzhai.html" class="portrait" data-style="" aria-label="Zhai Xupeng">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
     <img src="/preview/pr-/images/team/xpzhai.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1335,10 +1198,9 @@
         To join in fall 2025
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1348,10 +1210,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/zxr.html" class="portrait" data-style="" aria-label="Zhang Xinrui">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
     <img src="/preview/pr-/images/team/zxr.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1371,10 +1229,9 @@
         To join in fall 2025
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1384,10 +1241,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/cao_yifeng.html" class="portrait" data-style="" aria-label="Cao Yifeng">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
     <img src="/preview/pr-/images/team/cao_yifeng.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1403,10 +1256,9 @@
     
 
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1422,8 +1274,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/Shaoting_Qiu.html" class="portrait" data-style="" aria-label="Qiu Shaoting">
-    
-
     <img src="/preview/pr-/images/team/shaoting.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1443,10 +1293,9 @@
         Fall 2024 - Present
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1456,8 +1305,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/Yang_Mokui.html" class="portrait" data-style="" aria-label="Yang Mokui">
-    
-
     <img src="/preview/pr-/images/team/yang_mokui.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1477,10 +1324,9 @@
         May 2025 - Present
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1490,8 +1336,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/ZHAO_Jiaqi.html" class="portrait" data-style="" aria-label="ZHAO Jiaqi">
-    
-
     <img src="/preview/pr-/images/team/zhao_jiaqi.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1511,10 +1355,9 @@
         March 2024 - Present
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1524,8 +1367,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/cheng_yuling.html" class="portrait" data-style="" aria-label="CHENG Yuling">
-    
-
     <img src="/preview/pr-/images/team/cheng_yuling.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1545,10 +1386,9 @@
         Fall 2024 -- Present
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1558,8 +1398,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/Qijun.html" class="portrait" data-style="" aria-label="QIN Qijun">
-    
-
     <img src="/preview/pr-/images/team/qijun.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1579,10 +1417,9 @@
         Merit Award, Best URIS Research Project 2024Attended PRSC 2024Dean's Honours List, PolyU (2022-2023)To join Mphil in fall 2025
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1592,8 +1429,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/TANG_yiyu.html" class="portrait" data-style="" aria-label="Tang Yiyu">
-    
-
     <img src="/preview/pr-/images/team/tang_yiyu.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1613,10 +1448,9 @@
         To join in fall 2025
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1626,8 +1460,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/yingmign_chen.html" class="portrait" data-style="" aria-label="Chen Yingming">
-    
-
     <img src="/preview/pr-/images/team/yingming_chen.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1647,10 +1479,9 @@
         Spring 2024 -- Present
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1660,8 +1491,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/wang_xin.html" class="portrait" data-style="" aria-label="Wang Xin">
-    
-
     <img src="/preview/pr-/images/team/wang_xin.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1681,10 +1510,9 @@
         May 2025 -- Present
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1694,8 +1522,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/Yang%20Qian.html" class="portrait" data-style="" aria-label="Yang Qian">
-    
-
     <img src="/preview/pr-/images/team/yangqian.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1715,10 +1541,9 @@
         Fall 2025
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1728,8 +1553,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/Qi_Zhang.html" class="portrait" data-style="" aria-label="Qi Zhang">
-    
-
     <img src="/preview/pr-/images/team/qi_zhang.png" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1749,10 +1572,9 @@
         Fall 2025
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1762,8 +1584,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/wang_junzhe.html" class="portrait" data-style="" aria-label="WANG Junzhe">
-    
-
     <img src="/preview/pr-/images/team/wang_junzhe.png" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1783,14 +1603,13 @@
         Fall 2025
       </span>
     
-
-    
   </a>
 </div>
 
+
 </div>
 
-<div class="team-section-title">Research/Project Assistant</div>
+<div class="team-section-title">Research / Project Assistant</div>
 <div class="team-grid">
   
 
@@ -1806,8 +1625,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/wu_Haobo.html" class="portrait" data-style="" aria-label="Wu Haobo">
-    
-
     <img src="/preview/pr-/images/team/wu_haobo.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1823,10 +1640,9 @@
     
 
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1836,8 +1652,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/wangyun.html" class="portrait" data-style="" aria-label="Wang Yun">
-    
-
     <img src="/preview/pr-/images/team/wang_yun.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1853,10 +1667,9 @@
     
 
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1866,8 +1679,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/liheng.html" class="portrait" data-style="" aria-label="Li Heng">
-    
-
     <img src="/preview/pr-/images/team/LiHeng.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1887,10 +1698,9 @@
         Spring 2025 -- Present
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -1900,8 +1710,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/Ai_Kedai.html" class="portrait" data-style="" aria-label="Akida Tursun">
-    
-
     <img src="/preview/pr-/images/team/Akida.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1921,10 +1729,9 @@
         June 2024 - Present
       </span>
     
-
-    
   </a>
 </div>
+
 
 </div>
 
@@ -1944,8 +1751,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/WANG_Zhongqi.html" class="portrait" data-style="" aria-label="WANG Zhongqi">
-    
-
     <img src="/preview/pr-/images/team/zhongqi_wang.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -1965,14 +1770,13 @@
         July 2025 - Present
       </span>
     
-
-    
   </a>
 </div>
 
+
 </div>
 
-<div class="team-section-title">Visiting Scholar/Students</div>
+<div class="team-section-title">Visiting Scholars / Students</div>
 <div class="team-grid">
   
 
@@ -1988,8 +1792,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/FenchiZHU_HEU_visiting.html" class="portrait" data-style="" aria-label="Fengchi ZHU">
-    
-
     <img src="/preview/pr-/images/team/fengchiZHU.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -2009,10 +1811,9 @@
         Oct 2025
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -2022,8 +1823,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/ZihaoWang_WHU_visiting.html" class="portrait" data-style="" aria-label="Zihao Wang">
-    
-
     <img src="/preview/pr-/images/team/Zihao-Wang.png" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -2043,10 +1842,9 @@
         Sep 2025 - Dec 2025
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -2056,8 +1854,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/GuangyanGuo_HEU_visiting.html" class="portrait" data-style="" aria-label="Guangyan Guo">
-    
-
     <img src="/preview/pr-/images/team/guangyanGuo.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -2077,10 +1873,9 @@
         Dec 2025
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -2090,8 +1885,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/LixiangShi_Tongji_visiting.html" class="portrait" data-style="" aria-label="Yuxiang Shi">
-    
-
     <img src="/preview/pr-/images/team/Yuxiang_SHI_tongji.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -2111,10 +1904,9 @@
         To be join in fall 2025
       </span>
     
-
-    
   </a>
 </div>
+
 
 </div>
 
@@ -2134,8 +1926,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/MaPei.html" class="portrait" data-style="" aria-label="Ma Pei">
-    
-
     <img src="/preview/pr-/images/team/Ma_Pei.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -2155,10 +1945,9 @@
         May 2024 -- May 2025
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -2168,8 +1957,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/guan_li.html" class="portrait" data-style="" aria-label="Guan Li">
-    
-
     <img src="/preview/pr-/images/team/guan_li.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -2185,10 +1972,9 @@
     
 
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -2198,8 +1984,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/shiyu_bai.html" class="portrait" data-style="" aria-label="Bai Shiyu">
-    
-
     <img src="/preview/pr-/images/team/shiyu_bai.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -2219,10 +2003,9 @@
         MIEEE
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -2232,8 +2015,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/zhengxi.html" class="portrait" data-style="" aria-label="Zheng Xi">
-    
-
     <img src="/preview/pr-/images/team/zheng_xi.png" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -2253,10 +2034,9 @@
         2022.08
       </span>
     
-
-    
   </a>
 </div>
+
 
   
 
@@ -2266,8 +2046,6 @@
 
 <div class="portrait-wrapper">
   <a href="/preview/pr-/members/liu_xikun.html" class="portrait" data-style="" aria-label="Liu Xikun">
-    
-
     <img src="/preview/pr-/images/team/liu_xikun.png" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
     
@@ -2287,10 +2065,102 @@
         MION
       </span>
     
+  </a>
+</div>
 
+
+  
+
+  
+
+
+
+<div class="portrait-wrapper">
+  <a href="/preview/pr-/members/yihan_zhong.html" class="portrait" data-style="" aria-label="Zhong Yihan">
+    <img src="/preview/pr-/images/team/yihan_zhong.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Zhong Yihan
+      </span>
+    
+
+    
+      <span class="display_1">
+        Ph.D.(PolyU), M.Sc.(PolyU), B.Eng. (GXU), MION
+      </span>
+    
+
+    
+      <span class="display_2">
+        2022 - 2025
+      </span>
     
   </a>
 </div>
+
+
+  
+
+  
+
+
+
+<div class="portrait-wrapper">
+  <a href="/preview/pr-/members/Bai_Lu.html" class="portrait" data-style="" aria-label="Bai Lu">
+    <img src="/preview/pr-/images/team/bai_lu.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Bai Lu
+      </span>
+    
+
+    
+      <span class="display_1">
+        Ph.D.(BUAA), M.Eng.(BUAA), B.Eng.(BUAA)
+      </span>
+    
+
+    
+      <span class="display_2">
+        Postdoc (Feb 2025)
+      </span>
+    
+  </a>
+</div>
+
+
+  
+
+  
+
+
+
+<div class="portrait-wrapper">
+  <a href="/preview/pr-/members/runzhi_hu.html" class="portrait" data-style="" aria-label="Runzhi Hu">
+    <img src="/preview/pr-/images/team/runzhi_hu.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Runzhi Hu
+      </span>
+    
+
+    
+      <span class="display_1">
+        Ph.D.(PolyU), M.Eng.(CAU), B.Eng. (CAU)
+      </span>
+    
+
+    
+      <span class="display_2">
+        2022 - 2025
+      </span>
+    
+  </a>
+</div>
+
 
 </div>
 
