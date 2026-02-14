@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["bold.scss"],"names":[],"mappings":"AAAA;AAAA;EAEE","sourcesContent":["b,\nstrong {\n  font-weight: var(--bold);\n}\n"],"file":"bold.css"}
+{"version":3,"sourceRoot":"","sources":["bold.scss"],"names":[],"mappings":"AAAA;AAAA;EAEE;;;AAIF;EACE;EACA","sourcesContent":["b,\nstrong {\n  font-weight: var(--bold);\n}\n\n// Blue bold emphasis for key terms\n.blue {\n  color: var(--primary);\n  font-weight: var(--bold);\n}"],"file":"bold.css"}
