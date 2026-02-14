@@ -3,7 +3,7 @@
 
 # PolyU TAS LAB's Website
 
-<div align="center">
+<div style="text-align: justify; font-size: 0.97em; line-height: 1.65;">
 The <b class="blue">Trustworthy AI and Autonomous Systems (TAS) Laboratory</b> is at the forefront of pioneering advancements in <b class="blue">autonomous systems</b> (such as UAV and self-driving cars) technology, emphasizing the importance of <b class="blue">safety, reliability, and ethical standards</b>. Our laboratory is home to a diverse group of researchers and engineers who specialize in <b class="blue">artificial intelligence</b>, <b class="blue">robotics</b>, cybersecurity, and human-system interaction. Together, we are committed to developing autonomous systems that inspire confidence and trust among users and stakeholders. Through collaborative efforts with industry partners, academic institutions, and policymakers, our team addresses the complex challenges of integrating autonomous systems into society, ensuring they operate transparently and responsibly.
 </div>
 
@@ -49,6 +49,22 @@ Our research aims to build algorithm foundations for <b class="blue">embodied AI
   color: #444;
   line-height: 1.55;
 }
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 16px 0 24px 0;
+}
+.video-grid iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: auto;
+  border-radius: 8px;
+  border: none;
+}
+@media (max-width: 640px) {
+  .video-grid { grid-template-columns: 1fr; }
+}
 </style>
 
 <div class="research-directions">
@@ -74,7 +90,18 @@ Our research aims to build algorithm foundations for <b class="blue">embodied AI
   </div>
 </div>
 
----
+{% include section.html %}
+
+## Videos
+
+<div class="video-grid">
+  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114244838299184&bvid=BV1ktZcYdEWD&cid=25777740164&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115156243711653&bvid=BV1fiaqzNEEm&cid=32199149727&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115920244638163&bvid=BV1GPkvBdEw9&cid=35479224564&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114776826971256&bvid=BV1UsgDzeE5J&cid=30968254232&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
+
+{% include section.html %}
 
 ## Highlights
 
