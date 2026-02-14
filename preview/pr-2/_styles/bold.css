@@ -3,4 +3,9 @@ strong {
   font-weight: var(--bold);
 }
 
+.blue {
+  color: var(--primary);
+  font-weight: var(--bold);
+}
+
 /*# sourceMappingURL=bold.css.map */
