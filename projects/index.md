@@ -13,110 +13,146 @@ Our research aims to build algorithm foundations for <b class="blue">embodied AI
 
 {% include section.html %}
 
+{% assign gnss_posts = site.posts | where: "research_direction", "gnss" %}
+{% assign fusion_posts = site.posts | where: "research_direction", "fusion" %}
+{% assign vehicles_posts = site.posts | where: "research_direction", "vehicles" %}
+{% assign humanoid_posts = site.posts | where: "research_direction", "humanoid" %}
+{% assign drones_posts = site.posts | where: "research_direction", "drones" %}
+
+## Research Directions
+
 <style>
-.rd-section-title {
+.rd-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.2em;
+  margin: 1em 0 1.5em 0;
+}
+.rd-card-link {
+  text-decoration: none !important;
+  color: inherit !important;
+  display: block;
+}
+.rd-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 1.2em 1.3em;
+  transition: box-shadow 0.25s, transform 0.25s;
+  text-align: left;
+  border-left: 4px solid var(--primary, #0795d9);
+  position: relative;
+  min-height: 160px;
   display: flex;
-  align-items: center;
-  gap: 0.5em;
-  font-size: 1.2rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rd-card:hover {
+  box-shadow: 0 6px 20px rgba(7,149,217,0.18);
+  transform: translateY(-3px);
+}
+.rd-card-icon {
+  font-size: 1.6em;
+  margin-bottom: 0.3em;
+}
+.rd-card-title {
+  font-size: 1.05em;
   font-weight: 700;
   color: var(--primary, #0795d9);
-  margin: 1.5em 0 0.3em 0;
-  padding-bottom: 0.3em;
-  border-bottom: 2px solid var(--primary, #0795d9);
+  margin: 0.2em 0 0.4em 0;
+  line-height: 1.35;
 }
-.rd-section-title .rd-icon {
-  font-size: 1.1em;
-}
-.rd-desc {
-  font-size: 0.93em;
+.rd-card-desc {
+  font-size: 0.87em;
   color: #555;
-  margin: 0.2em 0 0.8em 0;
-  line-height: 1.55;
-  text-align: justify;
+  line-height: 1.5;
+  margin: 0 0 0.6em 0;
+  flex-grow: 1;
 }
-.rd-count {
-  font-size: 0.85em;
-  font-weight: 400;
+.rd-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.3em;
+}
+.rd-card-count {
+  font-size: 0.82em;
   color: #888;
+  font-weight: 500;
+}
+.rd-card-arrow {
+  color: var(--primary, #0795d9);
+  font-size: 0.9em;
+  font-weight: 600;
+}
+.rd-card-arrow::after {
+  content: " →";
+}
+@media (max-width: 640px) {
+  .rd-cards { grid-template-columns: 1fr; }
 }
 </style>
 
-{% assign gnss_posts = site.posts | where: "research_direction", "gnss" | sort: "date" | reverse %}
-{% assign fusion_posts = site.posts | where: "research_direction", "fusion" | sort: "date" | reverse %}
-{% assign vehicles_posts = site.posts | where: "research_direction", "vehicles" | sort: "date" | reverse %}
-{% assign humanoid_posts = site.posts | where: "research_direction", "humanoid" | sort: "date" | reverse %}
-{% assign drones_posts = site.posts | where: "research_direction", "drones" | sort: "date" | reverse %}
+<div class="rd-cards">
 
-<div class="rd-section-title">
-  <span class="rd-icon">🛰️</span>
-  3D LiDAR Aided GNSS Positioning for Robotics Navigation
-  <span class="rd-count">({{ gnss_posts.size }})</span>
+  <a href="{{ 'projects/gnss' | relative_url }}" class="rd-card-link">
+    <div class="rd-card">
+      <div class="rd-card-icon">🛰️</div>
+      <div class="rd-card-title">3D LiDAR Aided GNSS Positioning for Robotics Navigation</div>
+      <div class="rd-card-desc">AI-driven GNSS positioning (RTK, PPP, PPP-RTK), 3D LiDAR aided NLOS/multipath mitigation, multi-sensor fusion for robust urban navigation.</div>
+      <div class="rd-card-footer">
+        <span class="rd-card-count">{{ gnss_posts.size }} projects</span>
+        <span class="rd-card-arrow">View projects</span>
+      </div>
+    </div>
+  </a>
+
+  <a href="{{ 'projects/fusion' | relative_url }}" class="rd-card-link">
+    <div class="rd-card">
+      <div class="rd-card-icon">🔒</div>
+      <div class="rd-card-title">Safety-certifiable Multi-Sensor Fusion for Robotic Navigation in Urban Scenes</div>
+      <div class="rd-card-desc">Safety-certifiable AI for autonomous navigation, AI-enabled multi-sensor fusion (LiDAR/Camera/IMU/GNSS), integrity monitoring and navigation-control joint optimization.</div>
+      <div class="rd-card-footer">
+        <span class="rd-card-count">{{ fusion_posts.size }} projects</span>
+        <span class="rd-card-arrow">View projects</span>
+      </div>
+    </div>
+  </a>
+
+  <a href="{{ 'projects/vehicles' | relative_url }}" class="rd-card-link">
+    <div class="rd-card">
+      <div class="rd-card-icon">🚗</div>
+      <div class="rd-card-title">End-to-End and Safety-Certifiable Autonomous Vehicles for Logistics Applications</div>
+      <div class="rd-card-desc">End-to-end learning for self-driving, safety certification for logistics applications, V2X-assisted connected autonomous driving.</div>
+      <div class="rd-card-footer">
+        <span class="rd-card-count">{{ vehicles_posts.size }} projects</span>
+        <span class="rd-card-arrow">View projects</span>
+      </div>
+    </div>
+  </a>
+
+  <a href="{{ 'projects/humanoid' | relative_url }}" class="rd-card-link">
+    <div class="rd-card">
+      <div class="rd-card-icon">🤖</div>
+      <div class="rd-card-title">Embodied AI for Humanoid/Legged Robotics</div>
+      <div class="rd-card-desc">Large AI models and vision-language-action models for robotic perception and control, bio-inspired embodied intelligence, multimodal learning for humanoid/legged robots.</div>
+      <div class="rd-card-footer">
+        <span class="rd-card-count">{{ humanoid_posts.size }} projects</span>
+        <span class="rd-card-arrow">View projects</span>
+      </div>
+    </div>
+  </a>
+
+  <a href="{{ 'projects/drones' | relative_url }}" class="rd-card-link">
+    <div class="rd-card">
+      <div class="rd-card-icon">🚁</div>
+      <div class="rd-card-title">Embodied Drones for City Maintenance and Manipulation</div>
+      <div class="rd-card-desc">Intelligent drones and UAV swarm systems, aerial manipulation for urban infrastructure, software-hardware co-design for efficient embodied AI drone systems.</div>
+      <div class="rd-card-footer">
+        <span class="rd-card-count">{{ drones_posts.size }} projects</span>
+        <span class="rd-card-arrow">View projects</span>
+      </div>
+    </div>
+  </a>
+
 </div>
-<div class="rd-desc">
-AI-driven GNSS positioning (RTK, PPP, PPP-RTK), 3D LiDAR aided NLOS/multipath mitigation, multi-sensor fusion for robust urban navigation.
-</div>
-
-{% for post in gnss_posts %}
-  {% include post-excerpt.html title=post.title url=post.url image=post.image content=post.content excerpt=post.excerpt date=post.date author=post.author tags=post.tags last_modified_at=post.last_modified_at %}
-{% endfor %}
-
-{% include section.html %}
-
-<div class="rd-section-title">
-  <span class="rd-icon">🔒</span>
-  Safety-certifiable Multi-Sensor Fusion for Robotic Navigation in Urban Scenes
-  <span class="rd-count">({{ fusion_posts.size }})</span>
-</div>
-<div class="rd-desc">
-Safety-certifiable AI for autonomous navigation, AI-enabled multi-sensor fusion (LiDAR/Camera/IMU/GNSS), integrity monitoring and navigation-control joint optimization.
-</div>
-
-{% for post in fusion_posts %}
-  {% include post-excerpt.html title=post.title url=post.url image=post.image content=post.content excerpt=post.excerpt date=post.date author=post.author tags=post.tags last_modified_at=post.last_modified_at %}
-{% endfor %}
-
-{% include section.html %}
-
-<div class="rd-section-title">
-  <span class="rd-icon">🚗</span>
-  End-to-End and Safety-Certifiable Autonomous Vehicles for Logistics Applications
-  <span class="rd-count">({{ vehicles_posts.size }})</span>
-</div>
-<div class="rd-desc">
-End-to-end learning for self-driving, safety certification for logistics applications, V2X-assisted connected autonomous driving.
-</div>
-
-{% for post in vehicles_posts %}
-  {% include post-excerpt.html title=post.title url=post.url image=post.image content=post.content excerpt=post.excerpt date=post.date author=post.author tags=post.tags last_modified_at=post.last_modified_at %}
-{% endfor %}
-
-{% include section.html %}
-
-<div class="rd-section-title">
-  <span class="rd-icon">🤖</span>
-  Embodied AI for Humanoid/Legged Robotics
-  <span class="rd-count">({{ humanoid_posts.size }})</span>
-</div>
-<div class="rd-desc">
-Large AI models and vision-language-action models for robotic perception and control, bio-inspired embodied intelligence, multimodal learning for humanoid/legged robots.
-</div>
-
-{% for post in humanoid_posts %}
-  {% include post-excerpt.html title=post.title url=post.url image=post.image content=post.content excerpt=post.excerpt date=post.date author=post.author tags=post.tags last_modified_at=post.last_modified_at %}
-{% endfor %}
-
-{% include section.html %}
-
-<div class="rd-section-title">
-  <span class="rd-icon">🚁</span>
-  Embodied Drones for City Maintenance and Manipulation
-  <span class="rd-count">({{ drones_posts.size }})</span>
-</div>
-<div class="rd-desc">
-Intelligent drones and UAV swarm systems, aerial manipulation for urban infrastructure, software-hardware co-design for efficient embodied AI drone systems.
-</div>
-
-{% for post in drones_posts %}
-  {% include post-excerpt.html title=post.title url=post.url image=post.image content=post.content excerpt=post.excerpt date=post.date author=post.author tags=post.tags last_modified_at=post.last_modified_at %}
-{% endfor %}
