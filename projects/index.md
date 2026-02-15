@@ -156,8 +156,7 @@ Our research aims to <b>build algorithm foundations for embodied AI</b> that ena
 
   <a href="{{ 'projects/drones' | relative_url }}" class="rd-card-link">
     <div class="rd-card">
-      <div class="rd-card-img rd-card-img-5">
-        <div class="rd-card-img-placeholder">🚁</div>
+      <div class="rd-card-img" style="background-image: url('{{ 'images/project/E2EDrone.png' | relative_url }}');">
       </div>
       <div class="rd-card-body">
         <h3>Embodied Drones for City Maintenance and Manipulation</h3>
