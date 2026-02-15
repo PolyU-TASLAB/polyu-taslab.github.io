@@ -39,83 +39,39 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Semantic-Vector HD Map | TAS LAB</title>
+<title>Embodied AI for Robotics Education | TAS LAB</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Semantic-Vector HD Map">
+<meta name="title" content="Embodied AI for Robotics Education">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 
-<meta property="og:title" content="Semantic-Vector HD Map">
+<meta property="og:title" content="Embodied AI for Robotics Education">
 <meta property="og:site_title" content="TAS LAB">
 <meta property="og:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="og:url" content="https://polyu-taslab.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Semantic-Vector HD Map">
+<meta property="twitter:title" content="Embodied AI for Robotics Education">
 <meta property="twitter:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="twitter:url" content="https://polyu-taslab.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
 
-  <meta name="author" content='&lt;!-- Add breif description here.  --&gt;
-&lt;p&gt;This is a pipeline to construct HD Semantic Map and HD Vector Map.&lt;/p&gt;
-
-&lt;!-- Add Main body here --&gt;
-&lt;p&gt;This repository hosts an open-source HDVM (high-definition vector map) generation pipeline designed for autonomous vehicles, especially in intricate urban environments. Traditional HDVM creation methods often operate on a planar assumption, causing inaccuracies in real-world scenarios. Our solution, however, integrates data from GNSS (global navigation satellite system), INS (inertial navigation system), LiDAR, and cameras.&lt;/p&gt;
-
-&lt;p&gt;The process starts with the extraction of semantic data from raw images using advanced architectures like Vision Transformer (ViT) and Swin Transformer. We then acquire the absolute 3D data of these semantic objects from 3D LiDAR depth and derive high-precision pose estimates from GNSS real-time kinematic (GNSS-RTK) and an INS navigation system. This semantic data aids in the extraction of vector information, such as lane markings, which forms the HDVM.&lt;/p&gt;
-
-&lt;p&gt;A significant feature of this repo is its focus on HDVM accuracy. We’ve examined the impact of two primary error sources: segmentation discrepancies and LiDAR-camera extrinsic parameter deviations. An error propagation scheme is provided to showcase how these sources can affect the HDVM’s precision.&lt;/p&gt;
-
-&lt;p&gt;For ease of setup and consistency, a Docker version of the pipeline is available and is the recommended method for deployment.&lt;/p&gt;
-
-&lt;p&gt;For details, please refer to our official repository at &lt;a href="https://github.com/ebhrz/HDMap"&gt;HDMap&lt;/a&gt;.&lt;/p&gt;
-
-&lt;!-- Add picture. --&gt;
-&lt;div style="text-align: center; margin-bottom: 20px;"&gt;
-  &lt;img src="https://github.com/ebhrz/HDMap/raw/main/img/garage.gif" alt="HDMap" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;" /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;If you find this code useful, we would appreciate it if you cite our paper.&lt;/p&gt;
-
-&lt;div class="language-latex highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;@article&lt;span class="p"&gt;{&lt;/span&gt;https://doi.org/10.1049/itr2.12524,
-author = &lt;span class="p"&gt;{&lt;/span&gt;Hu, Runzhi and Bai, Shiyu and Wen, Weisong and Xia, Xin and Hsu, Li-Ta&lt;span class="p"&gt;}&lt;/span&gt;,
-title = &lt;span class="p"&gt;{&lt;/span&gt;Towards high-definition vector map construction based on multi-sensor integration for intelligent vehicles: Systems and error quantification&lt;span class="p"&gt;}&lt;/span&gt;,
-journal = &lt;span class="p"&gt;{&lt;/span&gt;IET Intelligent Transport Systems&lt;span class="p"&gt;}&lt;/span&gt;,
-volume = &lt;span class="p"&gt;{&lt;/span&gt;n/a&lt;span class="p"&gt;}&lt;/span&gt;,
-number = &lt;span class="p"&gt;{&lt;/span&gt;n/a&lt;span class="p"&gt;}&lt;/span&gt;,
-pages = &lt;span class="p"&gt;{}&lt;/span&gt;,
-keywords = &lt;span class="p"&gt;{&lt;/span&gt;automated driving and intelligent vehicles, autonomous driving, navigation, sensor fusion&lt;span class="p"&gt;}&lt;/span&gt;,
-doi = &lt;span class="p"&gt;{&lt;/span&gt;https://doi.org/10.1049/itr2.12524&lt;span class="p"&gt;}&lt;/span&gt;,
-url = &lt;span class="p"&gt;{&lt;/span&gt;https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/itr2.12524&lt;span class="p"&gt;}&lt;/span&gt;,
-eprint = &lt;span class="p"&gt;{&lt;/span&gt;https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/itr2.12524&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;!-- Add video. --&gt;
-&lt;!-- &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/m2Lm8RY2uYI?si=3g26doqQz-9AnBOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt; --&gt;
-'>
-  <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-02-15T05:28:27+00:00">
-  <meta property="article:published_time" content="2025-11-11T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-02-15T05:28:27+00:00">
-  <meta name="revised" content="2026-02-15T05:28:27+00:00">
+  <meta property="og:type" content="website">
 
 
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     
-      "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "Semantic-Vector HD Map" },
-      "datePublished": "2025-11-11T00:00:00+00:00",
-      "dateModified": "2026-02-15T05:28:27+00:00",
+      "@type": "WebSite",
     
-    "name": "Semantic-Vector HD Map",
+    "name": "Embodied AI for Robotics Education",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
-    "headline": "Semantic-Vector HD Map",
+    "headline": "Embodied AI for Robotics Education",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -326,6 +282,36 @@ eprint = &lt;span class="p"&gt;{&lt;/span&gt;https://ietresearch.onlinelibrary.w
     <link href="/_styles/util.css" rel="stylesheet">
   
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -490,121 +476,108 @@ eprint = &lt;span class="p"&gt;{&lt;/span&gt;https://ietresearch.onlinelibrary.w
   
   
 
-  <section class="background" data-size="1">
-    <!--
-  background: images/opensource/HDMap/garage_half.gif;
-  dark: ;
-  size: 1;
--->
-
-
-<h1 class="center">Semantic-Vector HD Map</h1>
-
-<div class="post-info">
-  
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Runzhi Hu</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 15, 2026</span>
-    </span>
-   -->
-</div>
-  </section>
-
-  
-  
-  
-
   <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
+    <h1 id="embodied-ai-for-robotics-education">Embodied AI for Robotics Education</h1>
 
+<p><a href="/projects" style="font-size:0.93em;">← Back to all Research Directions</a></p>
 
-<!-- Add breif description here.  -->
-<p>This is a pipeline to construct HD Semantic Map and HD Vector Map.</p>
+<style>
+.centered-video-container {
+  text-align: center;
+  margin: 20px 0;
+}
+.centered-video-container iframe {
+  max-width: 700px;
+  width: 100%;
+  height: 400px;
+  border-radius: 8px;
+  border: none;
+}
+</style>
 
-<!-- Add Main body here -->
-<p>This repository hosts an open-source HDVM (high-definition vector map) generation pipeline designed for autonomous vehicles, especially in intricate urban environments. Traditional HDVM creation methods often operate on a planar assumption, causing inaccuracies in real-world scenarios. Our solution, however, integrates data from GNSS (global navigation satellite system), INS (inertial navigation system), LiDAR, and cameras.</p>
+<hr>
 
-<p>The process starts with the extraction of semantic data from raw images using advanced architectures like Vision Transformer (ViT) and Swin Transformer. We then acquire the absolute 3D data of these semantic objects from 3D LiDAR depth and derive high-precision pose estimates from GNSS real-time kinematic (GNSS-RTK) and an INS navigation system. This semantic data aids in the extraction of vector information, such as lane markings, which forms the HDVM.</p>
+<h2 id="abstract">Abstract</h2>
 
-<p>A significant feature of this repo is its focus on HDVM accuracy. We’ve examined the impact of two primary error sources: segmentation discrepancies and LiDAR-camera extrinsic parameter deviations. An error propagation scheme is provided to showcase how these sources can affect the HDVM’s precision.</p>
-
-<p>For ease of setup and consistency, a Docker version of the pipeline is available and is the recommended method for deployment.</p>
-
-<p>For details, please refer to our official repository at <a href="https://github.com/ebhrz/HDMap">HDMap</a>.</p>
-
-<!-- Add picture. -->
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/ebhrz/HDMap/raw/main/img/garage.gif" alt="HDMap" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div style="text-align:justify; font-size:0.95em; line-height:1.65;">
+At the <b class="blue">TAS Lab</b>, we believe that cutting-edge research should go hand-in-hand with <b class="blue">innovative education</b>. Our research in Embodied AI for Robotics Education focuses on developing <b class="blue">AI-powered educational platforms</b> and <b class="blue">hands-on learning experiences</b> that bridge the gap between academic research and industry-ready skills. We leverage our expertise in autonomous systems — including <b class="blue">drones</b>, <b class="blue">ground robots</b>, and <b class="blue">intelligent vehicles</b> — to create immersive, project-based curricula that empower the next generation of roboticists and AI engineers.
 </div>
 
-<p>If you find this code useful, we would appreciate it if you cite our paper.</p>
-
-<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article<span class="p">{</span>https://doi.org/10.1049/itr2.12524,
-author = <span class="p">{</span>Hu, Runzhi and Bai, Shiyu and Wen, Weisong and Xia, Xin and Hsu, Li-Ta<span class="p">}</span>,
-title = <span class="p">{</span>Towards high-definition vector map construction based on multi-sensor integration for intelligent vehicles: Systems and error quantification<span class="p">}</span>,
-journal = <span class="p">{</span>IET Intelligent Transport Systems<span class="p">}</span>,
-volume = <span class="p">{</span>n/a<span class="p">}</span>,
-number = <span class="p">{</span>n/a<span class="p">}</span>,
-pages = <span class="p">{}</span>,
-keywords = <span class="p">{</span>automated driving and intelligent vehicles, autonomous driving, navigation, sensor fusion<span class="p">}</span>,
-doi = <span class="p">{</span>https://doi.org/10.1049/itr2.12524<span class="p">}</span>,
-url = <span class="p">{</span>https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/itr2.12524<span class="p">}</span>,
-eprint = <span class="p">{</span>https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/itr2.12524<span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div></div>
-<!-- Add video. -->
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/m2Lm8RY2uYI?si=3g26doqQz-9AnBOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-
-<div class="post-nav">
-  <span>
-    
-  </span>
-  <span>
-    
-      Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/opensource/2025-11-11-kltdataset.html">
-        KLT Dataset
-      </a>
-    
-  </span>
+<div style="text-align:justify; font-size:0.95em; line-height:1.65; margin-top:0.6em;">
+Our educational research integrates <b class="blue">embodied AI concepts</b> into university courses and outreach programs, enabling students to interact with real robotic hardware and state-of-the-art AI algorithms. From <b class="blue">GNSS-based navigation labs</b> to <b class="blue">end-to-end autonomous driving projects</b>, we design curricula that combine theoretical foundations with practical implementations, fostering both deep understanding and engineering competency.
 </div>
+
+<hr>
+
+<h2 id="key-research-directions">Key Research Directions</h2>
+
+<div style="text-align:justify; font-size:0.95em; line-height:1.65;">
+
+- **AI-Powered Robotics Education Platforms** — Developing integrated hardware-software platforms for teaching AI, perception, navigation, and control using real drones, ground robots, and autonomous vehicles.
+
+- **GitHub-Based Collaborative Learning** — Pioneering open-source, GitHub-based pedagogical approaches with <b class="blue">50+ code examples</b> that have been adopted by universities worldwide, including <b class="blue">Wuhan University</b>, <b class="blue">Beihang University</b>, and <b class="blue">UC Berkeley</b>.
+
+- **Hands-on Project-Based Learning (PBL)** — Designing curricula around <b class="blue">ROS-based robotic car projects</b>, <b class="blue">drone programming workshops</b> (PX4/ArduPilot), MATLAB/Python demonstrations, and deep learning framework integration.
+
+- **Bridging Research and Industry Skills** — Training students with industry-relevant tools and platforms, preparing them for careers in <b class="blue">autonomous systems</b>, <b class="blue">AI engineering</b>, and <b class="blue">robotics R&amp;D</b>.
+
+- **Embodied AI Curriculum Development** — As Associate Programme Leader, Dr. Wen drafted the <b class="blue">MSc in Low-altitude Economy</b> proposal to meet emerging industry needs in drone technology and urban air mobility.
+
+</div>
+
+<hr>
+
+<h2 id="courses-and-teaching-platforms">Courses and Teaching Platforms</h2>
+
+<div style="text-align:justify; font-size:0.95em; line-height:1.65;">
+
+Our education research is tightly integrated with the following courses at <b class="blue">The Hong Kong Polytechnic University</b>:
+
+- **AAE4011** — <b class="blue">Artificial Intelligence in Unmanned Autonomous Systems</b>: Covers AI fundamentals for autonomous drones and ground robots, including perception, planning, and decision-making using deep learning and reinforcement learning.
+
+- **AAE4203** — <b class="blue">Guidance and Navigation</b>: GNSS positioning (SPP, DGNSS, RTK), visual navigation, state estimation using Kalman filtering and factor graph optimization. Features video lectures and hands-on tutorials.
+
+- **AAE3004** — <b class="blue">Dynamical Systems and Control</b>: Fundamentals of dynamical systems modeling, stability analysis, and feedback control design for aerospace and robotics applications.
+
+- **AAE6102** — <b class="blue">Satellite Communication and Navigation</b> (Invited Lecture): Advanced GNSS positioning techniques, multi-sensor integration, and AI-aided navigation in urban environments.
+
+</div>
+
+<hr>
+
+<h2 id="video-lectures">Video Lectures</h2>
+
+<div class="centered-video-container">
+  <iframe src="https://www.youtube.com/embed/Ob8aM2lTnbk" title="AAE4203 Guidance and Navigation Lecture" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  <p style="font-size:0.85em;color:#555;margin-top:6px;">AAE4203 Guidance and Navigation — Lecture Series on YouTube</p>
+</div>
+
+<hr>
+
+<h2 id="student-supervision-highlights">Student Supervision Highlights</h2>
+
+<div style="text-align:justify; font-size:0.95em; line-height:1.65;">
+
+- **Reliable UAV Perception and Perching Solutions** in Urban Areas — ZHAO Jiaqi, LI Mingjue To, FU Chenlei (AAE10, 2024/25)
+- **Handheld Multi-sensor Fusion Mapping System** — QIN Qijun, WANG Yuteng (AAE11, 2024/25)
+- **High-Definition Map with Traffic Signs Based on LiDAR-Visual-IMU Fusion SLAM** — QIN Qijun <b class="blue">(Merit Award, Best URIS Research Project 2024)</b>
+- **An Adaptive Drilling Process for the Aircraft Skin** — LAU Chun Ho, LEUNG Cheuk To, CHAN Hei Lam Joshua (DD01, 2022/23)
+- **UAS for Situation Awareness and Risk Assessment** — LAM Yat Long, CHEN Yat Nam (AAE39, 2022/23)
+- **Person-following Mobile Robotics** — MOHAMMAD Tamz (AAE33, 2021/22)
+
+</div>
+
+<hr>
+
+<h2 id="acknowledgement-and-collaborators">Acknowledgement and Collaborators</h2>
+
+<div style="text-align:justify; font-size:0.95em; line-height:1.65;">
+Our robotics education initiatives are supported by <b class="blue">The Hong Kong Polytechnic University</b>, the <b class="blue">Department of Aeronautical and Aviation Engineering</b>, and the <b class="blue">Faculty of Engineering</b>. We are grateful to our collaborators at <b class="blue">Wuhan University</b>, <b class="blue">Beihang University</b>, <b class="blue">UC Berkeley</b>, and industry partners for adopting and contributing to our open-source educational resources.
+</div>
+
+<p align="center">
+  <img width="700" src="/images/project/funding.jpg" alt="Funding and Collaborators">
+</p>
   </section>
 
 
