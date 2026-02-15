@@ -77,6 +77,9 @@ Inspired by the strong perception capability of ADV using onboard sensors (such 
 ## Related Papers (*: Corresponding author)
 
 <style>
+p[align="center"] { text-align: center !important; }
+p[align="center"] img, p[align="center"] iframe { display: inline-block; max-width: 100%; }
+center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
 .pub-list { list-style: none; padding-left: 0; }
 .pub-item { margin: 10px 0; padding: 10px 14px; border-left: 3px solid var(--primary, #0795d9); background: #f9fbfd; font-size: 0.92em; line-height: 1.55; }
 .pub-title { font-weight: 600; color: var(--primary, #0795d9); }

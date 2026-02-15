@@ -38,12 +38,12 @@ Our approach integrates three core elements:
 </p>
 <center><i>Campus Security Patrol Demonstration with UGV — PolyU AAE/CFSO, Sept 2022</i></center>
 
-<div style="text-align:center;margin:20px 0;">
-<iframe src="//player.bilibili.com/player.html?bvid=BV1ktZcYdEWD&page=1&autoplay=0" width="100%" height="400" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="max-width:700px;border-radius:8px;"></iframe>
-<p style="font-size:0.85em;color:#555;margin-top:6px;">Autonomous Driving Test — TAS Lab, PolyU</p>
-</div>
+<p align="center">
+  <iframe src="//player.bilibili.com/player.html?bvid=BV1ktZcYdEWD&page=1&autoplay=0" width="560" height="315" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</p>
+<center><i>Autonomous Driving Test — TAS Lab, PolyU</i></center>
 
-<table style="width:100%;border-collapse:collapse;border:none;margin:10px 0 20px;"><tr style="border:none;"><td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;"><iframe width="100%" height="180" src="https://www.youtube.com/embed/Q0nq1vHeinM" title="Autonomous driving PolyU campus demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;"></iframe><p style="font-size:0.82em;color:#555;margin-top:4px;">Autonomous driving PolyU campus demo</p></td><td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;"><iframe width="100%" height="180" src="https://www.youtube.com/embed/90fOkCs_ID4" title="Localization and Control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;"></iframe><p style="font-size:0.82em;color:#555;margin-top:4px;">Localization and Control</p></td><td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;"><iframe width="100%" height="180" src="https://www.youtube.com/embed/FQ5aHB4o3jg" title="Perception and control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;"></iframe><p style="font-size:0.82em;color:#555;margin-top:4px;">Perception and Control</p></td></tr></table>
+<table style="width:100%;border-collapse:collapse;border:none;margin:10px 0 20px;"><tr style="border:none;"><td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;"><iframe width="100%" height="180" src="https://www.youtube.com/embed/Q0nq1vHeinM" title="Autonomous driving PolyU campus demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;"></iframe><br>Autonomous driving PolyU campus demo</td><td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;"><iframe width="100%" height="180" src="https://www.youtube.com/embed/90fOkCs_ID4" title="Localization and Control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;"></iframe><br>Localization and Control</td><td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;"><iframe width="100%" height="180" src="https://www.youtube.com/embed/FQ5aHB4o3jg" title="Perception and control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;"></iframe><br>Perception and Control</td></tr></table>
 
 {% include section.html %}
 
@@ -58,6 +58,9 @@ Our approach integrates three core elements:
 ## Selected Publications (*: Corresponding author)
 
 <style>
+p[align="center"] { text-align: center !important; }
+p[align="center"] img, p[align="center"] iframe { display: inline-block; max-width: 100%; }
+center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
 .pub-list { list-style: none; padding-left: 0; }
 .pub-item { margin: 10px 0; padding: 10px 14px; border-left: 3px solid var(--primary, #0795d9); background: #f9fbfd; font-size: 0.92em; line-height: 1.55; }
 .pub-title { font-weight: 600; color: var(--primary, #0795d9); }
