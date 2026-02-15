@@ -27,16 +27,16 @@ Our approach integrates three core elements:
 </p>
 <center><i>Autonomous Vehicle Platform for Campus Logistics and Urban Navigation</i></center>
 
-<p align="center">
-  <img width="700" src="{{ 'images/project/demo_20220923.jpg' | relative_url }}" alt="Campus UGV patrol demonstration">
-</p>
-<center><i>Campus Security Patrol Demonstration with UGV — PolyU AAE/CFSO, Sept 2022</i></center>
-
 <a href="{{ 'projects' | relative_url }}" style="font-size: 0.9em;">← Back to all Research Directions</a>
 
 {% include section.html %}
 
-## Demo Videos
+## Demo Videos & Photos
+
+<div style="text-align:center;margin:20px 0;">
+  <img width="700" src="{{ 'images/project/demo_20220923.jpg' | relative_url }}" alt="Campus UGV patrol demonstration" style="border-radius:8px;max-width:100%;">
+  <p style="font-size:0.85em;color:#555;margin-top:6px;">Campus Security Patrol Demonstration with UGV — PolyU AAE/CFSO, Sept 2022</p>
+</div>
 
 <div style="text-align:center;margin:20px 0;">
 <iframe src="//player.bilibili.com/player.html?bvid=BV1ktZcYdEWD&page=1&autoplay=0" width="100%" height="400" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="max-width:700px;border-radius:8px;"></iframe>
@@ -110,9 +110,9 @@ Our approach integrates three core elements:
 This research is supported by government and industry partners, including the <b class="blue">Hong Kong Polytechnic University</b>, <b class="blue">Guangdong Basic and Applied Basic Research Foundation</b>, <b class="blue">Hong Kong Smart Traffic Fund</b>, <b class="blue">Innovation and Technology Fund</b>, <b class="blue"><a href="https://www.huawei.com/">Huawei Technologies</a></b>, <b class="blue"><a href="https://www.meituan.com/">Meituan</a></b>, <b class="blue"><a href="https://www.tencent.com/">Tencent</a></b>, and <b class="blue"><a href="https://www.idriverplus.com/cn/index.html">iDriverplus</a></b>. We also collaborate closely with the <b class="blue"><a href="https://msc.berkeley.edu/">Mechanical Systems Control Lab</a></b> at the University of California, Berkeley, and the <b class="blue"><a href="https://www.tu-chemnitz.de/">Chemnitz University of Technology</a></b> in Germany.
 </div>
 
-<p align="center">
-  <img width="700" src="{{ 'images/project/funding.jpg' | relative_url }}" alt="Funding and Collaborators">
-</p>
+<div style="text-align:center;margin:20px 0;">
+<img width="700" src="{{ 'images/project/funding.jpg' | relative_url }}" alt="Funding and Collaborators" style="max-width:100%;border-radius:4px;">
+</div>
 
 {% include section.html %}
 
