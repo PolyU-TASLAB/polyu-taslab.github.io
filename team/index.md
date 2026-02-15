@@ -120,6 +120,14 @@ Our lab is made up of a <b class="blue">highly engaged and collaborative team</b
 .portrait-link-icon:hover {
   color: var(--primary, #0795d9);
 }
+.pi-bio-card {
+  background: #f9fbfd;
+  border-left: 4px solid var(--primary, #0795d9);
+  border-radius: 8px;
+  padding: 1.2em 1.4em;
+  margin: 0.5em 0 2em 0;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+}
 </style>
 
 {% assign pi_members = site.members | where: "role", "pi" %}
@@ -135,6 +143,19 @@ Our lab is made up of a <b class="blue">highly engaged and collaborative team</b
 <div class="team-section-title">Faculty / Principal Investigator ({{ pi_members.size }})</div>
 <div class="team-grid">
   {% include list_students.html data="members" component="portrait_students" filters="role == 'pi'" %}
+</div>
+
+<div class="pi-bio-card">
+<h4 style="margin:0 0 0.5em 0; color:var(--primary, #0795d9); font-size:1.05em;">About Dr. Weisong Wen — <a href="https://weisongwen.github.io/" style="color:var(--primary, #0795d9);">Homepage</a></h4>
+<p style="text-align:justify; margin:0 0 0.6em 0; font-size:0.92em; line-height:1.6; color:#333;">
+<b class="blue">Dr. Weisong Wen</b> is an <b class="blue">Assistant Professor</b> at the Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University, and the <b class="blue">Director of the Trustworthy AI and Autonomous Systems Laboratory (TAS Lab)</b>. He is also a member of <b class="blue">IEEE</b> and the <b class="blue">Institute of Navigation (ION)</b>. Dr. Wen aims to build algorithm foundations for <b class="blue">embodied AI</b> that enable trustworthy perception, navigation, and control of autonomous systems. In particular, he aims to develop practical embodied AI-driven autonomous systems (<b class="blue">drones</b>, <b class="blue">intelligent vehicles</b>, and <b class="blue">humanoid robots</b>) with end-to-end learning and safety certification capabilities, enabling them to perceive, reason, and interact with the physical world safely and reliably for the future society.
+</p>
+<p style="text-align:justify; margin:0 0 0.6em 0; font-size:0.92em; line-height:1.6; color:#333;">
+Dr. Wen received a BEng degree in Mechanical Engineering from <b class="blue">Beijing Information Science and Technology University (BISTU)</b> in 2015, and a MEng degree from the <b class="blue">China Agricultural University (CAU)</b> in 2017. He received a PhD degree from <b class="blue">The Hong Kong Polytechnic University (PolyU)</b> supervised by Dr. Li-ta Hsu in 2020. He was also a visiting PhD student at the <b class="blue">University of California, Berkeley (UC Berkeley)</b> in 2018, supervised by Dr. Zhan and Prof. Tomizuka.
+</p>
+<p style="text-align:justify; margin:0; font-size:0.92em; line-height:1.6; color:#333;">
+He has published more than <b class="blue">62 SCI journal papers</b> and <b class="blue">56 conference papers</b> (total citations: <b class="blue">2,600+</b>, h-index: <b class="blue">27</b>) and has secured over <b class="blue">HK$28M</b> in research funding as PI. He was ranked in the <b class="blue">World's Top 2% Most-cited Scientists</b> by Stanford University in both 2023 and 2024. He won the <b class="blue">Innovation Award from TechConnect 2021</b>, the <b class="blue">Best Presentation Award from ION in 2020</b>, the <b class="blue">Top Cited Paper Award from NAVIGATION (Journal of ION) in 2022</b>, and the <b class="blue">Faculty of Engineering Research Grant Achievement Award from PolyU in 2025</b>. He is also the <b class="blue">Associate Editor of IEEE Transactions on Vehicular Technology</b> (JCR Q1, IF: 7.1).
+</p>
 </div>
 
 <div class="team-section-title">Postdoctoral Fellows ({{ postdoc_members.size }})</div>
