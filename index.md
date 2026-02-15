@@ -88,6 +88,10 @@ Our research aims to build algorithm foundations for <b class="blue">embodied AI
     <h4>🚁 Embodied Drones for City Maintenance</h4>
     <p>Intelligent drones and <b class="blue">UAV swarm systems</b>, aerial manipulation for urban infrastructure, software-hardware co-design for efficient embodied AI drone systems.</p>
   </div>
+  <div class="rd-card">
+    <h4>🎓 Embodied AI for Robotics Education</h4>
+    <p><b class="blue">AI-powered robotics education</b> platforms, hands-on project-based learning with drones and ground robots, <b class="blue">GitHub-based collaborative learning</b> pedagogy.</p>
+  </div>
 </div>
 
 {% include section.html %}
