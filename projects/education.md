@@ -6,10 +6,6 @@ title: Embodied AI for Robotics Education
 
 <a href="{{ 'projects' | relative_url }}" style="font-size:0.93em;">← Back to all Research Directions</a>
 
-<p align="center">
-  <img width="800" src="{{ 'images/project/EBAIEdu.png' | relative_url }}" alt="Embodied AI for Robotics Education">
-</p>
-
 <style>
 .centered-video-container {
   text-align: center;
@@ -31,6 +27,10 @@ title: Embodied AI for Robotics Education
   margin-bottom: 0.5em;
 }
 </style>
+
+<p align="center">
+  <img width="800" src="{{ 'images/project/EBAIEdu.png' | relative_url }}" alt="Embodied AI for Robotics Education">
+</p>
 
 ---
 
