@@ -60,38 +60,42 @@
 <meta property="twitter:image" content="/images/share.jpg">
 
 
-  <meta name="author" content='&lt;!-- Add breif description here.  --&gt;
-&lt;p&gt;A tightly coupled deep learning framework for GNSS.&lt;/p&gt;
+  <meta name="author" content='&lt;p&gt;A &lt;b class="blue"&gt;tightly coupled deep learning framework&lt;/b&gt; for &lt;b class="blue"&gt;GNSS positioning&lt;/b&gt; in challenging urban environments.&lt;/p&gt;
 
-&lt;!-- Add Main body here --&gt;
-&lt;p&gt;This framework is built on pyrtklib and TASGNSS, designed to tightly integrate deep learning into the GNSS (Global Navigation Satellite System) processing workflow. For details, please refer to our official repository at &lt;a href="https://github.com/ebhrz/TDL-GNSS"&gt;TDL-GNSS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/ebhrz/TDL-GNSS"&gt;TDL-GNSS&lt;/a&gt;&lt;/strong&gt; is built on top of &lt;a href="https://github.com/IPNL-POLYU/pyrtklib"&gt;pyrtklib&lt;/a&gt; and &lt;a href="https://github.com/PolyU-TASLAB/TASGNSS"&gt;TASGNSS&lt;/a&gt;, designed to seamlessly integrate deep learning models into the GNSS processing workflow. The framework enables researchers to leverage neural networks for tasks such as satellite signal quality assessment, weight optimization, and positioning error mitigation — all within a unified Python pipeline.&lt;/p&gt;
 
-&lt;p&gt;You can access the preprint version of our paper on arXiv and the published version on IEEE Xplore. We would greatly appreciate it if you cite our work:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Tightly integrates deep learning with conventional GNSS processing (SPP, RTK, PPP)&lt;/li&gt;
+  &lt;li&gt;Built on the established pyrtklib and TASGNSS ecosystem&lt;/li&gt;
+  &lt;li&gt;End-to-end trainable pipeline for GNSS positioning&lt;/li&gt;
+  &lt;li&gt;Designed for urban canyon scenarios with severe multipath and NLOS effects&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;@ARTICLE{10965937,
-  author={Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong},
-  journal={IEEE Transactions on Intelligent Transportation Systems}, 
-  title={pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons}, 
-  year={2025},
-  volume={26},
-  number={7},
-  pages={10652-10662},
-  keywords={Global navigation satellite system;Deep learning;Python;Artificial intelligence;Weight measurement;Satellites;Receivers;Mathematical models;Training;Position measurement;Artificial intelligence;deep learning;GNSS;RTKLIB},
-  doi={10.1109/TITS.2025.3552691}}&lt;/p&gt;
+&lt;p align="center"&gt;
+  &lt;img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/opensource/TDL-GNSS/TDL_structure.png" alt="TDL-GNSS Framework" style="width:100%; max-width:750px; border-radius:8px;" /&gt;
+&lt;/p&gt;
 
-&lt;!-- Add picture. --&gt;
-&lt;div style="text-align: center; margin-bottom: 20px;"&gt;
-  &lt;img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/opensource/TDL-GNSS/TDL_structure.png" alt="TDL-GNSS" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;" /&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="language-bibtex highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="nc"&gt;@ARTICLE&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;10965937&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;journal&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{IEEE Transactions on Intelligent Transportation Systems}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;year&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{2025}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;volume&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{26}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;number&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{7}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;pages&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{10652-10662}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;doi&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{10.1109/TITS.2025.3552691}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;!-- Add video. --&gt;
-&lt;!-- &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/m2Lm8RY2uYI?si=3g26doqQz-9AnBOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href="https://github.com/ebhrz/TDL-GNSS"&gt;https://github.com/ebhrz/TDL-GNSS&lt;/a&gt;&lt;/p&gt;
 '>
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-02-15T11:53:21+00:00">
+  <meta property="og:updated_time" content="2026-02-15T12:02:40+00:00">
   <meta property="article:published_time" content="2025-11-11T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-02-15T11:53:21+00:00">
-  <meta name="revised" content="2026-02-15T11:53:21+00:00">
+  <meta property="article:modified_time" content="2026-02-15T12:02:40+00:00">
+  <meta name="revised" content="2026-02-15T12:02:40+00:00">
 
 
 <script type="application/ld+json">
@@ -101,7 +105,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "TDL-GNSS" },
       "datePublished": "2025-11-11T00:00:00+00:00",
-      "dateModified": "2026-02-15T11:53:21+00:00",
+      "dateModified": "2026-02-15T12:02:40+00:00",
     
     "name": "TDL-GNSS",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
@@ -532,32 +536,36 @@
 -->
 
 
-<!-- Add breif description here.  -->
-<p>A tightly coupled deep learning framework for GNSS.</p>
+<p>A <b class="blue">tightly coupled deep learning framework</b> for <b class="blue">GNSS positioning</b> in challenging urban environments.</p>
 
-<!-- Add Main body here -->
-<p>This framework is built on pyrtklib and TASGNSS, designed to tightly integrate deep learning into the GNSS (Global Navigation Satellite System) processing workflow. For details, please refer to our official repository at <a href="https://github.com/ebhrz/TDL-GNSS">TDL-GNSS</a>.</p>
+<p><strong><a href="https://github.com/ebhrz/TDL-GNSS">TDL-GNSS</a></strong> is built on top of <a href="https://github.com/IPNL-POLYU/pyrtklib">pyrtklib</a> and <a href="https://github.com/PolyU-TASLAB/TASGNSS">TASGNSS</a>, designed to seamlessly integrate deep learning models into the GNSS processing workflow. The framework enables researchers to leverage neural networks for tasks such as satellite signal quality assessment, weight optimization, and positioning error mitigation — all within a unified Python pipeline.</p>
 
-<p>You can access the preprint version of our paper on arXiv and the published version on IEEE Xplore. We would greatly appreciate it if you cite our work:</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li>Tightly integrates deep learning with conventional GNSS processing (SPP, RTK, PPP)</li>
+  <li>Built on the established pyrtklib and TASGNSS ecosystem</li>
+  <li>End-to-end trainable pipeline for GNSS positioning</li>
+  <li>Designed for urban canyon scenarios with severe multipath and NLOS effects</li>
+</ul>
 
-<p>@ARTICLE{10965937,
-  author={Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong},
-  journal={IEEE Transactions on Intelligent Transportation Systems}, 
-  title={pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons}, 
-  year={2025},
-  volume={26},
-  number={7},
-  pages={10652-10662},
-  keywords={Global navigation satellite system;Deep learning;Python;Artificial intelligence;Weight measurement;Satellites;Receivers;Mathematical models;Training;Position measurement;Artificial intelligence;deep learning;GNSS;RTKLIB},
-  doi={10.1109/TITS.2025.3552691}}</p>
+<p align="center">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/opensource/TDL-GNSS/TDL_structure.png" alt="TDL-GNSS Framework" style="width:100%; max-width:750px; border-radius:8px;">
+</p>
 
-<!-- Add picture. -->
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/opensource/TDL-GNSS/TDL_structure.png" alt="TDL-GNSS" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-</div>
+<p><strong>Citation:</strong></p>
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@ARTICLE</span><span class="p">{</span><span class="nl">10965937</span><span class="p">,</span>
+  <span class="na">author</span><span class="p">=</span><span class="s">{Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong}</span><span class="p">,</span>
+  <span class="na">journal</span><span class="p">=</span><span class="s">{IEEE Transactions on Intelligent Transportation Systems}</span><span class="p">,</span>
+  <span class="na">title</span><span class="p">=</span><span class="s">{pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons}</span><span class="p">,</span>
+  <span class="na">year</span><span class="p">=</span><span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">volume</span><span class="p">=</span><span class="s">{26}</span><span class="p">,</span>
+  <span class="na">number</span><span class="p">=</span><span class="s">{7}</span><span class="p">,</span>
+  <span class="na">pages</span><span class="p">=</span><span class="s">{10652-10662}</span><span class="p">,</span>
+  <span class="na">doi</span><span class="p">=</span><span class="s">{10.1109/TITS.2025.3552691}</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
-<!-- Add video. -->
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/m2Lm8RY2uYI?si=3g26doqQz-9AnBOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+<p><strong>GitHub:</strong> <a href="https://github.com/ebhrz/TDL-GNSS">https://github.com/ebhrz/TDL-GNSS</a></p>
   </section>
 
   

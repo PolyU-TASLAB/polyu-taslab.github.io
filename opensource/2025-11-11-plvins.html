@@ -60,35 +60,39 @@
 <meta property="twitter:image" content="/images/share.jpg">
 
 
-  <meta name="author" content='&lt;!-- Add breif description here.  --&gt;
-&lt;p&gt;Safety-quantifiable Line Feature-based Monocular Visual Localization with 3D Prior Map&lt;/p&gt;
+  <meta name="author" content='&lt;p&gt;&lt;b class="blue"&gt;Safety-quantifiable&lt;/b&gt; line feature-based monocular &lt;b class="blue"&gt;visual localization&lt;/b&gt; with 3D prior map and integrity monitoring.&lt;/p&gt;
 
-&lt;!-- Add Main body here --&gt;
-&lt;p&gt;To address the drift and safety quantification challenges in visual localization, we propose a novel map-aided method that delivers both accurate pose estimates and a measurable error bound. By tightly integrating visual-inertial odometry with a prior line map, our system establishes geometric constraints between 2D image features and 3D map lines. Crucially, we introduce a GNSS-inspired integrity monitoring framework to compute a Protection Level (PL), which quantifies the potential error in both position and orientation, thereby certifying the solution’s safety.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/ZHENGXi-git/SafetyQuantifiable-PLVINS"&gt;SafetyQuantifiable-PLVINS&lt;/a&gt;&lt;/strong&gt; addresses drift and safety quantification challenges in visual localization by proposing a novel map-aided method that delivers both accurate pose estimates and a measurable error bound.&lt;/p&gt;
 
-&lt;p&gt;For details, please refer to our official repository at &lt;a href="https://github.com/ZHENGXi-git/SafetyQuantifiable-PLVINS"&gt;SafetyQuantifiable-PLVINS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Contributions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Tightly integrates visual-inertial odometry with a prior 3D line map via geometric constraints between 2D image features and 3D map lines&lt;/li&gt;
+  &lt;li&gt;Introduces a &lt;strong&gt;GNSS-inspired integrity monitoring framework&lt;/strong&gt; to compute a Protection Level (PL)&lt;/li&gt;
+  &lt;li&gt;Quantifies potential error in both position and orientation, certifying the solution’s safety&lt;/li&gt;
+  &lt;li&gt;First application of integrity monitoring to visual localization systems&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;And if you are using this code, please cite our paper by&lt;/p&gt;
-&lt;div class="language-latex highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;@article&lt;span class="p"&gt;{&lt;/span&gt;zheng2025safety,
-  title=&lt;span class="p"&gt;{&lt;/span&gt;Safety-quantifiable line feature-based monocular visual localization with 3d prior map&lt;span class="p"&gt;}&lt;/span&gt;,
-  author=&lt;span class="p"&gt;{&lt;/span&gt;Zheng, Xi and Wen, Weisong and Hsu, Li-Ta&lt;span class="p"&gt;}&lt;/span&gt;,
-  journal=&lt;span class="p"&gt;{&lt;/span&gt;IEEE Transactions on Intelligent Transportation Systems&lt;span class="p"&gt;}&lt;/span&gt;,
-  year=&lt;span class="p"&gt;{&lt;/span&gt;2025&lt;span class="p"&gt;}&lt;/span&gt;,
-  publisher=&lt;span class="p"&gt;{&lt;/span&gt;IEEE&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;p align="center"&gt;
+  &lt;img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/opensource/zhengxi/framework2.png" alt="SafetyQuantifiable-PLVINS Framework" style="width:100%; max-width:750px; border-radius:8px;" /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="language-bibtex highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="nc"&gt;@article&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;zheng2025safety&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Safety-quantifiable line feature-based monocular visual localization with 3D prior map}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Zheng, Xi and Wen, Weisong and Hsu, Li-Ta}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;journal&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{IEEE Transactions on Intelligent Transportation Systems}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;year&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{2025}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;publisher&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{IEEE}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;!-- Add picture. --&gt;
-&lt;div style="text-align: center; margin-bottom: 20px;"&gt;
-  &lt;img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/opensource/zhengxi/framework2.png" width="%30" height="%30" /&gt;
-&lt;/div&gt;
-
+&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href="https://github.com/ZHENGXi-git/SafetyQuantifiable-PLVINS"&gt;https://github.com/ZHENGXi-git/SafetyQuantifiable-PLVINS&lt;/a&gt;&lt;/p&gt;
 '>
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-02-15T11:53:21+00:00">
+  <meta property="og:updated_time" content="2026-02-15T12:02:40+00:00">
   <meta property="article:published_time" content="2025-11-11T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-02-15T11:53:21+00:00">
-  <meta name="revised" content="2026-02-15T11:53:21+00:00">
+  <meta property="article:modified_time" content="2026-02-15T12:02:40+00:00">
+  <meta name="revised" content="2026-02-15T12:02:40+00:00">
 
 
 <script type="application/ld+json">
@@ -98,7 +102,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "SafetyQuantifiable-PLVINS" },
       "datePublished": "2025-11-11T00:00:00+00:00",
-      "dateModified": "2026-02-15T11:53:21+00:00",
+      "dateModified": "2026-02-15T12:02:40+00:00",
     
     "name": "SafetyQuantifiable-PLVINS",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
@@ -529,28 +533,33 @@
 -->
 
 
-<!-- Add breif description here.  -->
-<p>Safety-quantifiable Line Feature-based Monocular Visual Localization with 3D Prior Map</p>
+<p><b class="blue">Safety-quantifiable</b> line feature-based monocular <b class="blue">visual localization</b> with 3D prior map and integrity monitoring.</p>
 
-<!-- Add Main body here -->
-<p>To address the drift and safety quantification challenges in visual localization, we propose a novel map-aided method that delivers both accurate pose estimates and a measurable error bound. By tightly integrating visual-inertial odometry with a prior line map, our system establishes geometric constraints between 2D image features and 3D map lines. Crucially, we introduce a GNSS-inspired integrity monitoring framework to compute a Protection Level (PL), which quantifies the potential error in both position and orientation, thereby certifying the solution’s safety.</p>
+<p><strong><a href="https://github.com/ZHENGXi-git/SafetyQuantifiable-PLVINS">SafetyQuantifiable-PLVINS</a></strong> addresses drift and safety quantification challenges in visual localization by proposing a novel map-aided method that delivers both accurate pose estimates and a measurable error bound.</p>
 
-<p>For details, please refer to our official repository at <a href="https://github.com/ZHENGXi-git/SafetyQuantifiable-PLVINS">SafetyQuantifiable-PLVINS</a></p>
+<p><strong>Key Contributions:</strong></p>
+<ul>
+  <li>Tightly integrates visual-inertial odometry with a prior 3D line map via geometric constraints between 2D image features and 3D map lines</li>
+  <li>Introduces a <strong>GNSS-inspired integrity monitoring framework</strong> to compute a Protection Level (PL)</li>
+  <li>Quantifies potential error in both position and orientation, certifying the solution’s safety</li>
+  <li>First application of integrity monitoring to visual localization systems</li>
+</ul>
 
-<p>And if you are using this code, please cite our paper by</p>
-<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article<span class="p">{</span>zheng2025safety,
-  title=<span class="p">{</span>Safety-quantifiable line feature-based monocular visual localization with 3d prior map<span class="p">}</span>,
-  author=<span class="p">{</span>Zheng, Xi and Wen, Weisong and Hsu, Li-Ta<span class="p">}</span>,
-  journal=<span class="p">{</span>IEEE Transactions on Intelligent Transportation Systems<span class="p">}</span>,
-  year=<span class="p">{</span>2025<span class="p">}</span>,
-  publisher=<span class="p">{</span>IEEE<span class="p">}</span>
+<p align="center">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/opensource/zhengxi/framework2.png" alt="SafetyQuantifiable-PLVINS Framework" style="width:100%; max-width:750px; border-radius:8px;">
+</p>
+
+<p><strong>Citation:</strong></p>
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@article</span><span class="p">{</span><span class="nl">zheng2025safety</span><span class="p">,</span>
+  <span class="na">title</span><span class="p">=</span><span class="s">{Safety-quantifiable line feature-based monocular visual localization with 3D prior map}</span><span class="p">,</span>
+  <span class="na">author</span><span class="p">=</span><span class="s">{Zheng, Xi and Wen, Weisong and Hsu, Li-Ta}</span><span class="p">,</span>
+  <span class="na">journal</span><span class="p">=</span><span class="s">{IEEE Transactions on Intelligent Transportation Systems}</span><span class="p">,</span>
+  <span class="na">year</span><span class="p">=</span><span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">publisher</span><span class="p">=</span><span class="s">{IEEE}</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
-<!-- Add picture. -->
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/opensource/zhengxi/framework2.png" width="%30" height="%30">
-</div>
+<p><strong>GitHub:</strong> <a href="https://github.com/ZHENGXi-git/SafetyQuantifiable-PLVINS">https://github.com/ZHENGXi-git/SafetyQuantifiable-PLVINS</a></p>
   </section>
 
   

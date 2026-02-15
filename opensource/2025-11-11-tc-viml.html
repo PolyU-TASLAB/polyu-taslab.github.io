@@ -60,44 +60,47 @@
 <meta property="twitter:image" content="/images/share.jpg">
 
 
-  <meta name="author" content='&lt;!-- Add breif description here.  --&gt;
-&lt;p&gt;Tightly-coupled Visual/Inertial/Map Integration with Observability Analysis for Reliable Localization of Intelligent Vehicles&lt;/p&gt;
+  <meta name="author" content='&lt;p&gt;&lt;b class="blue"&gt;Tightly-coupled Visual/Inertial/Map integration&lt;/b&gt; with observability analysis for &lt;b class="blue"&gt;reliable localization&lt;/b&gt; of intelligent vehicles.&lt;/p&gt;
 
-&lt;!-- Add Main body here --&gt;
-&lt;p&gt;To enable reliable and drift-free localization for intelligent vehicles, we propose a tightly-coupled visual-inertial odometry (VIO) system that leverages a 3D prior line map. Unlike loosely-coupled methods, our approach deeply integrates line features into a factor graph optimization, supported by a robust cross-modality matching and outlier rejection strategy. For the first time, we rigorously prove that our system achieves full observability in global translation, leaving only the yaw angle unobservable. Evaluations in both simulated and real-world environments confirm the system’s effectiveness.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/ZHENGXi-git/TC-VIML"&gt;TC-VIML&lt;/a&gt;&lt;/strong&gt; proposes a tightly-coupled visual-inertial odometry (VIO) system that leverages a 3D prior line map for drift-free localization. Unlike loosely-coupled methods, our approach deeply integrates line features into a factor graph optimization framework, supported by a robust cross-modality matching and outlier rejection strategy.&lt;/p&gt;
 
-&lt;p&gt;For details, please refer to our official repository at &lt;a href="https://github.com/ZHENGXi-git/TC-VIML"&gt;TC-VIML&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Contributions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Tight integration of 2D image line features with a 3D prior line map via factor graph optimization&lt;/li&gt;
+  &lt;li&gt;Robust cross-modality matching and outlier rejection for line feature association&lt;/li&gt;
+  &lt;li&gt;First rigorous proof that the system achieves &lt;strong&gt;full observability in global translation&lt;/strong&gt; (only yaw unobservable)&lt;/li&gt;
+  &lt;li&gt;Validated in both simulated and real-world urban driving environments&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;And if you are using this code, please cite our paper by&lt;/p&gt;
-&lt;div class="language-latex highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;@article&lt;span class="p"&gt;{&lt;/span&gt;zheng2024tightly,
-  title=&lt;span class="p"&gt;{&lt;/span&gt;Tightly-coupled visual/inertial/map integration with observability analysis for reliable localization of intelligent vehicles&lt;span class="p"&gt;}&lt;/span&gt;,
-  author=&lt;span class="p"&gt;{&lt;/span&gt;Zheng, Xi and Wen, Weisong and Hsu, Li-Ta&lt;span class="p"&gt;}&lt;/span&gt;,
-  journal=&lt;span class="p"&gt;{&lt;/span&gt;IEEE Transactions on Intelligent Vehicles&lt;span class="p"&gt;}&lt;/span&gt;,
-  year=&lt;span class="p"&gt;{&lt;/span&gt;2024&lt;span class="p"&gt;}&lt;/span&gt;,
-  publisher=&lt;span class="p"&gt;{&lt;/span&gt;IEEE&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;p align="center"&gt;
+  &lt;img src="https://github.com/ZHENGXi-git/TC-VIML/raw/main/support_files/image/framework.png" alt="TC-VIML Framework" style="width:100%; max-width:750px; border-radius:8px;" /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="language-bibtex highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="nc"&gt;@article&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;zheng2024tightly&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Tightly-coupled visual/inertial/map integration with observability analysis for reliable localization of intelligent vehicles}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Zheng, Xi and Wen, Weisong and Hsu, Li-Ta}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;journal&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{IEEE Transactions on Intelligent Vehicles}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;year&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{2024}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;publisher&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{IEEE}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 
-@inproceedings&lt;span class="p"&gt;{&lt;/span&gt;zheng2023tightly,
-  title=&lt;span class="p"&gt;{&lt;/span&gt;Tightly-coupled line feature-aided visual inertial localization within lightweight 3d prior map for intelligent vehicles&lt;span class="p"&gt;}&lt;/span&gt;,
-  author=&lt;span class="p"&gt;{&lt;/span&gt;Zheng, Xi and Wen, Weisong and Hsu, Li-Ta&lt;span class="p"&gt;}&lt;/span&gt;,
-  booktitle=&lt;span class="p"&gt;{&lt;/span&gt;2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)&lt;span class="p"&gt;}&lt;/span&gt;,
-  pages=&lt;span class="p"&gt;{&lt;/span&gt;6019--6026&lt;span class="p"&gt;}&lt;/span&gt;,
-  year=&lt;span class="p"&gt;{&lt;/span&gt;2023&lt;span class="p"&gt;}&lt;/span&gt;,
-  organization=&lt;span class="p"&gt;{&lt;/span&gt;IEEE&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nc"&gt;@inproceedings&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;zheng2023tightly&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Tightly-coupled line feature-aided visual inertial localization within lightweight 3D prior map for intelligent vehicles}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Zheng, Xi and Wen, Weisong and Hsu, Li-Ta}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;booktitle&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{IEEE ITSC}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;pages&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{6019--6026}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;year&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{2023}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;!-- Add picture. --&gt;
-&lt;div style="text-align: center; margin-bottom: 20px;"&gt;
-  &lt;img src="https://github.com/ZHENGXi-git/TC-VIML/raw/main/support_files/image/framework.png" width="%30" height="%30" /&gt;
-&lt;/div&gt;
-
+&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href="https://github.com/ZHENGXi-git/TC-VIML"&gt;https://github.com/ZHENGXi-git/TC-VIML&lt;/a&gt;&lt;/p&gt;
 '>
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-02-15T11:53:21+00:00">
+  <meta property="og:updated_time" content="2026-02-15T12:02:40+00:00">
   <meta property="article:published_time" content="2025-11-11T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-02-15T11:53:21+00:00">
-  <meta name="revised" content="2026-02-15T11:53:21+00:00">
+  <meta property="article:modified_time" content="2026-02-15T12:02:40+00:00">
+  <meta name="revised" content="2026-02-15T12:02:40+00:00">
 
 
 <script type="application/ld+json">
@@ -107,7 +110,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "TC-VIML" },
       "datePublished": "2025-11-11T00:00:00+00:00",
-      "dateModified": "2026-02-15T11:53:21+00:00",
+      "dateModified": "2026-02-15T12:02:40+00:00",
     
     "name": "TC-VIML",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
@@ -538,37 +541,41 @@
 -->
 
 
-<!-- Add breif description here.  -->
-<p>Tightly-coupled Visual/Inertial/Map Integration with Observability Analysis for Reliable Localization of Intelligent Vehicles</p>
+<p><b class="blue">Tightly-coupled Visual/Inertial/Map integration</b> with observability analysis for <b class="blue">reliable localization</b> of intelligent vehicles.</p>
 
-<!-- Add Main body here -->
-<p>To enable reliable and drift-free localization for intelligent vehicles, we propose a tightly-coupled visual-inertial odometry (VIO) system that leverages a 3D prior line map. Unlike loosely-coupled methods, our approach deeply integrates line features into a factor graph optimization, supported by a robust cross-modality matching and outlier rejection strategy. For the first time, we rigorously prove that our system achieves full observability in global translation, leaving only the yaw angle unobservable. Evaluations in both simulated and real-world environments confirm the system’s effectiveness.</p>
+<p><strong><a href="https://github.com/ZHENGXi-git/TC-VIML">TC-VIML</a></strong> proposes a tightly-coupled visual-inertial odometry (VIO) system that leverages a 3D prior line map for drift-free localization. Unlike loosely-coupled methods, our approach deeply integrates line features into a factor graph optimization framework, supported by a robust cross-modality matching and outlier rejection strategy.</p>
 
-<p>For details, please refer to our official repository at <a href="https://github.com/ZHENGXi-git/TC-VIML">TC-VIML</a></p>
+<p><strong>Key Contributions:</strong></p>
+<ul>
+  <li>Tight integration of 2D image line features with a 3D prior line map via factor graph optimization</li>
+  <li>Robust cross-modality matching and outlier rejection for line feature association</li>
+  <li>First rigorous proof that the system achieves <strong>full observability in global translation</strong> (only yaw unobservable)</li>
+  <li>Validated in both simulated and real-world urban driving environments</li>
+</ul>
 
-<p>And if you are using this code, please cite our paper by</p>
-<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article<span class="p">{</span>zheng2024tightly,
-  title=<span class="p">{</span>Tightly-coupled visual/inertial/map integration with observability analysis for reliable localization of intelligent vehicles<span class="p">}</span>,
-  author=<span class="p">{</span>Zheng, Xi and Wen, Weisong and Hsu, Li-Ta<span class="p">}</span>,
-  journal=<span class="p">{</span>IEEE Transactions on Intelligent Vehicles<span class="p">}</span>,
-  year=<span class="p">{</span>2024<span class="p">}</span>,
-  publisher=<span class="p">{</span>IEEE<span class="p">}</span>
+<p align="center">
+  <img src="https://github.com/ZHENGXi-git/TC-VIML/raw/main/support_files/image/framework.png" alt="TC-VIML Framework" style="width:100%; max-width:750px; border-radius:8px;">
+</p>
+
+<p><strong>Citation:</strong></p>
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@article</span><span class="p">{</span><span class="nl">zheng2024tightly</span><span class="p">,</span>
+  <span class="na">title</span><span class="p">=</span><span class="s">{Tightly-coupled visual/inertial/map integration with observability analysis for reliable localization of intelligent vehicles}</span><span class="p">,</span>
+  <span class="na">author</span><span class="p">=</span><span class="s">{Zheng, Xi and Wen, Weisong and Hsu, Li-Ta}</span><span class="p">,</span>
+  <span class="na">journal</span><span class="p">=</span><span class="s">{IEEE Transactions on Intelligent Vehicles}</span><span class="p">,</span>
+  <span class="na">year</span><span class="p">=</span><span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">publisher</span><span class="p">=</span><span class="s">{IEEE}</span>
 <span class="p">}</span>
 
-@inproceedings<span class="p">{</span>zheng2023tightly,
-  title=<span class="p">{</span>Tightly-coupled line feature-aided visual inertial localization within lightweight 3d prior map for intelligent vehicles<span class="p">}</span>,
-  author=<span class="p">{</span>Zheng, Xi and Wen, Weisong and Hsu, Li-Ta<span class="p">}</span>,
-  booktitle=<span class="p">{</span>2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)<span class="p">}</span>,
-  pages=<span class="p">{</span>6019--6026<span class="p">}</span>,
-  year=<span class="p">{</span>2023<span class="p">}</span>,
-  organization=<span class="p">{</span>IEEE<span class="p">}</span>
+<span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">zheng2023tightly</span><span class="p">,</span>
+  <span class="na">title</span><span class="p">=</span><span class="s">{Tightly-coupled line feature-aided visual inertial localization within lightweight 3D prior map for intelligent vehicles}</span><span class="p">,</span>
+  <span class="na">author</span><span class="p">=</span><span class="s">{Zheng, Xi and Wen, Weisong and Hsu, Li-Ta}</span><span class="p">,</span>
+  <span class="na">booktitle</span><span class="p">=</span><span class="s">{IEEE ITSC}</span><span class="p">,</span>
+  <span class="na">pages</span><span class="p">=</span><span class="s">{6019--6026}</span><span class="p">,</span>
+  <span class="na">year</span><span class="p">=</span><span class="s">{2023}</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
-<!-- Add picture. -->
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/ZHENGXi-git/TC-VIML/raw/main/support_files/image/framework.png" width="%30" height="%30">
-</div>
+<p><strong>GitHub:</strong> <a href="https://github.com/ZHENGXi-git/TC-VIML">https://github.com/ZHENGXi-git/TC-VIML</a></p>
   </section>
 
   
