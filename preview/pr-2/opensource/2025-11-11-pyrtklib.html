@@ -60,48 +60,53 @@
 <meta property="twitter:image" content="/preview/pr-/images/share.jpg">
 
 
-  <meta name="author" content='&lt;!-- Add breif description here.  --&gt;
-&lt;p&gt;Unleash all the performance of the most popular GNSS library – RTKLIB in python. A python binding for RTKLIB provides full functions.&lt;/p&gt;
+  <meta name="author" content='&lt;p&gt;A complete &lt;b class="blue"&gt;Python binding for RTKLIB&lt;/b&gt;, bringing the full power of the most widely-used &lt;b class="blue"&gt;GNSS positioning library&lt;/b&gt; to the Python ecosystem.&lt;/p&gt;
 
-&lt;!-- Add Main body here --&gt;
-&lt;p&gt;This is a Python binding for RTKLIB, the most popular GNSS-RTK positioning C library. However, many researchers are currently using Python for research, especially in deep learning field. Thus, we implement this Python interface of RTKLIB to build a bridge between Python and positioning. By means of RTKLIB, you can easily read data from rinex file and process the positioning using the methods provided by RTKLIB, such as SPP, RTK, PPP.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/IPNL-POLYU/pyrtklib"&gt;pyrtklib&lt;/a&gt;&lt;/strong&gt; bridges the gap between RTKLIB’s high-performance C implementation and the Python-based research workflows widely used in deep learning and data science. With pyrtklib, you can read RINEX files, process GNSS observations, and perform SPP, RTK, and PPP positioning — all from Python.&lt;/p&gt;
 
-&lt;p&gt;For details, please refer to our official repository at &lt;a href="https://github.com/IPNL-POLYU/pyrtklib"&gt;pyrtklib&lt;/a&gt; &lt;a href="https://pepy.tech/projects/pyrtklib"&gt;&lt;img src="https://static.pepy.tech/personalized-badge/pyrtklib?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="PyPI Downloads" /&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Full Python interface to RTKLIB’s core functions&lt;/li&gt;
+  &lt;li&gt;Supports SPP, DGNSS, RTK, and PPP positioning modes&lt;/li&gt;
+  &lt;li&gt;Seamless RINEX file reading and GNSS observation processing&lt;/li&gt;
+  &lt;li&gt;Enables tight integration of deep learning with GNSS positioning&lt;/li&gt;
+  &lt;li&gt;Available via PyPI for easy installation&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;If you want to use the rtklib version based on rtklibexplorer/rtklib_demo5, please refer to &lt;a href="https://github.com/IPNL-POLYU/pyrtklib_demo5"&gt;pyrtklib_demo5&lt;/a&gt; &lt;a href="https://pepy.tech/projects/pyrtklib5"&gt;&lt;img src="https://static.pepy.tech/personalized-badge/pyrtklib5?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="PyPI Downloads" /&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;For quick install, you can use pip by&lt;/p&gt;
-&lt;div class="language-bash highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib
-pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib5 &lt;span class="c"&gt;#for rtklib_demo5&lt;/span&gt;
+&lt;p&gt;&lt;strong&gt;Quick Install:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="language-bash highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib        &lt;span class="c"&gt;# Standard RTKLIB version&lt;/span&gt;
+pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib5       &lt;span class="c"&gt;# Based on rtklibexplorer/rtklib_demo5&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;And if you are using this code, please cite our paper by&lt;/p&gt;
-&lt;div class="language-latex highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;@ARTICLE&lt;span class="p"&gt;{&lt;/span&gt;10965937,
-  author=&lt;span class="p"&gt;{&lt;/span&gt;Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong&lt;span class="p"&gt;}&lt;/span&gt;,
-  journal=&lt;span class="p"&gt;{&lt;/span&gt;IEEE Transactions on Intelligent Transportation Systems&lt;span class="p"&gt;}&lt;/span&gt;, 
-  title=&lt;span class="p"&gt;{&lt;/span&gt;pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons&lt;span class="p"&gt;}&lt;/span&gt;, 
-  year=&lt;span class="p"&gt;{&lt;/span&gt;2025&lt;span class="p"&gt;}&lt;/span&gt;,
-  volume=&lt;span class="p"&gt;{&lt;/span&gt;26&lt;span class="p"&gt;}&lt;/span&gt;,
-  number=&lt;span class="p"&gt;{&lt;/span&gt;7&lt;span class="p"&gt;}&lt;/span&gt;,
-  pages=&lt;span class="p"&gt;{&lt;/span&gt;10652-10662&lt;span class="p"&gt;}&lt;/span&gt;,
-  keywords=&lt;span class="p"&gt;{&lt;/span&gt;Global navigation satellite system;Deep learning;Python;Artificial intelligence;Weight measurement;Satellites;Receivers;Mathematical models;Training;Position measurement;Artificial intelligence;deep learning;GNSS;RTKLIB&lt;span class="p"&gt;}&lt;/span&gt;,
-  doi=&lt;span class="p"&gt;{&lt;/span&gt;10.1109/TITS.2025.3552691&lt;span class="p"&gt;}}&lt;/span&gt;
+&lt;p&gt;&lt;a href="https://pepy.tech/projects/pyrtklib"&gt;&lt;img src="https://static.pepy.tech/personalized-badge/pyrtklib?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="PyPI Downloads" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="language-bibtex highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="nc"&gt;@ARTICLE&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;10965937&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;journal&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{IEEE Transactions on Intelligent Transportation Systems}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;year&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{2025}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;volume&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{26}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;number&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{7}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;pages&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{10652-10662}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;doi&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{10.1109/TITS.2025.3552691}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;!-- Add picture. --&gt;
-&lt;!-- &lt;div style="text-align: center; margin-bottom: 20px;"&gt;
-  &lt;img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/huawei_mapping.gif" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;"&gt;
-&lt;/div&gt; --&gt;
-
-&lt;!-- Add video. --&gt;
-&lt;!-- &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/m2Lm8RY2uYI?si=3g26doqQz-9AnBOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;**GitHub:** [https://github.com/IPNL-POLYU/pyrtklib](https://github.com/IPNL-POLYU/pyrtklib)  &lt;/td&gt;
+      &lt;td&gt;  **Demo5 version:** [https://github.com/IPNL-POLYU/pyrtklib_demo5](https://github.com/IPNL-POLYU/pyrtklib_demo5)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 '>
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-02-15T11:53:21+00:00">
+  <meta property="og:updated_time" content="2026-02-15T12:02:40+00:00">
   <meta property="article:published_time" content="2025-11-11T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-02-15T11:53:21+00:00">
-  <meta name="revised" content="2026-02-15T11:53:21+00:00">
+  <meta property="article:modified_time" content="2026-02-15T12:02:40+00:00">
+  <meta name="revised" content="2026-02-15T12:02:40+00:00">
 
 
 <script type="application/ld+json">
@@ -111,7 +116,7 @@ pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib5 &lt;span class="c"&gt;
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "pyrtklib" },
       "datePublished": "2025-11-11T00:00:00+00:00",
-      "dateModified": "2026-02-15T11:53:21+00:00",
+      "dateModified": "2026-02-15T12:02:40+00:00",
     
     "name": "pyrtklib",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
@@ -542,42 +547,49 @@ pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib5 &lt;span class="c"&gt;
 -->
 
 
-<!-- Add breif description here.  -->
-<p>Unleash all the performance of the most popular GNSS library – RTKLIB in python. A python binding for RTKLIB provides full functions.</p>
+<p>A complete <b class="blue">Python binding for RTKLIB</b>, bringing the full power of the most widely-used <b class="blue">GNSS positioning library</b> to the Python ecosystem.</p>
 
-<!-- Add Main body here -->
-<p>This is a Python binding for RTKLIB, the most popular GNSS-RTK positioning C library. However, many researchers are currently using Python for research, especially in deep learning field. Thus, we implement this Python interface of RTKLIB to build a bridge between Python and positioning. By means of RTKLIB, you can easily read data from rinex file and process the positioning using the methods provided by RTKLIB, such as SPP, RTK, PPP.</p>
+<p><strong><a href="https://github.com/IPNL-POLYU/pyrtklib">pyrtklib</a></strong> bridges the gap between RTKLIB’s high-performance C implementation and the Python-based research workflows widely used in deep learning and data science. With pyrtklib, you can read RINEX files, process GNSS observations, and perform SPP, RTK, and PPP positioning — all from Python.</p>
 
-<p>For details, please refer to our official repository at <a href="https://github.com/IPNL-POLYU/pyrtklib">pyrtklib</a> <a href="https://pepy.tech/projects/pyrtklib"><img src="https://static.pepy.tech/personalized-badge/pyrtklib?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="PyPI Downloads"></a>.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li>Full Python interface to RTKLIB’s core functions</li>
+  <li>Supports SPP, DGNSS, RTK, and PPP positioning modes</li>
+  <li>Seamless RINEX file reading and GNSS observation processing</li>
+  <li>Enables tight integration of deep learning with GNSS positioning</li>
+  <li>Available via PyPI for easy installation</li>
+</ul>
 
-<p>If you want to use the rtklib version based on rtklibexplorer/rtklib_demo5, please refer to <a href="https://github.com/IPNL-POLYU/pyrtklib_demo5">pyrtklib_demo5</a> <a href="https://pepy.tech/projects/pyrtklib5"><img src="https://static.pepy.tech/personalized-badge/pyrtklib5?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="PyPI Downloads"></a>.</p>
-
-<p>For quick install, you can use pip by</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>pyrtklib
-pip <span class="nb">install </span>pyrtklib5 <span class="c">#for rtklib_demo5</span>
+<p><strong>Quick Install:</strong></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>pyrtklib        <span class="c"># Standard RTKLIB version</span>
+pip <span class="nb">install </span>pyrtklib5       <span class="c"># Based on rtklibexplorer/rtklib_demo5</span>
 </code></pre></div></div>
 
-<p>And if you are using this code, please cite our paper by</p>
-<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@ARTICLE<span class="p">{</span>10965937,
-  author=<span class="p">{</span>Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong<span class="p">}</span>,
-  journal=<span class="p">{</span>IEEE Transactions on Intelligent Transportation Systems<span class="p">}</span>, 
-  title=<span class="p">{</span>pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons<span class="p">}</span>, 
-  year=<span class="p">{</span>2025<span class="p">}</span>,
-  volume=<span class="p">{</span>26<span class="p">}</span>,
-  number=<span class="p">{</span>7<span class="p">}</span>,
-  pages=<span class="p">{</span>10652-10662<span class="p">}</span>,
-  keywords=<span class="p">{</span>Global navigation satellite system;Deep learning;Python;Artificial intelligence;Weight measurement;Satellites;Receivers;Mathematical models;Training;Position measurement;Artificial intelligence;deep learning;GNSS;RTKLIB<span class="p">}</span>,
-  doi=<span class="p">{</span>10.1109/TITS.2025.3552691<span class="p">}}</span>
+<p><a href="https://pepy.tech/projects/pyrtklib"><img src="https://static.pepy.tech/personalized-badge/pyrtklib?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="PyPI Downloads"></a></p>
+
+<p><strong>Citation:</strong></p>
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@ARTICLE</span><span class="p">{</span><span class="nl">10965937</span><span class="p">,</span>
+  <span class="na">author</span><span class="p">=</span><span class="s">{Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong}</span><span class="p">,</span>
+  <span class="na">journal</span><span class="p">=</span><span class="s">{IEEE Transactions on Intelligent Transportation Systems}</span><span class="p">,</span>
+  <span class="na">title</span><span class="p">=</span><span class="s">{pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons}</span><span class="p">,</span>
+  <span class="na">year</span><span class="p">=</span><span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">volume</span><span class="p">=</span><span class="s">{26}</span><span class="p">,</span>
+  <span class="na">number</span><span class="p">=</span><span class="s">{7}</span><span class="p">,</span>
+  <span class="na">pages</span><span class="p">=</span><span class="s">{10652-10662}</span><span class="p">,</span>
+  <span class="na">doi</span><span class="p">=</span><span class="s">{10.1109/TITS.2025.3552691}</span>
+<span class="p">}</span>
 </code></pre></div></div>
 
-<!-- Add picture. -->
-<!-- <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/huawei_mapping.gif" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-</div> -->
-
-<!-- Add video. -->
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/m2Lm8RY2uYI?si=3g26doqQz-9AnBOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+<table>
+  <tbody>
+    <tr>
+      <td>
+<strong>GitHub:</strong> <a href="https://github.com/IPNL-POLYU/pyrtklib">https://github.com/IPNL-POLYU/pyrtklib</a>  </td>
+      <td>  <strong>Demo5 version:</strong> <a href="https://github.com/IPNL-POLYU/pyrtklib_demo5">https://github.com/IPNL-POLYU/pyrtklib_demo5</a>
+</td>
+    </tr>
+  </tbody>
+</table>
   </section>
 
   

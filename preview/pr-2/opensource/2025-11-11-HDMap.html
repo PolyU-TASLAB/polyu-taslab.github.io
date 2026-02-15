@@ -60,48 +60,41 @@
 <meta property="twitter:image" content="/preview/pr-/images/share.jpg">
 
 
-  <meta name="author" content='&lt;!-- Add breif description here.  --&gt;
-&lt;p&gt;This is a pipeline to construct HD Semantic Map and HD Vector Map.&lt;/p&gt;
+  <meta name="author" content='&lt;p&gt;An open-source &lt;b class="blue"&gt;HD vector map (HDVM) generation pipeline&lt;/b&gt; for autonomous vehicles, integrating &lt;b class="blue"&gt;GNSS, INS, LiDAR, and camera&lt;/b&gt; data.&lt;/p&gt;
 
-&lt;!-- Add Main body here --&gt;
-&lt;p&gt;This repository hosts an open-source HDVM (high-definition vector map) generation pipeline designed for autonomous vehicles, especially in intricate urban environments. Traditional HDVM creation methods often operate on a planar assumption, causing inaccuracies in real-world scenarios. Our solution, however, integrates data from GNSS (global navigation satellite system), INS (inertial navigation system), LiDAR, and cameras.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/ebhrz/HDMap"&gt;HDMap&lt;/a&gt;&lt;/strong&gt; provides a complete pipeline for constructing high-definition semantic and vector maps, designed for autonomous driving in complex urban environments. Unlike traditional methods that rely on planar assumptions, our approach fuses multi-sensor data to produce accurate 3D HD maps.&lt;/p&gt;
 
-&lt;p&gt;The process starts with the extraction of semantic data from raw images using advanced architectures like Vision Transformer (ViT) and Swin Transformer. We then acquire the absolute 3D data of these semantic objects from 3D LiDAR depth and derive high-precision pose estimates from GNSS real-time kinematic (GNSS-RTK) and an INS navigation system. This semantic data aids in the extraction of vector information, such as lane markings, which forms the HDVM.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pipeline Overview:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Semantic extraction&lt;/strong&gt; — Extracts semantic information from raw images using Vision Transformer (ViT) and Swin Transformer architectures&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;3D reconstruction&lt;/strong&gt; — Obtains absolute 3D coordinates of semantic objects from LiDAR depth data&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Precise localization&lt;/strong&gt; — Uses GNSS-RTK and INS for high-precision pose estimation&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Vector map generation&lt;/strong&gt; — Extracts vector features (e.g., lane markings) to form the HD vector map&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Error analysis&lt;/strong&gt; — Provides an error propagation scheme analyzing segmentation and LiDAR-camera extrinsic calibration errors&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;A significant feature of this repo is its focus on HDVM accuracy. We’ve examined the impact of two primary error sources: segmentation discrepancies and LiDAR-camera extrinsic parameter deviations. An error propagation scheme is provided to showcase how these sources can affect the HDVM’s precision.&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;Docker version&lt;/strong&gt; of the pipeline is available for easy deployment.&lt;/p&gt;
 
-&lt;p&gt;For ease of setup and consistency, a Docker version of the pipeline is available and is the recommended method for deployment.&lt;/p&gt;
+&lt;p align="center"&gt;
+  &lt;img src="https://github.com/ebhrz/HDMap/raw/main/img/garage.gif" alt="HD Map Demo" style="width:100%; max-width:750px; border-radius:8px;" /&gt;
+&lt;/p&gt;
 
-&lt;p&gt;For details, please refer to our official repository at &lt;a href="https://github.com/ebhrz/HDMap"&gt;HDMap&lt;/a&gt;.&lt;/p&gt;
-
-&lt;!-- Add picture. --&gt;
-&lt;div style="text-align: center; margin-bottom: 20px;"&gt;
-  &lt;img src="https://github.com/ebhrz/HDMap/raw/main/img/garage.gif" alt="HDMap" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;" /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;If you find this code useful, we would appreciate it if you cite our paper.&lt;/p&gt;
-
-&lt;div class="language-latex highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;@article&lt;span class="p"&gt;{&lt;/span&gt;https://doi.org/10.1049/itr2.12524,
-author = &lt;span class="p"&gt;{&lt;/span&gt;Hu, Runzhi and Bai, Shiyu and Wen, Weisong and Xia, Xin and Hsu, Li-Ta&lt;span class="p"&gt;}&lt;/span&gt;,
-title = &lt;span class="p"&gt;{&lt;/span&gt;Towards high-definition vector map construction based on multi-sensor integration for intelligent vehicles: Systems and error quantification&lt;span class="p"&gt;}&lt;/span&gt;,
-journal = &lt;span class="p"&gt;{&lt;/span&gt;IET Intelligent Transport Systems&lt;span class="p"&gt;}&lt;/span&gt;,
-volume = &lt;span class="p"&gt;{&lt;/span&gt;n/a&lt;span class="p"&gt;}&lt;/span&gt;,
-number = &lt;span class="p"&gt;{&lt;/span&gt;n/a&lt;span class="p"&gt;}&lt;/span&gt;,
-pages = &lt;span class="p"&gt;{}&lt;/span&gt;,
-keywords = &lt;span class="p"&gt;{&lt;/span&gt;automated driving and intelligent vehicles, autonomous driving, navigation, sensor fusion&lt;span class="p"&gt;}&lt;/span&gt;,
-doi = &lt;span class="p"&gt;{&lt;/span&gt;https://doi.org/10.1049/itr2.12524&lt;span class="p"&gt;}&lt;/span&gt;,
-url = &lt;span class="p"&gt;{&lt;/span&gt;https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/itr2.12524&lt;span class="p"&gt;}&lt;/span&gt;,
-eprint = &lt;span class="p"&gt;{&lt;/span&gt;https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/itr2.12524&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;p&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="language-bibtex highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="nc"&gt;@article&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;hu2024hdmap&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Hu, Runzhi and Bai, Shiyu and Wen, Weisong and Xia, Xin and Hsu, Li-Ta}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Towards high-definition vector map construction based on multi-sensor integration for intelligent vehicles: Systems and error quantification}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;journal&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{IET Intelligent Transport Systems}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="na"&gt;doi&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{https://doi.org/10.1049/itr2.12524}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;!-- Add video. --&gt;
-&lt;!-- &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/m2Lm8RY2uYI?si=3g26doqQz-9AnBOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+
+&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href="https://github.com/ebhrz/HDMap"&gt;https://github.com/ebhrz/HDMap&lt;/a&gt;&lt;/p&gt;
 '>
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-02-15T11:53:21+00:00">
+  <meta property="og:updated_time" content="2026-02-15T12:02:40+00:00">
   <meta property="article:published_time" content="2025-11-11T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-02-15T11:53:21+00:00">
-  <meta name="revised" content="2026-02-15T11:53:21+00:00">
+  <meta property="article:modified_time" content="2026-02-15T12:02:40+00:00">
+  <meta name="revised" content="2026-02-15T12:02:40+00:00">
 
 
 <script type="application/ld+json">
@@ -111,7 +104,7 @@ eprint = &lt;span class="p"&gt;{&lt;/span&gt;https://ietresearch.onlinelibrary.w
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "Semantic-Vector HD Map" },
       "datePublished": "2025-11-11T00:00:00+00:00",
-      "dateModified": "2026-02-15T11:53:21+00:00",
+      "dateModified": "2026-02-15T12:02:40+00:00",
     
     "name": "Semantic-Vector HD Map",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
@@ -542,42 +535,40 @@ eprint = &lt;span class="p"&gt;{&lt;/span&gt;https://ietresearch.onlinelibrary.w
 -->
 
 
-<!-- Add breif description here.  -->
-<p>This is a pipeline to construct HD Semantic Map and HD Vector Map.</p>
+<p>An open-source <b class="blue">HD vector map (HDVM) generation pipeline</b> for autonomous vehicles, integrating <b class="blue">GNSS, INS, LiDAR, and camera</b> data.</p>
 
-<!-- Add Main body here -->
-<p>This repository hosts an open-source HDVM (high-definition vector map) generation pipeline designed for autonomous vehicles, especially in intricate urban environments. Traditional HDVM creation methods often operate on a planar assumption, causing inaccuracies in real-world scenarios. Our solution, however, integrates data from GNSS (global navigation satellite system), INS (inertial navigation system), LiDAR, and cameras.</p>
+<p><strong><a href="https://github.com/ebhrz/HDMap">HDMap</a></strong> provides a complete pipeline for constructing high-definition semantic and vector maps, designed for autonomous driving in complex urban environments. Unlike traditional methods that rely on planar assumptions, our approach fuses multi-sensor data to produce accurate 3D HD maps.</p>
 
-<p>The process starts with the extraction of semantic data from raw images using advanced architectures like Vision Transformer (ViT) and Swin Transformer. We then acquire the absolute 3D data of these semantic objects from 3D LiDAR depth and derive high-precision pose estimates from GNSS real-time kinematic (GNSS-RTK) and an INS navigation system. This semantic data aids in the extraction of vector information, such as lane markings, which forms the HDVM.</p>
+<p><strong>Pipeline Overview:</strong></p>
+<ol>
+  <li>
+<strong>Semantic extraction</strong> — Extracts semantic information from raw images using Vision Transformer (ViT) and Swin Transformer architectures</li>
+  <li>
+<strong>3D reconstruction</strong> — Obtains absolute 3D coordinates of semantic objects from LiDAR depth data</li>
+  <li>
+<strong>Precise localization</strong> — Uses GNSS-RTK and INS for high-precision pose estimation</li>
+  <li>
+<strong>Vector map generation</strong> — Extracts vector features (e.g., lane markings) to form the HD vector map</li>
+  <li>
+<strong>Error analysis</strong> — Provides an error propagation scheme analyzing segmentation and LiDAR-camera extrinsic calibration errors</li>
+</ol>
 
-<p>A significant feature of this repo is its focus on HDVM accuracy. We’ve examined the impact of two primary error sources: segmentation discrepancies and LiDAR-camera extrinsic parameter deviations. An error propagation scheme is provided to showcase how these sources can affect the HDVM’s precision.</p>
+<p>A <strong>Docker version</strong> of the pipeline is available for easy deployment.</p>
 
-<p>For ease of setup and consistency, a Docker version of the pipeline is available and is the recommended method for deployment.</p>
+<p align="center">
+  <img src="https://github.com/ebhrz/HDMap/raw/main/img/garage.gif" alt="HD Map Demo" style="width:100%; max-width:750px; border-radius:8px;">
+</p>
 
-<p>For details, please refer to our official repository at <a href="https://github.com/ebhrz/HDMap">HDMap</a>.</p>
-
-<!-- Add picture. -->
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/ebhrz/HDMap/raw/main/img/garage.gif" alt="HDMap" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-</div>
-
-<p>If you find this code useful, we would appreciate it if you cite our paper.</p>
-
-<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article<span class="p">{</span>https://doi.org/10.1049/itr2.12524,
-author = <span class="p">{</span>Hu, Runzhi and Bai, Shiyu and Wen, Weisong and Xia, Xin and Hsu, Li-Ta<span class="p">}</span>,
-title = <span class="p">{</span>Towards high-definition vector map construction based on multi-sensor integration for intelligent vehicles: Systems and error quantification<span class="p">}</span>,
-journal = <span class="p">{</span>IET Intelligent Transport Systems<span class="p">}</span>,
-volume = <span class="p">{</span>n/a<span class="p">}</span>,
-number = <span class="p">{</span>n/a<span class="p">}</span>,
-pages = <span class="p">{}</span>,
-keywords = <span class="p">{</span>automated driving and intelligent vehicles, autonomous driving, navigation, sensor fusion<span class="p">}</span>,
-doi = <span class="p">{</span>https://doi.org/10.1049/itr2.12524<span class="p">}</span>,
-url = <span class="p">{</span>https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/itr2.12524<span class="p">}</span>,
-eprint = <span class="p">{</span>https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/itr2.12524<span class="p">}</span>
+<p><strong>Citation:</strong></p>
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2024hdmap</span><span class="p">,</span>
+  <span class="na">author</span><span class="p">=</span><span class="s">{Hu, Runzhi and Bai, Shiyu and Wen, Weisong and Xia, Xin and Hsu, Li-Ta}</span><span class="p">,</span>
+  <span class="na">title</span><span class="p">=</span><span class="s">{Towards high-definition vector map construction based on multi-sensor integration for intelligent vehicles: Systems and error quantification}</span><span class="p">,</span>
+  <span class="na">journal</span><span class="p">=</span><span class="s">{IET Intelligent Transport Systems}</span><span class="p">,</span>
+  <span class="na">doi</span><span class="p">=</span><span class="s">{https://doi.org/10.1049/itr2.12524}</span>
 <span class="p">}</span>
 </code></pre></div></div>
-<!-- Add video. -->
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/m2Lm8RY2uYI?si=3g26doqQz-9AnBOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+<p><strong>GitHub:</strong> <a href="https://github.com/ebhrz/HDMap">https://github.com/ebhrz/HDMap</a></p>
   </section>
 
   
