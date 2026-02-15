@@ -27,6 +27,11 @@ Our approach integrates three core elements:
 </p>
 <center><i>Autonomous Vehicle Platform for Campus Logistics and Urban Navigation</i></center>
 
+<p align="center">
+  <img width="700" src="{{ 'images/project/demo_20220923.jpg' | relative_url }}" alt="Campus UGV patrol demonstration">
+</p>
+<center><i>Campus Security Patrol Demonstration with UGV — PolyU AAE/CFSO, Sept 2022</i></center>
+
 <a href="{{ 'projects' | relative_url }}" style="font-size: 0.9em;">← Back to all Research Directions</a>
 
 {% include section.html %}
@@ -104,6 +109,10 @@ Our approach integrates three core elements:
 <div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
 This research is supported by government and industry partners, including the <b class="blue">Hong Kong Polytechnic University</b>, <b class="blue">Guangdong Basic and Applied Basic Research Foundation</b>, <b class="blue">Hong Kong Smart Traffic Fund</b>, <b class="blue">Innovation and Technology Fund</b>, <b class="blue"><a href="https://www.huawei.com/">Huawei Technologies</a></b>, <b class="blue"><a href="https://www.meituan.com/">Meituan</a></b>, <b class="blue"><a href="https://www.tencent.com/">Tencent</a></b>, and <b class="blue"><a href="https://www.idriverplus.com/cn/index.html">iDriverplus</a></b>. We also collaborate closely with the <b class="blue"><a href="https://msc.berkeley.edu/">Mechanical Systems Control Lab</a></b> at the University of California, Berkeley, and the <b class="blue"><a href="https://www.tu-chemnitz.de/">Chemnitz University of Technology</a></b> in Germany.
 </div>
+
+<p align="center">
+  <img width="700" src="{{ 'images/project/funding.jpg' | relative_url }}" alt="Funding and Collaborators">
+</p>
 
 {% include section.html %}
 

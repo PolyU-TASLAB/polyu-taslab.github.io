@@ -136,6 +136,18 @@ The <b class="blue">visual/LiDAR SLAM methods are challenged in complex urban sc
 
 {% include section.html %}
 
+## Acknowledgement and Collaborators
+
+<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
+This research is supported by government and industry partners, including <b class="blue">Hong Kong Polytechnic University</b>, <b class="blue">Guangdong Basic and Applied Basic Research Foundation</b>, and <b class="blue">Huawei Technologies</b>. We collaborate with leading research groups in multi-sensor fusion and safety-certifiable navigation.
+</div>
+
+<p align="center">
+  <img width="700" src="{{ 'images/project/funding.jpg' | relative_url }}" alt="Funding and Collaborators">
+</p>
+
+{% include section.html %}
+
 {% assign posts = site.posts | where: "research_direction", "fusion" | sort: "date" | reverse %}
 
 ## Projects ({{ posts.size }})

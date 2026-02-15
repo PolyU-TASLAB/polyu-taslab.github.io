@@ -165,6 +165,10 @@ Inspired by the strong perception capability of ADV using onboard sensors (such 
 This research was funded by government and industry partners, including <b class="blue">Hong Kong Polytechnic University</b>, <b class="blue">Guangdong Basic and Applied Basic Research Foundation</b>, <b class="blue">Riemann Laboratory</b>, and <b class="blue">Huawei Technologies</b>.
 </div>
 
+<p align="center">
+  <img width="700" src="{{ 'images/project/funding.jpg' | relative_url }}" alt="Funding and Collaborators">
+</p>
+
 {% include section.html %}
 
 {% assign posts = site.posts | where: "research_direction", "gnss" | sort: "date" | reverse %}
