@@ -115,8 +115,8 @@ Our research aims to <b>build algorithm foundations for embodied AI</b> that ena
 
   <a href="{{ 'projects/gnss' | relative_url }}" class="rd-card-link">
     <div class="rd-card">
-      <div class="rd-card-img rd-card-img-1">
-        <div class="rd-card-img-placeholder">🛰️</div>
+      <div class="rd-card-img">
+        <img src="{{ 'images/project/3DLA-GNSS.jpg' | relative_url }}" alt="3D LiDAR Aided GNSS Positioning for Robotics Navigation">
       </div>
       <div class="rd-card-body">
         <h3>3D LiDAR Aided GNSS Positioning for Robotics Navigation</h3>
@@ -127,8 +127,8 @@ Our research aims to <b>build algorithm foundations for embodied AI</b> that ena
 
   <a href="{{ 'projects/fusion' | relative_url }}" class="rd-card-link">
     <div class="rd-card">
-      <div class="rd-card-img rd-card-img-2">
-        <div class="rd-card-img-placeholder">🔒</div>
+      <div class="rd-card-img">
+        <img src="{{ 'images/project/multi-sensor.jpg' | relative_url }}" alt="Safety-certifiable Multi-Sensor Fusion">
       </div>
       <div class="rd-card-body">
         <h3>Safety-certifiable Multi-Sensor Fusion for Robotic Navigation in Urban Scenes</h3>
@@ -139,8 +139,8 @@ Our research aims to <b>build algorithm foundations for embodied AI</b> that ena
 
   <a href="{{ 'projects/vehicles' | relative_url }}" class="rd-card-link">
     <div class="rd-card">
-      <div class="rd-card-img rd-card-img-3">
-        <div class="rd-card-img-placeholder">🚗</div>
+      <div class="rd-card-img">
+        <img src="{{ 'images/project/E2ELV.png' | relative_url }}" alt="End-to-End Autonomous Vehicles">
       </div>
       <div class="rd-card-body">
         <h3>End-to-End and Safety-Certifiable Autonomous Vehicles for Logistics Applications</h3>
@@ -151,8 +151,8 @@ Our research aims to <b>build algorithm foundations for embodied AI</b> that ena
 
   <a href="{{ 'projects/humanoid' | relative_url }}" class="rd-card-link">
     <div class="rd-card">
-      <div class="rd-card-img rd-card-img-4">
-        <div class="rd-card-img-placeholder">🤖</div>
+      <div class="rd-card-img">
+        <img src="{{ 'images/project/E2EHL.png' | relative_url }}" alt="Embodied AI for Humanoid/Legged Robotics">
       </div>
       <div class="rd-card-body">
         <h3>Embodied AI for Humanoid/Legged Robotics</h3>
@@ -164,7 +164,7 @@ Our research aims to <b>build algorithm foundations for embodied AI</b> that ena
   <a href="{{ 'projects/drones' | relative_url }}" class="rd-card-link">
     <div class="rd-card">
       <div class="rd-card-img">
-        <img src="{{ 'images/project/E2EDrone.png' | relative_url }}" alt="Embodied Drones">
+        <img src="{{ 'images/project/E2EDrone.png' | relative_url }}" alt="Embodied Drones for City Maintenance and Manipulation">
       </div>
       <div class="rd-card-body">
         <h3>Embodied Drones for City Maintenance and Manipulation</h3>
