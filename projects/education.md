@@ -18,6 +18,14 @@ title: Embodied AI for Robotics Education
   border-radius: 8px;
   border: none;
 }
+.edu-list {
+  font-size: 0.95em;
+  line-height: 1.65;
+  text-align: justify;
+}
+.edu-list li {
+  margin-bottom: 0.5em;
+}
 </style>
 
 ---
@@ -36,37 +44,28 @@ Our educational research integrates <b class="blue">embodied AI concepts</b> int
 
 ## Key Research Directions
 
-<div style="text-align:justify; font-size:0.95em; line-height:1.65;">
-
-- **AI-Powered Robotics Education Platforms** — Developing integrated hardware-software platforms for teaching AI, perception, navigation, and control using real drones, ground robots, and autonomous vehicles.
-
-- **GitHub-Based Collaborative Learning** — Pioneering open-source, GitHub-based pedagogical approaches with <b class="blue">50+ code examples</b> that have been adopted by universities worldwide, including <b class="blue">Wuhan University</b>, <b class="blue">Beihang University</b>, and <b class="blue">UC Berkeley</b>.
-
-- **Hands-on Project-Based Learning (PBL)** — Designing curricula around <b class="blue">ROS-based robotic car projects</b>, <b class="blue">drone programming workshops</b> (PX4/ArduPilot), MATLAB/Python demonstrations, and deep learning framework integration.
-
-- **Bridging Research and Industry Skills** — Training students with industry-relevant tools and platforms, preparing them for careers in <b class="blue">autonomous systems</b>, <b class="blue">AI engineering</b>, and <b class="blue">robotics R&D</b>.
-
-- **Embodied AI Curriculum Development** — As Associate Programme Leader, Dr. Wen drafted the <b class="blue">MSc in Low-altitude Economy</b> proposal to meet emerging industry needs in drone technology and urban air mobility.
-
-</div>
+<ul class="edu-list">
+  <li><b class="blue">AI-Powered Robotics Education Platforms</b> — Developing integrated hardware-software platforms for teaching AI, perception, navigation, and control using real drones, ground robots, and autonomous vehicles.</li>
+  <li><b class="blue">GitHub-Based Collaborative Learning</b> — Pioneering open-source, GitHub-based pedagogical approaches with <b class="blue">50+ code examples</b> that have been adopted by universities worldwide, including <b class="blue">Wuhan University</b>, <b class="blue">Beihang University</b>, and <b class="blue">UC Berkeley</b>.</li>
+  <li><b class="blue">Hands-on Project-Based Learning (PBL)</b> — Designing curricula around <b class="blue">ROS-based robotic car projects</b>, <b class="blue">drone programming workshops</b> (PX4/ArduPilot), MATLAB/Python demonstrations, and deep learning framework integration.</li>
+  <li><b class="blue">Bridging Research and Industry Skills</b> — Training students with industry-relevant tools and platforms, preparing them for careers in <b class="blue">autonomous systems</b>, <b class="blue">AI engineering</b>, and <b class="blue">robotics R&D</b>.</li>
+  <li><b class="blue">Embodied AI Curriculum Development</b> — As Associate Programme Leader, Dr. Wen drafted the <b class="blue">MSc in Low-altitude Economy</b> proposal to meet emerging industry needs in drone technology and urban air mobility.</li>
+</ul>
 
 ---
 
 ## Courses and Teaching Platforms
 
-<div style="text-align:justify; font-size:0.95em; line-height:1.65;">
-
+<div style="text-align:justify; font-size:0.95em; line-height:1.65; margin-bottom:0.6em;">
 Our education research is tightly integrated with the following courses at <b class="blue">The Hong Kong Polytechnic University</b>:
-
-- **AAE4011** — <b class="blue">Artificial Intelligence in Unmanned Autonomous Systems</b>: Covers AI fundamentals for autonomous drones and ground robots, including perception, planning, and decision-making using deep learning and reinforcement learning.
-
-- **AAE4203** — <b class="blue">Guidance and Navigation</b>: GNSS positioning (SPP, DGNSS, RTK), visual navigation, state estimation using Kalman filtering and factor graph optimization. Features video lectures and hands-on tutorials.
-
-- **AAE3004** — <b class="blue">Dynamical Systems and Control</b>: Fundamentals of dynamical systems modeling, stability analysis, and feedback control design for aerospace and robotics applications.
-
-- **AAE6102** — <b class="blue">Satellite Communication and Navigation</b> (Invited Lecture): Advanced GNSS positioning techniques, multi-sensor integration, and AI-aided navigation in urban environments.
-
 </div>
+
+<ul class="edu-list">
+  <li><b class="blue">AAE4011</b> — <b>Artificial Intelligence in Unmanned Autonomous Systems</b>: Covers AI fundamentals for autonomous drones and ground robots, including perception, planning, and decision-making using deep learning and reinforcement learning.</li>
+  <li><b class="blue">AAE4203</b> — <b>Guidance and Navigation</b>: GNSS positioning (SPP, DGNSS, RTK), visual navigation, state estimation using Kalman filtering and factor graph optimization. Features video lectures and hands-on tutorials.</li>
+  <li><b class="blue">AAE3004</b> — <b>Dynamical Systems and Control</b>: Fundamentals of dynamical systems modeling, stability analysis, and feedback control design for aerospace and robotics applications.</li>
+  <li><b class="blue">AAE6102</b> — <b>Satellite Communication and Navigation</b> (Invited Lecture): Advanced GNSS positioning techniques, multi-sensor integration, and AI-aided navigation in urban environments.</li>
+</ul>
 
 ---
 
@@ -79,18 +78,32 @@ Our education research is tightly integrated with the following courses at <b cl
 
 ---
 
+## Robotics Competitions
+
+<div style="text-align:justify; font-size:0.95em; line-height:1.65; margin-bottom:0.6em;">
+TAS Lab actively supports and supervises students in <b class="blue">robotics competitions</b>, providing mentorship, technical resources, and hands-on training. Competitions are a vital platform for students to apply their theoretical knowledge, develop teamwork skills, and push the boundaries of autonomous systems engineering.
+</div>
+
+<ul class="edu-list">
+  <li><b class="blue">PolyU Robotics Club (Supervisor)</b> — Dr. Wen serves as the faculty supervisor of the <b class="blue">PolyU Robotics Club</b>, guiding students in designing, building, and programming robots for national and international competitions. The club brings together students from diverse engineering disciplines to collaborate on cutting-edge robotics projects.</li>
+  <li><b class="blue">RoboMaster University Championship</b> — TAS Lab mentors student teams competing in the <b class="blue">DJI RoboMaster</b> competition, one of the world's most prestigious university robotics contests, involving autonomous robot combat, AI-based perception, and real-time strategy.</li>
+  <li><b class="blue">ICRA Robot Challenges</b> — Supporting student participation in <b class="blue">IEEE ICRA</b> robot challenges, including autonomous navigation, manipulation, and multi-robot coordination tasks.</li>
+  <li><b class="blue">UAV / Drone Competitions</b> — Supervising teams in autonomous UAV challenges, including indoor navigation, aerial manipulation, and drone swarm coordination, leveraging TAS Lab's expertise in embodied AI for drones.</li>
+  <li><b class="blue">Interdisciplinary Training</b> — Competition preparation involves cross-training in <b class="blue">mechanical design</b>, <b class="blue">embedded systems</b>, <b class="blue">computer vision</b>, <b class="blue">SLAM</b>, and <b class="blue">reinforcement learning</b>, providing students with a comprehensive skill set for careers in robotics and AI.</li>
+</ul>
+
+---
+
 ## Student Supervision Highlights
 
-<div style="text-align:justify; font-size:0.95em; line-height:1.65;">
-
-- **Reliable UAV Perception and Perching Solutions** in Urban Areas — ZHAO Jiaqi, LI Mingjue To, FU Chenlei (AAE10, 2024/25)
-- **Handheld Multi-sensor Fusion Mapping System** — QIN Qijun, WANG Yuteng (AAE11, 2024/25)
-- **High-Definition Map with Traffic Signs Based on LiDAR-Visual-IMU Fusion SLAM** — QIN Qijun <b class="blue">(Merit Award, Best URIS Research Project 2024)</b>
-- **An Adaptive Drilling Process for the Aircraft Skin** — LAU Chun Ho, LEUNG Cheuk To, CHAN Hei Lam Joshua (DD01, 2022/23)
-- **UAS for Situation Awareness and Risk Assessment** — LAM Yat Long, CHEN Yat Nam (AAE39, 2022/23)
-- **Person-following Mobile Robotics** — MOHAMMAD Tamz (AAE33, 2021/22)
-
-</div>
+<ul class="edu-list">
+  <li><b>Reliable UAV Perception and Perching Solutions</b> in Urban Areas — ZHAO Jiaqi, LI Mingjue To, FU Chenlei (AAE10, 2024/25)</li>
+  <li><b>Handheld Multi-sensor Fusion Mapping System</b> — QIN Qijun, WANG Yuteng (AAE11, 2024/25)</li>
+  <li><b>High-Definition Map with Traffic Signs Based on LiDAR-Visual-IMU Fusion SLAM</b> — QIN Qijun <b class="blue">(Merit Award, Best URIS Research Project 2024)</b></li>
+  <li><b>An Adaptive Drilling Process for the Aircraft Skin</b> — LAU Chun Ho, LEUNG Cheuk To, CHAN Hei Lam Joshua (DD01, 2022/23)</li>
+  <li><b>UAS for Situation Awareness and Risk Assessment</b> — LAM Yat Long, CHEN Yat Nam (AAE39, 2022/23)</li>
+  <li><b>Person-following Mobile Robotics</b> — MOHAMMAD Tamz (AAE33, 2021/22)</li>
+</ul>
 
 ---
 
