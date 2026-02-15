@@ -1,11 +1,11 @@
 ---
-title: Join Us
+title: Openings
 nav:
   order: 7
   tooltip: Openings and contact
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Join Us
+# {% include icon.html icon="fa-regular fa-envelope" %}Openings
 
 ### Openings
 
@@ -80,6 +80,7 @@ We will reply to you within one week if you are shortlisted for an interview.
 {%
   include figure.html
   image="images/AboutPolyU_Campus3.png"
+  width="66%"
   caption=" "
 %}
 
@@ -90,6 +91,7 @@ We will reply to you within one week if you are shortlisted for an interview.
 {%
   include figure.html
   image="images/AboutPolyU_Campus5.jpg"
+  width="66%"
   caption=" "
 %}
 
