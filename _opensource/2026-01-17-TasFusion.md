@@ -1,20 +1,22 @@
 ---
 title: TasFusion
-subtitle: 
+subtitle: ROS1 Package for Multi-Sensor GNSS/IMU Fusion Navigation
 author: ZHAO Jiaqi
 image: images/opensource/TasFusion/demo.gif
-tags: 
+tags:
 order:
 ---
-<!-- Add breif description here.  -->
 
-<!-- ROS1 package designed for Ceres-based GNSS/IMU loosely coupled sliding-window optimization -->
+A <b class="blue">ROS1 package</b> for Ceres-based <b class="blue">GNSS/IMU loosely coupled sliding-window optimization</b>, designed for robust multi-sensor navigation.
 
-<!-- Add Main body here -->
+**[TasFusion](https://github.com/PolyU-TASLAB/TasFusion)** provides a complete multi-sensor navigation framework with the following features:
 
-[TasFusion](https://github.com/PolyU-TASLAB/TasFusion.git) is a ROS1 package designed for multi-sensor navigation. Its core functionality provides a Ceres-based GNSS/IMU loosely coupled sliding-window optimization framework, along with supporting tools including GNSS message definitions, NLOS exclusion utilities, a NovAtel driver, and NMEA ROS parsing scripts.
-
-The central sensor-fusion node supports IMU pre-integration, online bias estimation, marginalization to preserve historical information, and GPS position/velocity constraints. All major functions can be flexibly enabled or disabled through parameters configured in launch files.
+- **Ceres-based optimization** — Sliding-window GNSS/IMU loosely coupled fusion with IMU pre-integration and online bias estimation
+- **Marginalization** — Preserves historical information for consistent state estimation
+- **GPS constraints** — Supports both position and velocity constraints from GNSS
+- **NLOS exclusion** — Built-in utilities to reject non-line-of-sight satellite signals
+- **Flexible configuration** — All major functions can be enabled/disabled via launch file parameters
+- **Supporting tools** — Includes GNSS message definitions, a NovAtel driver, and NMEA ROS parsing scripts
 
 <table align="center" width="100%">
   <tr>
@@ -30,21 +32,8 @@ The central sensor-fusion node supports IMU pre-integration, online bias estimat
   </tr>
 </table>
 
-Github Repository: https://github.com/PolyU-TASLAB/TasFusion.git
+> **Reference Hardware Platform** ([Introduction Video](https://www.bilibili.com/video/BV1fiaqzNEEm)):
+> TasFusion has been validated on a GNSS-IMU-4G integrated navigation module (dual-IMU + u-blox F9P-04B + 4G uplink), providing high-frequency measurements and reliable telemetry for outdoor deployments.
+> For hardware inquiries, please contact **hbwu@hkpolyu-wxresearch.cn**.
 
-> Reference Hardware Platform ([Introduction Video](https://www.bilibili.com/video/BV1fiaqzNEEm)):
->
-> TasFusion has been validated on GNSS-IMU-4G integrated navigation module (dual-IMU + u-blox F9P-04B + 4G uplink), providing high-frequency measurements and reliable telemetry for outdoor deployments.
->
-> For inquiries regarding this hardware platform, please contact **hbwu@hkpolyu-wxresearch.cn**.
-
-<!-- Add picture. -->
-
-<!-- <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/huawei_mapping.gif" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-</div> -->
-
-<!-- Add video. -->
-
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/m2Lm8RY2uYI?si=3g26doqQz-9AnBOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+**GitHub:** [https://github.com/PolyU-TASLAB/TasFusion](https://github.com/PolyU-TASLAB/TasFusion)
