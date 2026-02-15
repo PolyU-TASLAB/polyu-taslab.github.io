@@ -33,7 +33,7 @@ title: Embodied AI for Robotics Education
 ## Abstract
 
 <div style="text-align:center; margin:1em 0 1.5em 0;" markdown="0">
-<img src="{{ site.baseurl }}/images/project/EBAIEdu.png" alt="Embodied AI for Robotics Education" style="max-width:800px; width:100%; border-radius:8px;">
+<img src="{{ 'images/project/EBAIEdu.png' | relative_url }}" alt="Embodied AI for Robotics Education" style="max-width:800px; width:100%; border-radius:8px;">
 </div>
 
 <div style="text-align:justify; font-size:0.95em; line-height:1.65;">
