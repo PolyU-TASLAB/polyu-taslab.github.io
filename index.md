@@ -77,37 +77,37 @@ Our research aims to build algorithm foundations for <b class="blue">embodied AI
 </style>
 
 <div class="research-directions">
-  <a href="{{ 'projects/gnss' | relative_url }}" class="rd-card-link">
+  <a href="{{ 'research/gnss' | relative_url }}" class="rd-card-link">
   <div class="rd-card">
     <h4>🛰️ 3D LiDAR Aided GNSS Positioning</h4>
     <p>AI-driven GNSS positioning (<b class="blue">RTK, PPP, PPP-RTK</b>), 3D LiDAR aided NLOS/multipath mitigation, multi-sensor fusion for robust urban navigation.</p>
   </div>
   </a>
-  <a href="{{ 'projects/fusion' | relative_url }}" class="rd-card-link">
+  <a href="{{ 'research/fusion' | relative_url }}" class="rd-card-link">
   <div class="rd-card">
     <h4>🔒 Safety-Certifiable Multi-Sensor Fusion</h4>
     <p>Safety-certifiable AI for autonomous navigation, AI-enabled multi-sensor fusion (<b class="blue">LiDAR/Camera/IMU/GNSS</b>), integrity monitoring and navigation-control joint optimization.</p>
   </div>
   </a>
-  <a href="{{ 'projects/vehicles' | relative_url }}" class="rd-card-link">
+  <a href="{{ 'research/vehicles' | relative_url }}" class="rd-card-link">
   <div class="rd-card">
     <h4>🚗 End-to-End Autonomous Vehicles</h4>
     <p><b class="blue">End-to-end learning</b> for self-driving, safety certification for logistics applications, <b class="blue">V2X-assisted</b> connected autonomous driving.</p>
   </div>
   </a>
-  <a href="{{ 'projects/humanoid' | relative_url }}" class="rd-card-link">
+  <a href="{{ 'research/humanoid' | relative_url }}" class="rd-card-link">
   <div class="rd-card">
     <h4>🤖 Embodied AI for Legged/Humanoid Robotics</h4>
     <p>Large AI models and <b class="blue">vision-language-action models</b> for robotic perception and control, bio-inspired embodied intelligence, multimodal learning for legged/humanoid robots.</p>
   </div>
   </a>
-  <a href="{{ 'projects/drones' | relative_url }}" class="rd-card-link">
+  <a href="{{ 'research/drones' | relative_url }}" class="rd-card-link">
   <div class="rd-card">
     <h4>🚁 Embodied Drones for City Maintenance</h4>
     <p>Intelligent drones and <b class="blue">UAV swarm systems</b>, aerial manipulation for urban infrastructure, software-hardware co-design for efficient embodied AI drone systems.</p>
   </div>
   </a>
-  <a href="{{ 'projects/education' | relative_url }}" class="rd-card-link">
+  <a href="{{ 'research/education' | relative_url }}" class="rd-card-link">
   <div class="rd-card">
     <h4>🎓 Embodied AI for Robotics Education</h4>
     <p><b class="blue">AI-powered robotics education</b> platforms, hands-on project-based learning with drones and ground robots, <b class="blue">GitHub-based collaborative learning</b> pedagogy.</p>
