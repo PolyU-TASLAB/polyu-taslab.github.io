@@ -16,7 +16,7 @@ At the Wuxi Technology and Innovation Research Institute, our team introduced th
 The visit included a demonstration of our **handheld data collection and mapping devices, as well as indoor positioning devices**, showcasing how rapid environmental digitization supports smart facility management.
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/1219/20260204_CFSO_WuxiRI/2.jpg" alt="Team Banner" 
+  <img src="/images/news/20260204_CFSO_WuxiRI/2.png" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
@@ -29,7 +29,7 @@ These drones are equipped with advanced sensors and navigation systems, allowing
 
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/1219/20260204_CFSO_WuxiRI/3.jpg" alt="Team Banner" 
+  <img src="/images/news/20260204_CFSO_WuxiRI/3.png" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
@@ -41,7 +41,7 @@ The demonstration highlighted the drone's stability and efficiency in high-rise 
 
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/1219/20260204_CFSO_WuxiRI/5.jpg" alt="Team Banner" 
+  <img src="/images/news/20260204_CFSO_WuxiRI/5.jpg" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
