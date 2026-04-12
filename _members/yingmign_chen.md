@@ -10,7 +10,7 @@ links:
   orcid: 
   google-scholar: 
   github: https://github.com/AndyPawn
-  email: yingming.chen@polyu.edu.hk
+  email: yingming.chen60@connect.polyu.hk
   profile: 
 
 display_1: M.Phil. Student,  B.Eng. (Western University of Ontario)
