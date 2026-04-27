@@ -13,7 +13,7 @@ links:
   email: ruijie.xu@connect.polyu.hk
   profile: 
 
-display_1: B.Eng. (BUCT)
+display_1: Ph.D. Student(PolyU), B.Eng. (BUCT)
 display_2: fall 2023 -- Present
 
 ---
