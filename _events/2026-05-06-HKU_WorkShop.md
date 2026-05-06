@@ -1,5 +1,5 @@
 ---
-title: 1st Research Workshop of Safety of AI-Driven Autonomous Systems: From Intelligent Connected Vehicles to the Low-Altitude Economy
+title: 1st Research Workshop of Safety of AI-Driven Autonomous Systems:From Intelligent Connected Vehicles to the Low-Altitude Economy
 subtitle: 
 # author: hf
 image: images/news/20260506_hkuworkshop/1.jpg
