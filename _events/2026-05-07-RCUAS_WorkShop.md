@@ -2,7 +2,7 @@
 title: The 2nd Research Workshop for RCUAS
 subtitle:
 # author: hf
-image: images/news/20260507_rcuas_workshop/1.jpg
+image: images/news/20260507_rcuas_workshop/2.jpg
 tags: news
 order:
 ---
