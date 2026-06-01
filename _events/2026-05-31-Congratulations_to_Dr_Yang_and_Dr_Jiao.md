@@ -24,3 +24,4 @@ TASLAB warmly congratulates Dr. Yang and Dr. Jiao on their new appointments, and
        style="width: 90%; height: auto; object-fit: cover; max-width: 850px; margin: 8px; border-radius: 15px;">
   <p style="font-size: 14px; color: #666; margin-top: 8px;">Warm congratulations to Dr. Runqiu Yang and Dr. Jianhao Jiao.</p>
 </div>
+
