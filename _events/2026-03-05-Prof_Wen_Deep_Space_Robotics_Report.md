@@ -14,7 +14,7 @@ On March 5, 2026, The Hong Kong Polytechnic University published a feature story
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/20260305_deep_space_robotics/prof_wen_team.jpg" alt="Prof. Weisong Wen and his team featured in the PolyU deep-space robotics report"
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px;">Prof. Weisong WEN and his team were featured in the PolyU report on deep-space robotics.</p>
+  <p style="text-align: center;font-size: 14px; color: #666; margin-top: 8px;">Prof. Weisong WEN and his team were featured in the PolyU report on deep-space robotics.</p>
 </div>
 
 The report presented Prof. WEN as a forward-looking researcher in robotics, emphasizing that future deep-space robots must go beyond basic mobility. For lunar and planetary missions, robots should be able to move steadily, operate reliably over long distances, and complete complex tasks in harsh, uncertain, and remote environments. This vision closely connects with TASLAB's long-term research strengths in trustworthy autonomous systems, robotic navigation, multi-sensor fusion, SLAM, localization, and intelligent decision-making.
@@ -30,7 +30,7 @@ Prof. WEN further shared a three-stage development roadmap for deep-space roboti
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/20260305_deep_space_robotics/prof_wen_polyu.jpg" alt="Prof. Weisong Wen at PolyU"
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px;">The feature story showcased Prof. WEN's vision for the future of lunar and deep-space robots.</p>
+  <p style="text-align: center;font-size: 14px; color: #666; margin-top: 8px;">The feature story showcased Prof. WEN's vision for the future of lunar and deep-space robots.</p>
 </div>
 
 The feature also reflected the broader value of interdisciplinary research at PolyU. Deep-space robotics requires the integration of aerospace engineering, artificial intelligence, robotics, communication, navigation, and advanced autonomy. By advancing trustworthy robotic systems for extreme environments, Prof. WEN and TASLAB aim to contribute not only to future lunar exploration, but also to practical autonomous technologies that can benefit transportation, inspection, low-altitude autonomy, and service robotics on Earth.
