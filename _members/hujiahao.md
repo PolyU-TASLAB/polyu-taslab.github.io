@@ -12,14 +12,14 @@ links:
   email: jiahu@polyu.edu.hk
   profile: 
 
-display_1: Project Technical Assistant,  M.Eng.(WHUT), B.Eng. (WHUT)
+display_1: PhD Student,  M.Eng.(WHUT), B.Eng. (WHUT)
 display_2: 
 ---
 
 <!--  Add a short self introduction here -->
 <!-- Like Research Areas -->
 
-Jiahao Hu received his M.S. degree from the School of Mechanical and Electrical Engineering at Wuhan University of Technology, Wuhan, China, in 2023. He is currently a Project Technical Assistant in the Department of Aeronautical and Aviation Engineering at The Hong Kong Polytechnic University, Hong Kong. His current research interests include UAV positioning and navigation, Sensor Fusion.
+Jiahao Hu received his M.S. degree from the School of Mechanical and Electrical Engineering at Wuhan University of Technology, Wuhan, China, in 2023. He is currently a PhD student in the Department of Aeronautical and Aviation Engineering at The Hong Kong Polytechnic University, Hong Kong. His current research interests include UAV positioning and navigation, Sensor Fusion.
 
 **Research Areas**
 UAV positioning and navigation, Sensor Fusion
