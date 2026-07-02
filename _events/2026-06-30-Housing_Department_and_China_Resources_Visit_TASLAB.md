@@ -58,7 +58,7 @@ In the subsequent meeting, both sides discussed potential application needs, ope
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="{{ '/images/news/20260630_housing_cr/meeting.png' | relative_url }}" alt="TASLAB team introducing autonomous robotic platforms to the visitors"
        style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">The TASLAB team introducesrelated research during the meeting.</p>
+  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">The TASLAB team introduces related research during the meeting.</p>
 </div>
 
 The visit strengthened mutual understanding between the Housing Department, China Resources, and TASLAB, and laid a foundation for further dialogue on trustworthy autonomous systems and their practical deployment.
