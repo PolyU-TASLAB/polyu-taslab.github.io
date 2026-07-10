@@ -2,7 +2,7 @@
 title: Prof. Weisong Wen Receives Best Presentation Award at the 2026 3rd Navigation Technology and Application Conference
 subtitle:
 # author:
-image: images/news/20260710_navicon/1.jpg
+image: images/news/260710_NaviCON/1.jpg
 tags: news
 order:
 ---
@@ -16,7 +16,7 @@ Prof. Wen presented in the Signal Processing and Robust Positioning Forum (‰ø°Âè
 The presentation set out TAS LAB's research roadmap on trustworthy positioning in urban canyons, where tall buildings block and reflect satellite signals and degrade conventional GNSS solutions. It covered the laboratory's 3D LiDAR-aided (3DLA) GNSS framework, which progresses from non-line-of-sight (NLOS) detection and exclusion to Doppler-aided direction-of-arrival estimation and reflection-path-based NLOS correction, as well as its extension to real-time kinematic positioning and to tightly-coupled GNSS/LiDAR/inertial odometry for continuous, drift-free state estimation. The talk also addressed how these methods support integrity-aware positioning for safety-critical autonomous systems operating in dense cities.
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="{{ '/images/news/20260710_navicon/1.jpg' | relative_url }}" alt="Prof. Weisong Wen at the 2026 3rd Navigation Technology and Application Conference in Chengdu"
+  <img src="{{ '/images/news/260710_NaviCON/1.jpg' | relative_url }}" alt="Prof. Weisong Wen at the 2026 3rd Navigation Technology and Application Conference in Chengdu"
        style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
   <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Prof. Weisong Wen (left) with Dr. Dongyan Wei of the Aerospace Information Research Institute, Chinese Academy of Sciences, at the conference venue in Chengdu.</p>
 </div>
@@ -25,13 +25,13 @@ The conference programme spanned three days and covered the full breadth of cont
 
 <div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; align-items: flex-start; max-width: 850px; margin: 0 auto 20px;">
   <div style="flex: 1 1 320px; text-align: center;">
-    <img src="{{ '/images/news/20260710_navicon/2.jpg' | relative_url }}" alt="A presentation at the Signal Processing and Robust Positioning Forum"
+    <img src="{{ '/images/news/260710_NaviCON/2.jpg' | relative_url }}" alt="A presentation at the Signal Processing and Robust Positioning Forum"
          style="width: 100%; height: auto; object-fit: contain; border-radius: 15px;">
     <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">A talk on multi-information fusion navigation at the Signal Processing and Robust Positioning Forum, where Prof. Wen also presented.</p>
   </div>
 
   <div style="flex: 1 1 320px; text-align: center;">
-    <img src="{{ '/images/news/20260710_navicon/3.jpg' | relative_url }}" alt="A speaker concluding a talk at the Signal Processing and Robust Positioning Forum"
+    <img src="{{ '/images/news/260710_NaviCON/3.jpg' | relative_url }}" alt="A speaker concluding a talk at the Signal Processing and Robust Positioning Forum"
          style="width: 100%; height: auto; object-fit: contain; border-radius: 15px;">
     <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">A speaker concludes a talk on BeiDou-based positioning for the low-altitude economy at the same forum.</p>
   </div>
