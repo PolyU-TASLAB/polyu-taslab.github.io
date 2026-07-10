@@ -39,76 +39,39 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Semantic-Vector HD Map | TAS LAB</title>
+<title>Prof. Weisong Wen Receives Best Presentation Award at the 2026 3rd Navigation Technology and Application Conference | TAS LAB</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Semantic-Vector HD Map">
+<meta name="title" content="Prof. Weisong Wen Receives Best Presentation Award at the 2026 3rd Navigation Technology and Application Conference">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 
-<meta property="og:title" content="Semantic-Vector HD Map">
+<meta property="og:title" content="Prof. Weisong Wen Receives Best Presentation Award at the 2026 3rd Navigation Technology and Application Conference">
 <meta property="og:site_title" content="TAS LAB">
 <meta property="og:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="og:url" content="https://polyu-taslab.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Semantic-Vector HD Map">
+<meta property="twitter:title" content="Prof. Weisong Wen Receives Best Presentation Award at the 2026 3rd Navigation Technology and Application Conference">
 <meta property="twitter:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="twitter:url" content="https://polyu-taslab.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
 
-  <meta name="author" content='&lt;p&gt;An open-source &lt;b class="blue"&gt;HD vector map (HDVM) generation pipeline&lt;/b&gt; for autonomous vehicles, integrating &lt;b class="blue"&gt;GNSS, INS, LiDAR, and camera&lt;/b&gt; data.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/ebhrz/HDMap"&gt;HDMap&lt;/a&gt;&lt;/strong&gt; provides a complete pipeline for constructing high-definition semantic and vector maps, designed for autonomous driving in complex urban environments. Unlike traditional methods that rely on planar assumptions, our approach fuses multi-sensor data to produce accurate 3D HD maps.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pipeline Overview:&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Semantic extraction&lt;/strong&gt; — Extracts semantic information from raw images using Vision Transformer (ViT) and Swin Transformer architectures&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;3D reconstruction&lt;/strong&gt; — Obtains absolute 3D coordinates of semantic objects from LiDAR depth data&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Precise localization&lt;/strong&gt; — Uses GNSS-RTK and INS for high-precision pose estimation&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Vector map generation&lt;/strong&gt; — Extracts vector features (e.g., lane markings) to form the HD vector map&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Error analysis&lt;/strong&gt; — Provides an error propagation scheme analyzing segmentation and LiDAR-camera extrinsic calibration errors&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;A &lt;strong&gt;Docker version&lt;/strong&gt; of the pipeline is available for easy deployment.&lt;/p&gt;
-
-&lt;p align="center"&gt;
-  &lt;img src="https://github.com/ebhrz/HDMap/raw/main/img/garage.gif" alt="HD Map Demo" style="width:100%; max-width:750px; border-radius:8px;" /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="language-bibtex highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="nc"&gt;@article&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;hu2024hdmap&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Hu, Runzhi and Bai, Shiyu and Wen, Weisong and Xia, Xin and Hsu, Li-Ta}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Towards high-definition vector map construction based on multi-sensor integration for intelligent vehicles: Systems and error quantification}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;journal&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{IET Intelligent Transport Systems}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;doi&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{https://doi.org/10.1049/itr2.12524}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href="https://github.com/ebhrz/HDMap"&gt;https://github.com/ebhrz/HDMap&lt;/a&gt;&lt;/p&gt;
-'>
-  <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-07-10T09:40:06+00:00">
-  <meta property="article:published_time" content="2025-11-11T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-07-10T09:40:06+00:00">
-  <meta name="revised" content="2026-07-10T09:40:06+00:00">
+  <meta property="og:type" content="website">
 
 
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     
-      "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "Semantic-Vector HD Map" },
-      "datePublished": "2025-11-11T00:00:00+00:00",
-      "dateModified": "2026-07-10T09:40:06+00:00",
+      "@type": "WebSite",
     
-    "name": "Semantic-Vector HD Map",
+    "name": "Prof. Weisong Wen Receives Best Presentation Award at the 2026 3rd Navigation Technology and Application Conference",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
-    "headline": "Semantic-Vector HD Map",
+    "headline": "Prof. Weisong Wen Receives Best Presentation Award at the 2026 3rd Navigation Technology and Application Conference",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -485,23 +448,15 @@
 
   <section class="background" data-size="1">
     <!--
-  background: images/opensource/HDMap/garage_half.gif;
+  background: images/news/20260710_navicon/1.jpg;
   dark: ;
   size: 1;
 -->
 
 
-<h1 class="center">Semantic-Vector HD Map</h1>
+<h1 class="center">Prof. Weisong Wen Receives Best Presentation Award at the 2026 3rd Navigation Technology and Application Conference</h1>
 
 <div class="post-info">
-  
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Runzhi Hu</span>
-      </span>
-    
   
 
   
@@ -510,17 +465,24 @@
   
     <span data-tooltip="Originally start on">
       <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
+      <span>July 10, 2026</span>
     </span>
   
 
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>July 10, 2026</span>
-    </span>
-   -->
+  <!--  -->
 </div>
+
+
+  
+
+
+  <div class="tags" data-link="/blog">
+    
+      <a href="blog?search=%22tag:%20news%22" class="tag" data-tooltip='Show items with the tag "news"'>
+        news
+      </a>
+    
+  </div>
   </section>
 
   
@@ -535,40 +497,34 @@
 -->
 
 
-<p>An open-source <b class="blue">HD vector map (HDVM) generation pipeline</b> for autonomous vehicles, integrating <b class="blue">GNSS, INS, LiDAR, and camera</b> data.</p>
+<h2 id="prof-weisong-wen-receives-best-presentation-award-at-the-2026-3rd-navigation-technology-and-application-conference">Prof. Weisong Wen Receives Best Presentation Award at the 2026 3rd Navigation Technology and Application Conference</h2>
 
-<p><strong><a href="https://github.com/ebhrz/HDMap">HDMap</a></strong> provides a complete pipeline for constructing high-definition semantic and vector maps, designed for autonomous driving in complex urban environments. Unlike traditional methods that rely on planar assumptions, our approach fuses multi-sensor data to produce accurate 3D HD maps.</p>
+<p>From July 8 to 10, 2026, Professor Weisong Wen, Director of the Trustworthy AI and Autonomous Systems Laboratory (TAS LAB) at The Hong Kong Polytechnic University (PolyU), attended the 2026 3rd Navigation Technology and Application Conference (NaviCON 2026) at the Chengdu Century City Convention Center in Chengdu, China. Organized by the Chinese Institute of Electronics (CIE) together with the Sichuan Provincial Committee of the CCPIT and the Sichuan International Chamber of Commerce, the conference was held under the theme “Multi-source Augmentation, Advancing Toward Intelligence” (多基增强、向智而行), bringing together academicians, researchers, and industry practitioners working on BeiDou-based positioning, navigation, and timing (PNT).</p>
 
-<p><strong>Pipeline Overview:</strong></p>
-<ol>
-  <li>
-<strong>Semantic extraction</strong> — Extracts semantic information from raw images using Vision Transformer (ViT) and Swin Transformer architectures</li>
-  <li>
-<strong>3D reconstruction</strong> — Obtains absolute 3D coordinates of semantic objects from LiDAR depth data</li>
-  <li>
-<strong>Precise localization</strong> — Uses GNSS-RTK and INS for high-precision pose estimation</li>
-  <li>
-<strong>Vector map generation</strong> — Extracts vector features (e.g., lane markings) to form the HD vector map</li>
-  <li>
-<strong>Error analysis</strong> — Provides an error propagation scheme analyzing segmentation and LiDAR-camera extrinsic calibration errors</li>
-</ol>
+<p>Prof. Wen presented in the Signal Processing and Robust Positioning Forum (信号处理与鲁棒定位论坛) on the morning of July 10. His talk, “3D LiDAR-Aided Trustworthy GNSS Positioning for Complex Urban Environments” (面向城市复杂环境的三维激光雷达辅助GNSS可信定位技术), was recognized with a <strong>Best Presentation Award</strong>.</p>
 
-<p>A <strong>Docker version</strong> of the pipeline is available for easy deployment.</p>
+<p>The presentation set out TAS LAB’s research roadmap on trustworthy positioning in urban canyons, where tall buildings block and reflect satellite signals and degrade conventional GNSS solutions. It covered the laboratory’s 3D LiDAR-aided (3DLA) GNSS framework, which progresses from non-line-of-sight (NLOS) detection and exclusion to Doppler-aided direction-of-arrival estimation and reflection-path-based NLOS correction, as well as its extension to real-time kinematic positioning and to tightly-coupled GNSS/LiDAR/inertial odometry for continuous, drift-free state estimation. The talk also addressed how these methods support integrity-aware positioning for safety-critical autonomous systems operating in dense cities.</p>
 
-<p align="center">
-  <img src="https://github.com/ebhrz/HDMap/raw/main/img/garage.gif" alt="HD Map Demo" style="width:100%; max-width:750px; border-radius:8px;">
-</p>
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/images/news/20260710_navicon/1.jpg" alt="Prof. Weisong Wen at the 2026 3rd Navigation Technology and Application Conference in Chengdu" style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Prof. Weisong Wen (left) with Dr. Dongyan Wei of the Aerospace Information Research Institute, Chinese Academy of Sciences, at the conference venue in Chengdu.</p>
+</div>
 
-<p><strong>Citation:</strong></p>
-<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2024hdmap</span><span class="p">,</span>
-  <span class="na">author</span><span class="p">=</span><span class="s">{Hu, Runzhi and Bai, Shiyu and Wen, Weisong and Xia, Xin and Hsu, Li-Ta}</span><span class="p">,</span>
-  <span class="na">title</span><span class="p">=</span><span class="s">{Towards high-definition vector map construction based on multi-sensor integration for intelligent vehicles: Systems and error quantification}</span><span class="p">,</span>
-  <span class="na">journal</span><span class="p">=</span><span class="s">{IET Intelligent Transport Systems}</span><span class="p">,</span>
-  <span class="na">doi</span><span class="p">=</span><span class="s">{https://doi.org/10.1049/itr2.12524}</span>
-<span class="p">}</span>
-</code></pre></div></div>
+<p>The conference programme spanned three days and covered the full breadth of contemporary navigation research, including invited keynote reports at the main forum and seven parallel technical forums on multi-source augmentation and integrity monitoring, intelligent and emerging navigation, atmospheric propagation effects, anti-jamming and anti-spoofing navigation, signal processing and robust positioning, spatiotemporal reference establishment and maintenance, and a dedicated Young Scientists Forum. The exchange gave Prof. Wen the opportunity to discuss robust positioning in challenging environments with peers from leading mainland institutions and research institutes.</p>
 
-<p><strong>GitHub:</strong> <a href="https://github.com/ebhrz/HDMap">https://github.com/ebhrz/HDMap</a></p>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; align-items: flex-start; max-width: 850px; margin: 0 auto 20px;">
+  <div style="flex: 1 1 320px; text-align: center;">
+    <img src="/images/news/20260710_navicon/2.jpg" alt="A presentation at the Signal Processing and Robust Positioning Forum" style="width: 100%; height: auto; object-fit: contain; border-radius: 15px;">
+    <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">A talk on multi-information fusion navigation at the Signal Processing and Robust Positioning Forum, where Prof. Wen also presented.</p>
+  </div>
+
+  <div style="flex: 1 1 320px; text-align: center;">
+    <img src="/images/news/20260710_navicon/3.jpg" alt="A speaker concluding a talk at the Signal Processing and Robust Positioning Forum" style="width: 100%; height: auto; object-fit: contain; border-radius: 15px;">
+    <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">A speaker concludes a talk on BeiDou-based positioning for the low-altitude economy at the same forum.</p>
+  </div>
+</div>
+
+<p>Prof. Wen’s participation and the Best Presentation Award reflect TAS LAB’s continuing contribution to trustworthy positioning and navigation research, and its commitment to academic exchange with the wider PNT community in the mainland and internationally.</p>
   </section>
 
   
@@ -586,13 +542,13 @@
 <div class="post-nav">
   <span>
     
+      <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
+      <a href="/events/2026-06-30-Housing_Department_and_China_Resources_Visit_TASLAB.html">
+        Housing Department and China Resources Longdation Visit TASLAB for Drone Demonstration and Research Exchange
+      </a>
+    
   </span>
   <span>
-    
-      Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/opensource/2025-11-11-kltdataset.html">
-        KLT Dataset
-      </a>
     
   </span>
 </div>
