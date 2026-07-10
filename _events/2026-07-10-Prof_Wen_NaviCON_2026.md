@@ -2,7 +2,7 @@
 title: Prof. Weisong Wen Receives Best Presentation Award at the 2026 3rd Navigation Technology and Application Conference
 subtitle:
 # author:
-image: images/news/260710NaviCON/1.jpg
+image: images/news//260710NaviCON/1.jpg
 tags: news
 order:
 ---
@@ -25,9 +25,9 @@ The conference programme spanned three days and covered the full breadth of cont
 
 <div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; align-items: flex-start; max-width: 850px; margin: 0 auto 20px;">
   <div style="flex: 1 1 320px; text-align: center;">
-    <img src="{{ '/images/news/260710NaviCON/2.jpg' | relative_url }}" alt="A presentation at the Signal Processing and Robust Positioning Forum"
+    <img src="{{ '/images/news/260710NaviCON/2.jpg' | relative_url }}" alt="A speaker delivering a presentation on multi-information fusion navigation at the Signal Processing and Robust Positioning Forum in a conference room, with a projection screen and seated audience in the background, conveying a formal academic atmosphere."
          style="width: 100%; height: auto; object-fit: contain; border-radius: 15px;">
-    <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">A talk on multi-information fusion navigation at the Signal Processing and Robust Positioning Forum, where Prof. Wen also presented.</p>
+      <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">A talk on multi-information fusion navigation at the Signal Processing and Robust Positioning Forum, where Prof. Wen also presented.</p>
   </div>
 
   <div style="flex: 1 1 320px; text-align: center;">
