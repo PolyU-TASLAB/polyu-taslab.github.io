@@ -39,88 +39,39 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>pyrtklib | TAS LAB</title>
+<title>Prof. Weisong Wen Receives Best Oral Presentation Award at ICRL 2026 in Yili, Xinjiang | TAS LAB</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="pyrtklib">
+<meta name="title" content="Prof. Weisong Wen Receives Best Oral Presentation Award at ICRL 2026 in Yili, Xinjiang">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 
-<meta property="og:title" content="pyrtklib">
+<meta property="og:title" content="Prof. Weisong Wen Receives Best Oral Presentation Award at ICRL 2026 in Yili, Xinjiang">
 <meta property="og:site_title" content="TAS LAB">
 <meta property="og:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="og:url" content="https://polyu-taslab.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="pyrtklib">
+<meta property="twitter:title" content="Prof. Weisong Wen Receives Best Oral Presentation Award at ICRL 2026 in Yili, Xinjiang">
 <meta property="twitter:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="twitter:url" content="https://polyu-taslab.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
 
-  <meta name="author" content='&lt;p&gt;A complete &lt;b class="blue"&gt;Python binding for RTKLIB&lt;/b&gt;, bringing the full power of the most widely-used &lt;b class="blue"&gt;GNSS positioning library&lt;/b&gt; to the Python ecosystem.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/IPNL-POLYU/pyrtklib"&gt;pyrtklib&lt;/a&gt;&lt;/strong&gt; bridges the gap between RTKLIB’s high-performance C implementation and the Python-based research workflows widely used in deep learning and data science. With pyrtklib, you can read RINEX files, process GNSS observations, and perform SPP, RTK, and PPP positioning — all from Python.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Full Python interface to RTKLIB’s core functions&lt;/li&gt;
-  &lt;li&gt;Supports SPP, DGNSS, RTK, and PPP positioning modes&lt;/li&gt;
-  &lt;li&gt;Seamless RINEX file reading and GNSS observation processing&lt;/li&gt;
-  &lt;li&gt;Enables tight integration of deep learning with GNSS positioning&lt;/li&gt;
-  &lt;li&gt;Available via PyPI for easy installation&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Quick Install:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="language-bash highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib        &lt;span class="c"&gt;# Standard RTKLIB version&lt;/span&gt;
-pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib5       &lt;span class="c"&gt;# Based on rtklibexplorer/rtklib_demo5&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;a href="https://pepy.tech/projects/pyrtklib"&gt;&lt;img src="https://static.pepy.tech/personalized-badge/pyrtklib?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="PyPI Downloads" /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="language-bibtex highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="nc"&gt;@ARTICLE&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;10965937&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;journal&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{IEEE Transactions on Intelligent Transportation Systems}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;year&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{2025}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;volume&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{26}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;number&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{7}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;pages&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{10652-10662}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;doi&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{10.1109/TITS.2025.3552691}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;**GitHub:** [https://github.com/IPNL-POLYU/pyrtklib](https://github.com/IPNL-POLYU/pyrtklib)  &lt;/td&gt;
-      &lt;td&gt;  **Demo5 version:** [https://github.com/IPNL-POLYU/pyrtklib_demo5](https://github.com/IPNL-POLYU/pyrtklib_demo5)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-'>
-  <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-07-12T10:55:07+00:00">
-  <meta property="article:published_time" content="2025-11-11T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-07-12T10:55:07+00:00">
-  <meta name="revised" content="2026-07-12T10:55:07+00:00">
+  <meta property="og:type" content="website">
 
 
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     
-      "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "pyrtklib" },
-      "datePublished": "2025-11-11T00:00:00+00:00",
-      "dateModified": "2026-07-12T10:55:07+00:00",
+      "@type": "WebSite",
     
-    "name": "pyrtklib",
+    "name": "Prof. Weisong Wen Receives Best Oral Presentation Award at ICRL 2026 in Yili, Xinjiang",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
-    "headline": "pyrtklib",
+    "headline": "Prof. Weisong Wen Receives Best Oral Presentation Award at ICRL 2026 in Yili, Xinjiang",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -497,23 +448,15 @@ pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib5       &lt;span class="
 
   <section class="background" data-size="1">
     <!--
-  background: ;
+  background: images/news/260711Xingjiang/1.jpg;
   dark: ;
   size: 1;
 -->
 
 
-<h1 class="center">pyrtklib</h1>
+<h1 class="center">Prof. Weisong Wen Receives Best Oral Presentation Award at ICRL 2026 in Yili, Xinjiang</h1>
 
 <div class="post-info">
-  
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Runzhi Hu</span>
-      </span>
-    
   
 
   
@@ -522,7 +465,7 @@ pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib5       &lt;span class="
   
     <span data-tooltip="Originally start on">
       <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
+      <span>July 11, 2026</span>
     </span>
   
 
@@ -533,6 +476,18 @@ pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib5       &lt;span class="
     </span>
    -->
 </div>
+
+
+  
+
+
+  <div class="tags" data-link="/blog">
+    
+      <a href="blog?search=%22tag:%20news%22" class="tag" data-tooltip='Show items with the tag "news"'>
+        news
+      </a>
+    
+  </div>
   </section>
 
   
@@ -547,49 +502,30 @@ pip &lt;span class="nb"&gt;install &lt;/span&gt;pyrtklib5       &lt;span class="
 -->
 
 
-<p>A complete <b class="blue">Python binding for RTKLIB</b>, bringing the full power of the most widely-used <b class="blue">GNSS positioning library</b> to the Python ecosystem.</p>
+<p><strong>YILI, China</strong> – July 11, 2026 – Professor Weisong WEN, Director of The Hong Kong Polytechnic University’s Trustworthy AI and Autonomous Systems Laboratory (TAS LAB), received a <strong>Best Oral Presentation Award</strong> at the 2026 International Conference on Robotics and Learning (ICRL 2026), held from July 10 to 14 in Yili, Xinjiang, China. Hosted by the <em>Robot Learning</em> journal editorial board and ELSP Publishing and organized by Yili Normal University, with Shanghai Jiao Tong University, Hunan University, Wuhan University, and Westlake University as co-organizers, ICRL 2026 gathered scholars, engineers, and industry leaders working across embodied intelligence, neuro-robotics, multimodal perception, adaptive control, and robot learning.</p>
 
-<p><strong><a href="https://github.com/IPNL-POLYU/pyrtklib">pyrtklib</a></strong> bridges the gap between RTKLIB’s high-performance C implementation and the Python-based research workflows widely used in deep learning and data science. With pyrtklib, you can read RINEX files, process GNSS observations, and perform SPP, RTK, and PPP positioning — all from Python.</p>
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/260711Xingjiang/1.jpg" alt="Prof. Weisong Wen receiving the Best Oral Presentation Award on stage at ICRL 2026 in Yili, Xinjiang" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Prof. Weisong Wen (right) receives the Best Oral Presentation Award during the ICRL 2026 award ceremony in Yili, Xinjiang.</p>
+</div>
 
-<p><strong>Key Features:</strong></p>
-<ul>
-  <li>Full Python interface to RTKLIB’s core functions</li>
-  <li>Supports SPP, DGNSS, RTK, and PPP positioning modes</li>
-  <li>Seamless RINEX file reading and GNSS observation processing</li>
-  <li>Enables tight integration of deep learning with GNSS positioning</li>
-  <li>Available via PyPI for easy installation</li>
-</ul>
+<p>Prof. Wen delivered an oral presentation, “Efficient and Outlier-Aware GNSS/LiDAR/inertial Integrated Positioning for Autonomous Systems in Urban Canyons,” which was selected by the conference for its Best Oral Presentation Award. The recognition highlights TAS LAB’s contribution to trustworthy autonomy and robust perception, and its relevance to the robotics and learning community that ICRL 2026 convened.</p>
 
-<p><strong>Quick Install:</strong></p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>pyrtklib        <span class="c"># Standard RTKLIB version</span>
-pip <span class="nb">install </span>pyrtklib5       <span class="c"># Based on rtklibexplorer/rtklib_demo5</span>
-</code></pre></div></div>
+<p>The talk connected TAS LAB’s research on robust localization and multi-sensor fusion to the conference’s central themes of robot learning and embodied intelligence, illustrating how reliable perception and state estimation underpin autonomous systems operating in complex, real-world environments. The presentation was well received by an audience of leading robotics researchers from institutions across China and abroad.</p>
 
-<p><a href="https://pepy.tech/projects/pyrtklib"><img src="https://static.pepy.tech/personalized-badge/pyrtklib?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="PyPI Downloads"></a></p>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; align-items: flex-start; max-width: 850px; margin: 0 auto 20px;">
+  <div style="flex: 1 1 300px; text-align: center;">
+    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/260711Xingjiang/2.jpg" alt="The ICRL 2026 Best Oral Presentation certificate awarded to Weisong Wen" style="width: 100%; height: auto; object-fit: cover; border-radius: 15px;">
+    <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">The ICRL 2026 Best Oral Presentation certificate presented to Prof. Weisong Wen.</p>
+  </div>
 
-<p><strong>Citation:</strong></p>
-<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@ARTICLE</span><span class="p">{</span><span class="nl">10965937</span><span class="p">,</span>
-  <span class="na">author</span><span class="p">=</span><span class="s">{Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong}</span><span class="p">,</span>
-  <span class="na">journal</span><span class="p">=</span><span class="s">{IEEE Transactions on Intelligent Transportation Systems}</span><span class="p">,</span>
-  <span class="na">title</span><span class="p">=</span><span class="s">{pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons}</span><span class="p">,</span>
-  <span class="na">year</span><span class="p">=</span><span class="s">{2025}</span><span class="p">,</span>
-  <span class="na">volume</span><span class="p">=</span><span class="s">{26}</span><span class="p">,</span>
-  <span class="na">number</span><span class="p">=</span><span class="s">{7}</span><span class="p">,</span>
-  <span class="na">pages</span><span class="p">=</span><span class="s">{10652-10662}</span><span class="p">,</span>
-  <span class="na">doi</span><span class="p">=</span><span class="s">{10.1109/TITS.2025.3552691}</span>
-<span class="p">}</span>
-</code></pre></div></div>
+  <div style="flex: 1 1 300px; text-align: center;">
+    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/260711Xingjiang/3.jpg" alt="The ICRL 2026 conference opening screen in Yili, Xinjiang" style="width: 100%; height: auto; object-fit: cover; border-radius: 15px;">
+    <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">The 2026 International Conference on Robotics and Learning (ICRL 2026), held July 10–14 in Yili, Xinjiang.</p>
+  </div>
+</div>
 
-<table>
-  <tbody>
-    <tr>
-      <td>
-<strong>GitHub:</strong> <a href="https://github.com/IPNL-POLYU/pyrtklib">https://github.com/IPNL-POLYU/pyrtklib</a>  </td>
-      <td>  <strong>Demo5 version:</strong> <a href="https://github.com/IPNL-POLYU/pyrtklib_demo5">https://github.com/IPNL-POLYU/pyrtklib_demo5</a>
-</td>
-    </tr>
-  </tbody>
-</table>
+<p>Prof. Wen’s award at ICRL 2026 reflects TAS LAB’s continuing commitment to advancing trustworthy AI and autonomous systems, and to fostering academic exchange with the international robotics and learning community.</p>
   </section>
 
   
@@ -608,17 +544,12 @@ pip <span class="nb">install </span>pyrtklib5       <span class="c"># Based on r
   <span>
     
       <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
-      <a href="/opensource/2025-11-11-plvins.html">
-        SafetyQuantifiable-PLVINS
+      <a href="/events/2026-07-10-Prof_Wen_NaviCON_2026.html">
+        Prof. Weisong Wen Receives Best Presentation Award at the 2026 3rd Navigation Technology and Application Conference
       </a>
     
   </span>
   <span>
-    
-      Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/opensource/2025-11-11-tasgnss.html">
-        TASGNSS
-      </a>
     
   </span>
 </div>
