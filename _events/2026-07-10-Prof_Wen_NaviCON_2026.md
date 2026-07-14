@@ -7,11 +7,13 @@ tags: news
 order:
 ---
 
+## Prof. Weisong Wen Receives Best Presentation Award at the 2026 3rd Navigation Technology and Application Conference
+
 **CHENGDU, China** – July 10, 2026 – Professor Weisong WEN, Director of The Hong Kong Polytechnic University's Trustworthy AI and Autonomous Systems Laboratory (TAS LAB), received a **Best Presentation Award** at the 2026 3rd Navigation Technology and Application Conference (NaviCON 2026), held from July 8 to 10 at the Chengdu Century City Convention Center. Organized by the Chinese Institute of Electronics (CIE) together with the Sichuan Provincial Committee of the CCPIT and the Sichuan International Chamber of Commerce, the conference was held under the theme "Multi-source Augmentation, Advancing Toward Intelligence" (多基增强、向智而行), bringing together academicians, researchers, and industry practitioners working on BeiDou-based positioning, navigation, and timing (PNT).
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/260710NaviCON/1.jpg" alt="Prof. Weisong Wen at the 2026 3rd Navigation Technology and Application Conference in Chengdu"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <img src="{{ '/images/news/260710NaviCON/1.jpg' | relative_url }}" alt="Prof. Weisong Wen at the 2026 3rd Navigation Technology and Application Conference in Chengdu"
+       style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
   <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Prof. Weisong Wen (left) with Dr. Dongyan Wei of the Aerospace Information Research Institute, Chinese Academy of Sciences, at the conference venue in Chengdu.</p>
 </div>
 
@@ -23,14 +25,14 @@ The conference programme spanned three days and covered the full breadth of cont
 
 <div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; align-items: flex-start; max-width: 850px; margin: 0 auto 20px;">
   <div style="flex: 1 1 320px; text-align: center;">
-    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/260710NaviCON/4.jpg" alt="A presentation on multi-information fusion navigation at the Signal Processing and Robust Positioning Forum"
-         style="width: 100%; height: auto; object-fit: cover; border-radius: 15px;">
+    <img src="{{ '/images/news/260710NaviCON/4.jpg' | relative_url }}" alt="A presentation on multi-information fusion navigation at the Signal Processing and Robust Positioning Forum"
+         style="width: 100%; height: auto; object-fit: contain; border-radius: 15px;">
     <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">A talk on multi-information fusion navigation at the Signal Processing and Robust Positioning Forum, where Prof. Wen also presented.</p>
   </div>
 
   <div style="flex: 1 1 320px; text-align: center;">
-    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/260710NaviCON/3.jpg" alt="A speaker concluding a talk at the Signal Processing and Robust Positioning Forum"
-         style="width: 100%; height: auto; object-fit: cover; border-radius: 15px;">
+    <img src="{{ '/images/news/260710NaviCON/3.jpg' | relative_url }}" alt="A speaker concluding a talk at the Signal Processing and Robust Positioning Forum"
+         style="width: 100%; height: auto; object-fit: contain; border-radius: 15px;">
     <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">A speaker concludes a talk on BeiDou-based positioning for the low-altitude economy at the same forum.</p>
   </div>
 </div>
