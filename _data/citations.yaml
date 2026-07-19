@@ -3012,3 +3012,222 @@
   - Autonomous Driving
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.33012/navi.749
+  title: "Cauchy\u2013Gaussian Overbound for Heavy-Tailed GNSS Measurement Errors"
+  authors:
+  - Zhengdao Li
+  - Penggao Yan
+  - Weisong Wen,
+  - Li-Ta Hsu
+  publisher: 'NAVIGATION: Journal of the Institute of Navigation'
+  date: '2026-01-08'
+  link: https://doi.org/hcb4mf
+  type: paper
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2601.07299v2.pdf
+  tags:
+  - Cauchy distribution
+  - global navigation satellite systems
+  - heavy-tailed distributions
+  - overbounding techniques
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TMC.2026.3672619
+  title: 'Watch Your Position: Neural Inertial Localization With a Single Wrist-Worn
+    Device'
+  authors:
+  - Shiyu Bai
+  - Yizhi Lyu
+  - Zhen Lyu
+  - Ruijie Xu
+  - Xin Wang
+  - Weisong Wen
+  publisher: IEEE Transactions on Mobile Computing
+  date: '2026-01-08'
+  link: https://doi.org/hcb4mg
+  type: paper
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Watch_Your_Position_Neural_Inertial_Localization_With_a_Single_Wrist-Worn_Device.pdf
+  tags:
+  - Smartwatch
+  - inertial odometry
+  - indoor localization
+  - deep learning,
+  - IMU
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/LRA.2026.3673929
+  title: 'Orthogonal Ray Projection: A Tangent-Space Visual Measurement Model for
+    Robust Visual-Inertial Odometry'
+  authors:
+  - Bing Han
+  - Tuan Li
+  - Yuezu Lv
+  - Weisong Wen
+  - Zhipeng Wang
+  - Chuang Shi
+  publisher: IEEE Robotics and Automation Letters
+  date: '2026-03-13'
+  link: https://doi.org/hcb4mh
+  type: paper
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Orthogonal_Ray_Projection_A_Tangent-Space_Visual_Measurement_Model_for_Robust_Visual-Inertial_Odometry.pdf
+  tags:
+  - Visual-inertial odometry
+  - orthogonal ray
+  - projection
+  - tangent space parameterization
+  - estimator consistency
+  - geometry linearity.
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/JIOT.2026.3677365
+  title: 'RTT-LIO: A Wi-Fi RTT-Aided LiDAR-Inertial Odometry via Tightly-Coupled Factor
+    Graph Optimization in Complex Scenes'
+  authors:
+  - Ruijie Xu
+  - Xikun Liu
+  - Xin Wang
+  - Weisong Wen
+  - Yulong Huang
+  publisher: IEEE Internet of Things Journal
+  date: '2026-03-25'
+  link: https://doi.org/hcb4mj
+  type: paper
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/RTT-LIO_A_Wi-Fi_RTT-Aided_LiDAR-Inertial_Odometry_via_Tightly-Coupled_Factor_Graph_Optimization_in_Complex_Scenes.pdf
+  tags:
+  - Factor graph optimization (FGO)
+  - LiDAR inertial odometry (LIO)
+  - sensor fusion
+  - Wi-Fi round-trip-time (RTT).
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/INFOCOM59046.2026.11571492
+  title: 'From FSD to FSC: Enabling Full Smart-Communication in Autonomous Vehicles
+    Through Full Self-Driving Models'
+  authors:
+  - Zhicheng Wang
+  - Shihan Zhao
+  - Donghui Dai
+  - Lei Yang
+  - Feng Huang
+  - Li-Ta Hsu
+  - Weisong Wen
+  publisher: IEEE INFOCOM 2026 - IEEE Conference on Computer Communications
+  date: '2026-05-18'
+  link: https://doi.org/hcb4mk
+  type: paper
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/From_FSD_to_FSC_Enabling_Full_Smart-Communication_in_Autonomous_Vehicles_Through_Full_Self-Driving_Models.pdf
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TMC.2026.3697299
+  title: "R\n                    <sup>2</sup>\n                    TT: High-Accuracy\
+    \ 3D Localization Using Ray-Tracing-Based Wi-Fi RTT Virtual Fingerprints for Challenging\
+    \ Scenarios"
+  authors:
+  - Xin Wang
+  - Xikun Liu
+  - Zhen Lyu
+  - Ruijie Xu
+  - Weisong Wen
+  publisher: IEEE Transactions on Mobile Computing
+  date: '2026-05-27'
+  link: https://doi.org/hcb4mm
+  type: paper
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/R2TT_High-Accuracy_3D_Localization_Using_Ray-Tracing-Based_Wi-Fi_RTT_Virtual_Fingerprints_for_Challenging_Scenarios.pdf
+  tags:
+  - Indoor Localization
+  - Wi-Fi RTT
+  - Virtual Fingerprinting
+  - Ray Tracing
+  - Deep Learning
+  - 3D Localization
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.ast.2026.112706
+  title: 'Wall Inspector: Quadrotor control in wall-proximity through model compensation'
+  authors:
+  - Peiwen Yang
+  - Weisong Wen
+  - Runqiu Yang
+  - Yingming Chen
+  - Cheuk Chi Tsang
+  publisher: Aerospace Science and Technology
+  date: '2026-05-27'
+  link: https://doi.org/hcb4mn
+  type: paper
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/1-s2.0-S1270963826010850-main.pdf
+  tags:
+  - Ducted rotor
+  - Model predictive control (MPC)
+  - Quadrotor
+  - Wall-proximity effect
+  - Trajectory tracking
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TII.2026.3693775
+  title: 'D2IO: Diffusion-Based Deep Inertial Odometry for Pedestrian Indoor Localization'
+  authors:
+  - Yingying Wang
+  - Shaoting Qiu
+  - Yulong Huang
+  - Weisong Wen
+  publisher: IEEE Transactions on Industrial Informatics
+  date: '2026-05-28'
+  link: https://doi.org/hcb4mp
+  type: paper
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/D2IO_Diffusion-Based_Deep_Inertial_Odometry_for_Pedestrian_Indoor_Localization.pdf
+  tags:
+  - Diffusion model
+  - Inertial navigation
+  - Internet of Things
+  - Velocity estimation
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/TITS.2026.3706684
+  title: Online IMU-Odometer Calibration Using GNSS Measurements for Autonomous Ground
+    Vehicle Localization
+  authors:
+  - Baoshan Song
+  - Xiao Xia
+  - Penggao Yan
+  - Yihan Zhong
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: IEEE Transactions on Intelligent Transportation Systems
+  date: '2026-07-26'
+  link: https://doi.org/hcb4mq
+  type: paper
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Online_IMU-Odometer_Calibration_Using_GNSS_Measurements_for_Autonomous_Ground_Vehicle_Localization.pdf
+  tags:
+  - GNSS
+  - sensor fusion
+  - extrinsic calibration
+  - factor graph optimization
+  - autonomous vehicles
+  plugin: sources.py
+  file: sources.yaml
