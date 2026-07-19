@@ -2224,3 +2224,158 @@
     - Roadside Infrastructure
     - SLAM
     - Autonomous Driving
+
+- id: doi:10.33012/navi.749
+  type: paper
+  date: 2026-01-08
+  # image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/2601.07299v2.pdf
+    # - type: source
+    #   text: code
+    #   link: https://polyu-taslab.github.io/UrbanV2X/
+  tags:
+    - Cauchy distribution
+    - global navigation satellite systems
+    - heavy-tailed distributions
+    - overbounding techniques
+
+- id: doi:10.1109/TMC.2026.3672619
+  type: paper
+  date: 2026-01-08
+  # image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Watch_Your_Position_Neural_Inertial_Localization_With_a_Single_Wrist-Worn_Device.pdf
+    # - type: source
+    #   text: code
+    #   link: https://polyu-taslab.github.io/UrbanV2X/
+  tags:
+    - Smartwatch
+    - inertial odometry
+    - indoor localization
+    - deep learning,
+    - IMU
+
+- id: doi:10.1109/LRA.2026.3673929
+  type: paper
+  date: 2026-03-13
+  # image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Orthogonal_Ray_Projection_A_Tangent-Space_Visual_Measurement_Model_for_Robust_Visual-Inertial_Odometry.pdf
+    # - type: source
+    #   text: code
+    #   link: https://polyu-taslab.github.io/UrbanV2X/
+  tags:
+    - Visual-inertial odometry
+    - orthogonal ray
+    - projection
+    - tangent space parameterization
+    - estimator consistency
+    - geometry linearity.
+
+- id: doi:10.1109/JIOT.2026.3677365
+  type: paper
+  date: 2026-03-25
+  # image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/RTT-LIO_A_Wi-Fi_RTT-Aided_LiDAR-Inertial_Odometry_via_Tightly-Coupled_Factor_Graph_Optimization_in_Complex_Scenes.pdf
+    # - type: source
+    #   text: code
+    #   link: https://polyu-taslab.github.io/UrbanV2X/
+  tags:
+    - Factor graph optimization (FGO)
+    - LiDAR inertial odometry (LIO)
+    - sensor fusion
+    - Wi-Fi round-trip-time (RTT).
+
+- id: doi:10.1109/INFOCOM59046.2026.11571492
+  type: paper
+  date: 2026-05-18
+  # image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/From_FSD_to_FSC_Enabling_Full_Smart-Communication_in_Autonomous_Vehicles_Through_Full_Self-Driving_Models.pdf
+    # - type: source
+    #   text: code
+    #   link: https://polyu-taslab.github.io/UrbanV2X/
+
+- id: doi:10.1109/TMC.2026.3697299
+  type: paper
+  date: 2026-05-27
+  # image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/R2TT_High-Accuracy_3D_Localization_Using_Ray-Tracing-Based_Wi-Fi_RTT_Virtual_Fingerprints_for_Challenging_Scenarios.pdf
+    # - type: source
+    #   text: code
+    #   link: https://polyu-taslab.github.io/UrbanV2X/
+  tags:
+    - Indoor Localization
+    - Wi-Fi RTT
+    - Virtual Fingerprinting
+    - Ray Tracing
+    - Deep Learning
+    - 3D Localization
+
+- id: doi:10.1016/j.ast.2026.112706
+  type: paper
+  date: 2026-05-27
+  # image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/1-s2.0-S1270963826010850-main.pdf
+    # - type: source
+    #   text: code
+    #   link: https://polyu-taslab.github.io/UrbanV2X/
+  tags:
+    - Ducted rotor
+    - Model predictive control (MPC)
+    - Quadrotor
+    - Wall-proximity effect
+    - Trajectory tracking
+
+- id: doi:10.1109/TII.2026.3693775
+  type: paper
+  date: 2026-05-28
+  # image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/D2IO_Diffusion-Based_Deep_Inertial_Odometry_for_Pedestrian_Indoor_Localization.pdf
+    # - type: source
+    #   text: code
+    #   link: https://polyu-taslab.github.io/UrbanV2X/
+  tags:
+    - Diffusion model
+    - Inertial navigation
+    - Internet of Things
+    - Velocity estimation
+
+- id: 10.1109/TITS.2026.3706684
+  type: paper
+  date: 2026-07-26
+  # image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Snipaste_2025-09-07_15-21-25.png
+  buttons:
+    - type: manubot
+      text: paper
+      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Online_IMU-Odometer_Calibration_Using_GNSS_Measurements_for_Autonomous_Ground_Vehicle_Localization.pdf
+    # - type: source
+    #   text: code
+    #   link: https://polyu-taslab.github.io/UrbanV2X/
+  tags:
+    - GNSS
+    - sensor fusion
+    - extrinsic calibration
+    - factor graph optimization
+    - autonomous vehicles
