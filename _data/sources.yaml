@@ -2369,7 +2369,7 @@
   buttons:
     - type: manubot
       text: paper
-      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/research/papers/Online_IMU-Odometer_Calibration_Using_GNSS_Measurements_for_Autonomous_Ground_Vehicle_Localization.pdf
+      link: /publications/papers/Online_IMU-Odometer_Calibration_Using_GNSS_Measurements_for_Autonomous_Ground_Vehicle_Localization.pdf
     # - type: source
     #   text: code
     #   link: https://polyu-taslab.github.io/UrbanV2X/
