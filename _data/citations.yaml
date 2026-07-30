@@ -404,6 +404,19 @@
   - GNSS
   - RTKLIB
   repo: https://github.com/RoboticsPolyu/QUAD_DYN
+- id: doi:10.23919/ccc64809.2025.11179451
+  title: Learning-Based Wifi-IMU Fusion for Unconstrained Pedestrian Indoor Localization
+  authors:
+  - Yingying Wang
+  - Yulong Huang
+  - Ming Xia
+  - Weisong Wen
+  publisher: 2025 44th Chinese Control Conference (CCC)
+  date: '2025-07-28'
+  link: https://doi.org/hcc4rt
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/TITS.2025.3572620
   title: Safety-Quantifiable Line Feature-Based Monocular Visual Localization With
     3D Prior Map
@@ -596,6 +609,49 @@
   - Pedestrian navigation
   - Zero-velocity (ZV) detection
   repo: null
+- id: doi:10.1109/tce.2025.3552892
+  title: 'Urban GNSS Positioning for Consumer Electronics: 3D Mapping and Advanced
+    Signal Processing'
+  authors:
+  - Jiale Wang
+  - Ming Xia
+  - Deyou Zhang
+  - Weisong Wen
+  - Wu Chen
+  - Chuang Shi
+  publisher: IEEE Transactions on Consumer Electronics
+  date: '2025-05-01'
+  link: https://doi.org/g9hrnq
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/plans61210.2025.11028259
+  title: Certifiably Optimal Satellite Orbit Determination Based on Doppler Measurements
+    for Low-Earth-Orbit Satellites
+  authors:
+  - Baoshan Song
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: 2025 IEEE/ION Position, Location and Navigation Symposium (PLANS)
+  date: '2025-04-28'
+  link: https://doi.org/hcc4rv
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/plans61210.2025.11028215
+  title: Paired Cauchy-Gaussian overbound for not symmetric unimodal heavy-tailed
+    distributions
+  authors:
+  - Zhengdao Li
+  - Penggao Yan
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: 2025 IEEE/ION Position, Location and Navigation Symposium (PLANS)
+  date: '2025-04-28'
+  link: https://doi.org/hcc4rw
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/JSEN.2025.3540790
   title: Multisensor Plug-and-Play Navigation Based on Resilient Information Filter
   authors:
@@ -724,6 +780,33 @@
   orcid: 0000-0003-4158-0913
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.33012/navi.684
+  title: 'Fault Detection Algorithm for Gaussian Mixture Noises: An Application in
+    Lidar/IMU Integrated Localization Systems'
+  authors:
+  - Penggao Yan
+  - Zhengdao Li
+  - Feng Huang
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: 'NAVIGATION: Journal of the Institute of Navigation'
+  date: '2025-03-19'
+  link: https://doi.org/g9hrnr
+  orcid: 0000-0003-4158-0913
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Screenshot2.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/navi.684.full.pdf
+  tags:
+  - 2D lidar/IMU-based localization
+  - chi-squared test
+  - EKF, fault detection
+  - Gaussian mixture model
+  - non-Gaussian noise
 - id: doi:10.1109/ITSC60802.2025.11423028
   title: Integrity-Monitored Deep Reinforcement Learning for Safe and Robust Autonomous
     Navigation
@@ -830,6 +913,20 @@
   orcid: 0000-0003-4158-0913
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1088/1361-6501/ad7487
+  title: Indoor altitude estimation assisted by inertial compensation and online floor
+    modeling
+  authors:
+  - Ming Xia
+  - Jiale Wang
+  - Chuang Shi
+  - Weisong Wen
+  publisher: Measurement Science and Technology
+  date: '2024-09-05'
+  link: https://doi.org/g8t54m
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/TIV.2024.3406756
   title: A Novel Consistent-Robust SINS/GNSS/NHC Integrated Navigation Method for
     Autonomous Vehicles Under Intermittent GNSS Outage
@@ -909,6 +1006,152 @@
   - VINS
   - 3DMA GNSS
   repo: null
+- id: doi:10.5194/isprs-archives-xlviii-4-2024-607-2024
+  title: Invariant Extended Kalman Filtering for Pedestrian Deep-Inertial Odometry
+  authors:
+  - Shiyu Bai
+  - Weisong Wen
+  - Yue Yu
+  - Li-Ta Hsu
+  publisher: The International Archives of the Photogrammetry, Remote Sensing and
+    Spatial Information Sciences
+  date: '2024-10-21'
+  link: https://doi.org/g8t5nb
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ipin62893.2024.10786109
+  title: SUG-UAV Multirotor Dataset with Multi-sensor Integration in Indoor and Urban
+    Areas
+  authors:
+  - Naigui Xiao
+  - Weisong Wen
+  - Jiahao Hu
+  - Peiwen Yang
+  - Jiaqi Zhao
+  - Chunjun Wu
+  - Shiyu Bai
+  publisher: 2024 14th International Conference on Indoor Positioning and Indoor Navigation
+    (IPIN)
+  date: '2024-10-14'
+  link: https://doi.org/hcc4rx
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.33012/2024.19908
+  title: DGNSS Corrected Pseudorange and Time-Differenced Carrier Phase (TDCP) Measurements
+    using Differentiable Factor Graph Optimization (DFGO)
+  authors:
+  - Hoi-Fung Ng
+  - Penghui Xu
+  - Yihan Zhong
+  - Guohao Zhang
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2024-10-09'
+  link: https://doi.org/g8t5zd
+  orcid: 0000-0003-4158-0913
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/ivan2024GNSS.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/2024/Ivan2024GNSS24-0239.pdf
+  tags:
+  - Time-Differenced Carrier Phase
+  - Differentiable Factor Graph Optimization
+  repo: null
+- id: doi:10.33012/2024.19805
+  title: Factor Graph Optimization Based Multi Epoch Ambiguity Resolution for GNSS
+    RTK and its Evaluation in Hong Kong Urban Canyons
+  authors:
+  - Yuan Li
+  - Xikun Liu
+  - Weisong Wen
+  - Li-Ta Hsu
+  - Yilong Yuan
+  - Guangyu Bian
+  - Qiaoyun Chen
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2024-10-09'
+  link: https://doi.org/g8t5zf
+  orcid: 0000-0003-4158-0913
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/runzhi2024pyrtklib.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/2024/runzhihu2024pyrtklib2409.12996v1.pdf
+  tags:
+  - Artificial intelligence
+  - Deep learning
+  - GNSS
+  - RTKLIB
+  repo: null
+- id: doi:10.1109/itsc58415.2024.10919536
+  title: Safe-Assured Learning-Based Deep SE(3) Motion Joint Planning and Control
+    for UAV Interactions with Dynamic Environments
+  authors:
+  - Yuanyuan Zhang
+  - Weisong Wen
+  - Penggao Yan
+  publisher: 2024 IEEE 27th International Conference on Intelligent Transportation
+    Systems (ITSC)
+  date: '2024-09-24'
+  link: https://doi.org/hcc4rz
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1088/1361-6501/ad440a
+  title: 'FGO-MFI: factor graph optimization-based multi-sensor fusion and integration
+    for reliable localization'
+  authors:
+  - Jiaqi Zhu
+  - Guirong Zhuo
+  - Xin Xia
+  - Weisong Wen
+  - Lu Xiong
+  - Bo Leng
+  - Wei Liu
+  publisher: Measurement Science and Technology
+  date: '2024-05-08'
+  link: https://doi.org/g8t54v
+  orcid: 0000-0003-4158-0913
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/2024/Zhu_2024_Meas._Sci._Technol._35_086303.pdf
+  tags:
+  - Vehicle localization
+  - Multi-sensor fusion
+  - IMU/dynamics pre-integration
+  repo: null
+- id: doi:10.1049/itr2.12524
+  title: "Towards high\u2010definition vector map construction based on multi\u2010\
+    sensor integration for intelligent vehicles: Systems and error quantification"
+  authors:
+  - Runzhi Hu
+  - Shiyu Bai
+  - Weisong Wen
+  - Xin Xia
+  - "Li\u2010Ta Hsu"
+  publisher: IET Intelligent Transport Systems
+  date: '2024-06-22'
+  link: https://doi.org/g8t65p
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/JIOT.2024.3396360
   title: Trajectory Smoothing Using GNSS/PDR Integration via Factor Graph Optimization
     in Urban Canyons
@@ -933,6 +1176,70 @@
   - Global navigation satellite system
   - Pedestrian dead reckoning
   repo: null
+- id: doi:10.1109/icuas60882.2024.10556962
+  title: LiDAR Stereo Visual Inertial Pose Estimation Based on Feedforward and Feedbacks
+  authors:
+  - Wenyu Yang
+  - Haochen Hu
+  - Kwai-wa Tse
+  - Shengyang Chen
+  - Weisong Wen
+  - Chih-yung Wen
+  publisher: 2024 International Conference on Unmanned Aircraft Systems (ICUAS)
+  date: '2024-06-04'
+  link: https://doi.org/hcc4r2
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/icra57147.2024.10611672
+  title: 'CoLRIO: LiDAR-Ranging-Inertial Centralized State Estimation for Robotic
+    Swarms'
+  authors:
+  - Shipeng Zhong
+  - Hongbo Chen
+  - Yuhua Qi
+  - Dapeng Feng
+  - Zhiqiang Chen
+  - Jin Wu
+  - Weisong Wen
+  - Ming Liu
+  publisher: 2024 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2024-05-13'
+  link: https://doi.org/hbfmst
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/icra57147.2024.10611074
+  title: 'RELEAD: Resilient Localization with Enhanced LiDAR Odometry in Adverse Environments'
+  authors:
+  - Zhiqiang Chen
+  - Hongbo Chen
+  - Yuhua Qi
+  - Shipeng Zhong
+  - Dapeng Feng
+  - Jin Wu
+  - Weisong Wen
+  - Ming Liu
+  publisher: 2024 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2024-05-13'
+  link: https://doi.org/g8t54t
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.33012/2024.19564
+  title: A Fault Detection Algorithm for LiDAR/IMU Integrated Localization Systems
+    with Non-Gaussian Noises
+  authors:
+  - Penggao Yan
+  - Weisong Wen
+  - Feng Huang
+  - Li-Ta Hsu
+  publisher: The International Technical Meeting of the The Institute of Navigation
+  date: '2024-02-14'
+  link: https://doi.org/g8t65n
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/TIV.2023.3338141
   title: Dynamic Object-Aware LiDAR Odometry Aided by Joint Weightings Estimation
     in Urban Areas
@@ -1033,6 +1340,34 @@
   orcid: 0000-0003-4158-0913
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.33012/navi.660
+  title: Integrity-Constrained Factor Graph Optimization for GNSS Positioning in Urban
+    Canyons
+  authors:
+  - Xiao Xia
+  - Weisong Wen,
+  - Li-Ta Hsu
+  publisher: 'NAVIGATION: Journal of the Institute of Navigation'
+  date: '2024-01-01'
+  link: https://doi.org/g8t575
+  orcid: 0000-0003-4158-0913
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/F1.medium.gif
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/navi.660.pdf
+  tags:
+  - factor graph optimization
+  - fault detection and exclusion
+  - GNSS positioning
+  - integrity-constrained positioning
+  - integrity monitoring
+  - switch variables
+  - urban canyons
+  repo: null
 - id: doi:10.1109/TIM.2024.3451578
   title: Nonlinearity-Aware ZUPT-Aided Pedestrian Inertial Navigation Based on Cubature
     Kalman Filter in Urban Canyons
@@ -1073,6 +1408,297 @@
   publisher: IEEE Transactions on Instrumentation and Measurement
   date: '2024-01-01'
   link: https://doi.org/g8t5zb
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.33012/2023.19447
+  title: 3D LiDAR Aided GNSS NLOS Correction with Direction of Arrival Estimation
+    Using Doppler Measurements
+  authors:
+  - Xikun Liu
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2023-10-05'
+  link: https://doi.org/g8t66d
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.33012/2023.19317
+  title: A New GNSS Ambiguity Resolution Method Through Mixed Integer Programming
+  authors:
+  - Hongmin Zhang
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2023-10-05'
+  link: https://doi.org/hcc4r3
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.33012/2023.19297
+  title: Differentiable Factor Graph Optimization with Intelligent Covariance Adaptation
+    for Accurate Smartphone Positioning
+  authors:
+  - Penghui Xu
+  - Hoi-Fung Ng
+  - Yihan Zhong
+  - Guohao Zhang
+  - Weisong Wen
+  - Bo Yang
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2023-10-05'
+  link: https://doi.org/hcc4r4
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.33012/2023.19471
+  title: Towards Accurate Vehicle-to-Pedestrian Relative Positioning Aided by Inter-Frame
+    and Inter-Agent GNSS Measurement Collaboration Using Factor Graph Optimization
+    for Smart Summon
+  authors:
+  - Yihan Zhong
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2023-10-05'
+  link: https://doi.org/hcc4r5
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ipin57070.2023.10332510
+  title: Factor Graph Optimization-based Indoor Pedestrian SLAM with Probabilistic
+    Exact Activity Loop Closures using Smartphone
+  authors:
+  - Shiyu Bai
+  - Weisong Wen
+  - Li-Ta Hsu
+  - Yue Yu
+  publisher: 2023 13th International Conference on Indoor Positioning and Indoor Navigation
+    (IPIN)
+  date: '2023-09-25'
+  link: https://doi.org/g8t656
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/itsc57777.2023.10422216
+  title: Adaptive Multi-Sensor Integrated Navigation System Aided by Continuous Error
+    Map from RSU for Autonomous Vehicles in Urban Areas
+  authors:
+  - Feng Huang
+  - Weisong Wen
+  - Guohao Zhang
+  - Dongzhe Su
+  - Li-Ta Hsu
+  publisher: 2023 IEEE 26th International Conference on Intelligent Transportation
+    Systems (ITSC)
+  date: '2023-09-24'
+  link: https://doi.org/g8t659
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/itsc57777.2023.10422540
+  title: Fisheye Camera Aided GNSS NLOS Detection and Learning-Based Pseudorange Bias
+    Correction for Intelligent Vehicles in Urban Canyons
+  authors:
+  - Runzhi Hu
+  - Weisong Wen
+  - "Li\u2013Ta Hsu"
+  publisher: 2023 IEEE 26th International Conference on Intelligent Transportation
+    Systems (ITSC)
+  date: '2023-09-24'
+  link: https://doi.org/g8t66b
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/itsc57777.2023.10422552
+  title: Roadside Infrastructure assisted LiDAR/Inertial-based Mapping for Intelligent
+    Vehicles in Urban Areas
+  authors:
+  - Feng Huang
+  - Hang Chen
+  - Alpamys Urtay
+  - Dongzhe Su
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: 2023 IEEE 26th International Conference on Intelligent Transportation
+    Systems (ITSC)
+  date: '2023-09-24'
+  link: https://doi.org/g8t658
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/itsc57777.2023.10422537
+  title: Tightly Joining Positioning and Control for Trustworthy Unmanned Aerial Vehicles
+    Based on Factor Graph Optimization in Urban Transportation
+  authors:
+  - Peiwen Yang
+  - Weisong Wen
+  publisher: 2023 IEEE 26th International Conference on Intelligent Transportation
+    Systems (ITSC)
+  date: '2023-09-24'
+  link: https://doi.org/g8t66c
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s11804-023-00367-1
+  title: 'Deep Learning in Maritime Autonomous Surface Ships: Current Development
+    and Challenges'
+  authors:
+  - Jun Ye
+  - Chengxi Li
+  - Weisong Wen
+  - Ruiping Zhou
+  - Vasso Reppa
+  publisher: Journal of Marine Science and Application
+  date: '2023-09-01'
+  link: https://doi.org/g8t66f
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.5194/isprs-archives-xlviii-1-w1-2023-227-2023
+  title: COST-EFFECTIVE CAMERA LOCALIZATION AIDED BY PRIOR POINT CLOUDS MAPS FOR LEVEL
+    3 AUTONOMOUS DRIVING VEHICLES
+  authors:
+  - Y.-T. Leung
+  - X. Zheng
+  - H.-Y. Ho
+  - W. Wen
+  - L.-T. Hsu
+  publisher: The International Archives of the Photogrammetry, Remote Sensing and
+    Spatial Information Sciences
+  date: '2023-05-25'
+  link: https://doi.org/g8xprb
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.5194/isprs-archives-xlviii-1-w1-2023-473-2023
+  title: MULTI-ROBOT COOPERATIVE LIDAR SLAM FOR EFFICIENT MAPPING IN URBAN SCENES
+  authors:
+  - Y. Sun
+  - F. Huang
+  - W. Wen
+  - L.-T. Hsu
+  - X. Liu
+  publisher: The International Archives of the Photogrammetry, Remote Sensing and
+    Spatial Information Sciences
+  date: '2023-05-25'
+  link: https://doi.org/g8t57z
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.5194/isprs-archives-xlviii-1-w1-2023-175-2023
+  title: SMARTPHONE LEVEL INDOOR/OUTDOOR UBIQUITOUS PEDESTRIAN POSITIONING 3DMA GNSS/VINS
+    INTEGRATION USING FGO
+  authors:
+  - H.-Y. Ho
+  - H.-F. Ng
+  - Y.-T. Leung
+  - W. Wen
+  - L.-T. Hsu
+  - Y. Luo
+  publisher: The International Archives of the Photogrammetry, Remote Sensing and
+    Spatial Information Sciences
+  date: '2023-05-25'
+  link: https://doi.org/g8t572
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/plans53410.2023.10140089
+  title: 'Extending Navigation Service under Sensor Failures: An Approach by Integrating
+    System Identification and Vehicle Dynamic Model'
+  authors:
+  - Penggao Yan
+  - Li-Ta Hsu
+  - Weisong Wen
+  publisher: 2023 IEEE/ION Position, Location and Navigation Symposium (PLANS)
+  date: '2023-04-24'
+  link: https://doi.org/g8t576
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/plans53410.2023.10140009
+  title: Integrity-constrained Factor Graph Optimization for GNSS Positioning
+  authors:
+  - Xiao Xia
+  - Li-Ta Hsu
+  - Weisong Wen
+  publisher: 2023 IEEE/ION Position, Location and Navigation Symposium (PLANS)
+  date: '2023-04-24'
+  link: https://doi.org/hcc4r6
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/plans53410.2023.10139983
+  title: LiDAR Feature Outlier Mitigation Aided by Graduated Non-convexity Relaxation
+    for Safety-critical Localization in Urban Canyons
+  authors:
+  - Jiachen Zhang
+  - Weisong Wen
+  - Li-Ta Hsu
+  - Zheng Gong
+  - Zhongzhe Su
+  publisher: 2023 IEEE/ION Position, Location and Navigation Symposium (PLANS)
+  date: '2023-04-24'
+  link: https://doi.org/g8t574
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.33012/2023.18637
+  title: Integration of Vehicle Dynamic Model and System Identified Model for Navigation
+    in Autonomous Mobile Robots
+  authors:
+  - Penggao Yan
+  - Li-Ta Hsu
+  - Weisong Wen
+  publisher: The International Technical Meeting of the The Institute of Navigation
+  date: '2023-02-13'
+  link: https://doi.org/g8t6km
+  orcid: 0000-0003-4158-0913
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/ion.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/ITM_fullpaper-submit_v3_1.pdf
+  tags:
+  - Autonomous Mobile Robots
+  - vehicle dynamic models
+  repo: null
+- id: doi:10.33012/navi.590
+  title: 3D Vision Aided GNSS Real-Time Kinematic Positioning for Autonomous Systems
+    in Urban Canyons
+  authors:
+  - Weisong Wen
+  - Xiwei Bai,
+  - Li-Ta Hsu
+  publisher: 'NAVIGATION: Journal of the Institute of Navigation'
+  date: '2023-01-01'
+  link: https://doi.org/gsbsnc
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.33012/navi.602
+  title: 'Hong Kong UrbanNav: An Open-Source Multisensory Dataset for Benchmarking
+    Urban Navigation Algorithms'
+  authors:
+  - Li-Ta Hsu
+  - Feng Huang
+  - Hoi-Fung Ng
+  - Guohao Zhang
+  - Yihan Zhong
+  - Xiwei Bai,
+  - Weisong Wen
+  publisher: 'NAVIGATION: Journal of the Institute of Navigation'
+  date: '2023-01-01'
+  link: https://doi.org/gsk3ck
   orcid: 0000-0003-4158-0913
   plugin: orcid.py
   file: orcid.yaml
@@ -1145,6 +1771,171 @@
   orcid: 0000-0003-4158-0913
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.33012/2021.18072
+  title: 3D LiDAR Aided GNSS Real-time Kinematic Positioning
+  authors:
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2021-10-13'
+  link: https://doi.org/g7vx59
+  orcid: 0000-0003-4158-0913
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Wen_3D_Lidar_Aided.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/Wen_3D_Lidar_Aided.pdf
+  tags:
+  - FGO
+  - 3D LiDAR
+  - NLOS
+  - RTK
+  - 3DMA GNSS
+  repo: null
+- id: doi:10.33012/2021.17994
+  title: '3D Mapping Aided GNSS Using Gauss-Newton Algorithm: An Example on GNSS Shadow
+    Matching'
+  authors:
+  - Hoi-Fung Ng
+  - Guohao Zhang
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2021-10-13'
+  link: https://doi.org/g8t45d
+  orcid: 0000-0003-4158-0913
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Ng_3D_Mapping_Aided.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/Ng_3D_Mapping_Aided.pdf
+  tags:
+  - GNSS
+  - Mapping
+  - NLOS
+  - Gauss-Newton
+  - 3DMA
+  repo: null
+- id: doi:10.33012/2021.18083
+  title: A Coarse-to-Fine LiDAR-Based SLAM with Dynamic Object Removal in Dense Urban
+    Areas
+  authors:
+  - Feng Huang
+  - Donghui Shen
+  - Weisong Wen
+  - Jiachen Zhang
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2021-10-13'
+  link: https://doi.org/gsk2vg
+  orcid: 0000-0003-4158-0913
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Huang_Coarse-To-Fine_Lidar-Based_Slam.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/Huang_Coarse-To-Fine_Lidar-Based_Slam.pdf
+  tags:
+  - SLAM
+  - Lidar
+  - Localization
+  - DNN
+  - Dynamic object removal
+  repo: null
+- id: doi:10.33012/2021.18089
+  title: Continuous GNSS-RTK Aided by LiDAR/Inertial Odometry with Intelligent GNSS
+    Selection in Urban Canyons
+  authors:
+  - Jiachen Zhang
+  - Weisong Wen
+  - Feng Huang
+  - Xiaodong Chen
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2021-10-13'
+  link: https://doi.org/g8t45c
+  orcid: 0000-0003-4158-0913
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Zhang_Continuous_Gnss-Rtk_Aided.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/Zhang_Continuous_Gnss-Rtk_Aided.pdf
+  tags:
+  - GNSS-RTK
+  - GNSS
+  - NLOS
+  - urban canyons
+  - LIO
+  repo: null
+- id: doi:10.33012/2021.18157
+  title: Integrity Monitoring for GNSS Positioning Via Factor Graph Optimization in
+    Urban Canyons
+  authors:
+  - Weisong Wen
+  - Qian Meng
+  - Li-Ta Hsu
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2021-10-13'
+  link: https://doi.org/g8t45g
+  orcid: 0000-0003-4158-0913
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Wen_Integrity_Monitoring_Gnss.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/Wen_Integrity_Monitoring_Gnss.pdf
+  tags:
+  - GNSS
+  - FGO
+  - Failure detection and exclusion
+  - urban canyon
+  repo: null
+- id: doi:10.33012/2021.17895
+  title: UrbanNav:An Open-Sourced Multisensory Dataset for Benchmarking Positioning
+    Algorithms Designed for Urban Areas
+  authors:
+  - Li-Ta Hsu
+  - Nobuaki Kubo
+  - Weisong Wen
+  - Wu Chen
+  - Zhizhao Liu
+  - Taro Suzuki
+  - Junichi Meguro
+  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
+    of The Institute of Navigation
+  date: '2021-10-13'
+  link: https://doi.org/g8t45f
+  orcid: 0000-0003-4158-0913
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/UrbanNav.png
+  buttons:
+  - type: manubot
+    text: paper
+    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/UrbanNav.pdf
+  tags:
+  - UrbanNav
+  - Dataset
+  repo: null
 - id: doi:10.1002/navi.421
   title: 'Factor graph optimization for GNSS/INS integration: A comparison with the
     extended Kalman filter'
@@ -1177,6 +1968,18 @@
   - positioning
   - window size
   repo: null
+- id: doi:10.1109/icra48506.2021.9562037
+  title: Towards Robust GNSS Positioning and Real-time Kinematic Using Factor Graph
+    Optimization
+  authors:
+  - Weisong Wen
+  - Li-Ta Hsu
+  publisher: 2021 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2021-05-30'
+  link: https://doi.org/gprd6g
+  orcid: 0000-0003-4158-0913
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/TITS.2019.2961128
   title: GNSS NLOS Exclusion Based on Dynamic Object Detection Using LiDAR Point Cloud
   authors:
@@ -1870,165 +2673,6 @@
   - NLOS exclusion
   - Urban canyon
   repo: null
-- id: doi:10.33012/2021.18089
-  title: Continuous GNSS-RTK Aided by LiDAR/Inertial Odometry with Intelligent GNSS
-    Selection in Urban Canyons
-  authors:
-  - Jiachen Zhang
-  - Weisong Wen
-  - Feng Huang
-  - Xiaodong Chen
-  - Li-Ta Hsu
-  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
-    of The Institute of Navigation
-  date: '2021-10-13'
-  link: https://doi.org/g8t45c
-  type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Zhang_Continuous_Gnss-Rtk_Aided.png
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/Zhang_Continuous_Gnss-Rtk_Aided.pdf
-  tags:
-  - GNSS-RTK
-  - GNSS
-  - NLOS
-  - urban canyons
-  - LIO
-  repo: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.33012/2021.17994
-  title: '3D Mapping Aided GNSS Using Gauss-Newton Algorithm: An Example on GNSS Shadow
-    Matching'
-  authors:
-  - Hoi-Fung Ng
-  - Guohao Zhang
-  - Weisong Wen
-  - Li-Ta Hsu
-  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
-    of The Institute of Navigation
-  date: '2021-10-13'
-  link: https://doi.org/g8t45d
-  type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Ng_3D_Mapping_Aided.png
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/Ng_3D_Mapping_Aided.pdf
-  tags:
-  - GNSS
-  - Mapping
-  - NLOS
-  - Gauss-Newton
-  - 3DMA
-  repo: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.33012/2021.18072
-  title: 3D LiDAR Aided GNSS Real-time Kinematic Positioning
-  authors:
-  - Weisong Wen
-  - Li-Ta Hsu
-  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
-    of The Institute of Navigation
-  date: '2021-10-13'
-  link: https://doi.org/g7vx59
-  type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Wen_3D_Lidar_Aided.png
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/Wen_3D_Lidar_Aided.pdf
-  tags:
-  - FGO
-  - 3D LiDAR
-  - NLOS
-  - RTK
-  - 3DMA GNSS
-  repo: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.33012/2021.17895
-  title: UrbanNav:An Open-Sourced Multisensory Dataset for Benchmarking Positioning
-    Algorithms Designed for Urban Areas
-  authors:
-  - Li-Ta Hsu
-  - Nobuaki Kubo
-  - Weisong Wen
-  - Wu Chen
-  - Zhizhao Liu
-  - Taro Suzuki
-  - Junichi Meguro
-  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
-    of The Institute of Navigation
-  date: '2021-10-13'
-  link: https://doi.org/g8t45f
-  type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/UrbanNav.png
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/UrbanNav.pdf
-  tags:
-  - UrbanNav
-  - Dataset
-  repo: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.33012/2021.18083
-  title: A Coarse-to-Fine LiDAR-Based SLAM with Dynamic Object Removal in Dense Urban
-    Areas
-  authors:
-  - Feng Huang
-  - Donghui Shen
-  - Weisong Wen
-  - Jiachen Zhang
-  - Li-Ta Hsu
-  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
-    of The Institute of Navigation
-  date: '2021-10-13'
-  link: https://doi.org/gsk2vg
-  type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Huang_Coarse-To-Fine_Lidar-Based_Slam.png
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/Huang_Coarse-To-Fine_Lidar-Based_Slam.pdf
-  tags:
-  - SLAM
-  - Lidar
-  - Localization
-  - DNN
-  - Dynamic object removal
-  repo: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.33012/2021.18157
-  title: Integrity Monitoring for GNSS Positioning Via Factor Graph Optimization in
-    Urban Canyons
-  authors:
-  - Weisong Wen
-  - Qian Meng
-  - Li-Ta Hsu
-  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
-    of The Institute of Navigation
-  date: '2021-10-13'
-  link: https://doi.org/g8t45g
-  type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Wen_Integrity_Monitoring_Gnss.png
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/Wen_Integrity_Monitoring_Gnss.pdf
-  tags:
-  - GNSS
-  - FGO
-  - Failure detection and exclusion
-  - urban canyon
-  repo: null
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.3390/rs13122371
   title: Coarse-to-Fine Loosely-Coupled LiDAR-Inertial Odometry for Urban Positioning
     and Mapping
@@ -2137,61 +2781,6 @@
   repo: null
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.33012/2024.19908
-  title: DGNSS Corrected Pseudorange and Time-Differenced Carrier Phase (TDCP) Measurements
-    using Differentiable Factor Graph Optimization (DFGO)
-  authors:
-  - Hoi-Fung Ng
-  - Penghui Xu
-  - Yihan Zhong
-  - Guohao Zhang
-  - Weisong Wen
-  - Li-Ta Hsu
-  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
-    of The Institute of Navigation
-  date: '2024-10-09'
-  link: https://doi.org/g8t5zd
-  type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/ivan2024GNSS.png
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/2024/Ivan2024GNSS24-0239.pdf
-  tags:
-  - Time-Differenced Carrier Phase
-  - Differentiable Factor Graph Optimization
-  repo: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.33012/2024.19805
-  title: Factor Graph Optimization Based Multi Epoch Ambiguity Resolution for GNSS
-    RTK and its Evaluation in Hong Kong Urban Canyons
-  authors:
-  - Yuan Li
-  - Xikun Liu
-  - Weisong Wen
-  - Li-Ta Hsu
-  - Yilong Yuan
-  - Guangyu Bian
-  - Qiaoyun Chen
-  publisher: ION GNSS+, The International Technical Meeting of the Satellite Division
-    of The Institute of Navigation
-  date: '2024-10-09'
-  link: https://doi.org/g8t5zf
-  type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/2024/runzhi2024pyrtklib.png
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/2024/runzhihu2024pyrtklib2409.12996v1.pdf
-  tags:
-  - Artificial intelligence
-  - Deep learning
-  - GNSS
-  - RTKLIB
-  repo: null
-  plugin: sources.py
-  file: sources.yaml
 - id: 10.1109/ICRA57147.2024.10611074
   title: 'RELEAD: Resilient Localization with Enhanced LiDAR Odometry in Adverse Environments'
   authors:
@@ -2216,33 +2805,6 @@
   - ESIKF
   - Graduated Non-Convexit
   - Cremental Fixed Lag Smoothe
-  repo: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1088/1361-6501/ad440a
-  title: 'FGO-MFI: factor graph optimization-based multi-sensor fusion and integration
-    for reliable localization'
-  authors:
-  - Jiaqi Zhu
-  - Guirong Zhuo
-  - Xin Xia
-  - Weisong Wen
-  - Lu Xiong
-  - Bo Leng
-  - Wei Liu
-  publisher: Measurement Science and Technology
-  date: '2024-05-08'
-  link: https://doi.org/g8t54v
-  type: paper
-  image: null
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/2024/Zhu_2024_Meas._Sci._Technol._35_086303.pdf
-  tags:
-  - Vehicle localization
-  - Multi-sensor fusion
-  - IMU/dynamics pre-integration
   repo: null
   plugin: sources.py
   file: sources.yaml
@@ -2636,33 +3198,6 @@
   repo: null
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.33012/navi.660
-  title: Integrity-Constrained Factor Graph Optimization for GNSS Positioning in Urban
-    Canyons
-  authors:
-  - Xiao Xia
-  - Weisong Wen,
-  - Li-Ta Hsu
-  publisher: 'NAVIGATION: Journal of the Institute of Navigation'
-  date: '2024-01-01'
-  link: https://doi.org/g8t575
-  type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/F1.medium.gif
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/navi.660.pdf
-  tags:
-  - factor graph optimization
-  - fault detection and exclusion
-  - GNSS positioning
-  - integrity-constrained positioning
-  - integrity monitoring
-  - switch variables
-  - urban canyons
-  repo: null
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1109/PLANS53410.2023.10140089
   title: 'Extending Navigation Service under Sensor Failures: An Approach by Integrating
     System Identification and Vehicle Dynamic Model'
@@ -2712,28 +3247,6 @@
   - dynamic objects
   - urban areas
   - autonomous driving
-  repo: null
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.33012/2023.18637
-  title: Integration of Vehicle Dynamic Model and System Identified Model for Navigation
-    in Autonomous Mobile Robots
-  authors:
-  - Penggao Yan
-  - Li-Ta Hsu
-  - Weisong Wen
-  publisher: The International Technical Meeting of the The Institute of Navigation
-  date: '2023-02-13'
-  link: https://doi.org/g8t6km
-  type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/ion.png
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/ITM_fullpaper-submit_v3_1.pdf
-  tags:
-  - Autonomous Mobile Robots
-  - vehicle dynamic models
   repo: null
   plugin: sources.py
   file: sources.yaml
@@ -3374,32 +3887,6 @@
   - urban navigation
   - stochastic modeling
   - signal processing
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.33012/navi.684
-  title: 'Fault Detection Algorithm for Gaussian Mixture Noises: An Application in
-    Lidar/IMU Integrated Localization Systems'
-  authors:
-  - Penggao Yan
-  - Zhengdao Li
-  - Feng Huang
-  - Weisong Wen
-  - Li-Ta Hsu
-  publisher: 'NAVIGATION: Journal of the Institute of Navigation'
-  date: '2025-03-19'
-  link: https://doi.org/g9hrnr
-  type: paper
-  image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/Screenshot2.png
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/navi.684.full.pdf
-  tags:
-  - 2D lidar/IMU-based localization
-  - chi-squared test
-  - EKF, fault detection
-  - Gaussian mixture model
-  - non-Gaussian noise
   plugin: sources.py
   file: sources.yaml
 - id: arXiv:2507.03987
