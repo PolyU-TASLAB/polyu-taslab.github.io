@@ -873,6 +873,43 @@
     text-align: center;
   }
 
+  .robocon-feature-pair {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    max-width: 900px;
+    margin: 0 auto 24px;
+  }
+
+  .robocon-feature-pair figure {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid var(--light-gray);
+    border-radius: 14px;
+    background: var(--background-alt);
+    box-shadow: var(--shadow);
+  }
+
+  .robocon-feature-pair img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 9px;
+  }
+
+  .robocon-feature-pair figcaption {
+    flex: 1;
+    padding: 9px 5px 3px;
+    color: var(--gray);
+    font-size: 0.78rem;
+    line-height: 1.35;
+    text-align: center;
+  }
+
   @media (max-width: 640px) {
     .robocon-groups {
       grid-template-columns: 1fr;
@@ -884,6 +921,10 @@
 
     .robocon-robot-gallery img {
       height: 430px;
+    }
+
+    .robocon-feature-pair {
+      grid-template-columns: 1fr;
     }
   }
 </style>
@@ -905,15 +946,15 @@
 
 <p>These records show why historical reputation and performance in a single edition should be kept separate. CUHK brought the deepest recent international record, and UESTC, Lac Hong University, Toyohashi University of Technology, UTM, and ITS all had championship-level experience. Nevertheless, the 2026 tournament result provides the clearest event-specific ranking: <strong>HKU first and CUHK second</strong>.</p>
 
-<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; align-items: flex-start; max-width: 900px; margin: 0 auto 20px;">
-  <div style="flex: 1 1 360px; text-align: center;">
-    <img src="/preview/pr-/images/news/20260823robocon/HKUrobot.jpg" alt="Team Sapientia robots from The University of Hong Kong at ABU Robocon 2026" style="width: 100%; height: auto; object-fit: contain; border-radius: 15px;">
-    <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">HKU's Team Sapientia, the ABU Robocon 2026 champion, prepares its robots for competition.</p>
-  </div>
-  <div style="flex: 1 1 360px; text-align: center;">
-    <img src="/preview/pr-/images/news/20260823robocon/JapanTeam.jpg" alt="Toyohashi University of Technology team and robots at ABU Robocon 2026" style="width: 100%; height: auto; object-fit: contain; border-radius: 15px;">
-    <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Japan was represented by Toyohashi University of Technology, the 2023 international champion and a 2026 quarter-finalist.</p>
-  </div>
+<div class="robocon-feature-pair">
+  <figure>
+    <img src="/preview/pr-/images/news/20260823robocon/HKUrobot.jpg" alt="Team Sapientia robots from The University of Hong Kong at ABU Robocon 2026" loading="lazy">
+    <figcaption>HKU's Team Sapientia, the ABU Robocon 2026 champion, prepares its robots for competition.</figcaption>
+  </figure>
+  <figure>
+    <img src="/preview/pr-/images/news/20260823robocon/JapanTeam.jpg" alt="Toyohashi University of Technology team and robots at ABU Robocon 2026" loading="lazy">
+    <figcaption>Japan was represented by Toyohashi University of Technology, the 2023 international champion and a 2026 quarter-finalist.</figcaption>
+  </figure>
 </div>
 
 <h3 id="learning-from-robotics-in-action">Learning from Robotics in Action</h3>
