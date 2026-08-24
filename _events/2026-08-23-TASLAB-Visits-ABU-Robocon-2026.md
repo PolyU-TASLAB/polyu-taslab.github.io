@@ -1,0 +1,428 @@
+---
+title: TASLAB Members Attend ABU Robocon 2026 in Hong Kong
+subtitle: news
+# author:
+image: images/news/20260823robocon/teamphoto.jpg
+tags: news
+order:
+---
+
+## TASLAB Members Attend ABU Robocon 2026 in Hong Kong
+
+On August 23, 2026, members of the Trustworthy AI and Autonomous Systems Laboratory (TASLAB) attended the [ABU Asia-Pacific Robot Contest 2026](https://app7.rthk.hk/special/aburobocon2026/) at Queen Elizabeth Stadium in Wan Chai, Hong Kong. The visit gave our laboratory members an opportunity to experience one of the region's leading university robotics competitions and observe how student teams transformed mechanical design, perception, control, and real-time strategy into complete robotic systems.
+
+<!-- Add the names of the attending TASLAB members here if desired. -->
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="{{ '/images/news/20260823robocon/teamphoto.jpg' | relative_url }}" alt="University teams participating in ABU Robocon 2026 assemble on the competition stage"
+       style="width: 100%; height: auto; object-fit: contain; max-width: 900px; margin: 0 auto; border-radius: 15px;">
+  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Representatives of the 16 university teams at ABU Robocon 2026 in Hong Kong.</p>
+</div>
+
+### About ABU Robocon
+
+Established in 2002 by the Asia-Pacific Broadcasting Union, ABU Robocon is the largest international university robotics competition in the Asia-Pacific region. It promotes exchange and collaboration among young people in engineering, technology, and innovation by inviting university teams to design and build robots for a new challenge each year. The 2026 contest marked the event's return to Hong Kong for the first time since 2012 and was jointly organised by Radio Television Hong Kong and the Hong Kong Science and Technology Parks Corporation.
+
+This year's contest adopted the theme **"Kung Fu Quest"**, combining ideas from Chinese martial arts with robotics engineering. In each three-minute match, a team operated two cooperating robots to assemble traditional weapons, collect Kung Fu Scrolls in the Meihua Forest, and use the scrolls in a strategic giant tic-tac-toe contest. The challenge tested not only robot speed and precision, but also autonomous navigation, image recognition, manipulation, coordination between robots, and rapid tactical decision-making.
+
+### Teams in the Contest
+
+The international contest brought together 16 teams from 15 countries and regions. As the host, Hong Kong had two representatives: **Team Sapientia from The University of Hong Kong (HKU)** and **Team Power Builder from The Chinese University of Hong Kong (CUHK)**. The preliminary league was organised into six groups, as recorded below.
+
+
+
+<div class="robocon-result-legend" aria-label="Competition result legend">
+  <span class="robocon-result robocon-result--champion">Champion</span>
+  <span class="robocon-result robocon-result--runner">First runner-up</span>
+  <span class="robocon-result robocon-result--quarter">Quarter-finalist</span>
+  <span class="robocon-result robocon-result--preliminary">Preliminary league</span>
+</div>
+
+<div class="robocon-groups" aria-label="ABU Robocon 2026 preliminary groups and results">
+  <section class="robocon-group-card">
+    <header class="robocon-group-header">
+      <span class="robocon-group-letter">A</span>
+      <span><strong>Group A</strong><small>Three teams</small></span>
+    </header>
+    <div class="robocon-team robocon-team--preliminary">
+      <div class="robocon-team-meta"><span>Macao, China</span><span class="robocon-code">MPU</span></div>
+      <strong>Macao Polytechnic University</strong>
+      <span class="robocon-result robocon-result--preliminary">Preliminary league</span>
+    </div>
+    <div class="robocon-team robocon-team--preliminary">
+      <div class="robocon-team-meta"><span>India</span><span class="robocon-code">LDCE</span></div>
+      <strong>L. D. College of Engineering</strong>
+      <span class="robocon-result robocon-result--preliminary">Preliminary league</span>
+    </div>
+    <div class="robocon-team robocon-team--quarter">
+      <div class="robocon-team-meta"><span>Thailand</span><span class="robocon-code">KTC</span></div>
+      <strong>Kalasin Technical College</strong>
+      <span class="robocon-result robocon-result--quarter">Quarter-finalist</span>
+    </div>
+  </section>
+
+  <section class="robocon-group-card">
+    <header class="robocon-group-header">
+      <span class="robocon-group-letter">B</span>
+      <span><strong>Group B</strong><small>Three teams</small></span>
+    </header>
+    <div class="robocon-team robocon-team--quarter">
+      <div class="robocon-team-meta"><span>Japan</span><span class="robocon-code">TUT</span></div>
+      <strong>Toyohashi University of Technology</strong>
+      <span class="robocon-result robocon-result--quarter">Quarter-finalist</span>
+    </div>
+    <div class="robocon-team robocon-team--preliminary">
+      <div class="robocon-team-meta"><span>Mongolia</span><span class="robocon-code">MUST</span></div>
+      <strong>Mongolian University of Science and Technology</strong>
+      <span class="robocon-result robocon-result--preliminary">Preliminary league</span>
+    </div>
+    <div class="robocon-team robocon-team--quarter">
+      <div class="robocon-team-meta"><span>Indonesia</span><span class="robocon-code">ITS</span></div>
+      <strong>Institut Teknologi Sepuluh Nopember</strong>
+      <span class="robocon-result robocon-result--quarter">Quarter-finalist</span>
+    </div>
+  </section>
+
+  <section class="robocon-group-card">
+    <header class="robocon-group-header">
+      <span class="robocon-group-letter">C</span>
+      <span><strong>Group C</strong><small>Three teams</small></span>
+    </header>
+    <div class="robocon-team robocon-team--champion">
+      <div class="robocon-team-meta"><span>Hong Kong, China</span><span class="robocon-code">HKU</span></div>
+      <strong>The University of Hong Kong</strong>
+      <span class="robocon-team-name">Team Sapientia</span>
+      <span class="robocon-result robocon-result--champion">Champion</span>
+    </div>
+    <div class="robocon-team robocon-team--preliminary">
+      <div class="robocon-team-meta"><span>Malaysia</span><span class="robocon-code">UTM</span></div>
+      <strong>Universiti Teknologi Malaysia</strong>
+      <span class="robocon-result robocon-result--preliminary">Preliminary league</span>
+    </div>
+    <div class="robocon-team robocon-team--preliminary">
+      <div class="robocon-team-meta"><span>Cambodia</span><span class="robocon-code">NPIC</span></div>
+      <strong>National Polytechnic Institute of Cambodia</strong>
+      <span class="robocon-result robocon-result--preliminary">Preliminary league</span>
+    </div>
+  </section>
+
+  <section class="robocon-group-card">
+    <header class="robocon-group-header">
+      <span class="robocon-group-letter">D</span>
+      <span><strong>Group D</strong><small>Three teams</small></span>
+    </header>
+    <div class="robocon-team robocon-team--quarter">
+      <div class="robocon-team-meta"><span>Vietnam</span><span class="robocon-code">LHU</span></div>
+      <strong>Lac Hong University</strong>
+      <span class="robocon-team-name">Team LH-FOF</span>
+      <span class="robocon-result robocon-result--quarter">Quarter-finalist</span>
+    </div>
+    <div class="robocon-team robocon-team--preliminary">
+      <div class="robocon-team-meta"><span>Fiji</span><span class="robocon-code">USP</span></div>
+      <strong>The University of the South Pacific</strong>
+      <span class="robocon-result robocon-result--preliminary">Preliminary league</span>
+    </div>
+    <div class="robocon-team robocon-team--quarter">
+      <div class="robocon-team-meta"><span>Nepal</span><span class="robocon-code">TU</span></div>
+      <strong>Tribhuvan University</strong>
+      <span class="robocon-result robocon-result--quarter">Quarter-finalist</span>
+    </div>
+  </section>
+
+  <section class="robocon-group-card">
+    <header class="robocon-group-header">
+      <span class="robocon-group-letter">E</span>
+      <span><strong>Group E</strong><small>Two teams</small></span>
+    </header>
+    <div class="robocon-team robocon-team--runner">
+      <div class="robocon-team-meta"><span>Hong Kong, China</span><span class="robocon-code">CUHK</span></div>
+      <strong>The Chinese University of Hong Kong</strong>
+      <span class="robocon-team-name">Team Power Builder</span>
+      <span class="robocon-result robocon-result--runner">First runner-up</span>
+    </div>
+    <div class="robocon-team robocon-team--preliminary">
+      <div class="robocon-team-meta"><span>Egypt</span><span class="robocon-code">AU</span></div>
+      <strong>Alexandria University</strong>
+      <span class="robocon-result robocon-result--preliminary">Preliminary league</span>
+    </div>
+  </section>
+
+  <section class="robocon-group-card">
+    <header class="robocon-group-header">
+      <span class="robocon-group-letter">F</span>
+      <span><strong>Group F</strong><small>Two teams</small></span>
+    </header>
+    <div class="robocon-team robocon-team--quarter">
+      <div class="robocon-team-meta"><span>Chinese Mainland</span><span class="robocon-code">UESTC</span></div>
+      <strong>University of Electronic Science and Technology of China</strong>
+      <span class="robocon-result robocon-result--quarter">Quarter-finalist</span>
+    </div>
+    <div class="robocon-team robocon-team--preliminary">
+      <div class="robocon-team-meta"><span>Kazakhstan</span><span class="robocon-code">NU</span></div>
+      <strong>Nazarbayev University</strong>
+      <span class="robocon-result robocon-result--preliminary">Preliminary league</span>
+    </div>
+  </section>
+</div>
+
+<style>
+  .robocon-result-legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 24px 0 18px;
+  }
+
+  .robocon-groups {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+    gap: 18px;
+    margin: 0 0 30px;
+  }
+
+  .robocon-group-card {
+    overflow: hidden;
+    background: linear-gradient(145deg, var(--background-alt), var(--background));
+    border: 1px solid var(--light-gray);
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+  }
+
+  .robocon-group-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 18px;
+    color: #fff;
+    background: linear-gradient(120deg, var(--primary), #075985);
+  }
+
+  .robocon-group-header > span:last-child {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+  }
+
+  .robocon-group-header strong {
+    font-size: 1.05rem;
+  }
+
+  .robocon-group-header small {
+    margin-top: 3px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.75rem;
+  }
+
+  .robocon-group-letter {
+    display: grid;
+    place-items: center;
+    width: 38px;
+    height: 38px;
+    flex: 0 0 38px;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.16);
+    font-size: 1.15rem;
+    font-weight: 800;
+  }
+
+  .robocon-team {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+    margin: 14px;
+    padding: 13px 14px 14px;
+    border: 1px solid var(--light-gray);
+    border-left: 4px solid var(--light-gray);
+    border-radius: 11px;
+    background: var(--background);
+  }
+
+  .robocon-team--champion { border-left-color: #d59a00; }
+  .robocon-team--runner { border-left-color: #8c9aaa; }
+  .robocon-team--quarter { border-left-color: var(--primary); }
+
+  .robocon-team-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    color: var(--gray);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .robocon-team > strong {
+    color: var(--text);
+    font-size: 0.96rem;
+    line-height: 1.28;
+  }
+
+  .robocon-code {
+    flex: 0 0 auto;
+    padding: 2px 7px;
+    color: var(--primary);
+    border: 1px solid var(--secondary);
+    border-radius: 999px;
+    background: var(--background-alt);
+    letter-spacing: 0;
+  }
+
+  .robocon-team-name {
+    margin-top: -3px;
+    color: var(--gray);
+    font-size: 0.82rem;
+    font-style: italic;
+  }
+
+  .robocon-result {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 3px 9px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  .robocon-result--champion {
+    color: #6f4700;
+    background: #fff0b8;
+    border-color: #e8bd43;
+  }
+
+  .robocon-result--runner {
+    color: #3f4b5b;
+    background: #e8edf3;
+    border-color: #b8c2ce;
+  }
+
+  .robocon-result--quarter {
+    color: #075985;
+    background: #e0f4fd;
+    border-color: #7dd3fc;
+  }
+
+  .robocon-result--preliminary {
+    color: var(--dark-gray);
+    background: var(--background-alt);
+    border-color: var(--light-gray);
+  }
+
+  .robocon-robot-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin: 24px auto 28px;
+  }
+
+  .robocon-robot-gallery figure {
+    overflow: hidden;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid var(--light-gray);
+    border-radius: 14px;
+    background: var(--background-alt);
+    box-shadow: var(--shadow);
+  }
+
+  .robocon-robot-gallery img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    border-radius: 9px;
+    background: var(--background);
+  }
+
+  .robocon-robot-gallery figcaption {
+    padding: 9px 5px 3px;
+    color: var(--gray);
+    font-size: 0.78rem;
+    line-height: 1.35;
+    text-align: center;
+  }
+
+  @media (max-width: 640px) {
+    .robocon-groups {
+      grid-template-columns: 1fr;
+    }
+
+    .robocon-group-card {
+      border-radius: 13px;
+    }
+
+    .robocon-robot-gallery img {
+      height: 430px;
+    }
+  }
+</style>
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="{{ '/images/news/20260823robocon/groupstage.jpg' | relative_url }}" alt="ABU Robocon 2026 preliminary league draw showing Groups A to F"
+       style="width: 100%; height: auto; object-fit: contain; max-width: 620px; margin: 0 auto; border-radius: 15px;">
+  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">The preliminary league draw displayed at the venue, showing the institutions in Groups A to F.</p>
+</div>
+
+Following the preliminary league, HKU, CUHK, Kalasin Technical College, Toyohashi University of Technology, Institut Teknologi Sepuluh Nopember, Lac Hong University, Tribhuvan University, and UESTC advanced to the quarter-finals. The two Hong Kong teams continued through the knockout rounds and ultimately met in an all-Hong Kong final. Team Sapientia emerged as the ABU Robocon 2026 champion, while Team Power Builder finished as first runner-up, giving Hong Kong the top two places on home ground.
+
+### Which Teams Were the Strongest?
+
+There are two useful ways to answer this question. **On performance at the 2026 contest itself, HKU's Team Sapientia was the strongest team:** it won the tournament. CUHK's Team Power Builder was the next strongest on the day, reaching the same final and finishing as first runner-up. Six other teams reached at least the quarter-final stage, while the remaining eight institutions did not progress beyond the preliminary league.
+
+The historical picture is different. Among the institutions in the 2026 field, **CUHK had the strongest recent ABU Robocon record entering the event**, having won the Grand Prix in [2019](https://official-robocon.com/history/abu/history/eighteenth/), [2022](https://official-robocon.com/history/abu/history/twentieth/), and [2024](https://official-robocon.com/history/abu/history/twentytwo/), as well as finishing first runner-up in [2023](https://official-robocon.com/history/abu/history/twentyone/). Other proven Grand Prix winners in the field included UESTC in [2010](https://official-robocon.com/history/abu/history/ninth/) and [2012](https://official-robocon.com/history/abu/history/eleventh/), Universiti Teknologi Malaysia in [2016](https://official-robocon.com/history/abu/history/fifteen/), Lac Hong University in [2017](https://official-robocon.com/history/abu/history/sixteen/) and [2018](https://official-robocon.com/history/abu/history/seventeen/), Institut Teknologi Sepuluh Nopember in [2021](https://official-robocon.com/history/abu/history/nineteenth/), and Toyohashi University of Technology in [2023](https://official-robocon.com/history/abu/history/twentyone/). HKU joined this group of institutional champions with its 2026 victory.
+
+Several teams also arrived with strong national or recent international form. UESTC entered as China's only representative after an [undefeated 11-match national campaign and a fifth consecutive national title](https://news.uestc.edu.cn/info/1004/42304.htm). It had also received the ABU Robocon Award in 2022, second runner-up and Best Idea Award in 2023, and Best Idea Award in 2024. Toyohashi University of Technology [won Japan's 2026 national selection](https://mzv.gov.cz/tokyo/en/culture_education_and_sports/predani_poharu_vitezi_japonskeho_kola_2.html) and had been the 2023 international champion. Lac Hong University's LH-FOF [qualified by winning a 32-team Vietnamese contest](https://mst.gov.vn/truong-dai-hoc-lac-hong-gianh-giai-nhat-cuoc-thi-robocon-viet-nam-2026-197260531234119206.htm), while ITS was the 2021 Grand Prix winner and the 2022 international first runner-up.
+
+These records show why historical reputation and performance in a single edition should be kept separate. CUHK brought the deepest recent international record, and UESTC, Lac Hong University, Toyohashi University of Technology, UTM, and ITS all had championship-level experience. Nevertheless, the 2026 tournament result provides the clearest event-specific ranking: **HKU first and CUHK second**.
+
+<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; align-items: flex-start; max-width: 900px; margin: 0 auto 20px;">
+  <div style="flex: 1 1 360px; text-align: center;">
+    <img src="{{ '/images/news/20260823robocon/HKUrobot.jpg' | relative_url }}" alt="Team Sapientia robots from The University of Hong Kong at ABU Robocon 2026"
+         style="width: 100%; height: auto; object-fit: contain; border-radius: 15px;">
+    <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">HKU's Team Sapientia, the ABU Robocon 2026 champion, prepares its robots for competition.</p>
+  </div>
+  <div style="flex: 1 1 360px; text-align: center;">
+    <img src="{{ '/images/news/20260823robocon/JapanTeam.jpg' | relative_url }}" alt="Toyohashi University of Technology team and robots at ABU Robocon 2026"
+         style="width: 100%; height: auto; object-fit: contain; border-radius: 15px;">
+    <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Japan was represented by Toyohashi University of Technology, the 2023 international champion and a 2026 quarter-finalist.</p>
+  </div>
+</div>
+
+### Learning from Robotics in Action
+
+For the visiting TASLAB members, the competition offered a close view of the full engineering process in action. Every match required teams to connect mechanical fabrication, sensing, embedded systems, motion planning, control, and human operation under strict time constraints. The different robot designs and match strategies also showed how teams can arrive at distinct solutions to the same technical problem and adapt when conditions change during live operation.
+
+#### Robot Designs Observed at the Contest
+
+<div class="robocon-robot-gallery">
+  <figure>
+    <img src="{{ '/images/news/20260823robocon/JapanR2.jpg' | relative_url }}" alt="Toyohashi University of Technology's R2 robot on the ABU Robocon 2026 field">
+    <figcaption>Toyohashi University of Technology's R2 robot, representing Japan.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/images/news/20260823robocon/UESTCR1.jpg' | relative_url }}" alt="UESTC's R1 robot at ABU Robocon 2026">
+    <figcaption>UESTC's R1 robot, representing the Chinese Mainland.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/images/news/20260823robocon/UESTCR2.jpg' | relative_url }}" alt="UESTC's R2 robot at ABU Robocon 2026">
+    <figcaption>UESTC's R2 robot, designed to work in coordination with R1.</figcaption>
+  </figure>
+</div>
+
+The visit was particularly relevant to TASLAB's research in trustworthy AI and autonomous systems. Reliable perception, coordinated decision-making, robust control, and safe physical execution were all essential to successful performance in the arena. Seeing these capabilities tested in a fast-paced competition provided useful inspiration for the laboratory's continuing work in intelligent robotics and autonomous systems.
+
+<!-- Suggested photo: attending TASLAB members at Queen Elizabeth Stadium. -->
+
+ABU Robocon 2026 demonstrated the creativity, perseverance, and teamwork of the next generation of engineers across the Asia-Pacific region. By attending the event, TASLAB members gained further insight into emerging approaches to robotics and shared in a celebration of engineering innovation, cultural exchange, and international friendship.
+
+### Match Recordings
+
+- [Watch the match recordings captured by our laboratory members](https://youtube.com/playlist?list=PLNBeYhMcWd6U&si=2nQA6JPJE8_-lSLk)
+- [Watch the official ABU Robocon 2026 recordings](https://www.youtube.com/watch?v=W7d6Z-CI5hY&list=PL15a54aGvXvn55jcMAhCSSEn9K-FcuRaN&index=3)
