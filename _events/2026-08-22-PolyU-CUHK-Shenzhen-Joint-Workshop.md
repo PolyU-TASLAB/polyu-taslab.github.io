@@ -78,9 +78,14 @@ The compact presentation format combined focused talks with question-and-answer 
 
 ### Best Presentation Awards
 
-The workshop also recognized three outstanding contributions with Best Presentation Awards. Yu Feng, Feng Huang, and Shaoming Li received the awards in recognition of the quality and impact of their presentations.
+The workshop also recognized three outstanding contributions with Best Presentation Awards. Shaoming Li, Yu Feng and Feng Huang received the awards in recognition of the quality and impact of their presentations.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-bottom: 20px;">
+  <figure style="margin: 0; text-align: center;">
+    <img src="{{ '/images/news/20260822_polyu_cuhksz_workshop/award_shaoming_li.jpg' | relative_url }}" alt="Shaoming Li receives a Best Presentation Award"
+         style="width: 100%; height: auto; border-radius: 15px;">
+    <figcaption style="font-size: 14px; color: #666; margin-top: 8px;">Best Presentation Award recipient Shaoming Li.</figcaption>
+  </figure>
   <figure style="margin: 0; text-align: center;">
     <img src="{{ '/images/news/20260822_polyu_cuhksz_workshop/award_yu_feng.jpg' | relative_url }}" alt="Yu Feng receives a Best Presentation Award"
          style="width: 100%; height: auto; border-radius: 15px;">
@@ -90,11 +95,6 @@ The workshop also recognized three outstanding contributions with Best Presentat
     <img src="{{ '/images/news/20260822_polyu_cuhksz_workshop/award_feng_huang.jpg' | relative_url }}" alt="Feng Huang receives a Best Presentation Award"
          style="width: 100%; height: auto; border-radius: 15px;">
     <figcaption style="font-size: 14px; color: #666; margin-top: 8px;">Best Presentation Award recipient Feng Huang.</figcaption>
-  </figure>
-  <figure style="margin: 0; text-align: center;">
-    <img src="{{ '/images/news/20260822_polyu_cuhksz_workshop/award_shaoming_li.jpg' | relative_url }}" alt="Shaoming Li receives a Best Presentation Award"
-         style="width: 100%; height: auto; border-radius: 15px;">
-    <figcaption style="font-size: 14px; color: #666; margin-top: 8px;">Best Presentation Award recipient Shaoming Li.</figcaption>
   </figure>
 </div>
 
