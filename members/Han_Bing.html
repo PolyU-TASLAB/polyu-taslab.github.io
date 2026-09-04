@@ -39,76 +39,39 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Semantic-Vector HD Map | TAS LAB</title>
+<title>Han Bing | TAS LAB</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Semantic-Vector HD Map">
+<meta name="title" content="Han Bing">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 
-<meta property="og:title" content="Semantic-Vector HD Map">
+<meta property="og:title" content="Han Bing">
 <meta property="og:site_title" content="TAS LAB">
 <meta property="og:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="og:url" content="https://polyu-taslab.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Semantic-Vector HD Map">
+<meta property="twitter:title" content="Han Bing">
 <meta property="twitter:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="twitter:url" content="https://polyu-taslab.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
 
-  <meta name="author" content='&lt;p&gt;An open-source &lt;b class="blue"&gt;HD vector map (HDVM) generation pipeline&lt;/b&gt; for autonomous vehicles, integrating &lt;b class="blue"&gt;GNSS, INS, LiDAR, and camera&lt;/b&gt; data.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/ebhrz/HDMap"&gt;HDMap&lt;/a&gt;&lt;/strong&gt; provides a complete pipeline for constructing high-definition semantic and vector maps, designed for autonomous driving in complex urban environments. Unlike traditional methods that rely on planar assumptions, our approach fuses multi-sensor data to produce accurate 3D HD maps.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pipeline Overview:&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Semantic extraction&lt;/strong&gt; — Extracts semantic information from raw images using Vision Transformer (ViT) and Swin Transformer architectures&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;3D reconstruction&lt;/strong&gt; — Obtains absolute 3D coordinates of semantic objects from LiDAR depth data&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Precise localization&lt;/strong&gt; — Uses GNSS-RTK and INS for high-precision pose estimation&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Vector map generation&lt;/strong&gt; — Extracts vector features (e.g., lane markings) to form the HD vector map&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Error analysis&lt;/strong&gt; — Provides an error propagation scheme analyzing segmentation and LiDAR-camera extrinsic calibration errors&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;A &lt;strong&gt;Docker version&lt;/strong&gt; of the pipeline is available for easy deployment.&lt;/p&gt;
-
-&lt;p align="center"&gt;
-  &lt;img src="https://github.com/ebhrz/HDMap/raw/main/img/garage.gif" alt="HD Map Demo" style="width:100%; max-width:750px; border-radius:8px;" /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="language-bibtex highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="nc"&gt;@article&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;hu2024hdmap&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Hu, Runzhi and Bai, Shiyu and Wen, Weisong and Xia, Xin and Hsu, Li-Ta}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Towards high-definition vector map construction based on multi-sensor integration for intelligent vehicles: Systems and error quantification}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;journal&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{IET Intelligent Transport Systems}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;doi&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{https://doi.org/10.1049/itr2.12524}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href="https://github.com/ebhrz/HDMap"&gt;https://github.com/ebhrz/HDMap&lt;/a&gt;&lt;/p&gt;
-'>
-  <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-09-04T02:15:50+00:00">
-  <meta property="article:published_time" content="2025-11-11T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-09-04T02:15:50+00:00">
-  <meta name="revised" content="2026-09-04T02:15:50+00:00">
+  <meta property="og:type" content="website">
 
 
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     
-      "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "Semantic-Vector HD Map" },
-      "datePublished": "2025-11-11T00:00:00+00:00",
-      "dateModified": "2026-09-04T02:15:50+00:00",
+      "@type": "WebSite",
     
-    "name": "Semantic-Vector HD Map",
+    "name": "Han Bing",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
-    "headline": "Semantic-Vector HD Map",
+    "headline": "Han Bing",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -483,119 +446,164 @@
   
   
 
-  <section class="background" data-size="1">
-    <!--
-  background: images/opensource/HDMap/garage_half.gif;
-  dark: ;
-  size: 1;
--->
-
-
-<h1 class="center">Semantic-Vector HD Map</h1>
-
-<div class="post-info">
+  <section class="background" data-size="page">
+    <div class="float">
   
+<div class="portrait-wrapper">
+  <a class="portrait" data-style="" aria-label="Han Bing">
     
+      <i class="icon fa-solid fa-graduation-cap"></i>
     
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Runzhi Hu</span>
+
+    <img src="/images/team/han_bing.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Han Bing
       </span>
     
-  
 
-  
-  
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
 
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 04, 2026</span>
-    </span>
-   -->
+    
+      <span class="portrait-affiliation">
+        Hong Kong Polytechnic University
+      </span>
+    
+  </a>
 </div>
-  </section>
 
+<div>
   
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="" data-tooltip="Home page" data-style="bare" aria-label="Home page">
+      <i class="icon fa-solid fa-house-user"></i>
+      
+        <span>Home Page</span>
+      
+    </a>
+  </div>
+
+<br>
   
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://orcid.org/0009-0007-2858-5150" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+      <i class="icon fa-brands fa-orcid"></i>
+      
+        <span>ORCID</span>
+      
+    </a>
+  </div>
+
+<br>
   
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
+    
+    
+    
 
 
-<p>An open-source <b class="blue">HD vector map (HDVM) generation pipeline</b> for autonomous vehicles, integrating <b class="blue">GNSS, INS, LiDAR, and camera</b> data.</p>
 
-<p><strong><a href="https://github.com/ebhrz/HDMap">HDMap</a></strong> provides a complete pipeline for constructing high-definition semantic and vector maps, designed for autonomous driving in complex urban environments. Unlike traditional methods that rely on planar assumptions, our approach fuses multi-sensor data to produce accurate 3D HD maps.</p>
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=n1TatyUAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
+      
+        <span>Google Scholar</span>
+      
+    </a>
+  </div>
 
-<p><strong>Pipeline Overview:</strong></p>
-<ol>
-  <li>
-<strong>Semantic extraction</strong> — Extracts semantic information from raw images using Vision Transformer (ViT) and Swin Transformer architectures</li>
-  <li>
-<strong>3D reconstruction</strong> — Obtains absolute 3D coordinates of semantic objects from LiDAR depth data</li>
-  <li>
-<strong>Precise localization</strong> — Uses GNSS-RTK and INS for high-precision pose estimation</li>
-  <li>
-<strong>Vector map generation</strong> — Extracts vector features (e.g., lane markings) to form the HD vector map</li>
-  <li>
-<strong>Error analysis</strong> — Provides an error propagation scheme analyzing segmentation and LiDAR-camera extrinsic calibration errors</li>
-</ol>
+<br>
+  
+    
+    
+    
 
-<p>A <strong>Docker version</strong> of the pipeline is available for easy deployment.</p>
 
-<p align="center">
-  <img src="https://github.com/ebhrz/HDMap/raw/main/img/garage.gif" alt="HD Map Demo" style="width:100%; max-width:750px; border-radius:8px;">
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/BISC-Nav/" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>GitHub</span>
+      
+    </a>
+  </div>
+
+<br>
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:26138811R@connect.polyu.hk" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+        <span>Email</span>
+      
+    </a>
+  </div>
+
+<br>
+  
+    
+    
+    
+
+
+
+<br>
+  
+</div>
+
+
+</div>
+
+
+<p>Bing Han received the bachelor’s degree in Electronic Information Engineering (Science Experimental Class) from Hainan University, Haikou, China, in 2023. In the same year, she joined the School of Information and Electronics, Beijing Institute of Technology, Beijing, China, to pursue the master’s degree. In 2025, she transferred to the School of Automation, Beijing Institute of Technology, to pursue the Ph.D. degree. She is currently pursuing dual Ph.D. degrees with the School of Automation, Beijing Institute of Technology, Beijing, China, and the Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University, Hong Kong.</p>
+
+<p><strong>Research Areas</strong></p>
+
+<p>Visual SLAM; Multi-sensor Fusion Localization; Robust Perception and Localization; Learning-based and Differentiable SLAM</p>
+
+
+
+
+
+
+<p class="center">
+  <a href="/publications/?search=%22Han%20Bing%22%20">
+    Search for Han Bing's papers on the Publications page
+  </a>
 </p>
 
-<p><strong>Citation:</strong></p>
-<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2024hdmap</span><span class="p">,</span>
-  <span class="na">author</span><span class="p">=</span><span class="s">{Hu, Runzhi and Bai, Shiyu and Wen, Weisong and Xia, Xin and Hsu, Li-Ta}</span><span class="p">,</span>
-  <span class="na">title</span><span class="p">=</span><span class="s">{Towards high-definition vector map construction based on multi-sensor integration for intelligent vehicles: Systems and error quantification}</span><span class="p">,</span>
-  <span class="na">journal</span><span class="p">=</span><span class="s">{IET Intelligent Transport Systems}</span><span class="p">,</span>
-  <span class="na">doi</span><span class="p">=</span><span class="s">{https://doi.org/10.1049/itr2.12524}</span>
-<span class="p">}</span>
-</code></pre></div></div>
 
-<p><strong>GitHub:</strong> <a href="https://github.com/ebhrz/HDMap">https://github.com/ebhrz/HDMap</a></p>
-  </section>
 
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
+<!--
+<p class="center">
+  <a href="/blog/?search=Han%20Bing">
+    See Han Bing's posts on the Blog page
+  </a>
+</p>
 -->
-
-
-<div class="post-nav">
-  <span>
-    
-  </span>
-  <span>
-    
-      Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/opensource/2025-11-11-kltdataset.html">
-        KLT Dataset
-      </a>
-    
-  </span>
-</div>
   </section>
 
 
