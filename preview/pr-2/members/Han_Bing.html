@@ -39,77 +39,39 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>TDL-GNSS | TAS LAB</title>
+<title>Han Bing | TAS LAB</title>
 
 <link rel="icon" href="/preview/pr-/images/icon.png">
 
-<meta name="title" content="TDL-GNSS">
+<meta name="title" content="Han Bing">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 
-<meta property="og:title" content="TDL-GNSS">
+<meta property="og:title" content="Han Bing">
 <meta property="og:site_title" content="TAS LAB">
 <meta property="og:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="og:url" content="/preview/pr-">
 <meta property="og:image" content="/preview/pr-/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="TDL-GNSS">
+<meta property="twitter:title" content="Han Bing">
 <meta property="twitter:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="twitter:url" content="/preview/pr-">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/preview/pr-/images/share.jpg">
 
 
-  <meta name="author" content='&lt;p&gt;A &lt;b class="blue"&gt;tightly coupled deep learning framework&lt;/b&gt; for &lt;b class="blue"&gt;GNSS positioning&lt;/b&gt; in challenging urban environments.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/ebhrz/TDL-GNSS"&gt;TDL-GNSS&lt;/a&gt;&lt;/strong&gt; is built on top of &lt;a href="https://github.com/IPNL-POLYU/pyrtklib"&gt;pyrtklib&lt;/a&gt; and &lt;a href="https://github.com/PolyU-TASLAB/TASGNSS"&gt;TASGNSS&lt;/a&gt;, designed to seamlessly integrate deep learning models into the GNSS processing workflow. The framework enables researchers to leverage neural networks for tasks such as satellite signal quality assessment, weight optimization, and positioning error mitigation — all within a unified Python pipeline.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Tightly integrates deep learning with conventional GNSS processing (SPP, RTK, PPP)&lt;/li&gt;
-  &lt;li&gt;Built on the established pyrtklib and TASGNSS ecosystem&lt;/li&gt;
-  &lt;li&gt;End-to-end trainable pipeline for GNSS positioning&lt;/li&gt;
-  &lt;li&gt;Designed for urban canyon scenarios with severe multipath and NLOS effects&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p align="center"&gt;
-  &lt;img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/opensource/TDL-GNSS/TDL_structure.png" alt="TDL-GNSS Framework" style="width:100%; max-width:750px; border-radius:8px;" /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="language-bibtex highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="nc"&gt;@ARTICLE&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nl"&gt;10965937&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;author&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;journal&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{IEEE Transactions on Intelligent Transportation Systems}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;title&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;year&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{2025}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;volume&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{26}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;number&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{7}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;pages&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{10652-10662}&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="na"&gt;doi&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;{10.1109/TITS.2025.3552691}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href="https://github.com/ebhrz/TDL-GNSS"&gt;https://github.com/ebhrz/TDL-GNSS&lt;/a&gt;&lt;/p&gt;
-'>
-  <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-09-04T02:15:50+00:00">
-  <meta property="article:published_time" content="2025-11-11T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-09-04T02:15:50+00:00">
-  <meta name="revised" content="2026-09-04T02:15:50+00:00">
+  <meta property="og:type" content="website">
 
 
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     
-      "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "TDL-GNSS" },
-      "datePublished": "2025-11-11T00:00:00+00:00",
-      "dateModified": "2026-09-04T02:15:50+00:00",
+      "@type": "WebSite",
     
-    "name": "TDL-GNSS",
+    "name": "Han Bing",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
-    "headline": "TDL-GNSS",
+    "headline": "Han Bing",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.png" }
@@ -484,120 +446,164 @@
   
   
 
-  <section class="background" data-size="1">
-    <!--
-  background: images/papers/2024/runzhi2024pyrtklib.png;
-  dark: ;
-  size: 1;
--->
-
-
-<h1 class="center">TDL-GNSS</h1>
-
-<div class="post-info">
+  <section class="background" data-size="page">
+    <div class="float">
   
+<div class="portrait-wrapper">
+  <a class="portrait" data-style="" aria-label="Han Bing">
     
+      <i class="icon fa-solid fa-graduation-cap"></i>
     
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Runzhi Hu</span>
+
+    <img src="/preview/pr-/images/team/han_bing.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Han Bing
       </span>
     
-  
 
-  
-  
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
 
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 04, 2026</span>
-    </span>
-   -->
+    
+      <span class="portrait-affiliation">
+        Hong Kong Polytechnic University
+      </span>
+    
+  </a>
 </div>
-  </section>
 
+<div>
   
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="/preview/pr-" data-tooltip="Home page" data-style="bare" aria-label="Home page">
+      <i class="icon fa-solid fa-house-user"></i>
+      
+        <span>Home Page</span>
+      
+    </a>
+  </div>
+
+<br>
   
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://orcid.org/0009-0007-2858-5150" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+      <i class="icon fa-brands fa-orcid"></i>
+      
+        <span>ORCID</span>
+      
+    </a>
+  </div>
+
+<br>
   
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
+    
+    
+    
 
 
-<p>A <b class="blue">tightly coupled deep learning framework</b> for <b class="blue">GNSS positioning</b> in challenging urban environments.</p>
 
-<p><strong><a href="https://github.com/ebhrz/TDL-GNSS">TDL-GNSS</a></strong> is built on top of <a href="https://github.com/IPNL-POLYU/pyrtklib">pyrtklib</a> and <a href="https://github.com/PolyU-TASLAB/TASGNSS">TASGNSS</a>, designed to seamlessly integrate deep learning models into the GNSS processing workflow. The framework enables researchers to leverage neural networks for tasks such as satellite signal quality assessment, weight optimization, and positioning error mitigation — all within a unified Python pipeline.</p>
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=n1TatyUAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
+      
+        <span>Google Scholar</span>
+      
+    </a>
+  </div>
 
-<p><strong>Key Features:</strong></p>
-<ul>
-  <li>Tightly integrates deep learning with conventional GNSS processing (SPP, RTK, PPP)</li>
-  <li>Built on the established pyrtklib and TASGNSS ecosystem</li>
-  <li>End-to-end trainable pipeline for GNSS positioning</li>
-  <li>Designed for urban canyon scenarios with severe multipath and NLOS effects</li>
-</ul>
+<br>
+  
+    
+    
+    
 
-<p align="center">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/opensource/TDL-GNSS/TDL_structure.png" alt="TDL-GNSS Framework" style="width:100%; max-width:750px; border-radius:8px;">
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/BISC-Nav/" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>GitHub</span>
+      
+    </a>
+  </div>
+
+<br>
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:26138811R@connect.polyu.hk" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+        <span>Email</span>
+      
+    </a>
+  </div>
+
+<br>
+  
+    
+    
+    
+
+
+
+<br>
+  
+</div>
+
+
+</div>
+
+
+<p>Bing Han received the bachelor’s degree in Electronic Information Engineering (Science Experimental Class) from Hainan University, Haikou, China, in 2023. In the same year, she joined the School of Information and Electronics, Beijing Institute of Technology, Beijing, China, to pursue the master’s degree. In 2025, she transferred to the School of Automation, Beijing Institute of Technology, to pursue the Ph.D. degree. She is currently pursuing dual Ph.D. degrees with the School of Automation, Beijing Institute of Technology, Beijing, China, and the Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University, Hong Kong.</p>
+
+<p><strong>Research Areas</strong></p>
+
+<p>Visual SLAM; Multi-sensor Fusion Localization; Robust Perception and Localization; Learning-based and Differentiable SLAM</p>
+
+
+
+
+
+
+<p class="center">
+  <a href="/preview/pr-/publications/?search=%22Han%20Bing%22%20">
+    Search for Han Bing's papers on the Publications page
+  </a>
 </p>
 
-<p><strong>Citation:</strong></p>
-<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@ARTICLE</span><span class="p">{</span><span class="nl">10965937</span><span class="p">,</span>
-  <span class="na">author</span><span class="p">=</span><span class="s">{Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong}</span><span class="p">,</span>
-  <span class="na">journal</span><span class="p">=</span><span class="s">{IEEE Transactions on Intelligent Transportation Systems}</span><span class="p">,</span>
-  <span class="na">title</span><span class="p">=</span><span class="s">{pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons}</span><span class="p">,</span>
-  <span class="na">year</span><span class="p">=</span><span class="s">{2025}</span><span class="p">,</span>
-  <span class="na">volume</span><span class="p">=</span><span class="s">{26}</span><span class="p">,</span>
-  <span class="na">number</span><span class="p">=</span><span class="s">{7}</span><span class="p">,</span>
-  <span class="na">pages</span><span class="p">=</span><span class="s">{10652-10662}</span><span class="p">,</span>
-  <span class="na">doi</span><span class="p">=</span><span class="s">{10.1109/TITS.2025.3552691}</span>
-<span class="p">}</span>
-</code></pre></div></div>
 
-<p><strong>GitHub:</strong> <a href="https://github.com/ebhrz/TDL-GNSS">https://github.com/ebhrz/TDL-GNSS</a></p>
-  </section>
 
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
+<!--
+<p class="center">
+  <a href="/preview/pr-/blog/?search=Han%20Bing">
+    See Han Bing's posts on the Blog page
+  </a>
+</p>
 -->
-
-
-<div class="post-nav">
-  <span>
-    
-      <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
-      <a href="/preview/pr-/opensource/2025-11-11-tc-viml.html">
-        TC-VIML
-      </a>
-    
-  </span>
-  <span>
-    
-      Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/preview/pr-/opensource/2026-01-17-TasFusion.html">
-        TasFusion
-      </a>
-    
-  </span>
-</div>
   </section>
 
 
