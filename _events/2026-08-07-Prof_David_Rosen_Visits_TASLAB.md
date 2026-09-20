@@ -26,6 +26,10 @@ Prof. WEN and Prof. Rosen also met with Prof. Chen SUN. Alongside the laboratory
 
 {% include figure.html image="images/news/20260807_david_rosen_visit/hku_chen_sun_meeting.jpg" caption="Prof. Chen SUN, Prof. David M. Rosen, and Prof. Weisong WEN during their meeting." width="850px" %}
 
+During the visit to Prof. Chen SUN's laboratory at HKU, Prof. WEN and Prof. Rosen were introduced to a seated simulator platform. The laboratory visit complemented their research conversations with a closer look at the team's experimental facilities, connecting academic exchange with the practical systems used in research.
+
+{% include figure.html image="images/news/20260807_david_rosen_visit/research_platform_visit.jpg" caption="An introduction to a seated simulator platform during the visit to Prof. Chen SUN's laboratory at HKU." width="850px" %}
+
 ### 5 August: Visiting TASLAB and Discussing Research
 
 On the second day, **Prof. Rosen visited TASLAB and joined discussions with lab members**. Research presentations and smaller group exchanges gave participants an opportunity to explain their work and examine technical questions together. The discussions covered topics spanning navigation, learning under uncertainty, and optimization for planning and control.
@@ -41,12 +45,6 @@ On the second day, **Prof. Rosen visited TASLAB and joined discussions with lab 
 **Integrated planning and control through factor graph optimization.** A further presentation featured an open-source toolkit for integrated planning and control via factor graph optimization on manifolds. This topic connected optimization methods with robot motion, complementing the discussions of navigation and safe learning. Together, the presentations illustrated several stages of an autonomous system's operation: representing its surroundings, selecting actions, and planning and controlling movement.
 
 {% include figure.html image="images/news/20260807_david_rosen_visit/factor_graph_planning_presentation.jpg" caption="A research presentation on an open-source toolkit for integrated planning and control via factor graph optimization on manifolds." width="850px" %}
-
-### Connecting Theory with Experimental Systems
-
-The visit combined research conversations with exposure to experimental equipment. A further photograph records an introduction to a seated simulator platform, adding another view of the research facilities encountered during the visit. Such settings provide useful context for the practical demands that motivate work on perception, navigation, learning, and control.
-
-{% include figure.html image="images/news/20260807_david_rosen_visit/research_platform_visit.jpg" caption="An introduction to a seated simulator platform during the visit." width="850px" %}
 
 ### About Prof. David M. Rosen
 
