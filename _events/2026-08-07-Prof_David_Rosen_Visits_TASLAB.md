@@ -1,6 +1,6 @@
 ---
 title: Prof. David M. Rosen Visits TASLAB for Academic Exchange on Trustworthy Autonomous Systems
-subtitle: HKU visits and research discussions at PolyU, 4–7 August 2026
+subtitle: HKU visits, TASLAB research discussions, and an AAE seminar, 4–7 August 2026
 image: images/news/20260807_david_rosen_visit/wen_rosen_polyu.jpg
 tags: news
 published: true
@@ -8,7 +8,7 @@ published: true
 
 ## Prof. David M. Rosen Visits TASLAB for Academic Exchange on Trustworthy Autonomous Systems
 
-From **4 to 7 August 2026**, the **Trustworthy AI and Autonomous Systems Laboratory (TASLAB)** at **The Hong Kong Polytechnic University (PolyU)** welcomed **[Prof. David M. Rosen](https://coe.northeastern.edu/people/rosen-david/)** of Northeastern University for an academic visit hosted by **Prof. Weisong WEN**. The visit included meetings with colleagues at The University of Hong Kong (HKU), a visit to TASLAB, and research discussions with lab members, bringing together perspectives on the mathematical foundations and practical development of trustworthy autonomous systems.
+From **4 to 7 August 2026**, the **Trustworthy AI and Autonomous Systems Laboratory (TASLAB)** at **The Hong Kong Polytechnic University (PolyU)** welcomed **[Prof. David M. Rosen](https://coe.northeastern.edu/people/rosen-david/)** of Northeastern University for an academic visit hosted by **Prof. Weisong WEN**. The visit included meetings with colleagues at The University of Hong Kong (HKU), a visit to TASLAB, research discussions with lab members, and an AAE research seminar, bringing together perspectives on the mathematical foundations and practical development of trustworthy autonomous systems.
 
 {% include figure.html image="images/news/20260807_david_rosen_visit/wen_rosen_polyu.jpg" caption="Prof. Weisong WEN and Prof. David M. Rosen on the PolyU campus during the visit." width="600px" %}
 
@@ -45,6 +45,16 @@ On the second day, **Prof. Rosen visited TASLAB and joined discussions with lab 
 **Integrated planning and control through factor graph optimization.** A further presentation featured an open-source toolkit for integrated planning and control via factor graph optimization on manifolds. This topic connected optimization methods with robot motion, complementing the discussions of navigation and safe learning. Together, the presentations illustrated several stages of an autonomous system's operation: representing its surroundings, selecting actions, and planning and controlling movement.
 
 {% include figure.html image="images/news/20260807_david_rosen_visit/factor_graph_planning_presentation.jpg" caption="A research presentation on an open-source toolkit for integrated planning and control via factor graph optimization on manifolds." width="850px" %}
+
+### 6 August: AAE Seminar on Certifiably Correct State Estimation
+
+On **6 August 2026**, Prof. Rosen delivered **“Certifiably Correct State Estimation”** as part of the **AAE Seminar Series**, organised by PolyU's **Department of Aeronautical and Aviation Engineering**. The seminar took place from **14:30 to 15:30 in FJ301**.
+
+The talk addressed a central difficulty in robotic state estimation: nonconvex optimisation can lead conventional methods to poor local solutions, producing unreliable estimates. Using problems such as simultaneous localisation and mapping (SLAM) and 3D reconstruction as context, Prof. Rosen presented certifiable approaches based on convex relaxation that can establish global optimality under suitable conditions.
+
+The seminar also traced the progression from specialised algorithms to more general tools for developing certifiable estimators, including approaches to large computational problems and corrupted measurements. These themes connected closely with the visit's focus on trustworthy autonomous systems and the need for estimation methods that combine computational efficiency with robustness and mathematical guarantees. Further details are available in the [official AAE seminar announcement](https://www.polyu.edu.hk/aae/news-and-events/event/2026/8/6---research-seminar/).
+
+{% include figure.html image="images/news/20260807_david_rosen_visit/aae_seminar_poster.png" caption="AAE Seminar Series: Certifiably Correct State Estimation, presented by Prof. David M. Rosen on 6 August 2026." width="850px" %}
 
 ### About Prof. David M. Rosen
 
