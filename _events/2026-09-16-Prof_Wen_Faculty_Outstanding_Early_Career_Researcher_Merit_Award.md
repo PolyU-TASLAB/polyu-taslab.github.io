@@ -1,10 +1,10 @@
 ---
 title: Prof. Weisong Wen Receives Merit Award for Outstanding Early Career Researcher in PolyU Faculty Awards 2026
-subtitle: Faculty Awards for Outstanding Achievement 2026
-date: 2026-09-15
+subtitle: news
+# author:
 image: images/team/weisong.jpg
 tags: news
-published: false
+order:
 ---
 
 <!-- Draft for review. Award details verified against images/news/0915Announce/Announcement of Results.pdf, dated 15 September 2026, pages 1-2. Prof. Wen is listed under MERIT AWARDS, Individual Awards, Research and Scholarly Activities: Outstanding Early Career Researcher. -->
