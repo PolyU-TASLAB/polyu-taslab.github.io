@@ -18,7 +18,7 @@ display_2: July 2025 - Present
 <!--  Add a short self introduction here -->
 <!-- Like Research Areas -->
 
-Mr. WANG Zhongqi is currently a Research Assistant at the Department of Mechanical Engineering, The Hong Kong Polytechnic University (PolyU).
+Mr. WANG Zhongqi is currently a Research Assistant and is also pursuing an M.Sc. degree in the Department of Aeronautical and Aviation Engineering at The Hong Kong Polytechnic University (PolyU). He received his B.Eng. degree in Mechanical Engineering from PolyU in 2026.
 
 **Research Areas**
-Robotics, Reinforcement learning
+Robotics, Reinforcement Learning
