@@ -3,7 +3,7 @@ name: Yang Peiwen
 image: images/team/peiwen.jpg
 role: phd  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
-order: 4
+order: 1
 
 links:
   home-page: https://ypw.github.io/
@@ -14,6 +14,7 @@ links:
   profile: 
 
 display_1:  M.Eng.(BIT), B.Eng. (WHUT)
+display_2: 2023 -- Present
 ---
 
 <!--  Add a short self introduction here -->

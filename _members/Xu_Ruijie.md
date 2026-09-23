@@ -3,7 +3,7 @@ name: Xu Ruijie
 image: images/team/xu_ruijie.jpg
 role: phd  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
-order: 5
+order: 2
 
 links:
   home-page: N/A

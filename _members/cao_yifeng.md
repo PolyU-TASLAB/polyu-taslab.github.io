@@ -3,7 +3,7 @@ name: Cao Yifeng
 image: images/team/cao_yifeng.jpg
 role: phd  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
-order: 99999
+order: 4
 
 links:
   home-page: https://github.com/Y329Cao
@@ -14,7 +14,7 @@ links:
   profile: https://github.com/Y329Cao
 
 display_1: PhD student(PolyU), MASc.(Waterloo), B.Eng. (WHUT)
-display_2: 
+display_2: 2023 -- Present
 ---
 
 <!--  Add a short self introduction here -->

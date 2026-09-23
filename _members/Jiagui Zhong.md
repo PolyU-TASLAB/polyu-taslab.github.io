@@ -3,7 +3,7 @@ name: Zhong Jiagui
 image: images/team/zhong_jiagui
 role: phd  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
-order: 5
+order: 12
 
 links:
   home-page: https://effun.xyz

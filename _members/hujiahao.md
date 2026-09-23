@@ -3,7 +3,7 @@ name: Hu Jiahao
 image: images/team/hu_jiahao.jpg
 role: phd  # pi / postdoc / phd / ms / under / visiting
 affiliation: Hong Kong Polytechnic University
-order: 1
+order: 10
 
 links:
   home-page:
@@ -13,7 +13,7 @@ links:
   profile: 
 
 display_1: PhD Student,  M.Eng.(WHUT), B.Eng. (WHUT)
-display_2: 
+display_2: 2025 -- Present
 ---
 
 <!--  Add a short self introduction here -->

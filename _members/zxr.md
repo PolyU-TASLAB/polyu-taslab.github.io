@@ -3,7 +3,7 @@ name: Zhang Xinrui
 image: images/team/zxr.jpg
 role: phd
 affiliation: Hong Kong Polytechnic University
-order: 60
+order: 14
 
 links:
   home-page: 

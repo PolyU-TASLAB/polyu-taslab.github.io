@@ -3,7 +3,7 @@ name: Wang Xiangru
 image: images/team/wang_xiangru.jpg
 role: phd  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University
-order: 8
+order: 11
 
 links:
   orcid: 

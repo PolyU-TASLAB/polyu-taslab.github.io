@@ -3,7 +3,7 @@ name: Chen Hongchang
 image: images/team/hongchang.jpg
 role:  phd
 affiliation: Hong Kong Polytechnic University
-order: 1
+order: 9
 
 links:
   home-page: 
@@ -14,7 +14,7 @@ links:
   profile: 
 
 display_1: Ph.D.(PolyU), M.Eng.(BIT), B.Eng. (HNU)
-display_2: 
+display_2: 2025 -- Present
 ---
 
 <!--  Add a short self introduction here -->

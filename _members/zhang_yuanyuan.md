@@ -3,7 +3,7 @@ name: Zhang Yuanyuan
 image: images/team/zhang_yuanyuan.jpg
 role:  phd 
 affiliation: Hong Kong Polytechnic University
-order: 5
+order: 3
 
 links:
   home-page: 

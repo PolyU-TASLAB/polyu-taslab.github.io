@@ -3,7 +3,7 @@ name: Zhai Xupeng
 image: images/team/xpzhai.jpg
 role: phd  # pi / postdoc / phd / ms / under / visiting
 affiliation: Hong Kong Polytechnic University, Northwestern Polytechnical  University
-order: 45
+order: 17
 
 links:
   home-page: https://github.com/Sledge-hammer-Yin
