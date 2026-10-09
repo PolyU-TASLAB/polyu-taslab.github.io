@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>Team | TAS LAB</title>
 
-<link rel="icon" href="/preview/pr-/images/icon.png">
+<link rel="icon" href="/preview/pr-/images/icon.jpg">
 
 <meta name="title" content="Team">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -74,7 +73,7 @@
     "headline": "Team",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.jpg" }
     },
     "url": "/preview/pr-"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="/preview/pr-/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/preview/pr-/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/preview/pr-/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-/_styles/components.css" rel="stylesheet">
   
 
   
@@ -336,6 +336,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -365,18 +367,15 @@
 
 
 </head>
-
-  <body>
+<body class="has-banner">
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/preview/pr-/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/preview/pr-/" class="home">
+<header class="site-header">
+  <a href="/preview/pr-/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -440,49 +439,65 @@
     
     
       
-        <a href="/preview/pr-/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/preview/pr-/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/preview/pr-/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/preview/pr-/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/preview/pr-/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/preview/pr-/team/" data-tooltip="People, advisors, funders and partners" class="active" aria-current="page">
+        Team
+      </a>
     
       
-        <a href="/preview/pr-/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/preview/pr-/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/preview/pr-/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/preview/pr-/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    <div class="page-banner" style="--banner: url('/preview/pr-/images/home/banner-campus.jpg')">
+  <div class="page-banner-inner">
+    <div class="page-banner-text">
+      <p class="page-banner-eyebrow">Trustworthy AI and Autonomous Systems Lab</p>
+      <h1 class="page-banner-title">Team</h1>
+      
+      <p class="page-banner-sub">People, advisors, funders and partners</p>
+    </div>
+    <div class="page-banner-logos" aria-label="The Hong Kong Polytechnic University · Department of Aeronautical and Aviation Engineering">
+      <img src="/preview/pr-/images/logo/polyu_logo_white.png" alt="The Hong Kong Polytechnic University">
+      <img src="/preview/pr-/images/logo/aaelogo_white.png" alt="Department of Aeronautical and Aviation Engineering">
+    </div>
+  </div>
+</div>
+
     <main>
       <!--
   modify main content of page:
@@ -505,7 +520,7 @@
 <i class="icon fa-solid fa-users"></i>Team</h1>
 
 <div style="text-align: center; margin-bottom: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/team/team.png" alt="Team Banner" style="width: 28%; height: auto; object-fit: cover; max-width: 230px; margin: 0 auto; border-radius: 10px;">
+  <img src="/preview/pr-/images/team/team.png" alt="Team Banner" style="width: 28%; height: auto; object-fit: cover; max-width: 230px; margin: 0 auto; border-radius: 10px;">
 </div>
 
 <p>Our lab is made up of a <b class="blue">highly engaged and collaborative team</b> of researchers. We recognize that diverse teams do better research. We foster an environment where team members are treated equally, and where we respect and admire our differences. The team includes <b class="blue">postdocs</b>, <b class="blue">students at all levels</b>, <b class="blue">staff</b>, and our lab mascots.</p>
@@ -526,10 +541,10 @@
   font-weight: 700;
   margin: 2em 0 0.5em 0;
   padding-bottom: 0.4em;
-  color: var(--primary, #0795d9);
+  color: var(--primary, #9e2435);
   letter-spacing: 0.01em;
   text-align: center;
-  border-bottom: 2px solid var(--primary, #0795d9);
+  border-bottom: 2px solid var(--primary, #9e2435);
 }
 .portrait-wrapper {
   width: 155px;
@@ -562,7 +577,7 @@
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 0.5em;
-  border: 2.5px solid var(--primary, #0795d9);
+  border: 2.5px solid var(--primary, #9e2435);
 }
 .portrait-name {
   font-size: 0.92em;
@@ -614,11 +629,11 @@
   padding: 2px;
 }
 .portrait-link-icon:hover {
-  color: var(--primary, #0795d9);
+  color: var(--primary, #9e2435);
 }
 .pi-bio-card {
-  background: #f9fbfd;
-  border-left: 4px solid var(--primary, #0795d9);
+  background: #faf7f8;
+  border-left: 4px solid var(--primary, #9e2435);
   border-radius: 8px;
   padding: 1.2em 1.4em;
   margin: 0.5em 0 2em 0;
@@ -659,7 +674,7 @@
 
       
         <span class="display_2">
-          Spring 2024 -- Present
+          Founding Director, TAS Lab (2021 -- Present)
         </span>
       
     </a>
@@ -678,16 +693,16 @@
 </div>
 
 <div class="pi-bio-card">
-<h4 style="margin:0 0 0.5em 0; color:var(--primary, #0795d9); font-size:1.05em;">About Dr. Weisong Wen — <a href="https://weisongwen.github.io/" style="color:var(--primary, #0795d9);">Homepage</a>
+<h4 style="margin:0 0 0.5em 0; color:var(--primary, #9e2435); font-size:1.05em;">About Dr. Weisong Wen — <a href="https://weisongwen.github.io/" style="color:var(--primary, #9e2435);">Homepage</a>
 </h4>
-<p style="text-align:justify; margin:0 0 0.6em 0; font-size:0.92em; line-height:1.6; color:#333;">
-<b class="blue">Dr. Weisong Wen</b> is an <b class="blue">Assistant Professor</b> at the Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University, and the <b class="blue">Director of the Trustworthy AI and Autonomous Systems Laboratory (TAS Lab)</b>. He is also a member of <b class="blue">IEEE</b> and the <b class="blue">Institute of Navigation (ION)</b>. Dr. Wen aims to build algorithm foundations for <b class="blue">embodied AI</b> that enable trustworthy perception, navigation, and control of autonomous systems. In particular, he aims to develop practical embodied AI-driven autonomous systems (<b class="blue">drones</b>, <b class="blue">intelligent vehicles</b>, and <b class="blue">humanoid robots</b>) with end-to-end learning and safety certification capabilities, enabling them to perceive, reason, and interact with the physical world safely and reliably for the future society.
+<p style="text-align:left; margin:0 0 0.6em 0; font-size:0.92em; line-height:1.6;">
+<b class="blue">Dr. Weisong Wen</b> is an <b class="blue">Assistant Professor</b> at the Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University, and the <b class="blue">Founding Director of the Trustworthy AI and Autonomous Systems Laboratory (TAS Lab)</b>. He also directs the <b class="blue">PolyU-Wuxi Intelligent Transportation and Unmanned Systems Center</b> and the <b class="blue">PolyU-LinXAI</b> and <b class="blue">PolyU-Simple AI Joint Laboratories</b>, and is the Faculty Advisor of the PolyU AI &amp; Robotics Club (200+ members). Dr. Wen aims to build algorithm foundations for <b class="blue">embodied AI</b> that enable trustworthy perception, navigation, and control of autonomous systems. In particular, he aims to develop practical embodied AI-driven autonomous systems (<b class="blue">drones</b>, <b class="blue">intelligent vehicles</b>, and <b class="blue">humanoid robots</b>) with end-to-end learning and safety certification capabilities, enabling them to perceive, reason, and interact with the physical world safely and reliably for the future society.
 </p>
-<p style="text-align:justify; margin:0 0 0.6em 0; font-size:0.92em; line-height:1.6; color:#333;">
+<p style="text-align:left; margin:0 0 0.6em 0; font-size:0.92em; line-height:1.6;">
 Dr. Wen received a BEng degree in Mechanical Engineering from <b class="blue">Beijing Information Science and Technology University (BISTU)</b> in 2015, and a MEng degree from the <b class="blue">China Agricultural University (CAU)</b> in 2017. He received a PhD degree from <b class="blue">The Hong Kong Polytechnic University (PolyU)</b> supervised by Dr. Li-ta Hsu in 2020. He was also a visiting PhD student at the <b class="blue">University of California, Berkeley (UC Berkeley)</b> in 2018, supervised by Dr. Zhan and Prof. Tomizuka.
 </p>
-<p style="text-align:justify; margin:0; font-size:0.92em; line-height:1.6; color:#333;">
-He has published more than <b class="blue">62 SCI journal papers</b> and <b class="blue">56 conference papers</b> (total citations: <b class="blue">2,600+</b>, h-index: <b class="blue">27</b>) and has secured over <b class="blue">HK$28M</b> in research funding as PI. He was ranked in the <b class="blue">World's Top 2% Most-cited Scientists</b> by Stanford University in both 2023 and 2024. He won the <b class="blue">Innovation Award from TechConnect 2021</b>, the <b class="blue">Best Presentation Award from ION in 2020</b>, the <b class="blue">Top Cited Paper Award from NAVIGATION (Journal of ION) in 2022</b>, and the <b class="blue">Faculty of Engineering Research Grant Achievement Award from PolyU in 2025</b>. He is also the <b class="blue">Associate Editor of IEEE Transactions on Vehicular Technology</b> (JCR Q1, IF: 7.1).
+<p style="text-align:left; margin:0; font-size:0.92em; line-height:1.6;">
+He has published <b class="blue">129 papers</b>, including <b class="blue">70 journal papers</b> (51 in JCR Q1) and <b class="blue">59 conference papers</b> (ICRA, IROS, ITSC, ION GNSS+), with <b class="blue">3,800+ citations</b> (Google Scholar h-index: <b class="blue">31</b>). He has led <b class="blue">35 research projects</b> as PI with government and industry partners, tackling trustworthy perception for drones in urban low-altitude airspace, safe end-to-end driving for logistics vehicles, and robust AI navigation for legged and humanoid robots. He was ranked among the <b class="blue">World's Top 2% Most-cited Scientists</b> (Stanford/Elsevier) in 2023, 2024 and 2025. His recognitions include the <b class="blue">Natural Science First Prize of the China Simulation Federation (2026)</b>, the <b class="blue">PolyU Faculty of Engineering Merit Award for Outstanding Early Career Researcher (2026)</b>, the <b class="blue">Faculty of Engineering Research Grant Achievement Award (2025)</b>, the <b class="blue">Best Student Paper Award at ION GNSS+ 2024</b> with his students, the <b class="blue">Top Cited Paper Award from NAVIGATION (2022)</b>, the <b class="blue">Innovation Award from TechConnect (2021)</b>, and the <b class="blue">Best Presentation Award from ION (2020)</b>. He serves as <b class="blue">Associate Editor of IEEE Transactions on Intelligent Vehicles</b> (2026–) and <b class="blue">IEEE Transactions on Vehicular Technology</b> (2024–), and as Associate Editor for ICRA and IROS (2025–26).
 </p>
 </div>
 
@@ -708,7 +723,7 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
 <div class="portrait-wrapper">
   <div class="portrait" data-style="">
     <a href="/preview/pr-/members/Wang_Liyang.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="WANG Liyang">
-      <img src="/preview/pr-/images/team/Wang_Liyang.png" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+      <img src="/preview/pr-/images/team/Wang_Liyang.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
       
         <span class="portrait-name">
@@ -1164,6 +1179,47 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
 
 <div class="portrait-wrapper">
   <div class="portrait" data-style="">
+    <a href="/preview/pr-/members/wang_xin.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Wang Xin">
+      <img src="/preview/pr-/images/team/wang_xin.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+
+      
+        <span class="portrait-name">
+          Wang Xin
+        </span>
+      
+
+      
+        <span class="display_1">
+          PhD student (PolyU), M.Eng.(BIT), B.Eng.(NUC)
+        </span>
+      
+
+      
+        <span class="display_2">
+          May 2025 -- Present
+        </span>
+      
+    </a>
+
+    
+    
+    
+    
+    
+
+    
+  </div>
+</div>
+
+
+  
+
+  
+
+
+
+<div class="portrait-wrapper">
+  <div class="portrait" data-style="">
     <a href="/preview/pr-/members/Chen_Hongchang.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Chen Hongchang">
       <img src="/preview/pr-/images/team/hongchang.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
@@ -1340,47 +1396,6 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
       
         <span class="display_1">
           Ph.D. Student (PolyU-NKU), B.Eng. (NKU)
-        </span>
-      
-
-      
-        <span class="display_2">
-          Sept 2025
-        </span>
-      
-    </a>
-
-    
-    
-    
-    
-    
-
-    
-  </div>
-</div>
-
-
-  
-
-  
-
-
-
-<div class="portrait-wrapper">
-  <div class="portrait" data-style="">
-    <a href="/preview/pr-/members/zxr.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Zhang Xinrui">
-      <img src="/preview/pr-/images/team/zxr.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
-
-      
-        <span class="portrait-name">
-          Zhang Xinrui
-        </span>
-      
-
-      
-        <span class="display_1">
-          Master of Philosophy, B.Eng. (BUAA)
         </span>
       
 
@@ -1826,47 +1841,6 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
 
 <div class="portrait-wrapper">
   <div class="portrait" data-style="">
-    <a href="/preview/pr-/members/wang_xin.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Wang Xin">
-      <img src="/preview/pr-/images/team/wang_xin.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
-
-      
-        <span class="portrait-name">
-          Wang Xin
-        </span>
-      
-
-      
-        <span class="display_1">
-          PhD student (PolyU), M.Eng.(BIT), B.Eng.(NUC)
-        </span>
-      
-
-      
-        <span class="display_2">
-          May 2025 -- Present
-        </span>
-      
-    </a>
-
-    
-    
-    
-    
-    
-
-    
-  </div>
-</div>
-
-
-  
-
-  
-
-
-
-<div class="portrait-wrapper">
-  <div class="portrait" data-style="">
     <a href="/preview/pr-/members/Yang%20Qian.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Yang Qian">
       <img src="/preview/pr-/images/team/yangqian.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
@@ -1909,7 +1883,7 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
 <div class="portrait-wrapper">
   <div class="portrait" data-style="">
     <a href="/preview/pr-/members/Qi_Zhang.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Qi Zhang">
-      <img src="/preview/pr-/images/team/qi_zhang.png" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+      <img src="/preview/pr-/images/team/qi_zhang.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
       
         <span class="portrait-name">
@@ -1949,8 +1923,49 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
 
 <div class="portrait-wrapper">
   <div class="portrait" data-style="">
+    <a href="/preview/pr-/members/zxr.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Zhang Xinrui">
+      <img src="/preview/pr-/images/team/zxr.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+
+      
+        <span class="portrait-name">
+          Zhang Xinrui
+        </span>
+      
+
+      
+        <span class="display_1">
+          Master of Philosophy, B.Eng. (BUAA)
+        </span>
+      
+
+      
+        <span class="display_2">
+          Sept 2025
+        </span>
+      
+    </a>
+
+    
+    
+    
+    
+    
+
+    
+  </div>
+</div>
+
+
+  
+
+  
+
+
+
+<div class="portrait-wrapper">
+  <div class="portrait" data-style="">
     <a href="/preview/pr-/members/wang_junzhe.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="WANG Junzhe">
-      <img src="/preview/pr-/images/team/wang_junzhe.png" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+      <img src="/preview/pr-/images/team/wang_junzhe.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
       
         <span class="portrait-name">
@@ -1984,7 +1999,58 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
 
 </div>
 
-<div class="team-section-title">Research / Project Assistant (4)</div>
+<div class="team-section-title">Research / Project Assistant (1)</div>
+<div class="team-grid">
+  
+
+
+
+
+
+  
+
+  
+
+
+
+<div class="portrait-wrapper">
+  <div class="portrait" data-style="">
+    <a href="/preview/pr-/members/Gao_Jieyu.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Gao Jieyu">
+      <img src="/preview/pr-/images/team/GaoJieyu.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+
+      
+        <span class="portrait-name">
+          Gao Jieyu
+        </span>
+      
+
+      
+        <span class="display_1">
+          Research Assistant, Yangtze University
+        </span>
+      
+
+      
+        <span class="display_2">
+          2026 - Present
+        </span>
+      
+    </a>
+
+    
+    
+    
+    
+    
+
+    
+  </div>
+</div>
+
+
+</div>
+
+<div class="team-section-title">Undergraduate Students (1)</div>
 <div class="team-grid">
   
 
@@ -2033,128 +2099,9 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
 </div>
 
 
-  
-
-  
-
-
-
-<div class="portrait-wrapper">
-  <div class="portrait" data-style="">
-    <a href="/preview/pr-/members/wu_Haobo.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Wu Haobo">
-      <img src="/preview/pr-/images/team/wu_haobo.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
-
-      
-        <span class="portrait-name">
-          Wu Haobo
-        </span>
-      
-
-      
-        <span class="display_1">
-          M.Sc.(NUS), B.Sc.(DUT)
-        </span>
-      
-
-      
-    </a>
-
-    
-    
-    
-    
-    
-
-    
-  </div>
 </div>
 
-
-  
-
-  
-
-
-
-<div class="portrait-wrapper">
-  <div class="portrait" data-style="">
-    <a href="/preview/pr-/members/liheng.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Li Heng">
-      <img src="/preview/pr-/images/team/LiHeng.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
-
-      
-        <span class="portrait-name">
-          Li Heng
-        </span>
-      
-
-      
-        <span class="display_1">
-          Research Assistant,B.Eng. (DLPU), R&amp;D Engineer(Unmanned Systems Field, Shenzhen ,China)
-        </span>
-      
-
-      
-        <span class="display_2">
-          Spring 2025 -- Present
-        </span>
-      
-    </a>
-
-    
-    
-    
-    
-    
-
-    
-  </div>
-</div>
-
-
-  
-
-  
-
-
-
-<div class="portrait-wrapper">
-  <div class="portrait" data-style="">
-    <a href="/preview/pr-/members/Ai_Kedai.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Akida Tursun">
-      <img src="/preview/pr-/images/team/Akida.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
-
-      
-        <span class="portrait-name">
-          Akida Tursun
-        </span>
-      
-
-      
-        <span class="display_1">
-          B.Eng.(Jiangnan University)
-        </span>
-      
-
-      
-        <span class="display_2">
-          June 2024 - Present
-        </span>
-      
-    </a>
-
-    
-    
-    
-    
-    
-
-    
-  </div>
-</div>
-
-
-</div>
-
-<div class="team-section-title">Undergraduate Students (0)</div>
+<div class="team-section-title">Visiting Scholars / Students (0)</div>
 <div class="team-grid">
   
 
@@ -2164,99 +2111,7 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
 
 </div>
 
-<div class="team-section-title">Visiting Scholars / Students (2)</div>
-<div class="team-grid">
-  
-
-
-
-
-
-  
-
-  
-
-
-
-<div class="portrait-wrapper">
-  <div class="portrait" data-style="">
-    <a href="/preview/pr-/members/FenchiZHU_HEU_visiting.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Fengchi ZHU">
-      <img src="/preview/pr-/images/team/fengchiZHU.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
-
-      
-        <span class="portrait-name">
-          Fengchi ZHU
-        </span>
-      
-
-      
-        <span class="display_1">
-          M.S and B.Eng. (HEU)
-        </span>
-      
-
-      
-        <span class="display_2">
-          Oct 2025
-        </span>
-      
-    </a>
-
-    
-    
-    
-    
-    
-
-    
-  </div>
-</div>
-
-
-  
-
-  
-
-
-
-<div class="portrait-wrapper">
-  <div class="portrait" data-style="">
-    <a href="/preview/pr-/members/GuangyanGuo_HEU_visiting.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Guangyan Guo">
-      <img src="/preview/pr-/images/team/guangyanGuo.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
-
-      
-        <span class="portrait-name">
-          Guangyan Guo
-        </span>
-      
-
-      
-        <span class="display_1">
-          B.Eng. (HEU)
-        </span>
-      
-
-      
-        <span class="display_2">
-          Dec 2025
-        </span>
-      
-    </a>
-
-    
-    
-    
-    
-    
-
-    
-  </div>
-</div>
-
-
-</div>
-
-<div class="team-section-title">Alumni (13)</div>
+<div class="team-section-title">Alumni (18)</div>
 <div class="team-grid">
   
 
@@ -2350,12 +2205,12 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
 
 <div class="portrait-wrapper">
   <div class="portrait" data-style="">
-    <a href="/preview/pr-/members/jiao_jianhao.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Jianho Jiao">
+    <a href="/preview/pr-/members/jiao_jianhao.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Jianhao Jiao">
       <img src="/preview/pr-/images/team/jianhaojiao_pict_2023.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
       
         <span class="portrait-name">
-          Jianho Jiao
+          Jianhao Jiao
         </span>
       
 
@@ -2429,7 +2284,7 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
 <div class="portrait-wrapper">
   <div class="portrait" data-style="">
     <a href="/preview/pr-/members/zhengxi.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Zheng Xi">
-      <img src="/preview/pr-/images/team/zheng_xi.png" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+      <img src="/preview/pr-/images/team/zheng_xi.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
       
         <span class="portrait-name">
@@ -2470,7 +2325,7 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
 <div class="portrait-wrapper">
   <div class="portrait" data-style="">
     <a href="/preview/pr-/members/liu_xikun.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Liu Xikun">
-      <img src="/preview/pr-/images/team/liu_xikun.png" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+      <img src="/preview/pr-/images/team/liu_xikun.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
       
         <span class="portrait-name">
@@ -2716,7 +2571,7 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
 <div class="portrait-wrapper">
   <div class="portrait" data-style="">
     <a href="/preview/pr-/members/ZihaoWang_WHU_visiting.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Zihao Wang">
-      <img src="/preview/pr-/images/team/Zihao-Wang.png" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+      <img src="/preview/pr-/images/team/Zihao-Wang.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
 
       
         <span class="portrait-name">
@@ -2789,79 +2644,722 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
 </div>
 
 
+  
+
+  
+
+
+
+<div class="portrait-wrapper">
+  <div class="portrait" data-style="">
+    <a href="/preview/pr-/members/wu_Haobo.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Wu Haobo">
+      <img src="/preview/pr-/images/team/wu_haobo.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+
+      
+        <span class="portrait-name">
+          Wu Haobo
+        </span>
+      
+
+      
+        <span class="display_1">
+          M.Sc.(NUS), B.Sc.(DUT)
+        </span>
+      
+
+      
+    </a>
+
+    
+    
+    
+    
+    
+
+    
+  </div>
 </div>
 
-<hr>
 
-<h4 id="inclusion-and-diversity">Inclusion and Diversity</h4>
+  
 
-<p>To fulfill our mission to advance collaborative approaches and practical solutions to global challenges, <b class="blue">PolyU TAS Lab</b> strives to foster <b class="blue">diversity, equity, inclusion, and belonging</b> in all we do.</p>
+  
 
-<p>We strive to do so as a moral imperative and also because:</p>
 
-<ul>
+
+<div class="portrait-wrapper">
+  <div class="portrait" data-style="">
+    <a href="/preview/pr-/members/Ai_Kedai.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Akida Tursun">
+      <img src="/preview/pr-/images/team/Akida.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+
+      
+        <span class="portrait-name">
+          Akida Tursun
+        </span>
+      
+
+      
+        <span class="display_1">
+          B.Eng.(Jiangnan University)
+        </span>
+      
+
+      
+        <span class="display_2">
+          June 2024 - Present
+        </span>
+      
+    </a>
+
+    
+    
+    
+    
+    
+
+    
+  </div>
+</div>
+
+
+  
+
+  
+
+
+
+<div class="portrait-wrapper">
+  <div class="portrait" data-style="">
+    <a href="/preview/pr-/members/FenchiZHU_HEU_visiting.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Fengchi ZHU">
+      <img src="/preview/pr-/images/team/fengchiZHU.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+
+      
+        <span class="portrait-name">
+          Fengchi ZHU
+        </span>
+      
+
+      
+        <span class="display_1">
+          M.S and B.Eng. (HEU)
+        </span>
+      
+
+      
+        <span class="display_2">
+          Oct 2025
+        </span>
+      
+    </a>
+
+    
+    
+    
+    
+    
+
+    
+  </div>
+</div>
+
+
+  
+
+  
+
+
+
+<div class="portrait-wrapper">
+  <div class="portrait" data-style="">
+    <a href="/preview/pr-/members/GuangyanGuo_HEU_visiting.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Guangyan Guo">
+      <img src="/preview/pr-/images/team/guangyanGuo.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+
+      
+        <span class="portrait-name">
+          Guangyan Guo
+        </span>
+      
+
+      
+        <span class="display_1">
+          B.Eng. (HEU)
+        </span>
+      
+
+      
+        <span class="display_2">
+          Dec 2025
+        </span>
+      
+    </a>
+
+    
+    
+    
+    
+    
+
+    
+  </div>
+</div>
+
+
+  
+
+  
+
+
+
+<div class="portrait-wrapper">
+  <div class="portrait" data-style="">
+    <a href="/preview/pr-/members/liheng.html" style="display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit;" aria-label="Li Heng">
+      <img src="/preview/pr-/images/team/LiHeng.jpg" class="portrait-image" alt="member portrait" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
+
+      
+        <span class="portrait-name">
+          Li Heng
+        </span>
+      
+
+      
+        <span class="display_1">
+          Former Research Assistant, B.Eng. (DLPU)
+        </span>
+      
+
+      
+        <span class="display_2">
+          Spring 2025 - 2026
+        </span>
+      
+    </a>
+
+    
+    
+    
+    
+    
+
+    
+  </div>
+</div>
+
+
+</div>
+
+<div class="team-section-title" id="gallery">Gallery · Life at TAS Lab</div>
+<p class="team-section-lead">Team photos, competitions, field tests and visits. Click a photo to enlarge.</p>
+
+<div class="lab-gallery">
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/team-lawn.jpg" data-caption="TAS Lab family photo on the PolyU campus">
+    <img src="/preview/pr-/images/gallery/team-lawn-thumb.jpg" alt="TAS Lab family photo on the PolyU campus" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Team</span>TAS Lab family photo on the PolyU campus</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/team-podium.jpg" data-caption="The team with our drones and robots at the PolyU podium">
+    <img src="/preview/pr-/images/gallery/team-podium-thumb.jpg" alt="The team with our drones and robots at the PolyU podium" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Team</span>The team with our drones and robots at the PolyU podium</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/team-campus.jpg" data-caption="Lab members in front of the PolyU campus">
+    <img src="/preview/pr-/images/gallery/team-campus-thumb.jpg" alt="Lab members in front of the PolyU campus" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Team</span>Lab members in front of the PolyU campus</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/hackathon-2026.jpg" data-caption="Champions of the OneRobotics track, HK Physical AI Hackathon (Aug 2026)">
+    <img src="/preview/pr-/images/gallery/hackathon-2026-thumb.jpg" alt="Champions of the OneRobotics track, HK Physical AI Hackathon (Aug 2026)" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Awards</span>Champions of the OneRobotics track, HK Physical AI Hackathon (Aug 2026)</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/lab-dinner.jpg" data-caption="Farewell dinner for Dr Runqiu Yang and Dr Jianhao Jiao (May 2026)">
+    <img src="/preview/pr-/images/gallery/lab-dinner-thumb.jpg" alt="Farewell dinner for Dr Runqiu Yang and Dr Jianhao Jiao (May 2026)" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Team</span>Farewell dinner for Dr Runqiu Yang and Dr Jianhao Jiao (May 2026)</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/sandbox-flight.jpg" data-caption="Low-altitude regulatory sandbox flight test">
+    <img src="/preview/pr-/images/gallery/sandbox-flight-thumb.jpg" alt="Low-altitude regulatory sandbox flight test" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Field work</span>Low-altitude regulatory sandbox flight test</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/rcuas-workshop.jpg" data-caption="1st RCUAS Research Workshop at PolyU (Jun 2025)">
+    <img src="/preview/pr-/images/gallery/rcuas-workshop-thumb.jpg" alt="1st RCUAS Research Workshop at PolyU (Jun 2025)" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Events</span>1st RCUAS Research Workshop at PolyU (Jun 2025)</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/ai-robotics-forum.jpg" data-caption="AI and Intelligent Robotics forum">
+    <img src="/preview/pr-/images/gallery/ai-robotics-forum-thumb.jpg" alt="AI and Intelligent Robotics forum" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Events</span>AI and Intelligent Robotics forum</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/conference.jpg" data-caption="Hosting the international navigation community">
+    <img src="/preview/pr-/images/gallery/conference-thumb.jpg" alt="Hosting the international navigation community" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Events</span>Hosting the international navigation community</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/simpleai-launch.jpg" data-caption="Launch of the PolyU–Simple AI Joint Laboratory (Jan 2026)">
+    <img src="/preview/pr-/images/gallery/simpleai-launch-thumb.jpg" alt="Launch of the PolyU–Simple AI Joint Laboratory (Jan 2026)" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Partners</span>Launch of the PolyU–Simple AI Joint Laboratory (Jan 2026)</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/genvict-visit.jpg" data-caption="Genvict team visits TAS Lab (Mar 2026)">
+    <img src="/preview/pr-/images/gallery/genvict-visit-thumb.jpg" alt="Genvict team visits TAS Lab (Mar 2026)" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Partners</span>Genvict team visits TAS Lab (Mar 2026)</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/sf-visit.jpg" data-caption="SF Express (HK) visit to TAS Lab">
+    <img src="/preview/pr-/images/gallery/sf-visit-thumb.jpg" alt="SF Express (HK) visit to TAS Lab" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Partners</span>SF Express (HK) visit to TAS Lab</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/club-briefing.jpg" data-caption="Dr Wen briefs AI &amp; Robotics Club members, Industrial Centre (Aug 2026)">
+    <img src="/preview/pr-/images/gallery/club-briefing-thumb.jpg" alt="Dr Wen briefs AI &amp; Robotics Club members, Industrial Centre (Aug 2026)" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Students</span>Dr Wen briefs AI &amp; Robotics Club members, Industrial Centre (Aug 2026)</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/team-group.jpg" data-caption="Lab members with our robot fleet">
+    <img src="/preview/pr-/images/gallery/team-group-thumb.jpg" alt="Lab members with our robot fleet" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Team</span>Lab members with our robot fleet</span>
+  </a>
+  
+</div>
+
+<dialog class="lab-lightbox" aria-label="Photo viewer">
+  <button type="button" class="lab-lightbox-close" aria-label="Close">×</button>
+  <img src="" alt="">
+  <p class="lab-lightbox-caption"></p>
+</dialog>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var box = document.querySelector(".lab-lightbox");
+    if (!box || !box.showModal) return;
+    var img = box.querySelector("img");
+    var cap = box.querySelector(".lab-lightbox-caption");
+    document.querySelectorAll(".lab-gallery-item").forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        img.src = a.href;
+        img.alt = a.dataset.caption;
+        cap.textContent = a.dataset.caption;
+        box.showModal();
+      });
+    });
+    box.addEventListener("click", function (e) {
+      if (e.target === box || e.target.classList.contains("lab-lightbox-close")) box.close();
+    });
+  });
+</script>
+
+<div class="team-section-title" id="inclusion-and-diversity">Inclusion and Diversity</div>
+<p class="team-section-lead">
+  To advance collaborative, practical solutions to global challenges, TAS Lab fosters diversity, equity,
+  inclusion and belonging in everything we do.
+</p>
+
+<ul class="values-grid">
   <li>
-<b class="blue">Diversity</b> drives richer ideas and solutions.</li>
+<span class="values-title">Diversity</span><span class="values-text">drives richer ideas and solutions.</span>
+</li>
   <li>
-<b class="blue">Equity</b> ensures that all voices are heard and valued.</li>
+<span class="values-title">Equity</span><span class="values-text">ensures that every voice is heard and valued.</span>
+</li>
   <li>
-<b class="blue">Inclusion</b> results in a seat at the decision-making table.</li>
+<span class="values-title">Inclusion</span><span class="values-text">gives everyone a seat at the decision-making table.</span>
+</li>
   <li>
-<b class="blue">Belonging</b> means that we all feel welcome and confident in our roles.</li>
+<span class="values-title">Belonging</span><span class="values-text">means we all feel welcome and confident in our roles.</span>
+</li>
 </ul>
 
-<p>As such, TAS Lab is committed to:</p>
-
-<ul>
-  <li>Dedicating time and creating safe spaces for people to voice diverse perspectives in decision making, teaching, research, and in our work with community partners.</li>
-  <li>Acknowledging, working to understand, and repairing the power imbalances that have historically marginalized many voices, including in the field of international development.</li>
-  <li>Progressively becoming more diverse, equitable, and inclusive, and ultimately becoming an anti-racist organization.</li>
-</ul>
-
-<p>In this way, we aim for TAS Lab staff, students, and collaborators around the world to be able to design for a more equitable world.</p>
-
-<hr>
-
-<h4 id="we-are-grateful-for-the-continued-support-we-receive-from">We are grateful for the continued support we receive from:</h4>
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/polyu_logo.png" style="width: 100%; height: auto; object-fit: cover; max-width: 250px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/aaelogo.png" style="width: 100%; height: auto; object-fit: cover; max-width: 250px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/feng.png" style="width: 100%; height: auto; object-fit: cover; max-width: 120px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/RIAM_Logo.png" style="width: 100%; height: auto; object-fit: cover; max-width: 130px; margin: 0 auto; vertical-align: middle;">
+<div class="values-commit">
+  <p class="values-commit-title">Our commitments</p>
+  <ul>
+    <li>Make time and safe space for diverse perspectives in decisions, teaching, research and work with partners.</li>
+    <li>Acknowledge and help repair the power imbalances that have marginalised many voices.</li>
+    <li>Keep becoming more diverse, equitable and inclusive as a lab.</li>
+  </ul>
 </div>
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/RILSlogo.png" style="width: 100%; height: auto; object-fit: cover; max-width: 180px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/UGC_logo.png" style="width: 100%; height: auto; object-fit: cover; max-width: 220px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/itc-logo.png" style="width: 100%; height: auto; object-fit: cover; max-width: 250px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/TD_logo.png" style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; vertical-align: middle;">
+
+<div class="team-section-title" id="advisory-board">With gratitude to our Advisory Board (5)</div>
+<p class="team-section-lead">We sincerely thank our advisors, industry and academic leaders who generously share their time
+  and experience to guide our research, products and partnerships.</p>
+<div class="advisor-grid">
+  
+  <div class="advisor-card">
+    <img class="advisor-photo" src="/preview/pr-/images/advisors/leo-liu.jpg" alt="Leo Liu" loading="lazy">
+    <span class="advisor-name">Leo Liu</span>
+    <div class="advisor-role-slot"><span class="advisor-role">Industry Advisor</span></div>
+    <ul class="advisor-points">
+      
+      <li>CTO, Gammon Construction</li>
+      
+      <li>Ex-Dentsu, Tesla, Cisco, WebEx</li>
+      
+    </ul>
+  </div>
+  
+  <div class="advisor-card">
+    <img class="advisor-photo" src="/preview/pr-/images/advisors/chengzhong-xu.jpg" alt="Prof. Chengzhong Xu" loading="lazy">
+    <span class="advisor-name">Prof. Chengzhong Xu</span>
+    <div class="advisor-role-slot"><span class="advisor-role">Academic Advisor</span></div>
+    <ul class="advisor-points">
+      
+      <li>Dean of Science &amp; Technology, University of Macau</li>
+      
+      <li>Chair Professor; IEEE Fellow</li>
+      
+    </ul>
+  </div>
+  
+  <div class="advisor-card">
+    <img class="advisor-photo" src="/preview/pr-/images/advisors/kenny-lau.jpg" alt="Kenny Lau" loading="lazy">
+    <span class="advisor-name">Kenny Lau</span>
+    <div class="advisor-role-slot"><span class="advisor-role">Industry Advisor</span></div>
+    <ul class="advisor-points">
+      
+      <li>Former CTO, S.F. Express (Hong Kong), 2020–2025</li>
+      
+      <li>Led SF's drone delivery and low-altitude-economy projects in Hong Kong</li>
+      
+    </ul>
+  </div>
+  
+  <div class="advisor-card">
+    <img class="advisor-photo" src="/preview/pr-/images/advisors/patrick-lee.jpg" alt="Patrick S. Lee" loading="lazy">
+    <span class="advisor-name">Patrick S. Lee</span>
+    <div class="advisor-role-slot"><span class="advisor-role">Industry Advisor</span></div>
+    <ul class="advisor-points">
+      
+      <li>HK Region Advisor, Xiaohongshu</li>
+      
+      <li>INED, Café de Coral Holdings</li>
+      
+    </ul>
+  </div>
+  
+  <div class="advisor-card">
+    <img class="advisor-photo" src="/preview/pr-/images/advisors/winnie-tang.jpg" alt="Dr Winnie Tang" loading="lazy">
+    <span class="advisor-name">Dr Winnie Tang</span>
+    <div class="advisor-role-slot"><span class="advisor-role">Academic &amp; Industry Advisor</span></div>
+    <ul class="advisor-points">
+      
+      <li>Founder &amp; Chairman, Esri China (HK)</li>
+      
+      <li>Adjunct Professor, HKU</li>
+      
+    </ul>
+  </div>
+  
 </div>
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/RGC_logo.jpg" style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/guangdong_logo.png" style="width: 100%; height: auto; object-fit: cover; max-width: 170px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/huawei_logo.webp" style="width: 100%; height: auto; object-fit: cover; max-width: 180px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/honor-logo-black.svg" style="width: 100%; height: auto; object-fit: cover; max-width: 120px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/meituan_logo.png" style="width: 100%; height: auto; object-fit: cover; max-width: 120px; margin: 0 auto; vertical-align: middle;">
+
+<div class="team-section-title" id="funders">With gratitude to our funders and partners</div>
+<p class="team-section-lead">Our work is made possible by government, industry and university support.</p>
+
+<div class="partner-groups">
+  
+  <div class="partner-group">
+    <h3 class="partner-group-title">Hong Kong SAR Government</h3>
+    <ul class="partner-grid">
+      
+      <li>
+        <a class="partner-tile" href="https://www.ugc.edu.hk/eng/rgc/" target="_blank" rel="noopener" title="Research Grants Council">
+          
+          <img src="/preview/pr-/images/partners/rgc.jpg" alt="Research Grants Council" loading="lazy">
+          
+          <span class="partner-note">Early Career Scheme · Germany/HK Joint Research (DAAD)</span>
+        </a>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.ugc.edu.hk/" target="_blank" rel="noopener" title="University Grants Committee">
+          
+          <img src="/preview/pr-/images/partners/ugc.jpg" alt="University Grants Committee" loading="lazy">
+          
+          <span class="partner-note">Research Matching Grant Scheme</span>
+        </a>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.itc.gov.hk/" target="_blank" rel="noopener" title="Innovation and Technology Commission">
+          
+          <img src="/preview/pr-/images/partners/itc.jpg" alt="Innovation and Technology Commission" loading="lazy">
+          
+          <span class="partner-note">ITF · PTeC · Research Talent Hub · TSSSU-O</span>
+        </a>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.td.gov.hk/" target="_blank" rel="noopener" title="Transport Department">
+          
+          <img src="/preview/pr-/images/partners/transport-department.jpg" alt="Transport Department" loading="lazy">
+          
+          <span class="partner-note">Smart Traffic Fund</span>
+        </a>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.astri.org/" target="_blank" rel="noopener" title="Hong Kong Applied Science and Technology Research Institute (ASTRI)">
+          
+          <img src="/preview/pr-/images/partners/astri.jpg" alt="Hong Kong Applied Science and Technology Research Institute (ASTRI)" loading="lazy">
+          
+          <span class="partner-note">Roadside &amp; edge system · HD mapping · LEO V2X</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <div class="partner-group">
+    <h3 class="partner-group-title">Mainland China</h3>
+    <ul class="partner-grid">
+      
+      <li>
+        <div class="partner-tile" title="Department of Science and Technology of Guangdong Province">
+          
+          <img src="/preview/pr-/images/partners/guangdong-dst.jpg" alt="Department of Science and Technology of Guangdong Province" loading="lazy">
+          
+          <span class="partner-note">Guangdong DST · Guangdong NSF</span>
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="China Southern Power Grid">
+          
+          <img src="/preview/pr-/images/partners/china-southern-power-grid.jpg" alt="China Southern Power Grid" loading="lazy">
+          
+          <span class="partner-note">Offshore-wind UAV inspection (GD–HK Joint Lab)</span>
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Wuxi Government">
+          
+          <img src="/preview/pr-/images/partners/polyu-wuxi.jpg" alt="Wuxi Government" loading="lazy">
+          
+          <span class="partner-note">ITS &amp; Unmanned Systems Center, PolyU-Wuxi Institute</span>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <div class="partner-group">
+    <h3 class="partner-group-title">Industry Partners</h3>
+    <ul class="partner-grid">
+      
+      <li>
+        <div class="partner-tile" title="Huawei">
+          
+          <img src="/preview/pr-/images/partners/huawei.jpg" alt="Huawei" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Esri China (Hong Kong)">
+          
+          <img src="/preview/pr-/images/partners/esri-china-hk.jpg" alt="Esri China (Hong Kong)" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="HONOR">
+          
+          <img src="/preview/pr-/images/partners/honor.jpg" alt="HONOR" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="COMAC">
+          
+          <img src="/preview/pr-/images/partners/comac.jpg" alt="COMAC" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Meituan">
+          
+          <img src="/preview/pr-/images/partners/meituan.jpg" alt="Meituan" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Tencent">
+          
+          <img src="/preview/pr-/images/partners/tencent.jpg" alt="Tencent" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="LinXAI">
+          
+          <img src="/preview/pr-/images/partners/linxai.jpg" alt="LinXAI" loading="lazy">
+          
+          <span class="partner-note">Joint lab</span>
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Genvict">
+          
+          <img src="/preview/pr-/images/partners/genvict.jpg" alt="Genvict" loading="lazy">
+          
+          <span class="partner-note">Joint lab</span>
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Simple AI">
+          
+          <img src="/preview/pr-/images/partners/simple-ai.jpg" alt="Simple AI" loading="lazy">
+          
+          <span class="partner-note">Joint lab</span>
+        </div>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.sf-express.com/hk/en/" target="_blank" rel="noopener" title="SF Express (Hong Kong)">
+          
+          <img src="/preview/pr-/images/partners/sf-express.jpg" alt="SF Express (Hong Kong)" loading="lazy">
+          
+          <span class="partner-note">Autonomous logistics</span>
+        </a>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.rino.ai/" target="_blank" rel="noopener" title="Rino.ai">
+          
+          <img src="/preview/pr-/images/partners/rino-ai.jpg" alt="Rino.ai" loading="lazy">
+          
+          <span class="partner-note">Autonomous logistics</span>
+        </a>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="CeresRobotics.ai">
+          
+          <img src="/preview/pr-/images/partners/ceresrobotics.jpg" alt="CeresRobotics.ai" loading="lazy">
+          
+          <span class="partner-note">Lab spin-off</span>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <div class="partner-group">
+    <h3 class="partner-group-title">International</h3>
+    <ul class="partner-grid">
+      
+      <li>
+        <a class="partner-tile" href="https://www.daad.de/en/" target="_blank" rel="noopener" title="German Academic Exchange Service (DAAD)">
+          
+          <img src="/preview/pr-/images/partners/daad.jpg" alt="German Academic Exchange Service (DAAD)" loading="lazy">
+          
+          <span class="partner-note">Germany/HK Joint Research Scheme</span>
+        </a>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.uni-hannover.de/en/" target="_blank" rel="noopener" title="Leibniz University Hannover">
+          
+          <img src="/preview/pr-/images/partners/leibniz-hannover.jpg" alt="Leibniz University Hannover" loading="lazy">
+          
+          <span class="partner-note">GNSS–LiDAR research exchange</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <div class="partner-group">
+    <h3 class="partner-group-title">PolyU &amp; Philanthropy</h3>
+    <ul class="partner-grid">
+      
+      <li>
+        <a class="partner-tile" href="https://www.polyu.edu.hk/" target="_blank" rel="noopener" title="The Hong Kong Polytechnic University">
+          
+          <img src="/preview/pr-/images/partners/polyu.jpg" alt="The Hong Kong Polytechnic University" loading="lazy">
+          
+          <span class="partner-note">RCDSE · RIAM · RC-UAS · Carbon Neutrality · FENG</span>
+        </a>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.polyu.edu.hk/aae/" target="_blank" rel="noopener" title="Department of Aeronautical and Aviation Engineering">
+          
+          <img src="/preview/pr-/images/logo/aaelogo.png" alt="Department of Aeronautical and Aviation Engineering" loading="lazy">
+          
+          
+        </a>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Faculty of Engineering">
+          
+          <img src="/preview/pr-/images/logo/feng.png" alt="Faculty of Engineering" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Research Institute for Advanced Manufacturing">
+          
+          <img src="/preview/pr-/images/logo/RIAM_Logo.png" alt="Research Institute for Advanced Manufacturing" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Research Institute for Land and Space">
+          
+          <img src="/preview/pr-/images/logo/RILSlogo.png" alt="Research Institute for Land and Space" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.polyu.edu.hk/scri/" target="_blank" rel="noopener" title="Otto Poon Charitable Foundation Smart Cities Research Institute">
+          
+          <img src="/preview/pr-/images/partners/polyu-scri.jpg" alt="Otto Poon Charitable Foundation Smart Cities Research Institute" loading="lazy">
+          
+          <span class="partner-note">UAV–UGV map update</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  
 </div>
   </section>
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/preview/pr-/preview/pr-/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -2873,25 +3371,25 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -2903,10 +3401,10 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -2918,10 +3416,10 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -2933,10 +3431,10 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -2948,24 +3446,14 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

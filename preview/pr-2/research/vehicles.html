@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>End-to-End Autonomous Vehicles | TAS LAB</title>
 
-<link rel="icon" href="/preview/pr-/images/icon.png">
+<link rel="icon" href="/preview/pr-/images/icon.jpg">
 
 <meta name="title" content="End-to-End Autonomous Vehicles">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -74,7 +73,7 @@
     "headline": "End-to-End Autonomous Vehicles",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.jpg" }
     },
     "url": "/preview/pr-"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="/preview/pr-/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/preview/pr-/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/preview/pr-/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-/_styles/components.css" rel="stylesheet">
   
 
   
@@ -372,6 +372,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -401,18 +403,15 @@
 
 
 </head>
-
-  <body>
+<body class="has-banner">
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/preview/pr-/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/preview/pr-/" class="home">
+<header class="site-header">
+  <a href="/preview/pr-/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -476,49 +475,65 @@
     
     
       
-        <a href="/preview/pr-/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/preview/pr-/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/preview/pr-/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/preview/pr-/research/" data-tooltip="Research directions, systems and demos" class="active" aria-current="page">
+        Research
+      </a>
     
       
-        <a href="/preview/pr-/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/preview/pr-/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/preview/pr-/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/preview/pr-/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/preview/pr-/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/preview/pr-/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    <div class="page-banner" style="--banner: url('/preview/pr-/images/home/banner-campus.jpg')">
+  <div class="page-banner-inner">
+    <div class="page-banner-text">
+      <p class="page-banner-eyebrow">Research direction</p>
+      <h1 class="page-banner-title">End-to-End Autonomous Vehicles</h1>
+      
+      <p class="page-banner-sub">Safety-certifiable end-to-end driving for urban logistics</p>
+    </div>
+    <div class="page-banner-logos" aria-label="The Hong Kong Polytechnic University · Department of Aeronautical and Aviation Engineering">
+      <img src="/preview/pr-/images/logo/polyu_logo_white.png" alt="The Hong Kong Polytechnic University">
+      <img src="/preview/pr-/images/logo/aaelogo_white.png" alt="Department of Aeronautical and Aviation Engineering">
+    </div>
+  </div>
+</div>
+
     <main>
       <!--
   modify main content of page:
@@ -536,36 +551,417 @@
   
   
 
-  <section class="background" data-size="0.97em; line-height: 1.65; margin-bottom: 0.5em">
-    <h1 id="-end-to-end-and-safety-certifiable-autonomous-vehicles-for-logistics-applications">🚗 End-to-End and Safety-Certifiable Autonomous Vehicles for Logistics Applications</h1>
+  <section class="background" data-size="page">
+    <div class="rt-intro">
+  <a class="project-back" href="/preview/pr-/research/">← All research directions</a>
+  <div class="rt-intro-grid">
+    <div class="rt-intro-text">
+      <p>Autonomous vehicles can transform logistics and urban mobility, but driving safely on Hong Kong’s dense,
+GNSS-degraded streets is still a grand challenge. We develop <strong>end-to-end learning</strong> for driving together with
+<strong>safety certification</strong>, and take both from campus tests to real logistics fleets.</p>
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
-Autonomous vehicles hold transformative potential for logistics and urban mobility, yet deploying them safely in real-world environments remains a grand challenge. This research focuses on developing <b class="blue">end-to-end learning frameworks</b> and <b class="blue">safety-certifiable navigation systems</b> for autonomous vehicles in logistics applications — from campus delivery and last-mile transportation to urban freight operations.
+<p>Our platforms combine GNSS-RTK, LiDAR, cameras and IMU with <strong>V2X communication</strong> and roadside sensing, and are
+validated with partners such as SF Express and Rino.ai in campus delivery, last-mile transport and connected-vehicle
+trials.</p>
+
+      
+      <ul class="rt-chips">
+        <li>End-to-end driving</li>
+<li>Integrity monitoring</li>
+<li>V2X &amp; roadside sensing</li>
+<li>HD mapping</li>
+<li>Logistics vehicles</li>
+      </ul>
+      
+    </div>
+    
+    <figure class="rt-figure">
+      <a href="/preview/pr-/images/project/E2ELV.jpg" target="_blank" rel="noopener">
+        <img src="/preview/pr-/images/project/E2ELV.jpg" alt="End-to-end and safety-certifiable autonomous vehicles for logistics">
+      </a>
+      <figcaption>End-to-end and safety-certifiable autonomous vehicles for logistics</figcaption>
+    </figure>
+    
+  </div>
 </div>
+  </section>
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 1em;">
-Our approach integrates three core elements:
-<ol>
-<li>
-<b>End-to-End Autonomous Driving</b> — We develop neural network architectures that learn to drive directly from raw sensor inputs (LiDAR, camera, IMU, GNSS) to control outputs, enabling autonomous vehicles to handle complex urban scenarios including dense traffic, dynamic obstacles, and GPS-degraded environments. Our end-to-end pipelines unify perception, prediction, planning, and control into a single differentiable framework.</li>
-<li>
-<b>Safety Certification and Integrity Monitoring</b> — Unlike conventional black-box approaches, our systems incorporate rigorous safety certification mechanisms. We design integrity monitoring algorithms that quantify the trustworthiness of navigation solutions in real time, enabling the vehicle to detect unsafe states and trigger fail-safe maneuvers. This is critical for logistics applications where reliability and regulatory compliance are paramount.</li>
-<li>
-<b>Real-World Deployment for Logistics</b> — We bridge the gap between research and application by developing full-stack autonomous vehicle platforms for logistics use cases, including campus patrol, autonomous delivery, and connected fleet management. Our platforms feature multi-sensor fusion (GNSS-RTK/LiDAR/Camera/IMU), <b class="blue">V2X communication</b>, and robust localization in challenging urban canyon environments.</li>
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="approach">Our Approach</h2>
+<ol class="rt-pillars" data-count="3">
+  
+  <li>
+    <h3>End-to-end autonomous driving</h3>
+    <p>Networks that learn to drive from raw LiDAR, camera, IMU and GNSS data, unifying perception, prediction, planning and control in one differentiable framework.</p>
+  </li>
+  
+  <li>
+    <h3>Safety certification and integrity monitoring</h3>
+    <p>Integrity monitoring quantifies in real time how far the navigation solution can be trusted, so the vehicle can detect unsafe states and trigger fail-safe manoeuvres.</p>
+  </li>
+  
+  <li>
+    <h3>Real-world deployment for logistics</h3>
+    <p>Full-stack vehicle platforms for campus patrol, autonomous delivery and connected fleets, with robust localisation in urban canyons.</p>
+  </li>
+  
 </ol>
+
+<figure class="rt-figure rt-figure-wide">
+  <a href="/preview/pr-/images/project/AGV_demo.jpg" target="_blank" rel="noopener">
+    <img src="/preview/pr-/images/project/AGV_demo.jpg" alt="Autonomous vehicle platform for campus logistics and urban navigation" loading="lazy">
+  </a>
+  <figcaption>Autonomous vehicle platform for campus logistics and urban navigation</figcaption>
+</figure>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="research-in-action">Research in Action</h2>
+<p class="rt-section-lead">Systems we have built and tested with partners. Open a card for the problem, our approach, results and photos.</p>
+<div class="rw-grid">
+  
+  <article class="rw-card" id="e2e-logistics-driving">
+    <a class="rw-media" href="/preview/pr-/images/projects/e2e-logistics-driving/cover.jpg" target="_blank" rel="noopener">
+      <img src="/preview/pr-/images/projects/e2e-logistics-driving/cover.jpg" alt="End-to-End Intelligent Driving System for Logistics" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">End-to-End Intelligent Driving System for Logistics</h3>
+      <p class="rw-summary">An end-to-end AI driving stack with a trustworthy positioning safety layer, validated on logistics vans with Hong Kong's leading logistics operator.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>2 MOUs</b> SF Express · Rino.ai</li>
+<li>
+<b>2,000+</b> partner vehicles in 170+ cities</li>
+<li>
+<b>End-to-end</b> AI driving with a safety layer</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Urban logistics vans must drive safely through dense, GNSS-degraded Hong Kong streets with heavy occlusion and tight kerbside space.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>End-to-end AI driving stack learned from multi-sensor data</li>
+<li>Trustworthy GNSS/INS/LiDAR positioning acting as a safety layer</li>
+<li>Field validation on a logistics vehicle provided by SF Express (HK) and Rino.ai</li>
+        </ul>
+        
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/e2e-logistics-driving/1.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/e2e-logistics-driving/1.jpg" alt="SF Express × Rino.ai × PolyU: autonomous logistics vans on campus" loading="lazy">
+            </a>
+            <figcaption>SF Express × Rino.ai × PolyU: autonomous logistics vans on campus</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/e2e-logistics-driving/2.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/e2e-logistics-driving/2.jpg" alt="Strategic MOU signing ceremony" loading="lazy">
+            </a>
+            <figcaption>Strategic MOU signing ceremony</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/e2e-logistics-driving/3.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/e2e-logistics-driving/3.jpg" alt="Dr Wen hosts SF Express (HK) &amp; Rino.ai, Jan 2026" loading="lazy">
+            </a>
+            <figcaption>Dr Wen hosts SF Express (HK) &amp; Rino.ai, Jan 2026</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/e2e-logistics-driving/4.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/e2e-logistics-driving/4.jpg" alt="Logistics vehicle for field validation" loading="lazy">
+            </a>
+            <figcaption>Logistics vehicle for field validation</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/e2e-logistics-driving/5.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/e2e-logistics-driving/5.jpg" alt="Dr Wen with SF Express (HK) CTO, Mar 2025" loading="lazy">
+            </a>
+            <figcaption>Dr Wen with SF Express (HK) CTO, Mar 2025</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="assisted-navigation-collision-avoidance">
+    <a class="rw-media" href="/preview/pr-/images/projects/assisted-navigation-collision-avoidance/2.jpg" target="_blank" rel="noopener">
+      <img src="/preview/pr-/images/projects/assisted-navigation-collision-avoidance/2.jpg" alt="Assisted Navigation and Collision Avoidance System using AI and Location-based Services" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Assisted Navigation and Collision Avoidance System using AI and Location-based Services</h3>
+      <p class="rw-summary">Lane-level positioning and multi-vehicle collision warnings for Hong Kong roads.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>&lt;0.5 m</b> lane-level error</li>
+<li>
+<b>Multi-car</b> collision warnings</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Tall buildings block satellites and sight lines, so lane-level positioning and blind-spot awareness fail in urban canyons.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Lane-level positioning from RTK and 3D city maps</li>
+<li>Multi-vehicle collaborative sensing with AI and RTK for over-the-horizon warnings</li>
+<li>AI dynamic-model optimisation and a multi-vehicle collision-avoidance prototype</li>
+        </ul>
+        <p><span class="rw-label">Results</span>ION GNSS+ 2024 paper on factor-graph multi-epoch ambiguity resolution; an AI-based NLOS-mitigation deliverable.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/assisted-navigation-collision-avoidance/1.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/assisted-navigation-collision-avoidance/1.jpg" alt="PolyU press feature on the collision-avoidance system" loading="lazy">
+            </a>
+            <figcaption>PolyU press feature on the collision-avoidance system</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/assisted-navigation-collision-avoidance/2.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/assisted-navigation-collision-avoidance/2.jpg" alt="Collaborative positioning in HK canyons" loading="lazy">
+            </a>
+            <figcaption>Collaborative positioning in HK canyons</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/assisted-navigation-collision-avoidance/3.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/assisted-navigation-collision-avoidance/3.jpg" alt="Lane-level positioning → collision prediction" loading="lazy">
+            </a>
+            <figcaption>Lane-level positioning → collision prediction</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/assisted-navigation-collision-avoidance/4.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/assisted-navigation-collision-avoidance/4.jpg" alt="System pipeline" loading="lazy">
+            </a>
+            <figcaption>System pipeline</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/assisted-navigation-collision-avoidance/5.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/assisted-navigation-collision-avoidance/5.jpg" alt="Vehicle sensor kit" loading="lazy">
+            </a>
+            <figcaption>Vehicle sensor kit</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="roadside-edge-system">
+    <a class="rw-media" href="/preview/pr-/images/projects/roadside-edge-system/cover.jpg" target="_blank" rel="noopener">
+      <img src="/preview/pr-/images/projects/roadside-edge-system/cover.jpg" alt="Advanced Smart-Mobility Roadside and Edge System" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Advanced Smart-Mobility Roadside and Edge System</h3>
+      <p class="rw-summary">Roadside sensing and edge computing that share maps and dynamic objects with connected vehicles, with ASTRI.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>1 car</b> donated by ASTRI</li>
+<li>
+<b>ITSC 2023</b> paper</li>
+<li>
+<b>HKSTP</b> joint field tests</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Vehicles alone cannot see around corners or keep HD maps current; roadside units can, if their data are fused correctly.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Roadside LiDAR and camera units mapping their surroundings</li>
+<li>Edge computing that shares error maps and dynamic objects with connected vehicles</li>
+<li>Joint field tests with ASTRI vehicles at HKSTP and PolyU</li>
+        </ul>
+        <p><span class="rw-label">Results</span>Roadside error maps shared with connected vehicles (IEEE ITSC 2023).</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/roadside-edge-system/1.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/roadside-edge-system/1.jpg" alt="Roadside infrastructure-based collaborative mapping" loading="lazy">
+            </a>
+            <figcaption>Roadside infrastructure-based collaborative mapping</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/roadside-edge-system/2.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/roadside-edge-system/2.jpg" alt="ASTRI vehicle donated to PolyU" loading="lazy">
+            </a>
+            <figcaption>ASTRI vehicle donated to PolyU</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/roadside-edge-system/3.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/roadside-edge-system/3.jpg" alt="Shared test golf car" loading="lazy">
+            </a>
+            <figcaption>Shared test golf car</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="hd-mapping-astri">
+    <a class="rw-media" href="/preview/pr-/images/projects/hd-mapping-astri/cover.jpg" target="_blank" rel="noopener">
+      <img src="/preview/pr-/images/projects/hd-mapping-astri/cover.jpg" alt="Multi-Sensory HD Mapping System" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Multi-Sensory HD Mapping System</h3>
+      <p class="rw-summary">A full HD-mapping platform delivered to ASTRI, with vector maps and a digital twin of Hong Kong Science Park.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>Vector map</b> of HKSTP</li>
+<li>
+<b>Digital twin</b> of Science Park</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Autonomous-driving trials at Science Park needed a centimetre-level HD map and a way to keep it up to date.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Vehicle and roadside multi-sensor kit (LiDAR, cameras, GNSS/INS) with time synchronisation</li>
+<li>LiDAR-inertial mapping and lane-level vector-map extraction</li>
+<li>Digital-twin model of HKSTP for simulation and validation</li>
+        </ul>
+        <p><span class="rw-label">Results</span>Mapping platform, point-cloud and vector maps of HKSTP, and a digital twin for simulation.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/hd-mapping-astri/1.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/hd-mapping-astri/1.jpg" alt="Mapping platform: onboard and roadside sensors" loading="lazy">
+            </a>
+            <figcaption>Mapping platform: onboard and roadside sensors</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/hd-mapping-astri/2.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/hd-mapping-astri/2.jpg" alt="Point-cloud mapping result" loading="lazy">
+            </a>
+            <figcaption>Point-cloud mapping result</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/hd-mapping-astri/3.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/hd-mapping-astri/3.jpg" alt="Vector map of HKSTP" loading="lazy">
+            </a>
+            <figcaption>Vector map of HKSTP</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/hd-mapping-astri/4.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/hd-mapping-astri/4.jpg" alt="Digital twin of HKSTP" loading="lazy">
+            </a>
+            <figcaption>Digital twin of HKSTP</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/hd-mapping-astri/5.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/hd-mapping-astri/5.jpg" alt="ASTRI test vehicle" loading="lazy">
+            </a>
+            <figcaption>ASTRI test vehicle</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="vehicle-infrastructure-collaboration">
+    <a class="rw-media" href="/preview/pr-/images/projects/vehicle-infrastructure-collaboration/cover.jpg" target="_blank" rel="noopener">
+      <img src="/preview/pr-/images/projects/vehicle-infrastructure-collaboration/cover.jpg" alt="Vehicle–Infrastructure Collaboration for Connected UGVs and UAVs" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Vehicle–Infrastructure Collaboration for Connected UGVs and UAVs</h3>
+      <p class="rw-summary">Collaborative positioning and map update in urban canyons using roadside units, drones and ground vehicles.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>V2I</b> collaborative positioning</li>
+<li>
+<b>UAV + UGV</b> map update</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Single-vehicle positioning has hit its limits in urban canyons; roadside units and drones can supply the missing views.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Vehicle–infrastructure collaborative positioning using roadside units and smart sensors</li>
+<li>UAV–UGV collaboration for map update</li>
+<li>Validation on TAS Lab vehicles and drones</li>
+        </ul>
+        <p><span class="rw-label">Results</span>Seeded the lab's collision-warning and air–ground map-update research.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/vehicle-infrastructure-collaboration/1.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/vehicle-infrastructure-collaboration/1.jpg" alt="Autonomous vehicle on campus" loading="lazy">
+            </a>
+            <figcaption>Autonomous vehicle on campus</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/vehicle-infrastructure-collaboration/2.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/vehicle-infrastructure-collaboration/2.jpg" alt="UAV–UGV–roadside framework" loading="lazy">
+            </a>
+            <figcaption>UAV–UGV–roadside framework</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/vehicle-infrastructure-collaboration/3.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/vehicle-infrastructure-collaboration/3.jpg" alt="Collaborative mapping" loading="lazy">
+            </a>
+            <figcaption>Collaborative mapping</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
 </div>
-
-<p align="center">
-  <img width="700" src="/preview/pr-/images/project/E2ELV.png" alt="End-to-End Autonomous Vehicles">
-</p>
-<center><i>End-to-End and Safety-Certifiable Autonomous Vehicles for Logistics Applications</i></center>
-
-<p align="center">
-  <img width="600" src="/preview/pr-/images/project/AGV_demo.png" alt="Autonomous Vehicle Platform">
-</p>
-<center><i>Autonomous Vehicle Platform for Campus Logistics and Urban Navigation</i></center>
-
-<p><a href="/preview/pr-/research" style="font-size: 0.9em;">← Back to all Research Directions</a></p>
   </section>
 
   
@@ -579,32 +975,48 @@ Our approach integrates three core elements:
   size: ;
 -->
 
-<h2 id="demo-videos--photos">Demo Videos &amp; Photos</h2>
+<h2 id="videos">Video Demonstrations</h2>
+<div class="rt-videos">
+  <figure class="video-card">
+  <div class="video-frame">
+    
+    <iframe src="https://player.bilibili.com/player.html?bvid=BV1ktZcYdEWD&page=1&autoplay=0&high_quality=1" title="Autonomous driving test, TAS Lab, PolyU" loading="lazy" scrolling="no" frameborder="0" allowfullscreen></iframe>
+    
+  </div>
+  <figcaption>Autonomous driving test, TAS Lab, PolyU</figcaption>
+</figure>
+<figure class="video-card">
+  <div class="video-frame">
+    
+    <button type="button" class="video-lite" aria-label="Play: Autonomous driving demonstration on the PolyU campus" data-src="https://www.youtube-nocookie.com/embed/Q0nq1vHeinM?autoplay=1&rel=0" style="background-image: url('https://i.ytimg.com/vi/Q0nq1vHeinM/hqdefault.jpg')">
+      <span class="video-play" aria-hidden="true"></span>
+    </button>
+    
+  </div>
+  <figcaption>Autonomous driving demonstration on the PolyU campus</figcaption>
+</figure>
+<figure class="video-card">
+  <div class="video-frame">
+    
+    <button type="button" class="video-lite" aria-label="Play: Localisation and control" data-src="https://www.youtube-nocookie.com/embed/90fOkCs_ID4?autoplay=1&rel=0" style="background-image: url('https://i.ytimg.com/vi/90fOkCs_ID4/hqdefault.jpg')">
+      <span class="video-play" aria-hidden="true"></span>
+    </button>
+    
+  </div>
+  <figcaption>Localisation and control</figcaption>
+</figure>
+<figure class="video-card">
+  <div class="video-frame">
+    
+    <button type="button" class="video-lite" aria-label="Play: Perception and control" data-src="https://www.youtube-nocookie.com/embed/FQ5aHB4o3jg?autoplay=1&rel=0" style="background-image: url('https://i.ytimg.com/vi/FQ5aHB4o3jg/hqdefault.jpg')">
+      <span class="video-play" aria-hidden="true"></span>
+    </button>
+    
+  </div>
+  <figcaption>Perception and control</figcaption>
+</figure>
 
-<p align="center">
-  <img width="700" src="/preview/pr-/images/project/demo_20220923.jpg" alt="Campus UGV patrol demonstration">
-</p>
-<center><i>Campus Security Patrol Demonstration with UGV — PolyU AAE/CFSO, Sept 2022</i></center>
-
-<p align="center">
-  <iframe src="//player.bilibili.com/player.html?bvid=BV1ktZcYdEWD&page=1&autoplay=0" width="560" height="315" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-</p>
-<center><i>Autonomous Driving Test — TAS Lab, PolyU</i></center>
-
-<table style="width:100%;border-collapse:collapse;border:none;margin:10px 0 20px;"><tr style="border:none;">
-<td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;">
-<iframe width="100%" height="180" src="https://www.youtube.com/embed/Q0nq1vHeinM" title="Autonomous driving PolyU campus demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="border-radius:8px;"></iframe>
-<p><br>Autonomous driving PolyU campus demo</p>
-</td>
-<td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;">
-<iframe width="100%" height="180" src="https://www.youtube.com/embed/90fOkCs_ID4" title="Localization and Control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="border-radius:8px;"></iframe>
-<p><br>Localization and Control</p>
-</td>
-<td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;">
-<iframe width="100%" height="180" src="https://www.youtube.com/embed/FQ5aHB4o3jg" title="Perception and control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="border-radius:8px;"></iframe>
-<p><br>Perception and Control</p>
-</td>
-</tr></table>
+</div>
   </section>
 
   
@@ -618,11 +1030,14 @@ Our approach integrates three core elements:
   size: ;
 -->
 
-<h2 id="news">News</h2>
+<h2 id="field-demonstrations">Field Demonstrations</h2>
 
-<ul>
-<li>Sept 2022, we welcome the <b class="blue">PolyU Campus Facilities and Sustainability Office (CFSO)</b> and <b class="blue">Health and Safety Office (HSO)</b> to attend the demonstration of AAE/CFSO Campus Security Patrol with Unmanned Ground Vehicle (UGV)</li>
-</ul>
+<div class="rt-media rt-media-single">
+  <figure>
+    <a href="/preview/pr-/images/project/demo_20220923.jpg" target="_blank" rel="noopener"><img src="/preview/pr-/images/project/demo_20220923.jpg" alt="Campus security patrol demonstration with an unmanned ground vehicle" loading="lazy"></a>
+    <figcaption>Campus security patrol with an unmanned ground vehicle, demonstrated to the PolyU Campus Facilities and Sustainability Office and Health and Safety Office (Sept 2022)</figcaption>
+  </figure>
+</div>
   </section>
 
   
@@ -636,19 +1051,25 @@ Our approach integrates three core elements:
   size: ;
 -->
 
-<h2 id="selected-publications--corresponding-author">Selected Publications (*: Corresponding author)</h2>
+<h2 id="collaborators">Collaborators</h2>
 
-<style>
-p[align="center"] { text-align: center !important; }
-p[align="center"] img, p[align="center"] iframe { display: inline-block; max-width: 100%; }
-center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
-.pub-list { list-style: none; padding-left: 0; }
-.pub-item { margin: 10px 0; padding: 10px 14px; border-left: 3px solid var(--primary, #0795d9); background: #f9fbfd; font-size: 0.92em; line-height: 1.55; }
-.pub-title { font-weight: 600; color: var(--primary, #0795d9); }
-.pub-authors { font-size: 0.9em; color: #444; }
-.pub-venue { font-size: 0.88em; color: #555; font-style: italic; }
-.pub-meta { font-size: 0.85em; color: #888; }
-</style>
+<p class="rt-section-lead">We work with industry partners including Huawei, Meituan, Tencent and iDriverplus, the
+<a href="https://msc.berkeley.edu/">Mechanical Systems Control Lab</a> at UC Berkeley and
+<a href="https://www.tu-chemnitz.de/">Chemnitz University of Technology</a> in Germany.</p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="selected-publications">Selected Publications</h2>
 
 <ul class="pub-list">
 
@@ -714,206 +1135,36 @@ center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
 
 </ul>
 
-<p style="text-align:right;font-size:0.88em;margin-top:8px;"><a href="/preview/pr-/publications" style="color:var(--primary, #1a73e8);">→ Full publication list</a></p>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="acknowledgement-and-collaborators">Acknowledgement and Collaborators</h2>
-
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
-This research is supported by government and industry partners, including the <b class="blue">Hong Kong Polytechnic University</b>, <b class="blue">Guangdong Basic and Applied Basic Research Foundation</b>, <b class="blue">Hong Kong Smart Traffic Fund</b>, <b class="blue">Innovation and Technology Fund</b>, <b class="blue"><a href="https://www.huawei.com/">Huawei Technologies</a></b>, <b class="blue"><a href="https://www.meituan.com/">Meituan</a></b>, <b class="blue"><a href="https://www.tencent.com/">Tencent</a></b>, and <b class="blue"><a href="https://www.idriverplus.com/cn/index.html">iDriverplus</a></b>. We also collaborate closely with the <b class="blue"><a href="https://msc.berkeley.edu/">Mechanical Systems Control Lab</a></b> at the University of California, Berkeley, and the <b class="blue"><a href="https://www.tu-chemnitz.de/">Chemnitz University of Technology</a></b> in Germany.
-</div>
-
-<p align="center">
-  <img width="700" src="/preview/pr-/images/project/funding.jpg" alt="Funding and Collaborators">
-</p>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="projects-2">Projects (2)</h2>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-      <a href="/preview/pr-/2025/01/01/Our_Autonomous_Platforms.html" class="post-excerpt-image" aria-label="Our Autonomous Platforms">
-        <img src="/preview/pr-/images/project/Vehicle/ADV.png" alt="Our Autonomous Platforms" loading="lazy" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="post-excerpt-text">
-      <a href="/preview/pr-/2025/01/01/Our_Autonomous_Platforms.html">Our Autonomous Platforms</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>January 01, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
+<p class="pub-more"><a href="/preview/pr-/publications">Full publication list →</a></p>
 
 
-  
-
-
-  <div class="tags" data-link="/preview/pr-/blog">
-    
-      <a href="blog?search=%22tag:%20autonomous-driving%22" class="tag" data-tooltip='Show items with the tag "autonomous-driving"'>
-        autonomous-driving
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="p Our cutting-edge research platforms for end-to-end AI self-driving, where neural networks learn to drive directly from sensor data to control outputs. p h2 id what-is-end-to-end-ai-self-driving What is End-to-End AI Self-Driving h2 p End-to-end AI self-driving represents a paradigm shift in autonomous vehicle technology. Unlike traditional modular pipelines that break down driving into separate perception, prediction, planning, and control modules, end-to-end approaches use deep neural networks to learn the entire driving task holistically directly mapping raw sensor inputs to vehicle control commands. p p This revolutionary approach offers several key advantages: p p strong Direct Sensor-to-Control Learning strong : Neural networks process multi-modal sensor data cameras, LiDAR, GNSS and output steering angles, throttle, and brake commands in a single forward pass, eliminating the error propagation inherent in modular systems. p p strong Learned Representations strong : Rather than hand-crafting features and rules, the network automatically discovers optimal internal representations of the driving environment, capturing subtle patterns that human engineers might miss. p p strong Data-Driven Adaptation strong : End-to-end models continuously improve through exposure to diverse driving scenarios, learning complex behaviors like defensive driving, traffic flow prediction, and context-aware decision-making from demonstration data. p p strong Unified Optimization strong : The entire driving pipeline is optimized jointly using gradient-based learning, ensuring that perception and control work synergistically rather than as isolated components. p p Our research explores multiple end-to-end architectures from imitation learning systems that mimic expert drivers to reinforcement learning agents that discover optimal policies through trial and error in simulation, then transfer to real-world deployment. p h2 id introduction Introduction h2 p Autonomous vehicles represent the future of intelligent transportation, leveraging end-to-end AI architectures to transform raw sensor data into safe, human-like driving decisions. Our laboratory develops and deploys advanced self-driving systems that embody the latest breakthroughs in deep learning, computer vision, and robotics. p p At the core of our autonomous platforms is an integrated AI pipeline that processes multi-modal sensor streams LiDAR point clouds, camera images, and GNSS INS data through sophisticated neural network architectures. These systems learn to simultaneously perceive the environment, predict future trajectories, and execute driving maneuvers in real-time, handling complex urban scenarios with human-level performance. p p The autonomous driving vehicle operates under comprehensive CANBUS control integrated with ROS2 middleware. Our AI control stack communicates seamlessly with the vehicle s MCU, translating high-level neural network outputs into low-level CAN signals for precise actuation. This architecture enables full drive-by-wire control including: p ul li strong Longitudinal control strong : Acceleration and braking commands derived from learned policies li li strong Lateral control strong : Steering angles predicted by end-to-end neural networks li li strong Mode management strong : Automated gear shifting D P R N based on mission planning li li strong Safety systems strong : AI-monitored lighting, indicators, and fail-safe mechanisms li ul p This platform serves as our testbed for advancing AI-powered autonomous driving, from imitation learning and reinforcement learning to vision-language models for natural language navigation. p h2 id end-to-end-ai-architecture-components End-to-End AI Architecture Components h2 p Our autonomous driving system implements a comprehensive end-to-end AI architecture comprising the following key components: p h3 id 1-multi-modal-perception-network 1. Multi-Modal Perception Network h3 p strong Function strong : Fuses data from cameras, LiDAR, and GNSS INS into unified spatial-temporal representations p p strong Architecture strong : Vision backbone ResNet, EfficientNet, or Vision Transformers for image feature extraction; PointNet VoxelNet for 3D point cloud processing; Multi-scale feature pyramid networks for detecting objects at various distances; Temporal fusion modules ConvLSTM, 3D CNNs for motion prediction p p strong Outputs strong : Bird s-eye-view BEV semantic maps, 3D object detections, drivable area segmentation, lane boundary predictions p h3 id 2-world-model--prediction 2. World Model amp; Prediction h3 p strong Function strong : Learns predictive models of how the environment evolves over time p p strong Architecture strong : Recurrent neural networks GRU LSTM or Transformers for sequential prediction; Probabilistic trajectory forecasting for surrounding vehicles and pedestrians; Occupancy grid prediction for future scene states; Attention mechanisms for modeling agent-agent interactions p p strong Outputs strong : Multi-modal future trajectory distributions, predicted collision risks, uncertainty estimates p h3 id 3-planning--decision-making-network 3. Planning amp; Decision-Making Network h3 p strong Function strong : Generates safe, comfortable, and efficient driving trajectories p p strong Architecture strong : Hierarchical planning with high-level route planning and low-level trajectory optimization; Imitation learning from expert demonstrations Behavioral Cloning, GAIL, DAgger ; Reinforcement learning for reward-driven policy optimization PPO, SAC, TD3 ; Cost volume networks for evaluating trajectory candidates; Attention-based reasoning for traffic rule compliance p p strong Outputs strong : Reference trajectories waypoints with velocity profiles , discrete actions lane changes, stops p h3 id 4-control-network 4. Control Network h3 p strong Function strong : Executes planned trajectories through precise vehicle control p p strong Architecture strong : PID controllers enhanced with learned gain scheduling; Model Predictive Control MPC with learned dynamics models; Direct end-to-end control networks steering throttle brake prediction ; Residual learning to compensate for model uncertainties p p strong Outputs strong : Low-level commands steering angle, throttle percentage, brake pressure p h3 id 5-safety--verification-layer 5. Safety amp; Verification Layer h3 p strong Function strong : Ensures AI decisions meet safety constraints and override when necessary p p strong Components strong : Learned safety filters using reachability analysis; Rule-based fallback systems for edge cases; Uncertainty-aware decision-making epistemic and aleatoric uncertainty ; Real-time monitoring and anomaly detection; Redundant sensor validation and fault diagnosis p p strong Outputs strong : Safety scores, intervention flags, fail-safe commands p h3 id 6-continuous-learning-pipeline 6. Continuous Learning Pipeline h3 p strong Function strong : Enables the system to improve from real-world deployment data p p strong Components strong : On-vehicle data logging sensor streams, AI decisions, interventions ; Offline reinforcement learning from logged experience; Active learning for identifying informative scenarios; Sim-to-real transfer learning using domain adaptation; Federated learning across vehicle fleet p p strong Outputs strong : Updated model weights, identified edge cases, performance metrics p h2 id sensor-platform Sensor Platform h2 p Our laboratory operates two autonomous vehicle testbeds one at PolyU Main Campus and another at PolyU-Wuxi Research Institute both equipped with production-grade sensor suites for multi-modal AI training and validation. p p The sensor configuration enables comprehensive environmental perception: p table thead tr th Sensor Type th th Brand Model th th Specifications th th AI Application th tr thead tbody tr td LiDAR td td Robosense RS-LiDAR-32 td td 32 channels, 200m range, 360 FOV, 30 vertical FOV, 10-20Hz td td 3D point cloud processing for obstacle detection, semantic segmentation, and occupancy prediction td tr tr td Cameras td td HikRobot Event Camera td td 1280 720 resolution, 120dB HDR, 60fps, global shutter td td Vision-based perception, lane detection, traffic sign recognition, end-to-end driving policy learning td tr tr td GNSS INS td td CHCNav GNSS INS td td Dual-frequency RTK, integrated IMU, cm-level accuracy td td Ground-truth localization for supervised learning, map-based planning, sensor fusion validation td tr tbody table p This sensor fusion architecture provides redundant, complementary data streams that feed our end-to-end AI models, enabling robust perception under diverse weather and lighting conditions. p h2 id ai-driven-autonomous-driving-demonstrations AI-Driven Autonomous Driving Demonstrations h2 h3 id real-world-testing-campus-deployment Real-World Testing: Campus Deployment h3 div style max-width: 850px; margin: 0 auto; border-radius: 15px; overflow: hidden; iframe width 850 height 480 src https: www.youtube.com embed Q0nq1vHeinM frameborder 0 allowfullscreen iframe p style text-align: center; margin-top: 10px; strong End-to-End AI Navigation strong PolyU Campus p div div style max-width: 850px; margin: 0 auto; border-radius: 15px; overflow: hidden; iframe width 850 height 480 src https: www.youtube.com embed xPd1KiWvAK8 frameborder 0 allowfullscreen iframe p style text-align: center; margin-top: 10px; strong Autonomous Operation strong PolyU-Wuxi Research Institute p div h3 id ai-training-pipeline-carla-simulation AI Training Pipeline: CARLA Simulation h3 p Our AI models are pre-trained and validated in high-fidelity simulation environments before real-world deployment. Using CARLA simulator, we generate diverse driving scenarios for imitation learning, reinforcement learning, and domain adaptation research. p div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project Vehicle Carla.gif alt CARLA Simulation style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; p style margin-top: 10px; text-align: center; strong CARLA Simulation Environment strong End-to-End AI Policy Learning p div -- Pedestrian avoidance demonstration -- -- div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project Vehicle EgoVehicle.gif alt Pedestrian Avoidance style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; p style margin-top: 10px; text-align: center; Autonomous Driving with AI-Based Pedestrian Avoidance p div -- h2 id research-team Research Team h2 p strong Principal Investigator: strong br a href https: polyu-taslab.github.io members Wen Weisong.html Dr. Wen Weisong a Assistant Professor, Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University p p strong Core Researchers: strong br a href https: polyu-taslab.github.io members Zhang Ziqi.html Mr. Zhang Ziqi a PhD Student, End-to-End Learning amp; Sensor Fusion br a href https: polyu-taslab.github.io members Huang Feng.html Dr. Huang Feng a Postdoctoral Researcher, Navigation amp; Localization p hr p strong Research Focus: strong End-to-End Deep Learning, Vision-Language Navigation, Multi-Modal Sensor Fusion, Sim-to-Real Transfer, Safe Reinforcement Learning, Imitation Learning, World Models for Autonomous Driving p">
-        Our cutting-edge research platforms for end-to-end AI self-driving, where neural networks learn to drive directly from sensor data to control outputs.
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-
-    <div class="post-excerpt-text">
-      <a href="/preview/pr-/2023/10/15/Vehicle-infrastructure_Collaboration_for_Connected_Unmanned_Ground_and_Aerial_Vehicles_in_Complex_Urban_Canyons.html">Vehicle-infrastructure Collaboration for Connected Unmanned Ground and Aerial Vehicles in Complex Urban Canyons</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>October 15, 2023</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-  <div class="tags" data-link="/preview/pr-/blog">
-    
-      <a href="blog?search=%22tag:%20unmanned%22" class="tag" data-tooltip='Show items with the tag "unmanned"'>
-        unmanned
-      </a>
-    
-      <a href="blog?search=%22tag:%20ground%22" class="tag" data-tooltip='Show items with the tag "ground"'>
-        ground
-      </a>
-    
-      <a href="blog?search=%22tag:%20vehicle%22" class="tag" data-tooltip='Show items with the tag "vehicle"'>
-        vehicle
-      </a>
-    
-      <a href="blog?search=%22tag:%20aerial%22" class="tag" data-tooltip='Show items with the tag "aerial"'>
-        aerial
-      </a>
-    
-      <a href="blog?search=%22tag:%20cooperation%22" class="tag" data-tooltip='Show items with the tag "cooperation"'>
-        cooperation
-      </a>
-    
-      <a href="blog?search=%22tag:%20urban%22" class="tag" data-tooltip='Show items with the tag "urban"'>
-        urban
-      </a>
-    
-      <a href="blog?search=%22tag:%20canyons%22" class="tag" data-tooltip='Show items with the tag "canyons"'>
-        canyons
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="p PolyU UGC p h2 id funding-body Funding Body h2 p PolyU UGC p div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project huawei mapping.gif alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div">
-        PolyU (UGC)
-
-      </p>
-    </div>
-  </div>
-</div>
+<script>
+  document.addEventListener("click", function (event) {
+    var button = event.target.closest(".video-lite");
+    if (!button) return;
+    var frame = document.createElement("iframe");
+    frame.src = button.dataset.src;
+    frame.title = button.getAttribute("aria-label");
+    frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+    frame.allowFullscreen = true;
+    button.replaceWith(frame);
+  });
+</script>
   </section>
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/preview/pr-/preview/pr-/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -925,25 +1176,25 @@ This research is supported by government and industry partners, including the <b
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -955,10 +1206,10 @@ This research is supported by government and industry partners, including the <b
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -970,10 +1221,10 @@ This research is supported by government and industry partners, including the <b
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -985,10 +1236,10 @@ This research is supported by government and industry partners, including the <b
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1000,24 +1251,14 @@ This research is supported by government and industry partners, including the <b
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

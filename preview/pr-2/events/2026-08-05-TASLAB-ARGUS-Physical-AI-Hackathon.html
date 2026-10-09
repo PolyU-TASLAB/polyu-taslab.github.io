@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>TASLAB Students Win Championship at Hong Kong's Inaugural Physical AI Hackathon OneRobotics Track | TAS LAB</title>
 
-<link rel="icon" href="/preview/pr-/images/icon.png">
+<link rel="icon" href="/preview/pr-/images/icon.jpg">
 
 <meta name="title" content="TASLAB Students Win Championship at Hong Kong's Inaugural Physical AI Hackathon OneRobotics Track">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -74,7 +73,7 @@
     "headline": "TASLAB Students Win Championship at Hong Kong's Inaugural Physical AI Hackathon OneRobotics Track",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.jpg" }
     },
     "url": "/preview/pr-"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="/preview/pr-/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/preview/pr-/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/preview/pr-/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-/_styles/components.css" rel="stylesheet">
   
 
   
@@ -311,18 +311,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/preview/pr-/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/preview/pr-/" class="home">
+<header class="site-header">
+  <a href="/preview/pr-/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -386,49 +383,51 @@
     
     
       
-        <a href="/preview/pr-/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/preview/pr-/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/preview/pr-/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/preview/pr-/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/preview/pr-/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/preview/pr-/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/preview/pr-/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/preview/pr-/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/preview/pr-/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/preview/pr-/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -472,7 +471,7 @@
   <!-- 
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
+      <span>October 09, 2026</span>
     </span>
    -->
 </div>
@@ -502,38 +501,43 @@
 -->
 
 
-<h2 id="taslab-students-win-championship-at-hong-kongs-inaugural-physical-ai-hackathon-onerobotics-track">TASLAB Students Win Championship at Hong Kong’s Inaugural Physical AI Hackathon OneRobotics Track</h2>
+<div class="post-body">
+<p>Four PhD students from the Trustworthy AI and Autonomous Systems Laboratory (TASLAB) at The Hong Kong Polytechnic University (PolyU), Xu Ruijie, Feng Yu, Xiao Naigui and Wang Xin, won the championship of the OneRobotics “Third Hand” Track at Hong Kong’s inaugural Physical AI Hackathon. The 48-hour competition concluded on 5 August 2026 at the Charles K. Kao Auditorium in Hong Kong Science Park.</p>
 
-<p>Four PhD students from the Trustworthy AI and Autonomous Systems Laboratory (TASLAB) at The Hong Kong Polytechnic University (PolyU) - XU Ruijie, Feng Yu, Xiao Naigui, and Wang Xin - won the championship of the OneRobotics “Third Hand” Track at Hong Kong’s inaugural Physical AI Hackathon. The 48-hour competition culminated on August 5, 2026, at the Charles K. Kao Auditorium in Hong Kong Science Park.</p>
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="/preview/pr-/images/news/20260805_physical_ai_hackathon/argus_team_award.jpg" alt="TASLAB PhD students at Hong Kong's inaugural Physical AI Hackathon" style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">TASLAB members and fellow participants celebrate winning the OneRobotics Track championship.</p>
+<div class="news-photos" data-cols="1">
+  <figure><img src="/preview/pr-/images/news/20260805_physical_ai_hackathon/argus_team_award.jpg" alt="TASLAB PhD students on stage as OneRobotics Track winners at Hong Kong's inaugural Physical AI Hackathon"></figure>
 </div>
+<p class="news-caption">TASLAB members and fellow participants celebrate winning the OneRobotics Track championship.</p>
 
-<p>During the hackathon, the team developed ARGUS, an embodied AI portrait photography system designed to serve as an autonomous “third hand” for group photography. The project addresses a familiar problem: when friends or family members want to take a group photo, someone is often left behind the camera, while conventional selfies restrict framing, distance, and posing. ARGUS turns a camera-equipped robotic arm into an AI photographer that can perceive its subjects, search for suitable viewpoints, provide real-time direction, and select the best final portraits.</p>
+<h3 id="argus-an-ai-third-hand-for-group-photos">ARGUS: an AI “third hand” for group photos</h3>
 
-<p>Users begin a photography session simply by waving at the camera. MMPose-based perception detects the gesture, tracks participating subjects, and establishes a stable composition target. The robotic arm then explores a safety-constrained set of viewpoints and uses visual feedback to refine the framing. A Qwen3.5-Omni real-time model provides concise voice guidance, such as asking a subject to move slightly or adjust an expression. When pose, eye state, sharpness, exposure, and framing meet the required conditions, the system activates the shutter. It subsequently evaluates the candidate images for visual quality and viewpoint diversity and presents a final Top 3 selection.</p>
+<p>During the hackathon, the team developed ARGUS, an embodied AI portrait photography system designed to serve as an autonomous “third hand” for group photography. The project addresses a familiar problem: when friends or family members want to take a group photo, someone is often left behind the camera, while conventional selfies restrict framing, distance and posing. ARGUS turns a camera-equipped robotic arm into an AI photographer that can perceive its subjects, search for suitable viewpoints, give real-time directions and select the best final portraits.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="/preview/pr-/images/news/20260805_physical_ai_hackathon/argus_robot_demo.jpg" alt="A portrait selected and evaluated by the ARGUS photography system" style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">An example portrait selected and evaluated by ARGUS based on composition, expression, and image quality.</p>
+<p>Users start a photography session simply by waving at the camera. MMPose-based perception detects the gesture, tracks the participating subjects and establishes a stable composition target. The robotic arm then explores a safety-constrained set of viewpoints and uses visual feedback to refine the framing. A Qwen3.5-Omni real-time model provides concise voice guidance, such as asking a subject to move slightly or adjust an expression. When pose, eye state, sharpness, exposure and framing meet the required conditions, the system triggers the shutter. It then evaluates the candidate images for visual quality and viewpoint diversity and presents a final Top 3 selection.</p>
+
+<div class="news-photos" data-cols="1">
+  <figure><img src="/preview/pr-/images/news/20260805_physical_ai_hackathon/argus_robot_demo.jpg" alt="A portrait selected and evaluated by the ARGUS photography system"></figure>
 </div>
+<p class="news-caption">An example portrait selected and evaluated by ARGUS based on composition, expression and image quality.</p>
 
 <p><a href="https://github.com/RuijieXu0408/Opt-in-Hackthon/blob/feat/director-realtime-integration/docs/assets/argus-demo.mp4">Watch the 58-second ARGUS real-world demonstration.</a></p>
 
-<p>Rather than allowing a large model to generate robot joint commands directly, the team separated semantic decision-making, geometric control, and hardware safety. The AI director selects only from executable photography actions supplied by the system, while image-based visual servoing, MoveIt, and predefined trajectories manage physical motion within constrained operating conditions. The system observes the scene again after each movement, creating a closed loop from perception and composition to guidance, capture, and final image curation. This layered architecture enabled the team to turn its concept into a working physical prototype within 48 hours.</p>
+<p>Rather than letting a large model generate robot joint commands directly, the team separated semantic decision-making, geometric control and hardware safety. The AI director chooses only from executable photography actions supplied by the system, while image-based visual servoing, MoveIt and predefined trajectories handle physical motion within constrained operating conditions. The system observes the scene again after each movement, creating a closed loop from perception and composition to guidance, capture and final image curation. This layered architecture enabled the team to turn its concept into a working physical prototype within 48 hours.</p>
 
-<p>The hackathon was initiated by Brizan Ventures together with portfolio companies including SpacemiT and alloop.ai. Following 45 days of global recruitment, seven Meet-Ups, more than 1,000 registrations, and over 300 interviews, the event brought together more than 150 participants in over 40 teams from Hong Kong, the Greater Bay Area, and overseas universities. Twelve teams advanced to the final competition for the overall MVP award, with projects assessed on technical innovation, product value, implementation potential, and team performance. The accompanying Physical AI Carnival also connected participating teams with technology companies, investors, researchers, and members of the public.</p>
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="/preview/pr-/images/news/20260805_physical_ai_hackathon/argus_award_ceremony.jpg" alt="The ARGUS team demonstrating its robotic portrait photography system" style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">The ARGUS team demonstrates its robotic portrait photography system at the Physical AI Hackathon.</p>
+<div class="news-photos" data-cols="1">
+  <figure><img src="/preview/pr-/images/news/20260805_physical_ai_hackathon/argus_award_ceremony.jpg" alt="The ARGUS team demonstrating its robotic portrait photography system"></figure>
 </div>
+<p class="news-caption">The ARGUS team demonstrates its robotic portrait photography system at the Physical AI Hackathon.</p>
 
-<p>The team’s achievement demonstrates how advances in multimodal AI, visual perception, robot control, and human-robot interaction can be integrated into a system that acts in the physical world. It also reflects TASLAB’s continuing exploration of trustworthy AI and autonomous systems, with an emphasis on connecting intelligent decision-making to safe, observable, and practically meaningful physical actions.</p>
+<h3 id="about-the-hackathon">About the hackathon</h3>
+
+<p>The hackathon was initiated by Brizan Ventures together with portfolio companies including SpacemiT and alloop.ai. Following 45 days of global recruitment, seven Meet-Ups, more than 1,000 registrations and over 300 interviews, the event brought together more than 150 participants in over 40 teams from Hong Kong, the Greater Bay Area and overseas universities. Twelve teams advanced to the final competition for the overall MVP award, with projects assessed on technical innovation, product value, implementation potential and team performance. The accompanying Physical AI Carnival also connected participating teams with technology companies, investors, researchers and members of the public.</p>
+
+<p>The team’s achievement shows how advances in multimodal AI, visual perception, robot control and human-robot interaction can be integrated into a system that acts in the physical world. It also reflects TASLAB’s continuing exploration of trustworthy AI and autonomous systems, with an emphasis on connecting intelligent decision-making to safe, observable and practically meaningful physical actions.</p>
 
 <p>The ARGUS source code is publicly available on <a href="https://github.com/RuijieXu0408/Opt-in-Hackthon/tree/feat/director-realtime-integration">GitHub</a>.</p>
+
+</div>
   </section>
 
   
@@ -570,21 +574,17 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/preview/pr-/preview/pr-/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -596,25 +596,25 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -626,10 +626,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -641,10 +641,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -656,10 +656,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -671,24 +671,14 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

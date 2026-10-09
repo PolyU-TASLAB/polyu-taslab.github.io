@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -39,21 +38,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>1st Research Workshop of Safety of AI-Driven Autonomous Systems:From Intelligent Connected Vehicles to the Low-Altitude Economy | TAS LAB</title>
+<title>1st Research Workshop of Safety of AI-Driven Autonomous Systems: From Intelligent Connected Vehicles to the Low-Altitude Economy | TAS LAB</title>
 
-<link rel="icon" href="/preview/pr-/images/icon.png">
+<link rel="icon" href="/preview/pr-/images/icon.jpg">
 
-<meta name="title" content="1st Research Workshop of Safety of AI-Driven Autonomous Systems:From Intelligent Connected Vehicles to the Low-Altitude Economy">
+<meta name="title" content="1st Research Workshop of Safety of AI-Driven Autonomous Systems: From Intelligent Connected Vehicles to the Low-Altitude Economy">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 
-<meta property="og:title" content="1st Research Workshop of Safety of AI-Driven Autonomous Systems:From Intelligent Connected Vehicles to the Low-Altitude Economy">
+<meta property="og:title" content="1st Research Workshop of Safety of AI-Driven Autonomous Systems: From Intelligent Connected Vehicles to the Low-Altitude Economy">
 <meta property="og:site_title" content="TAS LAB">
 <meta property="og:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="og:url" content="/preview/pr-">
 <meta property="og:image" content="/preview/pr-/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="1st Research Workshop of Safety of AI-Driven Autonomous Systems:From Intelligent Connected Vehicles to the Low-Altitude Economy">
+<meta property="twitter:title" content="1st Research Workshop of Safety of AI-Driven Autonomous Systems: From Intelligent Connected Vehicles to the Low-Altitude Economy">
 <meta property="twitter:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="twitter:url" content="/preview/pr-">
 <meta property="twitter:card" content="summary_large_image">
@@ -69,12 +68,12 @@
     
       "@type": "WebSite",
     
-    "name": "1st Research Workshop of Safety of AI-Driven Autonomous Systems:From Intelligent Connected Vehicles to the Low-Altitude Economy",
+    "name": "1st Research Workshop of Safety of AI-Driven Autonomous Systems: From Intelligent Connected Vehicles to the Low-Altitude Economy",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
-    "headline": "1st Research Workshop of Safety of AI-Driven Autonomous Systems:From Intelligent Connected Vehicles to the Low-Altitude Economy",
+    "headline": "1st Research Workshop of Safety of AI-Driven Autonomous Systems: From Intelligent Connected Vehicles to the Low-Altitude Economy",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.jpg" }
     },
     "url": "/preview/pr-"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="/preview/pr-/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/preview/pr-/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/preview/pr-/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-/_styles/components.css" rel="stylesheet">
   
 
   
@@ -311,18 +311,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/preview/pr-/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/preview/pr-/" class="home">
+<header class="site-header">
+  <a href="/preview/pr-/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -386,49 +383,51 @@
     
     
       
-        <a href="/preview/pr-/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/preview/pr-/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/preview/pr-/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/preview/pr-/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/preview/pr-/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/preview/pr-/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/preview/pr-/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/preview/pr-/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/preview/pr-/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/preview/pr-/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -454,7 +453,7 @@
 -->
 
 
-<h1 class="center">1st Research Workshop of Safety of AI-Driven Autonomous Systems:From Intelligent Connected Vehicles to the Low-Altitude Economy</h1>
+<h1 class="center">1st Research Workshop of Safety of AI-Driven Autonomous Systems: From Intelligent Connected Vehicles to the Low-Altitude Economy</h1>
 
 <div class="post-info">
   
@@ -472,7 +471,7 @@
   <!-- 
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
+      <span>October 09, 2026</span>
     </span>
    -->
 </div>
@@ -502,18 +501,19 @@
 -->
 
 
-<h2 id="1st-research-workshop-of-safety-of-ai-driven-autonomous-systems-from-intelligent-connected-vehicles-to-the-low-altitude-economy">1st Research Workshop of Safety of AI-Driven Autonomous Systems: From Intelligent Connected Vehicles to the Low-Altitude Economy</h2>
+<div class="post-body">
+<p>On 6 May 2026, Prof. WEN attended the 1st Research Workshop of Safety of AI-Driven Autonomous Systems: From Intelligent Connected Vehicles to the Low-Altitude Economy, held at CPD-2.58, Mok Sau King Lecture Hall, HKU. At the workshop, Prof. WEN introduced the recent research progress of the Trustworthy AI and Autonomous Systems Laboratory (TASLAB) on GNSS/SLAM localization, multi-sensor fusion and urban autonomous navigation.</p>
 
-<p>Prof. WEN attended the 1st Research Workshop of Safety of AI-Driven Autonomous Systems: From Intelligent Connected Vehicles to the Low-Altitude Economy, held on May 6, 2026 at CPD-2.58, Mok Sau King Lecture Hall, HKU. During the workshop, Prof. WEN introduced our recent research progress on GNSS/SLAM localization, multi-sensor fusion, and urban autonomous navigation. The presentation highlighted our efforts in developing robust localization and perception technologies for intelligent autonomous systems operating in complex urban environments, and promoted future collaboration in safe AI-driven mobility and low-altitude autonomy.</p>
+<div class="news-photos" data-cols="2">
+  <figure><img src="/preview/pr-/images/news/20260506_hkuworkshop/1.jpg" alt="Workshop at the Mok Sau King Lecture Hall, HKU"></figure>
+  <figure><img src="/preview/pr-/images/news/20260506_hkuworkshop/2.jpg" alt="Prof. Wen presenting at the workshop"></figure>
+  <figure><img src="/preview/pr-/images/news/20260506_hkuworkshop/3.jpg" alt="Workshop session at HKU"></figure>
+  <figure><img src="/preview/pr-/images/news/20260506_hkuworkshop/4.jpg" alt="Workshop participants at HKU"></figure>
+</div>
+<p class="news-caption">The workshop at the Mok Sau King Lecture Hall, HKU.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/20260506_hkuworkshop/2.jpg" alt="Workshop Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-</div>
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/20260506_hkuworkshop/3.jpg" alt="Workshop Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-</div>
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/20260506_hkuworkshop/4.jpg" alt="Workshop Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<p>The presentation highlighted TASLAB’s efforts in developing robust localization and perception technologies for intelligent autonomous systems operating in complex urban environments, and promoted future collaboration in safe AI-driven mobility and low-altitude autonomy.</p>
+
 </div>
   </section>
 
@@ -534,7 +534,7 @@
     
       <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
       <a href="/preview/pr-/events/2026-04-21-CEO_CLUB.html">
-        Quadruped Robot Showcase by TAS Members at the Inauguration of the 10th Executive Committee of the PolyU CEO Club
+        Quadruped Robot Showcase by TASLAB Members at the Inauguration of the 10th Executive Committee of the PolyU CEO Club
       </a>
     
   </span>
@@ -551,21 +551,17 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/preview/pr-/preview/pr-/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -577,25 +573,25 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -607,10 +603,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -622,10 +618,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -637,10 +633,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -652,24 +648,14 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

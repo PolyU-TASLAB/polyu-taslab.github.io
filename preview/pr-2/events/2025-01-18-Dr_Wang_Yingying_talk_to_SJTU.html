@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>Dr. WANG Yingying gave a talk at Shanghai Jiaotong University on 18th January | TAS LAB</title>
 
-<link rel="icon" href="/preview/pr-/images/icon.png">
+<link rel="icon" href="/preview/pr-/images/icon.jpg">
 
 <meta name="title" content="Dr. WANG Yingying gave a talk at Shanghai Jiaotong University on 18th January">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -74,7 +73,7 @@
     "headline": "Dr. WANG Yingying gave a talk at Shanghai Jiaotong University on 18th January",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.jpg" }
     },
     "url": "/preview/pr-"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="/preview/pr-/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/preview/pr-/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/preview/pr-/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-/_styles/components.css" rel="stylesheet">
   
 
   
@@ -311,18 +311,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/preview/pr-/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/preview/pr-/" class="home">
+<header class="site-header">
+  <a href="/preview/pr-/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -386,49 +383,51 @@
     
     
       
-        <a href="/preview/pr-/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/preview/pr-/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/preview/pr-/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/preview/pr-/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/preview/pr-/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/preview/pr-/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/preview/pr-/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/preview/pr-/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/preview/pr-/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/preview/pr-/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -448,7 +447,7 @@
 
   <section class="background" data-size="1">
     <!--
-  background: images/news/Dr_Yingying_WANG_SJTU.png;
+  background: images/news/Dr_Yingying_WANG_SJTU.jpg;
   dark: ;
   size: 1;
 -->
@@ -472,7 +471,7 @@
   <!-- 
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
+      <span>October 09, 2026</span>
     </span>
    -->
 </div>
@@ -502,18 +501,25 @@
 -->
 
 
-<p>We are pleased to share that on January 18, 2025, our postdoc fellow WANG, Yingying, representing the TAS LAB, gave a talk at Shanghai Jiaotong University invited by the Institute for Sensing and Navigation. She shared non-intrusive pedestrian indoor localization research from the perspective of IMU and WiFi, especially the academic indoor pedestrian localization research in TAS LAB.</p>
+<div class="post-body">
+<p>On 18 January 2025, our postdoctoral fellow Dr. WANG Yingying, representing the Trustworthy AI and Autonomous Systems Laboratory (TASLAB), gave a talk at Shanghai Jiaotong University at the invitation of the Institute for Sensing and Navigation. She presented research on non-intrusive indoor pedestrian localization from the perspective of IMU and WiFi, with a focus on the indoor pedestrian localization research carried out at TASLAB.</p>
 
-<h2 id="non-intrusive-pedestrian-indoor-localization-from-the-perspective-of-imu--wifi">Non-intrusive Pedestrian Indoor Localization, From the perspective of IMU &amp; WiFi</h2>
-
-<p>Low-cost, unobtrusive, and non-intrusive sensing for indoor pedestrian localization has been a research hotspot for decades. However, there is still no universal indoor localization solution that can be employed effectively without dedicated hardware. The high research interest in smartphone-based indoor localization is driven by the proliferation of embedded sensors, which provide an array of candidates that can be utilized in indoor localization. This talk will focus on two non-intrusive sensing modalities, inertial measurement unit and WiFi received signal strength indicator (RSSI). How deep learning techniques can improve the localization accuracy and robustness of these two localization modalities is illustrated.</p>
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Dr_Yingying_WANG_SJTU_group_photo.png" alt="Team Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="/preview/pr-/images/news/Dr_Yingying_WANG_SJTU_group_photo.jpg" alt="Group photo of Dr. WANG Yingying at Shanghai Jiaotong University"></figure>
 </div>
+<p class="news-caption">Group photo at Shanghai Jiaotong University.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Dr_Yingying_WANG_SJTU.png" alt="Team Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<h3 id="non-intrusive-pedestrian-indoor-localization-from-the-perspective-of-imu--wifi">Non-intrusive Pedestrian Indoor Localization: From the Perspective of IMU &amp; WiFi</h3>
+
+<p>Low-cost, unobtrusive and non-intrusive sensing for indoor pedestrian localization has been a research hotspot for decades. However, there is still no universal indoor localization solution that works effectively without dedicated hardware. The strong research interest in smartphone-based indoor localization is driven by the spread of embedded sensors, which offer many candidates for indoor localization.</p>
+
+<p>The talk focused on two non-intrusive sensing modalities: the inertial measurement unit (IMU) and the WiFi received signal strength indicator (RSSI). It illustrated how deep learning techniques can improve the localization accuracy and robustness of both modalities.</p>
+
+<div class="news-photos" data-cols="1">
+  <figure><img src="/preview/pr-/images/news/Dr_Yingying_WANG_SJTU.jpg" alt="Poster of Dr. WANG Yingying's talk at Shanghai Jiaotong University"></figure>
+</div>
+<p class="news-caption">Poster of the talk at Shanghai Jiaotong University.</p>
+
 </div>
   </section>
 
@@ -534,7 +540,7 @@
     
       <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
       <a href="/preview/pr-/events/2025-01-10-Yang_peiwen_talk_to_HKPC.html">
-        Our PhD student Peiwen Yang Gave a Speech at HKPC on 10th Jan 2025
+        Our PhD Student Peiwen Yang Gave a Speech at HKPC on 10 January 2025
       </a>
     
   </span>
@@ -551,21 +557,17 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/preview/pr-/preview/pr-/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -577,25 +579,25 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -607,10 +609,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -622,10 +624,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -637,10 +639,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -652,24 +654,14 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

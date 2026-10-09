@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>PolyU Hosts Landmark Low Altitude Economy (LAE) Workshop, Paving the Way for Hong Kong’s Drone Innovation | TAS LAB</title>
 
-<link rel="icon" href="/preview/pr-/images/icon.png">
+<link rel="icon" href="/preview/pr-/images/icon.jpg">
 
 <meta name="title" content="PolyU Hosts Landmark Low Altitude Economy (LAE) Workshop, Paving the Way for Hong Kong’s Drone Innovation">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -74,7 +73,7 @@
     "headline": "PolyU Hosts Landmark Low Altitude Economy (LAE) Workshop, Paving the Way for Hong Kong’s Drone Innovation",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.jpg" }
     },
     "url": "/preview/pr-"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="/preview/pr-/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/preview/pr-/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/preview/pr-/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-/_styles/components.css" rel="stylesheet">
   
 
   
@@ -311,18 +311,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/preview/pr-/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/preview/pr-/" class="home">
+<header class="site-header">
+  <a href="/preview/pr-/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -386,49 +383,51 @@
     
     
       
-        <a href="/preview/pr-/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/preview/pr-/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/preview/pr-/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/preview/pr-/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/preview/pr-/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/preview/pr-/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/preview/pr-/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/preview/pr-/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/preview/pr-/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/preview/pr-/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -472,7 +471,7 @@
   <!-- 
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
+      <span>October 09, 2026</span>
     </span>
    -->
 </div>
@@ -502,68 +501,79 @@
 -->
 
 
-<h2 id="polyu-hosts-landmark-low-altitude-economy-lae-workshop-paving-the-way-for-hong-kongs-drone-innovation">PolyU Hosts Landmark Low Altitude Economy (LAE) Workshop, Paving the Way for Hong Kong’s Drone Innovation</h2>
+<div class="post-body">
+<p>On 2 July 2025, The Hong Kong Polytechnic University (PolyU) brought together industry leaders, researchers and policymakers in Hong Kong for an LAE Sandbox Workshop and Public Seminar. The event spotlighted Hong Kong’s ambition to become a hub for drone technology and the development of the low-altitude economy (LAE).</p>
 
-<p><em>Hong Kong, 2 July 2025</em> – The Hong Kong Polytechnic University (PolyU) convened industry leaders, researchers, and policymakers for a pivotal LAE Sandbox Workshop and Public Seminar, spotlighting Hong Kong’s ambitions to become a hub for drone technology and low-altitude economic development.</p>
-
-<h2 id="key-discussions--outcomes">Key Discussions &amp; Outcomes</h2>
-<h3 id="1-sandbox-progress--challenges">1.	Sandbox Progress &amp; Challenges:</h3>
-<p>o	38 projects are currently under Hong Kong’s LAE Sandbox Regulation, though only several flight performances have been fully implemented.</p>
-
-<p>o	Regulatory hurdles: Delays in AOP (Advance Operation Permit) approvals and cross-border policy misalignment (e.g., differing drone definitions, customs rules) were highlighted as critical barriers.</p>
-
-<p>o	Collaborative solutions: Proposals included redefining logistics drones as “flying trucks” for smoother customs clearance (inspired by DJI) and prioritizing “from suburbs to cities, goods to people” for phased regulation.</p>
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <figure>
-    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0702LAEWorkshop/Wen.jpg" alt="PolyU Assistant Professor Wen Weisong introducing the sandbox project in collaboration with SUTPC, HKBN, and Gleneagles Hospital." style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-    <figcaption style="font-weight: bold; margin-top: 10px;">
-      PolyU Assistant Professor Wen Weisong introducing the sandbox project in collaboration with SUTPC, HKBN, and Gleneagles Hospital.
-    </figcaption>
-  </figure>
+<div class="news-photos" data-cols="1">
+  <figure><img src="/preview/pr-/images/news/0702LAEWorkshop/GroupPic.jpg" alt="Group photo of the LAE Sandbox Workshop participants"></figure>
 </div>
+<p class="news-caption">Participants of the LAE Sandbox Workshop and Public Seminar.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <figure>
-    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0702LAEWorkshop/SUTPC.jpg" alt="Mr. Xue Cheng from SUTPC presenting sandbox implementation strategies and related business opportunities." style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-    <figcaption style="font-weight: bold; margin-top: 10px;">
-      Mr. Xue Cheng from SUTPC presenting sandbox implementation strategies and related business opportunities.
-    </figcaption>
-  </figure>
+<h3 id="sandbox-progress-and-challenges">Sandbox progress and challenges</h3>
+
+<ul>
+  <li>
+<strong>Progress:</strong> 38 projects are currently under Hong Kong’s LAE Sandbox Regulation, though only several flight performances have been fully implemented.</li>
+  <li>
+<strong>Regulatory hurdles:</strong> Delays in AOP (Advance Operation Permit) approvals and cross-border policy misalignment (e.g. differing drone definitions and customs rules) were highlighted as critical barriers.</li>
+  <li>
+<strong>Collaborative solutions:</strong> Proposals included redefining logistics drones as “flying trucks” for smoother customs clearance (inspired by DJI) and prioritising “from suburbs to cities, goods to people” for phased regulation.</li>
+</ul>
+
+<div class="news-photos" data-cols="2" data-ratio="wide">
+  <figure><img src="/preview/pr-/images/news/0702LAEWorkshop/Wen.jpg" alt="Assistant Professor Weisong Wen presenting the sandbox project"><figcaption>PolyU Assistant Professor Weisong Wen introducing the sandbox project in collaboration with SUTPC, HKBN and Gleneagles Hospital</figcaption></figure>
+  <figure><img src="/preview/pr-/images/news/0702LAEWorkshop/SUTPC.jpg" alt="Mr. Cheng Xue from SUTPC presenting"><figcaption>Mr. Cheng Xue from SUTPC presenting sandbox implementation strategies and related business opportunities</figcaption></figure>
 </div>
+<p class="news-caption">Sandbox project presentations at the workshop.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <figure>
-    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0702LAEWorkshop/Part.png" alt="SWorkshop Participants(Upper Left: AEROFUGIA ;Upper Middle: Beijing Racobit Electronic Information Technology Co. ;Upper Right: Zero Gravity Aircraft ;Bottom Left: Phoenix Wings ;Bottom Middle: Gaode Map ;Bottom Right: ASTRI ;)  Sharing Practices And Insights Of The LAE Future." style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-    <figcaption style="font-weight: bold; margin-top: 10px;">
-      SWorkshop Participants(Upper Left: AEROFUGIA ;Upper Middle: Beijing Racobit Electronic Information Technology Co. ;Upper Right: Zero Gravity Aircraft ;Bottom Left: Phoenix Wings ;Bottom Middle: Gaode Map ;Bottom Right: ASTRI ;)  Sharing Practices And Insights Of The LAE Future.
-    </figcaption>
-  </figure>
+<h3 id="industry-innovations">Industry innovations</h3>
+
+<ul>
+  <li>
+<strong>SF Express (丰翼):</strong> Revealed plans for <strong>heavy-duty drone (25kg+)</strong> trials by mid-July, building on existing success in blood sample deliveries (7,000+ flights in Shenzhen).</li>
+  <li>
+<strong>Cross-border logistics:</strong> A PolyU-backed project with the <strong>Shenzhen Urban Transport Planning Center (SUTPC)</strong> aims to cut delivery times between Hong Kong and Shenzhen by 80–90%.</li>
+  <li>
+<strong>eVTOL advancements:</strong> Companies such as <strong>Aerofugia</strong> and <strong>Zero Gravity</strong> showcased electric vertical take-off aircraft, targeting 2026 for passenger trials.</li>
+</ul>
+
+<div class="news-photos" data-cols="1">
+  <figure><img src="/preview/pr-/images/news/0702LAEWorkshop/Part.png" alt="Collage of six workshop participants presenting"></figure>
 </div>
+<p class="news-caption">Workshop participants sharing practices and insights on the future of the LAE (upper left: AEROFUGIA; upper middle: Beijing Racobit Electronic Information Technology Co.; upper right: Zero Gravity Aircraft; bottom left: Phoenix Wings; bottom middle: Gaode Map; bottom right: ASTRI).</p>
 
-<h3 id="2-industry-innovations">2.	Industry Innovations:</h3>
-<p>o	<strong>SF Express (丰翼)</strong>: Revealed plans for <strong>heavy-duty drone (25kg+)</strong> trials by mid-July, with existing success in blood sample deliveries (7,000+ flights in Shenzhen).</p>
+<h3 id="public-seminar-highlights">Public seminar highlights</h3>
 
-<p>o	<strong>Cross-border logistics</strong>: A PolyU-backed project with <strong>Shenzhen Urban Transport Planning Center (SUTPC)</strong> aims to slash delivery times by 80–90% between Hong Kong and Shenzhen.</p>
+<ul>
+  <li>
+<strong>Safety and infrastructure:</strong> Experts stressed the need for <strong>vertiports</strong> (22.5–30m in diameter) and anti-drone systems (e.g. radar-based “black drone” detection by Beijing Racobit).</li>
+  <li>
+<strong>Digital integration:</strong> <strong>ASTRI</strong> and <strong>Gaode Map</strong> proposed unified low-altitude traffic management platforms, piloted in Shenzhen’s Longgang District.</li>
+</ul>
 
-<p>o	<strong>eVTOL advancements</strong>: Companies like <strong>Aerofugia</strong> and <strong>Zero Gravity</strong> showcased electric vertical take-off aircraft, targeting 2026 for passenger trials.</p>
+<h3 id="quotable-insights">Quotable insights</h3>
 
-<h3 id="3-public-seminar-highlights">3.	Public Seminar Highlights:</h3>
-<p>o	<strong>Safety &amp; Infrastructure</strong>: Experts stressed the need for <strong>vertiports</strong> (22.5–30m diameter) and anti-drone systems (e.g., radar-based “black drone” detection by Beijing Racobit).</p>
+<ul>
+  <li>
+<strong>Kenny Lau</strong> (CTO, SF Express): <em>“Hong Kong is in the 0-to-1 phase. Scalability hinges on cross-border networks—flying from Tsing Yi to Shenzhen, not just islands.”</em>
+</li>
+  <li>
+<strong>Cheng Xue</strong> (LAE Solution Manager, SUTPC Representative): <em>“Commercial viability must drive sandbox projects. Round 1 lacked market focus; Round 2 needs tighter industry-government synergy.”</em>
+</li>
+</ul>
 
-<p>o	<strong>Digital Integration</strong>: <strong>ASTRI</strong> and <strong>Gaode Map</strong> proposed unified low-altitude traffic management platforms, piloted in Shenzhen’s Longgang District.</p>
+<h3 id="path-forward">Path forward</h3>
 
-<h2 id="quotable-insights">Quotable Insights</h2>
-<p>•	<strong>Kenny Lau (CTO, S.F. Express)</strong>: <em>“Hong Kong is in the 0-to-1 phase. Scalability hinges on cross-border networks—flying from Tsing Yi to Shenzhen, not just islands.”</em></p>
+<ul>
+  <li>
+<strong>Standardised regulations</strong> and faster AOP processing.</li>
+  <li>
+<strong>Public-private pilots</strong>, e.g. medical deliveries to outlying islands (Digital Port to Lamma/Cheung Chau).</li>
+</ul>
 
-<p>•	<strong>Cheng Xue (LAE Solution Manager, SUTPC Representative)</strong>: <em>“Commercial viability must drive sandbox projects. Round 1 lacked market focus; Round 2 needs tighter industry-government synergy.”</em></p>
+<p>Lab visits to PolyU’s FJ005 facility also showcased prototypes such as handheld mapping devices and “all-in-one” navigation systems.</p>
 
-<h2 id="path-forward">Path Forward</h2>
-<p>•	<strong>Standardized regulations</strong> and faster AOP processing.</p>
-
-<p>•	<strong>Public-private pilots</strong>: E.g., medical deliveries to outlying islands (Digital Port to Lamma/Cheung Chau).</p>
-
-<p>•	Lab visits at PolyU’s FJ005 facility showcased prototypes like handheld mapping devices and “all-in-one” navigation systems.</p>
+</div>
   </section>
 
   
@@ -583,7 +593,7 @@
     
       <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
       <a href="/preview/pr-/events/2025-06-30-Landmark_Guangdong_Hong_Kong_LAE_Economy_Industry_Exchange_Conference.html">
-        PolyU Trustworthy Autonomous System Lab Member Attends Landmark Guangdong-Hong Kong Low-Altitude Economy Industry Exchange Conference
+        PolyU TASLAB Member Attends Landmark Guangdong-Hong Kong Low-Altitude Economy Industry Exchange Conference
       </a>
     
   </span>
@@ -591,7 +601,7 @@
     
       Next post <i class="icon fa-solid fa-angle-right"></i><br>
       <a href="/preview/pr-/events/2025-07-03-Nano_Coating_Tech_And_Drone_Solutions_Asia_Visit_PolyU_TAS_Lab.html">
-        Nano_coating_tech_and_drone_solutions_asia_visit_polyu_tas_lab
+        Nano Coating Tech and DRONE SOLUTIONS ASIA Visit PolyU TASLAB to Foster Collaboration in UAV Technology and Nano Tech Application
       </a>
     
   </span>
@@ -600,21 +610,17 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/preview/pr-/preview/pr-/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -626,25 +632,25 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -656,10 +662,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -671,10 +677,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -686,10 +692,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -701,24 +707,14 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

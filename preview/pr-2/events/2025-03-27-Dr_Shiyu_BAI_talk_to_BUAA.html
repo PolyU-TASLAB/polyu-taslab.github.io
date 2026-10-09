@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>Dr. BAI Shiyu delivered a talk at the Satellite Navigation 2025 – International Workshop for Young Scientists, held at Beihang University on March 27 | TAS LAB</title>
 
-<link rel="icon" href="/preview/pr-/images/icon.png">
+<link rel="icon" href="/preview/pr-/images/icon.jpg">
 
 <meta name="title" content="Dr. BAI Shiyu delivered a talk at the Satellite Navigation 2025 – International Workshop for Young Scientists, held at Beihang University on March 27">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -74,7 +73,7 @@
     "headline": "Dr. BAI Shiyu delivered a talk at the Satellite Navigation 2025 – International Workshop for Young Scientists, held at Beihang University on March 27",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.jpg" }
     },
     "url": "/preview/pr-"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="/preview/pr-/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/preview/pr-/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/preview/pr-/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-/_styles/components.css" rel="stylesheet">
   
 
   
@@ -311,18 +311,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/preview/pr-/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/preview/pr-/" class="home">
+<header class="site-header">
+  <a href="/preview/pr-/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -386,49 +383,51 @@
     
     
       
-        <a href="/preview/pr-/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/preview/pr-/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/preview/pr-/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/preview/pr-/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/preview/pr-/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/preview/pr-/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/preview/pr-/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/preview/pr-/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/preview/pr-/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/preview/pr-/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -472,7 +471,7 @@
   <!-- 
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
+      <span>October 09, 2026</span>
     </span>
    -->
 </div>
@@ -502,14 +501,20 @@
 -->
 
 
-<p>We are pleased to share that on March 27, 2025, our postdoctoral fellow, Dr. BAI Shiyu, representing the TAS Lab, delivered a talk at the Satellite Navigation 2025 – International Workshop for Young Scientists, held at Beihang University. He presented on Indoor Semantic Mapping and Localization Method Based On Inertial-Only Perception, highlighting TAS Lab’s research on academic indoor pedestrian localization.</p>
+<div class="post-body">
+<p>On 27 March 2025, Dr. BAI Shiyu, a postdoctoral fellow of the Trustworthy AI and Autonomous Systems Laboratory (TASLAB), represented the lab with a talk at the Satellite Navigation 2025 – International Workshop for Young Scientists, held at Beihang University. His talk, “Indoor Semantic Mapping and Localization Method Based On Inertial-Only Perception”, highlighted TASLAB’s academic research on indoor pedestrian localization.</p>
 
-<h2 id="indoor-semantic-mapping-and-localization-method-based-on-inertial-only-perception">Indoor Semantic Mapping and Localization Method Based On Inertial-Only Perception</h2>
+<div class="news-photos" data-cols="1">
+  <figure><img src="/preview/pr-/images/news/Dr_ShiyuBai_talk_Beihang.jpg" alt="Dr. Shiyu Bai giving a talk at Beihang University"></figure>
+</div>
+<p class="news-caption">Dr. BAI Shiyu presenting at Beihang University.</p>
 
-<p>An inertial measurement unit (IMU) is often used as a small component within an integrated navigation system. In most cases, the IMU serves as an auxiliary tool to enhance the accuracy of external sensors. In other words, the positioning results primarily rely on external sensors. However, if the external sensors fail, the entire navigation system may fail as well, since low-cost IMUs cannot be used independently due to their rapid error drift. In our research, we aim to push the boundaries of IMU-based localization. By leveraging motion features and deep learning techniques, we have developed an indoor semantic mapping and localization method based on inertial-only perception. Additionally, in collaboration with Honor Company, we are exploring smartwatch-based inertial odometry, which is particularly challenging in real-world scenarios due to the vigorous movements associated with human-body motion.</p>
+<h3 id="indoor-semantic-mapping-and-localization-based-on-inertial-only-perception">Indoor semantic mapping and localization based on inertial-only perception</h3>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Dr_ShiyuBai_talk_Beihang.jpg" alt="Team Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<p>An inertial measurement unit (IMU) is often used as a small component within an integrated navigation system. In most cases, the IMU only serves to enhance the accuracy of external sensors, so the positioning results rely mainly on those external sensors. If the external sensors fail, the entire navigation system may fail as well, because low-cost IMUs cannot be used on their own due to their rapid error drift.</p>
+
+<p>TASLAB’s research aims to push the boundaries of IMU-based localization. By leveraging motion features and deep learning techniques, the team has developed an indoor semantic mapping and localization method based on inertial-only perception. In addition, in collaboration with Honor Company, the team is exploring smartwatch-based inertial odometry, which is particularly challenging in real-world scenarios because of the vigorous movements of the human body.</p>
+
 </div>
   </section>
 
@@ -530,7 +535,7 @@
     
       <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
       <a href="/preview/pr-/events/2025-03-24-Visit_by_Secretary_for_Transport_&amp;_Logistics.html">
-        Window Cleaning UAV Indoor Demonstration In the front of Secretary for Transport &amp; Logistics
+        Window Cleaning UAV Indoor Demonstration in Front of the Secretary for Transport &amp; Logistics
       </a>
     
   </span>
@@ -547,21 +552,17 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/preview/pr-/preview/pr-/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -573,25 +574,25 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -603,10 +604,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -618,10 +619,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -633,10 +634,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -648,24 +649,14 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

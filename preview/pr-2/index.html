@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>TAS LAB</title>
 
-<link rel="icon" href="/preview/pr-/images/icon.png">
+<link rel="icon" href="/preview/pr-/images/icon.jpg">
 
 <meta name="title" content="">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -74,7 +73,7 @@
     "headline": "",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.jpg" }
     },
     "url": "/preview/pr-"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="/preview/pr-/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/preview/pr-/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/preview/pr-/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-/_styles/components.css" rel="stylesheet">
   
 
   
@@ -336,6 +336,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -365,18 +367,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/preview/pr-/images/AboutPolyU_Campus9.jpg')" data-dark="true" data-big>
-  <a href="/preview/pr-/" class="home">
+<header class="site-header">
+  <a href="/preview/pr-/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -440,49 +439,51 @@
     
     
       
-        <a href="/preview/pr-/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/preview/pr-/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/preview/pr-/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/preview/pr-/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/preview/pr-/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/preview/pr-/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/preview/pr-/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/preview/pr-/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/preview/pr-/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/preview/pr-/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -500,11 +501,73 @@
   
   
 
-  <section class="background" data-size="0.97em; line-height: 1.65">
-    <h1 id="polyu-tas-labs-website">PolyU TAS LAB’s Website</h1>
+  <section class="background" data-size="page">
+    <div class="home-hero">
+  <div class="hero-main">
+  <div class="hero-copy">
+    <p class="eyebrow">PolyU · Department of Aeronautical and Aviation Engineering</p>
+    <h1>Trustworthy AI and Autonomous Systems Lab</h1>
+    <p class="hero-tagline">Trustworthy autonomy for dense cities: from satellites to embodied robots.</p>
+    <p class="hero-intro">
+      We build the algorithmic foundations of <b class="blue">trustworthy embodied AI</b> — perception, navigation and control
+      that stay safe and reliable in GNSS-challenged urban canyons — and deploy them on <b class="blue">drones</b>,
+      <b class="blue">intelligent vehicles</b> and <b class="blue">legged/humanoid robots</b> together with our industry partners.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="/preview/pr-/research/">Our Research</a>
+      <a class="btn btn-ghost" href="/preview/pr-/publications/">Publications</a>
+      <a class="btn btn-ghost" href="/preview/pr-/openings/">Join Us</a>
+    </div>
+  </div>
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65;">
-The <b class="blue">Trustworthy AI and Autonomous Systems (TAS) Laboratory</b> is at the forefront of pioneering advancements in <b class="blue">autonomous systems</b> (such as UAV and self-driving cars) technology, emphasizing the importance of <b class="blue">safety, reliability, and ethical standards</b>. Our laboratory is home to a diverse group of researchers and engineers who specialize in <b class="blue">artificial intelligence</b>, <b class="blue">robotics</b>, cybersecurity, and human-system interaction. Together, we are committed to developing autonomous systems that inspire confidence and trust among users and stakeholders. Through collaborative efforts with industry partners, academic institutions, and policymakers, our team addresses the complex challenges of integrating autonomous systems into society, ensuring they operate transparently and responsibly.
+  <div class="hero-mosaic" aria-label="Our robots">
+    <a class="hero-tile" href="/preview/pr-/research/drones.html">
+      <img src="/preview/pr-/images/home/hero-drone.jpg" alt="TAS Lab drone in flight" fetchpriority="high">
+      <span>Drones</span>
+    </a>
+    <a class="hero-tile" href="/preview/pr-/research/humanoid.html">
+      <img src="/preview/pr-/images/home/hero-legged.jpg" alt="TAS Lab quadruped robot on the PolyU campus">
+      <span>Legged robots</span>
+    </a>
+    <a class="hero-tile" href="/preview/pr-/research/vehicles.html">
+      <img src="/preview/pr-/images/home/hero-wuxi-car.jpg" alt="Autonomous passenger car at the PolyU-Wuxi Research Institute">
+      <span>Autonomous cars</span>
+    </a>
+    <a class="hero-tile" href="/preview/pr-/research/vehicles.html">
+      <img src="/preview/pr-/images/home/hero-vehicle.jpg" alt="Autonomous logistics vehicle on the PolyU campus">
+      <span>Logistics vehicles</span>
+    </a>
+  </div>
+  </div>
+
+  <ul class="hero-stats" aria-label="Lab highlights">
+    
+    <li>
+      <span class="hero-stat-value">129</span>
+      <span class="hero-stat-label">Papers · 70 journal (51 JCR Q1) · 59 conference</span>
+    </li>
+    
+    <li>
+      <span class="hero-stat-value">3,800+</span>
+      <span class="hero-stat-label">Google Scholar citations · h-index 31</span>
+    </li>
+    
+    <li>
+      <span class="hero-stat-value">30+</span>
+      <span class="hero-stat-label">Members · 15 PhD · 11 MPhil · 3 postdocs</span>
+    </li>
+    
+    <li>
+      <span class="hero-stat-value">5+</span>
+      <span class="hero-stat-label">Industry partners using our technology · 60K+ devices deployed</span>
+    </li>
+    
+    <li>
+      <span class="hero-stat-value">2,600+</span>
+      <span class="hero-stat-label">GitHub stars on our open datasets &amp; code</span>
+    </li>
+    
+  </ul>
 </div>
   </section>
 
@@ -519,110 +582,180 @@ The <b class="blue">Trustworthy AI and Autonomous Systems (TAS) Laboratory</b> i
   size: ;
 -->
 
-<h2 id="research-topics">Research Topics</h2>
+<h2 id="research-directions">Research Directions</h2>
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
-Our research aims to build algorithm foundations for <b class="blue">embodied AI</b> that enable trustworthy perception, navigation, and control of autonomous systems. We develop practical embodied AI-driven autonomous systems — including <b class="blue">drones</b>, <b class="blue">intelligent vehicles</b>, and <b class="blue">legged/humanoid robots</b> — with end-to-end learning and safety certification capabilities, enabling them to perceive, reason, and interact with the physical world safely and reliably for the future society. Our work spans <b class="blue">large AI models</b> for autonomous systems, <b class="blue">foundation models</b> and vision-language-action models for robotic perception and control, <b class="blue">AI-enabled multi-sensor fusion</b>, and software-hardware co-design for efficient embodied AI systems.
+<p class="section-lead">
+  Algorithm foundations for embodied AI with end-to-end learning and safety certification — spanning large AI models,
+  vision-language-action models, AI-enabled multi-sensor fusion and software-hardware co-design.
+</p>
+
+<div class="card-grid research-grid">
+  <a class="tile tile-accent" href="/preview/pr-/research/gnss.html">
+    <span class="tile-label">🛰️ 3D LiDAR Aided GNSS Positioning</span>
+    <p class="tile-desc">AI-driven GNSS positioning (RTK, PPP, PPP-RTK), 3D LiDAR aided NLOS/multipath mitigation and multi-sensor fusion for robust urban navigation.</p>
+  </a>
+  <a class="tile tile-accent" href="/preview/pr-/research/fusion.html">
+    <span class="tile-label">🔒 Safety-Certifiable Multi-Sensor Fusion</span>
+    <p class="tile-desc">Safety-certifiable AI for navigation, LiDAR/camera/IMU/GNSS fusion, integrity monitoring and navigation-control joint optimization.</p>
+  </a>
+  <a class="tile tile-accent" href="/preview/pr-/research/vehicles.html">
+    <span class="tile-label">🚗 End-to-End Autonomous Vehicles</span>
+    <p class="tile-desc">End-to-end learning for self-driving, safety certification for logistics applications and V2X-assisted connected autonomous driving.</p>
+  </a>
+  <a class="tile tile-accent" href="/preview/pr-/research/humanoid.html">
+    <span class="tile-label">🤖 Embodied AI for Legged/Humanoid Robots</span>
+    <p class="tile-desc">Large AI models and vision-language-action models for perception and control, bio-inspired embodied intelligence and multimodal learning.</p>
+  </a>
+  <a class="tile tile-accent" href="/preview/pr-/research/drones.html">
+    <span class="tile-label">🚁 Embodied Drones for City Maintenance</span>
+    <p class="tile-desc">Intelligent drones and UAV swarms, aerial manipulation for urban infrastructure and efficient software-hardware co-design.</p>
+  </a>
+  <a class="tile tile-accent" href="/preview/pr-/research/education.html">
+    <span class="tile-label">🎓 Embodied AI for Robotics Education</span>
+    <p class="tile-desc">AI-powered robotics education platforms, project-based learning with drones and ground robots, and GitHub-based collaborative pedagogy.</p>
+  </a>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<div class="section-head">
+  <h2>Latest Updates</h2>
+  <a class="link-arrow" href="/preview/pr-/news/">All news</a>
 </div>
 
-<style>
-.research-directions {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1em;
-  margin: 1em 0 1.5em 0;
-}
-.rd-card {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 1px 6px rgba(0,0,0,0.07);
-  padding: 1em 1.1em;
-  transition: box-shadow 0.2s, transform 0.2s;
-  text-align: left;
-  border-left: 3.5px solid var(--primary, #0795d9);
-}
-.rd-card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
-  transform: translateY(-2px);
-}
-.rd-card h4 {
-  margin: 0 0 0.4em 0;
-  font-size: 0.95em;
-  font-weight: 600;
-  color: var(--primary, #0795d9);
-  text-align: left;
-  letter-spacing: 0;
-}
-.rd-card p {
-  margin: 0;
-  font-size: 0.88em;
-  color: #444;
-  line-height: 1.55;
-}
-.rd-card-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
-.rd-card-link:hover {
-  text-decoration: none;
-  color: inherit;
-}
-.video-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-  margin: 16px 0 24px 0;
-}
-.video-grid iframe {
-  width: 100%;
-  aspect-ratio: 16/9;
-  height: auto;
-  border-radius: 8px;
-  border: none;
-}
-@media (max-width: 640px) {
-  .video-grid { grid-template-columns: 1fr; }
-}
-</style>
+<ol class="timeline">
+  
+  <li>
+    <span class="timeline-marker" aria-hidden="true"></span>
+    <a class="timeline-body" href="/preview/pr-/events/2026-10-08-Yuanyuan_TASE_Acceptance.html">
+      <span>
+        <time datetime="2026-10-08T00:00:00+00:00">Oct 8, 2026</time>
+        <span class="timeline-title">Paper on Uncertainty-aware Safe Navigation Accepted by IEEE Transactions on Automation Science and Engineering</span>
+      </span>
+      
+      <img class="timeline-thumb" src="/preview/pr-/images/team/zhang_yuanyuan.jpg" alt="" loading="lazy">
+      
+    </a>
+  </li>
+  
+  <li>
+    <span class="timeline-marker" aria-hidden="true"></span>
+    <a class="timeline-body" href="/preview/pr-/events/2026-09-16-Prof_Wen_Faculty_Outstanding_Early_Career_Researcher_Merit_Award.html">
+      <span>
+        <time datetime="2026-09-16T00:00:00+00:00">Sep 16, 2026</time>
+        <span class="timeline-title">Prof. Weisong Wen Receives Merit Award for Outstanding Early Career Researcher in PolyU Faculty Awards 2026</span>
+      </span>
+      
+      <img class="timeline-thumb" src="/preview/pr-/images/team/weisong.jpg" alt="" loading="lazy">
+      
+    </a>
+  </li>
+  
+  <li>
+    <span class="timeline-marker" aria-hidden="true"></span>
+    <a class="timeline-body" href="/preview/pr-/events/2026-09-15-Mammotion_Visit_and_Recruitment_at_PolyU.html">
+      <span>
+        <time datetime="2026-09-15T00:00:00+00:00">Sep 15, 2026</time>
+        <span class="timeline-title">Mammotion Delegation Visits TASLAB and Hosts Recruitment Event at PolyU</span>
+      </span>
+      
+      <img class="timeline-thumb" src="/preview/pr-/images/news/20260915_mammotion_visit/group_photo.jpg" alt="" loading="lazy">
+      
+    </a>
+  </li>
+  
+  <li>
+    <span class="timeline-marker" aria-hidden="true"></span>
+    <a class="timeline-body" href="/preview/pr-/events/2026-09-09-Prof_Wen_Visits_Skysys.html">
+      <span>
+        <time datetime="2026-09-09T00:00:00+00:00">Sep 9, 2026</time>
+        <span class="timeline-title">Prof. Weisong Wen Visits Skysys to Explore UAV-Based Solar Panel Cleaning Collaboration</span>
+      </span>
+      
+      <img class="timeline-thumb" src="/preview/pr-/images/news/20260909_skysys_visit/group_photo.jpg" alt="" loading="lazy">
+      
+    </a>
+  </li>
+  
+  <li>
+    <span class="timeline-marker" aria-hidden="true"></span>
+    <a class="timeline-body" href="/preview/pr-/events/2026-09-01-RoboticsClub_Orintation.html">
+      <span>
+        <time datetime="2026-09-01T00:00:00+00:00">Sep 1, 2026</time>
+        <span class="timeline-title">TASLAB Supports PolyU FENG AI &amp; Robotics Club at Student Orientation 2026</span>
+      </span>
+      
+      <img class="timeline-thumb" src="/preview/pr-/images/news/20260901_RoboticsClub/Group_Photo.jpg" alt="" loading="lazy">
+      
+    </a>
+  </li>
+  
+</ol>
+  </section>
 
-<div class="research-directions">
-  <a href="/preview/pr-/research/gnss" class="rd-card-link">
-  <div class="rd-card">
-    <h4>🛰️ 3D LiDAR Aided GNSS Positioning</h4>
-    <p>AI-driven GNSS positioning (<b class="blue">RTK, PPP, PPP-RTK</b>), 3D LiDAR aided NLOS/multipath mitigation, multi-sensor fusion for robust urban navigation.</p>
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="recognition">Recognition</h2>
+
+<p class="section-lead">Selected honours of the lab and its director.</p>
+
+<div class="card-grid">
+  
+  <div class="tile">
+    <span class="tile-year">2026</span>
+    <h3 class="tile-title">Natural Science First Prize</h3>
+    <p class="tile-desc">China Simulation Federation · Prof. Weisong Wen</p>
   </div>
-  </a>
-  <a href="/preview/pr-/research/fusion" class="rd-card-link">
-  <div class="rd-card">
-    <h4>🔒 Safety-Certifiable Multi-Sensor Fusion</h4>
-    <p>Safety-certifiable AI for autonomous navigation, AI-enabled multi-sensor fusion (<b class="blue">LiDAR/Camera/IMU/GNSS</b>), integrity monitoring and navigation-control joint optimization.</p>
+  
+  <div class="tile">
+    <span class="tile-year">2026</span>
+    <h3 class="tile-title">Merit Award, Outstanding Early Career Researcher</h3>
+    <p class="tile-desc">PolyU Faculty of Engineering · Prof. Weisong Wen</p>
   </div>
-  </a>
-  <a href="/preview/pr-/research/vehicles" class="rd-card-link">
-  <div class="rd-card">
-    <h4>🚗 End-to-End Autonomous Vehicles</h4>
-    <p><b class="blue">End-to-end learning</b> for self-driving, safety certification for logistics applications, <b class="blue">V2X-assisted</b> connected autonomous driving.</p>
+  
+  <div class="tile">
+    <span class="tile-year">2026–</span>
+    <h3 class="tile-title">Associate Editor, IEEE Transactions on Intelligent Vehicles</h3>
+    <p class="tile-desc">Also Associate Editor of IEEE T-VT (2024–) and ICRA/IROS (2025–26)</p>
   </div>
-  </a>
-  <a href="/preview/pr-/research/humanoid" class="rd-card-link">
-  <div class="rd-card">
-    <h4>🤖 Embodied AI for Legged/Humanoid Robotics</h4>
-    <p>Large AI models and <b class="blue">vision-language-action models</b> for robotic perception and control, bio-inspired embodied intelligence, multimodal learning for legged/humanoid robots.</p>
+  
+  <div class="tile">
+    <span class="tile-year">2026</span>
+    <h3 class="tile-title">Champion, OneRobotics Track</h3>
+    <p class="tile-desc">Hong Kong Physical AI Hackathon · TAS Lab students</p>
   </div>
-  </a>
-  <a href="/preview/pr-/research/drones" class="rd-card-link">
-  <div class="rd-card">
-    <h4>🚁 Embodied Drones for City Maintenance</h4>
-    <p>Intelligent drones and <b class="blue">UAV swarm systems</b>, aerial manipulation for urban infrastructure, software-hardware co-design for efficient embodied AI drone systems.</p>
+  
+  <div class="tile">
+    <span class="tile-year">2023–25</span>
+    <h3 class="tile-title">World's Top 2% Most-Cited Scientists</h3>
+    <p class="tile-desc">Stanford University / Elsevier · three consecutive years</p>
   </div>
-  </a>
-  <a href="/preview/pr-/research/education" class="rd-card-link">
-  <div class="rd-card">
-    <h4>🎓 Embodied AI for Robotics Education</h4>
-    <p><b class="blue">AI-powered robotics education</b> platforms, hands-on project-based learning with drones and ground robots, <b class="blue">GitHub-based collaborative learning</b> pedagogy.</p>
+  
+  <div class="tile">
+    <span class="tile-year">2024</span>
+    <h3 class="tile-title">Best Student Paper Award</h3>
+    <p class="tile-desc">ION GNSS+ 2024, Baltimore · Institute of Navigation</p>
   </div>
-  </a>
+  
 </div>
   </section>
 
@@ -640,11 +773,11 @@ Our research aims to build algorithm foundations for <b class="blue">embodied AI
 <h2 id="videos">Videos</h2>
 
 <div class="video-grid">
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114244838299184&bvid=BV1ktZcYdEWD&cid=25777740164&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115156243711653&bvid=BV1fiaqzNEEm&cid=32199149727&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115920244638163&bvid=BV1GPkvBdEw9&cid=35479224564&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114776826971256&bvid=BV1UsgDzeE5J&cid=30968254232&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=116197320362204&bvid=BV1rbPDzgEsT&cid=36567648583&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+  <iframe loading="lazy" title="TAS Lab video 1" src="//player.bilibili.com/player.html?isOutside=true&aid=114244838299184&bvid=BV1ktZcYdEWD&cid=25777740164&p=1&autoplay=0" scrolling="no" frameborder="no" allowfullscreen="true"></iframe>
+  <iframe loading="lazy" title="TAS Lab video 2" src="//player.bilibili.com/player.html?isOutside=true&aid=115156243711653&bvid=BV1fiaqzNEEm&cid=32199149727&p=1&autoplay=0" scrolling="no" frameborder="no" allowfullscreen="true"></iframe>
+  <iframe loading="lazy" title="TAS Lab video 3" src="//player.bilibili.com/player.html?isOutside=true&aid=115920244638163&bvid=BV1GPkvBdEw9&cid=35479224564&p=1&autoplay=0" scrolling="no" frameborder="no" allowfullscreen="true"></iframe>
+  <iframe loading="lazy" title="TAS Lab video 4" src="//player.bilibili.com/player.html?isOutside=true&aid=114776826971256&bvid=BV1UsgDzeE5J&cid=30968254232&p=1&autoplay=0" scrolling="no" frameborder="no" allowfullscreen="true"></iframe>
+  <iframe loading="lazy" title="TAS Lab video 5" src="//player.bilibili.com/player.html?isOutside=true&aid=116197320362204&bvid=BV1rbPDzgEsT&cid=36567648583&p=1&autoplay=0" scrolling="no" frameborder="no" allowfullscreen="true"></iframe>
 </div>
   </section>
 
@@ -659,32 +792,461 @@ Our research aims to build algorithm foundations for <b class="blue">embodied AI
   size: ;
 -->
 
-<h2 id="visitor-map">Visitor Map</h2>
-
-<div style="text-align:center;">
-<div style="display:inline-block; width:66%; max-width:530px;">
-<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=7a0000&w=530&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=ffffff&cmo=288928&cmn=3acc3a&ct=000000"></script>
+<div class="section-head">
+  <h2>Gallery</h2>
+  <a class="link-arrow" href="/preview/pr-/team/#gallery">All photos</a>
 </div>
+
+<p class="section-lead">Life at TAS Lab: our team, competitions, field tests and partner visits.</p>
+
+<div class="lab-gallery lab-gallery-compact">
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/team-lawn.jpg" data-caption="TAS Lab family photo on the PolyU campus">
+    <img src="/preview/pr-/images/gallery/team-lawn-thumb.jpg" alt="TAS Lab family photo on the PolyU campus" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Team</span>TAS Lab family photo on the PolyU campus</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/team-podium.jpg" data-caption="The team with our drones and robots at the PolyU podium">
+    <img src="/preview/pr-/images/gallery/team-podium-thumb.jpg" alt="The team with our drones and robots at the PolyU podium" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Team</span>The team with our drones and robots at the PolyU podium</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/team-campus.jpg" data-caption="Lab members in front of the PolyU campus">
+    <img src="/preview/pr-/images/gallery/team-campus-thumb.jpg" alt="Lab members in front of the PolyU campus" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Team</span>Lab members in front of the PolyU campus</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/hackathon-2026.jpg" data-caption="Champions of the OneRobotics track, HK Physical AI Hackathon (Aug 2026)">
+    <img src="/preview/pr-/images/gallery/hackathon-2026-thumb.jpg" alt="Champions of the OneRobotics track, HK Physical AI Hackathon (Aug 2026)" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Awards</span>Champions of the OneRobotics track, HK Physical AI Hackathon (Aug 2026)</span>
+  </a>
+  
+  <a class="lab-gallery-item" href="/preview/pr-/images/gallery/lab-dinner.jpg" data-caption="Farewell dinner for Dr Runqiu Yang and Dr Jianhao Jiao (May 2026)">
+    <img src="/preview/pr-/images/gallery/lab-dinner-thumb.jpg" alt="Farewell dinner for Dr Runqiu Yang and Dr Jianhao Jiao (May 2026)" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">Team</span>Farewell dinner for Dr Runqiu Yang and Dr Jianhao Jiao (May 2026)</span>
+  </a>
+  
+</div>
+
+<dialog class="lab-lightbox" aria-label="Photo viewer">
+  <button type="button" class="lab-lightbox-close" aria-label="Close">×</button>
+  <img src="" alt="">
+  <p class="lab-lightbox-caption"></p>
+</dialog>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var box = document.querySelector(".lab-lightbox");
+    if (!box || !box.showModal) return;
+    var img = box.querySelector("img");
+    var cap = box.querySelector(".lab-lightbox-caption");
+    document.querySelectorAll(".lab-gallery-item").forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        img.src = a.href;
+        img.alt = a.dataset.caption;
+        cap.textContent = a.dataset.caption;
+        box.showModal();
+      });
+    });
+    box.addEventListener("click", function (e) {
+      if (e.target === box || e.target.classList.contains("lab-lightbox-close")) box.close();
+    });
+  });
+</script>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<div class="section-head">
+  <h2>Funders &amp; Partners</h2>
+  <a class="link-arrow" href="/preview/pr-/team/#advisory-board">Our advisory board</a>
+</div>
+
+<p class="section-lead">
+  With gratitude to the government bodies, industry partners and university units whose support turns our research
+  into impact for Hong Kong and beyond.
+</p>
+
+<div class="partner-groups">
+  
+  <div class="partner-group">
+    <h3 class="partner-group-title">Hong Kong SAR Government</h3>
+    <ul class="partner-grid">
+      
+      <li>
+        <a class="partner-tile" href="https://www.ugc.edu.hk/eng/rgc/" target="_blank" rel="noopener" title="Research Grants Council">
+          
+          <img src="/preview/pr-/images/partners/rgc.jpg" alt="Research Grants Council" loading="lazy">
+          
+          <span class="partner-note">Early Career Scheme · Germany/HK Joint Research (DAAD)</span>
+        </a>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.ugc.edu.hk/" target="_blank" rel="noopener" title="University Grants Committee">
+          
+          <img src="/preview/pr-/images/partners/ugc.jpg" alt="University Grants Committee" loading="lazy">
+          
+          <span class="partner-note">Research Matching Grant Scheme</span>
+        </a>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.itc.gov.hk/" target="_blank" rel="noopener" title="Innovation and Technology Commission">
+          
+          <img src="/preview/pr-/images/partners/itc.jpg" alt="Innovation and Technology Commission" loading="lazy">
+          
+          <span class="partner-note">ITF · PTeC · Research Talent Hub · TSSSU-O</span>
+        </a>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.td.gov.hk/" target="_blank" rel="noopener" title="Transport Department">
+          
+          <img src="/preview/pr-/images/partners/transport-department.jpg" alt="Transport Department" loading="lazy">
+          
+          <span class="partner-note">Smart Traffic Fund</span>
+        </a>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.astri.org/" target="_blank" rel="noopener" title="Hong Kong Applied Science and Technology Research Institute (ASTRI)">
+          
+          <img src="/preview/pr-/images/partners/astri.jpg" alt="Hong Kong Applied Science and Technology Research Institute (ASTRI)" loading="lazy">
+          
+          <span class="partner-note">Roadside &amp; edge system · HD mapping · LEO V2X</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <div class="partner-group">
+    <h3 class="partner-group-title">Mainland China</h3>
+    <ul class="partner-grid">
+      
+      <li>
+        <div class="partner-tile" title="Department of Science and Technology of Guangdong Province">
+          
+          <img src="/preview/pr-/images/partners/guangdong-dst.jpg" alt="Department of Science and Technology of Guangdong Province" loading="lazy">
+          
+          <span class="partner-note">Guangdong DST · Guangdong NSF</span>
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="China Southern Power Grid">
+          
+          <img src="/preview/pr-/images/partners/china-southern-power-grid.jpg" alt="China Southern Power Grid" loading="lazy">
+          
+          <span class="partner-note">Offshore-wind UAV inspection (GD–HK Joint Lab)</span>
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Wuxi Government">
+          
+          <img src="/preview/pr-/images/partners/polyu-wuxi.jpg" alt="Wuxi Government" loading="lazy">
+          
+          <span class="partner-note">ITS &amp; Unmanned Systems Center, PolyU-Wuxi Institute</span>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <div class="partner-group">
+    <h3 class="partner-group-title">Industry Partners</h3>
+    <ul class="partner-grid">
+      
+      <li>
+        <div class="partner-tile" title="Huawei">
+          
+          <img src="/preview/pr-/images/partners/huawei.jpg" alt="Huawei" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Esri China (Hong Kong)">
+          
+          <img src="/preview/pr-/images/partners/esri-china-hk.jpg" alt="Esri China (Hong Kong)" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="HONOR">
+          
+          <img src="/preview/pr-/images/partners/honor.jpg" alt="HONOR" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="COMAC">
+          
+          <img src="/preview/pr-/images/partners/comac.jpg" alt="COMAC" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Meituan">
+          
+          <img src="/preview/pr-/images/partners/meituan.jpg" alt="Meituan" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Tencent">
+          
+          <img src="/preview/pr-/images/partners/tencent.jpg" alt="Tencent" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="LinXAI">
+          
+          <img src="/preview/pr-/images/partners/linxai.jpg" alt="LinXAI" loading="lazy">
+          
+          <span class="partner-note">Joint lab</span>
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Genvict">
+          
+          <img src="/preview/pr-/images/partners/genvict.jpg" alt="Genvict" loading="lazy">
+          
+          <span class="partner-note">Joint lab</span>
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Simple AI">
+          
+          <img src="/preview/pr-/images/partners/simple-ai.jpg" alt="Simple AI" loading="lazy">
+          
+          <span class="partner-note">Joint lab</span>
+        </div>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.sf-express.com/hk/en/" target="_blank" rel="noopener" title="SF Express (Hong Kong)">
+          
+          <img src="/preview/pr-/images/partners/sf-express.jpg" alt="SF Express (Hong Kong)" loading="lazy">
+          
+          <span class="partner-note">Autonomous logistics</span>
+        </a>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.rino.ai/" target="_blank" rel="noopener" title="Rino.ai">
+          
+          <img src="/preview/pr-/images/partners/rino-ai.jpg" alt="Rino.ai" loading="lazy">
+          
+          <span class="partner-note">Autonomous logistics</span>
+        </a>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="CeresRobotics.ai">
+          
+          <img src="/preview/pr-/images/partners/ceresrobotics.jpg" alt="CeresRobotics.ai" loading="lazy">
+          
+          <span class="partner-note">Lab spin-off</span>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <div class="partner-group">
+    <h3 class="partner-group-title">International</h3>
+    <ul class="partner-grid">
+      
+      <li>
+        <a class="partner-tile" href="https://www.daad.de/en/" target="_blank" rel="noopener" title="German Academic Exchange Service (DAAD)">
+          
+          <img src="/preview/pr-/images/partners/daad.jpg" alt="German Academic Exchange Service (DAAD)" loading="lazy">
+          
+          <span class="partner-note">Germany/HK Joint Research Scheme</span>
+        </a>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.uni-hannover.de/en/" target="_blank" rel="noopener" title="Leibniz University Hannover">
+          
+          <img src="/preview/pr-/images/partners/leibniz-hannover.jpg" alt="Leibniz University Hannover" loading="lazy">
+          
+          <span class="partner-note">GNSS–LiDAR research exchange</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <div class="partner-group">
+    <h3 class="partner-group-title">PolyU &amp; Philanthropy</h3>
+    <ul class="partner-grid">
+      
+      <li>
+        <a class="partner-tile" href="https://www.polyu.edu.hk/" target="_blank" rel="noopener" title="The Hong Kong Polytechnic University">
+          
+          <img src="/preview/pr-/images/partners/polyu.jpg" alt="The Hong Kong Polytechnic University" loading="lazy">
+          
+          <span class="partner-note">RCDSE · RIAM · RC-UAS · Carbon Neutrality · FENG</span>
+        </a>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.polyu.edu.hk/aae/" target="_blank" rel="noopener" title="Department of Aeronautical and Aviation Engineering">
+          
+          <img src="/preview/pr-/images/logo/aaelogo.png" alt="Department of Aeronautical and Aviation Engineering" loading="lazy">
+          
+          
+        </a>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Faculty of Engineering">
+          
+          <img src="/preview/pr-/images/logo/feng.png" alt="Faculty of Engineering" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Research Institute for Advanced Manufacturing">
+          
+          <img src="/preview/pr-/images/logo/RIAM_Logo.png" alt="Research Institute for Advanced Manufacturing" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <div class="partner-tile" title="Research Institute for Land and Space">
+          
+          <img src="/preview/pr-/images/logo/RILSlogo.png" alt="Research Institute for Land and Space" loading="lazy">
+          
+          
+        </div>
+      </li>
+      
+      <li>
+        <a class="partner-tile" href="https://www.polyu.edu.hk/scri/" target="_blank" rel="noopener" title="Otto Poon Charitable Foundation Smart Cities Research Institute">
+          
+          <img src="/preview/pr-/images/partners/polyu-scri.jpg" alt="Otto Poon Charitable Foundation Smart Cities Research Institute" loading="lazy">
+          
+          <span class="partner-note">UAV–UGV map update</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="explore">Explore</h2>
+
+<div class="card-grid">
+  <a class="tile" href="/preview/pr-/research/">
+    <span class="tile-label">Research</span>
+    <p class="tile-desc">Six directions from GNSS positioning to humanoid robots, with projects and demos.</p>
+  </a>
+  <a class="tile" href="/preview/pr-/publications/">
+    <span class="tile-label">Publications</span>
+    <p class="tile-desc">Journal and conference papers, searchable by year, topic and author.</p>
+  </a>
+  <a class="tile" href="/preview/pr-/opensource/">
+    <span class="tile-label">Dataset &amp; Code</span>
+    <p class="tile-desc">UrbanNav, GraphGNSSLib, pyrtklib and more — 2,600+ GitHub stars.</p>
+  </a>
+  <a class="tile" href="/preview/pr-/team/">
+    <span class="tile-label">Team</span>
+    <p class="tile-desc">PhD and MPhil students, postdocs, research assistants and alumni.</p>
+  </a>
+  <a class="tile" href="/preview/pr-/news/">
+    <span class="tile-label">News</span>
+    <p class="tile-desc">Awards, visits, competitions, talks and lab events.</p>
+  </a>
+  <a class="tile" href="/preview/pr-/openings/">
+    <span class="tile-label">Openings</span>
+    <p class="tile-desc">PhD, MPhil, postdoc and RA positions — we are recruiting.</p>
+  </a>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<div class="section-head">
+  <h2 id="visitors">Visitors</h2>
+  <a class="link-arrow" href="https://mapmyvisitors.com/web/1c8q0" target="_blank" rel="noopener">Visitors by country</a>
+</div>
+
+<p class="section-lead">Worldwide reach of the TAS Lab site.</p>
+
+<div class="visitor-card">
+  <div>
+    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=7Bj3E_vCgHX_Sg01z-7ADkFbalVMmi3-OhZYtxk-p0k&cl=ffffff&w=a"></script>
+  </div>
 </div>
   </section>
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/preview/pr-/preview/pr-/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -696,25 +1258,25 @@ Our research aims to build algorithm foundations for <b class="blue">embodied AI
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -726,10 +1288,10 @@ Our research aims to build algorithm foundations for <b class="blue">embodied AI
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -741,10 +1303,10 @@ Our research aims to build algorithm foundations for <b class="blue">embodied AI
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -756,10 +1318,10 @@ Our research aims to build algorithm foundations for <b class="blue">embodied AI
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -771,24 +1333,14 @@ Our research aims to build algorithm foundations for <b class="blue">embodied AI
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

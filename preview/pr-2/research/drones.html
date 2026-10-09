@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>Embodied Drones for City Maintenance | TAS LAB</title>
 
-<link rel="icon" href="/preview/pr-/images/icon.png">
+<link rel="icon" href="/preview/pr-/images/icon.jpg">
 
 <meta name="title" content="Embodied Drones for City Maintenance">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -74,7 +73,7 @@
     "headline": "Embodied Drones for City Maintenance",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.jpg" }
     },
     "url": "/preview/pr-"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="/preview/pr-/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/preview/pr-/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/preview/pr-/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-/_styles/components.css" rel="stylesheet">
   
 
   
@@ -312,6 +312,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -341,18 +343,15 @@
 
 
 </head>
-
-  <body>
+<body class="has-banner">
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/preview/pr-/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/preview/pr-/" class="home">
+<header class="site-header">
+  <a href="/preview/pr-/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -416,49 +415,65 @@
     
     
       
-        <a href="/preview/pr-/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/preview/pr-/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/preview/pr-/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/preview/pr-/research/" data-tooltip="Research directions, systems and demos" class="active" aria-current="page">
+        Research
+      </a>
     
       
-        <a href="/preview/pr-/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/preview/pr-/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/preview/pr-/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/preview/pr-/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/preview/pr-/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/preview/pr-/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    <div class="page-banner" style="--banner: url('/preview/pr-/images/home/banner-campus.jpg')">
+  <div class="page-banner-inner">
+    <div class="page-banner-text">
+      <p class="page-banner-eyebrow">Research direction</p>
+      <h1 class="page-banner-title">Embodied Drones for City Maintenance</h1>
+      
+      <p class="page-banner-sub">Intelligent drones that inspect, clean and maintain the city</p>
+    </div>
+    <div class="page-banner-logos" aria-label="The Hong Kong Polytechnic University · Department of Aeronautical and Aviation Engineering">
+      <img src="/preview/pr-/images/logo/polyu_logo_white.png" alt="The Hong Kong Polytechnic University">
+      <img src="/preview/pr-/images/logo/aaelogo_white.png" alt="Department of Aeronautical and Aviation Engineering">
+    </div>
+  </div>
+</div>
+
     <main>
       <!--
   modify main content of page:
@@ -476,31 +491,627 @@
   
   
 
-  <section class="background" data-size="0.97em; line-height: 1.65; margin-bottom: 0.5em">
-    <h1 id="-embodied-drones-for-city-maintenance-and-manipulation">🚁 Embodied Drones for City Maintenance and Manipulation</h1>
+  <section class="background" data-size="page">
+    <div class="rt-intro">
+  <a class="project-back" href="/preview/pr-/research/">← All research directions</a>
+  <div class="rt-intro-grid">
+    <div class="rt-intro-text">
+      <p>Maintaining a dense city — cleaning the façades of high-rise buildings, inspecting slopes, bridges and structures in
+urban canyons — is slow, costly and dangerous work at height. We develop <strong>embodied drone platforms</strong> that combine
+reliable navigation in GNSS-degraded streets with contact-aware aerial manipulation for real maintenance tasks.</p>
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
-Maintaining urban infrastructure in dense city environments — particularly <b class="blue">external wall cleaning of high-rise buildings</b> and <b class="blue">structural inspection in urban canyons</b> — presents significant challenges that demand intelligent, physically interactive drone systems. This research develops <b class="blue">embodied drone platforms</b> that combine autonomous navigation in GPS-degraded urban canyons with contact-based manipulation capabilities for real-world city maintenance tasks.
+<p>Our drones have cleaned glass façades in Hong Kong and Shanghai, inspected slopes and offshore wind turbines, and grown
+into the CeresRobotics.ai spin-off.</p>
+
+      
+      <ul class="rt-chips">
+        <li>Urban-canyon navigation</li>
+<li>Close-proximity flight</li>
+<li>Aerial manipulation</li>
+<li>UAV swarms</li>
+<li>3D reconstruction</li>
+<li>VLA mission planning</li>
+<li>Edge AI</li>
+      </ul>
+      
+    </div>
+    
+    <figure class="rt-figure">
+      <a href="/preview/pr-/images/project/E2EDrone.jpg" target="_blank" rel="noopener">
+        <img src="/preview/pr-/images/project/E2EDrone.jpg" alt="Embodied drones for city maintenance and manipulation">
+      </a>
+      <figcaption>Embodied drones for city maintenance and manipulation</figcaption>
+    </figure>
+    
+  </div>
 </div>
+  </section>
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 1em;">
-Our approach addresses three fundamental challenges:
-<ol>
-<li>
-<b>Autonomous Inspection in Urban Canyons</b> — Dense urban environments with tall buildings, narrow streets, and GPS-degraded conditions pose severe challenges for drone navigation. We develop AI-driven multi-sensor fusion algorithms (LiDAR/Camera/IMU/GNSS) and robust localization methods that enable drones to navigate safely and precisely in complex urban canyon environments. Our systems provide centimeter-level positioning for close-proximity inspection of building facades, bridges, and other urban structures.</li>
-<li>
-<b>External Wall Cleaning with Drones</b> — High-rise external wall cleaning is one of the most hazardous tasks in urban maintenance. We develop drone-based cleaning systems that integrate aerial manipulation with contact-aware flight control, enabling drones to approach building surfaces, maintain stable contact, and perform cleaning operations autonomously. Our force-controlled manipulation strategies ensure safe and effective cleaning while accommodating varying surface geometries, wind disturbances, and dynamic environmental conditions.</li>
-<li>
-<b>Software-Hardware Co-Design for Maintenance Drones</b> — We pursue an integrated approach to drone system design, jointly optimizing the AI software stack (perception, planning, contact control) with the hardware platform (airframe, cleaning/manipulation end-effectors, onboard compute) to achieve reliable embodied AI performance under the strict size, weight, and power (SWaP) constraints of aerial platforms.</li>
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="approach">Our Approach</h2>
+<ol class="rt-pillars" data-count="3">
+  
+  <li>
+    <h3>Autonomous inspection in urban canyons</h3>
+    <p>AI-driven LiDAR/camera/IMU/GNSS fusion gives centimetre-level positioning for close-proximity inspection of façades, bridges and other structures.</p>
+  </li>
+  
+  <li>
+    <h3>External wall cleaning with drones</h3>
+    <p>Aerial manipulation with contact-aware flight control lets drones approach a wall, keep stable contact and clean despite wind and varying surfaces.</p>
+  </li>
+  
+  <li>
+    <h3>Software-hardware co-design</h3>
+    <p>Perception, planning and contact control are designed together with the airframe, end-effectors and onboard computer to meet tight size, weight and power limits.</p>
+  </li>
+  
 </ol>
+
+
+<h3 class="rt-subtitle">Target applications</h3>
+<ul class="rt-applications">
+  <li>
+<b>External wall cleaning</b><span>Replacing dangerous rope-access work on high-rise façades</span>
+</li>
+<li>
+<b>Façade inspection</b><span>Cracks, water leakage and structural defects in urban canyons</span>
+</li>
+<li>
+<b>Bridge and infrastructure inspection</b><span>Close-range structural health monitoring</span>
+</li>
+<li>
+<b>Offshore wind turbines</b><span>Blade and tower inspection at sea</span>
+</li>
+</ul>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="research-in-action">Research in Action</h2>
+<p class="rt-section-lead">Systems we have built and tested with partners. Open a card for the problem, our approach, results and photos.</p>
+<div class="rw-grid">
+  
+  <article class="rw-card" id="window-cleaning-uav-innovation-tower">
+    <a class="rw-media" href="/preview/pr-/images/projects/window-cleaning-uav-innovation-tower/cover.jpg" target="_blank" rel="noopener">
+      <img src="/preview/pr-/images/projects/window-cleaning-uav-innovation-tower/cover.jpg" alt="Autonomous Façade-Cleaning Drones" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Autonomous Façade-Cleaning Drones</h3>
+      <p class="rw-summary">Drones that clean glass façades autonomously, cutting carbon emissions and work at height — now a spin-off company (CeresRobotics.ai) and a Geneva silver medal.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>277.8 → 2.91</b> kg CO₂ per cleaning</li>
+<li>
+<b>PCT · US · CN</b> patent filings</li>
+<li>
+<b>Silver</b> Geneva Inventions 2025</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Cleaning an irregular high-rise glass façade by hand takes about two weeks each time, with workers at height.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Safety-assured UAV positioning, perception and control near glass façades</li>
+<li>Purpose-built cleaning drone designed with the PolyU Campus Facilities team</li>
+<li>Spun out as the CeresRobotics.ai start-up for building-exterior cleaning</li>
+        </ul>
+        <p><span class="rw-label">Results</span>Silver medal at the International Exhibition of Inventions of Geneva 2025; PCT, US and CN patent filings; covered by TVB and Ming Pao (May 2024) and UBeat (Nov 2025); student Innovation &amp; Entrepreneurship Third Prize (2024).</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/window-cleaning-uav-innovation-tower/1.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/window-cleaning-uav-innovation-tower/1.jpg" alt="Cleaning UAV on a building in a low-altitude economy park in Shanghai" loading="lazy">
+            </a>
+            <figcaption>Cleaning UAV on a building in a low-altitude economy park in Shanghai</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/window-cleaning-uav-innovation-tower/2.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/window-cleaning-uav-innovation-tower/2.jpg" alt="Prototype" loading="lazy">
+            </a>
+            <figcaption>Prototype</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/window-cleaning-uav-innovation-tower/3.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/window-cleaning-uav-innovation-tower/3.jpg" alt="Carbon saving" loading="lazy">
+            </a>
+            <figcaption>Carbon saving</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/ceresrobotics-cleaning-drone/1.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/ceresrobotics-cleaning-drone/1.jpg" alt="Cleaning drone on a glass façade" loading="lazy">
+            </a>
+            <figcaption>Cleaning drone on a glass façade</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/ceresrobotics-cleaning-drone/2.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/ceresrobotics-cleaning-drone/2.jpg" alt="Spray cleaning in flight" loading="lazy">
+            </a>
+            <figcaption>Spray cleaning in flight</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/ceresrobotics-cleaning-drone/3.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/ceresrobotics-cleaning-drone/3.jpg" alt="Onboard navigation board" loading="lazy">
+            </a>
+            <figcaption>Onboard navigation board</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="window-cleaning-drone-positioning">
+    <a class="rw-media" href="/preview/pr-/images/projects/window-cleaning-drone-positioning/cover.jpg" target="_blank" rel="noopener">
+      <img src="/preview/pr-/images/projects/window-cleaning-drone-positioning/cover.jpg" alt="Window-Cleaning Drone Positioning and Control" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Window-Cleaning Drone Positioning and Control</h3>
+      <p class="rw-summary">IMU–GNSS–LiDAR–camera fusion and wall-proximity control so cleaning drones can fly safely next to glass façades.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>4-sensor</b> fusion</li>
+<li>
+<b>Wall-proximity</b> aerodynamic compensation</li>
+<li>
+<b>LAE</b> low-altitude economy</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Near a wall, GNSS is blocked, LiDAR sees only one plane and airflow pushes the drone toward the glass.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>IMU–GNSS–LiDAR–camera fusion tuned for façade-proximity flight</li>
+<li>Wall-proximity aerodynamic compensation in the controller</li>
+<li>Flight tests on PolyU buildings with the cleaning drone</li>
+        </ul>
+        <p><span class="rw-label">Results</span>Supports the CeresRobotics.ai cleaning-drone product.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/window-cleaning-drone-positioning/1.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/window-cleaning-drone-positioning/1.jpg" alt="Cleaning drone close to a building façade" loading="lazy">
+            </a>
+            <figcaption>Cleaning drone close to a building façade</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/window-cleaning-drone-positioning/2.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/window-cleaning-drone-positioning/2.jpg" alt="Fusion pipeline" loading="lazy">
+            </a>
+            <figcaption>Fusion pipeline</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/window-cleaning-drone-positioning/3.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/window-cleaning-drone-positioning/3.jpg" alt="Factor-graph formulation" loading="lazy">
+            </a>
+            <figcaption>Factor-graph formulation</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="vla-intelligent-uavs">
+    <a class="rw-media" href="/preview/pr-/images/projects/vla-intelligent-uavs/cover.jpg" target="_blank" rel="noopener">
+      <img src="/preview/pr-/images/projects/vla-intelligent-uavs/cover.jpg" alt="Vision-Language-Action Models for Intelligent UAVs" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Vision-Language-Action Models for Intelligent UAVs</h3>
+      <p class="rw-summary">High-accuracy positioning and vision-language-action models that let drones understand tasks and fly safely in Hong Kong's low-altitude airspace, with Esri China (HK).</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>VLA</b> intelligent UAV autonomy</li>
+<li>
+<b>Sandbox</b> cross-sea test flights</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Low-altitude operations need UAVs that position reliably and understand their tasks in dense urban airspace.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>High-accuracy UAV positioning for low-altitude operations</li>
+<li>Vision-language-action (VLA) models for intelligent UAV tasks</li>
+<li>Builds on TAS Lab drone platforms and the low-altitude-economy regulatory sandbox flights</li>
+        </ul>
+        <p><span class="rw-label">Results</span>Links to the PolyU MSc in Low-altitude Economy and the PolyU-Wuxi drone product lines.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/vla-intelligent-uavs/1.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/vla-intelligent-uavs/1.jpg" alt="Cross-sea sandbox flight" loading="lazy">
+            </a>
+            <figcaption>Cross-sea sandbox flight</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/vla-intelligent-uavs/2.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/vla-intelligent-uavs/2.jpg" alt="End-to-end drone autonomy" loading="lazy">
+            </a>
+            <figcaption>End-to-end drone autonomy</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/vla-intelligent-uavs/3.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/vla-intelligent-uavs/3.jpg" alt="Campus flight tests" loading="lazy">
+            </a>
+            <figcaption>Campus flight tests</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="offshore-wind-uav-inspection">
+    <a class="rw-media" href="/preview/pr-/images/projects/offshore-wind-uav-inspection/cover.jpg" target="_blank" rel="noopener">
+      <img src="/preview/pr-/images/projects/offshore-wind-uav-inspection/cover.jpg" alt="Drone System for Offshore Wind-Turbine Inspection" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Drone System for Offshore Wind-Turbine Inspection</h3>
+      <p class="rw-summary">Autonomous drone inspection of offshore wind-turbine blades and towers, with China Southern Power Grid.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>CSG</b> industry partner</li>
+<li>
+<b>Zhuhai</b> joint-lab base</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Offshore wind turbines are far from shore and GNSS-challenged near blades and towers; manual inspection is slow and risky.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Autonomous UAV system for blade and tower inspection of offshore wind turbines</li>
+<li>Robust positioning and perception near large rotating structures</li>
+<li>Developed within the Guangdong–Hong Kong Joint Laboratory for Marine Infrastructure</li>
+        </ul>
+        
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/offshore-wind-uav-inspection/1.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/offshore-wind-uav-inspection/1.jpg" alt="Meeting with China Southern Power Grid (Zhuhai, Sep 2025)" loading="lazy">
+            </a>
+            <figcaption>Meeting with China Southern Power Grid (Zhuhai, Sep 2025)</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/offshore-wind-uav-inspection/2.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/offshore-wind-uav-inspection/2.jpg" alt="Inspection-drone flight tests" loading="lazy">
+            </a>
+            <figcaption>Inspection-drone flight tests</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="safety-certifiable-inspection-uav">
+    <a class="rw-media" href="/preview/pr-/images/projects/safety-certifiable-inspection-uav/cover.jpg" target="_blank" rel="noopener">
+      <img src="/preview/pr-/images/projects/safety-certifiable-inspection-uav/cover.jpg" alt="Safety-Certifiable UAV System for Terrain and Civil Infrastructure Inspection" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Safety-Certifiable UAV System for Terrain and Civil Infrastructure Inspection</h3>
+      <p class="rw-summary">Drones that inspect slopes, forests and structures where GNSS is weak, with certified positioning.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>US patent</b> filed</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Slopes, forests and civil structures block satellites, yet inspection drones need certified positions to fly safely.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Rotary-wing UAV with camera, solid-state LiDAR, multi-frequency GNSS, IMU and onboard computing</li>
+<li>LiDAR-aided GNSS with NLOS mitigation and factor-graph pose estimation</li>
+<li>Deep-learning detection of landslides, rockfalls and building damage from images and point clouds</li>
+        </ul>
+        <p><span class="rw-label">Results</span>The positioning work fed the cleaning-drone US patent application.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/safety-certifiable-inspection-uav/1.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/safety-certifiable-inspection-uav/1.jpg" alt="Inspection UAV: camera, solid-state LiDAR, GNSS, IMU" loading="lazy">
+            </a>
+            <figcaption>Inspection UAV: camera, solid-state LiDAR, GNSS, IMU</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/safety-certifiable-inspection-uav/2.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/safety-certifiable-inspection-uav/2.jpg" alt="Building-damage detection" loading="lazy">
+            </a>
+            <figcaption>Building-damage detection</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/safety-certifiable-inspection-uav/3.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/safety-certifiable-inspection-uav/3.jpg" alt="Landslide inspection target" loading="lazy">
+            </a>
+            <figcaption>Landslide inspection target</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="uav-ugv-map-update">
+    <a class="rw-media" href="/preview/pr-/images/projects/uav-ugv-map-update/cover.jpg" target="_blank" rel="noopener">
+      <img src="/preview/pr-/images/projects/uav-ugv-map-update/cover.jpg" alt="Large Vision Model for UAV–UGV Map Update" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Large Vision Model for UAV–UGV Map Update</h3>
+      <p class="rw-summary">Drones and ground robots work together, guided by a large vision model, to keep city maps up to date.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>UAV + UGV</b> air–ground mapping</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>City maps go out of date quickly; ground robots lose GNSS in street canyons and cannot see the big picture.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Bandwidth-light UAV–UGV feature exchange, with UAV GNSS as the ground robot's reference</li>
+<li>Factor-graph fusion of LiDAR, camera, IMU and GNSS from air and ground</li>
+<li>A large vision model detects map changes for update</li>
+        </ul>
+        
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/uav-ugv-map-update/1.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/uav-ugv-map-update/1.jpg" alt="Three-phase research plan" loading="lazy">
+            </a>
+            <figcaption>Three-phase research plan</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/uav-ugv-map-update/2.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/uav-ugv-map-update/2.jpg" alt="UAV–UGV map-update framework" loading="lazy">
+            </a>
+            <figcaption>UAV–UGV map-update framework</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/uav-ugv-map-update/3.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/uav-ugv-map-update/3.jpg" alt="End-to-end model and simulator" loading="lazy">
+            </a>
+            <figcaption>End-to-end model and simulator</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="deep-se3-planning-control">
+    <a class="rw-media" href="/preview/pr-/images/projects/deep-se3-planning-control/cover.jpg" target="_blank" rel="noopener">
+      <img src="/preview/pr-/images/projects/deep-se3-planning-control/cover.jpg" alt="Safe-assured Learning-based Deep SE(3) Motion Planning and Control for UAVs" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Safe-assured Learning-based Deep SE(3) Motion Planning and Control for UAVs</h3>
+      <p class="rw-summary">Learning-based joint motion planning and control for agile drones, with safety guarantees.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>SE(3)</b> joint planning &amp; control</li>
+<li>
+<b>Safe</b> learning-based control</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Learned controllers fly aggressively but give no safety guarantee; classical planners are safe but slow and conservative.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Deep networks that plan and control directly on SE(3), position and attitude together</li>
+<li>Safety filters that keep learned commands inside certified bounds</li>
+<li>Validation on TAS Lab agile UAVs</li>
+        </ul>
+        
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/deep-se3-planning-control/1.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/deep-se3-planning-control/1.jpg" alt="Campus flight tests" loading="lazy">
+            </a>
+            <figcaption>Campus flight tests</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/deep-se3-planning-control/2.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/deep-se3-planning-control/2.jpg" alt="Stereo-camera UAV" loading="lazy">
+            </a>
+            <figcaption>Stereo-camera UAV</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/deep-se3-planning-control/3.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/deep-se3-planning-control/3.jpg" alt="Agile flight in the open" loading="lazy">
+            </a>
+            <figcaption>Agile flight in the open</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="uav-perching">
+    <a class="rw-media" href="/preview/pr-/images/projects/uav-perching/cover.jpg" target="_blank" rel="noopener">
+      <img src="/preview/pr-/images/projects/uav-perching/cover.jpg" alt="Reliable UAV Perception and Perching Solutions in Urban Streets" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Reliable UAV Perception and Perching Solutions in Urban Streets</h3>
+      <p class="rw-summary">Smart street-light poles with UAV airports: precise landing, wireless charging and battery management for continuous drone operation.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>AprilTag</b> precision landing</li>
+<li>
+<b>Wireless</b> charging on the pole</li>
+<li>
+<b>4G MQTT</b> UAV–airport link</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Drones in cities need somewhere safe to land, recharge and be managed, without a human on site.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>UAV airports on smart street-light poles with wireless charging and AprilTag-based precision landing</li>
+<li>Custom power-distribution board for seamless switching between battery and external power</li>
+<li>GNSS, Vicon and AprilTag localisation fused by an extended Kalman filter; 4G MQTT communication</li>
+        </ul>
+        <p><span class="rw-label">Results</span>Experimental validation of AprilTag localisation, power management and wireless communication under dynamic conditions.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/uav-perching/1.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/uav-perching/1.jpg" alt="Smart street-light pole with a UAV airport" loading="lazy">
+            </a>
+            <figcaption>Smart street-light pole with a UAV airport</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/uav-perching/2.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/uav-perching/2.jpg" alt="Perching UAV in flight" loading="lazy">
+            </a>
+            <figcaption>Perching UAV in flight</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/uav-perching/3.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/uav-perching/3.jpg" alt="UAV airport" loading="lazy">
+            </a>
+            <figcaption>UAV airport</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/uav-perching/4.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/uav-perching/4.jpg" alt="Battery wireless-charging and health-management board" loading="lazy">
+            </a>
+            <figcaption>Battery wireless-charging and health-management board</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="uav-additive-manufacturing">
+    <a class="rw-media" href="/preview/pr-/images/projects/uav-additive-manufacturing/cover.jpg" target="_blank" rel="noopener">
+      <img src="/preview/pr-/images/projects/uav-additive-manufacturing/cover.jpg" alt="UAV-Aided Additive Manufacturing for CFRTP Composites" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">UAV-Aided Additive Manufacturing for CFRTP Composites</h3>
+      <p class="rw-summary">A flying 3D printer: UAV positioning and control for printing carbon-fibre-reinforced thermoplastic composites.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>CFRTP</b> composite material</li>
+<li>
+<b>MPC</b> joint rotor–manipulator control</li>
+<li>
+<b>LiDAR</b> quality monitoring</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Large or high structures cannot be printed by fixed gantries; a drone printer must hold millimetre accuracy while flying.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Rotary-wing UAV with positioning, LiDAR, a lightweight printer and a nozzle manipulator</li>
+<li>Joint MPC of rotors and manipulator, with extrusion matched to print speed</li>
+<li>In-process quality monitoring by solid-state LiDAR scanning</li>
+        </ul>
+        <p><span class="rw-label">Results</span>The platform links to the lab's UAV inspection and cleaning work.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/uav-additive-manufacturing/1.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/uav-additive-manufacturing/1.jpg" alt="UAV additive-manufacturing concept" loading="lazy">
+            </a>
+            <figcaption>UAV additive-manufacturing concept</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/uav-additive-manufacturing/2.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/uav-additive-manufacturing/2.jpg" alt="System framework" loading="lazy">
+            </a>
+            <figcaption>System framework</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/preview/pr-/images/projects/uav-additive-manufacturing/3.jpg" target="_blank" rel="noopener">
+              <img src="/preview/pr-/images/projects/uav-additive-manufacturing/3.jpg" alt="Print-path planning" loading="lazy">
+            </a>
+            <figcaption>Print-path planning</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
 </div>
-
-<p align="center">
-  <img width="700" src="/preview/pr-/images/project/E2EDrone.png" alt="Embodied Drones">
-</p>
-<center><i>Embodied Drones for City Maintenance and Manipulation</i></center>
-
-<p><a href="/preview/pr-/research" style="font-size: 0.9em;">← Back to all Research Directions</a></p>
   </section>
 
   
@@ -514,17 +1125,26 @@ Our approach addresses three fundamental challenges:
   size: ;
 -->
 
-<h2 id="demo-videos">Demo Videos</h2>
+<h2 id="videos">Video Demonstrations</h2>
+<div class="rt-videos">
+  <figure class="video-card">
+  <div class="video-frame">
+    
+    <iframe src="https://player.bilibili.com/player.html?bvid=BV1UsgDzeE5J&page=1&autoplay=0&high_quality=1" title="Intelligent cleaning UAV demonstration, PolyU-Wuxi Research Institute" loading="lazy" scrolling="no" frameborder="0" allowfullscreen></iframe>
+    
+  </div>
+  <figcaption>Intelligent cleaning UAV demonstration, PolyU-Wuxi Research Institute</figcaption>
+</figure>
+<figure class="video-card">
+  <div class="video-frame">
+    
+    <iframe src="https://player.bilibili.com/player.html?bvid=BV1fiaqzNEEm&page=1&autoplay=0&high_quality=1" title="UAV system demonstration, TAS Lab, PolyU" loading="lazy" scrolling="no" frameborder="0" allowfullscreen></iframe>
+    
+  </div>
+  <figcaption>UAV system demonstration, TAS Lab, PolyU</figcaption>
+</figure>
 
-<p align="center">
-  <iframe src="//player.bilibili.com/player.html?bvid=BV1UsgDzeE5J&page=1&autoplay=0" width="560" height="315" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-</p>
-<center><i>Intelligent Cleaning UAV Demonstration — PolyU Wuxi Research Institute</i></center>
-
-<p align="center">
-  <iframe src="//player.bilibili.com/player.html?bvid=BV1fiaqzNEEm&page=1&autoplay=0" width="560" height="315" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-</p>
-<center><i>UAV System Demonstration — TAS Lab, PolyU</i></center>
+</div>
   </section>
 
   
@@ -538,24 +1158,13 @@ Our approach addresses three fundamental challenges:
   size: ;
 -->
 
-<h2 id="key-research-directions">Key Research Directions</h2>
+<h2 id="in-the-media">In the Media</h2>
 
-<ul>
-<li>
-<b class="blue">Multi-sensor fusion for drone navigation in urban canyons</b> (GPS-degraded, NLOS-affected environments)</li>
-<li>
-<b class="blue">Close-proximity flight control</b> for building facade inspection and maintenance</li>
-<li>
-<b class="blue">Drone-based external wall cleaning</b> — contact-aware planning and force-controlled manipulation</li>
-<li>
-<b class="blue">UAV swarm coordination</b> for large-scale building inspection campaigns</li>
-<li>
-<b class="blue">3D reconstruction and defect detection</b> for structural health monitoring of urban infrastructure</li>
-<li>
-<b class="blue">Vision-language models</b> for intelligent mission planning and task understanding</li>
-<li>
-<b class="blue">Edge AI deployment</b> on resource-constrained drone platforms for real-time perception</li>
-</ul>
+<div class="rt-media">
+  <figure><img src="/preview/pr-/images/project/rthk.jpg" alt="RTHK interview" loading="lazy"><figcaption>RTHK interview on drone window cleaning and aerial 3D printing (June 2024)</figcaption></figure>
+  <figure><img src="/preview/pr-/images/project/TVB.JPG" alt="TVB coverage" loading="lazy"><figcaption>TVB news on drone façade cleaning (May 2024)</figcaption></figure>
+  <figure><img src="/preview/pr-/images/project/MINGBAO.JPG" alt="Ming Pao coverage" loading="lazy"><figcaption>Ming Pao feature (May 2024); also covered by Headline Daily (July 2024)</figcaption></figure>
+</div>
   </section>
 
   
@@ -569,90 +1178,7 @@ Our approach addresses three fundamental challenges:
   size: ;
 -->
 
-<h2 id="target-applications">Target Applications</h2>
-
-<ul>
-<li>
-<b class="blue">External wall cleaning</b>: Autonomous drone-based cleaning of high-rise building facades, replacing dangerous manual rope-access work</li>
-<li>
-<b class="blue">Building facade inspection</b>: Crack detection, water leakage identification, and structural defect assessment in urban canyons</li>
-<li>
-<b class="blue">Bridge and infrastructure inspection</b>: Close-proximity structural health monitoring with aerial sensing and manipulation</li>
-<li>
-<b class="blue">Offshore wind turbine inspection</b>: Drone-based blade inspection and surface assessment in challenging marine environments</li>
-</ul>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="recent-news">Recent News</h2>
-
-<ul>
-<li>
-<b class="blue">June 2024</b>: Interview by RTHK on UAV-enabled window cleaning and aerial 3D printing</li>
-<li>
-<b class="blue">May 2024</b>: Interview by Hong Kong TVB and Ming Pao on UAV-enabled external wall cleaning technology</li>
-<li>
-<b class="blue">July 2024</b>: Interview by Toutiao (头条日报) on low-altitude economy applications</li>
-</ul>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="press-coverage-photos">Press Coverage Photos</h2>
-
-<table style="width:100%;border-collapse:collapse;border:none;margin:10px 0 20px;"><tr style="border:none;">
-<td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;">
-<img src="/preview/pr-/images/project/rthk.jpg" alt="RTHK Interview" style="width:100%;border-radius:8px;"><br>RTHK Interview</td>
-<td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;">
-<img src="/preview/pr-/images/project/TVB.JPG" alt="TVB Coverage" style="width:100%;border-radius:8px;"><br>TVB Coverage</td>
-<td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;">
-<img src="/preview/pr-/images/project/MINGBAO.JPG" alt="Ming Pao Coverage" style="width:100%;border-radius:8px;"><br>Ming Pao Coverage</td>
-</tr></table>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="selected-publications--corresponding-author">Selected Publications (*: Corresponding author)</h2>
-
-<style>
-p[align="center"] { text-align: center !important; }
-p[align="center"] img, p[align="center"] iframe { display: inline-block; max-width: 100%; }
-center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
-.pub-list { list-style: none; padding-left: 0; }
-.pub-item { margin: 10px 0; padding: 10px 14px; border-left: 3px solid var(--primary, #0795d9); background: #f9fbfd; font-size: 0.92em; line-height: 1.55; }
-.pub-title { font-weight: 600; color: var(--primary, #0795d9); }
-.pub-authors { font-size: 0.9em; color: #444; }
-.pub-venue { font-size: 0.88em; color: #555; font-style: italic; }
-.pub-meta { font-size: 0.85em; color: #888; }
-</style>
+<h2 id="selected-publications">Selected Publications</h2>
 
 <ul class="pub-list">
 
@@ -694,440 +1220,36 @@ center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
 
 </ul>
 
-<p style="text-align:right;font-size:0.88em;margin-top:8px;"><a href="/preview/pr-/publications" style="color:var(--primary, #1a73e8);">→ Full publication list</a></p>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="acknowledgement-and-collaborators">Acknowledgement and Collaborators</h2>
-
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
-This research is supported by <b class="blue">The Hong Kong Polytechnic University</b>, the <b class="blue">Department of Science and Technology of Guangdong Province</b> (Drone System and Offshore Wind Turbines Inspection), <b class="blue">Esri China (HK) Limited</b> (Vision-Language-Action Models for Intelligent UAV Systems), and <b class="blue">Meituan</b> (Vision Aided GNSS-RTK Positioning for UAV System in Urban Canyons). We collaborate with leading research groups and industry partners in intelligent drone systems and urban maintenance solutions.
-</div>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="projects-5">Projects (5)</h2>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-      <a href="/preview/pr-/2024/12/09/Reliable_UAV_Perception_and_Perching_Solutions_in_Urban_Streets.html" class="post-excerpt-image" aria-label="Reliable UAV Perception and Perching Solutions in Urban Streets">
-        <img src="/preview/pr-/images/project/UAV_Perching/Smart_Street_light_Poles_with_UAV_Airports.png" alt="Reliable UAV Perception and Perching Solutions in Urban Streets" loading="lazy" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="post-excerpt-text">
-      <a href="/preview/pr-/2024/12/09/Reliable_UAV_Perception_and_Perching_Solutions_in_Urban_Streets.html">Reliable UAV Perception and Perching Solutions in Urban Streets</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>December 09, 2024</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-  <div class="tags" data-link="/preview/pr-/blog">
-    
-      <a href="blog?search=%22tag:%20landing%22" class="tag" data-tooltip='Show items with the tag "landing"'>
-        landing
-      </a>
-    
-      <a href="blog?search=%22tag:%20uav%22" class="tag" data-tooltip='Show items with the tag "uav"'>
-        uav
-      </a>
-    
-      <a href="blog?search=%22tag:%20perching%22" class="tag" data-tooltip='Show items with the tag "perching"'>
-        perching
-      </a>
-    
-      <a href="blog?search=%22tag:%20airport%22" class="tag" data-tooltip='Show items with the tag "airport"'>
-        airport
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="p Develop a comprehensive UAV perception and Perching solution, focusing on the integration of smart streetlight poles with a UAV takeoff, landing, and battery exchange platform p h2 id abstract Abstract h2 p This project aims to design and implement a comprehensive UAV perching and management system, tailored to supportautonomous operations in diverse environments. Central to the system is the development of UAV airports equippedwith wireless charging modules, April Tag-based precise landing platforms, and integrated position and orientationcorrection mechanisms. These features enable reliable takeoff, landing, and continuous UAV operation with minimalhuman intervention. p p The system incorporates a robust power management framework, including a custom-designed power distribution boardfor seamless transition between onboard battery and external power during charging. Communication between UAVsand the airport leverages 4G MQTT protocols, ensuring reliable real-time data exchange. Advanced algorithmsintegrate GNSS, Vicon, and April Tag-based localization for high-precision positioning, further enhanced by extendedKalman filtering for improved dynamic performance. p p Rigorous experimental validation confirms the system s effectiveness, including tests on April Tag-based localization,power management, and wireless communication under dynamic conditions. This project not only addresses criticalchallenges in UAV operation and management but also lays the groundwork for scalable UAV infrastructure, fosteringinnovation and efficiency in both urban and remote applications. p div style display: flex; justify-content: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project UAV Perching Smart Street light Poles with UAV Airports.png alt Team Banner style width: 60 ; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project UAV Perching Perching UAV Flight.jpg alt Perching UAV Flight style width: 70 ; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px; div h2 id funding-body Funding Body h2 p POLYU AAE Capstone Project p h2 id researcher Researcher h2 p a href https: polyu-taslab.github.io members Wen Weisong.html Dr. Weisong Wen a , a href https: polyu-taslab.github.io members ZHAO Jiaqi.html Mr. ZHAO Jiaqi a , Mr. Li Mingjue, a href https: polyu-taslab.github.io members hujiahao.html Mr. HU Jiahao a , a href https: polyu-taslab.github.io members Xiao Naigui.html Mr. Xiao Naigui a , Mr. FU Chenlei, Mr. Yangmokui p h2 id status Status h2 div style display: flex; justify-content: center; gap: 20px; margin-bottom: 20px; div style text-align: center; margin: 0 10px; display: flex; flex-direction: column; align-items: center; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project UAV Perching compressed landing successful.gif alt Team Banner style width: 60 ; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px; p style margin-top: 10px; text-align: center; UAV Landing Demo p div div style text-align: center; margin: 0 10px; display: flex; flex-direction: column; align-items: center; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project UAV Perching UAV Airport.png alt Team Banner style width: 110 ; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px; p style margin-top: 10px; text-align: center; UAV Airport p div div style text-align: center; margin: 0 10px; display: flex; flex-direction: column; align-items: center; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project UAV Perching Power Distribution Board.png alt Team Banner style width: 93 ; height: auto; object-fit: cover; max-width: 600px; border-radius: 8px; p style margin-top: 10px; text-align: center; UAV Battery Wireless Charging and Health br Management Solution p div div">
-        Develop a comprehensive UAV perception and Perching solution, focusing on the integration of smart streetlight poles with a UAV takeoff, landing, and battery exchange platform
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-
-    <div class="post-excerpt-text">
-      <a href="/preview/pr-/2024/04/08/Safe-assured_Learning-based_Deep_SE(3)_Motion_Joint_Planning_and_Control_for_Unmanned_Aerial_Vehicles.html">Safe-assured Learning-based Deep SE(3) Motion Joint Planning and Control for Unmanned Aerial Vehicles</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>April 08, 2024</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-  <div class="tags" data-link="/preview/pr-/blog">
-    
-      <a href="blog?search=%22tag:%20advanced%22" class="tag" data-tooltip='Show items with the tag "advanced"'>
-        advanced
-      </a>
-    
-      <a href="blog?search=%22tag:%20vehicle%22" class="tag" data-tooltip='Show items with the tag "vehicle"'>
-        vehicle
-      </a>
-    
-      <a href="blog?search=%22tag:%20safety%22" class="tag" data-tooltip='Show items with the tag "safety"'>
-        safety
-      </a>
-    
-      <a href="blog?search=%22tag:%20systems%22" class="tag" data-tooltip='Show items with the tag "systems"'>
-        systems
-      </a>
-    
-      <a href="blog?search=%22tag:%20automated%22" class="tag" data-tooltip='Show items with the tag "automated"'>
-        automated
-      </a>
-    
-      <a href="blog?search=%22tag:%20operation%22" class="tag" data-tooltip='Show items with the tag "operation"'>
-        operation
-      </a>
-    
-      <a href="blog?search=%22tag:%20motion%22" class="tag" data-tooltip='Show items with the tag "motion"'>
-        motion
-      </a>
-    
-      <a href="blog?search=%22tag:%20planning%22" class="tag" data-tooltip='Show items with the tag "planning"'>
-        planning
-      </a>
-    
-      <a href="blog?search=%22tag:%20navigation%22" class="tag" data-tooltip='Show items with the tag "navigation"'>
-        navigation
-      </a>
-    
-      <a href="blog?search=%22tag:%20aerial%22" class="tag" data-tooltip='Show items with the tag "aerial"'>
-        aerial
-      </a>
-    
-      <a href="blog?search=%22tag:%20marine%22" class="tag" data-tooltip='Show items with the tag "marine"'>
-        marine
-      </a>
-    
-      <a href="blog?search=%22tag:%20and%22" class="tag" data-tooltip='Show items with the tag "and"'>
-        and
-      </a>
-    
-      <a href="blog?search=%22tag:%20surface%22" class="tag" data-tooltip='Show items with the tag "surface"'>
-        surface
-      </a>
-    
-      <a href="blog?search=%22tag:%20intelligent%22" class="tag" data-tooltip='Show items with the tag "intelligent"'>
-        intelligent
-      </a>
-    
-      <a href="blog?search=%22tag:%20vehicles%22" class="tag" data-tooltip='Show items with the tag "vehicles"'>
-        vehicles
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="p PolyU UGC p h2 id funding-body Funding Body h2 p PolyU UGC p div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project huawei mapping.gif alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div">
-        PolyU (UGC)
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-      <a href="/preview/pr-/2024/04/01/Sustainable_Window_Cleaning_for_PolyU_Jockey_Club_Innovation_Tower_with_Unmanned_Aerial_Vehicles-(UAV)_An_Application_of_Autonomous_Systems_Enabled_Carbon_Reduction.html" class="post-excerpt-image" aria-label="Sustainable Window Cleaning for PolyU Jockey Club Innovation Tower with Unmanned Aerial Vehicles UAV :An Application of Autonomous Systems Enabled Carbon Reduction">
-        <img src="/preview/pr-/images/project/uav_clean.png" alt="Sustainable Window Cleaning for PolyU Jockey Club Innovation Tower with Unmanned Aerial Vehicles UAV :An Application of Autonomous Systems Enabled Carbon Reduction" loading="lazy" onerror="this.src = '/preview/pr-/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="post-excerpt-text">
-      <a href="/preview/pr-/2024/04/01/Sustainable_Window_Cleaning_for_PolyU_Jockey_Club_Innovation_Tower_with_Unmanned_Aerial_Vehicles-(UAV)_An_Application_of_Autonomous_Systems_Enabled_Carbon_Reduction.html">Sustainable Window Cleaning for PolyU Jockey Club Innovation Tower with Unmanned Aerial Vehicles (UAV):An Application of Autonomous Systems Enabled Carbon Reduction</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>April 01, 2024</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-  <div class="tags" data-link="/preview/pr-/blog">
-    
-      <a href="blog?search=%22tag:%20unmanned%22" class="tag" data-tooltip='Show items with the tag "unmanned"'>
-        unmanned
-      </a>
-    
-      <a href="blog?search=%22tag:%20aerial%22" class="tag" data-tooltip='Show items with the tag "aerial"'>
-        aerial
-      </a>
-    
-      <a href="blog?search=%22tag:%20vehicle%22" class="tag" data-tooltip='Show items with the tag "vehicle"'>
-        vehicle
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="p PolyU UGC p h2 id introduction Introduction h2 p Skyscrapers are one of the features of Hong Kong and its window cleaning is a time-consuming and dangerous work that needs to be completed regularly. The typical solution is to use big machines, such as the Movable platform or the Bosun s chair with high power, to navigate the window cleaners to the building s exterior. Take the PolyU Jockey Club Innovation Tower JCIT as an example, 20,000 HKD are required by the cleaning industry to clean 100 m 2 areas less than 1 20 of the total areas of the JCIT surface in two weeks. Based on the fuel assumption, a value of carbon emission of 277.8 kgCO2 was caused by the JCIT cleaning in two weeks. The value of the carbon emission will be even more significant when cleaning the rest of the JCIT due to the irregular shape of the JCIT. In fact, part of the JCIT surface is very difficult to clean due to the highly irregular surface which is out of the reach of the typical Movable platform or the Bosun s chair . Bigger machines are required but lead to unacceptable carbon reduction accordingly. A solution to efficiently complete the window cleaning is practical and highly expected, which can directly help with carbon reduction at the PolyU campus. Moreover, this is highly expected by lots of Skyscrapers in Hong Kong. p p To fill this gap, this project proposes to use unmanned aerial vehicles UAV to complete the building window cleaning task efficiently after several meeting discussions between the project team members and the PolyU Campus Facilities and Sustainability Office CFSO , aiming at reducing the carbon emission from existing solutions. The project team has previously accumulated significant achievements in terms of UAV technologies, such as navigation, control, and planning, which is supported by the team s academic publications records and knowledge transfer to the UAV industry, such as the Meituan with applications for parcel delivery. Also, the project team has the capability of designing the UAV system from scratch. Based on the prototype of the UAV for building window cleaning, the value of carbon emission would be reduced from 277.8 kgCO2 using the existing solution by the cleaning industry, to around 2.91 kgCO2 using the UAV system. The achievement in carbon reduction can be even more significant upon the success and completion of this project. We fully believe that this project will introduce significant impacts to the carbon reduction plan of PolyU, and will also lead to potential impacts to the carbon reduction of Hong Kong. p h2 id funding-body Funding Body h2 p Carbon Neutrality Funding Scheme 2023 24 PolyU p h2 id researcher Researcher h2 p a href https: polyu-taslab.github.io members Wen Weisong.html Dr. Weisong Wen a p h2 id status Status h2 p Ongoing p h2 id technology--method Technology amp; Method h2 div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project green tech.png alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div h2 id potential-contributions-to-carbon-reduction Potential Contributions to Carbon Reduction h2 div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project carbon reduce.png alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div h2 id uav-test UAV Test h2 div style text-align: center; margin-bottom: 20px; h1 style font-size: 1.5em; margin-bottom: 20px; line-height: 1.2; Outdoor test h1 img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project windows cleaning test.gif alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div div style text-align: center; margin-bottom: 20px; h1 style font-size: 1.5em; margin-bottom: 20px; line-height: 1.2; Indoor test h1 iframe width 560 height 315 src https: www.youtube.com embed m2Lm8RY2uYI title YouTube video player frameborder 0 allow accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share referrerpolicy strict-origin-when-cross-origin allowfullscreen iframe div h2 id interview Interview h2 div style text-align: center; margin-bottom: 20px; h1 style font-size: 1.5em; margin-bottom: 20px; line-height: 1.2; TVB interviewed us about the low-altitude economy LAE h1 img width 560 height 315 src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project TVB.JPG alt TVB Interview about LAE iframe width 560 height 315 src player.bilibili.com player.html bvid BV1bhrKY3EcJ amp;spm id from 333.999.0.0 scrolling no border 0 frameborder no framespacing 0 allowfullscreen true iframe div p style text-align: left; font-size: 1.0em; margin-bottom: 10px; Video link: p div style text-align: left; font-size: 1.0em; a href https: evtolasia.com 2024 06 01 hong-kongs-low-altitude-economy-opportunities-and-policy-considerations target blank style display: block; color: 007BFF; text-decoration: none; https: evtolasia.com 2024 06 01 hong-kongs-low-altitude-economy-opportunities-and-policy-considerations a a href https: news.tvb.com tc programme financemagazine target blank style display: block; color: 007BFF; text-decoration: none; https: news.tvb.com tc programme financemagazine a a href https: news.tvb.com tc finance 665a72c4b08fa1987b3d6350 財經-財經透視香港低空經濟何時起飛 target blank style display: block; color: 007BFF; text-decoration: none; https: news.tvb.com tc finance 665a72c4b08fa1987b3d6350 財經-財經透視香港低空經濟何時起飛 a div div style text-align: center; margin-bottom: 20px; h1 style font-size: 1.5em; margin-bottom: 20px; line-height: 1.2; Mingpao interviewed us about the low-altitude economy LAE h1 img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project MINGBAO.JPG alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div p style text-align: left; font-size: 1.0em; margin-bottom: 10px; Video link: p div style text-align: left; font-size: 1.0em; a href https: news.mingpao.com pns 港聞 article 20240531 s00002 1717094795920 學者倡訂法規認證基建助低空經濟-研無人機洗大廈外牆-料潛在利潤每年逾3億 target blank style display: block; color: 007BFF; text-decoration: none; https: news.mingpao.com pns 港聞 article 20240531 s00002 1717094795920 學者倡訂法規認證基建助低空經濟-研無人機洗大廈外牆-料潛在利潤每年逾3億 a a href https: www.youtube.com watch v m2Lm8RY2uYI target blank style display: block; color: 007BFF; text-decoration: none; https: www.youtube.com watch v m2Lm8RY2uYI a div div style text-align: center; margin-bottom: 20px; h1 style font-size: 1.5em; margin-bottom: 20px; line-height: 1.2; Interview with RTHK on the Development of Drones in the Low Altitude Economy LAE h1 img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project rthk.jpg alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div p style text-align: left; font-size: 1.0em; margin-bottom: 10px; Video link: p div style text-align: left; font-size: 1.0em; a href https: www.rthk.hk tv dtt32 programme vibranthongkong episode 959611 target blank style display: block; color: 007BFF; text-decoration: none; https: www.rthk.hk tv dtt32 programme vibranthongkong episode 959611 a div">
-        PolyU (UGC)
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-
-    <div class="post-excerpt-text">
-      <a href="/preview/pr-/2023/05/08/Unmanned_Aerial_Vehicle_Aided_High_Accuracy_Addictive_Manufacturing_for_Carbon_Fiber_Reinforced_Thermoplastic_Composites_Material.html">Unmanned Aerial Vehicle Aided High Accuracy Addictive Manufacturing for Carbon Fiber Reinforced Thermoplastic Composites MaterialCanyons</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>May 08, 2023</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-  <div class="tags" data-link="/preview/pr-/blog">
-    
-      <a href="blog?search=%22tag:%20uav%22" class="tag" data-tooltip='Show items with the tag "uav"'>
-        uav
-      </a>
-    
-      <a href="blog?search=%22tag:%20manufacturing%22" class="tag" data-tooltip='Show items with the tag "manufacturing"'>
-        manufacturing
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="p RIAM, PolyU p h2 id funding-body Funding Body h2 p RIAM, PolyU p div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project huawei mapping.gif alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div">
-        RIAM, PolyU
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-
-    <div class="post-excerpt-text">
-      <a href="/preview/pr-/2023/01/01/Safety-certifiable_UAV_System_for_Terrian_and_Civil_Infrastructure_Inspection.html">Safety-certifiable UAV System for Terrian and Civil Infrastructure Inspection</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>January 01, 2023</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-  <div class="tags" data-link="/preview/pr-/blog">
-    
-      <a href="blog?search=%22tag:%20localization%22" class="tag" data-tooltip='Show items with the tag "localization"'>
-        localization
-      </a>
-    
-      <a href="blog?search=%22tag:%20uav%22" class="tag" data-tooltip='Show items with the tag "uav"'>
-        uav
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="p PolyU UGC p h2 id funding-body Funding Body h2 p PolyU UGC p div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project huawei mapping.gif alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div">
-        PolyU (UGC)
-
-      </p>
-    </div>
-  </div>
-</div>
+<p class="pub-more"><a href="/preview/pr-/publications">Full publication list →</a></p>
+
+
+<script>
+  document.addEventListener("click", function (event) {
+    var button = event.target.closest(".video-lite");
+    if (!button) return;
+    var frame = document.createElement("iframe");
+    frame.src = button.dataset.src;
+    frame.title = button.getAttribute("aria-label");
+    frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+    frame.allowFullscreen = true;
+    button.replaceWith(frame);
+  });
+</script>
   </section>
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/preview/pr-/preview/pr-/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -1139,25 +1261,25 @@ This research is supported by <b class="blue">The Hong Kong Polytechnic Universi
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1169,10 +1291,10 @@ This research is supported by <b class="blue">The Hong Kong Polytechnic Universi
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1184,10 +1306,10 @@ This research is supported by <b class="blue">The Hong Kong Polytechnic Universi
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1199,10 +1321,10 @@ This research is supported by <b class="blue">The Hong Kong Polytechnic Universi
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1214,24 +1336,14 @@ This research is supported by <b class="blue">The Hong Kong Polytechnic Universi
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

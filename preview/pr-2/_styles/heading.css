@@ -4,27 +4,36 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 20px 0 8px 0;
+  margin: 24px 0 10px 0;
   font-family: var(--heading);
   font-weight: var(--bold);
   text-align: left;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.01em;
+  line-height: 1.25;
 }
 
 h1 {
-  margin: 20px 0;
-  font-size: 1.5rem;
-  font-weight: var(--semi-bold);
-  text-transform: uppercase;
+  margin: 12px 0 20px;
+  font-size: clamp(1.75rem, 3.6vw, 2.35rem);
+  font-weight: 800;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.005em;
 }
 
 h2 {
-  font-size: 1.35rem;
-  padding-bottom: 4px;
-  border-bottom: solid 1px var(--light-gray);
-  font-weight: var(--semi-bold);
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: clamp(1.3rem, 2.4vw, 1.6rem);
+}
+
+h2::before {
+  content: "";
+  flex-shrink: 0;
+  width: 4px;
+  height: 1.2em;
+  border-radius: 2px;
+  background: var(--primary);
 }
 
 h3 {
@@ -34,6 +43,7 @@ h3 {
 
 h4 {
   font-size: 1.05rem;
+  font-weight: var(--semi-bold);
 }
 
 h5 {
@@ -45,8 +55,9 @@ h6 {
 }
 
 :where(h1, h2, h3, h4, h5, h6) > .icon {
-  margin-right: 0.6em;
-  color: var(--light-gray);
+  margin-right: 0.5em;
+  color: var(--primary);
+  opacity: 0.85;
 }
 
 /*# sourceMappingURL=heading.css.map */

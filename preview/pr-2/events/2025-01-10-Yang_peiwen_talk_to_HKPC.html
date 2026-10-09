@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -39,21 +38,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Our PhD student Peiwen Yang Gave a Speech at HKPC on 10th Jan 2025 | TAS LAB</title>
+<title>Our PhD Student Peiwen Yang Gave a Speech at HKPC on 10 January 2025 | TAS LAB</title>
 
-<link rel="icon" href="/preview/pr-/images/icon.png">
+<link rel="icon" href="/preview/pr-/images/icon.jpg">
 
-<meta name="title" content="Our PhD student Peiwen Yang Gave a Speech at HKPC on 10th Jan 2025">
+<meta name="title" content="Our PhD Student Peiwen Yang Gave a Speech at HKPC on 10 January 2025">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 
-<meta property="og:title" content="Our PhD student Peiwen Yang Gave a Speech at HKPC on 10th Jan 2025">
+<meta property="og:title" content="Our PhD Student Peiwen Yang Gave a Speech at HKPC on 10 January 2025">
 <meta property="og:site_title" content="TAS LAB">
 <meta property="og:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="og:url" content="/preview/pr-">
 <meta property="og:image" content="/preview/pr-/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Our PhD student Peiwen Yang Gave a Speech at HKPC on 10th Jan 2025">
+<meta property="twitter:title" content="Our PhD Student Peiwen Yang Gave a Speech at HKPC on 10 January 2025">
 <meta property="twitter:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="twitter:url" content="/preview/pr-">
 <meta property="twitter:card" content="summary_large_image">
@@ -69,12 +68,12 @@
     
       "@type": "WebSite",
     
-    "name": "Our PhD student Peiwen Yang Gave a Speech at HKPC on 10th Jan 2025",
+    "name": "Our PhD Student Peiwen Yang Gave a Speech at HKPC on 10 January 2025",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
-    "headline": "Our PhD student Peiwen Yang Gave a Speech at HKPC on 10th Jan 2025",
+    "headline": "Our PhD Student Peiwen Yang Gave a Speech at HKPC on 10 January 2025",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-/images/icon.jpg" }
     },
     "url": "/preview/pr-"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="/preview/pr-/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/preview/pr-/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/preview/pr-/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-/_styles/components.css" rel="stylesheet">
   
 
   
@@ -311,18 +311,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/preview/pr-/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/preview/pr-/" class="home">
+<header class="site-header">
+  <a href="/preview/pr-/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -386,49 +383,51 @@
     
     
       
-        <a href="/preview/pr-/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/preview/pr-/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/preview/pr-/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/preview/pr-/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/preview/pr-/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/preview/pr-/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/preview/pr-/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/preview/pr-/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/preview/pr-/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/preview/pr-/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/preview/pr-/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/preview/pr-/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -454,7 +453,7 @@
 -->
 
 
-<h1 class="center">Our PhD student Peiwen Yang Gave a Speech at HKPC on 10th Jan 2025</h1>
+<h1 class="center">Our PhD Student Peiwen Yang Gave a Speech at HKPC on 10 January 2025</h1>
 
 <div class="post-info">
   
@@ -472,7 +471,7 @@
   <!-- 
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
+      <span>October 09, 2026</span>
     </span>
    -->
 </div>
@@ -502,23 +501,26 @@
 -->
 
 
-<p>We are pleased to share with you that on January 10, 2025, our doctoral student Yang Peiwen, representing the TAS LAB of The Hong Kong Polytechnic University, gave a speech at the Hong Kong Productivity Council (香港生产力局）on the following topics: Technology Leadership: Application Prospects of Low Altitude Economy in Hong Kong by 2025. He shared the development status of the low-altitude economy, industry opportunities, and especially the current academic research in TAS LAB.</p>
+<div class="post-body">
+<p>On 10 January 2025, our PhD student Peiwen Yang, representing the Trustworthy AI and Autonomous Systems Laboratory (TASLAB) of The Hong Kong Polytechnic University (PolyU), gave a speech at the Hong Kong Productivity Council (香港生产力局) titled “Technology Leadership: Application Prospects of Low Altitude Economy in Hong Kong by 2025”. He shared the development status of the low-altitude economy (LAE), industry opportunities and, in particular, the current academic research at TASLAB.</p>
 
-<h2 id="technology-leadership-application-prospects-of-low-altitude-economy-in-hong-kong-by-2025">Technology Leadership: Application Prospects of Low Altitude Economy in Hong Kong by 2025</h2>
-
-<p>The trend of digital transformation in the supply chain cannot be ignored to enhance operational efficiency and keep pace with the times, in order to improve the efficiency of Hong Kong’s logistics industry and enterprise operations, and maintain international competitiveness.
-Organized by the Hong Kong Shippers’ Committee, with the Productivity Council serving as the executing agency and supported by the Hong Kong Special Administrative Region Government’s Industry and Trade Department’s “Support Fund”, the “Promoting the Implementation of Digital Transformation Execution Capability in the Logistics Industry and Hong Kong Small and Medium-sized Enterprises” will hold the following themed seminars related to supply chain digital transformation and logistics development.
-The seminar will focus on the recent hot topic of “low-altitude economy,” deeply analyze its market potential, and explore how the logistics and transportation industries can use the latest aviation technologies, such as drones and unmanned vehicles, to disrupt traditional transportation modes and achieve digital transformation of drone logistics.
- The seminar will also deconstruct the elements of developing a low-altitude economy and the technological application of drones in new energy.</p>
-
-<h2 id="photos">Photos</h2>
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/YangPeiwen_photo_HKPC1.jpg" alt="Team Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="/preview/pr-/images/news/YangPeiwen_talk_HKPC.jpg" alt="Seminar flyer for Peiwen Yang's talk at HKPC"></figure>
 </div>
+<p class="news-caption">The seminar "Technology Leadership: Application Prospects of Low Altitude Economy in Hong Kong by 2025".</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/YangPeiwen_photo_HKPC2.jpg" alt="Team Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<h3 id="about-the-seminar">About the seminar</h3>
+
+<p>To improve operational efficiency, keep pace with the times and maintain the international competitiveness of Hong Kong’s logistics industry and enterprises, the trend of digital transformation in the supply chain cannot be ignored. The programme “Promoting the Implementation of Digital Transformation Execution Capability in the Logistics Industry and Hong Kong Small and Medium-sized Enterprises” is organised by the Hong Kong Shippers’ Committee, with the Productivity Council as the executing agency, and is supported by the “Support Fund” of the Trade and Industry Department of the Hong Kong Special Administrative Region Government. It holds a series of themed seminars on supply chain digital transformation and logistics development.</p>
+
+<p>This seminar focused on the topical subject of the low-altitude economy. It analysed the market potential of the LAE and explored how the logistics and transportation industries can use the latest aviation technologies, such as drones and unmanned vehicles, to disrupt traditional transportation modes and achieve the digital transformation of drone logistics. The seminar also examined the elements needed to develop a low-altitude economy and the application of drone technology in new energy.</p>
+
+<div class="news-photos" data-cols="2">
+  <figure><img src="/preview/pr-/images/news/YangPeiwen_photo_HKPC1.jpg" alt="Peiwen Yang speaking at the HKPC seminar"></figure>
+  <figure><img src="/preview/pr-/images/news/YangPeiwen_photo_HKPC2.jpg" alt="Peiwen Yang at the HKPC seminar"></figure>
+</div>
+<p class="news-caption">Peiwen Yang at the Hong Kong Productivity Council seminar.</p>
+
 </div>
   </section>
 
@@ -556,21 +558,17 @@ The seminar will focus on the recent hot topic of “low-altitude economy,” de
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/preview/pr-/preview/pr-/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -582,25 +580,25 @@ The seminar will focus on the recent hot topic of “low-altitude economy,” de
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -612,10 +610,10 @@ The seminar will focus on the recent hot topic of “low-altitude economy,” de
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -627,10 +625,10 @@ The seminar will focus on the recent hot topic of “low-altitude economy,” de
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -642,10 +640,10 @@ The seminar will focus on the recent hot topic of “low-altitude economy,” de
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -657,24 +655,14 @@ The seminar will focus on the recent hot topic of “low-altitude economy,” de
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>
