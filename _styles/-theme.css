@@ -1,44 +1,60 @@
 [data-dark=false] {
-  --primary: #0795d9;
-  --secondary: #7dd3fc;
-  --text: #000000;
+  --primary: #9e2435;
+  --primary-dark: #7b1c2a;
+  --primary-soft: #f7e9ec;
+  --secondary: #f7e9ec;
+  --text: #22252a;
+  --muted: #5f6368;
   --background: #ffffff;
-  --background-alt: #fafafa;
-  --light-gray: #e0e0e0;
+  --background-alt: #f7f7f8;
+  --surface: #ffffff;
+  --line: #e1e3e6;
+  --light-gray: #e1e3e6;
   --gray: #808080;
   --dark-gray: #404040;
-  --overlay: #00000020;
+  --overlay: #00000012;
+  --header-bg: rgba(255, 255, 255, 0.96);
 }
 
 [data-dark=true] {
-  --primary: #0795d9;
-  --secondary: #075985;
-  --text: #ffffff;
-  --background: #181818;
-  --background-alt: #1c1c1c;
+  --primary: #e0566a;
+  --primary-dark: #f07a8b;
+  --primary-soft: #3a1d22;
+  --secondary: #3a1d22;
+  --text: #f2f2f2;
+  --muted: #a8adb3;
+  --background: #161618;
+  --background-alt: #1c1c1f;
+  --surface: #1f1f23;
+  --line: #2e2f33;
   --light-gray: #404040;
   --gray: #808080;
   --dark-gray: #b0b0b0;
   --overlay: #ffffff10;
+  --header-bg: rgba(22, 22, 24, 0.94);
 }
 
 :root {
-  --title: "Barlow", Arial, sans-serif;
-  --heading: "Barlow", Arial, sans-serif;
-  --body: "Barlow", Arial, sans-serif;
-  --code: "Roboto Mono", monospace;
+  --title: "Inter", "Segoe UI", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --heading: "Inter", "Segoe UI", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --body: "Inter", "Segoe UI", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --code: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   --large: 1.15rem;
   --xl: 1.3rem;
   --xxl: 1.5rem;
-  --thin: 200;
+  --thin: 300;
   --regular: 400;
   --semi-bold: 600;
   --bold: 700;
-  --spacing: 1.55;
-  --compact: 1.4;
-  --rounded: 3px;
-  --shadow: 0 0 10px 0 var(--overlay);
+  --spacing: 1.7;
+  --compact: 1.45;
+  --rounded: 10px;
+  --radius: 14px;
+  --shadow: 0 8px 22px rgba(20, 20, 20, 0.07);
+  --shadow-hover: 0 10px 26px rgba(20, 20, 20, 0.1);
+  --accent-border: rgba(158, 36, 53, 0.22);
   --transition: 0.2s ease;
+  --page-width: 1140px;
 }
 
 /*# sourceMappingURL=-theme.css.map */

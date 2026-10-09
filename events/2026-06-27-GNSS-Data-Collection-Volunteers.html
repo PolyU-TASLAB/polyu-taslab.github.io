@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>High-Precision GNSS Data Collection - Volunteers Needed! | TAS LAB</title>
 
-<link rel="icon" href="/images/icon.png">
+<link rel="icon" href="/images/icon.jpg">
 
 <meta name="title" content="High-Precision GNSS Data Collection - Volunteers Needed!">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -74,7 +73,7 @@
     "headline": "High-Precision GNSS Data Collection - Volunteers Needed!",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
     },
     "url": "https://polyu-taslab.github.io"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://polyu-taslab.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/components.css" rel="stylesheet">
   
 
   
@@ -311,18 +311,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/" class="home">
+<header class="site-header">
+  <a href="/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -386,49 +383,51 @@
     
     
       
-        <a href="/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -448,7 +447,7 @@
 
   <section class="background" data-size="1">
     <!--
-  background: images/news/gnss_volunteers/poster.png;
+  background: images/news/gnss_volunteers/poster.jpg;
   dark: ;
   size: 1;
 -->
@@ -472,7 +471,7 @@
   <!-- 
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
+      <span>October 09, 2026</span>
     </span>
    -->
 </div>
@@ -502,47 +501,40 @@
 -->
 
 
-<h2 id="high-precision-gnss-data-collection-project">High-Precision GNSS Data Collection Project</h2>
-<h2 id="volunteers-needed">Volunteers Needed!</h2>
+<div class="post-body">
+<p>The Trustworthy AI and Autonomous Systems Laboratory (TASLAB) at The Hong Kong Polytechnic University (PolyU) is conducting a research project on <strong>high-precision GNSS positioning in urban environments</strong>. We are looking for enthusiastic volunteers to assist with outdoor GNSS data collection and equipment cross-validation.</p>
 
-<p>We are currently conducting a research project on <strong>high-precision GNSS positioning in urban environments</strong> and are looking for enthusiastic volunteers to assist with outdoor GNSS data collection and equipment cross-validation.</p>
-
-<hr>
-
-<div style="text-align: center; margin: 40px 0;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/gnss_volunteers/poster.png" alt="GNSS Volunteers Recruitment Poster" style="width: 100%; max-width: 900px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<div class="news-photos" data-cols="1">
+  <figure><img src="/images/news/gnss_volunteers/poster.jpg" alt="GNSS volunteers recruitment poster"></figure>
 </div>
+<p class="news-caption">Recruitment poster for the GNSS data collection project.</p>
 
-<hr>
-
-<h3 id="what-you-will-do">What You Will Do</h3>
+<h3 id="what-you-will-do">What you will do</h3>
 
 <ul>
   <li>
-<strong>Conduct outdoor data collection</strong> for 2–3 hours per session (flexible timing; good weather and low traffic preferred)</li>
+<strong>Conduct outdoor data collection</strong> for 2–3 hours per session (flexible timing; good weather and low traffic preferred).</li>
   <li>
-<strong>Perform repeat collections</strong> at the same location/trajectory for cross-validation</li>
+<strong>Perform repeat collections</strong> at the same location/trajectory for cross-validation.</li>
   <li>
-<strong>Work with advanced equipment</strong>: u-blox F9P receivers, NovAtel SPAN systems, U-center, and Google Earth</li>
+<strong>Work with advanced equipment</strong>: u-blox F9P receivers, NovAtel SPAN systems, U-center and Google Earth.</li>
 </ul>
 
-<hr>
+<h3 id="selected-scenarios-in-hong-kong">Selected scenarios in Hong Kong</h3>
 
-<h3 id="selected-scenarios-in-hong-kong">Selected Scenarios in Hong Kong</h3>
+<p>Data collection will take place at <strong>carefully selected urban scenarios throughout Hong Kong</strong>, where high-precision positioning is particularly challenging yet critical for autonomous systems research.</p>
 
-<p>Data collection will be conducted at <strong>carefully selected urban scenarios throughout Hong Kong</strong>, where high-precision positioning is particularly challenging yet critical for autonomous systems research.</p>
-
-<hr>
-
-<h3 id="requirements--preferences">Requirements &amp; Preferences</h3>
+<h3 id="requirements-and-preferences">Requirements and preferences</h3>
 
 <p><strong>Must have:</strong></p>
+
 <ul>
   <li>A Windows laptop (to run logging software)</li>
   <li>Basic knowledge of GNSS/navigation principles</li>
 </ul>
 
 <p><strong>Highly preferred:</strong></p>
+
 <ul>
   <li>Prior experience with GNSS/GPS data collection</li>
   <li>Familiarity with U-center (receiver configuration, data monitoring/logging)</li>
@@ -550,19 +542,14 @@
   <li>Strict adherence to experimental protocols</li>
 </ul>
 
-<hr>
-
 <h3 id="rewards">Rewards</h3>
 
-<p>You will receive a <strong>HK$400 supermarket voucher</strong> for each successfully completed and valid task.</p>
+<p>You will receive a <strong>HK$400 supermarket voucher</strong> for each successfully completed and valid task. <strong>You can participate multiple times, earning up to a maximum of HK$2,000.</strong></p>
 
-<p>✨ <strong>You can participate multiple times, earning up to a maximum of HK$2,000!</strong></p>
+<h3 id="how-to-apply">How to apply</h3>
 
-<hr>
+<p>If you are interested, please <strong>send your CV or a brief summary of your relevant experience</strong> to the project coordinator. In your email, please also indicate:</p>
 
-<h3 id="how-to-apply">How to Apply</h3>
-
-<p>If you are interested in this opportunity, please <strong>send your CV or a brief summary of your relevant experience</strong> to the project coordinator. In your email, please also indicate:</p>
 <ul>
   <li>The number of data collection sessions you would like to participate in</li>
   <li>Your availability and preferred time slots</li>
@@ -571,21 +558,22 @@
 
 <p><strong>Contact:</strong> yixin.gao@connect.polyu.hk</p>
 
-<p><strong>Deadline:</strong> June 27, 2026 (UTC+8:00)</p>
+<p><strong>Deadline:</strong> 27 June 2026 (UTC+8:00)</p>
 
-<hr>
-
-<h3 id="why-join-us">Why Join Us?</h3>
+<h3 id="why-join-us">Why join us?</h3>
 
 <p>This is an excellent opportunity to:</p>
+
 <ul>
-  <li>Contribute to cutting-edge autonomous systems research</li>
+  <li>Contribute to autonomous systems research</li>
   <li>Gain hands-on experience with professional GNSS equipment</li>
-  <li>Work with the <strong>Trustworthy AI and Autonomous Systems Laboratory (TAS LAB)</strong> at PolyU</li>
+  <li>Work with TASLAB at PolyU</li>
   <li>Earn competitive compensation for your contribution</li>
 </ul>
 
-<p>The TAS LAB is actively advancing research in trustworthy AI and autonomous systems. Your participation will directly support our mission to develop reliable positioning solutions for urban environments.</p>
+<p>TASLAB is actively advancing research in trustworthy AI and autonomous systems. Your participation will directly support our mission to develop reliable positioning solutions for urban environments.</p>
+
+</div>
   </section>
 
   
@@ -622,21 +610,17 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -648,25 +632,25 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -678,10 +662,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -693,10 +677,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -708,10 +692,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -723,24 +707,14 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

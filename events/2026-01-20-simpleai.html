@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>PolyU and Simple AI Launch Strategic Collaboration | TAS LAB</title>
 
-<link rel="icon" href="/images/icon.png">
+<link rel="icon" href="/images/icon.jpg">
 
 <meta name="title" content="PolyU and Simple AI Launch Strategic Collaboration">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -74,7 +73,7 @@
     "headline": "PolyU and Simple AI Launch Strategic Collaboration",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
     },
     "url": "https://polyu-taslab.github.io"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://polyu-taslab.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/components.css" rel="stylesheet">
   
 
   
@@ -311,18 +311,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/" class="home">
+<header class="site-header">
+  <a href="/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -386,49 +383,51 @@
     
     
       
-        <a href="/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -448,7 +447,7 @@
 
   <section class="background" data-size="1">
     <!--
-  background: images/news/0119_simpleai/1.png;
+  background: images/news/0119_simpleai/1.jpg;
   dark: ;
   size: 1;
 -->
@@ -472,7 +471,7 @@
   <!-- 
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
+      <span>October 09, 2026</span>
     </span>
    -->
 </div>
@@ -502,35 +501,39 @@
 -->
 
 
-<p><strong>HONG KONG, China</strong> – January 19, 2026 – The Hong Kong Polytechnic University and Beijing Simple AI Technology Co., Ltd. (Simple AI) officially launched their strategic partnership through a Memorandum of Understanding (MOU) signing ceremony. Held at PolyU’s Chiang Chen Studio Theatre (AG204), the event brought together key representatives from both institutions to exchange the agreement and discuss future collaborations in embodied intelligent robotics. This partnership underscores PolyU’s commitment to advancing industry-academia synergies and driving innovation in AI-driven technologies for real-world applications.</p>
+<div class="post-body">
+<p>On 19 January 2026, The Hong Kong Polytechnic University (PolyU) and Beijing Simple AI Technology Co., Ltd. (Simple AI) officially launched their strategic partnership with a Memorandum of Understanding (MOU) signing ceremony at PolyU’s Chiang Chen Studio Theatre (AG204), Hong Kong. Representatives from both institutions exchanged the agreement and discussed future collaboration in embodied intelligent robotics. The partnership reflects PolyU’s commitment to industry-academia collaboration and to AI-driven technologies for real-world applications.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0119_simpleai/3.png" alt="Team Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="/images/news/0119_simpleai/1.jpg" alt="Representatives of PolyU and Simple AI exchanging the MOU"></figure>
 </div>
+<p class="news-caption">PolyU – Simple AI Strategic Collaboration Launch &amp; MOU Exchange Ceremony.</p>
 
-<p>The ceremony was hosted by Prof. Weisong WEN from TAS Lab. Attendees from PolyU included Ir Prof. H.C. Man, Dean of the Faculty of Engineering, Prof. Crystal Shi from the School of Hotel and Tourism Management, and Dr. Runqiu Yang from TAS Lab. Representing Simple AI were Founder and CEO Dr. Xiaofei Li, Vice President Yutang Tang, and Marketing Director Hui Wang.</p>
+<p>The ceremony was hosted by Prof. Weisong Wen from the Trustworthy AI and Autonomous Systems Laboratory (TASLAB). Attendees from PolyU included Ir Prof. H.C. Man, Dean of the Faculty of Engineering; Prof. Crystal Shi from the School of Hotel and Tourism Management; and Dr. Runqiu Yang from TASLAB. Simple AI was represented by Founder and CEO Dr. Xiaofei Li, Vice President Yutang Tang and Marketing Director Hui Wang.</p>
 
-<p>The MOU outlines a framework for joint efforts in several key areas of embodied intelligent robotics:</p>
+<h3 id="areas-of-collaboration">Areas of collaboration</h3>
+
+<p>The MOU sets out a framework for joint work in several key areas of embodied intelligent robotics:</p>
 
 <ol>
   <li>
-<strong>Joint Research and Development</strong>: Focusing on the design and optimization of robot “brains” using AI-driven control systems, including End-to-End Learning, Vision-Language-Navigation (VLN), and Vision-Language-Action (VLA) models for robust perception, real-time reasoning, and precise execution in dynamic environments.</li>
+<strong>Joint Research and Development</strong>: design and optimization of robot “brains” using AI-driven control systems, including End-to-End Learning, Vision-Language-Navigation (VLN) and Vision-Language-Action (VLA) models, for robust perception, real-time reasoning and precise execution in dynamic environments.</li>
   <li>
-<strong>Closed-Loop Systems Development</strong>: Building systems that integrate behavioral AI models with real-world data from simulated and actual scenarios, addressing challenges like data scarcity in unstructured settings such as hotels, nursing homes, and homes.</li>
+<strong>Closed-Loop Systems Development</strong>: building systems that integrate behavioral AI models with real-world data from simulated and actual scenarios, addressing challenges such as data scarcity in unstructured settings like hotels, nursing homes and homes.</li>
   <li>
-<strong>Integration of TAS Lab Expertise</strong>： Leveraging PolyU’s Trustworthy AI and Autonomous Systems Laboratory (TAS Lab) for high-precision positioning algorithms and multi-sensor fusion to ensure safety in autonomous operations, providing fail-safe checks against AI-driven perception in complex indoor environments.</li>
+<strong>Integration of TASLAB Expertise</strong>: using TASLAB’s high-precision positioning algorithms and multi-sensor fusion to ensure safety in autonomous operations, providing fail-safe checks on AI-driven perception in complex indoor environments.</li>
   <li>
-<strong>Phased Proof-of-Concept Pilots and Industrialization</strong>: Executing pilots in sectors like hotel services (utilizing Simple AI’s partnerships with major hotel groups and PolyU’s leadership in Hospitality &amp; Tourism Management), elderly care, and family environments, enhancing robots’ generalization, long-horizon task planning, emotional intelligence, adaptive learning, and self-evolutionary capabilities.</li>
+<strong>Phased Proof-of-Concept Pilots and Industrialization</strong>: running pilots in hotel services (drawing on Simple AI’s partnerships with major hotel groups and PolyU’s leadership in Hospitality &amp; Tourism Management), elderly care and family environments, improving the robots’ generalization, long-horizon task planning, emotional intelligence, adaptive learning and self-evolutionary capabilities.</li>
 </ol>
 
-<p>These initiatives aim to propel advancements in assistive robotics, fostering solutions for societal needs in hospitality, elderly care, and beyond.</p>
+<p>These initiatives aim to advance assistive robotics and to provide solutions for societal needs in hospitality, elderly care and beyond.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0119_simpleai/1.png" alt="Team Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="2">
+  <figure><img src="/images/news/0119_simpleai/3.jpg" alt="Representatives of PolyU and Simple AI in discussion"></figure>
+  <figure><img src="/images/news/0119_simpleai/2.png" alt="Group photo at the MOU exchange ceremony"></figure>
 </div>
+<p class="news-caption">Discussion on future collaboration and a group photo after the ceremony.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0119_simpleai/2.png" alt="Team Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
   </section>
 
@@ -551,7 +554,7 @@
     
       <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
       <a href="/events/2026-01-18-TasFusion.html">
-        PolyU TAS LAB Releases TasFusion - A GNSS/IMU Sliding-Window Optimization Framework
+        PolyU TASLAB Releases TasFusion - A GNSS/IMU Sliding-Window Optimization Framework
       </a>
     
   </span>
@@ -559,7 +562,7 @@
     
       Next post <i class="icon fa-solid fa-angle-right"></i><br>
       <a href="/events/2026-01-28-Rino-AI-SFExpress-Visit.html">
-        TAS Team Meets with SF Express(Hong Kong) and Rino AI to Discuss Smart Logistics and Autonomous Campus Delivery Collaboration
+        TASLAB Team Meets with SF Express (Hong Kong) and Rino AI to Discuss Smart Logistics and Autonomous Campus Delivery Collaboration
       </a>
     
   </span>
@@ -568,21 +571,17 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -594,25 +593,25 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -624,10 +623,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -639,10 +638,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -654,10 +653,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -669,24 +668,14 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

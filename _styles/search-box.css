@@ -60,7 +60,7 @@
 
 .suggestion-title {
   font-weight: 600;
-  color: var(--primary, #1a73e8);
+  color: var(--primary, #9e2435);
   font-size: 1.05em;
 }
 
@@ -75,7 +75,7 @@
 
 .suggestion-tag {
   background: var(--light-gray, #f5f5f5);
-  color: var(--primary, #1a73e8);
+  color: var(--primary, #9e2435);
   border-radius: 999px;
   padding: 2px 10px;
   font-size: 0.9em;
@@ -92,8 +92,8 @@
 }
 
 .search-box .search-input:focus {
-  border-color: var(--primary, #1a73e8);
-  box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.08);
+  border-color: var(--primary, #9e2435);
+  box-shadow: 0 0 0 2px rgba(158, 36, 53, 0.08);
 }
 
 .search-box button {
@@ -111,7 +111,7 @@
 
 .search-box button:hover {
   background: var(--light-gray, #eaeaea);
-  border-color: var(--primary, #1a73e8);
+  border-color: var(--primary, #9e2435);
 }
 
 /*# sourceMappingURL=search-box.css.map */

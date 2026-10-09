@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>Safety-certifiable Multi-Sensor Fusion | TAS LAB</title>
 
-<link rel="icon" href="/images/icon.png">
+<link rel="icon" href="/images/icon.jpg">
 
 <meta name="title" content="Safety-certifiable Multi-Sensor Fusion">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -74,7 +73,7 @@
     "headline": "Safety-certifiable Multi-Sensor Fusion",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
     },
     "url": "https://polyu-taslab.github.io"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://polyu-taslab.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/components.css" rel="stylesheet">
   
 
   
@@ -324,6 +324,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -353,18 +355,15 @@
 
 
 </head>
-
-  <body>
+<body class="has-banner">
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/" class="home">
+<header class="site-header">
+  <a href="/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -428,49 +427,65 @@
     
     
       
-        <a href="/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/research/" data-tooltip="Research directions, systems and demos" class="active" aria-current="page">
+        Research
+      </a>
     
       
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    <div class="page-banner" style="--banner: url('/images/home/banner-campus.jpg')">
+  <div class="page-banner-inner">
+    <div class="page-banner-text">
+      <p class="page-banner-eyebrow">Research direction</p>
+      <h1 class="page-banner-title">Safety-certifiable Multi-Sensor Fusion</h1>
+      
+      <p class="page-banner-sub">Robot navigation that knows when it can be trusted</p>
+    </div>
+    <div class="page-banner-logos" aria-label="The Hong Kong Polytechnic University · Department of Aeronautical and Aviation Engineering">
+      <img src="/images/logo/polyu_logo_white.png" alt="The Hong Kong Polytechnic University">
+      <img src="/images/logo/aaelogo_white.png" alt="Department of Aeronautical and Aviation Engineering">
+    </div>
+  </div>
+</div>
+
     <main>
       <!--
   modify main content of page:
@@ -488,24 +503,40 @@
   
   
 
-  <section class="background" data-size="0.97em; line-height: 1.65; margin-bottom: 0.5em">
-    <h1 id="-safety-certifiable-multi-sensor-fusion-for-robotic-navigation-in-urban-scenes">🔒 Safety-certifiable Multi-Sensor Fusion for Robotic Navigation in Urban Scenes</h1>
+  <section class="background" data-size="page">
+    <div class="rt-intro">
+  <a class="project-back" href="/research/">← All research directions</a>
+  <div class="rt-intro-grid">
+    <div class="rt-intro-text">
+      <p>Visual and LiDAR SLAM are challenged in complex urban scenes: moving vehicles, repetitive structures and degraded GNSS
+make errors appear silently. For autonomous systems that must be certified, an accurate answer is not enough — the
+system also has to bound its own error.</p>
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
-The <b class="blue">visual/LiDAR SLAM methods are challenged in complex urban scenarios</b>, especially when safety certification is required for autonomous systems. In this project, we aim to study the mechanism of the impacts caused by dynamic scenarios on the visual/LiDAR SLAM methods, and develop <b class="blue">safety-certifiable navigation algorithms</b> that can quantify and guarantee the reliability of localization results. We try to answer the questions of how dynamic objects affect the state estimation of visual/LiDAR SLAM methods, how to improve robustness, and how to provide <b class="blue">safety-quantifiable localization</b> for robotics in complex urban environments.
+<p>We study how dynamic scenes affect visual, LiDAR and inertial state estimation, make the fusion robust to them, and
+bring aviation-style <strong>integrity monitoring</strong> — fault detection, exclusion and protection levels — to robots, cars,
+aircraft and wearables.</p>
+
+      
+      <ul class="rt-chips">
+        <li>GNSS/LiDAR/camera/IMU fusion</li>
+<li>Integrity monitoring</li>
+<li>Protection levels</li>
+<li>Prior-map localisation</li>
+<li>Inertial deep learning</li>
+<li>Factor graph optimisation</li>
+      </ul>
+      
+    </div>
+    
+    <figure class="rt-figure">
+      <a href="/images/project/multi-sensor.jpg" target="_blank" rel="noopener">
+        <img src="/images/project/multi-sensor.jpg" alt="GNSS/LiDAR/visual/inertial integration for robot navigation">
+      </a>
+      <figcaption>GNSS/LiDAR/visual/inertial integration for robot navigation</figcaption>
+    </figure>
+    
+  </div>
 </div>
-
-<p align="center">
-  <img width="600" src="/images/project/multi-sensor.jpg" alt="Multi-Sensor Fusion">
-</p>
-<center><i>GNSS/LiDAR/Visual/INS Integration for Robotics Navigation</i></center>
-
-<p align="center">
-  <img width="600" src="/images/project/visualSafety.png" alt="Safety-certifiable Visual Localization">
-</p>
-<center><i>Safety-certifiable Visual Localization with 3D Prior Map</i></center>
-
-<p><a href="/research" style="font-size: 0.9em;">← Back to all Research Directions</a></p>
   </section>
 
   
@@ -519,22 +550,32 @@ The <b class="blue">visual/LiDAR SLAM methods are challenged in complex urban sc
   size: ;
 -->
 
-<h2 id="recent-news">Recent News</h2>
-
-<ul>
-<li>The manuscript entitled "<b class="blue"><a href="https://arxiv.org/abs/2211.15127">Safety-quantifiable Line Feature-based Monocular Visual Localization with 3D Prior Map</a></b>" is accepted in the <b class="blue">IEEE Transactions on Intelligent Transportation Systems</b>. The video is available on <a href="https://www.youtube.com/watch?v=W_i-LOaLP4o&feature=youtu.be">YouTube</a> and <a href="https://www.bilibili.com/video/BV1814y1E79T/">Bilibili</a>.</li>
-<li>September 2022, 1 paper accepted in <b class="blue">IET Intelligent Transport Systems</b>.
-  <ul>
-  <li>Zhong, Y., Huang, F., Zhang, J., <b class="blue">Wen, W</b>., Hsu, L.-T.: Low-cost solid-state LiDAR/inertial-based localization with prior map for autonomous systems in urban scenarios. IET Intell. Transp. Syst., 2022.</li>
-  </ul>
-</li>
-<li>Aug 2022, 1 paper on LiDAR SLAM accepted in <b class="blue">NAVIGATION: Journal of the Institute of Navigation</b>.
-  <ul>
+<h2 id="approach">Our Approach</h2>
+<ol class="rt-pillars" data-count="3">
+  
   <li>
-<b class="blue">Wen, W</b>., &amp; Hsu, L.T. (2022). AGPC-SLAM: Absolute Ground Plane Constrained 3D Lidar SLAM. NAVIGATION, 69(3).</li>
-  </ul>
-</li>
-</ul>
+    <h3>Robust fusion in dynamic scenes</h3>
+    <p>Detect and remove moving objects and outliers so that LiDAR, visual and inertial odometry stay consistent in crowded streets.</p>
+  </li>
+  
+  <li>
+    <h3>Safety-quantifiable localisation</h3>
+    <p>Line- and plane-feature localisation against 3D prior maps, with a quantified error bound for every pose.</p>
+  </li>
+  
+  <li>
+    <h3>Integrity monitoring for multi-sensor systems</h3>
+    <p>Fault modes, alert limits and protection levels adapted from aviation ARAIM to urban vehicles, aircraft and wearables.</p>
+  </li>
+  
+</ol>
+
+<figure class="rt-figure rt-figure-wide">
+  <a href="/images/project/visualSafety.png" target="_blank" rel="noopener">
+    <img src="/images/project/visualSafety.png" alt="Safety-certifiable visual localisation with a 3D prior map" loading="lazy">
+  </a>
+  <figcaption>Safety-certifiable visual localisation with a 3D prior map</figcaption>
+</figure>
   </section>
 
   
@@ -548,32 +589,226 @@ The <b class="blue">visual/LiDAR SLAM methods are challenged in complex urban sc
   size: ;
 -->
 
-<h2 id="video-demonstration">Video Demonstration</h2>
-
-<p align="center">
-  <iframe width="475" height="267" src="https://www.youtube.com/embed/W_i-LOaLP4o" title="Safety-quantifiable Line Feature-based Monocular Visual Localization with 3D Prior Map" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</p>
-<center><i>Safety-quantifiable Line Feature-based Monocular Visual Localization with 3D Prior Map</i></center>
-
-<p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/vrxQQMUQdD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</p>
-<center><i>Multi-sensor Integration Navigation System for Autonomous Driving</i></center>
-
-<p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/iOp-QNSww40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</p>
-<center><i>Demonstration: Low-cost Solid-state LiDAR/Inertial Based Localization with Prior Map</i></center>
-
-<p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/X_t4EDOdKMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</p>
-<center><i>Presentation in ION GNSS+ 2021: A Coarse-to-Fine LiDAR-Based SLAM with Dynamic Object Removal</i></center>
-
-<p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/PJOSsWc8AhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</p>
-<center><i>Presentation in ION GNSS+ 2021: Continuous GNSS-RTK Aided by LiDAR/Inertial Odometry</i></center>
+<h2 id="research-in-action">Research in Action</h2>
+<p class="rt-section-lead">Systems we have built and tested with partners. Open a card for the problem, our approach, results and photos.</p>
+<div class="rw-grid">
+  
+  <article class="rw-card" id="safety-certified-av-fusion">
+    <a class="rw-media" href="/images/projects/safety-certified-av-fusion/cover.jpg" target="_blank" rel="noopener">
+      <img src="/images/projects/safety-certified-av-fusion/cover.jpg" alt="Safety-Certified Multi-Source Fusion Positioning for Autonomous Vehicles" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Safety-Certified Multi-Source Fusion Positioning for Autonomous Vehicles</h3>
+      <p class="rw-summary">Integrity monitoring brought from aviation into urban autonomous-vehicle positioning.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>ARAIM</b> integrity method</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>AV positioning in cities fails silently: sensors degrade together and no alert limit tells the planner when to stop trusting it.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Urban alert limits derived from lane geometry and vehicle size</li>
+<li>Fault modes catalogued for GNSS, LiDAR and camera in urban scenes</li>
+<li>ARAIM-style fault detection, exclusion and protection levels for multi-sensor fusion</li>
+        </ul>
+        <p><span class="rw-label">Results</span>Operational and safety-requirement report, system design and final test report.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/images/projects/safety-certified-av-fusion/1.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/safety-certified-av-fusion/1.jpg" alt="Safety-certified positioning concept (final presentation)" loading="lazy">
+            </a>
+            <figcaption>Safety-certified positioning concept (final presentation)</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/images/projects/safety-certified-av-fusion/2.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/safety-certified-av-fusion/2.jpg" alt="Fusion framework" loading="lazy">
+            </a>
+            <figcaption>Fusion framework</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/images/projects/safety-certified-av-fusion/3.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/safety-certified-av-fusion/3.jpg" alt="Urban test results" loading="lazy">
+            </a>
+            <figcaption>Urban test results</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="comac-autonomous-landing">
+    <a class="rw-media" href="/images/projects/comac-autonomous-landing/cover.jpg" target="_blank" rel="noopener">
+      <img src="/images/projects/comac-autonomous-landing/cover.jpg" alt="Autonomous Take-off/Landing and Obstacle Avoidance for Civil Aircraft" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Autonomous Take-off/Landing and Obstacle Avoidance for Civil Aircraft</h3>
+      <p class="rw-summary">Multi-source fusion for safety-critical take-off, landing and obstacle avoidance of civil aircraft.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>±0.3 m</b> runway-centreline target</li>
+<li>
+<b>10</b> test scenarios</li>
+<li>
+<b>TRL 4→5</b> technology-readiness target</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Instrument landing depends on ground signals, single sensors can be jammed or spoofed, and vision degrades at night, in haze and in glare.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Multispectral vision (visible, infrared, event camera) fused with IMU and GNSS</li>
+<li>Visual-inertial navigation with RAIM-style integrity checks and robust MPC control</li>
+<li>Digital-twin test bench with 10 scenarios: night, haze, GPS failure, wind gusts and joint faults</li>
+        </ul>
+        <p><span class="rw-label">Results</span>Multispectral perception and VIO prototype, robust MPC module, digital-twin platform and a TRL-5 validation report.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/images/projects/comac-autonomous-landing/1.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/comac-autonomous-landing/1.jpg" alt="Civil-aircraft approach scenario" loading="lazy">
+            </a>
+            <figcaption>Civil-aircraft approach scenario</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/images/projects/comac-autonomous-landing/2.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/comac-autonomous-landing/2.jpg" alt="Technical framework" loading="lazy">
+            </a>
+            <figcaption>Technical framework</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/images/projects/comac-autonomous-landing/3.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/comac-autonomous-landing/3.jpg" alt="Development roadmap" loading="lazy">
+            </a>
+            <figcaption>Development roadmap</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="ai-inertial-navigation">
+    <a class="rw-media" href="/images/projects/ai-inertial-navigation/cover.jpg" target="_blank" rel="noopener">
+      <img src="/images/projects/ai-inertial-navigation/cover.jpg" alt="AI-Assisted Inertial Navigation System" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">AI-Assisted Inertial Navigation System</h3>
+      <p class="rw-summary">Deep-learning inertial odometry for phones and wearables, now deployed on consumer devices.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>60K+</b> devices deployed</li>
+<li>
+<b>Certified</b> technology application</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Phones and wearables must keep tracking users where GNSS is weak, using only noisy IMU and magnetometer data.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Deep-learning inertial odometry from accelerometer, gyroscope and magnetometer</li>
+<li>Trajectory output with confidence for downstream fusion</li>
+<li>Adaptive error-state Kalman filter for wearable attitude</li>
+        </ul>
+        <p><span class="rw-label">Results</span>Certificate of technology application from the partner.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/images/projects/ai-inertial-navigation/1.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/ai-inertial-navigation/1.jpg" alt="AI inertial navigation framework" loading="lazy">
+            </a>
+            <figcaption>AI inertial navigation framework</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/images/projects/ai-inertial-navigation/2.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/ai-inertial-navigation/2.jpg" alt="Wearable AI-PDR" loading="lazy">
+            </a>
+            <figcaption>Wearable AI-PDR</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/images/projects/ai-inertial-navigation/3.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/ai-inertial-navigation/3.jpg" alt="Technology application certificate" loading="lazy">
+            </a>
+            <figcaption>Technology application certificate</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="max-consensus-gnss-lidar">
+    <a class="rw-media" href="/images/projects/max-consensus-gnss-lidar/cover.jpg" target="_blank" rel="noopener">
+      <img src="/images/projects/max-consensus-gnss-lidar/cover.jpg" alt="Maximum Consensus Integration of GNSS and LiDAR for Urban Navigation" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Maximum Consensus Integration of GNSS and LiDAR for Urban Navigation</h3>
+      <p class="rw-summary">Outlier-robust urban navigation with Leibniz University Hannover: keep only the GNSS and LiDAR measurements that agree with each other.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>2</b> universities</li>
+<li>
+<b>Exchange</b> visits both ways</li>
+<li>
+<b>Robust</b> outlier rejection</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>GNSS and LiDAR measurements in cities contain many outliers that break least-squares and Kalman estimators.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Maximum-consensus estimation that keeps only mutually consistent measurements</li>
+<li>Joint GNSS–LiDAR formulation for urban vehicles</li>
+<li>Student and staff exchange between Hong Kong and Hannover</li>
+        </ul>
+        <p><span class="rw-label">Results</span>Built a lasting research link with Leibniz University Hannover.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/images/projects/max-consensus-gnss-lidar/1.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/max-consensus-gnss-lidar/1.jpg" alt="Robust estimation pipeline" loading="lazy">
+            </a>
+            <figcaption>Robust estimation pipeline</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/images/projects/max-consensus-gnss-lidar/2.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/max-consensus-gnss-lidar/2.jpg" alt="Joint data collection platforms" loading="lazy">
+            </a>
+            <figcaption>Joint data collection platforms</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+</div>
   </section>
 
   
@@ -587,21 +822,66 @@ The <b class="blue">visual/LiDAR SLAM methods are challenged in complex urban sc
   size: ;
 -->
 
-<h2 id="related-papers--corresponding-author">Related Papers (*: Corresponding author)</h2>
+<h2 id="videos">Video Demonstrations</h2>
+<div class="rt-videos">
+  <figure class="video-card">
+  <div class="video-frame">
+    
+    <button type="button" class="video-lite" aria-label="Play: Safety-quantifiable line-feature monocular visual localisation with a 3D prior map" data-src="https://www.youtube-nocookie.com/embed/W_i-LOaLP4o?autoplay=1&rel=0" style="background-image: url('https://i.ytimg.com/vi/W_i-LOaLP4o/hqdefault.jpg')">
+      <span class="video-play" aria-hidden="true"></span>
+    </button>
+    
+  </div>
+  <figcaption>Safety-quantifiable line-feature monocular visual localisation with a 3D prior map</figcaption>
+</figure>
+<figure class="video-card">
+  <div class="video-frame">
+    
+    <button type="button" class="video-lite" aria-label="Play: Multi-sensor integrated navigation system for autonomous driving" data-src="https://www.youtube-nocookie.com/embed/vrxQQMUQdD4?autoplay=1&rel=0" style="background-image: url('https://i.ytimg.com/vi/vrxQQMUQdD4/hqdefault.jpg')">
+      <span class="video-play" aria-hidden="true"></span>
+    </button>
+    
+  </div>
+  <figcaption>Multi-sensor integrated navigation system for autonomous driving</figcaption>
+</figure>
+<figure class="video-card">
+  <div class="video-frame">
+    
+    <button type="button" class="video-lite" aria-label="Play: Low-cost solid-state LiDAR/inertial localisation with a prior map" data-src="https://www.youtube-nocookie.com/embed/iOp-QNSww40?autoplay=1&rel=0" style="background-image: url('https://i.ytimg.com/vi/iOp-QNSww40/hqdefault.jpg')">
+      <span class="video-play" aria-hidden="true"></span>
+    </button>
+    
+  </div>
+  <figcaption>Low-cost solid-state LiDAR/inertial localisation with a prior map</figcaption>
+</figure>
+<figure class="video-card">
+  <div class="video-frame">
+    
+    <button type="button" class="video-lite" aria-label="Play: ION GNSS+ 2021 talk: coarse-to-fine LiDAR SLAM with dynamic object removal" data-src="https://www.youtube-nocookie.com/embed/X_t4EDOdKMY?autoplay=1&rel=0" style="background-image: url('https://i.ytimg.com/vi/X_t4EDOdKMY/hqdefault.jpg')">
+      <span class="video-play" aria-hidden="true"></span>
+    </button>
+    
+  </div>
+  <figcaption>ION GNSS+ 2021 talk: coarse-to-fine LiDAR SLAM with dynamic object removal</figcaption>
+</figure>
 
-<style>
-p[align="center"] { text-align: center !important; }
-p[align="center"] img, p[align="center"] iframe { display: inline-block; max-width: 100%; }
-center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
-.pub-list { list-style: none; padding-left: 0; }
-.pub-item { margin: 10px 0; padding: 10px 14px; border-left: 3px solid var(--primary, #0795d9); background: #f9fbfd; font-size: 0.92em; line-height: 1.55; }
-.pub-title { font-weight: 600; color: var(--primary, #0795d9); }
-.pub-authors { font-size: 0.9em; color: #444; }
-.pub-venue { font-size: 0.88em; color: #555; font-style: italic; }
-.pub-meta { font-size: 0.85em; color: #888; }
-</style>
+</div>
+  </section>
 
-<h3>2025</h3>
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="selected-publications">Selected Publications</h2>
+
+<h3 class="pub-year">2025</h3>
 
 <ul class="pub-list">
 <li class="pub-item">
@@ -629,7 +909,7 @@ center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
 </li>
 </ul>
 
-<h3>2024</h3>
+<h3 class="pub-year">2024</h3>
 
 <ul class="pub-list">
 <li class="pub-item">
@@ -653,7 +933,7 @@ center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
 </li>
 </ul>
 
-<h3>2023</h3>
+<h3 class="pub-year">2023</h3>
 
 <ul class="pub-list">
 <li class="pub-item">
@@ -665,7 +945,7 @@ center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
 </li>
 </ul>
 
-<h3>2018–2022</h3>
+<h3 class="pub-year">2018–2022</h3>
 
 <ul class="pub-list">
 <li class="pub-item">
@@ -689,320 +969,36 @@ center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
 </li>
 </ul>
 
-<p style="text-align:right;font-size:0.88em;margin-top:8px;"><a href="/publications" style="color:var(--primary, #1a73e8);">→ Full publication list</a></p>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="acknowledgement-and-collaborators">Acknowledgement and Collaborators</h2>
-
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
-This research is supported by government and industry partners, including <b class="blue">Hong Kong Polytechnic University</b>, <b class="blue">Guangdong Basic and Applied Basic Research Foundation</b>, and <b class="blue">Huawei Technologies</b>. We collaborate with leading research groups in multi-sensor fusion and safety-certifiable navigation.
-</div>
-
-<p align="center">
-  <img width="700" src="/images/project/funding.jpg" alt="Funding and Collaborators">
-</p>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="projects-3">Projects (3)</h2>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2025/02/16/Safety-certified_Multi-source_Fusion_Positioning_for_Autonomous_Vehicles_in_Complex_Scenarios.html">Safety-certified Multi-source Fusion Positioning for Autonomous Vehicles in Complex Scenarios</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>February 16, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
+<p class="pub-more"><a href="/publications">Full publication list →</a></p>
 
 
-  
-
-
-  <div class="tags" data-link="/blog">
-    
-      <a href="blog?search=%22tag:%20localization%22" class="tag" data-tooltip='Show items with the tag "localization"'>
-        localization
-      </a>
-    
-      <a href="blog?search=%22tag:%20sensor%22" class="tag" data-tooltip='Show items with the tag "sensor"'>
-        sensor
-      </a>
-    
-      <a href="blog?search=%22tag:%20fusion%22" class="tag" data-tooltip='Show items with the tag "fusion"'>
-        fusion
-      </a>
-    
-      <a href="blog?search=%22tag:%20safety%22" class="tag" data-tooltip='Show items with the tag "safety"'>
-        safety
-      </a>
-    
-      <a href="blog?search=%22tag:%20autonomous%22" class="tag" data-tooltip='Show items with the tag "autonomous"'>
-        autonomous
-      </a>
-    
-      <a href="blog?search=%22tag:%20vehicle%22" class="tag" data-tooltip='Show items with the tag "vehicle"'>
-        vehicle
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="p Innovation and Technology Commission p h2 id funding-body Funding Body h2 p Innovation and Technology Commission p div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project huawei mapping.gif alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div">
-        Innovation and Technology Commission
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-      <a href="/2024/10/14/AI_assisted_inertial_navigation_system.html" class="post-excerpt-image" aria-label="AI assisted inertial navigation system">
-        <img src="/images/project/Honor.png" alt="AI assisted inertial navigation system" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2024/10/14/AI_assisted_inertial_navigation_system.html">AI assisted inertial navigation system</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>October 14, 2024</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-  <div class="tags" data-link="/blog">
-    
-      <a href="blog?search=%22tag:%20inertial%22" class="tag" data-tooltip='Show items with the tag "inertial"'>
-        inertial
-      </a>
-    
-      <a href="blog?search=%22tag:%20navigation%22" class="tag" data-tooltip='Show items with the tag "navigation"'>
-        navigation
-      </a>
-    
-      <a href="blog?search=%22tag:%20system%22" class="tag" data-tooltip='Show items with the tag "system"'>
-        system
-      </a>
-    
-      <a href="blog?search=%22tag:%20ai%22" class="tag" data-tooltip='Show items with the tag "ai"'>
-        ai
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="p This project aims to develop a deep learning-based inertial navigation algorithm that utilizes accelerometer, gyroscope, and magnetometer data from smart wearables and smartphones to infer the user s position and movement trajectory, while providing corresponding confidence levels p h2 id introduction Introduction h2 p Inertial odometry is a critical technology used in various applications, from robotics and autonomous vehicles to augmented reality AR and wearable devices. It involves estimating the position and orientation of an object over time using data from inertial measurement units IMUs , which typically include accelerometers and gyroscopes. However, traditional inertial odometry systems often face challenges such as sensor noise, bias, and drift, which can lead to cumulative errors and reduced accuracy over time. To address these challenges, AI-aided inertial odometry has emerged as a promising solution, leveraging the power of artificial intelligence to enhance the performance and reliability of inertial navigation systems. By integrating AI techniques such as machine learning and sensor fusion, these systems can intelligently process and interpret IMU data, correcting for errors and improving overall accuracy. AI-aided inertial odometry systems can learn from patterns in sensor data, adapt to different environments, and integrate information from multiple sources, such as cameras and GPS, to provide more robust and precise motion tracking. This advancement not only mitigates the limitations of traditional inertial systems but also opens up new possibilities for applications in complex and dynamic environments where traditional methods may fall short. As AI continues to evolve, its integration with inertial odometry is expected to drive significant innovations across various fields, enhancing the capabilities of autonomous systems and enriching user experiences in wearable devices. strong This project aims to develop a deep learning-based inertial navigation algorithm that utilizes accelerometer, gyroscope, and magnetometer data from smart wearables and smartphones to infer the user s position and movement trajectory, while providing corresponding confidence levels strong . p h2 id funding-body Funding Body h2 p Honor 上海榮耀智慧科技開發有限公司 Collaborative Research p div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project Honorr.gif alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div">
-        This project aims to develop a deep learning-based inertial navigation algorithm that utilizes accelerometer, gyroscope, and magnetometer data from smart wearables and smartphones to infer the user’s position and movement trajectory, while providing corresponding confidence levels
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-      <a href="/2024/04/08/Development_of_an_Assisted_Navigation_and_Collision_Avoidance_System_using_AI_and_Location-based_Service.html" class="post-excerpt-image" aria-label="Development of an Assisted Navigation and Collision Avoidance System using AI and Location-based Service">
-        <img src="/images/project/stf/demo_gif.gif" alt="Development of an Assisted Navigation and Collision Avoidance System using AI and Location-based Service" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2024/04/08/Development_of_an_Assisted_Navigation_and_Collision_Avoidance_System_using_AI_and_Location-based_Service.html">Development of an Assisted Navigation and Collision Avoidance System using AI and Location-based Service</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>April 08, 2024</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-  <div class="tags" data-link="/blog">
-    
-      <a href="blog?search=%22tag:%20positioning%22" class="tag" data-tooltip='Show items with the tag "positioning"'>
-        positioning
-      </a>
-    
-      <a href="blog?search=%22tag:%20services%22" class="tag" data-tooltip='Show items with the tag "services"'>
-        services
-      </a>
-    
-      <a href="blog?search=%22tag:%20multi-vehicle%22" class="tag" data-tooltip='Show items with the tag "multi-vehicle"'>
-        multi-vehicle
-      </a>
-    
-      <a href="blog?search=%22tag:%20collaborative%22" class="tag" data-tooltip='Show items with the tag "collaborative"'>
-        collaborative
-      </a>
-    
-      <a href="blog?search=%22tag:%20sensing%22" class="tag" data-tooltip='Show items with the tag "sensing"'>
-        sensing
-      </a>
-    
-      <a href="blog?search=%22tag:%20ai%22" class="tag" data-tooltip='Show items with the tag "ai"'>
-        ai
-      </a>
-    
-      <a href="blog?search=%22tag:%20aided%22" class="tag" data-tooltip='Show items with the tag "aided"'>
-        aided
-      </a>
-    
-      <a href="blog?search=%22tag:%20gnss%22" class="tag" data-tooltip='Show items with the tag "gnss"'>
-        gnss
-      </a>
-    
-      <a href="blog?search=%22tag:%20signal%22" class="tag" data-tooltip='Show items with the tag "signal"'>
-        signal
-      </a>
-    
-      <a href="blog?search=%22tag:%20tracing%22" class="tag" data-tooltip='Show items with the tag "tracing"'>
-        tracing
-      </a>
-    
-      <a href="blog?search=%22tag:%20sensor%22" class="tag" data-tooltip='Show items with the tag "sensor"'>
-        sensor
-      </a>
-    
-      <a href="blog?search=%22tag:%20integration%22" class="tag" data-tooltip='Show items with the tag "integration"'>
-        integration
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="h2 id abstract Abstract h2 p Urban roadways often face challenges such as building-induced obstructions, creating significant blind spots and positioning inaccuracies that hinder safe lane spacing and inter-vehicle distance management. Existing solutions lack cost-effective enhancements for positioning and over-the-horizon collaborative sensing technologies, particularly in dense urban environments. p p To address these issues, this project proposes a low-cost, high-precision co-location solution specifically designed for urban canyons. Additionally, a collision avoidance warning application is developed to provide early warnings and emergency interventions for collision risks in blind spots. p p The proposed approach integrates advanced methodologies: 1 Lane-level positioning services utilizing Real-Time Kinematic RTK and 3D city maps for precise lane-level positioning, 2 Multi-vehicle collaborative sensing leveraging artificial intelligence AI and RTK to enable over-the-horizon sensing and early warnings, and 3 Dynamic model optimization using AI to refine positioning accuracy and develop a prototype multi-vehicle collision avoidance system. p p The solution achieves lane-level positioning accuracy with an error margin of less than 0.5 meters and provides collision risk warnings at varying inter-vehicle distances. By significantly reducing traffic accidents caused by urban road challenges, this project offers a transformative step toward safer and more reliable urban transportation systems. p h2 id funding-body Funding Body h2 p Smart Traffic Fund p h2 id researcher Researcher h2 p a href https: polyu-taslab.github.io members Wen Weisong.html Dr. Weisong Wen a , Dr. Li-Ta Hsu, Dr. Guohao Zhang, Dr. Jian Liu, a href https: polyu-taslab.github.io members Huang Feng.html Feng Huang a , a href https: polyu-taslab.github.io members liu xikun.html Xikun Liu a a href https: polyu-taslab.github.io members yihan zhong.html Yihan Zhong a a href https: polyu-taslab.github.io members wang xin.html Xin Wang a , Yuan Li a href https: polyu-taslab.github.io members runzhi hu.html Runzhi Hu a p h2 id status Status h2 p Completed p h2 id system-framework System Framework h2 div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project stf pipeline.png alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div h2 id demonstration Demonstration h2 div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project stf demo gif.gif alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div h2 id achievements Achievements h2 ul li Li, Y., Liu, X., Wen, W., Hsu, L. T., Yuan, Y., Bian, G., amp; Chen, Q. 2024, September . Factor Graph Optimization Based Multi Epoch Ambiguity Resolution for GNSS RTK and its Evaluation in Hong Kong Urban Canyons. In Proceedings of the 37th International Technical Meeting of the Satellite Division of The Institute of Navigation ION GNSS 2024 pp. 2151-2162 . li ul">
-        Abstract
-
-      </p>
-    </div>
-  </div>
-</div>
+<script>
+  document.addEventListener("click", function (event) {
+    var button = event.target.closest(".video-lite");
+    if (!button) return;
+    var frame = document.createElement("iframe");
+    frame.src = button.dataset.src;
+    frame.title = button.getAttribute("aria-label");
+    frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+    frame.allowFullscreen = true;
+    button.replaceWith(frame);
+  });
+</script>
   </section>
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -1014,25 +1010,25 @@ This research is supported by government and industry partners, including <b cla
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1044,10 +1040,10 @@ This research is supported by government and industry partners, including <b cla
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1059,10 +1055,10 @@ This research is supported by government and industry partners, including <b cla
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1074,10 +1070,10 @@ This research is supported by government and industry partners, including <b cla
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1089,24 +1085,14 @@ This research is supported by government and industry partners, including <b cla
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

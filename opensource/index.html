@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>Dataset &amp; Code | TAS LAB</title>
 
-<link rel="icon" href="/images/icon.png">
+<link rel="icon" href="/images/icon.jpg">
 
 <meta name="title" content="Dataset &amp; Code">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -74,7 +73,7 @@
     "headline": "Dataset & Code",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
     },
     "url": "https://polyu-taslab.github.io"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://polyu-taslab.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/components.css" rel="stylesheet">
   
 
   
@@ -336,6 +336,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -365,18 +367,15 @@
 
 
 </head>
-
-  <body>
+<body class="has-banner">
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/" class="home">
+<header class="site-header">
+  <a href="/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -440,49 +439,65 @@
     
     
       
-        <a href="/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/opensource/" data-tooltip="Open-source datasets and code" class="active" aria-current="page">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    <div class="page-banner" style="--banner: url('/images/home/banner-campus.jpg')">
+  <div class="page-banner-inner">
+    <div class="page-banner-text">
+      <p class="page-banner-eyebrow">Trustworthy AI and Autonomous Systems Lab</p>
+      <h1 class="page-banner-title">Dataset &amp; Code</h1>
+      
+      <p class="page-banner-sub">Open-source datasets and code</p>
+    </div>
+    <div class="page-banner-logos" aria-label="The Hong Kong Polytechnic University · Department of Aeronautical and Aviation Engineering">
+      <img src="/images/logo/polyu_logo_white.png" alt="The Hong Kong Polytechnic University">
+      <img src="/images/logo/aaelogo_white.png" alt="Department of Aeronautical and Aviation Engineering">
+    </div>
+  </div>
+</div>
+
     <main>
       <!--
   modify main content of page:
@@ -504,9 +519,26 @@
     <h1 id="dataset--code">
 <i class="icon fa-solid fa-code"></i>Dataset &amp; Code</h1>
 
-<div style="text-align:justify; font-size:0.95em; line-height:1.65; margin-bottom:0.5em;">
-We are committed to <b class="blue">open science</b> and <b class="blue">reproducible research</b> by sharing our datasets, software packages, and code with the broader research community. Below are the open-source tools and resources developed by <b class="blue">TAS Lab</b>, spanning <b class="blue">GNSS positioning</b>, <b class="blue">multi-sensor fusion</b>, <b class="blue">visual localization</b>, and <b class="blue">HD mapping</b>. All repositories are publicly available on the <a href="https://github.com/PolyU-TASLAB" target="_blank"><b class="blue">TAS Lab GitHub</b></a>.
-</div>
+<p class="section-lead" style="margin: 0 auto 1.6rem; text-align: center;">
+  Open science and reproducible research: the datasets, libraries and systems developed by TAS Lab for
+  GNSS positioning, multi-sensor fusion, visual localization, HD mapping and UAV control.
+  Everything is free on <a href="https://github.com/PolyU-TASLAB" target="_blank" rel="noopener">GitHub</a>.
+</p>
+
+<ul class="oss-stats">
+  <li class="oss-stat">
+<span class="oss-stat-value">2,600+</span><span class="oss-stat-label">GitHub stars</span>
+</li>
+  <li class="oss-stat">
+<span class="oss-stat-value">13</span><span class="oss-stat-label">Open-source projects</span>
+</li>
+  <li class="oss-stat">
+<span class="oss-stat-value">3</span><span class="oss-stat-label">Public datasets</span>
+</li>
+  <li class="oss-stat">
+<span class="oss-stat-value">10</span><span class="oss-stat-label">Code libraries &amp; systems</span>
+</li>
+</ul>
   </section>
 
   
@@ -520,525 +552,319 @@ We are committed to <b class="blue">open science</b> and <b class="blue">reprodu
   size: ;
 -->
 
-<div class="search-box">
-  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
-  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
-    <i class="icon fa-solid fa-magnifying-glass"></i>
-  </button>
+<div class="oss-filters" role="group" aria-label="Filter projects">
+  <button type="button" class="oss-filter" data-filter="all" aria-pressed="true">All (13)</button>
+  <button type="button" class="oss-filter" data-filter="Dataset" aria-pressed="false">Datasets (3)</button>
+  <button type="button" class="oss-filter" data-filter="Code" aria-pressed="false">Code (10)</button>
 </div>
 
-<div class="search-info"></div>
-
-<h3 id="2026">2026 (1)</h3>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-      <a href="/opensource/2026-01-17-TasFusion.html" class="post-excerpt-image" aria-label="TasFusion">
-        <img src="/images/opensource/TasFusion/demo.gif" alt="TasFusion" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="post-excerpt-text">
-      <a href="/opensource/2026-01-17-TasFusion.html">TasFusion</a>
-
-      <div class="post-info">
+<div class="oss-grid">
   
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>ZHAO Jiaqi</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>January 17, 2026</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-
-
-
-
+  <article class="oss-card" data-kind="Code">
+    <a class="oss-image" href="/opensource/2021-05-30-GraphGNSSLib.html" aria-label="GraphGNSSLib">
       
+      <img src="/images/opensource/GraphGNSSLib/cover.jpg" alt="GraphGNSSLib" loading="lazy">
       
-      <p data-search="p A b class blue ROS1 package b for Ceres-based b class blue GNSS IMU loosely coupled sliding-window optimization b , designed for robust multi-sensor navigation. p p strong a href https: github.com PolyU-TASLAB TasFusion TasFusion a strong provides a complete multi-sensor navigation framework with the following features: p ul li strong Ceres-based optimization strong Sliding-window GNSS IMU loosely coupled fusion with IMU pre-integration and online bias estimation li li strong Marginalization strong Preserves historical information for consistent state estimation li li strong GPS constraints strong Supports both position and velocity constraints from GNSS li li strong NLOS exclusion strong Built-in utilities to reject non-line-of-sight satellite signals li li strong Flexible configuration strong All major functions can be enabled disabled via launch file parameters li li strong Supporting tools strong Includes GNSS message definitions, a NovAtel driver, and NMEA ROS parsing scripts li ul table align center width 100 tr td align center width 33 img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images opensource TasFusion board.png style width:100 ; max-width:380px; td td align center width 33 img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images opensource TasFusion demo.gif style width:100 ; max-width:380px; td td align center width 33 img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images opensource TasFusion longdata.png style width:100 ; max-width:380px; td tr table blockquote p strong Reference Hardware Platform strong a href https: www.bilibili.com video BV1fiaqzNEEm Introduction Video a :TasFusion has been validated on a GNSS-IMU-4G integrated navigation module dual-IMU u-blox F9P-04B 4G uplink , providing high-frequency measurements and reliable telemetry for outdoor deployments.For hardware inquiries, please contact strong hbwu hkpolyu-wxresearch.cn strong . p blockquote p strong GitHub: strong a href https: github.com PolyU-TASLAB TasFusion https: github.com PolyU-TASLAB TasFusion a p">
-        A ROS1 package for Ceres-based GNSS/IMU loosely coupled sliding-window optimization, designed for robust multi-sensor navigation.
-
-      </p>
+    </a>
+    <div class="oss-body">
+      <div class="oss-meta">
+        <span class="oss-kind" data-kind="Code">Code</span>
+        <span class="oss-stars" title="GitHub stars (October 2026)"><i class="icon fa-solid fa-star"></i>629</span>
+      </div>
+      <h3 class="oss-title"><a href="/opensource/2021-05-30-GraphGNSSLib.html">GraphGNSSLib</a></h3>
+      <p class="oss-desc">GNSS Positioning and Real-Time Kinematic (RTK) Using Factor Graph Optimization</p>
+      <p class="oss-desc" style="flex-grow: 0; font-size: 0.8rem;">Weisong Wen</p>
+      <div class="oss-actions">
+        <a class="btn btn-primary btn-sm" href="https://github.com/weisongwen/GraphGNSSLib" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-light btn-sm" href="/opensource/2021-05-30-GraphGNSSLib.html">Details</a>
+      </div>
     </div>
-  </div>
-</div>
-
-<h3 id="2025">2025 (7)</h3>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-      <a href="/opensource/2025-11-11-tdl-gnss.html" class="post-excerpt-image" aria-label="TDL-GNSS">
-        <img src="/images/papers/2024/runzhi2024pyrtklib.png" alt="TDL-GNSS" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="post-excerpt-text">
-      <a href="/opensource/2025-11-11-tdl-gnss.html">TDL-GNSS</a>
-
-      <div class="post-info">
+  </article>
   
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Runzhi Hu</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-
-
-
-
+  <article class="oss-card" data-kind="Dataset">
+    <a class="oss-image" href="/opensource/2021-03-01-UrbanNav.html" aria-label="UrbanNav Dataset">
       
+      <img src="/images/opensource/UrbanNav/cover.jpg" alt="UrbanNav Dataset" loading="lazy">
       
-      <p data-search="p A b class blue tightly coupled deep learning framework b for b class blue GNSS positioning b in challenging urban environments. p p strong a href https: github.com ebhrz TDL-GNSS TDL-GNSS a strong is built on top of a href https: github.com IPNL-POLYU pyrtklib pyrtklib a and a href https: github.com PolyU-TASLAB TASGNSS TASGNSS a , designed to seamlessly integrate deep learning models into the GNSS processing workflow. The framework enables researchers to leverage neural networks for tasks such as satellite signal quality assessment, weight optimization, and positioning error mitigation all within a unified Python pipeline. p p strong Key Features: strong p ul li Tightly integrates deep learning with conventional GNSS processing SPP, RTK, PPP li li Built on the established pyrtklib and TASGNSS ecosystem li li End-to-end trainable pipeline for GNSS positioning li li Designed for urban canyon scenarios with severe multipath and NLOS effects li ul p align center img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images opensource TDL-GNSS TDL structure.png alt TDL-GNSS Framework style width:100 ; max-width:750px; border-radius:8px; p p strong Citation: strong p div class language-bibtex highlighter-rouge div class highlight pre class highlight code span class nc ARTICLE span span class p span span class nl 10965937 span span class p , span span class na author span span class p span span class s Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong span span class p , span span class na journal span span class p span span class s IEEE Transactions on Intelligent Transportation Systems span span class p , span span class na title span span class p span span class s pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons span span class p , span span class na year span span class p span span class s 2025 span span class p , span span class na volume span span class p span span class s 26 span span class p , span span class na number span span class p span span class s 7 span span class p , span span class na pages span span class p span span class s 10652-10662 span span class p , span span class na doi span span class p span span class s 10.1109 TITS.2025.3552691 span span class p span code pre div div p strong GitHub: strong a href https: github.com ebhrz TDL-GNSS https: github.com ebhrz TDL-GNSS a p">
-        A tightly coupled deep learning framework for GNSS positioning in challenging urban environments.
-
-      </p>
+    </a>
+    <div class="oss-body">
+      <div class="oss-meta">
+        <span class="oss-kind" data-kind="Dataset">Dataset</span>
+        <span class="oss-stars" title="GitHub stars (October 2026)"><i class="icon fa-solid fa-star"></i>614</span>
+      </div>
+      <h3 class="oss-title"><a href="/opensource/2021-03-01-UrbanNav.html">UrbanNav Dataset</a></h3>
+      <p class="oss-desc">Multisensory Dataset for Benchmarking Positioning in Asian Urban Canyons (Hong Kong &amp; Tokyo)</p>
+      <p class="oss-desc" style="flex-grow: 0; font-size: 0.8rem;">Li-Ta Hsu, Weisong Wen, et al.</p>
+      <div class="oss-actions">
+        <a class="btn btn-primary btn-sm" href="https://github.com/IPNL-POLYU/UrbanNavDataset" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-light btn-sm" href="/opensource/2021-03-01-UrbanNav.html">Details</a>
+      </div>
     </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-      <a href="/opensource/2025-11-11-tc-viml.html" class="post-excerpt-image" aria-label="TC-VIML">
-        <img src="/images/opensource/zhengxi/framework.png" alt="TC-VIML" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="post-excerpt-text">
-      <a href="/opensource/2025-11-11-tc-viml.html">TC-VIML</a>
-
-      <div class="post-info">
+  </article>
   
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Xi Zheng</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-
-
-
-
+  <article class="oss-card" data-kind="Dataset">
+    <a class="oss-image" href="/opensource/2020-05-31-UrbanLoco.html" aria-label="UrbanLoco Dataset">
       
+      <img src="/images/opensource/UrbanLoco/cover.jpg" alt="UrbanLoco Dataset" loading="lazy">
       
-      <p data-search="p b class blue Tightly-coupled Visual Inertial Map integration b with observability analysis for b class blue reliable localization b of intelligent vehicles. p p strong a href https: github.com ZHENGXi-git TC-VIML TC-VIML a strong proposes a tightly-coupled visual-inertial odometry VIO system that leverages a 3D prior line map for drift-free localization. Unlike loosely-coupled methods, our approach deeply integrates line features into a factor graph optimization framework, supported by a robust cross-modality matching and outlier rejection strategy. p p strong Key Contributions: strong p ul li Tight integration of 2D image line features with a 3D prior line map via factor graph optimization li li Robust cross-modality matching and outlier rejection for line feature association li li First rigorous proof that the system achieves strong full observability in global translation strong only yaw unobservable li li Validated in both simulated and real-world urban driving environments li ul p align center img src https: github.com ZHENGXi-git TC-VIML raw main support files image framework.png alt TC-VIML Framework style width:100 ; max-width:750px; border-radius:8px; p p strong Citation: strong p div class language-bibtex highlighter-rouge div class highlight pre class highlight code span class nc article span span class p span span class nl zheng2024tightly span span class p , span span class na title span span class p span span class s Tightly-coupled visual inertial map integration with observability analysis for reliable localization of intelligent vehicles span span class p , span span class na author span span class p span span class s Zheng, Xi and Wen, Weisong and Hsu, Li-Ta span span class p , span span class na journal span span class p span span class s IEEE Transactions on Intelligent Vehicles span span class p , span span class na year span span class p span span class s 2024 span span class p , span span class na publisher span span class p span span class s IEEE span span class p span span class nc inproceedings span span class p span span class nl zheng2023tightly span span class p , span span class na title span span class p span span class s Tightly-coupled line feature-aided visual inertial localization within lightweight 3D prior map for intelligent vehicles span span class p , span span class na author span span class p span span class s Zheng, Xi and Wen, Weisong and Hsu, Li-Ta span span class p , span span class na booktitle span span class p span span class s IEEE ITSC span span class p , span span class na pages span span class p span span class s 6019--6026 span span class p , span span class na year span span class p span span class s 2023 span span class p span code pre div div p strong GitHub: strong a href https: github.com ZHENGXi-git TC-VIML https: github.com ZHENGXi-git TC-VIML a p">
-        Tightly-coupled Visual/Inertial/Map integration with observability analysis for reliable localization of intelligent vehicles.
-
-      </p>
+    </a>
+    <div class="oss-body">
+      <div class="oss-meta">
+        <span class="oss-kind" data-kind="Dataset">Dataset</span>
+        <span class="oss-stars" title="GitHub stars (October 2026)"><i class="icon fa-solid fa-star"></i>482</span>
+      </div>
+      <h3 class="oss-title"><a href="/opensource/2020-05-31-UrbanLoco.html">UrbanLoco Dataset</a></h3>
+      <p class="oss-desc">Full Sensor Suite Dataset for Mapping and Localization in Urban Scenes</p>
+      <p class="oss-desc" style="flex-grow: 0; font-size: 0.8rem;">Weisong Wen, Yiyang Zhou, et al.</p>
+      <div class="oss-actions">
+        <a class="btn btn-primary btn-sm" href="https://github.com/weisongwen/UrbanLoco" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-light btn-sm" href="/opensource/2020-05-31-UrbanLoco.html">Details</a>
+      </div>
     </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-
-    <div class="post-excerpt-text">
-      <a href="/opensource/2025-11-11-tasgnss.html">TASGNSS</a>
-
-      <div class="post-info">
+  </article>
   
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Runzhi Hu</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-
-
-
-
+  <article class="oss-card" data-kind="Code">
+    <a class="oss-image" href="/opensource/2023-06-01-GLIO.html" aria-label="GLIO">
       
+      <img src="/images/opensource/GLIO/cover.jpg" alt="GLIO" loading="lazy">
       
-      <p data-search="p A b class blue simple and modern Python interface b for b class blue GNSS positioning b , built on top of pyrtklib. p p strong a href https: github.com PolyU-TASLAB TASGNSS TASGNSS a strong provides a clean, high-level Python API for GNSS data processing and positioning. Built on a href https: github.com IPNL-POLYU pyrtklib pyrtklib a , it abstracts away low-level complexity and offers an intuitive interface for researchers and developers working with GNSS data. p p strong Key Features: strong p ul li High-level Pythonic API for GNSS positioning SPP, RTK, PPP li li Built on the well-established pyrtklib RTKLIB engine li li Easy-to-use data reading from RINEX and other standard formats li li Comprehensive a href https: polyu-taslab.github.io TASGNSS documentation a with tutorials and examples li ul p strong Quick Install: strong p div class language-bash highlighter-rouge div class highlight pre class highlight code pip span class nb install span tasgnss code pre div div table tbody tr td GitHub: https: github.com PolyU-TASLAB TASGNSS https: github.com PolyU-TASLAB TASGNSS td td Docs: https: polyu-taslab.github.io TASGNSS https: polyu-taslab.github.io TASGNSS td tr tbody table">
-        A simple and modern Python interface for GNSS positioning, built on top of pyrtklib.
-
-      </p>
+    </a>
+    <div class="oss-body">
+      <div class="oss-meta">
+        <span class="oss-kind" data-kind="Code">Code</span>
+        <span class="oss-stars" title="GitHub stars (October 2026)"><i class="icon fa-solid fa-star"></i>439</span>
+      </div>
+      <h3 class="oss-title"><a href="/opensource/2023-06-01-GLIO.html">GLIO</a></h3>
+      <p class="oss-desc">Tightly-Coupled GNSS/LiDAR/IMU Integration for Continuous and Drift-free State Estimation</p>
+      <p class="oss-desc" style="flex-grow: 0; font-size: 0.8rem;">Xikun Liu</p>
+      <div class="oss-actions">
+        <a class="btn btn-primary btn-sm" href="https://github.com/XikunLiu-huskit/GLIO" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-light btn-sm" href="/opensource/2023-06-01-GLIO.html">Details</a>
+      </div>
     </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-
-    <div class="post-excerpt-text">
-      <a href="/opensource/2025-11-11-pyrtklib.html">pyrtklib</a>
-
-      <div class="post-info">
+  </article>
   
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Runzhi Hu</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-
-
-
-
+  <article class="oss-card" data-kind="Code">
+    <a class="oss-image" href="/opensource/2025-11-11-pyrtklib.html" aria-label="pyrtklib">
       
+      <span class="oss-placeholder">pyrtklib</span>
       
-      <p data-search="p A complete b class blue Python binding for RTKLIB b , bringing the full power of the most widely-used b class blue GNSS positioning library b to the Python ecosystem. p p strong a href https: github.com IPNL-POLYU pyrtklib pyrtklib a strong bridges the gap between RTKLIB s high-performance C implementation and the Python-based research workflows widely used in deep learning and data science. With pyrtklib, you can read RINEX files, process GNSS observations, and perform SPP, RTK, and PPP positioning all from Python. p p strong Key Features: strong p ul li Full Python interface to RTKLIB s core functions li li Supports SPP, DGNSS, RTK, and PPP positioning modes li li Seamless RINEX file reading and GNSS observation processing li li Enables tight integration of deep learning with GNSS positioning li li Available via PyPI for easy installation li ul p strong Quick Install: strong p div class language-bash highlighter-rouge div class highlight pre class highlight code pip span class nb install span pyrtklib span class c Standard RTKLIB version span pip span class nb install span pyrtklib5 span class c Based on rtklibexplorer rtklib demo5 span code pre div div p a href https: pepy.tech projects pyrtklib img src https: static.pepy.tech personalized-badge pyrtklib period total amp;units INTERNATIONAL SYSTEM amp;left color BLACK amp;right color GREEN amp;left text downloads alt PyPI Downloads a p p strong Citation: strong p div class language-bibtex highlighter-rouge div class highlight pre class highlight code span class nc ARTICLE span span class p span span class nl 10965937 span span class p , span span class na author span span class p span span class s Hu, Runzhi and Xu, Penghui and Zhong, Yihan and Wen, Weisong span span class p , span span class na journal span span class p span span class s IEEE Transactions on Intelligent Transportation Systems span span class p , span span class na title span span class p span span class s pyrtklib: An Open-Source Package for Tightly Coupled Deep Learning and GNSS Integration for Positioning in Urban Canyons span span class p , span span class na year span span class p span span class s 2025 span span class p , span span class na volume span span class p span span class s 26 span span class p , span span class na number span span class p span span class s 7 span span class p , span span class na pages span span class p span span class s 10652-10662 span span class p , span span class na doi span span class p span span class s 10.1109 TITS.2025.3552691 span span class p span code pre div div table tbody tr td GitHub: https: github.com IPNL-POLYU pyrtklib https: github.com IPNL-POLYU pyrtklib td td Demo5 version: https: github.com IPNL-POLYU pyrtklib demo5 https: github.com IPNL-POLYU pyrtklib demo5 td tr tbody table">
-        A complete Python binding for RTKLIB, bringing the full power of the most widely-used GNSS positioning library to the Python ecosystem.
-
-      </p>
+    </a>
+    <div class="oss-body">
+      <div class="oss-meta">
+        <span class="oss-kind" data-kind="Code">Code</span>
+        <span class="oss-stars" title="GitHub stars (October 2026)"><i class="icon fa-solid fa-star"></i>185</span>
+      </div>
+      <h3 class="oss-title"><a href="/opensource/2025-11-11-pyrtklib.html">pyrtklib</a></h3>
+      <p class="oss-desc">Python Binding for RTKLIB, the Most Popular GNSS Positioning Library</p>
+      <p class="oss-desc" style="flex-grow: 0; font-size: 0.8rem;">Runzhi Hu</p>
+      <div class="oss-actions">
+        <a class="btn btn-primary btn-sm" href="https://github.com/IPNL-POLYU/pyrtklib" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-light btn-sm" href="/opensource/2025-11-11-pyrtklib.html">Details</a>
+      </div>
     </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-      <a href="/opensource/2025-11-11-plvins.html" class="post-excerpt-image" aria-label="SafetyQuantifiable-PLVINS">
-        <img src="/images/opensource/zhengxi/framework2.png" alt="SafetyQuantifiable-PLVINS" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="post-excerpt-text">
-      <a href="/opensource/2025-11-11-plvins.html">SafetyQuantifiable-PLVINS</a>
-
-      <div class="post-info">
+  </article>
   
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Xi Zheng</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-
-
-
-
+  <article class="oss-card" data-kind="Code">
+    <a class="oss-image" href="/opensource/2025-11-11-tdl-gnss.html" aria-label="TDL-GNSS">
       
+      <img src="/images/opensource/TDL-GNSS/TDL_structure.jpg" alt="TDL-GNSS" loading="lazy">
       
-      <p data-search="p b class blue Safety-quantifiable b line feature-based monocular b class blue visual localization b with 3D prior map and integrity monitoring. p p strong a href https: github.com ZHENGXi-git SafetyQuantifiable-PLVINS SafetyQuantifiable-PLVINS a strong addresses drift and safety quantification challenges in visual localization by proposing a novel map-aided method that delivers both accurate pose estimates and a measurable error bound. p p strong Key Contributions: strong p ul li Tightly integrates visual-inertial odometry with a prior 3D line map via geometric constraints between 2D image features and 3D map lines li li Introduces a strong GNSS-inspired integrity monitoring framework strong to compute a Protection Level PL li li Quantifies potential error in both position and orientation, certifying the solution s safety li li First application of integrity monitoring to visual localization systems li ul p align center img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images opensource zhengxi framework2.png alt SafetyQuantifiable-PLVINS Framework style width:100 ; max-width:750px; border-radius:8px; p p strong Citation: strong p div class language-bibtex highlighter-rouge div class highlight pre class highlight code span class nc article span span class p span span class nl zheng2025safety span span class p , span span class na title span span class p span span class s Safety-quantifiable line feature-based monocular visual localization with 3D prior map span span class p , span span class na author span span class p span span class s Zheng, Xi and Wen, Weisong and Hsu, Li-Ta span span class p , span span class na journal span span class p span span class s IEEE Transactions on Intelligent Transportation Systems span span class p , span span class na year span span class p span span class s 2025 span span class p , span span class na publisher span span class p span span class s IEEE span span class p span code pre div div p strong GitHub: strong a href https: github.com ZHENGXi-git SafetyQuantifiable-PLVINS https: github.com ZHENGXi-git SafetyQuantifiable-PLVINS a p">
-        Safety-quantifiable line feature-based monocular visual localization with 3D prior map and integrity monitoring.
-
-      </p>
+    </a>
+    <div class="oss-body">
+      <div class="oss-meta">
+        <span class="oss-kind" data-kind="Code">Code</span>
+        <span class="oss-stars" title="GitHub stars (October 2026)"><i class="icon fa-solid fa-star"></i>112</span>
+      </div>
+      <h3 class="oss-title"><a href="/opensource/2025-11-11-tdl-gnss.html">TDL-GNSS</a></h3>
+      <p class="oss-desc">Tightly Coupled Deep Learning Framework for GNSS Positioning</p>
+      <p class="oss-desc" style="flex-grow: 0; font-size: 0.8rem;">Runzhi Hu</p>
+      <div class="oss-actions">
+        <a class="btn btn-primary btn-sm" href="https://github.com/ebhrz/TDL-GNSS" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-light btn-sm" href="/opensource/2025-11-11-tdl-gnss.html">Details</a>
+      </div>
     </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-      <a href="/opensource/2025-11-11-kltdataset.html" class="post-excerpt-image" aria-label="KLT Dataset">
-        <img src="/images/opensource/kltdataset/NLOS_crop.gif" alt="KLT Dataset" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="post-excerpt-text">
-      <a href="/opensource/2025-11-11-kltdataset.html">KLT Dataset</a>
-
-      <div class="post-info">
+  </article>
   
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Runzhi Hu</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-
-
-
-
+  <article class="oss-card" data-kind="Dataset">
+    <a class="oss-image" href="/opensource/2025-11-11-kltdataset.html" aria-label="KLT Dataset">
       
+      <img src="/images/opensource/kltdataset/NLOS_crop.jpg" alt="KLT Dataset" loading="lazy">
       
-      <p data-search="p An open b class blue urban GNSS dataset b with b class blue LOS NLOS satellite labels b for benchmarking GNSS positioning in challenging environments. p p strong a href https: github.com ebhrz KLTDataset KLT Dataset a strong is a light urban scenario dataset collected for GNSS research, providing labeled satellite signal conditions to support studies in multipath mitigation, NLOS detection, and robust positioning. p p strong Dataset Contents: strong p ul li strong GNSS raw measurements strong Collected using a u-blox F9P receiver with pseudorange and carrier phase observations li li strong Ground truth strong High-precision reference trajectories from a SPAN-CPT system li li strong LOS NLOS labels strong Per-satellite labels for GPS and BeiDou constellations li li strong Additional sensors strong IMU, LiDAR, and camera recordings included in the ROS bag file li li strong Quick-start scripts strong Configuration files and start scripts provided for immediate use li ul p align center img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project Vision aided GNSS RTK NLOS.gif alt KLT Dataset NLOS Visualization style width:100 ; max-width:750px; border-radius:8px; p p strong GitHub: strong a href https: github.com ebhrz KLTDataset https: github.com ebhrz KLTDataset a p">
-        An open urban GNSS dataset with LOS/NLOS satellite labels for benchmarking GNSS positioning in challenging environments.
-
-      </p>
+    </a>
+    <div class="oss-body">
+      <div class="oss-meta">
+        <span class="oss-kind" data-kind="Dataset">Dataset</span>
+        <span class="oss-stars" title="GitHub stars (October 2026)"><i class="icon fa-solid fa-star"></i>57</span>
+      </div>
+      <h3 class="oss-title"><a href="/opensource/2025-11-11-kltdataset.html">KLT Dataset</a></h3>
+      <p class="oss-desc">Urban GNSS Dataset with LOS/NLOS Labels</p>
+      <p class="oss-desc" style="flex-grow: 0; font-size: 0.8rem;">Runzhi Hu</p>
+      <div class="oss-actions">
+        <a class="btn btn-primary btn-sm" href="https://github.com/ebhrz/KLTDataset" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-light btn-sm" href="/opensource/2025-11-11-kltdataset.html">Details</a>
+      </div>
     </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-      <a href="/opensource/2025-11-11-HDMap.html" class="post-excerpt-image" aria-label="Semantic-Vector HD Map">
-        <img src="/images/opensource/HDMap/garage_half.gif" alt="Semantic-Vector HD Map" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="post-excerpt-text">
-      <a href="/opensource/2025-11-11-HDMap.html">Semantic-Vector HD Map</a>
-
-      <div class="post-info">
+  </article>
   
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Runzhi Hu</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
-
-
-  
-
-
-
-
-
-
+  <article class="oss-card" data-kind="Code">
+    <a class="oss-image" href="/opensource/2025-11-11-HDMap.html" aria-label="Semantic-Vector HD Map">
       
+      <img src="/images/opensource/HDMap/garage.jpg" alt="Semantic-Vector HD Map" loading="lazy">
       
-      <p data-search="p An open-source b class blue HD vector map HDVM generation pipeline b for autonomous vehicles, integrating b class blue GNSS, INS, LiDAR, and camera b data. p p strong a href https: github.com ebhrz HDMap HDMap a strong provides a complete pipeline for constructing high-definition semantic and vector maps, designed for autonomous driving in complex urban environments. Unlike traditional methods that rely on planar assumptions, our approach fuses multi-sensor data to produce accurate 3D HD maps. p p strong Pipeline Overview: strong p ol li strong Semantic extraction strong Extracts semantic information from raw images using Vision Transformer ViT and Swin Transformer architectures li li strong 3D reconstruction strong Obtains absolute 3D coordinates of semantic objects from LiDAR depth data li li strong Precise localization strong Uses GNSS-RTK and INS for high-precision pose estimation li li strong Vector map generation strong Extracts vector features e.g., lane markings to form the HD vector map li li strong Error analysis strong Provides an error propagation scheme analyzing segmentation and LiDAR-camera extrinsic calibration errors li ol p A strong Docker version strong of the pipeline is available for easy deployment. p p align center img src https: github.com ebhrz HDMap raw main img garage.gif alt HD Map Demo style width:100 ; max-width:750px; border-radius:8px; p p strong Citation: strong p div class language-bibtex highlighter-rouge div class highlight pre class highlight code span class nc article span span class p span span class nl hu2024hdmap span span class p , span span class na author span span class p span span class s Hu, Runzhi and Bai, Shiyu and Wen, Weisong and Xia, Xin and Hsu, Li-Ta span span class p , span span class na title span span class p span span class s Towards high-definition vector map construction based on multi-sensor integration for intelligent vehicles: Systems and error quantification span span class p , span span class na journal span span class p span span class s IET Intelligent Transport Systems span span class p , span span class na doi span span class p span span class s https: doi.org 10.1049 itr2.12524 span span class p span code pre div div p strong GitHub: strong a href https: github.com ebhrz HDMap https: github.com ebhrz HDMap a p">
-        An open-source HD vector map (HDVM) generation pipeline for autonomous vehicles, integrating GNSS, INS, LiDAR, and camera data.
-
-      </p>
+    </a>
+    <div class="oss-body">
+      <div class="oss-meta">
+        <span class="oss-kind" data-kind="Code">Code</span>
+        <span class="oss-stars" title="GitHub stars (October 2026)"><i class="icon fa-solid fa-star"></i>53</span>
+      </div>
+      <h3 class="oss-title"><a href="/opensource/2025-11-11-HDMap.html">Semantic-Vector HD Map</a></h3>
+      <p class="oss-desc">Multi-Sensor HD Map Construction Pipeline for Autonomous Vehicles</p>
+      <p class="oss-desc" style="flex-grow: 0; font-size: 0.8rem;">Runzhi Hu</p>
+      <div class="oss-actions">
+        <a class="btn btn-primary btn-sm" href="https://github.com/ebhrz/HDMap" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-light btn-sm" href="/opensource/2025-11-11-HDMap.html">Details</a>
+      </div>
     </div>
-  </div>
+  </article>
+  
+  <article class="oss-card" data-kind="Code">
+    <a class="oss-image" href="/opensource/2025-11-11-tc-viml.html" aria-label="TC-VIML">
+      
+      <img src="/images/opensource/zhengxi/framework.jpg" alt="TC-VIML" loading="lazy">
+      
+    </a>
+    <div class="oss-body">
+      <div class="oss-meta">
+        <span class="oss-kind" data-kind="Code">Code</span>
+        <span class="oss-stars" title="GitHub stars (October 2026)"><i class="icon fa-solid fa-star"></i>45</span>
+      </div>
+      <h3 class="oss-title"><a href="/opensource/2025-11-11-tc-viml.html">TC-VIML</a></h3>
+      <p class="oss-desc">Tightly-Coupled Visual-Inertial-Map Localization for Intelligent Vehicles</p>
+      <p class="oss-desc" style="flex-grow: 0; font-size: 0.8rem;">Xi Zheng</p>
+      <div class="oss-actions">
+        <a class="btn btn-primary btn-sm" href="https://github.com/ZHENGXi-git/TC-VIML" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-light btn-sm" href="/opensource/2025-11-11-tc-viml.html">Details</a>
+      </div>
+    </div>
+  </article>
+  
+  <article class="oss-card" data-kind="Code">
+    <a class="oss-image" href="/opensource/2025-11-11-tasgnss.html" aria-label="TASGNSS">
+      
+      <span class="oss-placeholder">TASGNSS</span>
+      
+    </a>
+    <div class="oss-body">
+      <div class="oss-meta">
+        <span class="oss-kind" data-kind="Code">Code</span>
+        <span class="oss-stars" title="GitHub stars (October 2026)"><i class="icon fa-solid fa-star"></i>23</span>
+      </div>
+      <h3 class="oss-title"><a href="/opensource/2025-11-11-tasgnss.html">TASGNSS</a></h3>
+      <p class="oss-desc">Simple and Modern Python GNSS Interface</p>
+      <p class="oss-desc" style="flex-grow: 0; font-size: 0.8rem;">Runzhi Hu</p>
+      <div class="oss-actions">
+        <a class="btn btn-primary btn-sm" href="https://github.com/PolyU-TASLAB/TASGNSS" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-light btn-sm" href="/opensource/2025-11-11-tasgnss.html">Details</a>
+      </div>
+    </div>
+  </article>
+  
+  <article class="oss-card" data-kind="Code">
+    <a class="oss-image" href="/opensource/2026-01-17-TasFusion.html" aria-label="TasFusion">
+      
+      <img src="/images/opensource/TasFusion/demo.jpg" alt="TasFusion" loading="lazy">
+      
+    </a>
+    <div class="oss-body">
+      <div class="oss-meta">
+        <span class="oss-kind" data-kind="Code">Code</span>
+        <span class="oss-stars" title="GitHub stars (October 2026)"><i class="icon fa-solid fa-star"></i>22</span>
+      </div>
+      <h3 class="oss-title"><a href="/opensource/2026-01-17-TasFusion.html">TasFusion</a></h3>
+      <p class="oss-desc">ROS1 Package for Multi-Sensor GNSS/IMU Fusion Navigation</p>
+      <p class="oss-desc" style="flex-grow: 0; font-size: 0.8rem;">ZHAO Jiaqi</p>
+      <div class="oss-actions">
+        <a class="btn btn-primary btn-sm" href="https://github.com/PolyU-TASLAB/TasFusion" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-light btn-sm" href="/opensource/2026-01-17-TasFusion.html">Details</a>
+      </div>
+    </div>
+  </article>
+  
+  <article class="oss-card" data-kind="Code">
+    <a class="oss-image" href="/opensource/2025-11-11-plvins.html" aria-label="SafetyQuantifiable-PLVINS">
+      
+      <img src="/images/opensource/zhengxi/framework2.jpg" alt="SafetyQuantifiable-PLVINS" loading="lazy">
+      
+    </a>
+    <div class="oss-body">
+      <div class="oss-meta">
+        <span class="oss-kind" data-kind="Code">Code</span>
+        <span class="oss-stars" title="GitHub stars (October 2026)"><i class="icon fa-solid fa-star"></i>6</span>
+      </div>
+      <h3 class="oss-title"><a href="/opensource/2025-11-11-plvins.html">SafetyQuantifiable-PLVINS</a></h3>
+      <p class="oss-desc">Safety-Quantifiable Visual Localization with 3D Prior Map</p>
+      <p class="oss-desc" style="flex-grow: 0; font-size: 0.8rem;">Xi Zheng</p>
+      <div class="oss-actions">
+        <a class="btn btn-primary btn-sm" href="https://github.com/ZHENGXi-git/SafetyQuantifiable-PLVINS" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-light btn-sm" href="/opensource/2025-11-11-plvins.html">Details</a>
+      </div>
+    </div>
+  </article>
+  
+  <article class="oss-card" data-kind="Code">
+    <a class="oss-image" href="/opensource/2024-06-01-TAS_MPC.html" aria-label="TAS_MPC (JPCM)">
+      
+      <img src="/images/opensource/TAS_MPC/cover.jpg" alt="TAS_MPC (JPCM)" loading="lazy">
+      
+    </a>
+    <div class="oss-body">
+      <div class="oss-meta">
+        <span class="oss-kind" data-kind="Code">Code</span>
+        <span class="oss-stars" title="GitHub stars (October 2026)"><i class="icon fa-solid fa-star"></i>4</span>
+      </div>
+      <h3 class="oss-title"><a href="/opensource/2024-06-01-TAS_MPC.html">TAS_MPC (JPCM)</a></h3>
+      <p class="oss-desc">Tightly Joined Positioning and Control Model for UAVs Based on Factor Graph Optimization</p>
+      <p class="oss-desc" style="flex-grow: 0; font-size: 0.8rem;">Peiwen Yang</p>
+      <div class="oss-actions">
+        <a class="btn btn-primary btn-sm" href="https://github.com/PolyU-TASLAB/TAS_MPC" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-light btn-sm" href="/opensource/2024-06-01-TAS_MPC.html">Details</a>
+      </div>
+    </div>
+  </article>
+  
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var buttons = document.querySelectorAll(".oss-filter");
+    var cards = document.querySelectorAll(".oss-card");
+    buttons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        var filter = button.dataset.filter;
+        buttons.forEach(function (b) { b.setAttribute("aria-pressed", String(b === button)); });
+        cards.forEach(function (card) {
+          card.hidden = filter !== "all" && card.dataset.kind !== filter;
+        });
+      });
+    });
+  });
+</script>
   </section>
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -1050,25 +876,25 @@ We are committed to <b class="blue">open science</b> and <b class="blue">reprodu
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1080,10 +906,10 @@ We are committed to <b class="blue">open science</b> and <b class="blue">reprodu
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1095,10 +921,10 @@ We are committed to <b class="blue">open science</b> and <b class="blue">reprodu
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1110,10 +936,10 @@ We are committed to <b class="blue">open science</b> and <b class="blue">reprodu
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -1125,24 +951,14 @@ We are committed to <b class="blue">open science</b> and <b class="blue">reprodu
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

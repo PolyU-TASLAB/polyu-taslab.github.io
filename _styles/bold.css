@@ -4,8 +4,8 @@ strong {
 }
 
 .blue {
-  color: var(--primary);
-  font-weight: var(--bold);
+  color: inherit;
+  font-weight: var(--semi-bold);
 }
 
 /*# sourceMappingURL=bold.css.map */

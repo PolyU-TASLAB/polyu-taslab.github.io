@@ -1,6 +1,6 @@
 ul,
 ol {
-  margin: 6px 0;
+  margin: 8px 0;
   padding-left: 24px;
 }
 
@@ -9,15 +9,19 @@ ul {
 }
 
 li {
-  margin: 2px 0;
+  margin: 4px 0;
   padding-left: 4px;
-  text-align: justify;
+  text-align: left;
   line-height: var(--spacing);
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 li ul,
 li ol {
   margin: 0;
+}
+
+li::marker {
+  color: var(--primary);
 }
 
 /*# sourceMappingURL=list.css.map */

@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -39,21 +38,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>TAS LAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid | TAS LAB</title>
+<title>TASLAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid | TAS LAB</title>
 
-<link rel="icon" href="/images/icon.png">
+<link rel="icon" href="/images/icon.jpg">
 
-<meta name="title" content="TAS LAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid">
+<meta name="title" content="TASLAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 
-<meta property="og:title" content="TAS LAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid">
+<meta property="og:title" content="TASLAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid">
 <meta property="og:site_title" content="TAS LAB">
 <meta property="og:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="og:url" content="https://polyu-taslab.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="TAS LAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid">
+<meta property="twitter:title" content="TASLAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid">
 <meta property="twitter:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="twitter:url" content="https://polyu-taslab.github.io">
 <meta property="twitter:card" content="summary_large_image">
@@ -69,12 +68,12 @@
     
       "@type": "WebSite",
     
-    "name": "TAS LAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid",
+    "name": "TASLAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
-    "headline": "TAS LAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid",
+    "headline": "TASLAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
     },
     "url": "https://polyu-taslab.github.io"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://polyu-taslab.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/components.css" rel="stylesheet">
   
 
   
@@ -311,18 +311,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/" class="home">
+<header class="site-header">
+  <a href="/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -386,49 +383,51 @@
     
     
       
-        <a href="/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -448,13 +447,13 @@
 
   <section class="background" data-size="1">
     <!--
-  background: images/news/0930SouthernPower/image.png;
+  background: images/news/0930SouthernPower/image.jpg;
   dark: ;
   size: 1;
 -->
 
 
-<h1 class="center">TAS LAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid</h1>
+<h1 class="center">TASLAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid</h1>
 
 <div class="post-info">
   
@@ -472,7 +471,7 @@
   <!-- 
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
+      <span>October 09, 2026</span>
     </span>
    -->
 </div>
@@ -502,15 +501,19 @@
 -->
 
 
-<h2 id="tas-lab-advances-collaboration-on-offshore-wind-turbine-inspection-with-china-southern-power-grid">TAS LAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid</h2>
+<div class="post-body">
+<p>On 30 September 2025, a team led by Dr. Weisong Wen of the Department of Aeronautics and Civil Aviation at The Hong Kong Polytechnic University (PolyU) held a successful meeting in Zhuhai with China Southern Power Grid Southern Offshore Wind Power Joint Development Co., Ltd. The meeting marked a significant step forward in discussions on a joint laboratory research project.</p>
 
-<p><strong>Zhuhai, September 30, 2025</strong> – A team led by Dr. Wen Weisong of the Department of Aeronautics and Civil Aviation at The Hong Kong Polytechnic University held a highly successful meeting today with the China Southern Power Grid Southern Offshore Wind Power Joint Development Co., Ltd. The meeting in Zhuhai marked a significant step forward in discussions for a joint laboratory research project.</p>
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0930SouthernPower/image.png" alt="" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="/images/news/0930SouthernPower/image.jpg" alt="Meeting with China Southern Power Grid in Zhuhai"></figure>
 </div>
+<p class="news-caption">The meeting with China Southern Power Grid Southern Offshore Wind Power Joint Development Co., Ltd. in Zhuhai.</p>
 
-<p>The collaboration is centered on the “UAV-based Blade and Tower Inspection” project, operating under the Guangdong-Hong Kong Joint Laboratory for Marine Infrastructure. The project aims to develop efficient, drone-based technologies for inspecting offshore wind turbines. The Hong Kong research efforts are led by Principal Investigator Dr. Wen Weisong, in partnership with his Guangdong counterpart, Lin Jinghua of the China Energy Engineering Group Guangdong Electric Power Design Institute Co., Ltd.. This collaboration also aims to jointly publish at least two academic papers, apply for one or more invention patents, and cultivate postgraduate talent.</p>
+<p>The collaboration centres on the “UAV-based Blade and Tower Inspection” project under the Guangdong-Hong Kong Joint Laboratory for Marine Infrastructure. The project aims to develop efficient drone-based technologies for inspecting offshore wind turbines. The Hong Kong research efforts are led by Principal Investigator Dr. Weisong Wen, in partnership with his Guangdong counterpart, Lin Jinghua of China Energy Engineering Group Guangdong Electric Power Design Institute Co., Ltd.</p>
+
+<p>The collaboration also aims to jointly publish at least two academic papers, apply for one or more invention patents and cultivate postgraduate talent.</p>
+
+</div>
   </section>
 
   
@@ -547,21 +550,17 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -573,25 +572,25 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -603,10 +602,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -618,10 +617,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -633,10 +632,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -648,24 +647,14 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

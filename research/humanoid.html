@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>Embodied AI for Humanoid/Legged Robotics | TAS LAB</title>
 
-<link rel="icon" href="/images/icon.png">
+<link rel="icon" href="/images/icon.jpg">
 
 <meta name="title" content="Embodied AI for Humanoid/Legged Robotics">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -74,7 +73,7 @@
     "headline": "Embodied AI for Humanoid/Legged Robotics",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
     },
     "url": "https://polyu-taslab.github.io"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://polyu-taslab.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/components.css" rel="stylesheet">
   
 
   
@@ -332,6 +332,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -361,18 +363,15 @@
 
 
 </head>
-
-  <body>
+<body class="has-banner">
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/" class="home">
+<header class="site-header">
+  <a href="/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -436,49 +435,65 @@
     
     
       
-        <a href="/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/research/" data-tooltip="Research directions, systems and demos" class="active" aria-current="page">
+        Research
+      </a>
     
       
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    <div class="page-banner" style="--banner: url('/images/home/banner-campus.jpg')">
+  <div class="page-banner-inner">
+    <div class="page-banner-text">
+      <p class="page-banner-eyebrow">Research direction</p>
+      <h1 class="page-banner-title">Embodied AI for Humanoid/Legged Robotics</h1>
+      
+      <p class="page-banner-sub">Large AI models that let legged and humanoid robots perceive, reason and act</p>
+    </div>
+    <div class="page-banner-logos" aria-label="The Hong Kong Polytechnic University · Department of Aeronautical and Aviation Engineering">
+      <img src="/images/logo/polyu_logo_white.png" alt="The Hong Kong Polytechnic University">
+      <img src="/images/logo/aaelogo_white.png" alt="Department of Aeronautical and Aviation Engineering">
+    </div>
+  </div>
+</div>
+
     <main>
       <!--
   modify main content of page:
@@ -496,31 +511,381 @@
   
   
 
-  <section class="background" data-size="0.97em; line-height: 1.65; margin-bottom: 0.5em">
-    <h1 id="-embodied-ai-for-humanoidlegged-robotics">🤖 Embodied AI for Humanoid/Legged Robotics</h1>
+  <section class="background" data-size="page">
+    <div class="rt-intro">
+  <a class="project-back" href="/research/">← All research directions</a>
+  <div class="rt-intro-grid">
+    <div class="rt-intro-text">
+      <p>Humanoid and legged robots are the next frontier of embodied AI — machines that perceive, reason and physically
+interact with the world in a human-like way. We develop <strong>large AI models</strong> and <strong>vision-language-action (VLA)</strong>
+frameworks that let them navigate, manipulate and collaborate in complex real-world environments.</p>
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
-Humanoid and legged robots represent the next frontier of embodied AI — machines that can perceive, reason, and physically interact with the world in a human-like manner. This research focuses on developing <b class="blue">large AI models</b> and <b class="blue">vision-language-action (VLA) frameworks</b> that enable humanoid and legged robots to autonomously navigate, manipulate, and collaborate in complex real-world environments.
+<p>Working with LinXAI quadruped and humanoid platforms, we test these models from factory floors and crowded campus
+paths to lunar-analogue terrain.</p>
+
+      
+      <ul class="rt-chips">
+        <li>Vision-language-action models</li>
+<li>Sim-to-real transfer</li>
+<li>Whole-body control</li>
+<li>RL locomotion</li>
+<li>Multimodal perception</li>
+<li>Human-robot interaction</li>
+      </ul>
+      
+    </div>
+    
+    <figure class="rt-figure">
+      <a href="/images/project/E2EHL.jpg" target="_blank" rel="noopener">
+        <img src="/images/project/E2EHL.jpg" alt="Embodied AI for humanoid and legged robots">
+      </a>
+      <figcaption>Embodied AI for humanoid and legged robots</figcaption>
+    </figure>
+    
+  </div>
 </div>
+  </section>
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 1em;">
-Our approach integrates three core pillars:
-<ol>
-<li>
-<b>Foundation Models for Robotic Perception and Control</b> — We develop vision-language-action models that bridge high-level semantic understanding with low-level motor control, enabling robots to interpret natural language instructions and execute complex manipulation and locomotion tasks. Our models leverage large-scale pre-training on multimodal data (vision, language, proprioception) and are fine-tuned for real-world deployment on humanoid platforms.</li>
-<li>
-<b>Bio-Inspired Embodied Intelligence</b> — Drawing inspiration from biological locomotion and sensorimotor systems, we design control architectures that enable robust and adaptive walking, running, climbing, and manipulation on diverse terrains. Our work combines reinforcement learning, model predictive control, and sim-to-real transfer to achieve agile and stable locomotion for legged robots in unstructured environments.</li>
-<li>
-<b>Multimodal Learning for Humanoid Robots</b> — We investigate how robots can learn from multimodal sensory inputs (RGB-D cameras, IMUs, tactile sensors, force/torque sensors) to build rich world models that support whole-body planning and contact-rich manipulation. Our research enables humanoid robots to perform tasks in human-centric environments such as homes, offices, and warehouses.</li>
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="approach">Our Approach</h2>
+<ol class="rt-pillars" data-count="3">
+  
+  <li>
+    <h3>Foundation models for perception and control</h3>
+    <p>VLA models that connect natural-language instructions and semantic understanding with low-level motor control for locomotion and manipulation.</p>
+  </li>
+  
+  <li>
+    <h3>Bio-inspired embodied intelligence</h3>
+    <p>Reinforcement learning, model predictive control and sim-to-real transfer for agile, stable walking and climbing on diverse terrain.</p>
+  </li>
+  
+  <li>
+    <h3>Multimodal learning for humanoids</h3>
+    <p>RGB-D, IMU, tactile and force sensing combined into world models for whole-body planning and contact-rich manipulation.</p>
+  </li>
+  
 </ol>
+
+
+<h3 class="rt-subtitle">Target applications</h3>
+<ul class="rt-applications">
+  <li>
+<b>Logistics and warehousing</b><span>Robots that carry, sort and deliver goods on spoken instructions</span>
+</li>
+<li>
+<b>Assistive robotics</b><span>Guide-dog robots and service robots for elderly care</span>
+</li>
+<li>
+<b>Urban maintenance</b><span>Legged inspection in places wheels cannot reach</span>
+</li>
+<li>
+<b>Space exploration</b><span>Quadrupeds and humanoids for lunar and planetary terrain</span>
+</li>
+<li>
+<b>Search and rescue</b><span>Legged robots for disaster-stricken environments</span>
+</li>
+</ul>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="research-in-action">Research in Action</h2>
+<p class="rt-section-lead">Systems we have built and tested with partners. Open a card for the problem, our approach, results and photos.</p>
+<div class="rw-grid">
+  
+  <article class="rw-card" id="quadruped-guide-dog">
+    <a class="rw-media" href="/images/projects/quadruped-guide-dog/cover.jpg" target="_blank" rel="noopener">
+      <img src="/images/projects/quadruped-guide-dog/cover.jpg" alt="Quadruped Guide-Dog Navigation Demonstration" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Quadruped Guide-Dog Navigation Demonstration</h3>
+      <p class="rw-summary">A guide-dog robot for visually impaired users that navigates crowded campus paths and explains itself by voice.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>A → B</b> campus demonstration</li>
+<li>
+<b>Voice</b> human–robot interface</li>
+<li>
+<b>Joint lab</b> PolyU–LinXAI</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>A guide-dog robot must navigate crowded campus paths safely, explain itself by voice and stop safely when unsure.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Perception, path planning, learned locomotion control, interaction and validation in one pipeline</li>
+<li>Real-time obstacle detection and avoidance; voice commands and spoken stop explanations</li>
+<li>Point-A-to-B demonstration on the PolyU campus</li>
+        </ul>
+        <p><span class="rw-label">Results</span>System design, implementation, demonstration and documentation.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/images/projects/quadruped-guide-dog/1.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/quadruped-guide-dog/1.jpg" alt="LinXAI quadruped on campus" loading="lazy">
+            </a>
+            <figcaption>LinXAI quadruped on campus</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/images/projects/quadruped-guide-dog/2.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/quadruped-guide-dog/2.jpg" alt="Navigation tests" loading="lazy">
+            </a>
+            <figcaption>Navigation tests</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/images/projects/quadruped-guide-dog/3.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/quadruped-guide-dog/3.jpg" alt="LinXAI humanoid platform" loading="lazy">
+            </a>
+            <figcaption>LinXAI humanoid platform</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="quadruped-vla-factory">
+    <a class="rw-media" href="/images/projects/quadruped-vla-factory/cover.jpg" target="_blank" rel="noopener">
+      <img src="/images/projects/quadruped-vla-factory/cover.jpg" alt="Quadruped VLA for Factory Logistics" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Quadruped VLA for Factory Logistics</h3>
+      <p class="rw-summary">Quadrupeds that carry loads safely on spoken instructions, trained against worst-case disturbances.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>Adversarial</b> robust training</li>
+<li>
+<b>VLA</b> language-guided missions</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Learned legged controllers fail under heavy payloads, joint faults and slippery floors in real factories.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>An “antagonist” policy that finds worst-case forces, joint faults and friction changes</li>
+<li>A hardened “protagonist” locomotion policy trained against it</li>
+<li>Vision-language-action model for natural-language transport missions</li>
+        </ul>
+        <p><span class="rw-label">Results</span>Builds on the LinXAI quadruped platforms.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/images/projects/quadruped-vla-factory/1.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/quadruped-vla-factory/1.jpg" alt="Quadruped transport task" loading="lazy">
+            </a>
+            <figcaption>Quadruped transport task</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/images/projects/quadruped-vla-factory/2.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/quadruped-vla-factory/2.jpg" alt="Protagonist–antagonist training" loading="lazy">
+            </a>
+            <figcaption>Protagonist–antagonist training</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/images/projects/quadruped-vla-factory/3.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/quadruped-vla-factory/3.jpg" alt="VLA navigation" loading="lazy">
+            </a>
+            <figcaption>VLA navigation</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="lunar-quadruped-vta">
+    <a class="rw-media" href="/images/projects/lunar-quadruped-vta/cover.jpg" target="_blank" rel="noopener">
+      <img src="/images/projects/lunar-quadruped-vta/cover.jpg" alt="Quadruped Vision-Task-Action Model for Lunar Exploration" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Quadruped Vision-Task-Action Model for Lunar Exploration</h3>
+      <p class="rw-summary">Legged robots that understand scientific tasks on the Moon and walk robustly on loose regolith.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>VTA</b> vision-task-action model</li>
+<li>
+<b>2026</b> Deep-Space Robotics report</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Wheeled rovers get stuck in craters; legged robots can go further but need task understanding and robust gaits.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Vision-task-action model linking scientific goals to locomotion policies</li>
+<li>Robust gaits for loose regolith and slopes</li>
+<li>Lunar-surface simulation and terrestrial analogue tests</li>
+        </ul>
+        <p><span class="rw-label">Results</span>Contribution to PolyU's Deep-Space Robotics Report (2026); TPC Chair of the APRIM 2026 satellite meeting.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/images/projects/lunar-quadruped-vta/1.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/lunar-quadruped-vta/1.jpg" alt="Quadrupeds on rugged terrain" loading="lazy">
+            </a>
+            <figcaption>Quadrupeds on rugged terrain</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/images/projects/lunar-quadruped-vta/2.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/lunar-quadruped-vta/2.jpg" alt="Vision-task-action model" loading="lazy">
+            </a>
+            <figcaption>Vision-task-action model</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/images/projects/lunar-quadruped-vta/3.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/lunar-quadruped-vta/3.jpg" alt="Simulated lunar surface" loading="lazy">
+            </a>
+            <figcaption>Simulated lunar surface</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="humanoid-spine">
+    <a class="rw-media" href="/images/projects/humanoid-spine/cover.jpg" target="_blank" rel="noopener">
+      <img src="/images/projects/humanoid-spine/cover.jpg" alt="Bio-inspired Spinal System for Humanoid Robots" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Bio-inspired Spinal System for Humanoid Robots</h3>
+      <p class="rw-summary">A flexible, bio-inspired spine that helps humanoid robots balance on uneven, low-gravity terrain.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>Spine</b> novel bio-inspired design</li>
+<li>
+<b>Prototype</b> humanoid robot</li>
+<li>
+<b>Space exploration</b> target application</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Rigid one-piece torsos limit humanoid flexibility and balance on uneven, low-gravity terrain such as the Moon or Mars.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Spine design that mimics human vertebral mechanics</li>
+<li>3D-printed lightweight alloy and polymer vertebrae</li>
+<li>Data-driven MPC with a custom solver for the spine's nonlinear dynamics</li>
+        </ul>
+        <p><span class="rw-label">Results</span>Spine design, a functional prototype and robotics-journal papers.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/images/projects/humanoid-spine/1.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/humanoid-spine/1.jpg" alt="Humanoid with bio-inspired spine" loading="lazy">
+            </a>
+            <figcaption>Humanoid with bio-inspired spine</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/images/projects/humanoid-spine/2.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/humanoid-spine/2.jpg" alt="Spine design" loading="lazy">
+            </a>
+            <figcaption>Spine design</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
+  <article class="rw-card" id="lunar-multi-robot-regolith">
+    <a class="rw-media" href="/images/projects/lunar-multi-robot-regolith/cover.jpg" target="_blank" rel="noopener">
+      <img src="/images/projects/lunar-multi-robot-regolith/cover.jpg" alt="Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing</h3>
+      <p class="rw-summary">Navigation and formation control for teams of robots processing regolith on the Moon, without any GNSS.</p>
+      
+      <ul class="rw-facts">
+        <li>
+<b>0.30 m</b> positioning RMSE</li>
+<li>
+<b>Tianwen-3</b> team visit, Dec 2024</li>
+      </ul>
+      
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>Lunar regolith tasks need precise, safe multi-robot operation on rugged terrain without any GNSS.</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          <li>Factor-graph positioning shared across the robot team</li>
+<li>Leader–follower formation control with MPC</li>
+<li>Prototype tests on rugged analogue terrain</li>
+        </ul>
+        <p><span class="rw-label">Results</span>Visit by the Tianwen-3 delegation in December 2024.</p>
+        
+        <div class="rw-gallery">
+          
+          <figure>
+            <a href="/images/projects/lunar-multi-robot-regolith/1.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/lunar-multi-robot-regolith/1.jpg" alt="Multi-robot prototype" loading="lazy">
+            </a>
+            <figcaption>Multi-robot prototype</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/images/projects/lunar-multi-robot-regolith/2.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/lunar-multi-robot-regolith/2.jpg" alt="Architecture" loading="lazy">
+            </a>
+            <figcaption>Architecture</figcaption>
+          </figure>
+          
+          <figure>
+            <a href="/images/projects/lunar-multi-robot-regolith/3.jpg" target="_blank" rel="noopener">
+              <img src="/images/projects/lunar-multi-robot-regolith/3.jpg" alt="Rugged-surface problem" loading="lazy">
+            </a>
+            <figcaption>Rugged-surface problem</figcaption>
+          </figure>
+          
+        </div>
+        
+      </details>
+    </div>
+  </article>
+  
 </div>
-
-<p align="center">
-  <img width="700" src="/images/project/E2EHL.png" alt="Embodied AI for Humanoid/Legged Robotics">
-</p>
-<center><i>Embodied AI for Humanoid/Legged Robotics</i></center>
-
-<p><a href="/research" style="font-size: 0.9em;">← Back to all Research Directions</a></p>
   </section>
 
   
@@ -534,12 +899,18 @@ Our approach integrates three core pillars:
   size: ;
 -->
 
-<h2 id="demo-video">Demo Video</h2>
+<h2 id="videos">Video Demonstrations</h2>
+<div class="rt-videos">
+  <figure class="video-card">
+  <div class="video-frame">
+    
+    <iframe src="https://player.bilibili.com/player.html?bvid=BV1GPkvBdEw9&page=1&autoplay=0&high_quality=1" title="Embodied AI for humanoid and legged robots, TAS Lab, PolyU" loading="lazy" scrolling="no" frameborder="0" allowfullscreen></iframe>
+    
+  </div>
+  <figcaption>Embodied AI for humanoid and legged robots, TAS Lab, PolyU</figcaption>
+</figure>
 
-<p align="center">
-  <iframe src="//player.bilibili.com/player.html?bvid=BV1GPkvBdEw9&page=1&autoplay=0" width="560" height="315" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-</p>
-<center><i>Embodied AI for Humanoid/Legged Robotics — TAS Lab, PolyU</i></center>
+</div>
   </section>
 
   
@@ -553,73 +924,7 @@ Our approach integrates three core pillars:
   size: ;
 -->
 
-<h2 id="key-research-directions">Key Research Directions</h2>
-
-<ul>
-<li>
-<b class="blue">Vision-language-action models</b> for robotic task planning and execution</li>
-<li>
-<b class="blue">Sim-to-real transfer</b> for robust locomotion on diverse terrains</li>
-<li>
-<b class="blue">Whole-body control</b> and contact-rich manipulation for humanoid platforms</li>
-<li>
-<b class="blue">Reinforcement learning</b> for adaptive and agile legged locomotion</li>
-<li>
-<b class="blue">Multimodal perception</b> (vision, tactile, proprioception) for embodied reasoning</li>
-<li>
-<b class="blue">Human-robot interaction</b> and collaborative task execution</li>
-</ul>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="target-applications">Target Applications</h2>
-
-<ul>
-<li>
-<b class="blue">Logistics and warehousing</b>: Humanoid robots for package handling, sorting, and delivery</li>
-<li>
-<b class="blue">Urban maintenance</b>: Legged robots for inspection and maintenance in complex environments</li>
-<li>
-<b class="blue">Healthcare and assistive robotics</b>: Service robots for elderly care and rehabilitation</li>
-<li>
-<b class="blue">Search and rescue</b>: Legged robots operating in disaster-stricken environments</li>
-</ul>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="selected-publications--corresponding-author">Selected Publications (*: Corresponding author)</h2>
-
-<style>
-p[align="center"] { text-align: center !important; }
-p[align="center"] img, p[align="center"] iframe { display: inline-block; max-width: 100%; }
-center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
-.pub-list { list-style: none; padding-left: 0; }
-.pub-item { margin: 10px 0; padding: 10px 14px; border-left: 3px solid var(--primary, #0795d9); background: #f9fbfd; font-size: 0.92em; line-height: 1.55; }
-.pub-title { font-weight: 600; color: var(--primary, #0795d9); }
-.pub-authors { font-size: 0.9em; color: #444; }
-.pub-venue { font-size: 0.88em; color: #555; font-style: italic; }
-.pub-meta { font-size: 0.85em; color: #888; }
-</style>
+<h2 id="selected-publications">Selected Publications</h2>
 
 <ul class="pub-list">
 
@@ -657,144 +962,36 @@ center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
 
 </ul>
 
-<p style="text-align:right;font-size:0.88em;margin-top:8px;"><a href="/publications" style="color:var(--primary, #1a73e8);">→ Full publication list</a></p>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="acknowledgement-and-collaborators">Acknowledgement and Collaborators</h2>
-
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
-This research is supported by <b class="blue">The Hong Kong Polytechnic University</b> and industry partners. We collaborate with leading research groups in embodied AI and robotics worldwide.
-</div>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="projects-1">Projects (1)</h2>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-      <a href="/2023/12/03/Multi_robot_Collaborative_Operations_in_Lunar_Areas_for_Regolith_Processing_Project.html" class="post-excerpt-image" aria-label="Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing">
-        <img src="/images/project/prototype.png" alt="Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2023/12/03/Multi_robot_Collaborative_Operations_in_Lunar_Areas_for_Regolith_Processing_Project.html">Multi-robot Collaborative Operations in Lunar Areas for Regolith Processing</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>December 03, 2023</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
-</div>
+<p class="pub-more"><a href="/publications">Full publication list →</a></p>
 
 
-  
-
-
-  <div class="tags" data-link="/blog">
-    
-      <a href="blog?search=%22tag:%20multi-robot-collaboration%22" class="tag" data-tooltip='Show items with the tag "multi-robot-collaboration"'>
-        multi-robot-collaboration
-      </a>
-    
-      <a href="blog?search=%22tag:%20mpc%22" class="tag" data-tooltip='Show items with the tag "mpc"'>
-        mpc
-      </a>
-    
-      <a href="blog?search=%22tag:%20mapping%22" class="tag" data-tooltip='Show items with the tag "mapping"'>
-        mapping
-      </a>
-    
-      <a href="blog?search=%22tag:%20leader-follower-formation-algorithm%22" class="tag" data-tooltip='Show items with the tag "leader-follower-formation-algorithm"'>
-        leader-follower-formation-algorithm
-      </a>
-    
-      <a href="blog?search=%22tag:%20sensor-fusion%22" class="tag" data-tooltip='Show items with the tag "sensor-fusion"'>
-        sensor-fusion
-      </a>
-    
-      <a href="blog?search=%22tag:%20lidar%22" class="tag" data-tooltip='Show items with the tag "lidar"'>
-        lidar
-      </a>
-    
-      <a href="blog?search=%22tag:%20imu%22" class="tag" data-tooltip='Show items with the tag "imu"'>
-        imu
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="h2 id abstract Abstract h2 div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project rugged surface problem lunar.jpg alt Team Banner style width: 50 ; height: auto; object-fit: cover; max-width: 350px; margin: 0 auto; border-radius: 15px; div p Research conducted on the lunar surface necessitates the utilization of Unmanned Autonomous Systems UASs equipped with sophisticated robotic arms designed for the purpose of collecting soil samples. The primary challenges encountered in this endeavor revolve around the need for precise control over the UASs while navigating through rugged and uneven terrain, all while ensuring the utmost safety of the operation. To tackle these challenges head-on, a cutting-edge multi-robot collaboration system has been conceptualized and put forth as a solution. This innovative system leverages the power of Factor Graph Optimization FGO to achieve unparalleled accuracy in positioning the UASs during the soil sample collection process. p div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project positioning error.jpg alt Team Banner style width: 50 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div p Remarkably, the implementation of this collaborative system has yielded remarkable results, boasting a Root Mean Square Error RMSE of merely 0.30 meters. This achievement represents a substantial advancement compared to the conventional methods previously employed in similar research endeavors. A pivotal component of this system is the integration of the Leader-Follower Formation Algorithm, which plays a crucial role in facilitating efficient coordination among multiple robots operating simultaneously in the lunar environment. p p Looking ahead, the future research trajectory will be centered around further enhancing the collaborative capabilities of the system. This will entail a deep dive into refining the existing Positioning and Leader-Follower algorithms, with a specific focus on optimizing autonomous navigation techniques and streamlining the soil sampling process. Noteworthy features of the system include automated navigation functionalities, advanced soil identification mechanisms, and seamless soil collection procedures facilitated by the utilization of QR codes for precise localization and task allocation purposes. p h2 id funding-body Funding Body h2 p Research Centre for Deep Space Explorations Dec 2023 - Dec 2025 p h2 id researcher Researcher h2 p a href https: polyu-taslab.github.io members Wen Weisong.html Dr. Weisong Wen a , Qian Liang p h2 id status Status h2 p Ongoing p h2 id system-framework System Framework h2 div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project prototype.png alt Team Banner style width: 60 ; height: auto; object-fit: cover; max-width: 320px; margin: 0 auto; border-radius: 15px; div div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project overall architecture lunar.jpg alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div h2 id mapping-results Mapping Results h2 div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project speed 4 combined arms.gif alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div div style text-align: center; margin-bottom: 20px; img src https: github.com PolyU-TASLAB polyu-taslab.github.io raw main images project speedy clipped ms AO.gif alt Team Banner style width: 100 ; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px; div h2 id achievements Achievements h2">
-        Abstract
-
-      </p>
-    </div>
-  </div>
-</div>
+<script>
+  document.addEventListener("click", function (event) {
+    var button = event.target.closest(".video-lite");
+    if (!button) return;
+    var frame = document.createElement("iframe");
+    frame.src = button.dataset.src;
+    frame.title = button.getAttribute("aria-label");
+    frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+    frame.allowFullscreen = true;
+    button.replaceWith(frame);
+  });
+</script>
   </section>
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -806,25 +1003,25 @@ This research is supported by <b class="blue">The Hong Kong Polytechnic Universi
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -836,10 +1033,10 @@ This research is supported by <b class="blue">The Hong Kong Polytechnic Universi
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -851,10 +1048,10 @@ This research is supported by <b class="blue">The Hong Kong Polytechnic Universi
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -866,10 +1063,10 @@ This research is supported by <b class="blue">The Hong Kong Polytechnic Universi
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -881,24 +1078,14 @@ This research is supported by <b class="blue">The Hong Kong Polytechnic Universi
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

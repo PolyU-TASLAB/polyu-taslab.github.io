@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>TASLAB Visits HKSTPSZ and Experiences Autonomous Cross-Border Bus with ASTRI | TAS LAB</title>
 
-<link rel="icon" href="/images/icon.png">
+<link rel="icon" href="/images/icon.jpg">
 
 <meta name="title" content="TASLAB Visits HKSTPSZ and Experiences Autonomous Cross-Border Bus with ASTRI">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -74,7 +73,7 @@
     "headline": "TASLAB Visits HKSTPSZ and Experiences Autonomous Cross-Border Bus with ASTRI",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
     },
     "url": "https://polyu-taslab.github.io"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://polyu-taslab.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/components.css" rel="stylesheet">
   
 
   
@@ -311,18 +311,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/" class="home">
+<header class="site-header">
+  <a href="/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -386,49 +383,51 @@
     
     
       
-        <a href="/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -472,7 +471,7 @@
   <!-- 
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
+      <span>October 09, 2026</span>
     </span>
    -->
 </div>
@@ -502,53 +501,32 @@
 -->
 
 
-<h2 id="taslab-visits-hkstpsz-and-experiences-autonomous-cross-border-bus-with-astri">TASLAB Visits HKSTPSZ and Experiences Autonomous Cross-Border Bus with ASTRI</h2>
+<div class="post-body">
+<p>On 15 May 2026, members of the Trustworthy AI and Autonomous Systems Laboratory (TASLAB), Dr. Huang Feng, Mr. Zhang Ziqi and Mr. Qin Qijun, visited the Hong Kong Science Park Shenzhen Branch (HKSTPSZ) and met ASTRI members for an on-site technology exchange.</p>
 
-<p>On May 15, 2026, TASLAB member Dr. Huang Feng, Mr. Zhang Ziqi, Mr. Qin Qijun visited the Hong Kong Science Park Shenzhen Branch (HKSTPSZ) and had a meeting with ASTRI members for an on-site technology exchange. During the visit, the team toured HKSTPSZ, experienced the autonomous cross-border bus, and discussed future research collaboration with ASTRI in intelligent transportation, autonomous driving, and cross-border mobility technologies.</p>
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/260515-SZHKSTP/9.jpg" alt="TASLAB members with the autonomous bus at HKSTPSZ" style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px;">TASLAB members with the autonomous bus at HKSTPSZ.</p>
+<div class="news-photos" data-cols="2">
+  <figure><img src="/images/news/260515-SZHKSTP/9.jpg" alt="TASLAB members with the autonomous bus at HKSTPSZ"><figcaption>TASLAB members with the autonomous bus at HKSTPSZ.</figcaption></figure>
+  <figure><img src="/images/news/260515-SZHKSTP/1.jpg" alt="Group photo with the autonomous bus"><figcaption>Group photo after the autonomous bus experience.</figcaption></figure>
 </div>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/260515-SZHKSTP/1.jpg" alt="Group photo with the autonomous bus" style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px;">Group photo after the autonomous bus experience.</p>
+<p>During the visit, the team toured HKSTPSZ and experienced the autonomous cross-border bus.</p>
+
+<div class="news-photos" data-cols="3" data-ratio="wide">
+  <figure><img src="/images/news/260515-SZHKSTP/2.jpg" alt="Autonomous bus at HKSTPSZ"><figcaption>Autonomous bus demonstration at HKSTPSZ.</figcaption></figure>
+  <figure><img src="/images/news/260515-SZHKSTP/3.jpg" alt="Inside the autonomous bus during the ride"><figcaption>Inside the autonomous bus during the on-road experience.</figcaption></figure>
+  <figure><img src="/images/news/260515-SZHKSTP/4.jpg" alt="Autonomous bus ready for demonstration"><figcaption>Autonomous bus ready for the demonstration ride.</figcaption></figure>
+  <figure><img src="/images/news/260515-SZHKSTP/5.jpg" alt="Rear view of the autonomous bus at HKSTPSZ"><figcaption>Autonomous bus operating in the HKSTPSZ campus environment.</figcaption></figure>
+  <figure><img src="/images/news/260515-SZHKSTP/7.jpg" alt="Autonomous bus demonstration area"><figcaption>Autonomous bus demonstration area at HKSTPSZ.</figcaption></figure>
+  <figure><img src="/images/news/260515-SZHKSTP/8.jpg" alt="Discussion near the autonomous bus"><figcaption>Discussion near the autonomous bus after the technology experience.</figcaption></figure>
 </div>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/260515-SZHKSTP/2.jpg" alt="Autonomous bus at HKSTPSZ" style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px;">Autonomous bus demonstration at HKSTPSZ.</p>
-</div>
+<p>The team also discussed future research collaboration with ASTRI in intelligent transportation, autonomous driving and cross-border mobility technologies.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/260515-SZHKSTP/3.jpg" alt="Inside the autonomous bus during the ride" style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px;">Inside the autonomous bus during the on-road experience.</p>
+<div class="news-photos" data-cols="1">
+  <figure><img src="/images/news/260515-SZHKSTP/6.jpg" alt="Front view of the autonomous bus"></figure>
 </div>
+<p class="news-caption">Autonomous bus displayed at HKSTPSZ.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/260515-SZHKSTP/4.jpg" alt="Autonomous bus ready for demonstration" style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px;">Autonomous bus ready for the demonstration ride.</p>
-</div>
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/260515-SZHKSTP/5.jpg" alt="Rear view of the autonomous bus at HKSTPSZ" style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px;">Autonomous bus operating in the HKSTPSZ campus environment.</p>
-</div>
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/260515-SZHKSTP/6.jpg" alt="Front view of the autonomous bus" style="width: 100%; height: auto; object-fit: contain; max-width: 650px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px;">Autonomous bus displayed at HKSTPSZ.</p>
-</div>
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/260515-SZHKSTP/7.jpg" alt="Autonomous bus demonstration area" style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px;">Autonomous bus demonstration area at HKSTPSZ.</p>
-</div>
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/260515-SZHKSTP/8.jpg" alt="Discussion near the autonomous bus" style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px;">Discussion near the autonomous bus after the technology experience.</p>
 </div>
   </section>
 
@@ -586,21 +564,17 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -612,25 +586,25 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -642,10 +616,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -657,10 +631,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -672,10 +646,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -687,24 +661,14 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

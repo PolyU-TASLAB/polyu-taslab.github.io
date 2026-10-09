@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -39,21 +38,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>The First “AI4X“ International Academic Industry Conference -  AI for Intelligent Systems | TAS LAB</title>
+<title>The First "AI4X" International Academic and Industry Conference – AI for Intelligent Systems | TAS LAB</title>
 
-<link rel="icon" href="/images/icon.png">
+<link rel="icon" href="/images/icon.jpg">
 
-<meta name="title" content="The First “AI4X“ International Academic Industry Conference -  AI for Intelligent Systems">
+<meta name="title" content='The First "AI4X" International Academic and Industry Conference – AI for Intelligent Systems'>
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 
-<meta property="og:title" content="The First “AI4X“ International Academic Industry Conference -  AI for Intelligent Systems">
+<meta property="og:title" content='The First "AI4X" International Academic and Industry Conference – AI for Intelligent Systems'>
 <meta property="og:site_title" content="TAS LAB">
 <meta property="og:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="og:url" content="https://polyu-taslab.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="The First “AI4X“ International Academic Industry Conference -  AI for Intelligent Systems">
+<meta property="twitter:title" content='The First "AI4X" International Academic and Industry Conference – AI for Intelligent Systems'>
 <meta property="twitter:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="twitter:url" content="https://polyu-taslab.github.io">
 <meta property="twitter:card" content="summary_large_image">
@@ -69,12 +68,12 @@
     
       "@type": "WebSite",
     
-    "name": "The First “AI4X“ International Academic Industry Conference -  AI for Intelligent Systems",
+    "name": "The First "AI4X" International Academic and Industry Conference – AI for Intelligent Systems",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
-    "headline": "The First “AI4X“ International Academic Industry Conference -  AI for Intelligent Systems",
+    "headline": "The First "AI4X" International Academic and Industry Conference – AI for Intelligent Systems",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
     },
     "url": "https://polyu-taslab.github.io"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://polyu-taslab.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/components.css" rel="stylesheet">
   
 
   
@@ -311,18 +311,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/" class="home">
+<header class="site-header">
+  <a href="/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -386,49 +383,51 @@
     
     
       
-        <a href="/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -454,7 +453,7 @@
 -->
 
 
-<h1 class="center">The First “AI4X“ International Academic Industry Conference -  AI for Intelligent Systems</h1>
+<h1 class="center">The First "AI4X" International Academic and Industry Conference – AI for Intelligent Systems</h1>
 
 <div class="post-info">
   
@@ -472,7 +471,7 @@
   <!-- 
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
+      <span>October 09, 2026</span>
     </span>
    -->
 </div>
@@ -502,118 +501,69 @@
 -->
 
 
-<h1 id="the-first-ai4x-international-academic-industry-conference----ai-for-intelligent-systems">The First “AI4X“ International Academic Industry Conference -  AI for Intelligent Systems</h1>
+<div class="post-body">
+<p>The inaugural “AI4X” International Academic and Industry Conference in Wuxi featured a dedicated sub-forum on AI-powered intelligent systems and the low-altitude economy. The forum brought together experts from academia and industry to discuss new developments in autonomous vehicles, drones and embodied intelligence. Attendance in the venue exceeded capacity, and over 2,300 viewers followed the forum online, many of them young and urban audiences. The full programme is available on the <a href="/images/news/AI4X_2025/poster_update.jpg">conference poster</a>.</p>
 
-<p>The inaugural “AI4X” International Academic and Industry Conference in Wuxi featured a dedicated sub-forum on AI-powered intelligent systems and the low-altitude economy, drawing experts from academia and industry to explore cutting-edge innovations in autonomous vehicles, drones, and embodied intelligence. The forum attracted high engagement: physical attendance exceeded capacity, and over 2,300 tuned in online, with strong viewership from young and urban audiences. You can find the detailed poster in <a href="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AI4X_2025/poster_update.png">here</a></p>
+<div class="news-photos" data-cols="1">
+  <figure><img src="/images/news/AI4X_2025/fig1_Dr.WeisongWen.jpg" alt="Prof. Weisong Wen delivering the opening remarks"></figure>
+</div>
+<p class="news-caption">Prof. Weisong Wen delivered the opening and closing remarks of the sub-forum.</p>
 
-<p>Opening and closing remarks were delivered by Prof. Weisong Wen, setting the tone for a series of insightful talks. Key academic contributions included:</p>
+<h3 id="academic-talks">Academic talks</h3>
 
 <ul>
   <li>
-    <p>Prof. Jinjun SHAN (York University) on adaptive decision-making in autonomous driving using deep reinforcement learning and game theory.</p>
-  </li>
+<strong>Prof. Jinjun SHAN</strong> (York University): adaptive decision-making in autonomous driving using deep reinforcement learning and game theory.</li>
   <li>
-    <p>Prof. Fei Gao (Zhejiang University) on algorithms for drone swarms in complex environments.</p>
-  </li>
+<strong>Prof. Fei GAO</strong> (Zhejiang University): algorithms for drone swarms in complex environments.</li>
   <li>
-    <p>Prof. Qian MENG (Southeast University) on the reliability of autonomous navigation systems.</p>
-  </li>
+<strong>Prof. Qian MENG</strong> (Southeast University): the reliability of autonomous navigation systems.</li>
   <li>
-    <p>Prof. Chao SUN (Beihang University) on interpretable AI for detecting deceptive interference.</p>
-  </li>
+<strong>Prof. Chao SUN</strong> (Beihang University): interpretable AI for detecting deceptive interference.</li>
 </ul>
 
-<p>Industry-focused presentations showcased real-world AI applications:</p>
+<div class="news-photos" data-cols="2" data-ratio="wide">
+  <figure><img src="/images/news/AI4X_2025/fig2_Prof_Jinju_Shan.jpg" alt="Prof. Jinjun Shan speaking"><figcaption>Prof. Jinjun SHAN</figcaption></figure>
+  <figure><img src="/images/news/AI4X_2025/fig2_1_Prof_Benmei_Chen_Q_A.jpg" alt="Prof. Benmei Chen asking a question"><figcaption>Q&amp;A from Prof. Benmei CHEN</figcaption></figure>
+  <figure><img src="/images/news/AI4X_2025/fig3_Prof_GAO_Fei.jpg" alt="Prof. Fei Gao speaking"><figcaption>Prof. Fei GAO</figcaption></figure>
+  <figure><img src="/images/news/AI4X_2025/fig3_1_Q_A_1.jpg" alt="Audience question after Prof. Gao's talk"><figcaption>Q&amp;A after Prof. GAO's talk</figcaption></figure>
+  <figure><img src="/images/news/AI4X_2025/fig3_1_Q_A_2.jpg" alt="Audience question after Prof. Gao's talk"><figcaption>Q&amp;A after Prof. GAO's talk</figcaption></figure>
+  <figure><img src="/images/news/AI4X_2025/fig4_Prof_MengQian.jpg" alt="Prof. Qian Meng speaking"><figcaption>Prof. Qian MENG</figcaption></figure>
+  <figure><img src="/images/news/AI4X_2025/fig4_1_Q_A.jpg" alt="Audience question after Prof. Meng's talk"><figcaption>Q&amp;A after Prof. MENG's talk</figcaption></figure>
+  <figure><img src="/images/news/AI4X_2025/fig5_Prof_ChaoSUN.jpg" alt="Prof. Chao Sun speaking"><figcaption>Prof. Chao SUN</figcaption></figure>
+</div>
+<p class="news-caption">Academic talks and discussion at the sub-forum.</p>
+
+<h3 id="industry-talks">Industry talks</h3>
 
 <ul>
   <li>
-    <p>Mr. Gang HONG (Cloud Factory Technology) on smart road management through AI-enabled edge computing.</p>
-  </li>
+<strong>Mr. Gang HONG</strong> (Cloud Factory Technology): smart road management through AI-enabled edge computing.</li>
   <li>
-    <p>Mr. Yutao LI (Hanhe Aviation) on drones transforming rice farming and industrial cleaning.</p>
-  </li>
+<strong>Mr. Yutao LI</strong> (Hanhe Aviation): drones for rice farming and industrial cleaning.</li>
   <li>
-    <p>Mr. Kai XIAO (LINXAI) on commercializing humanoid robots.</p>
-  </li>
+<strong>Mr. Kai XIAO</strong> (LINXAI): commercialising humanoid robots.</li>
   <li>
-    <p>Mr. Dylan Tyack (Drone Solutions Asia) on AI-driven drone cleaning for urban safety.</p>
-  </li>
+<strong>Mr. Dylan Tyack</strong> (Drone Solutions Asia): AI-driven drone cleaning for urban safety.</li>
   <li>
-    <p>Mr. Hang CHEN (ASTRI) on the fusion of AI, connected driving, and the low-altitude economy.</p>
-  </li>
+<strong>Mr. Hang CHEN</strong> (ASTRI): the fusion of AI, connected driving and the low-altitude economy.</li>
 </ul>
 
-<p>Looking ahead, the sub-forum aims to deepen AI research, promote cross-industry innovation, support talent development, and strengthen global collaboration in intelligent systems and low-altitude technologies.</p>
-
-<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AI4X_2025/fig1_Dr.WeisongWen.jpg" alt="Banner" style="width: 90%; height: auto; object-fit: cover; border-radius: 15px;">
+<div class="news-photos" data-cols="3" data-ratio="wide">
+  <figure><img src="/images/news/AI4X_2025/fig6_Prof_GangHong.jpg" alt="Mr. Gang Hong speaking"><figcaption>Mr. Gang HONG</figcaption></figure>
+  <figure><img src="/images/news/AI4X_2025/fig7_Yutao_LI.jpg" alt="Mr. Yutao Li speaking"><figcaption>Mr. Yutao LI</figcaption></figure>
+  <figure><img src="/images/news/AI4X_2025/fig7_Yutao_LI_Q_A.jpg" alt="Q&amp;A after Mr. Yutao Li's talk"><figcaption>Q&amp;A with Mr. Yutao LI</figcaption></figure>
+  <figure><img src="/images/news/AI4X_2025/fig8_Kai_XIAO.jpg" alt="Mr. Kai Xiao speaking"><figcaption>Mr. Kai XIAO</figcaption></figure>
+  <figure><img src="/images/news/AI4X_2025/fig9_Dylan_Tyack.jpg" alt="Mr. Dylan Tyack speaking"><figcaption>Mr. Dylan Tyack</figcaption></figure>
+  <figure><img src="/images/news/AI4X_2025/fig10_Hang_CHEN.jpg" alt="Mr. Hang Chen speaking"><figcaption>Mr. Hang CHEN</figcaption></figure>
 </div>
-<p>Open Remarkeds by Prof. Weisong Wen</p>
+<p class="news-caption">Industry speakers shared real-world applications of AI.</p>
 
-<div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AI4X_2025/fig2_Prof_Jinju_Shan.jpg" alt="Banner" style="width: 60%; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px;">
-</div>
-<div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AI4X_2025/fig2_1_Prof_Benmei_Chen_Q_A.jpg" alt="Banner" style="width: 60%; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px;">
-</div>
-<p>Talk by Prof. Jinjun Shan and Q&amp;A from Prof. Benmei Chen</p>
+<h3 id="looking-ahead">Looking ahead</h3>
 
-<div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AI4X_2025/fig3_Prof_GAO_Fei.jpg" alt="Banner" style="width: 60%; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px;">
-</div>
-<div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AI4X_2025/fig3_1_Q_A_1.jpg" alt="Banner" style="width: 60%; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px;">
-</div>
-<div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AI4X_2025/fig3_1_Q_A_2.jpg" alt="Banner" style="width: 60%; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px;">
-</div>
-<p>Talk by Prof. Fei GAO</p>
+<p>The sub-forum aims to deepen AI research, promote cross-industry innovation, support talent development and strengthen international collaboration in intelligent systems and low-altitude technologies.</p>
 
-<div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AI4X_2025/fig4_Prof_MengQian.jpg" alt="Banner" style="width: 60%; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px;">
 </div>
-<div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AI4X_2025/fig4_1_Q_A.jpg" alt="Banner" style="width: 60%; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px;">
-</div>
-
-<p>Talk by Prof. Qian MENG</p>
-
-<div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AI4X_2025/fig5_Prof_ChaoSUN.jpg" alt="Banner" style="width: 60%; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px;">
-</div>
-
-<p>Talk by Prof. Chao SUN</p>
-
-<div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AI4X_2025/fig6_Prof_GangHong.jpg" alt="Banner" style="width: 60%; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px;">
-</div>
-
-<p>Talk by Mr. Gang HONG</p>
-
-<div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AI4X_2025/fig7_Yutao_LI.jpg" alt="Banner" style="width: 60%; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px;">
-</div>
-<div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AI4X_2025/fig7_Yutao_LI_Q_A.jpg" alt="Banner" style="width: 60%; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px;">
-</div>
-
-<p>Talk by Mr. Yutao LI</p>
-
-<div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AI4X_2025/fig8_Kai_XIAO.jpg" alt="Banner" style="width: 60%; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px;">
-</div>
-
-<p>Talk by Mr. Kai XIAO</p>
-
-<div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AI4X_2025/fig9_Dylan_Tyack.jpg" alt="Banner" style="width: 60%; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px;">
-</div>
-<p>Talk by Mr. Dylan Tyack</p>
-
-<div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/AI4X_2025/fig10_Hang_CHEN.jpg" alt="Banner" style="width: 60%; height: auto; object-fit: cover; max-width: 500px; margin: 0 10px; border-radius: 15px;">
-</div>
-<p>Talk by Mr. Hang CHEN</p>
   </section>
 
   
@@ -650,21 +600,17 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -676,25 +622,25 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -706,10 +652,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -721,10 +667,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -736,10 +682,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -751,24 +697,14 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

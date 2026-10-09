@@ -13,11 +13,11 @@ button {
   gap: 10px;
   max-width: calc(100% - 5px - 5px);
   margin: 5px;
-  padding: 8px 15px;
+  padding: 8px 16px;
   border: none;
-  border-radius: var(--rounded);
+  border-radius: 999px;
   background: var(--primary);
-  color: var(--background);
+  color: #ffffff;
   text-align: center;
   font: inherit;
   font-family: var(--heading);
@@ -29,8 +29,8 @@ button {
 }
 
 .button:hover {
-  background: var(--text);
-  color: var(--background);
+  background: var(--primary-dark);
+  color: #ffffff;
 }
 
 .button[data-style=bare] {
@@ -39,7 +39,8 @@ button {
   color: var(--primary);
 }
 .button[data-style=bare]:hover {
-  color: var(--text);
+  background: none;
+  color: var(--primary-dark);
 }
 
 .button[data-flip] {

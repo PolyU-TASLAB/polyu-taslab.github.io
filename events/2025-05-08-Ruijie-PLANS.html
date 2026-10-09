@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>Ph.D. Student XU Ruijie Presents Novel Wi-Fi RTT/LiDAR/IMU Integration Framework at IEEE/ION PLANS 2025 | TAS LAB</title>
 
-<link rel="icon" href="/images/icon.png">
+<link rel="icon" href="/images/icon.jpg">
 
 <meta name="title" content="Ph.D. Student XU Ruijie Presents Novel Wi-Fi RTT/LiDAR/IMU Integration Framework at IEEE/ION PLANS 2025">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -74,7 +73,7 @@
     "headline": "Ph.D. Student XU Ruijie Presents Novel Wi-Fi RTT/LiDAR/IMU Integration Framework at IEEE/ION PLANS 2025",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
     },
     "url": "https://polyu-taslab.github.io"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://polyu-taslab.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/components.css" rel="stylesheet">
   
 
   
@@ -311,18 +311,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/" class="home">
+<header class="site-header">
+  <a href="/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -386,49 +383,51 @@
     
     
       
-        <a href="/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -472,7 +471,7 @@
   <!-- 
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
+      <span>October 09, 2026</span>
     </span>
    -->
 </div>
@@ -502,21 +501,24 @@
 -->
 
 
-<h2 id="phd-student-xu-ruijie-presents-novel-wi-fi-rttlidarimu-integration-framework-at-ieeeion-plans-2025">Ph.D. Student XU Ruijie Presents Novel Wi-Fi RTT/LiDAR/IMU Integration Framework at IEEE/ION PLANS 2025</h2>
+<div class="post-body">
+<p>From 28 April to 1 May 2025, PhD student Ruijie Xu from the Trustworthy AI and Autonomous Systems Laboratory (TASLAB) attended the IEEE/ION Position, Location and Navigation Symposium (PLANS) in Salt Lake City, Utah, USA. At this leading conference for positioning, navigation and timing technologies, Xu presented the paper <em>Tightly-Coupled Wi-Fi/LiDAR/Inertial Integration via Factor Graph Optimization for UAS.</em></p>
 
-<p>From April 28 to May 1, 2025, PhD student Ruijie Xu from TASLAB attended the prestigious IEEE/ION Position, Location and Navigation Symposium (PLANS) in Salt Lake City, Utah, USA. At this leading conference for positioning, navigation, and timing technologies, Xu presented innovative research titled <em>Tightly-Coupled Wi-Fi/LiDAR/Inertial Integration via Factor Graph Optimization for UAS.</em></p>
-
-<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Ruijie0508_1.png" alt="Banner" style="width: 50%; height: auto; object-fit: cover; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="/images/news/Ruijie0508_1.jpg" alt="Ruijie Xu presenting at IEEE/ION PLANS 2025"></figure>
 </div>
+<p class="news-caption">Ruijie Xu presenting his work at IEEE/ION PLANS 2025.</p>
 
-<p>The presented work addresses critical challenges of positioning in outdoor-indoor transition scenarios for Unmanned Autonomous Systems (UAS) by introducing a novel tightly-coupled multi-sensor fusion framework via FGO, implementing comprehensive integration of Wi-Fi Round-Trip-Time (RTT), LiDAR, and inertial measurements at the raw data level within a unified factor graph optimization framework. The proposed approach employs fault detection exclusion method to effectively handle both RTT measurement anomalies and LiDAR-inertial odometry drift. Experimental results demonstrated remarkable positioning accuracy in controlled indoor and challenging outdoor environments, respectively—representing substantial improvements over both conventional Wi-Fi RTT positioning and traditional LiDAR-inertial odometry.</p>
+<p>The work addresses the challenge of positioning Unmanned Autonomous Systems (UAS) in outdoor-indoor transition scenarios. It introduces a novel tightly-coupled multi-sensor fusion framework that integrates Wi-Fi Round-Trip-Time (RTT), LiDAR and inertial measurements at the raw data level within a unified factor graph optimization (FGO) framework. A fault detection and exclusion method handles both RTT measurement anomalies and LiDAR-inertial odometry drift. Experiments in controlled indoor and challenging outdoor environments showed high positioning accuracy, a substantial improvement over both conventional Wi-Fi RTT positioning and traditional LiDAR-inertial odometry.</p>
 
-<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Ruijie0508_2.jpg" alt="Banner" style="width: 30%; height: auto; object-fit: cover; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="/images/news/Ruijie0508_2.jpg" alt="Ruijie Xu at IEEE/ION PLANS 2025 in Salt Lake City"></figure>
 </div>
+<p class="news-caption">Ruijie Xu at IEEE/ION PLANS 2025 in Salt Lake City.</p>
 
-<p>The participation in IEEE/ION PLANS 2025 provided valuable opportunities for academic exchange and collaboration with international researchers in the positioning and navigation community, further strengthening our lab’s global research presence in navigation and positioning field.</p>
+<p>Taking part in IEEE/ION PLANS 2025 provided valuable opportunities for academic exchange and collaboration with international researchers in the positioning and navigation community, and strengthened TASLAB’s international presence in the field.</p>
+
+</div>
   </section>
 
   
@@ -536,7 +538,7 @@
     
       <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
       <a href="/events/2025-05-05-runzhi_TITS.html">
-        Our paper is accpeted by IEEE Transactions on Intelligent Transportation Systems
+        Our Paper Is Accepted by IEEE Transactions on Intelligent Transportation Systems
       </a>
     
   </span>
@@ -553,21 +555,17 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -579,25 +577,25 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -609,10 +607,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -624,10 +622,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -639,10 +637,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -654,24 +652,14 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -39,21 +38,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Meituan Marstalk Hosts at PolyU:Industry Leaders Discuss Future of Robotics and Intelligent Systems | TAS LAB</title>
+<title>Meituan MarsTalk Hosted at PolyU: Industry Leaders Discuss the Future of Robotics and Intelligent Systems | TAS LAB</title>
 
-<link rel="icon" href="/images/icon.png">
+<link rel="icon" href="/images/icon.jpg">
 
-<meta name="title" content="Meituan Marstalk Hosts at PolyU:Industry Leaders Discuss Future of Robotics and Intelligent Systems">
+<meta name="title" content="Meituan MarsTalk Hosted at PolyU: Industry Leaders Discuss the Future of Robotics and Intelligent Systems">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 
-<meta property="og:title" content="Meituan Marstalk Hosts at PolyU:Industry Leaders Discuss Future of Robotics and Intelligent Systems">
+<meta property="og:title" content="Meituan MarsTalk Hosted at PolyU: Industry Leaders Discuss the Future of Robotics and Intelligent Systems">
 <meta property="og:site_title" content="TAS LAB">
 <meta property="og:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="og:url" content="https://polyu-taslab.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Meituan Marstalk Hosts at PolyU:Industry Leaders Discuss Future of Robotics and Intelligent Systems">
+<meta property="twitter:title" content="Meituan MarsTalk Hosted at PolyU: Industry Leaders Discuss the Future of Robotics and Intelligent Systems">
 <meta property="twitter:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="twitter:url" content="https://polyu-taslab.github.io">
 <meta property="twitter:card" content="summary_large_image">
@@ -69,12 +68,12 @@
     
       "@type": "WebSite",
     
-    "name": "Meituan Marstalk Hosts at PolyU:Industry Leaders Discuss Future of Robotics and Intelligent Systems",
+    "name": "Meituan MarsTalk Hosted at PolyU: Industry Leaders Discuss the Future of Robotics and Intelligent Systems",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
-    "headline": "Meituan Marstalk Hosts at PolyU:Industry Leaders Discuss Future of Robotics and Intelligent Systems",
+    "headline": "Meituan MarsTalk Hosted at PolyU: Industry Leaders Discuss the Future of Robotics and Intelligent Systems",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
     },
     "url": "https://polyu-taslab.github.io"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://polyu-taslab.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/components.css" rel="stylesheet">
   
 
   
@@ -311,18 +311,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/" class="home">
+<header class="site-header">
+  <a href="/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -386,49 +383,51 @@
     
     
       
-        <a href="/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -454,7 +453,7 @@
 -->
 
 
-<h1 class="center">Meituan Marstalk Hosts at PolyU:Industry Leaders Discuss Future of Robotics and Intelligent Systems</h1>
+<h1 class="center">Meituan MarsTalk Hosted at PolyU: Industry Leaders Discuss the Future of Robotics and Intelligent Systems</h1>
 
 <div class="post-info">
   
@@ -472,7 +471,7 @@
   <!-- 
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
+      <span>October 09, 2026</span>
     </span>
    -->
 </div>
@@ -502,55 +501,47 @@
 -->
 
 
-<p><em>Hong Kong, September 14th, 2025</em> – The Hong Kong Polytechnic University (PolyU) successfully hosted the Meituan Marstalk today, bringing together leading experts in robotics, automation, and artificial intelligence to explore technological breakthroughs in intelligent systems for dynamic environments.
-The ceremony featured a keynote address by representatives from HKISA, who emphasized the critical role of the new index in promoting trust and scalability in commercial and civic drone applications. The index will provide a measurable framework to evaluate drone performance, maintenance standards, and operational safety—key factors for integration into urban airspace.</p>
+<div class="post-body">
+<p><em>Hong Kong, 14 September 2025</em> – The Hong Kong Polytechnic University (PolyU) hosted the Meituan MarsTalk, bringing together leading experts in robotics, automation and artificial intelligence to explore technological breakthroughs in intelligent systems for dynamic environments.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0914MarsTalk/marstalk.jpg" alt="" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<p>The ceremony featured a keynote address by representatives from HKISA, who emphasized the critical role of the new index in promoting trust and scalability in commercial and civic drone applications. The index will provide a measurable framework to evaluate drone performance, maintenance standards and operational safety, which are key factors for integration into urban airspace.</p>
+
+<h3 id="speakers">Speakers</h3>
+
+<p>The event featured speakers from both academia and industry, highlighting the growing collaboration between universities and technology companies in advancing robotics research.</p>
+
+<ul>
+  <li>
+<strong>Dr. Yinian Mao</strong>, Vice President of Meituan and Director of Meituan Academy of Robotics Shenzhen, delivered a keynote presentation on the company’s latest innovations in autonomous systems. “The integration of robotics and AI in real-world applications is accelerating at an unprecedented pace, particularly in service delivery and urban logistics,” Dr. Mao emphasized.</li>
+  <li>
+<strong>Prof. Ning Xi</strong>, Chair Professor of Robotics and Automation and Head of the Department of Data and Systems Engineering at HKU, as well as Director of the Advanced Technologies Institute, spoke about the academic research underpinning these technological advances, focusing on the convergence of data science and robotic systems in creating more intelligent and adaptive machines.</li>
+  <li>
+<strong>Prof. Wen-Hua Chen</strong>, Interim Head of Aerospace Engineering at PolyU, Chair Professor of Robotics and Autonomous Systems, and Director of the Research Centre for Low Altitude Economy, discussed emerging opportunities in the low-altitude economy. “Hong Kong and the Greater Bay Area are uniquely positioned to lead in the development of low altitude economy applications, from drone delivery to urban air mobility,” Prof. Chen noted.</li>
+  <li>
+<strong>Dr. Wu Haotian</strong>, Senior Director of Meituan and Head of Hardware Platform of Keeta Drone, presented practical applications of drone technology in Meituan’s delivery ecosystem, showing how autonomous drones are deployed to navigate complex urban environments and deliver services more efficiently.</li>
+  <li>
+<strong>Dr. Wenbo Ding</strong>, Associate Professor and Director of the Office of Research at Tsinghua SIGS, rounded out the speaker panel with insights on research collaboration opportunities between institutions in the Greater Bay Area.</li>
+</ul>
+
+<div class="news-photos" data-cols="2">
+  <figure><img src="/images/news/0914MarsTalk/Chen.jpg" alt="Prof. Wen-Hua Chen presenting"><figcaption>Prof. Wen-Hua Chen presenting</figcaption></figure>
+  <figure><img src="/images/news/0914MarsTalk/marstalk.jpg" alt="Panel discussion on stage at MarsTalk"><figcaption>Panel discussion</figcaption></figure>
 </div>
-<div style="text-align: center; margin-bottom: 20px;">
-    HKISA presenting the DTORI indexes
+<p class="news-caption">Conversation among leading industry participants and academic innovators.</p>
+
+<h3 id="bridging-academia-and-industry-through-talent-development">Bridging academia and industry through talent development</h3>
+
+<p>The event went beyond traditional academic presentations by offering career development opportunities for students and young professionals. Two special sessions were organized to connect talent with industry opportunities: Express Resume Submission and Fast-track Interview Pass.</p>
+
+<h3 id="taslab-at-marstalk">TASLAB at MarsTalk</h3>
+
+<p>Members of the Trustworthy AI and Autonomous Systems Laboratory (TASLAB) also helped host the event.</p>
+
+<div class="news-photos" data-cols="1">
+  <figure><img src="/images/news/0914MarsTalk/GroupTas.jpg" alt="TASLAB members group photo at MarsTalk"></figure>
 </div>
+<p class="news-caption">TASLAB group photo.</p>
 
-<h3 id="distinguished-speakers-share-insights-on-cutting-edge-technologies">Distinguished Speakers Share Insights on Cutting-Edge Technologies</h3>
-
-<p>The event featured an impressive lineup of speakers from both academia and industry, highlighting the growing collaboration between universities and technology companies in advancing robotics research.</p>
-
-<p>Dr. Yinian Mao, Vice President of Meituan and Director of Meituan Academy of Robotics Shenzhen, delivered a keynote presentation on the company’s latest innovations in autonomous systems. “The integration of robotics and AI in real-world applications is accelerating at an unprecedented pace, particularly in service delivery and urban logistics,” Dr. Mao emphasized during his address.</p>
-
-<p>Prof. Ning Xi, Chair Professor of Robotics and Automation and Head of Department of Data and Systems Engineering at HKU, as well as Director of the Advanced Technologies Institute, provided insights into the academic research underpinning these technological advances. His presentation focused on the convergence of data science and robotic systems in creating more intelligent and adaptive machines.</p>
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0914MarsTalk/Chen.jpg" alt="" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-</div>
-<div style="text-align: center; margin-bottom: 20px;">
-    Prof. Wen-Hua Chen presenting.
-</div>
-
-<h3 id="focus-on-low-altitude-economy-and-drone-technology">Focus on Low Altitude Economy and Drone Technology</h3>
-<p>Prof. Wen-Hua Chen, Interim Head of Aerospace Engineering at PolyU, Chair Professor of Robotics and Autonomous Systems, and Director of the Research Centre for Low Altitude Economy, discussed the emerging opportunities in the low altitude economy sector. “Hong Kong and the Greater Bay Area are uniquely positioned to lead in the development of low altitude economy applications, from drone delivery to urban air mobility,” Prof. Chen noted.</p>
-
-<p>Dr. Wu Haotian, Senior Director of Meituan and Head of Hardware Platform of Keeta Drone, presented practical applications of drone technology in Meituan’s delivery ecosystem. The presentation showcased how autonomous drones are being deployed to navigate complex urban environments and deliver services more efficiently.</p>
-
-<p>Dr. Wenbo Ding, Associate Professor and Director of the Office of Research at Tsinghua SIGS, rounded out the speaker panel with insights on the research collaboration opportunities between institutions in the Greater Bay Area.</p>
-
-<h3 id="bridging-academia-and-industry-through-talent-development">Bridging Academia and Industry Through Talent Development</h3>
-<p>The event went beyond traditional academic presentations by incorporating practical career development opportunities for students and young professionals. Two special sessions were organized to connect talent with industry opportunities: including Express Resume Submission and Fast-track Interview Pass.</p>
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0914MarsTalk/marstalk.jpg" alt="" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-</div>
-<div style="text-align: center; margin-bottom: 20px;">
-    Conversation among leading industry participants and academic innovators.
-</div>
-
-<h3 id="taslab-participating-marstalk">TASLAB participating MarsTalk</h3>
-<p>TASLAB members also helped hosting this event.</p>
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0914MarsTalk/GroupTas.jpg" alt="" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-</div>
-<div style="text-align: center; margin-bottom: 20px;">
-    TASLAB group photo.
 </div>
   </section>
 
@@ -571,7 +562,7 @@ The ceremony featured a keynote address by representatives from HKISA, who empha
     
       <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
       <a href="/events/2025-09-11-Hong_Kong_LAE_DTORI_Launching_Ceremony_2025.html">
-        Hong Kong Launches Low Altitude Economy Drone Take-off Reliability Index Launching Ceremony 2025
+        Hong Kong Low Altitude Economy Drone Take-off Reliability Index Launching Ceremony 2025
       </a>
     
   </span>
@@ -588,21 +579,17 @@ The ceremony featured a keynote address by representatives from HKISA, who empha
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -614,25 +601,25 @@ The ceremony featured a keynote address by representatives from HKISA, who empha
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -644,10 +631,10 @@ The ceremony featured a keynote address by representatives from HKISA, who empha
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -659,10 +646,10 @@ The ceremony featured a keynote address by representatives from HKISA, who empha
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -674,10 +661,10 @@ The ceremony featured a keynote address by representatives from HKISA, who empha
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -689,24 +676,14 @@ The ceremony featured a keynote address by representatives from HKISA, who empha
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

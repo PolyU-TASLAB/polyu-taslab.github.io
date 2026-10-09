@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>KLT Dataset | TAS LAB</title>
 
-<link rel="icon" href="/images/icon.png">
+<link rel="icon" href="/images/icon.jpg">
 
 <meta name="title" content="KLT Dataset">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -60,30 +59,13 @@
 <meta property="twitter:image" content="/images/share.jpg">
 
 
-  <meta name="author" content='&lt;p&gt;An open &lt;b class="blue"&gt;urban GNSS dataset&lt;/b&gt; with &lt;b class="blue"&gt;LOS/NLOS satellite labels&lt;/b&gt; for benchmarking GNSS positioning in challenging environments.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/ebhrz/KLTDataset"&gt;KLT Dataset&lt;/a&gt;&lt;/strong&gt; is a light urban scenario dataset collected for GNSS research, providing labeled satellite signal conditions to support studies in multipath mitigation, NLOS detection, and robust positioning.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Dataset Contents:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;GNSS raw measurements&lt;/strong&gt; — Collected using a u-blox F9P receiver with pseudorange and carrier phase observations&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ground truth&lt;/strong&gt; — High-precision reference trajectories from a SPAN-CPT system&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;LOS/NLOS labels&lt;/strong&gt; — Per-satellite labels for GPS and BeiDou constellations&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Additional sensors&lt;/strong&gt; — IMU, LiDAR, and camera recordings included in the ROS bag file&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Quick-start scripts&lt;/strong&gt; — Configuration files and start scripts provided for immediate use&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p align="center"&gt;
-  &lt;img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/Vision_aided_GNSS_RTK/NLOS.gif" alt="KLT Dataset — NLOS Visualization" style="width:100%; max-width:750px; border-radius:8px;" /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href="https://github.com/ebhrz/KLTDataset"&gt;https://github.com/ebhrz/KLTDataset&lt;/a&gt;&lt;/p&gt;
-'>
+  <meta name="author" content="
+">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-09-23T07:52:58+00:00">
+  <meta property="og:updated_time" content="2026-10-09T10:32:09+00:00">
   <meta property="article:published_time" content="2025-11-11T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-09-23T07:52:58+00:00">
-  <meta name="revised" content="2026-09-23T07:52:58+00:00">
+  <meta property="article:modified_time" content="2026-10-09T10:32:09+00:00">
+  <meta name="revised" content="2026-10-09T10:32:09+00:00">
 
 
 <script type="application/ld+json">
@@ -93,14 +75,14 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "KLT Dataset" },
       "datePublished": "2025-11-11T00:00:00+00:00",
-      "dateModified": "2026-09-23T07:52:58+00:00",
+      "dateModified": "2026-10-09T10:32:09+00:00",
     
     "name": "KLT Dataset",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
     "headline": "KLT Dataset",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
     },
     "url": "https://polyu-taslab.github.io"
   }
@@ -108,11 +90,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://polyu-taslab.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -123,7 +102,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -178,6 +157,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/components.css" rel="stylesheet">
   
 
   
@@ -337,18 +320,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/" class="home">
+<header class="site-header">
+  <a href="/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -412,49 +392,51 @@
     
     
       
-        <a href="/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/opensource/" data-tooltip="Open-source datasets and code" class="active" aria-current="page">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -472,43 +454,47 @@
   
   
 
-  <section class="background" data-size="1">
+  <section class="background" data-size="page">
     <!--
-  background: images/opensource/kltdataset/NLOS_crop.gif;
+  background: ;
   dark: ;
-  size: 1;
+  size: ;
 -->
 
 
-<h1 class="center">KLT Dataset</h1>
+<div class="project-hero">
+  <a class="project-back" href="/opensource/">← All datasets &amp; code</a>
+  <div class="project-hero-tags">
+    <span class="oss-kind" data-kind="Dataset">Dataset</span>
+    <span class="oss-stars"><i class="icon fa-solid fa-star"></i>57 stars</span>
+  </div>
+  <h1 class="project-title">KLT Dataset</h1>
+  <p class="project-summary">Urban GNSS Dataset with LOS/NLOS Labels</p>
 
-<div class="post-info">
-  
+  <dl class="project-facts-list">
+    <div>
+<dt>Developed by</dt>
+<dd>Runzhi Hu</dd>
+</div>
+    <div>
+<dt>Repository</dt>
+<dd><a href="https://github.com/ebhrz/KLTDataset" target="_blank" rel="noopener">ebhrz/KLTDataset</a></dd>
+</div>
+    <div>
+<dt>GitHub</dt>
+<dd>57 stars · 6 forks</dd>
+</div>
+    <div>
+<dt>Licence</dt>
+<dd>GPL-3.0</dd>
+</div>
+  </dl>
+
+  <div class="oss-detail-actions">
+    <a class="btn btn-primary" href="https://github.com/ebhrz/KLTDataset" target="_blank" rel="noopener"><i class="icon fa-brands fa-github"></i>GitHub</a>
     
     
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Runzhi Hu</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally start on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>November 11, 2025</span>
-    </span>
-  
-
-  <!-- 
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
-    </span>
-   -->
+  </div>
 </div>
   </section>
 
@@ -524,29 +510,46 @@
 -->
 
 
-<p>An open <b class="blue">urban GNSS dataset</b> with <b class="blue">LOS/NLOS satellite labels</b> for benchmarking GNSS positioning in challenging environments.</p>
+<div class="project-body">
+  
+  <figure class="project-feature">
+    <a href="/images/opensource/kltdataset/NLOS_crop.jpg" target="_blank" rel="noopener">
+      <img src="/images/opensource/kltdataset/NLOS_crop.jpg" alt="KLT Dataset">
+    </a>
+  </figure>
+  
 
-<p><strong><a href="https://github.com/ebhrz/KLTDataset">KLT Dataset</a></strong> is a light urban scenario dataset collected for GNSS research, providing labeled satellite signal conditions to support studies in multipath mitigation, NLOS detection, and robust positioning.</p>
+  <div class="project-text">
+    <div class="project-block">
+      <h2 class="project-block-title">Summary</h2>
+      <p>An urban GNSS dataset with per-satellite line-of-sight / non-line-of-sight labels, for training and testing NLOS detection and robust positioning.</p>
+    </div>
+    <div class="project-block">
+      <h2 class="project-block-title">Key innovations</h2>
+      <ol class="project-objectives">
+        <li>Per-satellite LOS/NLOS labels for GPS and BeiDou</li>
+<li>Raw u-blox F9P pseudorange and carrier-phase observations with SPAN-CPT ground truth</li>
+<li>IMU, LiDAR and camera data in the same ROS bag</li>
+<li>Configuration files and start scripts for immediate use</li>
+      </ol>
+    </div>
+  </div>
+</div>
 
-<p><strong>Dataset Contents:</strong></p>
-<ul>
-  <li>
-<strong>GNSS raw measurements</strong> — Collected using a u-blox F9P receiver with pseudorange and carrier phase observations</li>
-  <li>
-<strong>Ground truth</strong> — High-precision reference trajectories from a SPAN-CPT system</li>
-  <li>
-<strong>LOS/NLOS labels</strong> — Per-satellite labels for GPS and BeiDou constellations</li>
-  <li>
-<strong>Additional sensors</strong> — IMU, LiDAR, and camera recordings included in the ROS bag file</li>
-  <li>
-<strong>Quick-start scripts</strong> — Configuration files and start scripts provided for immediate use</li>
-</ul>
-
-<p align="center">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/Vision_aided_GNSS_RTK/NLOS.gif" alt="KLT Dataset — NLOS Visualization" style="width:100%; max-width:750px; border-radius:8px;">
-</p>
-
-<p><strong>GitHub:</strong> <a href="https://github.com/ebhrz/KLTDataset">https://github.com/ebhrz/KLTDataset</a></p>
+<div class="project-columns">
+  <div class="project-block">
+    <h2 class="project-block-title">Impact</h2>
+    <ul class="project-approach">
+      <li>57 GitHub stars</li>
+<li>Training data for the lab's learning-based GNSS work (TDL-GNSS, pyrtklib)</li>
+<li>Supports the RGC Early Career Scheme project on LiDAR-aided NLOS modelling</li>
+    </ul>
+  </div>
+  <div class="project-block">
+    
+    
+  </div>
+</div>
   </section>
 
   
@@ -561,43 +564,47 @@
 -->
 
 
-<div class="post-nav">
-  <span>
+
+<h2 class="project-gallery-title">More datasets</h2>
+<div class="oss-related">
+  
+  
     
-      <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
-      <a href="/opensource/2025-11-11-HDMap.html">
-        Semantic-Vector HD Map
-      </a>
+    <a class="oss-related-item" href="/opensource/2021-03-01-UrbanNav.html">
+      <span class="oss-related-title">UrbanNav Dataset</span>
+      <span class="oss-related-sub">Multisensory Dataset for Benchmarking Positioning in Asian Urban Canyons (Hong Kong &amp; Tokyo)</span>
+      <span class="oss-stars"><i class="icon fa-solid fa-star"></i>614</span>
+    </a>
     
-  </span>
-  <span>
     
-      Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/opensource/2025-11-11-plvins.html">
-        SafetyQuantifiable-PLVINS
-      </a>
+  
     
-  </span>
+    <a class="oss-related-item" href="/opensource/2020-05-31-UrbanLoco.html">
+      <span class="oss-related-title">UrbanLoco Dataset</span>
+      <span class="oss-related-sub">Full Sensor Suite Dataset for Mapping and Localization in Urban Scenes</span>
+      <span class="oss-stars"><i class="icon fa-solid fa-star"></i>482</span>
+    </a>
+    
+    
+  
+    
+  
 </div>
   </section>
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -609,25 +616,25 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -639,10 +646,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -654,10 +661,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -669,10 +676,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -684,24 +691,14 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

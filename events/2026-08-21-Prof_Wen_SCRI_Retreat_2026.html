@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -39,21 +38,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Prof. Wen participate SCRI Retreat 2026 | TAS LAB</title>
+<title>Prof. Wen Participates in SCRI Retreat 2026 | TAS LAB</title>
 
-<link rel="icon" href="/images/icon.png">
+<link rel="icon" href="/images/icon.jpg">
 
-<meta name="title" content="Prof. Wen participate SCRI Retreat 2026">
+<meta name="title" content="Prof. Wen Participates in SCRI Retreat 2026">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 
-<meta property="og:title" content="Prof. Wen participate SCRI Retreat 2026">
+<meta property="og:title" content="Prof. Wen Participates in SCRI Retreat 2026">
 <meta property="og:site_title" content="TAS LAB">
 <meta property="og:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="og:url" content="https://polyu-taslab.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Prof. Wen participate SCRI Retreat 2026">
+<meta property="twitter:title" content="Prof. Wen Participates in SCRI Retreat 2026">
 <meta property="twitter:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="twitter:url" content="https://polyu-taslab.github.io">
 <meta property="twitter:card" content="summary_large_image">
@@ -69,12 +68,12 @@
     
       "@type": "WebSite",
     
-    "name": "Prof. Wen participate SCRI Retreat 2026",
+    "name": "Prof. Wen Participates in SCRI Retreat 2026",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
-    "headline": "Prof. Wen participate SCRI Retreat 2026",
+    "headline": "Prof. Wen Participates in SCRI Retreat 2026",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
     },
     "url": "https://polyu-taslab.github.io"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://polyu-taslab.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/components.css" rel="stylesheet">
   
 
   
@@ -311,18 +311,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/" class="home">
+<header class="site-header">
+  <a href="/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -386,49 +383,51 @@
     
     
       
-        <a href="/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -454,7 +453,7 @@
 -->
 
 
-<h1 class="center">Prof. Wen participate SCRI Retreat 2026</h1>
+<h1 class="center">Prof. Wen Participates in SCRI Retreat 2026</h1>
 
 <div class="post-info">
   
@@ -472,7 +471,7 @@
   <!-- 
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
+      <span>October 09, 2026</span>
     </span>
    -->
 </div>
@@ -502,48 +501,50 @@
 -->
 
 
-<h2 id="prof-wen-participate-scri-retreat-2026">Prof. Wen participate SCRI Retreat 2026</h2>
+<div class="post-body">
+<p>On 21 August 2026, <a href="https://www.polyu.edu.hk/aae/people/academic-staff/dr-wen-weisong/">Prof. Weisong Wen</a> took part in SCRI Retreat 2026 at the PolyU Shenzhen Technology and Innovation Research Institute (Futian). The retreat, hosted by <a href="https://www.polyu.edu.hk/academicians/our-academicians/shi-wenzhong-john/">Prof. SHI Wenzhong</a>, brought researchers together to exchange ideas, strengthen collaboration and discuss future research directions for the Otto Poon Charitable Foundation Smart Cities Research Institute (SCRI).</p>
 
-<p>On 21 August 2026, <a href="https://www.polyu.edu.hk/aae/people/academic-staff/dr-wen-weisong/">Prof. Weisong Wen</a> participated in SCRI Retreat 2026 at the PolyU Shenzhen Technology and Innovation Research Institute (Futian). The retreat, hosted by <a href="https://www.polyu.edu.hk/academicians/our-academicians/shi-wenzhong-john/">Prof. SHI Wenzhong</a>, brought researchers together to exchange ideas, strengthen collaboration, and discuss future research directions for the Otto Poon Charitable Foundation Smart Cities Research Institute (SCRI).</p>
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="/images/news/20260821_scri_retreat/panel_discussion.jpg" alt="Prof. Wen and SCRI members gather for the opening of SCRI Retreat 2026" style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Prof. Wen and SCRI members gather for the opening of SCRI Retreat 2026.</p>
+<div class="news-photos" data-cols="1">
+  <figure><img src="/images/news/20260821_scri_retreat/panel_discussion.jpg" alt="Opening remarks in front of the Welcome to SCRI Retreat 2026 screen"></figure>
 </div>
+<p class="news-caption">The opening of SCRI Retreat 2026, with opening remarks by Prof. SHI Wenzhong.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="/images/news/20260821_scri_retreat/welcome.jpg" alt="Prof. SHI Wenzhong delivering the opening remarks at SCRI Retreat 2026" style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Prof. SHI Wenzhong delivers the opening remarks at SCRI Retreat 2026.</p>
+<h3 id="member-sharing-session">Member sharing session</h3>
+
+<p>According to the official rundown, Prof. Wen presented in SCRI Member Sharing Session I (11:25–11:50), sharing TASLAB’s work on a multi-vehicle collaborative localization and mapping dataset. The presentation outlined future plans for:</p>
+
+<ul>
+  <li><strong>Synchronized multimodal data collection</strong></li>
+  <li><strong>Collaborative benchmark tasks</strong></li>
+  <li><strong>Comparisons between single-vehicle and collaborative methods</strong></li>
+  <li>
+<strong>Expanded V2V/V2X data collection</strong> across diverse road, traffic, lighting and weather conditions</li>
+</ul>
+
+<div class="news-photos" data-cols="2">
+  <figure><img src="/images/news/20260821_scri_retreat/panel_discussion_close.jpg" alt="Presentation on the multi-vehicle collaborative localization and mapping dataset"></figure>
+  <figure><img src="/images/news/20260821_scri_retreat/dataset_presentation.jpg" alt="Slide on future work for multi-vehicle collaborative localization and mapping"></figure>
 </div>
+<p class="news-caption">Prof. Weisong Wen presenting the multi-vehicle collaborative localization and mapping dataset and its future research directions during SCRI Member Sharing Session I.</p>
 
-<p>According to the official rundown, Prof. Wen presented during SCRI Member Sharing Session I from 11:25 to 11:50. He shared TASLAB’s work on a multi-vehicle collaborative localization and mapping dataset. The presentation outlined future plans for synchronized multimodal data collection, collaborative benchmark tasks, comparisons between single-vehicle and collaborative methods, and expanded V2V/V2X data collection across diverse road, traffic, lighting, and weather conditions.</p>
+<h3 id="round-table-discussion">Round-table discussion</h3>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="/images/news/20260821_scri_retreat/panel_discussion_close.jpg" alt="Prof. Weisong Wen presenting during SCRI Member Sharing Session I" style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Prof. Weisong Wen presents during SCRI Member Sharing Session I.</p>
+<p>Prof. Wen also joined a round-table discussion with other SCRI participants, exchanging views on ongoing research, opportunities for collaboration and the future development of smart-city technologies.</p>
+
+<div class="news-photos" data-cols="2">
+  <figure><img src="/images/news/20260821_scri_retreat/welcome.jpg" alt="Round-table discussion at SCRI Retreat 2026"></figure>
+  <figure><img src="/images/news/20260821_scri_retreat/future_work.jpg" alt="Panellists at the round-table discussion"></figure>
 </div>
+<p class="news-caption">The round-table discussion at SCRI Retreat 2026.</p>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 20px;">
-  <figure style="margin: 0; text-align: center;">
-    <img src="/images/news/20260821_scri_retreat/dataset_presentation.jpg" alt="Presentation on a multi-vehicle collaborative localization and mapping dataset" style="width: 100%; height: auto; border-radius: 15px;">
-    <figcaption style="font-size: 14px; color: #666; margin-top: 8px;">Presentation on a multi-vehicle collaborative localization and mapping dataset.</figcaption>
-  </figure>
-  <figure style="margin: 0; text-align: center;">
-    <img src="/images/news/20260821_scri_retreat/future_work.jpg" alt="Future research directions for multi-vehicle collaborative localization and mapping" style="width: 100%; height: auto; border-radius: 15px;">
-    <figcaption style="font-size: 14px; color: #666; margin-top: 8px;">Future research directions for multi-vehicle collaborative localization and mapping.</figcaption>
-  </figure>
+<div class="news-photos" data-cols="1">
+  <figure><img src="/images/news/20260821_scri_retreat/prof_wen_panel.jpg" alt="Prof. Weisong Wen speaking during the round-table discussion"></figure>
 </div>
+<p class="news-caption">Prof. Weisong Wen speaks during the round-table discussion.</p>
 
-<p>Prof. Wen also joined a round-table discussion with other SCRI participants, exchanging views on ongoing research, collaborative opportunities, and the future development of smart-city technologies.</p>
+<p>The retreat provided a focused platform for sharing progress, identifying common research interests and exploring further collaboration in smart cities, collaborative positioning and trustworthy autonomous systems.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="/images/news/20260821_scri_retreat/prof_wen_panel.jpg" alt="Prof. Weisong Wen speaking during the round-table discussion at SCRI Retreat 2026" style="width: 100%; height: auto; object-fit: contain; max-width: 520px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Prof. Weisong Wen speaks during the round-table discussion.</p>
-</div>
-
-<p>The retreat provided a focused platform for sharing progress, identifying common research interests, and exploring further collaboration in smart cities, collaborative positioning, and trustworthy autonomous systems.</p>
-
-<h3 id="event-schedule">Event Schedule</h3>
+<h3 id="event-schedule">Event schedule</h3>
 
 <table>
   <thead>
@@ -632,13 +633,15 @@
   </tbody>
 </table>
 
-<h3 id="official-rundown">Official Rundown</h3>
+<h3 id="official-rundown">Official rundown</h3>
 
-<p>The complete three-page rundown, including the participant list, round-table discussion topics, and transport information, is available below. You can also <a href="/images/news/20260821_scri_retreat/SCRI_Retreat_2026_Rundown_V3.pdf">open or download the SCRI Retreat 2026 Rundown (PDF)</a>.</p>
+<p>The complete three-page rundown, including the participant list, round-table discussion topics and transport information, is shown below. You can also <a href="/images/news/20260821_scri_retreat/SCRI_Retreat_2026_Rundown_V3.pdf">open or download the SCRI Retreat 2026 Rundown (PDF)</a>.</p>
 
-<object data="/images/news/20260821_scri_retreat/SCRI_Retreat_2026_Rundown_V3.pdf#view=FitH" type="application/pdf" style="width: 100%; height: 900px; border: 1px solid #ddd; border-radius: 10px; margin-bottom: 20px;">
+<object data="/images/news/20260821_scri_retreat/SCRI_Retreat_2026_Rundown_V3.pdf#view=FitH" type="application/pdf" width="100%" height="900">
   <p>Please <a href="/images/news/20260821_scri_retreat/SCRI_Retreat_2026_Rundown_V3.pdf">open or download the full rundown</a>.</p>
 </object>
+
+</div>
   </section>
 
   
@@ -675,21 +678,17 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -701,25 +700,25 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -731,10 +730,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -746,10 +745,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -761,10 +760,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -776,24 +775,14 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

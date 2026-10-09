@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -41,7 +40,7 @@
 
 <title>PolyU AAE Conducts Drone Test Flight in Sandbox Regulatory Project | TAS LAB</title>
 
-<link rel="icon" href="/images/icon.png">
+<link rel="icon" href="/images/icon.jpg">
 
 <meta name="title" content="PolyU AAE Conducts Drone Test Flight in Sandbox Regulatory Project">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
@@ -74,7 +73,7 @@
     "headline": "PolyU AAE Conducts Drone Test Flight in Sandbox Regulatory Project",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
     },
     "url": "https://polyu-taslab.github.io"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://polyu-taslab.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/components.css" rel="stylesheet">
   
 
   
@@ -311,18 +311,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/" class="home">
+<header class="site-header">
+  <a href="/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -386,49 +383,51 @@
     
     
       
-        <a href="/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -472,7 +471,7 @@
   <!-- 
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
+      <span>October 09, 2026</span>
     </span>
    -->
 </div>
@@ -502,48 +501,46 @@
 -->
 
 
-<p><em>Hong Kong, September 29th, 2025</em> – The Aeronautics and Aviation Engineering (AAE) department at The Hong Kong Polytechnic University (PolyU) today conducted a drone performance test flight at the Shaw Sports Complex on campus, as part of the sandbox regulatory project for the low altitude economy. This successful event marks a new phase in PolyU AAE’s initiative to advance regulatory frameworks and operational standards for unmanned aerial vehicles (UAVs) in urban environments.</p>
+<div class="post-body">
+<p>On 29 September 2025, the Department of Aeronautical and Aviation Engineering (AAE) at The Hong Kong Polytechnic University (PolyU) conducted a drone performance test flight at the Shaw Sports Complex on campus, as part of the sandbox regulatory project for the low-altitude economy (LAE). The successful test marks a new phase in PolyU AAE’s initiative to advance regulatory frameworks and operational standards for unmanned aerial vehicles (UAVs) in urban environments.</p>
 
-<p>The test flight, carried out in collaboration with the Civil Aviation Department (CAD), evaluated key performance metrics of drones under controlled conditions, focusing on safety, efficiency, and compliance with emerging low-altitude airspace regulations. The sandbox project aims to create a scalable model for integrating drone technology into Hong Kong’s transportation and logistics ecosystems.</p>
+<p>The test flight, carried out in collaboration with the Civil Aviation Department (CAD), evaluated key drone performance metrics under controlled conditions, focusing on safety, efficiency and compliance with emerging low-altitude airspace regulations. The sandbox project aims to create a scalable model for integrating drone technology into Hong Kong’s transportation and logistics ecosystems.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0929CampusFlight/Drone_Flight.jpg" alt="" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="2" data-fit="contain">
+  <figure><img src="/images/news/0929CampusFlight/Drone_Flight_2.jpg" alt="Drone flying over the courts at Shaw Sports Complex"></figure>
+  <figure><img src="/images/news/0929CampusFlight/Drone_Flight.jpg" alt="Drone during the performance test flight"></figure>
 </div>
-<div style="text-align: center; margin-bottom: 20px;">
-    Drone performance evaluation at Shaw Sports Complex, PolyU.
-</div>
+<p class="news-caption">Drone performance evaluation at Shaw Sports Complex, PolyU.</p>
 
-<h3 id="sandbox-project-advances-low-altitude-economy-framework">Sandbox Project Advances Low Altitude Economy Framework</h3>
+<h3 id="sandbox-project-advances-the-low-altitude-economy-framework">Sandbox project advances the low-altitude economy framework</h3>
 
-<p>The sandbox regulatory project, led by PolyU AAE, provides a controlled environment for testing and validating drone operations, contributing to the development of standardized safety protocols and performance benchmarks. Today’s test flight demonstrated the practical application of these standards, assessing factors such as flight stability, navigation accuracy, and payload capacity.</p>
+<p>The sandbox regulatory project, led by PolyU AAE, provides a controlled environment for testing and validating drone operations, contributing to standardised safety protocols and performance benchmarks. The test flight demonstrated the practical application of these standards, assessing factors such as flight stability, navigation accuracy and payload capacity.</p>
 
 <p>“Today’s test flight is a critical step forward in our low altitude economy initiatives,” said a representative from the AAE department. “By working closely with regulatory bodies like CAD, we are paving the way for scalable and safe drone integration in Hong Kong and the Greater Bay Area.”</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0929CampusFlight/Examine_drone.jpg" alt="" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="/images/news/0929CampusFlight/Examine_drone.jpg" alt="AAE and CAD teams examining a drone"></figure>
 </div>
-<div style="text-align: center; margin-bottom: 20px;">
-    AAE and CAD teams during the sandbox regulatory assessment.
-</div>
+<p class="news-caption">AAE and CAD teams during the sandbox regulatory assessment.</p>
 
-<h3 id="collaborative-efforts-for-future-urban-air-mobility">Collaborative Efforts for Future Urban Air Mobility</h3>
+<h3 id="collaboration-for-future-urban-air-mobility">Collaboration for future urban air mobility</h3>
 
-<p>The event highlighted the growing collaboration between academic institutions and government agencies in shaping the future of urban air mobility. The sandbox project not only focuses on technical performance but also addresses regulatory challenges, such as airspace management and public safety.</p>
+<p>The event highlighted the growing collaboration between academic institutions and government agencies in shaping the future of urban air mobility. Beyond technical performance, the sandbox project also addresses regulatory challenges such as airspace management and public safety.</p>
 
 <p>“PolyU’s sandbox project serves as a model for how academia and regulators can work together to foster innovation while ensuring safety and compliance,” added a CAD official. “We are excited to see these efforts translate into real-world applications.”</p>
 
-<h3 id="next-steps-for-low-altitude-economy-development">Next Steps for Low Altitude Economy Development</h3>
+<h3 id="next-steps">Next steps</h3>
 
-<p>With the successful completion of this test flight, PolyU AAE plans to expand the sandbox project to include more complex scenarios, such as multi-drone operations and extended-visual-line-of-sight (EVLOS) flights. The department will also continue to engage industry partners and policymakers to drive the adoption of low-altitude economy solutions across the region.</p>
+<p>Following the successful test flight, PolyU AAE plans to expand the sandbox project to more complex scenarios, such as multi-drone operations and extended-visual-line-of-sight (EVLOS) flights. The department will also continue to engage industry partners and policymakers to drive the adoption of low-altitude economy solutions across the region.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/0929CampusFlight/CAD_exam.jpg" alt="" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="/images/news/0929CampusFlight/CAD_exam.jpg" alt="Discussion between AAE and CAD on the sandbox project"></figure>
 </div>
-<div style="text-align: center; margin-bottom: 20px;">
-    Discussing future phases of the sandbox regulatory project.
-</div>
+<p class="news-caption">Discussing future phases of the sandbox regulatory project.</p>
 
-<p>The sandbox regulatory project aligns with Hong Kong’s broader goals to become a hub for technological innovation, particularly in areas such as smart city development and sustainable transportation. PolyU AAE remains at the forefront of these efforts, leveraging its expertise in aeronautics and aviation engineering to contribute to the region’s economic and technological advancement.</p>
+<p>The sandbox regulatory project supports Hong Kong’s broader goal of becoming a hub for technological innovation, particularly in smart city development and sustainable transportation. PolyU AAE continues to contribute its expertise in aeronautics and aviation engineering to the region’s economic and technological advancement.</p>
+
+</div>
   </section>
 
   
@@ -571,7 +568,7 @@
     
       Next post <i class="icon fa-solid fa-angle-right"></i><br>
       <a href="/events/2025-09-30-SourthernPower.html">
-        TAS LAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid
+        TASLAB Advances Collaboration on Offshore Wind Turbine Inspection with China Southern Power Grid
       </a>
     
   </span>
@@ -580,21 +577,17 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -606,25 +599,25 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -636,10 +629,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -651,10 +644,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -666,10 +659,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -681,24 +674,14 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>

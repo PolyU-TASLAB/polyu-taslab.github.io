@@ -2,9 +2,8 @@
 <html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+  
+
 
   <!--
   put your search engine verification (e.g. Google Search Console) tag here
@@ -39,21 +38,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>TAS Team Meets with SF Express(Hong Kong) and Rino AI to Discuss Smart Logistics and Autonomous Campus Delivery Collaboration | TAS LAB</title>
+<title>TASLAB Team Meets with SF Express (Hong Kong) and Rino AI to Discuss Smart Logistics and Autonomous Campus Delivery Collaboration | TAS LAB</title>
 
-<link rel="icon" href="/images/icon.png">
+<link rel="icon" href="/images/icon.jpg">
 
-<meta name="title" content="TAS Team Meets with SF Express(Hong Kong) and Rino AI to Discuss Smart Logistics and Autonomous Campus Delivery Collaboration">
+<meta name="title" content="TASLAB Team Meets with SF Express (Hong Kong) and Rino AI to Discuss Smart Logistics and Autonomous Campus Delivery Collaboration">
 <meta name="description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 
-<meta property="og:title" content="TAS Team Meets with SF Express(Hong Kong) and Rino AI to Discuss Smart Logistics and Autonomous Campus Delivery Collaboration">
+<meta property="og:title" content="TASLAB Team Meets with SF Express (Hong Kong) and Rino AI to Discuss Smart Logistics and Autonomous Campus Delivery Collaboration">
 <meta property="og:site_title" content="TAS LAB">
 <meta property="og:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="og:url" content="https://polyu-taslab.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="TAS Team Meets with SF Express(Hong Kong) and Rino AI to Discuss Smart Logistics and Autonomous Campus Delivery Collaboration">
+<meta property="twitter:title" content="TASLAB Team Meets with SF Express (Hong Kong) and Rino AI to Discuss Smart Logistics and Autonomous Campus Delivery Collaboration">
 <meta property="twitter:description" content="Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.">
 <meta property="twitter:url" content="https://polyu-taslab.github.io">
 <meta property="twitter:card" content="summary_large_image">
@@ -69,12 +68,12 @@
     
       "@type": "WebSite",
     
-    "name": "TAS Team Meets with SF Express(Hong Kong) and Rino AI to Discuss Smart Logistics and Autonomous Campus Delivery Collaboration",
+    "name": "TASLAB Team Meets with SF Express (Hong Kong) and Rino AI to Discuss Smart Logistics and Autonomous Campus Delivery Collaboration",
     "description": "Trustworthy AI and Autonomous Systems Laboratory. Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.",
-    "headline": "TAS Team Meets with SF Express(Hong Kong) and Rino AI to Discuss Smart Logistics and Autonomous Campus Delivery Collaboration",
+    "headline": "TASLAB Team Meets with SF Express (Hong Kong) and Rino AI to Discuss Smart Logistics and Autonomous Campus Delivery Collaboration",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
     },
     "url": "https://polyu-taslab.github.io"
   }
@@ -82,11 +81,8 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://polyu-taslab.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700" rel="stylesheet">
+  <!-- Inter is self-hosted, see _styles/font.scss -->
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -97,7 +93,7 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 
 <!-- include all sass in styles folder -->
 
@@ -152,6 +148,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/components.css" rel="stylesheet">
   
 
   
@@ -311,18 +311,15 @@
 
 
 </head>
-
-  <body>
+<body>
     
 
 
 
 
 
-
-
-<header class="background" style="--image: url('/images/AboutPolyU_Campus9.jpg')" data-dark="true">
-  <a href="/" class="home">
+<header class="site-header">
+  <a href="/" class="home" aria-label="TAS LAB home">
     
       <span class="logo">
         
@@ -386,49 +383,51 @@
     
     
       
-        <a href="/news/" data-tooltip="Events and news">
-          News
-        </a>
       
+      <a href="/news/" data-tooltip="Awards, visits, talks and lab life">
+        News
+      </a>
     
       
-        <a href="/publications/" data-tooltip="Journal and conference papers">
-          Publications
-        </a>
       
+      <a href="/publications/" data-tooltip="Journal and conference papers">
+        Publications
+      </a>
     
       
-        <a href="/research/" data-tooltip="Research projects and directions">
-          Research
-        </a>
       
+      <a href="/research/" data-tooltip="Research directions, systems and demos">
+        Research
+      </a>
     
       
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
       
+      <a href="/team/" data-tooltip="People, advisors, funders and partners">
+        Team
+      </a>
     
       
-        <a href="/teaching/" data-tooltip="Courses and student supervision">
-          Teaching
-        </a>
       
+      <a href="/teaching/" data-tooltip="Teaching philosophy, courses and student pathways">
+        Teaching
+      </a>
     
       
-        <a href="/opensource/" data-tooltip="Open-source datasets and code">
-          Dataset &amp; Code
-        </a>
       
+      <a href="/opensource/" data-tooltip="Open-source datasets and code">
+        Dataset &amp; Code
+      </a>
     
       
-        <a href="/openings/" data-tooltip="Openings and contact">
-          Openings
-        </a>
       
+      <a href="/openings/" data-tooltip="PhD, MPhil, postdoc, RA and internship positions">
+        Openings
+      </a>
     
   </nav>
 </header>
+
+    
     <main>
       <!--
   modify main content of page:
@@ -454,7 +453,7 @@
 -->
 
 
-<h1 class="center">TAS Team Meets with SF Express(Hong Kong) and Rino AI to Discuss Smart Logistics and Autonomous Campus Delivery Collaboration</h1>
+<h1 class="center">TASLAB Team Meets with SF Express (Hong Kong) and Rino AI to Discuss Smart Logistics and Autonomous Campus Delivery Collaboration</h1>
 
 <div class="post-info">
   
@@ -472,7 +471,7 @@
   <!-- 
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 23, 2026</span>
+      <span>October 09, 2026</span>
     </span>
    -->
 </div>
@@ -502,35 +501,36 @@
 -->
 
 
-<p><strong>HONG KONG, China</strong> – January 29, 2026 – The Hong Kong Polytechnic University’s Trustworthy AI and Autonomous Systems Laboratory (TAS LAB) held a strategic cooperation meeting with SF Express Hong Kong and Rino AI to explore collaborative opportunities in smart logistics  and autonomous campus delivery vehicles . This meeting underscores PolyU’s commitment to advancing industry-academia partnerships and developing practical solutions for next-generation logistics systems that address real-world challenges in urban delivery and campus mobility.</p>
+<div class="post-body">
+<p>On 29 January 2026, the Trustworthy AI and Autonomous Systems Laboratory (TASLAB) at The Hong Kong Polytechnic University (PolyU) held a strategic cooperation meeting in Hong Kong with SF Express (Hong Kong) and Rino AI. The meeting explored collaboration on smart logistics and autonomous campus delivery vehicles, and reflects PolyU’s commitment to industry-academia partnerships and to practical solutions for next-generation logistics in urban delivery and campus mobility.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/260128/260128.jpeg" alt="Team Banner" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="/images/news/260128/260128.jpeg" alt="Meeting between TASLAB, SF Express (Hong Kong) and Rino AI"></figure>
 </div>
+<p class="news-caption">Representatives of TASLAB, SF Express (Hong Kong) and Rino AI at the meeting.</p>
 
-<p>The meeting brought together key representatives from TAS LAB, SF Express(Hong Kong), and Rino AI to discuss innovative approaches to intelligent logistics and autonomous delivery technologies. The discussions centered on leveraging cutting-edge AI, robotics, sensor fusion, and IoT solutions to address modern logistics challenges, particularly in campus and urban environments where safety, efficiency, and sustainability are paramount concerns.</p>
+<p>The meeting brought together key representatives from the three parties to discuss approaches to intelligent logistics and autonomous delivery. The discussions centred on using AI, robotics, sensor fusion and IoT solutions to address modern logistics challenges, particularly in campus and urban environments where safety, efficiency and sustainability are paramount.</p>
 
-<p>Attendees from PolyU included Prof. Weisong WEN from TAS Lab and research team members. Representing SF Express Hong Kong were senior executives from the logistics operations and technology innovation divisions, while Rino AI was represented by their leadership team specializing in artificial intelligence solutions and autonomous systems development.</p>
+<p>Attendees from PolyU included Prof. Weisong WEN from TASLAB and research team members. SF Express (Hong Kong) was represented by senior executives from its logistics operations and technology innovation divisions, and Rino AI by its leadership team specialising in artificial intelligence solutions and autonomous systems development.</p>
 
-<p>The three-party collaboration will focus on several key technological domains and application scenarios:</p>
+<h3 id="areas-of-collaboration">Areas of collaboration</h3>
 
-<ol>
+<p>The three-party collaboration will focus on the following technological domains and application scenarios:</p>
+
+<ul>
   <li>
-    <p><strong>Smart Logistics Systems</strong>: Developing comprehensive AI-powered solutions for intelligent logistics management, including dynamic route optimization algorithms, real-time package tracking systems, predictive demand forecasting, and intelligent warehouse management. The collaboration aims to integrate machine learning models with SF Express(Hong Kong)’s extensive operational data to create adaptive logistics systems that can respond to changing conditions in real-time. This includes developing advanced algorithms for fleet management, delivery scheduling optimization, and resource allocation that can significantly enhance operational efficiency while reducing energy consumption and environmental impact. The system will leverage big data analytics and cloud computing infrastructure to process vast amounts of logistics data, enabling predictive maintenance, demand forecasting, and intelligent decision-making across the entire supply chain.</p>
-  </li>
+<strong>Smart logistics systems:</strong> AI-powered solutions for intelligent logistics management, including dynamic route optimisation, real-time package tracking, predictive demand forecasting and intelligent warehouse management. Machine learning models will be integrated with SF Express (Hong Kong)’s extensive operational data to create adaptive logistics systems that respond to changing conditions in real time. This includes algorithms for fleet management, delivery scheduling and resource allocation that can enhance operational efficiency while reducing energy consumption and environmental impact. The system will use big data analytics and cloud computing to process large volumes of logistics data, enabling predictive maintenance, demand forecasting and intelligent decision-making across the entire supply chain.</li>
   <li>
-    <p><strong>Autonomous Campus Delivery Vehicles</strong>: Designing and implementing intelligent unmanned delivery vehicles specifically tailored for university campus environments. The project will address unique challenges associated with campus delivery, including pedestrian detection and avoidance, navigation in mixed-use environments with students and faculty, compliance with campus safety regulations, and integration with existing campus infrastructure. The autonomous vehicles will leverage advanced perception systems, including LiDAR, cameras, and radar sensors, combined with sophisticated path planning algorithms to ensure safe and efficient delivery operations. Special attention will be given to human-robot interaction design to ensure the vehicles can operate seamlessly in crowded campus settings, with features such as audio-visual alerts, intuitive gesture recognition, and emergency stop mechanisms. The vehicles will be designed to handle various weather conditions, navigate complex terrain including stairs and ramps, and operate efficiently during peak hours when campus foot traffic is highest.</p>
-  </li>
+<strong>Autonomous campus delivery vehicles:</strong> Designing and implementing unmanned delivery vehicles tailored to university campuses. The project will address campus-specific challenges, including pedestrian detection and avoidance, navigation in mixed-use environments with students and faculty, compliance with campus safety regulations and integration with existing campus infrastructure. The vehicles will combine perception systems (LiDAR, cameras and radar) with path planning algorithms to ensure safe and efficient delivery. Special attention will be given to human-robot interaction so that the vehicles can operate smoothly in crowded campus settings, with features such as audio-visual alerts, gesture recognition and emergency stop mechanisms. The vehicles will be designed to handle various weather conditions, navigate complex terrain including stairs and ramps, and operate efficiently at peak hours when campus foot traffic is highest.</li>
   <li>
-    <p><strong>Technology Integration and System Architecture</strong>: Combining PolyU TAS LAB’s cutting-edge research expertise in autonomous systems, localization, and navigation with SF Express(Hong Kong)’s extensive logistics experience and operational insights, alongside Rino AI’s artificial intelligence capabilities and machine learning infrastructure. The collaboration will focus on developing a comprehensive technology stack that integrates perception, planning, and control systems with logistics management platforms. This includes creating robust communication protocols between autonomous vehicles and central dispatch systems, implementing edge computing solutions for real-time decision-making, and developing fail-safe mechanisms to ensure system reliability. The system architecture will incorporate multi-layer redundancy, cybersecurity measures to protect against potential threats, and scalable cloud infrastructure to support future expansion. Advanced sensor fusion techniques will combine data from multiple sources to create accurate environmental models, while deep learning algorithms will enable the vehicles to learn from experience and continuously improve their performance.</p>
-  </li>
+<strong>Technology integration and system architecture:</strong> Combining TASLAB’s research expertise in autonomous systems, localization and navigation with SF Express (Hong Kong)’s logistics experience and operational insights, and Rino AI’s artificial intelligence capabilities and machine learning infrastructure. The aim is a complete technology stack that integrates perception, planning and control with logistics management platforms. This includes robust communication protocols between autonomous vehicles and central dispatch systems, edge computing for real-time decision-making, and fail-safe mechanisms for system reliability. The architecture will incorporate multi-layer redundancy, cybersecurity measures against potential threats and scalable cloud infrastructure for future expansion. Sensor fusion will combine data from multiple sources into accurate environmental models, while deep learning will allow the vehicles to learn from experience and continuously improve.</li>
   <li>
-    <p><strong>Pilot Programs and Field Testing</strong>: Exploring opportunities to establish comprehensive testbed environments at PolyU campus for real-world validation and demonstration of autonomous delivery technologies. The pilot programs will serve as living laboratories where researchers can collect operational data, test new algorithms, and refine system performance under actual operating conditions. The testbed will enable iterative development and validation of technologies before broader deployment, allowing the team to address challenges related to weather conditions, varying terrain, obstacle avoidance, and user acceptance. Data collected from these pilot programs will inform future system improvements and provide valuable insights for scaling the technology to other campuses and urban environments. The pilot phase will include controlled experiments to test specific capabilities, followed by gradual expansion to full operational deployment. User feedback mechanisms will be integrated to gather insights from students, faculty, and staff about their experiences with the autonomous delivery system, helping to refine user interfaces and improve overall service quality.</p>
-  </li>
+<strong>Pilot programmes and field testing:</strong> Exploring the establishment of testbeds on the PolyU campus for real-world validation and demonstration of autonomous delivery technologies. The pilots will serve as living laboratories where researchers collect operational data, test new algorithms and refine system performance under actual operating conditions, addressing challenges such as weather, varying terrain, obstacle avoidance and user acceptance before broader deployment. The collected data will inform future improvements and provide insights for scaling the technology to other campuses and urban environments. The pilot phase will start with controlled experiments to test specific capabilities, followed by gradual expansion to full operational deployment. User feedback from students, faculty and staff will be gathered to refine user interfaces and improve overall service quality.</li>
   <li>
-    <p><strong>Safety and Regulatory Compliance</strong>: Developing comprehensive safety protocols and working toward compliance with local regulations governing autonomous vehicle operations in Hong Kong. This includes establishing safety standards for autonomous campus delivery, conducting thorough risk assessments, implementing redundant safety systems with multiple fail-safe mechanisms, and collaborating with regulatory bodies to ensure that autonomous delivery vehicles meet all necessary requirements for operation in public spaces. The collaboration will work closely with university safety departments, local transportation authorities, and industry standards organizations to develop best practices for autonomous delivery operations. Safety features will include emergency braking systems, collision avoidance algorithms, remote monitoring and intervention capabilities, and comprehensive logging of all operational data for incident investigation and continuous improvement.</p>
-  </li>
-</ol>
+<strong>Safety and regulatory compliance:</strong> Developing safety protocols and working towards compliance with local regulations governing autonomous vehicle operations in Hong Kong. This includes establishing safety standards for autonomous campus delivery, conducting thorough risk assessments, implementing redundant safety systems with multiple fail-safe mechanisms, and working with regulatory bodies so that the vehicles meet all requirements for operation in public spaces. The collaboration will work closely with university safety departments, local transportation authorities and industry standards organisations to develop best practices. Safety features will include emergency braking, collision avoidance algorithms, remote monitoring and intervention capabilities, and logging of all operational data for incident investigation and continuous improvement.</li>
+</ul>
+
+</div>
   </section>
 
   
@@ -558,7 +558,7 @@
     
       Next post <i class="icon fa-solid fa-angle-right"></i><br>
       <a href="/events/2026-01-30-Sandbox_Demonstration_at_Pak_Shak_Kok.html">
-        Team Successfully Conducts Our First Cross-Sea Logistics Flight for Hong Kong Low-altitude Economy Regulatory Sandbox
+        Team Successfully Conducts Its First Cross-Sea Logistics Flight for Hong Kong Low-altitude Economy Regulatory Sandbox
       </a>
     
   </span>
@@ -567,21 +567,17 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/AboutPolyU_Campus1.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
+    <footer class="site-footer">
+  <div class="footer-row">
+    <p class="footer-brand">
+      <strong>TAS LAB</strong>
+      <span>Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University</span>
+    </p>
+    <div class="footer-links">
       
-      
-      
+        
+        
+        
 
 
 
@@ -593,25 +589,25 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0003-4158-0193" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0003-4158-0913" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -623,10 +619,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -638,10 +634,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -653,10 +649,10 @@
   </div>
 
 
-    
       
-      
-      
+        
+        
+        
 
 
 
@@ -668,24 +664,14 @@
   </div>
 
 
-    
+      
+    </div>
   </div>
 
-  <div>
-    © 2026
-    TAS LAB
-    <!-- &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a> -->
+  <div class="footer-row footer-bottom">
+    <span class="footer-copy">© 2026 Trustworthy AI and Autonomous Systems Laboratory, PolyU. All rights reserved.</span>
+    <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-  
-  <!-- <body> 
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-  </body> -->
-
 </footer>
 
   </body>
