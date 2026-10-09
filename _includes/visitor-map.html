@@ -1,0 +1,27 @@
+{% assign goatcounter = site.data.visitor_map.goatcounter | strip %}
+{% assign visitor_embed = site.data.visitor_map.embed | strip %}
+{% if goatcounter != "" or visitor_embed != "" %}
+{% include section.html %}
+
+<div class="section-head">
+  <h2 id="visitors">Visitors</h2>
+  {% if goatcounter == "" and site.data.visitor_map.stats_url != "" %}<a class="link-arrow" href="{{ site.data.visitor_map.stats_url }}" target="_blank" rel="noopener">Visitors by country</a>{% endif %}
+</div>
+
+<p class="section-lead">Worldwide reach of the TAS Lab site.</p>
+
+{% if goatcounter != "" %}
+<div class="visitors" data-base="{{ 'assets/visitors/' | relative_url }}" data-site="{{ goatcounter }}" data-key="{{ site.data.visitor_map.api_key | strip }}" data-since="{{ site.data.visitor_map.since }}">
+  <div class="visitors-map" aria-label="Visitor map by country"><svg viewBox="0 0 960 480" role="img" aria-label="World map shaded by number of visitors"></svg></div>
+  <ol class="visitors-list" aria-label="Visitors by country"></ol>
+  <script type="application/json" class="visitors-data">{% if site.data.visitor_locations %}{{ site.data.visitor_locations | jsonify }}{% else %}{}{% endif %}</script>
+</div>
+<script src="{{ 'assets/visitors/visitor-map.js' | relative_url }}" defer></script>
+{% else %}
+<div class="visitor-card">
+  <div>
+    {{ visitor_embed }}
+  </div>
+</div>
+{% endif %}
+{% endif %}

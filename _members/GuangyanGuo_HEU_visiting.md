@@ -1,9 +1,9 @@
 ---
 name: Guangyan Guo
 image: images/team/guangyanGuo.jpg
-role: visiting  # pi / postdoc / phd / ms / under / ra / visiting
+role: alumni  # pi / postdoc / phd / ms / under / ra / visiting / alumni
 affiliation: Harbin Engineering University
-order: 2
+order: 33
 
 links:
   home-page: N/A

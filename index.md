@@ -1,118 +1,129 @@
 ---
 ---
 
-# PolyU TAS LAB's Website
+<div class="home-hero">
+  <div class="hero-main">
+  <div class="hero-copy">
+    <p class="eyebrow">PolyU · Department of Aeronautical and Aviation Engineering</p>
+    <h1>Trustworthy AI and Autonomous Systems Lab</h1>
+    <p class="hero-tagline">Trustworthy autonomy for dense cities: from satellites to embodied robots.</p>
+    <p class="hero-intro">
+      We build the algorithmic foundations of <b class="blue">trustworthy embodied AI</b> — perception, navigation and control
+      that stay safe and reliable in GNSS-challenged urban canyons — and deploy them on <b class="blue">drones</b>,
+      <b class="blue">intelligent vehicles</b> and <b class="blue">legged/humanoid robots</b> together with our industry partners.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ 'research/' | relative_url }}">Our Research</a>
+      <a class="btn btn-ghost" href="{{ 'publications/' | relative_url }}">Publications</a>
+      <a class="btn btn-ghost" href="{{ 'openings/' | relative_url }}">Join Us</a>
+    </div>
+  </div>
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65;">
-The <b class="blue">Trustworthy AI and Autonomous Systems (TAS) Laboratory</b> is at the forefront of pioneering advancements in <b class="blue">autonomous systems</b> (such as UAV and self-driving cars) technology, emphasizing the importance of <b class="blue">safety, reliability, and ethical standards</b>. Our laboratory is home to a diverse group of researchers and engineers who specialize in <b class="blue">artificial intelligence</b>, <b class="blue">robotics</b>, cybersecurity, and human-system interaction. Together, we are committed to developing autonomous systems that inspire confidence and trust among users and stakeholders. Through collaborative efforts with industry partners, academic institutions, and policymakers, our team addresses the complex challenges of integrating autonomous systems into society, ensuring they operate transparently and responsibly.
+  <div class="hero-mosaic" aria-label="Our robots">
+    <a class="hero-tile" href="{{ 'research/drones.html' | relative_url }}">
+      <img src="{{ 'images/home/hero-drone.jpg' | relative_url }}" alt="TAS Lab drone in flight" fetchpriority="high">
+      <span>Drones</span>
+    </a>
+    <a class="hero-tile" href="{{ 'research/humanoid.html' | relative_url }}">
+      <img src="{{ 'images/home/hero-legged.jpg' | relative_url }}" alt="TAS Lab quadruped robot on the PolyU campus">
+      <span>Legged robots</span>
+    </a>
+    <a class="hero-tile" href="{{ 'research/vehicles.html' | relative_url }}">
+      <img src="{{ 'images/home/hero-wuxi-car.jpg' | relative_url }}" alt="Autonomous passenger car at the PolyU-Wuxi Research Institute">
+      <span>Autonomous cars</span>
+    </a>
+    <a class="hero-tile" href="{{ 'research/vehicles.html' | relative_url }}">
+      <img src="{{ 'images/home/hero-vehicle.jpg' | relative_url }}" alt="Autonomous logistics vehicle on the PolyU campus">
+      <span>Logistics vehicles</span>
+    </a>
+  </div>
+  </div>
+
+  <ul class="hero-stats" aria-label="Lab highlights">
+    {% for item in site.data.highlights %}
+    <li>
+      <span class="hero-stat-value">{% if item.value == "github-stars" %}{% include oss-total.html %}{% else %}{{ item.value }}{% endif %}</span>
+      <span class="hero-stat-label">{{ item.label }}</span>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
 
 {% include section.html %}
 
-## Research Topics
+## Research Directions
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
-Our research aims to build algorithm foundations for <b class="blue">embodied AI</b> that enable trustworthy perception, navigation, and control of autonomous systems. We develop practical embodied AI-driven autonomous systems — including <b class="blue">drones</b>, <b class="blue">intelligent vehicles</b>, and <b class="blue">legged/humanoid robots</b> — with end-to-end learning and safety certification capabilities, enabling them to perceive, reason, and interact with the physical world safely and reliably for the future society. Our work spans <b class="blue">large AI models</b> for autonomous systems, <b class="blue">foundation models</b> and vision-language-action models for robotic perception and control, <b class="blue">AI-enabled multi-sensor fusion</b>, and software-hardware co-design for efficient embodied AI systems.
+<p class="section-lead">
+  Algorithm foundations for embodied AI with end-to-end learning and safety certification — spanning large AI models,
+  vision-language-action models, AI-enabled multi-sensor fusion and software-hardware co-design.
+</p>
+
+<div class="card-grid research-grid">
+  <a class="tile tile-accent" href="{{ 'research/gnss.html' | relative_url }}">
+    <span class="tile-label">🛰️ 3D LiDAR Aided GNSS Positioning</span>
+    <p class="tile-desc">AI-driven GNSS positioning (RTK, PPP, PPP-RTK), 3D LiDAR aided NLOS/multipath mitigation and multi-sensor fusion for robust urban navigation.</p>
+  </a>
+  <a class="tile tile-accent" href="{{ 'research/fusion.html' | relative_url }}">
+    <span class="tile-label">🔒 Safety-Certifiable Multi-Sensor Fusion</span>
+    <p class="tile-desc">Safety-certifiable AI for navigation, LiDAR/camera/IMU/GNSS fusion, integrity monitoring and navigation-control joint optimization.</p>
+  </a>
+  <a class="tile tile-accent" href="{{ 'research/vehicles.html' | relative_url }}">
+    <span class="tile-label">🚗 End-to-End Autonomous Vehicles</span>
+    <p class="tile-desc">End-to-end learning for self-driving, safety certification for logistics applications and V2X-assisted connected autonomous driving.</p>
+  </a>
+  <a class="tile tile-accent" href="{{ 'research/humanoid.html' | relative_url }}">
+    <span class="tile-label">🤖 Embodied AI for Legged/Humanoid Robots</span>
+    <p class="tile-desc">Large AI models and vision-language-action models for perception and control, bio-inspired embodied intelligence and multimodal learning.</p>
+  </a>
+  <a class="tile tile-accent" href="{{ 'research/drones.html' | relative_url }}">
+    <span class="tile-label">🚁 Embodied Drones for City Maintenance</span>
+    <p class="tile-desc">Intelligent drones and UAV swarms, aerial manipulation for urban infrastructure and efficient software-hardware co-design.</p>
+  </a>
+  <a class="tile tile-accent" href="{{ 'research/education.html' | relative_url }}">
+    <span class="tile-label">🎓 Embodied AI for Robotics Education</span>
+    <p class="tile-desc">AI-powered robotics education platforms, project-based learning with drones and ground robots, and GitHub-based collaborative pedagogy.</p>
+  </a>
 </div>
 
-<style>
-.research-directions {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1em;
-  margin: 1em 0 1.5em 0;
-}
-.rd-card {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 1px 6px rgba(0,0,0,0.07);
-  padding: 1em 1.1em;
-  transition: box-shadow 0.2s, transform 0.2s;
-  text-align: left;
-  border-left: 3.5px solid var(--primary, #0795d9);
-}
-.rd-card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
-  transform: translateY(-2px);
-}
-.rd-card h4 {
-  margin: 0 0 0.4em 0;
-  font-size: 0.95em;
-  font-weight: 600;
-  color: var(--primary, #0795d9);
-  text-align: left;
-  letter-spacing: 0;
-}
-.rd-card p {
-  margin: 0;
-  font-size: 0.88em;
-  color: #444;
-  line-height: 1.55;
-}
-.rd-card-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
-.rd-card-link:hover {
-  text-decoration: none;
-  color: inherit;
-}
-.video-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-  margin: 16px 0 24px 0;
-}
-.video-grid iframe {
-  width: 100%;
-  aspect-ratio: 16/9;
-  height: auto;
-  border-radius: 8px;
-  border: none;
-}
-@media (max-width: 640px) {
-  .video-grid { grid-template-columns: 1fr; }
-}
-</style>
+{% include section.html %}
 
-<div class="research-directions">
-  <a href="{{ 'research/gnss' | relative_url }}" class="rd-card-link">
-  <div class="rd-card">
-    <h4>🛰️ 3D LiDAR Aided GNSS Positioning</h4>
-    <p>AI-driven GNSS positioning (<b class="blue">RTK, PPP, PPP-RTK</b>), 3D LiDAR aided NLOS/multipath mitigation, multi-sensor fusion for robust urban navigation.</p>
+<div class="section-head">
+  <h2>Latest Updates</h2>
+  <a class="link-arrow" href="{{ 'news/' | relative_url }}">All news</a>
+</div>
+
+{% assign recent_news = site.events | sort: "date" | reverse %}
+<ol class="timeline">
+  {% for item in recent_news limit: 5 %}
+  <li>
+    <span class="timeline-marker" aria-hidden="true"></span>
+    <a class="timeline-body" href="{{ item.url | relative_url }}">
+      <span>
+        <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %-d, %Y" }}</time>
+        <span class="timeline-title">{{ item.title }}</span>
+      </span>
+      {% if item.image %}
+      <img class="timeline-thumb" src="{{ item.image | relative_url }}" alt="" loading="lazy">
+      {% endif %}
+    </a>
+  </li>
+  {% endfor %}
+</ol>
+
+{% include section.html %}
+
+## Recognition
+
+<p class="section-lead">Selected honours of the lab and its director.</p>
+
+<div class="card-grid">
+  {% for honor in site.data.honors %}
+  <div class="tile">
+    <span class="tile-year">{{ honor.year }}</span>
+    <h3 class="tile-title">{{ honor.title }}</h3>
+    <p class="tile-desc">{{ honor.org }}</p>
   </div>
-  </a>
-  <a href="{{ 'research/fusion' | relative_url }}" class="rd-card-link">
-  <div class="rd-card">
-    <h4>🔒 Safety-Certifiable Multi-Sensor Fusion</h4>
-    <p>Safety-certifiable AI for autonomous navigation, AI-enabled multi-sensor fusion (<b class="blue">LiDAR/Camera/IMU/GNSS</b>), integrity monitoring and navigation-control joint optimization.</p>
-  </div>
-  </a>
-  <a href="{{ 'research/vehicles' | relative_url }}" class="rd-card-link">
-  <div class="rd-card">
-    <h4>🚗 End-to-End Autonomous Vehicles</h4>
-    <p><b class="blue">End-to-end learning</b> for self-driving, safety certification for logistics applications, <b class="blue">V2X-assisted</b> connected autonomous driving.</p>
-  </div>
-  </a>
-  <a href="{{ 'research/humanoid' | relative_url }}" class="rd-card-link">
-  <div class="rd-card">
-    <h4>🤖 Embodied AI for Legged/Humanoid Robotics</h4>
-    <p>Large AI models and <b class="blue">vision-language-action models</b> for robotic perception and control, bio-inspired embodied intelligence, multimodal learning for legged/humanoid robots.</p>
-  </div>
-  </a>
-  <a href="{{ 'research/drones' | relative_url }}" class="rd-card-link">
-  <div class="rd-card">
-    <h4>🚁 Embodied Drones for City Maintenance</h4>
-    <p>Intelligent drones and <b class="blue">UAV swarm systems</b>, aerial manipulation for urban infrastructure, software-hardware co-design for efficient embodied AI drone systems.</p>
-  </div>
-  </a>
-  <a href="{{ 'research/education' | relative_url }}" class="rd-card-link">
-  <div class="rd-card">
-    <h4>🎓 Embodied AI for Robotics Education</h4>
-    <p><b class="blue">AI-powered robotics education</b> platforms, hands-on project-based learning with drones and ground robots, <b class="blue">GitHub-based collaborative learning</b> pedagogy.</p>
-  </div>
-  </a>
+  {% endfor %}
 </div>
 
 {% include section.html %}
@@ -120,19 +131,67 @@ Our research aims to build algorithm foundations for <b class="blue">embodied AI
 ## Videos
 
 <div class="video-grid">
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114244838299184&bvid=BV1ktZcYdEWD&cid=25777740164&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115156243711653&bvid=BV1fiaqzNEEm&cid=32199149727&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115920244638163&bvid=BV1GPkvBdEw9&cid=35479224564&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114776826971256&bvid=BV1UsgDzeE5J&cid=30968254232&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=116197320362204&bvid=BV1rbPDzgEsT&cid=36567648583&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+  <iframe loading="lazy" title="TAS Lab video 1" src="//player.bilibili.com/player.html?isOutside=true&aid=114244838299184&bvid=BV1ktZcYdEWD&cid=25777740164&p=1&autoplay=0" scrolling="no" frameborder="no" allowfullscreen="true"></iframe>
+  <iframe loading="lazy" title="TAS Lab video 2" src="//player.bilibili.com/player.html?isOutside=true&aid=115156243711653&bvid=BV1fiaqzNEEm&cid=32199149727&p=1&autoplay=0" scrolling="no" frameborder="no" allowfullscreen="true"></iframe>
+  <iframe loading="lazy" title="TAS Lab video 3" src="//player.bilibili.com/player.html?isOutside=true&aid=115920244638163&bvid=BV1GPkvBdEw9&cid=35479224564&p=1&autoplay=0" scrolling="no" frameborder="no" allowfullscreen="true"></iframe>
+  <iframe loading="lazy" title="TAS Lab video 4" src="//player.bilibili.com/player.html?isOutside=true&aid=114776826971256&bvid=BV1UsgDzeE5J&cid=30968254232&p=1&autoplay=0" scrolling="no" frameborder="no" allowfullscreen="true"></iframe>
+  <iframe loading="lazy" title="TAS Lab video 5" src="//player.bilibili.com/player.html?isOutside=true&aid=116197320362204&bvid=BV1rbPDzgEsT&cid=36567648583&p=1&autoplay=0" scrolling="no" frameborder="no" allowfullscreen="true"></iframe>
 </div>
 
 {% include section.html %}
 
-## Visitor Map
+<div class="section-head">
+  <h2>Gallery</h2>
+  <a class="link-arrow" href="{{ 'team/' | relative_url }}#gallery">All photos</a>
+</div>
 
-<div style="text-align:center;">
-<div style="display:inline-block; width:66%; max-width:530px;">
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=7a0000&w=530&t=tt&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=ffffff&cmo=288928&cmn=3acc3a&ct=000000'></script>
+<p class="section-lead">Life at TAS Lab: our team, competitions, field tests and partner visits.</p>
+
+{% include gallery.html limit=5 %}
+
+{% include section.html %}
+
+<div class="section-head">
+  <h2>Funders &amp; Partners</h2>
+  <a class="link-arrow" href="{{ 'team/' | relative_url }}#advisory-board">Our advisory board</a>
 </div>
+
+<p class="section-lead">
+  With gratitude to the government bodies, industry partners and university units whose support turns our research
+  into impact for Hong Kong and beyond.
+</p>
+
+{% include partners.html %}
+
+{% include section.html %}
+
+## Explore
+
+<div class="card-grid">
+  <a class="tile" href="{{ 'research/' | relative_url }}">
+    <span class="tile-label">Research</span>
+    <p class="tile-desc">Six directions from GNSS positioning to humanoid robots, with projects and demos.</p>
+  </a>
+  <a class="tile" href="{{ 'publications/' | relative_url }}">
+    <span class="tile-label">Publications</span>
+    <p class="tile-desc">Journal and conference papers, searchable by year, topic and author.</p>
+  </a>
+  <a class="tile" href="{{ 'opensource/' | relative_url }}">
+    <span class="tile-label">Dataset &amp; Code</span>
+    <p class="tile-desc">UrbanNav, GraphGNSSLib, pyrtklib and more — {% include oss-total.html %} GitHub stars.</p>
+  </a>
+  <a class="tile" href="{{ 'team/' | relative_url }}">
+    <span class="tile-label">Team</span>
+    <p class="tile-desc">PhD and MPhil students, postdocs, research assistants and alumni.</p>
+  </a>
+  <a class="tile" href="{{ 'news/' | relative_url }}">
+    <span class="tile-label">News</span>
+    <p class="tile-desc">Awards, visits, competitions, talks and lab events.</p>
+  </a>
+  <a class="tile" href="{{ 'openings/' | relative_url }}">
+    <span class="tile-label">Openings</span>
+    <p class="tile-desc">PhD, MPhil, postdoc and RA positions — we are recruiting.</p>
+  </a>
 </div>
+
+{% include visitor-map.html %}

@@ -1,0 +1,15 @@
+{%- case include.project.type -%}
+  {%- when "industry" -%}{%- assign project_type_label = "Industry collaboration" -%}
+  {%- when "internal" -%}{%- assign project_type_label = "Internal project" -%}
+  {%- else -%}{%- assign project_type_label = "Government-funded" -%}
+{%- endcase -%}
+{%- if include.project.status == "ongoing" -%}
+  {%- assign project_status_label = "Ongoing" -%}
+{%- else -%}
+  {%- assign project_status_label = "Completed" -%}
+{%- endif -%}
+{%- if include.project.end != include.project.start -%}
+  {%- assign project_since = include.project.start | append: "–" | append: include.project.end -%}
+{%- else -%}
+  {%- assign project_since = include.project.start | append: "" -%}
+{%- endif -%}

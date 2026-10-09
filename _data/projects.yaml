@@ -1,7 +1,7 @@
 - title: Huawei-PolyU High-accuracy Localization Project
   subtitle: Knowledge Transfer to Unmanned Autonomous Systems
   group: featured
-  image: images/project/huawei_mapping.gif
+  image: images/project/huawei_mapping-poster.jpg
   #link: https://github.com/
   description: Developed LiDAR aided GNSS-RTK method based on the GNSS/IMU/LiDAR to provide highly accurate positioning results in the urban canyons.
   # tags:
@@ -41,7 +41,7 @@
 
 - title: Sustainable Window Cleaning for PolyU Jockey Club Innovation Tower with Unmanned Aerial Vehicles (UAV)\:\ An Application of Autonomous Systems Enabled Carbon Reduction
   subtitle: Carbon Neutrality Funding Scheme - supported projects in 2023/24 exercise
-  image: images/project/uav_clean.png
+  image: images/project/uav_clean.jpg
   link: https://github.com/
   description:  Develop a sustainable, autonomous window cleaning system for the PolyU Jockey Club Innovation Tower using advanced UAV technology. The system integrates GNSS, IMU, LiDAR, and vision sensors for precise navigation and efficient cleaning of complex high-rise structures.
   repo: greenelab/lab-website-template

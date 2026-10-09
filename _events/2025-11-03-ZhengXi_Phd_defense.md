@@ -1,18 +1,14 @@
 ---
-title: Congratulations to the successfully PhD oral defense of Dr. ZHENG Xi! 
+title: Congratulations to Dr. ZHENG Xi on the Successful PhD Oral Defense!
 # author: Yixin Gao
 image: images/news/20251103_Zhengxi/zhengxi_oral_defense.jpg
 tags: news
 order:
 ---
 
-Congratulations to the successfully PhD oral defense of Dr. ZHENG Xi!
+Dr. ZHENG Xi has successfully passed the PhD oral defense. Congratulations!
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="../images/news/20251103_Zhengxi/zhengxi_oral_defense.jpg" alt="group photos"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/20251103_Zhengxi/zhengxi_oral_defense.jpg" alt="Group photo after Dr. Zheng Xi's PhD oral defense"></figure>
 </div>
-
-
-
-
+<p class="news-caption">Group photo after the PhD oral defense of Dr. ZHENG Xi.</p>

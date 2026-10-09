@@ -1,0 +1,106 @@
+---
+layout: default
+---
+
+{% include section.html %}
+
+<div class="project-hero">
+  <a class="project-back" href="{{ '/opensource/' | relative_url }}">← All datasets &amp; code</a>
+  <div class="project-hero-tags">
+    <span class="oss-kind" data-kind="{{ page.kind }}">{{ page.kind }}</span>
+    {% if page.stars %}<span class="oss-stars">{% include icon.html icon="fa-solid fa-star" %}{{ page.stars }} stars</span>{% endif %}
+  </div>
+  <h1 class="project-title">{{ page.title }}</h1>
+  <p class="project-summary">{{ page.subtitle }}</p>
+
+  <dl class="project-facts-list">
+    {% if page.author %}<div><dt>Developed by</dt><dd>{{ page.author }}</dd></div>{% endif %}
+    {% if page.repo %}<div><dt>Repository</dt><dd><a href="https://github.com/{{ page.repo }}" target="_blank" rel="noopener">{{ page.repo }}</a></dd></div>{% endif %}
+    {% if page.stars %}<div><dt>GitHub</dt><dd>{{ page.stars }} stars{% if page.forks %} · {{ page.forks }} forks{% endif %}</dd></div>{% endif %}
+    {% if page.license %}<div><dt>Licence</dt><dd>{{ page.license }}</dd></div>{% endif %}
+  </dl>
+
+  <div class="oss-detail-actions">
+    {% if page.repo %}<a class="btn btn-primary" href="https://github.com/{{ page.repo }}" target="_blank" rel="noopener">{% include icon.html icon="fa-brands fa-github" %}GitHub</a>{% endif %}
+    {% if page.paper_url %}<a class="btn btn-light" href="{{ page.paper_url }}" target="_blank" rel="noopener">{% include icon.html icon="fa-regular fa-file-lines" %}Paper</a>{% endif %}
+    {% for l in page.links %}<a class="btn btn-light" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a>{% endfor %}
+  </div>
+</div>
+
+{% include section.html %}
+
+<div class="project-body{% unless page.image %} project-body-single{% endunless %}">
+  {% if page.image %}
+  <figure class="project-feature">
+    <a href="{{ page.image | relative_url }}" target="_blank" rel="noopener">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+    </a>
+  </figure>
+  {% endif %}
+
+  <div class="project-text">
+    <div class="project-block">
+      <h2 class="project-block-title">Summary</h2>
+      <p>{{ page.summary }}</p>
+    </div>
+    <div class="project-block">
+      <h2 class="project-block-title">Key innovations</h2>
+      <ol class="project-objectives">
+        {% for x in page.innovations %}<li>{{ x }}</li>{% endfor %}
+      </ol>
+    </div>
+  </div>
+</div>
+
+<div class="project-columns">
+  <div class="project-block">
+    <h2 class="project-block-title">Impact</h2>
+    <ul class="project-approach">
+      {% for x in page.impact %}<li>{{ x }}</li>{% endfor %}
+    </ul>
+  </div>
+  <div class="project-block">
+    {% if page.paper %}
+    <h2 class="project-block-title">Cite this work</h2>
+    <p class="oss-paper">{{ page.paper }}{% if page.paper_url %} <a href="{{ page.paper_url }}" target="_blank" rel="noopener">DOI</a>{% endif %}</p>
+    {% endif %}
+    {% if page.install %}
+    <h2 class="project-block-title">Install</h2>
+    <pre class="oss-install"><code>{{ page.install | strip }}</code></pre>
+    {% endif %}
+  </div>
+</div>
+
+{% if page.figures %}
+<h2 class="project-gallery-title">Gallery</h2>
+<div class="project-gallery">
+  {% for g in page.figures %}
+  <figure>
+    <a href="{{ g.image | relative_url }}" target="_blank" rel="noopener">
+      <img src="{{ g.image | relative_url }}" alt="{{ g.caption }}" loading="lazy">
+    </a>
+    <figcaption>{{ g.caption }}</figcaption>
+  </figure>
+  {% endfor %}
+</div>
+{% endif %}
+
+{{ content }}
+
+{% include section.html %}
+
+{% assign others = site.opensource | where: "kind", page.kind | sort: "stars" | reverse %}
+<h2 class="project-gallery-title">More {% if page.kind == "Dataset" %}datasets{% else %}code{% endif %}</h2>
+<div class="oss-related">
+  {% assign shown = 0 %}
+  {% for o in others %}
+    {% if o.url != page.url and shown < 4 %}
+    <a class="oss-related-item" href="{{ o.url | relative_url }}">
+      <span class="oss-related-title">{{ o.title }}</span>
+      <span class="oss-related-sub">{{ o.subtitle }}</span>
+      {% if o.stars %}<span class="oss-stars">{% include icon.html icon="fa-solid fa-star" %}{{ o.stars }}</span>{% endif %}
+    </a>
+    {% assign shown = shown | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+</div>

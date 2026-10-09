@@ -1,0 +1,16 @@
+{%- assign v = include.video -%}
+<figure class="video-card">
+  <div class="video-frame">
+    {% if v.youtube %}
+    <button type="button" class="video-lite" aria-label="Play: {{ v.title }}"
+      data-src="https://www.youtube-nocookie.com/embed/{{ v.youtube }}?autoplay=1&rel=0"
+      style="background-image: url('https://i.ytimg.com/vi/{{ v.youtube }}/hqdefault.jpg')">
+      <span class="video-play" aria-hidden="true"></span>
+    </button>
+    {% else %}
+    <iframe src="https://player.bilibili.com/player.html?bvid={{ v.bilibili }}&page=1&autoplay=0&high_quality=1"
+      title="{{ v.title }}" loading="lazy" scrolling="no" frameborder="0" allowfullscreen></iframe>
+    {% endif %}
+  </div>
+  <figcaption>{{ v.title }}</figcaption>
+</figure>

@@ -1,3 +1,4 @@
-<!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
+{% assign goatcounter = site.data.visitor_map.goatcounter | strip %}
+{% if goatcounter != "" and jekyll.environment == "production" %}
+<script data-goatcounter="https://{{ goatcounter }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+{% endif %}

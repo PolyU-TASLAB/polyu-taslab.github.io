@@ -2,16 +2,16 @@
 title: Research
 nav:
   order: 3
-  tooltip: Research projects and directions
+  tooltip: Research directions, systems and demos
 ---
 
 # {% include icon.html icon="fa-solid fa-flask" %}Research Topics
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
+<div style="text-align:left; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
 Our research aims to <b>build algorithm foundations for embodied AI</b> that enable <b>trustworthy perception, navigation, and control</b> of autonomous systems. We develop practical <b>embodied AI-driven autonomous systems</b> — including <b class="blue">drones</b>, <b class="blue">intelligent vehicles</b>, and <b class="blue">legged/humanoid robots</b> — with <b>end-to-end learning</b> and <b>safety certification</b> capabilities, enabling them to perceive, reason, and interact with the physical world safely and reliably for the future society. Our work spans large AI models for autonomous systems, foundation models and vision-language-action models for robotic perception and control, AI-enabled multi-sensor fusion, and software-hardware co-design for efficient embodied AI systems.
 </div>
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
+<div style="text-align:left; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
 <b>Research Directions:</b><br>
 1) <b>3D LiDAR Aided GNSS Positioning</b> — AI-driven GNSS positioning (RTK, PPP, PPP-RTK), 3D LiDAR aided NLOS/multipath mitigation, multi-sensor fusion for robust urban navigation;<br>
 2) <b>Safety-certifiable Multi-Sensor Fusion</b> — safety-certifiable AI for autonomous navigation, AI-enabled multi-sensor fusion (LiDAR/Camera/IMU/GNSS), integrity monitoring and navigation-control joint optimization;<br>
@@ -115,7 +115,7 @@ Our research aims to <b>build algorithm foundations for embodied AI</b> that ena
 
 <div class="rd-cards">
 
-  <a href="{{ 'research/gnss' | relative_url }}" class="rd-card-link">
+  <a href="{{ 'research/gnss.html' | relative_url }}" class="rd-card-link">
     <div class="rd-card">
       <div class="rd-card-img">
         <img src="{{ 'images/project/3DLA-GNSS.jpg' | relative_url }}" alt="3D LiDAR Aided GNSS Positioning for Robotics Navigation">
@@ -127,7 +127,7 @@ Our research aims to <b>build algorithm foundations for embodied AI</b> that ena
     </div>
   </a>
 
-  <a href="{{ 'research/fusion' | relative_url }}" class="rd-card-link">
+  <a href="{{ 'research/fusion.html' | relative_url }}" class="rd-card-link">
     <div class="rd-card">
       <div class="rd-card-img">
         <img src="{{ 'images/project/multi-sensor.jpg' | relative_url }}" alt="Safety-certifiable Multi-Sensor Fusion">
@@ -139,10 +139,10 @@ Our research aims to <b>build algorithm foundations for embodied AI</b> that ena
     </div>
   </a>
 
-  <a href="{{ 'research/vehicles' | relative_url }}" class="rd-card-link">
+  <a href="{{ 'research/vehicles.html' | relative_url }}" class="rd-card-link">
     <div class="rd-card">
       <div class="rd-card-img">
-        <img src="{{ 'images/project/E2ELV.png' | relative_url }}" alt="End-to-End Autonomous Vehicles">
+        <img src="{{ 'images/project/E2ELV.jpg' | relative_url }}" alt="End-to-End Autonomous Vehicles">
       </div>
       <div class="rd-card-body">
         <h3>End-to-End and Safety-Certifiable Autonomous Vehicles for Logistics Applications</h3>
@@ -151,10 +151,10 @@ Our research aims to <b>build algorithm foundations for embodied AI</b> that ena
     </div>
   </a>
 
-  <a href="{{ 'research/humanoid' | relative_url }}" class="rd-card-link">
+  <a href="{{ 'research/humanoid.html' | relative_url }}" class="rd-card-link">
     <div class="rd-card">
       <div class="rd-card-img">
-        <img src="{{ 'images/project/E2EHL.png' | relative_url }}" alt="Embodied AI for Humanoid/Legged Robotics">
+        <img src="{{ 'images/project/E2EHL.jpg' | relative_url }}" alt="Embodied AI for Humanoid/Legged Robotics">
       </div>
       <div class="rd-card-body">
         <h3>Embodied AI for Humanoid/Legged Robotics</h3>
@@ -163,10 +163,10 @@ Our research aims to <b>build algorithm foundations for embodied AI</b> that ena
     </div>
   </a>
 
-  <a href="{{ 'research/drones' | relative_url }}" class="rd-card-link">
+  <a href="{{ 'research/drones.html' | relative_url }}" class="rd-card-link">
     <div class="rd-card">
       <div class="rd-card-img">
-        <img src="{{ 'images/project/E2EDrone.png' | relative_url }}" alt="Embodied Drones for City Maintenance and Manipulation">
+        <img src="{{ 'images/project/E2EDrone.jpg' | relative_url }}" alt="Embodied Drones for City Maintenance and Manipulation">
       </div>
       <div class="rd-card-body">
         <h3>Embodied Drones for City Maintenance and Manipulation</h3>
@@ -175,10 +175,10 @@ Our research aims to <b>build algorithm foundations for embodied AI</b> that ena
     </div>
   </a>
 
-  <a href="{{ 'research/education' | relative_url }}" class="rd-card-link">
+  <a href="{{ 'research/education.html' | relative_url }}" class="rd-card-link">
     <div class="rd-card">
       <div class="rd-card-img">
-        <img src="{{ 'images/project/EBAIEdu.png' | relative_url }}" alt="Embodied AI for Robotics Education">
+        <img src="{{ 'images/project/EBAIEdu.jpg' | relative_url }}" alt="Embodied AI for Robotics Education">
       </div>
       <div class="rd-card-body">
         <h3>Embodied AI for Robotics Education</h3>

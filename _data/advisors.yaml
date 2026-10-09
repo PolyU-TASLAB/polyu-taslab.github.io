@@ -1,0 +1,38 @@
+# Advisory board shown on the Team page.
+# Source: "Advisors and Consultants" slide of the TAS Lab introduction (October 2026).
+# Keep each person to two short points so the cards line up.
+
+- name: Leo Liu
+  role: Industry Advisor
+  image: images/advisors/leo-liu.jpg
+  points:
+    - CTO, Gammon Construction
+    - Ex-Dentsu, Tesla, Cisco, WebEx
+
+- name: Prof. Chengzhong Xu
+  role: Academic Advisor
+  image: images/advisors/chengzhong-xu.jpg
+  points:
+    - Dean of Science & Technology, University of Macau
+    - Chair Professor; IEEE Fellow
+
+- name: Kenny Lau
+  role: Industry Advisor
+  image: images/advisors/kenny-lau.jpg
+  points:
+    - Former CTO, S.F. Express (Hong Kong), 2020–2025
+    - Led SF's drone delivery and low-altitude-economy projects in Hong Kong
+
+- name: Patrick S. Lee
+  role: Industry Advisor
+  image: images/advisors/patrick-lee.jpg
+  points:
+    - HK Region Advisor, Xiaohongshu
+    - INED, Café de Coral Holdings
+
+- name: Dr Winnie Tang
+  role: Academic & Industry Advisor
+  image: images/advisors/winnie-tang.jpg
+  points:
+    - Founder & Chairman, Esri China (HK)
+    - Adjunct Professor, HKU

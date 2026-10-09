@@ -1,5 +1,5 @@
 ---
-name: Jianho Jiao
+name: Jianhao Jiao
 image: images/team/jianhaojiao_pict_2023.jpg
 role: alumni  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: Hong Kong Polytechnic University

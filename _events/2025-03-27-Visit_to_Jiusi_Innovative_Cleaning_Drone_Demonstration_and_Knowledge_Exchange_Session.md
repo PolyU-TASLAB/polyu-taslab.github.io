@@ -7,56 +7,44 @@ tags: news
 order: 
 ---
 
-##  Visit to Jiusi's Innovative Cleaning Drone Demonstration and Knowledge Exchange Session
-### Academic-Industry Collaboration Explores Future of Smart City Maintenance
+On 27 March 2025, the Trustworthy AI and Autonomous Systems Laboratory (TASLAB) at The Hong Kong Polytechnic University (PolyU) visited JIUSI Intelligent Aviation Technology (Shenzhen) Co., Ltd., a provider of autonomous drones for smart city maintenance. The visit, an academic-industry exchange on the future of smart city maintenance, featured a demonstration of Jiusi's next-generation facade cleaning drone and a knowledge exchange session.
 
-#### Demonstration of D15R Facade Cleaning Drone
-The Trustworthy Autonomous Systems Laboratory (TASLAB) at The Hong Kong Polytechnic University (PolyU) today paid a visit to JIUSI Intelligent Aviation Technology (Shenzhen) Co., Ltd., a leading provider of autonomous drones for smart city maintenance, highlighted by an impressive demonstration of Jiusi's next-generation facade cleaning drone.
-<div style="display: flex; gap: 20px; justify-content: center; margin-bottom: 20px;">
-  <div style="flex: 1; max-width: 45%; height: 300px; border-radius: 15px; overflow: hidden;">
-    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/Folded.JPEG" 
-         alt="Folded" 
-         style="width: 100%; height: 100%; object-fit: cover;">
-  </div>
-  <div style="flex: 1; max-width: 45%; height: 300px; border-radius: 15px; overflow: hidden;">
-    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/Decompressed.JPEG" 
-         alt="Decompressed" 
-         style="width: 100%; height: 100%; object-fit: cover;">
-  </div>
+### Demonstration of the D15R facade cleaning drone
+
+<div class="news-photos" data-cols="2" data-fit="contain">
+  <figure><img src="{{ site.baseurl }}/images/news/Jiusi/Folded.JPEG" alt="D15R drone folded"><figcaption>Folded</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/Jiusi/Decompressed.JPEG" alt="D15R drone unfolded"><figcaption>Unfolded</figcaption></figure>
 </div>
+<p class="news-caption">The D15R facade cleaning drone, folded and unfolded.</p>
 
-<div style="display: flex; gap: 20px; justify-content: center; margin-bottom: 20px;">
-  <div style="flex: 1; max-width: 45%; height: 300px; border-radius: 15px; overflow: hidden;">
-    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/demo1.JPEG" 
-         alt="Fluid" 
-         style="width: 100%; height: 100%; object-fit: cover;">
-  </div>
-  <div style="flex: 1; max-width: 45%; height: 300px; border-radius: 15px; overflow: hidden;">
-    <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/demo2.JPEG" 
-         alt="Demo1" 
-         style="width: 100%; height: 100%; object-fit: cover;">
-  </div>
+<div class="news-photos" data-cols="2">
+  <figure><img src="{{ site.baseurl }}/images/news/Jiusi/demo1.JPEG" alt="Drone spraying cleaning fluid on a facade"></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/Jiusi/demo2.JPEG" alt="Cleaning drone demonstration"></figure>
 </div>
-Jiusi adopted two RTK anttana solution to secure the accurate positioning of the drone, ensuring accurate and precise operations. Featuring uniquely designed interchangeable nozzles, Jiusi's cleaning drone accomplishes wall surface cleaning through two optimized missions: During the first flight, a cavity nozzle generates adhesive foam to fix the cleaning solution onto glass curtain walls, allowing sufficient time for the solution to react with and degrade stubborn stains. The second mission employs a high-pressure nozzle to spray plasma-enhanced water, effectively removing residual contaminants while minimizing water streaks on the curtain wall surface through precision rinsing.The facade cleaning drone has showed a remarkable stability and efficiency in cleaning performance. According to the pilot, the drone can clean 500 meters square per hour.
+<p class="news-caption">Live demonstration of facade cleaning.</p>
 
+Jiusi uses a dual RTK antenna solution to ensure accurate positioning of the drone and precise operation. With specially designed interchangeable nozzles, the drone cleans wall surfaces in two missions. In the first flight, a cavity nozzle generates an adhesive foam that holds the cleaning solution on the glass curtain wall, giving the solution enough time to react with and break down stubborn stains. In the second mission, a high-pressure nozzle sprays plasma-enhanced water, removing residual contaminants and minimising water streaks on the curtain wall through precision rinsing. The drone showed stable and efficient cleaning performance; according to the pilot, it can clean 500 square metres per hour.
 
+### Knowledge exchange session
 
-#### Knowledge Exchange Session
-Although the drone has demonstrated its stability and efficiency in cleaning performance, there are still several challenges that need to be addressed for the drone to fully realize its potential in the real world. These include:
--The challenge of accurate positioning when drone is approaching the facades.
--The need for optimizing the cleaning and fail-safe strategies.
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/discussion1.png" alt="Discussion1" 
-       style="width: 45%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/discussion2.png" alt="Discussion2" 
-       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
+Although the drone has demonstrated stable and efficient cleaning, several challenges must still be addressed before it can fully realise its potential in the real world:
+
+- **Positioning:** accurate positioning when the drone approaches the facade.
+- **Strategy:** optimising the cleaning and fail-safe strategies.
+
+<div class="news-photos" data-cols="2">
+  <figure><img src="{{ site.baseurl }}/images/news/Jiusi/discussion1.jpg" alt="Discussion with the Jiusi team"></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/Jiusi/discussion2.jpg" alt="Discussion with the Jiusi team"></figure>
 </div>
-As we have learnt from discussion with the techinical manager of Jiusi, the current cleaning module of Jiusi cleaning drone tolerates a minimum error of 0.5 meters. The root cause of this error comes from the limitation of applying mmWave Radar, which is limited by the size of the antenna. Jiusi engineers is trying to optimize the antenna design and improve its performance, aiming to achieve an error of 0.2 meters when approaching the facade.
-Jiusi has put their future focus on optimizing the cleaning strategy for the drone. Shared by their leader of the development team, the goal is to achieve autnomous rotation when the cleaning route reaches the edges of the building to optimize the cleaning efficiency.
+<p class="news-caption">Knowledge exchange with the Jiusi team.</p>
 
-The visit and knowledge exchange session with Jiusi was held was a fruitful discussion about the current cleaning module of Jiusi cleaning drone, its limitations, and future plans for optimization.
+According to Jiusi's technical manager, the current cleaning module of the drone tolerates a minimum error of 0.5 meters. The root cause is the limitation of the mmWave radar, which is constrained by the size of its antenna. Jiusi engineers are optimising the antenna design to improve its performance, aiming for an error of 0.2 meters when approaching the facade.
 
-<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Jiusi/group.jpg" alt="GroupPic" 
-       style="width: 100%; height: auto; object-fit: cover; border-radius: 15px;">
+Jiusi's future focus is on optimising the drone's cleaning strategy. As shared by the head of the development team, the goal is for the drone to rotate autonomously when the cleaning route reaches the edges of a building, improving cleaning efficiency.
+
+The visit and knowledge exchange session led to a fruitful discussion about the current cleaning module of the Jiusi drone, its limitations and future plans for optimisation.
+
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/Jiusi/group.jpg" alt="Group photo of TASLAB and Jiusi"></figure>
 </div>
+<p class="news-caption">Group photo of TASLAB and Jiusi.</p>

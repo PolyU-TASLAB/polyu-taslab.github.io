@@ -7,38 +7,34 @@ tags: news
 order: 
 ---
 
-# Low-altitude Economy (LAE) Exhibition 2025 Opening Ceremony at Cyberport HK
+The Low-altitude Economy (LAE) Exhibition 2025 officially opened at Hong Kong Cyberport and ran for three days, from 9 to 11 May 2025, marking a milestone in the city's push to become a regional hub for aerial innovation. The event featured UAV technologies from leading companies such as FlightPro and Phoenix Wings (丰翼), highlighting Hong Kong's growing role in smart urban mobility and logistics.
 
-From May 9th to 11th, 2025, The **Low-altitude Economy (LAE) Exhibition** 2025 officially launched today at Hong Kong Cyberport, marking a significant milestone in the city’s push to become a regional hub for aerial innovation. The three-day event, running from May 9-11, features groundbreaking UAV technologies from leading companies such as FlightPro and Phoenix Wings (丰翼), highlighting Hong Kong’s growing role in smart urban mobility and logistics.
-
-<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/FlightProEX.jpg" alt="FlightPro" 
-       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/PhoenixWingsEX.jpg" alt="PhoenixEX" 
-      style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
+<div class="news-photos" data-cols="2">
+  <figure><img src="{{ site.baseurl }}/images/news/FlightProEX.jpg" alt="FlightPro exhibition booth"><figcaption>FlightPro</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/PhoenixWingsEX.jpg" alt="Phoenix Wings exhibition booth"><figcaption>Phoenix Wings (丰翼)</figcaption></figure>
 </div>
+<p class="news-caption">UAV technologies on display from FlightPro and Phoenix Wings.</p>
 
-# Government and Industry Leaders Emphasize LAE’s Potential
+### Government and industry leaders emphasise the potential of LAE
 
-In his opening remarks, **Mr. John Lee, Chief Executive of Hong Kong SAR**, highlighted the city’s commitment to integrating low-altitude technologies into its **Smart City Blueprint 3.0**:
+In his opening remarks, Mr. John Lee, Chief Executive of the Hong Kong SAR, highlighted the city's commitment to integrating low-altitude technologies into its Smart City Blueprint 3.0:
 
 > *"Hong Kong is uniquely positioned to lead in low-altitude applications, from logistics to infrastructure inspection. The LAE Regulatory Sandbox has already enabled successful trials, and this exhibition accelerates our vision for a connected, automated urban sky."*
 
-<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/CyberportGroup.jpg" alt="Banner" 
-       style="width: 100%; height: auto; object-fit: cover; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/CyberportGroup.jpg" alt="Group photo at the LAE Exhibition 2025 opening ceremony at Cyberport"></figure>
 </div>
+<p class="news-caption">Group photo at the opening ceremony at Cyberport.</p>
 
-# Key Themes and Future Collaborations
-The exhibition explores four core themes:
+### Key themes and future collaborations
 
-**Urban Air Mobility (UAM)**: eVTOLs and drone taxis for future transport.
+The exhibition explored four core themes:
 
-**Smart Logistics**: Last-mile and cross-border UAV delivery networks.
+- **Urban Air Mobility (UAM)**: eVTOLs and drone taxis for future transport.
+- **Smart Logistics**: last-mile and cross-border UAV delivery networks.
+- **Infrastructure Inspection**: AI-driven drones for bridges, buildings and utilities.
+- **Policy & Regulation**: harmonising airspace management across the Greater Bay Area.
 
-**Infrastructure Inspection**: AI-driven drones for bridges, buildings, and utilities.
+### What's next?
 
-**Policy & Regulation**: Harmonizing airspace management across the Greater Bay Area.
-
-# What’s Next?
-With over 50 exhibitors and 5,000+ attendees expected, the LAE Exhibition 2025 sets the stage for Hong Kong’s Low-altitude Economy Master Plan, due for release later this year. A live flight demo zone at Cyberport will run daily, allowing visitors to witness UAVs in action.
+With over 50 exhibitors and 5,000+ attendees expected, the LAE Exhibition 2025 sets the stage for Hong Kong's Low-altitude Economy Master Plan, due for release later this year. A live flight demo zone at Cyberport runs daily, allowing visitors to see UAVs in action.

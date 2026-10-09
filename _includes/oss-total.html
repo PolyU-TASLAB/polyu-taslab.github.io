@@ -1,0 +1,15 @@
+{% comment %}
+  Sums the `stars:` field of all _opensource entries and prints it rounded down
+  to the nearest hundred, e.g. "2,600+".
+{% endcomment %}
+{%- assign oss_total = 0 -%}
+{%- for item in site.opensource -%}
+  {%- assign item_stars = item.stars | default: 0 -%}
+  {%- assign oss_total = oss_total | plus: item_stars -%}
+{%- endfor -%}
+{%- assign oss_round = oss_total | divided_by: 100 | times: 100 -%}
+{%- if oss_round >= 1000 -%}
+  {{- oss_round | divided_by: 1000 -}},{{- oss_round | modulo: 1000 | prepend: "00" | slice: -3, 3 -}}+
+{%- else -%}
+  {{- oss_round -}}+
+{%- endif -%}

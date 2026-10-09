@@ -1,9 +1,9 @@
 ---
 name: Wang Xin
 image: images/team/wang_xin.jpg
-role: ms
+role: phd
 affiliation: Hong Kong Polytechnic University
-order: 102
+order: 8.5
 
 links:
   home-page: 

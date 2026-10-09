@@ -1,0 +1,18 @@
+# Visitor map on the home page.
+#
+# goatcounter: your GoatCounter site code (the "xxx" in https://xxx.goatcounter.com).
+#   When set, the home page shows a world map plus a by-country list, like the RAIDS site.
+# api_key: a GoatCounter API key with only "Read statistics" permission (User menu > API).
+#   It is public in the page, so never give it write permissions. With it the map shows
+#   live counts. Without it, counts are fetched at build time by the build-site workflow
+#   using the GOATCOUNTER_TOKEN repository secret, refreshed by a daily rebuild.
+# since: count visits from this date.
+# embed / stats_url: MapMyVisitors fallback, shown while goatcounter is empty.
+
+goatcounter: ""
+api_key: ""
+since: "2020-01-01"
+
+embed: |
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=7Bj3E_vCgHX_Sg01z-7ADkFbalVMmi3-OhZYtxk-p0k&cl=ffffff&w=a"></script>
+stats_url: "https://mapmyvisitors.com/web/1c8q0"

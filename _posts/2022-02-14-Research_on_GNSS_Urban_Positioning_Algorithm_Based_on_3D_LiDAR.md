@@ -31,7 +31,7 @@ Completed
 ## System Framework
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/GDSTC/pipeline.png" alt="Team Banner" 
+  <img src="{{ site.baseurl }}/images/project/GDSTC/pipeline.png" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
@@ -39,14 +39,12 @@ Completed
 
 ### LiDAR-aided GNSS Fix 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/GDSTC/fix_gif.gif" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <video src="{{ site.baseurl }}/images/project/GDSTC/fix_gif.mp4" poster="{{ site.baseurl }}/images/project/GDSTC/fix_gif.jpg" autoplay loop muted playsinline preload="metadata" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;"></video>
 </div>
 
 ### NLOS detection 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/GDSTC/nlos_detection_gif.gif" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <video src="{{ site.baseurl }}/images/project/GDSTC/nlos_detection_gif.mp4" poster="{{ site.baseurl }}/images/project/GDSTC/nlos_detection_gif.jpg" autoplay loop muted playsinline preload="metadata" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;"></video>
 </div>
 
 ## Achievements

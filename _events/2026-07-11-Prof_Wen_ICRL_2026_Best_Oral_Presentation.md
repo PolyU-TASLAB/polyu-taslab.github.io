@@ -7,32 +7,29 @@ tags: news
 order:
 ---
 
-## Prof. Weisong Wen Receives Best Oral Presentation Award at ICRL 2026 in Yili, Xinjiang
+On 11 July 2026, Prof. Weisong Wen, Director of the Trustworthy AI and Autonomous Systems Laboratory (TASLAB) at The Hong Kong Polytechnic University (PolyU), received a **Best Oral Presentation Award** at the 2026 International Conference on Robotics and Learning (ICRL 2026). The conference was held from 10 to 14 July in Yili, Xinjiang, China.
 
-**YILI, China** – July 11, 2026 – Professor Weisong WEN, Director of The Hong Kong Polytechnic University's Trustworthy AI and Autonomous Systems Laboratory (TAS LAB), received a **Best Oral Presentation Award** at the 2026 International Conference on Robotics and Learning (ICRL 2026), held from July 10 to 14 in Yili, Xinjiang, China. Hosted by the *Robot Learning* journal editorial board and ELSP Publishing and organized by Yili Normal University, with Shanghai Jiao Tong University, Hunan University, Wuhan University, and Westlake University as co-organizers, ICRL 2026 gathered scholars, engineers, and industry leaders working across embodied intelligence, neuro-robotics, multimodal perception, adaptive control, and robot learning.
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="{{ '/images/news/260711Xingjiang/1.jpg' | relative_url }}" alt="Prof. Weisong Wen receiving the Best Oral Presentation Award on stage at ICRL 2026 in Yili, Xinjiang"
-       style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Prof. Weisong Wen (right) receives the Best Oral Presentation Award during the ICRL 2026 award ceremony in Yili, Xinjiang.</p>
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/260711Xingjiang/1.jpg" alt="Prof. Weisong Wen receiving the Best Oral Presentation Award on stage at ICRL 2026"></figure>
 </div>
+<p class="news-caption">Prof. Weisong Wen (right) receives the Best Oral Presentation Award during the ICRL 2026 award ceremony in Yili, Xinjiang.</p>
 
-Prof. Wen delivered an oral presentation, "Efficient and Outlier-Aware GNSS/LiDAR/inertial Integrated Positioning for Autonomous Systems in Urban Canyons," which was selected by the conference for its Best Oral Presentation Award. The recognition highlights TAS LAB's contribution to trustworthy autonomy and robust perception, and its relevance to the robotics and learning community that ICRL 2026 convened.
+ICRL 2026 was hosted by the editorial board of the *Robot Learning* journal and ELSP Publishing and organised by Yili Normal University, with Shanghai Jiao Tong University, Hunan University, Wuhan University and Westlake University as co-organisers. It gathered scholars, engineers and industry leaders working on embodied intelligence, neuro-robotics, multimodal perception, adaptive control and robot learning.
 
-The talk connected TAS LAB's research on robust localization and multi-sensor fusion to the conference's central themes of robot learning and embodied intelligence, illustrating how reliable perception and state estimation underpin autonomous systems operating in complex, real-world environments. The presentation was well received by an audience of leading robotics researchers from institutions across China and abroad.
+### The award-winning talk
 
-<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; align-items: flex-start; max-width: 850px; margin: 0 auto 20px;">
-  <div style="flex: 1 1 300px; text-align: center;">
-    <img src="{{ '/images/news/260711Xingjiang/2.jpg' | relative_url }}" alt="The ICRL 2026 Best Oral Presentation certificate awarded to Weisong Wen"
-         style="width: 100%; height: auto; object-fit: contain; border-radius: 15px;">
-    <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">The ICRL 2026 Best Oral Presentation certificate presented to Prof. Weisong Wen.</p>
-  </div>
+Prof. Wen's oral presentation, "Efficient and Outlier-Aware GNSS/LiDAR/inertial Integrated Positioning for Autonomous Systems in Urban Canyons", was selected by the conference for its Best Oral Presentation Award. The recognition highlights TASLAB's contribution to trustworthy autonomy and robust perception, and its relevance to the robotics and learning community that ICRL 2026 brought together.
 
-  <div style="flex: 1 1 300px; text-align: center;">
-    <img src="{{ '/images/news/260711Xingjiang/3.jpg' | relative_url }}" alt="The ICRL 2026 conference opening screen in Yili, Xinjiang"
-         style="width: 100%; height: auto; object-fit: contain; border-radius: 15px;">
-    <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">The 2026 International Conference on Robotics and Learning (ICRL 2026), held July 10–14 in Yili, Xinjiang.</p>
-  </div>
+The talk connected TASLAB's research on robust localization and multi-sensor fusion to the conference's central themes of robot learning and embodied intelligence, showing how reliable perception and state estimation underpin autonomous systems operating in complex real-world environments. The presentation was well received by an audience of leading robotics researchers from institutions in China and abroad.
+
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/260711Xingjiang/2.jpg" alt="The ICRL 2026 Best Oral Presentation certificate awarded to Weisong Wen"></figure>
 </div>
+<p class="news-caption">The ICRL 2026 Best Oral Presentation certificate presented to Prof. Weisong Wen.</p>
 
-Prof. Wen's award at ICRL 2026 reflects TAS LAB's continuing commitment to advancing trustworthy AI and autonomous systems, and to fostering academic exchange with the international robotics and learning community.
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/260711Xingjiang/3.jpg" alt="The ICRL 2026 conference opening screen in Yili, Xinjiang"></figure>
+</div>
+<p class="news-caption">The 2026 International Conference on Robotics and Learning (ICRL 2026), held 10–14 July in Yili, Xinjiang.</p>
+
+The award reflects TASLAB's continuing commitment to advancing trustworthy AI and autonomous systems, and to academic exchange with the international robotics and learning community.

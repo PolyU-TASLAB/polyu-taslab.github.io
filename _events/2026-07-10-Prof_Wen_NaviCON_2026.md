@@ -7,34 +7,37 @@ tags: news
 order:
 ---
 
-## Prof. Weisong Wen Receives Best Presentation Award at the 2026 3rd Navigation Technology and Application Conference
+On 10 July 2026, Prof. Weisong Wen, Director of the Trustworthy AI and Autonomous Systems Laboratory (TASLAB) at The Hong Kong Polytechnic University (PolyU), received a **Best Presentation Award** at the 2026 3rd Navigation Technology and Application Conference (NaviCON 2026) in Chengdu, China. The conference was held from 8 to 10 July at the Chengdu Century City Convention Center and organized by the Chinese Institute of Electronics (CIE) together with the Sichuan Provincial Committee of the CCPIT and the Sichuan International Chamber of Commerce. Under the theme "Multi-source Augmentation, Advancing Toward Intelligence" (多基增强、向智而行), it brought together academicians, researchers and industry practitioners working on BeiDou-based positioning, navigation and timing (PNT).
 
-**CHENGDU, China** – July 10, 2026 – Professor Weisong WEN, Director of The Hong Kong Polytechnic University's Trustworthy AI and Autonomous Systems Laboratory (TAS LAB), received a **Best Presentation Award** at the 2026 3rd Navigation Technology and Application Conference (NaviCON 2026), held from July 8 to 10 at the Chengdu Century City Convention Center. Organized by the Chinese Institute of Electronics (CIE) together with the Sichuan Provincial Committee of the CCPIT and the Sichuan International Chamber of Commerce, the conference was held under the theme "Multi-source Augmentation, Advancing Toward Intelligence" (多基增强、向智而行), bringing together academicians, researchers, and industry practitioners working on BeiDou-based positioning, navigation, and timing (PNT).
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="{{ '/images/news/260710NaviCON/1.jpg' | relative_url }}" alt="Prof. Weisong Wen at the 2026 3rd Navigation Technology and Application Conference in Chengdu"
-       style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Prof. Weisong Wen (left) with Dr. Dongyan Wei of the Aerospace Information Research Institute, Chinese Academy of Sciences, at the conference venue in Chengdu.</p>
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/260710NaviCON/1.jpg" alt="Prof. Weisong Wen at the 2026 3rd Navigation Technology and Application Conference in Chengdu"></figure>
 </div>
+<p class="news-caption">Prof. Weisong Wen (left) with Dr. Dongyan Wei of the Aerospace Information Research Institute, Chinese Academy of Sciences, at the conference venue in Chengdu.</p>
 
-Prof. Wen presented in the Signal Processing and Robust Positioning Forum (信号处理与鲁棒定位论坛) on the morning of July 10. His talk, "3D LiDAR-Aided Trustworthy GNSS Positioning for Complex Urban Environments" (面向城市复杂环境的三维激光雷达辅助GNSS可信定位技术), was selected for the conference's Best Presentation Award, recognizing both the technical contribution of the work and the clarity with which it was communicated to the navigation community.
+### The award-winning talk
 
-The presentation set out TAS LAB's research roadmap on trustworthy positioning in urban canyons, where tall buildings block and reflect satellite signals and degrade conventional GNSS solutions. It covered the laboratory's 3D LiDAR-aided (3DLA) GNSS framework, which progresses from non-line-of-sight (NLOS) detection and exclusion to Doppler-aided direction-of-arrival estimation and reflection-path-based NLOS correction, as well as its extension to real-time kinematic positioning and to tightly-coupled GNSS/LiDAR/inertial odometry for continuous, drift-free state estimation. The talk also addressed how these methods support integrity-aware positioning for safety-critical autonomous systems operating in dense cities.
+Prof. Wen presented in the Signal Processing and Robust Positioning Forum (信号处理与鲁棒定位论坛) on the morning of 10 July. His talk, "3D LiDAR-Aided Trustworthy GNSS Positioning for Complex Urban Environments" (面向城市复杂环境的三维激光雷达辅助GNSS可信定位技术), was selected for the conference's Best Presentation Award, recognizing both the technical contribution of the work and the clarity with which it was communicated to the navigation community.
 
-The conference programme spanned three days and covered the full breadth of contemporary navigation research, including invited keynote reports at the main forum and seven parallel technical forums on multi-source augmentation and integrity monitoring, intelligent and emerging navigation, atmospheric propagation effects, anti-jamming and anti-spoofing navigation, signal processing and robust positioning, spatiotemporal reference establishment and maintenance, and a dedicated Young Scientists Forum. The exchange gave Prof. Wen the opportunity to discuss robust positioning in challenging environments with peers from leading mainland institutions and research institutes.
+The presentation set out TASLAB's research roadmap on trustworthy positioning in urban canyons, where tall buildings block and reflect satellite signals and degrade conventional GNSS solutions. It covered the laboratory's 3D LiDAR-aided (3DLA) GNSS framework, which progresses from non-line-of-sight (NLOS) detection and exclusion to Doppler-aided direction-of-arrival estimation and reflection-path-based NLOS correction. It also covered the framework's extension to real-time kinematic positioning and to tightly-coupled GNSS/LiDAR/inertial odometry for continuous, drift-free state estimation. Finally, the talk addressed how these methods support integrity-aware positioning for safety-critical autonomous systems operating in dense cities.
 
-<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; align-items: flex-start; max-width: 850px; margin: 0 auto 20px;">
-  <div style="flex: 1 1 320px; text-align: center;">
-    <img src="{{ '/images/news/260710NaviCON/4.jpg' | relative_url }}" alt="A presentation on multi-information fusion navigation at the Signal Processing and Robust Positioning Forum"
-         style="width: 100%; height: auto; object-fit: contain; border-radius: 15px;">
-    <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">A talk on multi-information fusion navigation at the Signal Processing and Robust Positioning Forum, where Prof. Wen also presented.</p>
-  </div>
+### Conference programme
 
-  <div style="flex: 1 1 320px; text-align: center;">
-    <img src="{{ '/images/news/260710NaviCON/3.jpg' | relative_url }}" alt="A speaker concluding a talk at the Signal Processing and Robust Positioning Forum"
-         style="width: 100%; height: auto; object-fit: contain; border-radius: 15px;">
-    <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">A speaker concludes a talk on BeiDou-based positioning for the low-altitude economy at the same forum.</p>
-  </div>
+The three-day programme covered the full breadth of contemporary navigation research, with invited keynote reports at the main forum and seven parallel technical forums:
+
+- **Multi-source augmentation and integrity monitoring**
+- **Intelligent and emerging navigation**
+- **Atmospheric propagation effects**
+- **Anti-jamming and anti-spoofing navigation**
+- **Signal processing and robust positioning**
+- **Spatiotemporal reference establishment and maintenance**
+- **Young Scientists Forum**
+
+The exchange gave Prof. Wen the opportunity to discuss robust positioning in challenging environments with peers from leading mainland institutions and research institutes.
+
+<div class="news-photos" data-cols="2">
+  <figure><img src="{{ site.baseurl }}/images/news/260710NaviCON/4.jpg" alt="A presentation on multi-information fusion navigation at the Signal Processing and Robust Positioning Forum"><figcaption>A talk on multi-information fusion navigation</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/260710NaviCON/3.jpg" alt="A speaker concluding a talk at the Signal Processing and Robust Positioning Forum"><figcaption>A talk on BeiDou-based positioning for the low-altitude economy</figcaption></figure>
 </div>
+<p class="news-caption">Talks at the Signal Processing and Robust Positioning Forum, where Prof. Wen also presented.</p>
 
-Prof. Wen's participation and the Best Presentation Award reflect TAS LAB's continuing contribution to trustworthy positioning and navigation research, and its commitment to academic exchange with the wider PNT community in the mainland and internationally.
+Prof. Wen's participation and the Best Presentation Award reflect TASLAB's continuing contribution to trustworthy positioning and navigation research, and its commitment to academic exchange with the wider PNT community in the mainland and internationally.

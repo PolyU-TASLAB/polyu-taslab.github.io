@@ -2,7 +2,7 @@
 title: Our Autonomous Platforms
 # subtitle: End-to-End AI-Powered Self-Driving Systems
 # author: Zhang Ziqi
-image: images/project/Vehicle/ADV.png
+image: images/project/Vehicle/ADV.jpg
 tags: Autonomous-Driving
 research_direction: vehicles
 order: 
@@ -120,8 +120,7 @@ This sensor fusion architecture provides redundant, complementary data streams t
 Our AI models are pre-trained and validated in high-fidelity simulation environments before real-world deployment. Using CARLA simulator, we generate diverse driving scenarios for imitation learning, reinforcement learning, and domain adaptation research.
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/Vehicle/Carla.gif" alt="CARLA Simulation" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <video src="{{ site.baseurl }}/images/project/Vehicle/Carla.mp4" poster="{{ site.baseurl }}/images/project/Vehicle/Carla.jpg" autoplay loop muted playsinline preload="metadata" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;"></video>
   <p style="margin-top: 10px; text-align: center;"><strong>CARLA Simulation Environment</strong> — End-to-End AI Policy Learning</p>
 </div>
 

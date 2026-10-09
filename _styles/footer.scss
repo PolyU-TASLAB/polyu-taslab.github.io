@@ -1,26 +1,69 @@
 ---
 ---
 
-footer {
+footer.site-footer {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  gap: 14px;
-  padding: 24px 30px;
-  line-height: var(--spacing);
-  box-shadow: var(--shadow);
+  gap: 10px;
+  padding: 22px max(20px, calc((100% - var(--page-width)) / 2)) 24px;
+  border-top: 1px solid var(--line);
+  background: var(--background-alt);
+  color: var(--muted);
   font-size: 0.88rem;
+  line-height: 1.45;
+  text-align: left;
 }
 
-footer a {
-  color: var(--text) !important;
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 2rem;
 }
 
-footer a:hover {
-  color: var(--primary) !important;
+.footer-brand {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.6rem;
+  margin: 0;
+  font-size: 0.88rem;
+  text-align: left;
+}
+
+.footer-brand strong {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+footer .footer-links .button {
+  margin: 0;
+  color: var(--muted);
+}
+
+footer .footer-links .button:hover {
+  color: var(--primary);
 }
 
 footer .icon {
-  font-size: var(--xl);
+  font-size: 1.1rem;
+}
+
+.footer-copy {
+  font-size: 0.82rem;
+  color: var(--gray);
+}
+
+@media (max-width: 740px) {
+  .footer-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

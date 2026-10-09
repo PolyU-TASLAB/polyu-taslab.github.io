@@ -1,7 +1,7 @@
 ---
 name: WANG Zhongqi
 image: images/team/zhongqi_wang.jpg
-role: ra
+role: under
 affiliation: Hong Kong Polytechnic University
 order: 2
 

@@ -7,14 +7,18 @@ tags: news
 order: 
 ---
 
-SHENZHEN, China – November 6, 2025 – A research delegation from The Hong Kong Polytechnic University (PolyU), led by Professor Wen Weisong, visited the offices of [Shenzhen Chuanghuan] today to engage in high-level technical discussions and explore future collaboration.
+On 6 November 2025, a research delegation from The Hong Kong Polytechnic University (PolyU), led by Professor Weisong Wen, visited the offices of Shenzhen Chuanghuan in Shenzhen, China, for technical discussions on future collaboration. The meeting focused on the application of advanced unmanned aerial vehicle (UAV) technology to internal pipeline exploration and inspection.
 
-The primary focus of the meeting was the application of advanced unmanned aerial vehicle (UAV) technology for internal pipeline exploration and inspection.
+### Discussions
 
-The PolyU team presented its latest research findings and technological breakthroughs in autonomous systems. Key discussion points included navigating drones in GPS-denied, confined spaces, 3D mapping of internal structures, and AI-powered defect detection for pipe maintenance.
+The PolyU team presented its latest research findings and technological advances in autonomous systems. Key discussion points included:
 
-Representatives from Shenzhen Chuanghuan shared their industry expertise and the significant market demand for safer, more efficient inspection solutions for complex urban and industrial pipe networks.
+- **Navigation:** flying drones in GPS-denied, confined spaces.
+- **Mapping:** 3D mapping of internal structures.
+- **Inspection:** AI-powered defect detection for pipe maintenance.
 
-The two parties held a productive dialogue on bridging the gap between cutting-edge academic research and real-world industrial applications. Both sides identified significant synergies and expressed a strong mutual interest in a future partnership.
+Representatives from Shenzhen Chuanghuan shared their industry expertise and described the significant market demand for safer, more efficient inspection solutions for complex urban and industrial pipe networks.
 
-The visit concluded with an agreement to draft a formal plan for future cooperation, potentially including joint research projects, technology trials, and the development of specialized drone platforms tailored for pipeline environments.
+### Next steps
+
+The two parties held a productive dialogue on bridging the gap between academic research and real-world industrial applications. Both sides identified significant synergies and expressed strong mutual interest in a future partnership. The visit concluded with an agreement to draft a formal plan for future cooperation, potentially including joint research projects, technology trials and the development of specialised drone platforms tailored to pipeline environments.

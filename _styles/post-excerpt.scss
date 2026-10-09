@@ -1,8 +1,8 @@
 ---
 ---
 
-$thumb-size: 160px;
-$wrap: 800px;
+$thumb-size: 190px;
+$wrap: 640px;
 
 .post-excerpt-container {
   container-type: inline-size;
@@ -10,24 +10,26 @@ $wrap: 800px;
 
 .post-excerpt {
   display: flex;
-  margin: 12px 0;
-  border-radius: 6px;
-  background: var(--background);
+  margin: 14px 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
   overflow: hidden;
-  border-left: 3px solid var(--primary);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
-  transition: box-shadow 0.2s, transform 0.15s;
+  box-shadow: var(--shadow);
+  transition: box-shadow var(--transition), transform var(--transition), border-color var(--transition);
 }
 
 .post-excerpt:hover {
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
-  transform: translateY(-1px);
+  border-color: var(--accent-border);
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
 }
 
 .post-excerpt-image {
   position: relative;
   width: $thumb-size;
   flex-shrink: 0;
+  background: var(--background-alt);
 }
 
 .post-excerpt-image img {
@@ -42,7 +44,7 @@ $wrap: 800px;
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  padding: 14px 20px;
+  padding: 16px 20px;
   text-align: left;
 }
 
@@ -52,27 +54,32 @@ $wrap: 800px;
 
 .post-excerpt-text > a:first-child {
   width: 100%;
-  font-weight: 600;
-  font-size: 1.05em;
-  color: var(--primary);
+  font-weight: 650;
+  font-size: 1.04em;
+  color: var(--text);
   line-height: 1.4;
+  text-decoration: none;
 }
 
 .post-excerpt-text > a:first-child:hover {
-  text-decoration: underline;
+  color: var(--primary);
 }
 
 .post-excerpt-text > div {
   justify-content: flex-start;
-  font-size: 0.85em;
-  color: #777;
+  font-size: 0.84em;
+  color: var(--muted);
 }
 
 .post-excerpt-text > p {
   width: 100%;
   font-size: 0.9em;
-  line-height: 1.5;
-  color: #444;
+  line-height: 1.55;
+  color: var(--muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 @container (max-width: #{$wrap}) {

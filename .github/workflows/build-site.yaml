@@ -44,6 +44,18 @@ jobs:
         run: |
           printf "\n\nurl: ${{ steps.pages.outputs.origin }}" >> _config.yaml
 
+      - name: Fetch visitor locations
+        env:
+          GOATCOUNTER_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
+        run: |
+          site=$(sed -n 's/^goatcounter: *"\{0,1\}\([^"]*\)"\{0,1\} *$/\1/p' _data/visitor_map.yaml)
+          since=$(sed -n 's/^since: *"\{0,1\}\([^"]*\)"\{0,1\} *$/\1/p' _data/visitor_map.yaml)
+          if [ -n "$site" ] && [ -n "$GOATCOUNTER_TOKEN" ]; then
+            curl -sf -H "Authorization: Bearer $GOATCOUNTER_TOKEN" \
+              "https://$site.goatcounter.com/api/v0/stats/locations?limit=200&start=${since:-2020-01-01}" \
+              -o _data/visitor_locations.json || echo "::warning::could not fetch GoatCounter locations"
+          fi
+
       - name: Build live version of site
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"

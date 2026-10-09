@@ -2,7 +2,7 @@
 title: Huawei-PolyU High-accuracy Localization Project (second phase)
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
-image: images/project/huawei_mapping.gif
+image: images/project/huawei_mapping-poster.jpg
 tags: Localization, mapping, sensor-fusion, RTK, GNSS, LiDAR, IMU, Virtual-satellites, Cycle-slip-detection
 research_direction: gnss
 order: 
@@ -30,15 +30,14 @@ Completed
 ## System Framework
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/huawei_mapping_framework.png" alt="Team Banner" 
+  <img src="{{ site.baseurl }}/images/project/huawei_mapping_framework.png" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
 ## Mapping Results
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/huawei_mapping.gif" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <video src="{{ site.baseurl }}/images/project/huawei_mapping.mp4" poster="{{ site.baseurl }}/images/project/huawei_mapping-poster.jpg" autoplay loop muted playsinline preload="metadata" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;"></video>
 </div>
 
 ## Achievements

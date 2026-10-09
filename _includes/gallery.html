@@ -1,0 +1,39 @@
+{% assign photos = site.data.gallery %}
+{% if include.limit %}{% assign photos = site.data.gallery | slice: 0, include.limit %}{% endif %}
+<div class="lab-gallery{% if include.limit %} lab-gallery-compact{% endif %}">
+  {% for p in photos %}
+  <a class="lab-gallery-item" href="{{ p.image | relative_url }}" data-caption="{{ p.caption }}">
+    <img src="{{ p.thumb | relative_url }}" alt="{{ p.caption }}" loading="lazy">
+    <span class="lab-gallery-caption"><span class="lab-gallery-tag">{{ p.tag }}</span>{{ p.caption }}</span>
+  </a>
+  {% endfor %}
+</div>
+
+{% unless gallery_script_loaded %}
+{% assign gallery_script_loaded = true %}
+<dialog class="lab-lightbox" aria-label="Photo viewer">
+  <button type="button" class="lab-lightbox-close" aria-label="Close">×</button>
+  <img src="" alt="">
+  <p class="lab-lightbox-caption"></p>
+</dialog>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var box = document.querySelector(".lab-lightbox");
+    if (!box || !box.showModal) return;
+    var img = box.querySelector("img");
+    var cap = box.querySelector(".lab-lightbox-caption");
+    document.querySelectorAll(".lab-gallery-item").forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        img.src = a.href;
+        img.alt = a.dataset.caption;
+        cap.textContent = a.dataset.caption;
+        box.showModal();
+      });
+    });
+    box.addEventListener("click", function (e) {
+      if (e.target === box || e.target.classList.contains("lab-lightbox-close")) box.close();
+    });
+  });
+</script>
+{% endunless %}

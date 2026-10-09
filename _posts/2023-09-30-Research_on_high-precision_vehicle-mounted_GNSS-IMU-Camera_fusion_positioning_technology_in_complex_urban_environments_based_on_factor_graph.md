@@ -3,7 +3,7 @@ title: High-precision Vehicle-mounted GNSS/IMU/Camera Fusion Positioning Technol
 subtitle: A Factor Graph Optimization-Based Multiple‑epoch Ambiguity Resolution Method and Its Evaluation in Deep Urban Canyons 
 
 # author: XNG
-image: images/project/Vision_aided_GNSS_RTK/framework.png
+image: images/project/Vision_aided_GNSS_RTK/framework.jpg
 tags: Global navigation satellite system, Real-time kinematic positioning, Factor graph optimization, Multi‑epoch ambiguity resolution, Urban canyons
 research_direction: gnss
 order: 
@@ -26,19 +26,19 @@ Published
 ## System Framework
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/tencent/framework.jpg" alt="Team Banner" 
+  <img src="{{ site.baseurl }}/images/project/tencent/framework.jpg" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
 ## Positioning Results
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/tencent/result.png" alt="Team Banner" 
+  <img src="{{ site.baseurl }}/images/project/tencent/result.png" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/tencent/trajectory.png" alt="Team Banner" 
+  <img src="{{ site.baseurl }}/images/project/tencent/trajectory.png" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 

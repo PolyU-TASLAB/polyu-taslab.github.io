@@ -1,0 +1,104 @@
+# Funders and partners, shown on the home page and the Team page.
+# Source: "Acknowledgement: Our Funders and Partners" slide of the TAS Lab introduction (October 2026).
+# Logos live in images/partners/ (white background, max 400x160 px).
+
+- group: Hong Kong SAR Government
+  items:
+    - name: Research Grants Council
+      note: Early Career Scheme · Germany/HK Joint Research (DAAD)
+      logo: images/partners/rgc.jpg
+      url: https://www.ugc.edu.hk/eng/rgc/
+    - name: University Grants Committee
+      note: Research Matching Grant Scheme
+      logo: images/partners/ugc.jpg
+      url: https://www.ugc.edu.hk/
+    - name: Innovation and Technology Commission
+      note: ITF · PTeC · Research Talent Hub · TSSSU-O
+      logo: images/partners/itc.jpg
+      url: https://www.itc.gov.hk/
+    - name: Transport Department
+      note: Smart Traffic Fund
+      logo: images/partners/transport-department.jpg
+      url: https://www.td.gov.hk/
+    - name: Hong Kong Applied Science and Technology Research Institute (ASTRI)
+      note: Roadside & edge system · HD mapping · LEO V2X
+      logo: images/partners/astri.jpg
+      url: https://www.astri.org/
+
+- group: Mainland China
+  items:
+    - name: Department of Science and Technology of Guangdong Province
+      note: Guangdong DST · Guangdong NSF
+      logo: images/partners/guangdong-dst.jpg
+    - name: China Southern Power Grid
+      note: Offshore-wind UAV inspection (GD–HK Joint Lab)
+      logo: images/partners/china-southern-power-grid.jpg
+    - name: Wuxi Government
+      note: ITS & Unmanned Systems Center, PolyU-Wuxi Institute
+      logo: images/partners/polyu-wuxi.jpg
+
+- group: Industry Partners
+  items:
+    - name: Huawei
+      logo: images/partners/huawei.jpg
+    - name: Esri China (Hong Kong)
+      logo: images/partners/esri-china-hk.jpg
+    - name: HONOR
+      logo: images/partners/honor.jpg
+    - name: COMAC
+      logo: images/partners/comac.jpg
+    - name: Meituan
+      logo: images/partners/meituan.jpg
+    - name: Tencent
+      logo: images/partners/tencent.jpg
+    - name: LinXAI
+      note: Joint lab
+      logo: images/partners/linxai.jpg
+    - name: Genvict
+      note: Joint lab
+      logo: images/partners/genvict.jpg
+    - name: Simple AI
+      note: Joint lab
+      logo: images/partners/simple-ai.jpg
+    - name: SF Express (Hong Kong)
+      note: Autonomous logistics
+      logo: images/partners/sf-express.jpg
+      url: https://www.sf-express.com/hk/en/
+    - name: Rino.ai
+      note: Autonomous logistics
+      logo: images/partners/rino-ai.jpg
+      url: https://www.rino.ai/
+    - name: CeresRobotics.ai
+      note: Lab spin-off
+      logo: images/partners/ceresrobotics.jpg
+
+- group: International
+  items:
+    - name: German Academic Exchange Service (DAAD)
+      note: Germany/HK Joint Research Scheme
+      logo: images/partners/daad.jpg
+      url: https://www.daad.de/en/
+    - name: Leibniz University Hannover
+      note: GNSS–LiDAR research exchange
+      logo: images/partners/leibniz-hannover.jpg
+      url: https://www.uni-hannover.de/en/
+
+- group: PolyU & Philanthropy
+  items:
+    - name: The Hong Kong Polytechnic University
+      note: RCDSE · RIAM · RC-UAS · Carbon Neutrality · FENG
+      logo: images/partners/polyu.jpg
+      url: https://www.polyu.edu.hk/
+    - name: Department of Aeronautical and Aviation Engineering
+      logo: images/logo/aaelogo.png
+      url: https://www.polyu.edu.hk/aae/
+    - name: Faculty of Engineering
+      logo: images/logo/feng.png
+    - name: Research Institute for Advanced Manufacturing
+      logo: images/logo/RIAM_Logo.png
+    - name: Research Institute for Land and Space
+      logo: images/logo/RILSlogo.png
+    - name: Otto Poon Charitable Foundation Smart Cities Research Institute
+      note: UAV–UGV map update
+      logo: images/partners/polyu-scri.jpg
+      url: https://www.polyu.edu.hk/scri/

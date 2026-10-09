@@ -1,73 +1,70 @@
 ---
-title: End-to-End Autonomous Vehicles
+title: "End-to-End Autonomous Vehicles"
+layout: "research-topic"
+banner: true
+eyebrow: "Research direction"
+topic: "vehicles"
+subtitle: "Safety-certifiable end-to-end driving for urban logistics"
+intro: |
+  Autonomous vehicles can transform logistics and urban mobility, but driving safely on Hong Kong's dense,
+  GNSS-degraded streets is still a grand challenge. We develop **end-to-end learning** for driving together with
+  **safety certification**, and take both from campus tests to real logistics fleets.
+
+  Our platforms combine GNSS-RTK, LiDAR, cameras and IMU with **V2X communication** and roadside sensing, and are
+  validated with partners such as SF Express and Rino.ai in campus delivery, last-mile transport and connected-vehicle
+  trials.
+figure:
+  image: "images/project/E2ELV.jpg"
+  caption: "End-to-end and safety-certifiable autonomous vehicles for logistics"
+focus:
+  - "End-to-end driving"
+  - "Integrity monitoring"
+  - "V2X & roadside sensing"
+  - "HD mapping"
+  - "Logistics vehicles"
+pillars:
+  - title: "End-to-end autonomous driving"
+    text: "Networks that learn to drive from raw LiDAR, camera, IMU and GNSS data, unifying perception, prediction, planning and control in one differentiable framework."
+  - title: "Safety certification and integrity monitoring"
+    text: "Integrity monitoring quantifies in real time how far the navigation solution can be trusted, so the vehicle can detect unsafe states and trigger fail-safe manoeuvres."
+  - title: "Real-world deployment for logistics"
+    text: "Full-stack vehicle platforms for campus patrol, autonomous delivery and connected fleets, with robust localisation in urban canyons."
+approach_figure:
+  image: "images/project/AGV_demo.jpg"
+  caption: "Autonomous vehicle platform for campus logistics and urban navigation"
+videos:
+  - bilibili: "BV1ktZcYdEWD"
+    title: "Autonomous driving test, TAS Lab, PolyU"
+  - youtube: "Q0nq1vHeinM"
+    title: "Autonomous driving demonstration on the PolyU campus"
+  - youtube: "90fOkCs_ID4"
+    title: "Localisation and control"
+  - youtube: "FQ5aHB4o3jg"
+    title: "Perception and control"
 ---
 
-# 🚗 End-to-End and Safety-Certifiable Autonomous Vehicles for Logistics Applications
+{% include section.html %}
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
-Autonomous vehicles hold transformative potential for logistics and urban mobility, yet deploying them safely in real-world environments remains a grand challenge. This research focuses on developing <b class="blue">end-to-end learning frameworks</b> and <b class="blue">safety-certifiable navigation systems</b> for autonomous vehicles in logistics applications — from campus delivery and last-mile transportation to urban freight operations.
+## Field Demonstrations
+
+<div class="rt-media rt-media-single">
+  <figure>
+    <a href="{{ 'images/project/demo_20220923.jpg' | relative_url }}" target="_blank" rel="noopener"><img src="{{ 'images/project/demo_20220923.jpg' | relative_url }}" alt="Campus security patrol demonstration with an unmanned ground vehicle" loading="lazy"></a>
+    <figcaption>Campus security patrol with an unmanned ground vehicle, demonstrated to the PolyU Campus Facilities and Sustainability Office and Health and Safety Office (Sept 2022)</figcaption>
+  </figure>
 </div>
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 1em;">
-Our approach integrates three core elements:
-<ol>
-<li><b>End-to-End Autonomous Driving</b> — We develop neural network architectures that learn to drive directly from raw sensor inputs (LiDAR, camera, IMU, GNSS) to control outputs, enabling autonomous vehicles to handle complex urban scenarios including dense traffic, dynamic obstacles, and GPS-degraded environments. Our end-to-end pipelines unify perception, prediction, planning, and control into a single differentiable framework.</li>
-<li><b>Safety Certification and Integrity Monitoring</b> — Unlike conventional black-box approaches, our systems incorporate rigorous safety certification mechanisms. We design integrity monitoring algorithms that quantify the trustworthiness of navigation solutions in real time, enabling the vehicle to detect unsafe states and trigger fail-safe maneuvers. This is critical for logistics applications where reliability and regulatory compliance are paramount.</li>
-<li><b>Real-World Deployment for Logistics</b> — We bridge the gap between research and application by developing full-stack autonomous vehicle platforms for logistics use cases, including campus patrol, autonomous delivery, and connected fleet management. Our platforms feature multi-sensor fusion (GNSS-RTK/LiDAR/Camera/IMU), <b class="blue">V2X communication</b>, and robust localization in challenging urban canyon environments.</li>
-</ol>
-</div>
+{% include section.html %}
 
-<p align="center">
-  <img width="700" src="{{ 'images/project/E2ELV.png' | relative_url }}" alt="End-to-End Autonomous Vehicles">
-</p>
-<center><i>End-to-End and Safety-Certifiable Autonomous Vehicles for Logistics Applications</i></center>
+## Collaborators
 
-<p align="center">
-  <img width="600" src="{{ 'images/project/AGV_demo.png' | relative_url }}" alt="Autonomous Vehicle Platform">
-</p>
-<center><i>Autonomous Vehicle Platform for Campus Logistics and Urban Navigation</i></center>
-
-<a href="{{ 'research' | relative_url }}" style="font-size: 0.9em;">← Back to all Research Directions</a>
+<p class="rt-section-lead">We work with industry partners including Huawei, Meituan, Tencent and iDriverplus, the
+<a href="https://msc.berkeley.edu/">Mechanical Systems Control Lab</a> at UC Berkeley and
+<a href="https://www.tu-chemnitz.de/">Chemnitz University of Technology</a> in Germany.</p>
 
 {% include section.html %}
 
-## Demo Videos & Photos
-
-<p align="center">
-  <img width="700" src="{{ 'images/project/demo_20220923.jpg' | relative_url }}" alt="Campus UGV patrol demonstration">
-</p>
-<center><i>Campus Security Patrol Demonstration with UGV — PolyU AAE/CFSO, Sept 2022</i></center>
-
-<p align="center">
-  <iframe src="//player.bilibili.com/player.html?bvid=BV1ktZcYdEWD&page=1&autoplay=0" width="560" height="315" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-</p>
-<center><i>Autonomous Driving Test — TAS Lab, PolyU</i></center>
-
-<table style="width:100%;border-collapse:collapse;border:none;margin:10px 0 20px;"><tr style="border:none;"><td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;"><iframe width="100%" height="180" src="https://www.youtube.com/embed/Q0nq1vHeinM" title="Autonomous driving PolyU campus demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;"></iframe><br>Autonomous driving PolyU campus demo</td><td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;"><iframe width="100%" height="180" src="https://www.youtube.com/embed/90fOkCs_ID4" title="Localization and Control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;"></iframe><br>Localization and Control</td><td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;"><iframe width="100%" height="180" src="https://www.youtube.com/embed/FQ5aHB4o3jg" title="Perception and control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;"></iframe><br>Perception and Control</td></tr></table>
-
-{% include section.html %}
-
-## News
-
-<ul>
-<li>Sept 2022, we welcome the <b class="blue">PolyU Campus Facilities and Sustainability Office (CFSO)</b> and <b class="blue">Health and Safety Office (HSO)</b> to attend the demonstration of AAE/CFSO Campus Security Patrol with Unmanned Ground Vehicle (UGV)</li>
-</ul>
-
-{% include section.html %}
-
-## Selected Publications (*: Corresponding author)
-
-<style>
-p[align="center"] { text-align: center !important; }
-p[align="center"] img, p[align="center"] iframe { display: inline-block; max-width: 100%; }
-center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
-.pub-list { list-style: none; padding-left: 0; }
-.pub-item { margin: 10px 0; padding: 10px 14px; border-left: 3px solid var(--primary, #0795d9); background: #f9fbfd; font-size: 0.92em; line-height: 1.55; }
-.pub-title { font-weight: 600; color: var(--primary, #0795d9); }
-.pub-authors { font-size: 0.9em; color: #444; }
-.pub-venue { font-size: 0.88em; color: #555; font-style: italic; }
-.pub-meta { font-size: 0.85em; color: #888; }
-</style>
+## Selected Publications
 
 <ul class="pub-list">
 
@@ -103,26 +100,4 @@ center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
 
 </ul>
 
-<p style="text-align:right;font-size:0.88em;margin-top:8px;"><a href="{{ 'publications' | relative_url }}" style="color:var(--primary, #1a73e8);">→ Full publication list</a></p>
-
-{% include section.html %}
-
-## Acknowledgement and Collaborators
-
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
-This research is supported by government and industry partners, including the <b class="blue">Hong Kong Polytechnic University</b>, <b class="blue">Guangdong Basic and Applied Basic Research Foundation</b>, <b class="blue">Hong Kong Smart Traffic Fund</b>, <b class="blue">Innovation and Technology Fund</b>, <b class="blue"><a href="https://www.huawei.com/">Huawei Technologies</a></b>, <b class="blue"><a href="https://www.meituan.com/">Meituan</a></b>, <b class="blue"><a href="https://www.tencent.com/">Tencent</a></b>, and <b class="blue"><a href="https://www.idriverplus.com/cn/index.html">iDriverplus</a></b>. We also collaborate closely with the <b class="blue"><a href="https://msc.berkeley.edu/">Mechanical Systems Control Lab</a></b> at the University of California, Berkeley, and the <b class="blue"><a href="https://www.tu-chemnitz.de/">Chemnitz University of Technology</a></b> in Germany.
-</div>
-
-<p align="center">
-  <img width="700" src="{{ 'images/project/funding.jpg' | relative_url }}" alt="Funding and Collaborators">
-</p>
-
-{% include section.html %}
-
-{% assign posts = site.posts | where: "research_direction", "vehicles" | sort: "date" | reverse %}
-
-## Projects ({{ posts.size }})
-
-{% for post in posts %}
-  {% include post-excerpt.html title=post.title url=post.url image=post.image content=post.content excerpt=post.excerpt date=post.date author=post.author tags=post.tags last_modified_at=post.last_modified_at %}
-{% endfor %}
+<p class="pub-more"><a href="{{ 'publications' | relative_url }}">Full publication list →</a></p>

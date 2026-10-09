@@ -1,6 +1,6 @@
 ---
 name: Zihao Wang
-image: images/team/Zihao-Wang.png
+image: images/team/Zihao-Wang.jpg
 role: alumni  # pi / postdoc / phd / ms / under / ra / visiting / alumni
 affiliation: Wuhan University
 order: 8

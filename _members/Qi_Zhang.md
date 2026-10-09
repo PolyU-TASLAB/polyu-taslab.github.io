@@ -1,6 +1,6 @@
 ---
 name: Qi Zhang
-image: images/team/qi_zhang.png
+image: images/team/qi_zhang.jpg
 role: ms
 affiliation: Hong Kong Polytechnic University
 order: 104

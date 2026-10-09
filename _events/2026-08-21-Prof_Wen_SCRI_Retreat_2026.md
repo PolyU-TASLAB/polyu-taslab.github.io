@@ -1,5 +1,5 @@
 ---
-title: Prof. Wen participate SCRI Retreat 2026
+title: Prof. Wen Participates in SCRI Retreat 2026
 subtitle: news
 # author:
 image: images/news/20260821_scri_retreat/panel_discussion.jpg
@@ -7,54 +7,46 @@ tags: news
 order:
 ---
 
-## Prof. Wen participate SCRI Retreat 2026
+On 21 August 2026, [Prof. Weisong Wen](https://www.polyu.edu.hk/aae/people/academic-staff/dr-wen-weisong/) took part in SCRI Retreat 2026 at the PolyU Shenzhen Technology and Innovation Research Institute (Futian). The retreat, hosted by [Prof. SHI Wenzhong](https://www.polyu.edu.hk/academicians/our-academicians/shi-wenzhong-john/), brought researchers together to exchange ideas, strengthen collaboration and discuss future research directions for the Otto Poon Charitable Foundation Smart Cities Research Institute (SCRI).
 
-On 21 August 2026, [Prof. Weisong Wen](https://www.polyu.edu.hk/aae/people/academic-staff/dr-wen-weisong/) participated in SCRI Retreat 2026 at the PolyU Shenzhen Technology and Innovation Research Institute (Futian). The retreat, hosted by [Prof. SHI Wenzhong](https://www.polyu.edu.hk/academicians/our-academicians/shi-wenzhong-john/), brought researchers together to exchange ideas, strengthen collaboration, and discuss future research directions for the Otto Poon Charitable Foundation Smart Cities Research Institute (SCRI).
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="{{ '/images/news/20260821_scri_retreat/panel_discussion.jpg' | relative_url }}" alt="Prof. Wen and SCRI members gather for the opening of SCRI Retreat 2026"
-       style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Prof. Wen and SCRI members gather for the opening of SCRI Retreat 2026.</p>
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/20260821_scri_retreat/panel_discussion.jpg" alt="Opening remarks in front of the Welcome to SCRI Retreat 2026 screen"></figure>
 </div>
+<p class="news-caption">The opening of SCRI Retreat 2026, with opening remarks by Prof. SHI Wenzhong.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="{{ '/images/news/20260821_scri_retreat/welcome.jpg' | relative_url }}" alt="Prof. SHI Wenzhong delivering the opening remarks at SCRI Retreat 2026"
-       style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Prof. SHI Wenzhong delivers the opening remarks at SCRI Retreat 2026.</p>
+### Member sharing session
+
+According to the official rundown, Prof. Wen presented in SCRI Member Sharing Session I (11:25–11:50), sharing TASLAB's work on a multi-vehicle collaborative localization and mapping dataset. The presentation outlined future plans for:
+
+- **Synchronized multimodal data collection**
+- **Collaborative benchmark tasks**
+- **Comparisons between single-vehicle and collaborative methods**
+- **Expanded V2V/V2X data collection** across diverse road, traffic, lighting and weather conditions
+
+<div class="news-photos" data-cols="2">
+  <figure><img src="{{ site.baseurl }}/images/news/20260821_scri_retreat/panel_discussion_close.jpg" alt="Presentation on the multi-vehicle collaborative localization and mapping dataset"></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/20260821_scri_retreat/dataset_presentation.jpg" alt="Slide on future work for multi-vehicle collaborative localization and mapping"></figure>
 </div>
+<p class="news-caption">Prof. Weisong Wen presenting the multi-vehicle collaborative localization and mapping dataset and its future research directions during SCRI Member Sharing Session I.</p>
 
-According to the official rundown, Prof. Wen presented during SCRI Member Sharing Session I from 11:25 to 11:50. He shared TASLAB's work on a multi-vehicle collaborative localization and mapping dataset. The presentation outlined future plans for synchronized multimodal data collection, collaborative benchmark tasks, comparisons between single-vehicle and collaborative methods, and expanded V2V/V2X data collection across diverse road, traffic, lighting, and weather conditions.
+### Round-table discussion
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="{{ '/images/news/20260821_scri_retreat/panel_discussion_close.jpg' | relative_url }}" alt="Prof. Weisong Wen presenting during SCRI Member Sharing Session I"
-       style="width: 100%; height: auto; object-fit: contain; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Prof. Weisong Wen presents during SCRI Member Sharing Session I.</p>
+Prof. Wen also joined a round-table discussion with other SCRI participants, exchanging views on ongoing research, opportunities for collaboration and the future development of smart-city technologies.
+
+<div class="news-photos" data-cols="2">
+  <figure><img src="{{ site.baseurl }}/images/news/20260821_scri_retreat/welcome.jpg" alt="Round-table discussion at SCRI Retreat 2026"></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/20260821_scri_retreat/future_work.jpg" alt="Panellists at the round-table discussion"></figure>
 </div>
+<p class="news-caption">The round-table discussion at SCRI Retreat 2026.</p>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 20px;">
-  <figure style="margin: 0; text-align: center;">
-    <img src="{{ '/images/news/20260821_scri_retreat/dataset_presentation.jpg' | relative_url }}" alt="Presentation on a multi-vehicle collaborative localization and mapping dataset"
-         style="width: 100%; height: auto; border-radius: 15px;">
-    <figcaption style="font-size: 14px; color: #666; margin-top: 8px;">Presentation on a multi-vehicle collaborative localization and mapping dataset.</figcaption>
-  </figure>
-  <figure style="margin: 0; text-align: center;">
-    <img src="{{ '/images/news/20260821_scri_retreat/future_work.jpg' | relative_url }}" alt="Future research directions for multi-vehicle collaborative localization and mapping"
-         style="width: 100%; height: auto; border-radius: 15px;">
-    <figcaption style="font-size: 14px; color: #666; margin-top: 8px;">Future research directions for multi-vehicle collaborative localization and mapping.</figcaption>
-  </figure>
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/20260821_scri_retreat/prof_wen_panel.jpg" alt="Prof. Weisong Wen speaking during the round-table discussion"></figure>
 </div>
+<p class="news-caption">Prof. Weisong Wen speaks during the round-table discussion.</p>
 
-Prof. Wen also joined a round-table discussion with other SCRI participants, exchanging views on ongoing research, collaborative opportunities, and the future development of smart-city technologies.
+The retreat provided a focused platform for sharing progress, identifying common research interests and exploring further collaboration in smart cities, collaborative positioning and trustworthy autonomous systems.
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="{{ '/images/news/20260821_scri_retreat/prof_wen_panel.jpg' | relative_url }}" alt="Prof. Weisong Wen speaking during the round-table discussion at SCRI Retreat 2026"
-       style="width: 100%; height: auto; object-fit: contain; max-width: 520px; margin: 0 auto; border-radius: 15px;">
-  <p style="font-size: 14px; color: #666; margin-top: 8px; text-align: center;">Prof. Weisong Wen speaks during the round-table discussion.</p>
-</div>
-
-The retreat provided a focused platform for sharing progress, identifying common research interests, and exploring further collaboration in smart cities, collaborative positioning, and trustworthy autonomous systems.
-
-### Event Schedule
+### Event schedule
 
 | Time | Activity |
 | --- | --- |
@@ -78,11 +70,10 @@ The retreat provided a focused platform for sharing progress, identifying common
 | 17:50 | Closing remarks and group photo |
 | 18:00 | Return coach to S Core, PolyU |
 
-### Official Rundown
+### Official rundown
 
-The complete three-page rundown, including the participant list, round-table discussion topics, and transport information, is available below. You can also [open or download the SCRI Retreat 2026 Rundown (PDF)]({{ '/images/news/20260821_scri_retreat/SCRI_Retreat_2026_Rundown_V3.pdf' | relative_url }}).
+The complete three-page rundown, including the participant list, round-table discussion topics and transport information, is shown below. You can also [open or download the SCRI Retreat 2026 Rundown (PDF)]({{ site.baseurl }}/images/news/20260821_scri_retreat/SCRI_Retreat_2026_Rundown_V3.pdf).
 
-<object data="{{ '/images/news/20260821_scri_retreat/SCRI_Retreat_2026_Rundown_V3.pdf' | relative_url }}#view=FitH" type="application/pdf"
-        style="width: 100%; height: 900px; border: 1px solid #ddd; border-radius: 10px; margin-bottom: 20px;">
-  <p>Please <a href="{{ '/images/news/20260821_scri_retreat/SCRI_Retreat_2026_Rundown_V3.pdf' | relative_url }}">open or download the full rundown</a>.</p>
+<object data="{{ site.baseurl }}/images/news/20260821_scri_retreat/SCRI_Retreat_2026_Rundown_V3.pdf#view=FitH" type="application/pdf" width="100%" height="900">
+  <p>Please <a href="{{ site.baseurl }}/images/news/20260821_scri_retreat/SCRI_Retreat_2026_Rundown_V3.pdf">open or download the full rundown</a>.</p>
 </object>

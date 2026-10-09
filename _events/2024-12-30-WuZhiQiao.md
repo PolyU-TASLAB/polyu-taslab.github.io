@@ -1,5 +1,5 @@
 ---
-title: TASLAB research visit to Sha Tau Kok Restricted Area for Pilot North East New Territories Rural Waste Reduction and Sustainability Project on 30th December
+title: TASLAB Research Visit to the Sha Tau Kok Restricted Area for the Pilot North East New Territories Rural Waste Reduction and Sustainability Project on 30 December
 subtitle: Example news
 # author: Yingming Chen
 image: images/news/STK_research_view.jpg
@@ -7,38 +7,38 @@ tags: news
 order: 
 ---
 
+On 30 December, a team from the Trustworthy AI and Autonomous Systems Laboratory (TASLAB), led by Xiao Naigui and supported by volunteers from the Wu Zhi Qiao Charitable Foundation, conducted a preparatory scientific research visit to the Sha Tau Kok Restricted Area. The visit was part of the Pilot North East New Territories Rural Waste Reduction and Sustainability Project, funded by the Hong Kong Jockey Club Charities Trust. The project aims to explore and implement innovative waste management solutions using unmanned aerial vehicles (UAVs) to address the region's unique waste challenges.
 
-## Waste Reduction for Rural Territories – Story in Sha Tau Kok
-
-On December 30th, a team from TASLAB, led by Xiao Naigui and supported by volunteers from the Wu Zhi Qiao Charitable Foundation, conducted an important preparatory scientific research visit to the Sha Tau Kok Restricted Area. The visit was part of the Pilot North East New Territories Rural Waste Reduction and Sustainability Project, which is funded by the Hong Kong Jockey Club Charities Trust. This project aims to explore and implement innovative waste management solutions using unmanned aerial vehicles (UAVs) to address the region’s unique waste challenges.
-
-During the visit, the team undertook a comprehensive regional survey across several key locations, including Lai Chi Wo village, Mui Tsz Lam village, Yung Shue Au village, Kat O, Ap Chau, and Kuk Po village. The goal of the survey was to better understand the specific waste generation and collection needs of each area. To achieve this, the team collected detailed data on waste points and used advanced 3D reconstruction techniques to identify potential UAV base stations. Handheld 3D reconstruction equipment was utilized to generate 3D point cloud maps of the areas, while GPS positioning accuracy was rigorously tested to ensure that the planned UAV operations would be both precise and reliable.
-
-The results from these efforts revealed promising data, particularly regarding the GNSS single-point positioning experiment. The precision of the positioning system was found to be within a 1-meter radius in 2D, which is more than sufficient for UAV localization in the field. This level of accuracy is crucial for the success of a drone-based waste management network, as it ensures that UAVs can navigate to specific collection points with high precision.
-
-The data gathered during the survey will serve as a foundational element in the design of a drone delivery network that is tailored to the unique challenges of waste management in the North East New Territories. By leveraging cutting-edge technology such as UAVs, the project aims to create a more efficient, sustainable, and cost-effective waste management system for rural areas.
-
-This successful field survey marks a significant milestone for the project, laying the groundwork for future phases that will focus on the implementation of UAV-based waste collection systems. The results of the visit not only highlight the feasibility of using drones in waste management but also showcase the commitment of TASLAB, Wu Zhi Qiao, and their partners to driving sustainability and innovation in Hong Kong’s rural communities.
-
-
-## Photos
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/STK_research_tool.png" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/STK_research_view.jpg" alt="TASLAB team and Wu Zhi Qiao volunteers in Sha Tau Kok"></figure>
 </div>
+<p class="news-caption">The TASLAB team and Wu Zhi Qiao volunteers during the visit.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/STK_research_sites.png" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-</div>
+### Regional survey
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/STK_research_KATO.png" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-</div>
+The team carried out a regional survey across several key locations: Lai Chi Wo village, Mui Tsz Lam village, Yung Shue Au village, Kat O, Ap Chau and Kuk Po village. The goal was to better understand the waste generation and collection needs of each area. The team collected detailed data on waste points and used 3D reconstruction to identify potential UAV base stations.
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/STK_research_view.jpg" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/STK_research_sites.png" alt="Satellite map of the surveyed villages and sites"></figure>
 </div>
+<p class="news-caption">Locations visited during the survey.</p>
+
+Handheld 3D reconstruction equipment was used to generate 3D point cloud maps of the areas, and GPS positioning accuracy was tested to ensure that the planned UAV operations would be precise and reliable.
+
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/STK_research_tool.png" alt="Labelled diagram of the handheld 3D reconstruction device"></figure>
+</div>
+<p class="news-caption">The handheld 3D reconstruction device, with 3D LiDAR, RTK antenna, depth camera, RTK board, onboard computer, LED screen and battery.</p>
+
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/STK_research_KATO.png" alt="Satellite view, site photo and 3D point cloud map of a surveyed location"></figure>
+</div>
+<p class="news-caption">Satellite view, on-site photo and the resulting 3D point cloud map of a surveyed location.</p>
+
+### Results
+
+The GNSS single-point positioning experiment gave promising results: positioning precision was within a 1-meter radius in 2D, which is sufficient for UAV localization in the field. This level of accuracy is crucial for a drone-based waste management network, as it ensures that UAVs can navigate precisely to specific collection points.
+
+The data gathered will form the basis for designing a drone delivery network tailored to the waste management challenges of the North East New Territories. By using UAVs, the project aims to create a more efficient, sustainable and cost-effective waste management system for rural areas.
+
+The field survey marks a milestone for the project and lays the groundwork for future phases focusing on the implementation of UAV-based waste collection systems. The results highlight the feasibility of using drones in waste management and reflect the commitment of TASLAB, Wu Zhi Qiao and their partners to sustainability and innovation in Hong Kong's rural communities.

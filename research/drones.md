@@ -1,99 +1,64 @@
 ---
-title: Embodied Drones for City Maintenance
+title: "Embodied Drones for City Maintenance"
+layout: "research-topic"
+banner: true
+eyebrow: "Research direction"
+topic: "drones"
+subtitle: "Intelligent drones that inspect, clean and maintain the city"
+intro: |
+  Maintaining a dense city — cleaning the façades of high-rise buildings, inspecting slopes, bridges and structures in
+  urban canyons — is slow, costly and dangerous work at height. We develop **embodied drone platforms** that combine
+  reliable navigation in GNSS-degraded streets with contact-aware aerial manipulation for real maintenance tasks.
+
+  Our drones have cleaned glass façades in Hong Kong and Shanghai, inspected slopes and offshore wind turbines, and grown
+  into the CeresRobotics.ai spin-off.
+figure:
+  image: "images/project/E2EDrone.jpg"
+  caption: "Embodied drones for city maintenance and manipulation"
+focus:
+  - "Urban-canyon navigation"
+  - "Close-proximity flight"
+  - "Aerial manipulation"
+  - "UAV swarms"
+  - "3D reconstruction"
+  - "VLA mission planning"
+  - "Edge AI"
+pillars:
+  - title: "Autonomous inspection in urban canyons"
+    text: "AI-driven LiDAR/camera/IMU/GNSS fusion gives centimetre-level positioning for close-proximity inspection of façades, bridges and other structures."
+  - title: "External wall cleaning with drones"
+    text: "Aerial manipulation with contact-aware flight control lets drones approach a wall, keep stable contact and clean despite wind and varying surfaces."
+  - title: "Software-hardware co-design"
+    text: "Perception, planning and contact control are designed together with the airframe, end-effectors and onboard computer to meet tight size, weight and power limits."
+applications:
+  - title: "External wall cleaning"
+    text: "Replacing dangerous rope-access work on high-rise façades"
+  - title: "Façade inspection"
+    text: "Cracks, water leakage and structural defects in urban canyons"
+  - title: "Bridge and infrastructure inspection"
+    text: "Close-range structural health monitoring"
+  - title: "Offshore wind turbines"
+    text: "Blade and tower inspection at sea"
+videos:
+  - bilibili: "BV1UsgDzeE5J"
+    title: "Intelligent cleaning UAV demonstration, PolyU-Wuxi Research Institute"
+  - bilibili: "BV1fiaqzNEEm"
+    title: "UAV system demonstration, TAS Lab, PolyU"
 ---
 
-# 🚁 Embodied Drones for City Maintenance and Manipulation
+{% include section.html %}
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
-Maintaining urban infrastructure in dense city environments — particularly <b class="blue">external wall cleaning of high-rise buildings</b> and <b class="blue">structural inspection in urban canyons</b> — presents significant challenges that demand intelligent, physically interactive drone systems. This research develops <b class="blue">embodied drone platforms</b> that combine autonomous navigation in GPS-degraded urban canyons with contact-based manipulation capabilities for real-world city maintenance tasks.
+## In the Media
+
+<div class="rt-media">
+  <figure><img src="{{ 'images/project/rthk.jpg' | relative_url }}" alt="RTHK interview" loading="lazy"><figcaption>RTHK interview on drone window cleaning and aerial 3D printing (June 2024)</figcaption></figure>
+  <figure><img src="{{ 'images/project/TVB.JPG' | relative_url }}" alt="TVB coverage" loading="lazy"><figcaption>TVB news on drone façade cleaning (May 2024)</figcaption></figure>
+  <figure><img src="{{ 'images/project/MINGBAO.JPG' | relative_url }}" alt="Ming Pao coverage" loading="lazy"><figcaption>Ming Pao feature (May 2024); also covered by Headline Daily (July 2024)</figcaption></figure>
 </div>
 
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 1em;">
-Our approach addresses three fundamental challenges:
-<ol>
-<li><b>Autonomous Inspection in Urban Canyons</b> — Dense urban environments with tall buildings, narrow streets, and GPS-degraded conditions pose severe challenges for drone navigation. We develop AI-driven multi-sensor fusion algorithms (LiDAR/Camera/IMU/GNSS) and robust localization methods that enable drones to navigate safely and precisely in complex urban canyon environments. Our systems provide centimeter-level positioning for close-proximity inspection of building facades, bridges, and other urban structures.</li>
-<li><b>External Wall Cleaning with Drones</b> — High-rise external wall cleaning is one of the most hazardous tasks in urban maintenance. We develop drone-based cleaning systems that integrate aerial manipulation with contact-aware flight control, enabling drones to approach building surfaces, maintain stable contact, and perform cleaning operations autonomously. Our force-controlled manipulation strategies ensure safe and effective cleaning while accommodating varying surface geometries, wind disturbances, and dynamic environmental conditions.</li>
-<li><b>Software-Hardware Co-Design for Maintenance Drones</b> — We pursue an integrated approach to drone system design, jointly optimizing the AI software stack (perception, planning, contact control) with the hardware platform (airframe, cleaning/manipulation end-effectors, onboard compute) to achieve reliable embodied AI performance under the strict size, weight, and power (SWaP) constraints of aerial platforms.</li>
-</ol>
-</div>
-
-<p align="center">
-  <img width="700" src="{{ 'images/project/E2EDrone.png' | relative_url }}" alt="Embodied Drones">
-</p>
-<center><i>Embodied Drones for City Maintenance and Manipulation</i></center>
-
-<a href="{{ 'research' | relative_url }}" style="font-size: 0.9em;">← Back to all Research Directions</a>
-
 {% include section.html %}
 
-## Demo Videos
-
-<p align="center">
-  <iframe src="//player.bilibili.com/player.html?bvid=BV1UsgDzeE5J&page=1&autoplay=0" width="560" height="315" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-</p>
-<center><i>Intelligent Cleaning UAV Demonstration — PolyU Wuxi Research Institute</i></center>
-
-<p align="center">
-  <iframe src="//player.bilibili.com/player.html?bvid=BV1fiaqzNEEm&page=1&autoplay=0" width="560" height="315" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-</p>
-<center><i>UAV System Demonstration — TAS Lab, PolyU</i></center>
-
-{% include section.html %}
-
-## Key Research Directions
-
-<ul>
-<li><b class="blue">Multi-sensor fusion for drone navigation in urban canyons</b> (GPS-degraded, NLOS-affected environments)</li>
-<li><b class="blue">Close-proximity flight control</b> for building facade inspection and maintenance</li>
-<li><b class="blue">Drone-based external wall cleaning</b> — contact-aware planning and force-controlled manipulation</li>
-<li><b class="blue">UAV swarm coordination</b> for large-scale building inspection campaigns</li>
-<li><b class="blue">3D reconstruction and defect detection</b> for structural health monitoring of urban infrastructure</li>
-<li><b class="blue">Vision-language models</b> for intelligent mission planning and task understanding</li>
-<li><b class="blue">Edge AI deployment</b> on resource-constrained drone platforms for real-time perception</li>
-</ul>
-
-{% include section.html %}
-
-## Target Applications
-
-<ul>
-<li><b class="blue">External wall cleaning</b>: Autonomous drone-based cleaning of high-rise building facades, replacing dangerous manual rope-access work</li>
-<li><b class="blue">Building facade inspection</b>: Crack detection, water leakage identification, and structural defect assessment in urban canyons</li>
-<li><b class="blue">Bridge and infrastructure inspection</b>: Close-proximity structural health monitoring with aerial sensing and manipulation</li>
-<li><b class="blue">Offshore wind turbine inspection</b>: Drone-based blade inspection and surface assessment in challenging marine environments</li>
-</ul>
-
-{% include section.html %}
-
-## Recent News
-
-<ul>
-<li><b class="blue">June 2024</b>: Interview by RTHK on UAV-enabled window cleaning and aerial 3D printing</li>
-<li><b class="blue">May 2024</b>: Interview by Hong Kong TVB and Ming Pao on UAV-enabled external wall cleaning technology</li>
-<li><b class="blue">July 2024</b>: Interview by Toutiao (头条日报) on low-altitude economy applications</li>
-</ul>
-
-{% include section.html %}
-
-## Press Coverage Photos
-
-<table style="width:100%;border-collapse:collapse;border:none;margin:10px 0 20px;"><tr style="border:none;"><td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;"><img src="{{ 'images/project/rthk.jpg' | relative_url }}" alt="RTHK Interview" style="width:100%;border-radius:8px;"><br>RTHK Interview</td><td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;"><img src="{{ 'images/project/TVB.JPG' | relative_url }}" alt="TVB Coverage" style="width:100%;border-radius:8px;"><br>TVB Coverage</td><td style="width:33.3%;padding:6px;border:none;text-align:center;vertical-align:top;"><img src="{{ 'images/project/MINGBAO.JPG' | relative_url }}" alt="Ming Pao Coverage" style="width:100%;border-radius:8px;"><br>Ming Pao Coverage</td></tr></table>
-
-{% include section.html %}
-
-## Selected Publications (*: Corresponding author)
-
-<style>
-p[align="center"] { text-align: center !important; }
-p[align="center"] img, p[align="center"] iframe { display: inline-block; max-width: 100%; }
-center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
-.pub-list { list-style: none; padding-left: 0; }
-.pub-item { margin: 10px 0; padding: 10px 14px; border-left: 3px solid var(--primary, #0795d9); background: #f9fbfd; font-size: 0.92em; line-height: 1.55; }
-.pub-title { font-weight: 600; color: var(--primary, #0795d9); }
-.pub-authors { font-size: 0.9em; color: #444; }
-.pub-venue { font-size: 0.88em; color: #555; font-style: italic; }
-.pub-meta { font-size: 0.85em; color: #888; }
-</style>
+## Selected Publications
 
 <ul class="pub-list">
 
@@ -117,22 +82,4 @@ center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
 
 </ul>
 
-<p style="text-align:right;font-size:0.88em;margin-top:8px;"><a href="{{ 'publications' | relative_url }}" style="color:var(--primary, #1a73e8);">→ Full publication list</a></p>
-
-{% include section.html %}
-
-## Acknowledgement and Collaborators
-
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
-This research is supported by <b class="blue">The Hong Kong Polytechnic University</b>, the <b class="blue">Department of Science and Technology of Guangdong Province</b> (Drone System and Offshore Wind Turbines Inspection), <b class="blue">Esri China (HK) Limited</b> (Vision-Language-Action Models for Intelligent UAV Systems), and <b class="blue">Meituan</b> (Vision Aided GNSS-RTK Positioning for UAV System in Urban Canyons). We collaborate with leading research groups and industry partners in intelligent drone systems and urban maintenance solutions.
-</div>
-
-{% include section.html %}
-
-{% assign posts = site.posts | where: "research_direction", "drones" | sort: "date" | reverse %}
-
-## Projects ({{ posts.size }})
-
-{% for post in posts %}
-  {% include post-excerpt.html title=post.title url=post.url image=post.image content=post.content excerpt=post.excerpt date=post.date author=post.author tags=post.tags last_modified_at=post.last_modified_at %}
-{% endfor %}
+<p class="pub-more"><a href="{{ 'publications' | relative_url }}">Full publication list →</a></p>

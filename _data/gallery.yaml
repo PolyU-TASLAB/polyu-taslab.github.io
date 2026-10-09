@@ -1,0 +1,71 @@
+# Lab-life photos for the Gallery on the Team page (first 5 also appear on the home page).
+
+- image: images/gallery/team-lawn.jpg
+  thumb: images/gallery/team-lawn-thumb.jpg
+  caption: "TAS Lab family photo on the PolyU campus"
+  tag: Team
+
+- image: images/gallery/team-podium.jpg
+  thumb: images/gallery/team-podium-thumb.jpg
+  caption: "The team with our drones and robots at the PolyU podium"
+  tag: Team
+
+- image: images/gallery/team-campus.jpg
+  thumb: images/gallery/team-campus-thumb.jpg
+  caption: "Lab members in front of the PolyU campus"
+  tag: Team
+
+- image: images/gallery/hackathon-2026.jpg
+  thumb: images/gallery/hackathon-2026-thumb.jpg
+  caption: "Champions of the OneRobotics track, HK Physical AI Hackathon (Aug 2026)"
+  tag: Awards
+
+- image: images/gallery/lab-dinner.jpg
+  thumb: images/gallery/lab-dinner-thumb.jpg
+  caption: "Farewell dinner for Dr Runqiu Yang and Dr Jianhao Jiao (May 2026)"
+  tag: Team
+
+- image: images/gallery/sandbox-flight.jpg
+  thumb: images/gallery/sandbox-flight-thumb.jpg
+  caption: "Low-altitude regulatory sandbox flight test"
+  tag: Field work
+
+- image: images/gallery/rcuas-workshop.jpg
+  thumb: images/gallery/rcuas-workshop-thumb.jpg
+  caption: "1st RCUAS Research Workshop at PolyU (Jun 2025)"
+  tag: Events
+
+- image: images/gallery/ai-robotics-forum.jpg
+  thumb: images/gallery/ai-robotics-forum-thumb.jpg
+  caption: "AI and Intelligent Robotics forum"
+  tag: Events
+
+- image: images/gallery/conference.jpg
+  thumb: images/gallery/conference-thumb.jpg
+  caption: "Hosting the international navigation community"
+  tag: Events
+
+- image: images/gallery/simpleai-launch.jpg
+  thumb: images/gallery/simpleai-launch-thumb.jpg
+  caption: "Launch of the PolyU–Simple AI Joint Laboratory (Jan 2026)"
+  tag: Partners
+
+- image: images/gallery/genvict-visit.jpg
+  thumb: images/gallery/genvict-visit-thumb.jpg
+  caption: "Genvict team visits TAS Lab (Mar 2026)"
+  tag: Partners
+
+- image: images/gallery/sf-visit.jpg
+  thumb: images/gallery/sf-visit-thumb.jpg
+  caption: "SF Express (HK) visit to TAS Lab"
+  tag: Partners
+
+- image: images/gallery/club-briefing.jpg
+  thumb: images/gallery/club-briefing-thumb.jpg
+  caption: "Dr Wen briefs AI & Robotics Club members, Industrial Centre (Aug 2026)"
+  tag: Students
+
+- image: images/gallery/team-group.jpg
+  thumb: images/gallery/team-group-thumb.jpg
+  caption: "Lab members with our robot fleet"
+  tag: Team

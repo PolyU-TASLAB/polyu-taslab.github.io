@@ -1,77 +1,53 @@
 ---
-title: Embodied AI for Humanoid/Legged Robotics
+title: "Embodied AI for Humanoid/Legged Robotics"
+layout: "research-topic"
+banner: true
+eyebrow: "Research direction"
+topic: "humanoid"
+subtitle: "Large AI models that let legged and humanoid robots perceive, reason and act"
+intro: |
+  Humanoid and legged robots are the next frontier of embodied AI — machines that perceive, reason and physically
+  interact with the world in a human-like way. We develop **large AI models** and **vision-language-action (VLA)**
+  frameworks that let them navigate, manipulate and collaborate in complex real-world environments.
+
+  Working with LinXAI quadruped and humanoid platforms, we test these models from factory floors and crowded campus
+  paths to lunar-analogue terrain.
+figure:
+  image: "images/project/E2EHL.jpg"
+  caption: "Embodied AI for humanoid and legged robots"
+focus:
+  - "Vision-language-action models"
+  - "Sim-to-real transfer"
+  - "Whole-body control"
+  - "RL locomotion"
+  - "Multimodal perception"
+  - "Human-robot interaction"
+pillars:
+  - title: "Foundation models for perception and control"
+    text: "VLA models that connect natural-language instructions and semantic understanding with low-level motor control for locomotion and manipulation."
+  - title: "Bio-inspired embodied intelligence"
+    text: "Reinforcement learning, model predictive control and sim-to-real transfer for agile, stable walking and climbing on diverse terrain."
+  - title: "Multimodal learning for humanoids"
+    text: "RGB-D, IMU, tactile and force sensing combined into world models for whole-body planning and contact-rich manipulation."
+applications:
+  - title: "Logistics and warehousing"
+    text: "Robots that carry, sort and deliver goods on spoken instructions"
+  - title: "Assistive robotics"
+    text: "Guide-dog robots and service robots for elderly care"
+  - title: "Urban maintenance"
+    text: "Legged inspection in places wheels cannot reach"
+  - title: "Space exploration"
+    text: "Quadrupeds and humanoids for lunar and planetary terrain"
+  - title: "Search and rescue"
+    text: "Legged robots for disaster-stricken environments"
+videos:
+  - bilibili: "BV1GPkvBdEw9"
+    title: "Embodied AI for humanoid and legged robots, TAS Lab, PolyU"
 ---
 
-# 🤖 Embodied AI for Humanoid/Legged Robotics
-
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
-Humanoid and legged robots represent the next frontier of embodied AI — machines that can perceive, reason, and physically interact with the world in a human-like manner. This research focuses on developing <b class="blue">large AI models</b> and <b class="blue">vision-language-action (VLA) frameworks</b> that enable humanoid and legged robots to autonomously navigate, manipulate, and collaborate in complex real-world environments.
-</div>
-
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 1em;">
-Our approach integrates three core pillars:
-<ol>
-<li><b>Foundation Models for Robotic Perception and Control</b> — We develop vision-language-action models that bridge high-level semantic understanding with low-level motor control, enabling robots to interpret natural language instructions and execute complex manipulation and locomotion tasks. Our models leverage large-scale pre-training on multimodal data (vision, language, proprioception) and are fine-tuned for real-world deployment on humanoid platforms.</li>
-<li><b>Bio-Inspired Embodied Intelligence</b> — Drawing inspiration from biological locomotion and sensorimotor systems, we design control architectures that enable robust and adaptive walking, running, climbing, and manipulation on diverse terrains. Our work combines reinforcement learning, model predictive control, and sim-to-real transfer to achieve agile and stable locomotion for legged robots in unstructured environments.</li>
-<li><b>Multimodal Learning for Humanoid Robots</b> — We investigate how robots can learn from multimodal sensory inputs (RGB-D cameras, IMUs, tactile sensors, force/torque sensors) to build rich world models that support whole-body planning and contact-rich manipulation. Our research enables humanoid robots to perform tasks in human-centric environments such as homes, offices, and warehouses.</li>
-</ol>
-</div>
-
-<p align="center">
-  <img width="700" src="{{ 'images/project/E2EHL.png' | relative_url }}" alt="Embodied AI for Humanoid/Legged Robotics">
-</p>
-<center><i>Embodied AI for Humanoid/Legged Robotics</i></center>
-
-<a href="{{ 'research' | relative_url }}" style="font-size: 0.9em;">← Back to all Research Directions</a>
-
 {% include section.html %}
 
-## Demo Video
-
-<p align="center">
-  <iframe src="//player.bilibili.com/player.html?bvid=BV1GPkvBdEw9&page=1&autoplay=0" width="560" height="315" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-</p>
-<center><i>Embodied AI for Humanoid/Legged Robotics — TAS Lab, PolyU</i></center>
-
-{% include section.html %}
-
-## Key Research Directions
-
-<ul>
-<li><b class="blue">Vision-language-action models</b> for robotic task planning and execution</li>
-<li><b class="blue">Sim-to-real transfer</b> for robust locomotion on diverse terrains</li>
-<li><b class="blue">Whole-body control</b> and contact-rich manipulation for humanoid platforms</li>
-<li><b class="blue">Reinforcement learning</b> for adaptive and agile legged locomotion</li>
-<li><b class="blue">Multimodal perception</b> (vision, tactile, proprioception) for embodied reasoning</li>
-<li><b class="blue">Human-robot interaction</b> and collaborative task execution</li>
-</ul>
-
-{% include section.html %}
-
-## Target Applications
-
-<ul>
-<li><b class="blue">Logistics and warehousing</b>: Humanoid robots for package handling, sorting, and delivery</li>
-<li><b class="blue">Urban maintenance</b>: Legged robots for inspection and maintenance in complex environments</li>
-<li><b class="blue">Healthcare and assistive robotics</b>: Service robots for elderly care and rehabilitation</li>
-<li><b class="blue">Search and rescue</b>: Legged robots operating in disaster-stricken environments</li>
-</ul>
-
-{% include section.html %}
-
-## Selected Publications (*: Corresponding author)
-
-<style>
-p[align="center"] { text-align: center !important; }
-p[align="center"] img, p[align="center"] iframe { display: inline-block; max-width: 100%; }
-center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
-.pub-list { list-style: none; padding-left: 0; }
-.pub-item { margin: 10px 0; padding: 10px 14px; border-left: 3px solid var(--primary, #0795d9); background: #f9fbfd; font-size: 0.92em; line-height: 1.55; }
-.pub-title { font-weight: 600; color: var(--primary, #0795d9); }
-.pub-authors { font-size: 0.9em; color: #444; }
-.pub-venue { font-size: 0.88em; color: #555; font-style: italic; }
-.pub-meta { font-size: 0.85em; color: #888; }
-</style>
+## Selected Publications
 
 <ul class="pub-list">
 
@@ -93,22 +69,4 @@ center { text-align: center; font-size: 0.88em; color: #555; margin-top: 4px; }
 
 </ul>
 
-<p style="text-align:right;font-size:0.88em;margin-top:8px;"><a href="{{ 'publications' | relative_url }}" style="color:var(--primary, #1a73e8);">→ Full publication list</a></p>
-
-{% include section.html %}
-
-## Acknowledgement and Collaborators
-
-<div style="text-align: justify; font-size: 0.97em; line-height: 1.65; margin-bottom: 0.5em;">
-This research is supported by <b class="blue">The Hong Kong Polytechnic University</b> and industry partners. We collaborate with leading research groups in embodied AI and robotics worldwide.
-</div>
-
-{% include section.html %}
-
-{% assign posts = site.posts | where: "research_direction", "humanoid" | sort: "date" | reverse %}
-
-## Projects ({{ posts.size }})
-
-{% for post in posts %}
-  {% include post-excerpt.html title=post.title url=post.url image=post.image content=post.content excerpt=post.excerpt date=post.date author=post.author tags=post.tags last_modified_at=post.last_modified_at %}
-{% endfor %}
+<p class="pub-more"><a href="{{ 'publications' | relative_url }}">Full publication list →</a></p>

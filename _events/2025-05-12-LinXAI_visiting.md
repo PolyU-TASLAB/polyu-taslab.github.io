@@ -7,18 +7,13 @@ tags: news
 order: 
 ---
 
-## Visiting LinxAI Intelligent Technology Co., Ltd: A Glimpse into the Future of Quadruped Robotics
+Dr. Runqiu Yang and MPhil student Yuling Cheng recently visited LinxAI Intelligent Technology Co., Ltd, where they toured the company's quadruped robot assembly base and research laboratory. During the visit, they held in-depth discussions with LinxAI's engineering team, exchanging insights on the latest advances in robotic locomotion, AI-driven control systems and industrial applications of quadruped robots.
 
-Dr. Runqiu Yang and MPhil student Yuling Cheng recently visited LinxAI Intelligent Technology Co., Ltd, where they toured the company's quadruped robot assembly base and cutting-edge research laboratory. During their visit, they engaged in in-depth discussions with LinxAI’s engineering team, exchanging insights on the latest advancements in robotic locomotion, AI-driven control systems, and industrial applications of quadruped robots.
-
-The visit provided a firsthand look at LinxAI’s innovative manufacturing processes and R&D breakthroughs, highlighting the company’s role as a key player in intelligent robotics. Dr. Yang and Ms. Cheng expressed great interest in the firm’s technological developments and potential future collaborations in AI and robotics research.
-
-This interaction underscores the growing synergy between academia and industry in pushing the boundaries of intelligent robotics. LinxAI’s advancements signal exciting possibilities for the next generation of autonomous, agile, and AI-powered quadruped robots.
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/linxai_robotics.jpg" alt="" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/linxai_robotics.jpg" alt="Quadruped robot under test at LinxAI"></figure>
 </div>
-<div style="text-align: center; margin-bottom: 20px;">
-  The testing quadruped robot.
-</div>
+<p class="news-caption">The testing quadruped robot.</p>
+
+The visit gave a first-hand look at LinxAI's manufacturing processes and R&D work, highlighting the company's role in intelligent robotics. Dr. Yang and Ms. Cheng expressed great interest in the company's technological developments and in potential future collaboration in AI and robotics research.
+
+The exchange reflects the growing synergy between academia and industry in intelligent robotics, and LinxAI's progress points to new possibilities for the next generation of autonomous, agile, AI-powered quadruped robots.

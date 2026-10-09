@@ -1,5 +1,5 @@
 ---
-title: Window Cleaning UAV Indoor Demonstration In the front of Secretary for Transport & Logistics
+title: Window Cleaning UAV Indoor Demonstration in Front of the Secretary for Transport & Logistics
 subtitle: news
 # author: Chen Yingming
 image: images/news/T&LVisit/introduction1.jpg
@@ -7,33 +7,20 @@ tags: news
 order: 
 ---
 
-## Window Cleaning UAV Indoor Demonstration In the front of Secretary for Transport & Logistics
+On 24 March 2025, Hong Kong's Secretary for Transport and Logistics, Ms. Mable Chan, visited The Hong Kong Polytechnic University (PolyU) to discuss the low-altitude economy (LAE) policy and to see demonstrations by the PolyU Department of Aeronautical and Aviation Engineering (AAE). The Trustworthy AI and Autonomous Systems Laboratory (TASLAB) took part in the visit and presented an indoor demonstration of its window-cleaning UAV, a step towards safer and smarter urban maintenance in a smart city.
 
-Hong Kong, March 24, 2025 – TASLAB’s Innovation Promises Safer, Smarter Urban Maintenance Solutions.
-
-HONG KONG – In a significant step toward advancing smart city initiatives, Hong Kong’s Secretary for Transport and Logistics, Ms. Hon. Mable Chan, visited The Hong Kong Polytechnic University (PolyU) on March 24, 2025, to discuss about the low-altitude economy policy and to witness some pioneering demonstrations performed by Hong Kong Polytechnic University (PolyU), Department of Aeronautical and Aviation Engineering (AAE). TASLab participated in this activity and exceptionally presented the innovative window cleaning UAV indoor demonstration, which showcased cutting-edge technology poised to revolutionize urban maintenance.
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/T&LVisit/cleaning6.jpg" alt="Team Banner" 
-       style="width: 45%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/T&LVisit/introduction1.jpg" alt="Introduction1" 
-       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
+<div class="news-photos" data-cols="2">
+  <figure><img src="{{ site.baseurl }}/images/news/T&LVisit/cleaning6.jpg" alt="Window-cleaning UAV indoor demonstration"></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/T&LVisit/introduction1.jpg" alt="Introduction of the window-cleaning UAV project to the Secretary"></figure>
 </div>
+<p class="news-caption">The indoor demonstration of the window-cleaning UAV and the project introduction.</p>
 
-The secretary has praised the team's hardwork and expressed an optimistic opinion towards the development of this innovative window-cleaning UAV project. 
+The Secretary praised the team's hard work and expressed an optimistic view of the development of the window-cleaning UAV project.
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/T&LVisit/cleaning1.jpg" alt="GroupPic" 
-        style="width: 45%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/T&LVisit/IMG_0005.JPEG" alt="GroupPic" 
-       style="width: 45%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="2">
+  <figure><img src="{{ site.baseurl }}/images/news/T&LVisit/cleaning1.jpg" alt="Window-cleaning UAV during the demonstration"></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/T&LVisit/IMG_0005.JPEG" alt="Window-cleaning UAV demonstration in front of the guests"></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/T&LVisit/group1.jpg" alt="Group photo with the Secretary"></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/T&LVisit/introduction2.jpg" alt="Dr. Weisong Wen explaining the research proposal to the Secretary"></figure>
 </div>
-<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/T&LVisit/group1.jpg" alt="group" 
-       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/T&LVisit/introduction2.jpg" alt="Introduction2" 
-       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
-</div>
-<div style="text-align: center; margin-bottom: 20px;">
-   Dr. Wen Weisong explaining the research proposal to the Secretary Hon. Mable Chan, JP.
-</div>
+<p class="news-caption">Dr. Weisong Wen explaining the research proposal to the Secretary, the Hon. Mable Chan, JP.</p>

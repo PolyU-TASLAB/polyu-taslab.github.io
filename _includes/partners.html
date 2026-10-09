@@ -1,0 +1,21 @@
+<div class="partner-groups">
+  {% for group in site.data.partners %}
+  <div class="partner-group">
+    <h3 class="partner-group-title">{{ group.group }}</h3>
+    <ul class="partner-grid">
+      {% for item in group.items %}
+      <li>
+        {% if item.url %}<a class="partner-tile" href="{{ item.url }}" target="_blank" rel="noopener" title="{{ item.name }}">{% else %}<div class="partner-tile" title="{{ item.name }}">{% endif %}
+          {% if item.logo %}
+          <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" loading="lazy">
+          {% else %}
+          <span class="partner-name">{{ item.name }}</span>
+          {% endif %}
+          {% if item.note %}<span class="partner-note">{{ item.note }}</span>{% endif %}
+        {% if item.url %}</a>{% else %}</div>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>

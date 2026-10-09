@@ -2,7 +2,7 @@
 title: Sustainable Window Cleaning for PolyU Jockey Club Innovation Tower with Unmanned Aerial Vehicles (UAV):An Application of Autonomous Systems Enabled Carbon Reduction
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
-image: images/project/uav_clean.png
+image: images/project/uav_clean.jpg
 tags: Unmanned Aerial Vehicle
 research_direction: drones
 order: 
@@ -28,14 +28,14 @@ Ongoing
 ## Technology & Method
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/green_tech.png" alt="Team Banner" 
+  <img src="{{ site.baseurl }}/images/project/green_tech.png" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
 ## Potential Contributions to Carbon Reduction
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/carbon_reduce.png" alt="Team Banner" 
+  <img src="{{ site.baseurl }}/images/project/carbon_reduce.png" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
@@ -46,8 +46,7 @@ Ongoing
   <h1 style="font-size: 1.5em; margin-bottom: 20px; line-height: 1.2;">
     Outdoor test
   </h1>
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/windows_cleaning_test.gif" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <video src="{{ site.baseurl }}/images/project/windows_cleaning_test.mp4" poster="{{ site.baseurl }}/images/project/windows_cleaning_test.jpg" autoplay loop muted playsinline preload="metadata" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;"></video>
 </div>
 
 
@@ -65,7 +64,7 @@ Ongoing
   <h1 style="font-size: 1.5em; margin-bottom: 20px; line-height: 1.2;">
     TVB interviewed us about the low-altitude economy (LAE)
   </h1>
-  <img width="560" height="315" src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/TVB.JPG" alt="TVB Interview about LAE">
+  <img width="560" height="315" src="{{ site.baseurl }}/images/project/TVB.JPG" alt="TVB Interview about LAE">
   <iframe width="560" height="315" src="//player.bilibili.com/player.html?bvid=BV1bhrKY3EcJ&spm_id_from=333.999.0.0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 
@@ -89,7 +88,7 @@ Ongoing
   <h1 style="font-size: 1.5em; margin-bottom: 20px; line-height: 1.2;">
     Mingpao interviewed us about the low-altitude economy (LAE)
   </h1>
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/MINGBAO.JPG" alt="Team Banner" 
+  <img src="{{ site.baseurl }}/images/project/MINGBAO.JPG" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
@@ -110,7 +109,7 @@ Ongoing
   <h1 style="font-size: 1.5em; margin-bottom: 20px; line-height: 1.2;">
     Interview with RTHK on the Development of Drones in the Low Altitude Economy (LAE)
   </h1>
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/rthk.jpg" alt="Team Banner" 
+  <img src="{{ site.baseurl }}/images/project/rthk.jpg" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 

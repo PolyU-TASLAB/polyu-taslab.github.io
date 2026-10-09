@@ -1,0 +1,14 @@
+<div class="page-banner" style="--banner: url('{{ 'images/home/banner-campus.jpg' | relative_url }}')">
+  <div class="page-banner-inner">
+    <div class="page-banner-text">
+      <p class="page-banner-eyebrow">{{ page.eyebrow | default: "Trustworthy AI and Autonomous Systems Lab" }}</p>
+      <h1 class="page-banner-title">{{ page.title }}</h1>
+      {% assign banner_sub = page.nav.tooltip | default: page.subtitle %}
+      {% if banner_sub %}<p class="page-banner-sub">{{ banner_sub }}</p>{% endif %}
+    </div>
+    <div class="page-banner-logos" aria-label="The Hong Kong Polytechnic University · Department of Aeronautical and Aviation Engineering">
+      <img src="{{ 'images/logo/polyu_logo_white.png' | relative_url }}" alt="The Hong Kong Polytechnic University">
+      <img src="{{ 'images/logo/aaelogo_white.png' | relative_url }}" alt="Department of Aeronautical and Aviation Engineering">
+    </div>
+  </div>
+</div>

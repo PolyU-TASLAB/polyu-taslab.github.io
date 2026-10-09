@@ -1,5 +1,5 @@
 ---
-title: PolyU Trustworthy Autonomous System Lab Member Attends Landmark Guangdong-Hong Kong Low-Altitude Economy Industry Exchange Conference
+title: PolyU TASLAB Member Attends Landmark Guangdong-Hong Kong Low-Altitude Economy Industry Exchange Conference
 subtitle: news
 # author: Chen Yingming
 image: images/news/GDHKExchange/lanzhong/celeb/Zhu.jpg
@@ -7,41 +7,37 @@ tags: news
 order: 
 ---
 
-##  PolyU Trustworthy Autonomous System Lab Member Attends Landmark Guangdong-Hong Kong Low-Altitude Economy Industry Exchange Conference
+On 30 June 2025, a member of the Trustworthy AI and Autonomous Systems Laboratory (TASLAB) at The Hong Kong Polytechnic University (PolyU) was invited to attend the Guangdong-Hong Kong Low-Altitude Economy Industry Exchange Conference in Hong Kong as a representative of the lab. The event, hosted by the Hong Kong Economic and Trade Office of the Guangdong Provincial Department of Commerce, brought together government officials, industry leaders and innovators to explore opportunities for collaboration in the fast-growing low-altitude economy (LAE) sector.
 
-*Hong Kong, June 30, 2025* – As a representative of the Hong Kong Polytechnic University (PolyU) Trustworthy Autonomous System Lab, I was invited to attend the Guangdong-Hong Kong Low-Altitude Economy Industry Exchange Conference held today in Hong Kong. The event, hosted by the Guangdong Provincial Department of Commerce’s Hong Kong Economic and Trade Office, brought together government officials, industry leaders, and innovators to explore collaborative opportunities in the rapidly evolving low-altitude economy sector.
+### Keynote speeches highlight cross-border collaboration
 
-#### Keynote Speeches Highlight Cross-Border Collaboration
-The conference opened with remarks from **Mr. Zhu Xiaojun**, Deputy Director-General of the Guangdong Provincial Department of Commerce, who emphasized Guangdong’s commitment to fostering innovation in low-altitude applications, including drone logistics, urban air mobility (UAM), and autonomous systems. **Dr. Elizabeth Quat**, Legislative Council Member and Founding President of the Greater Bay Area Low-Altitude Economy Alliance, underscored Hong Kong’s role as an international hub for technological and regulatory advancements in this field.
+- **Mr. Zhu Xiaojun**, Deputy Director-General of the Guangdong Provincial Department of Commerce, opened the conference and emphasised Guangdong's commitment to fostering innovation in low-altitude applications, including drone logistics, urban air mobility (UAM) and autonomous systems.
+- **Dr. Elizabeth Quat**, Legislative Council Member and Founding President of the Greater Bay Area Low-Altitude Economy Alliance, underscored Hong Kong's role as an international hub for technological and regulatory advances in this field.
 
-#### Policy Insights and Municipal Investment Opportunities
-**Mr. Lin Zhichun**, Head of the Guangdong Low-Altitude Economy Task Force, delivered a policy briefing outlining regulatory frameworks and incentives to accelerate industry growth. Representatives from Guangzhou, Shenzhen, and Zhuhai further presented their cities’ strategic advantages in low-altitude technology investment, highlighting infrastructure, talent pools, and pilot programs.
-<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/GDHKExchange/lanzhong/celeb/CaiLiYun.jpg" alt="Hostess Ms.CaiLiYun" 
-       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/GDHKExchange/lanzhong/celeb/Zhu.jpg" alt="Mr.Zhu Xiaojun" 
-      style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
+### Policy insights and municipal investment opportunities
+
+**Mr. Lin Zhichun**, Head of the Guangdong Low-Altitude Economy Task Force, gave a policy briefing outlining regulatory frameworks and incentives to accelerate industry growth. Representatives from Guangzhou, Shenzhen and Zhuhai then presented their cities' strategic advantages for investment in low-altitude technology, highlighting infrastructure, talent pools and pilot programmes.
+
+<div class="news-photos" data-cols="2">
+  <figure><img src="{{ site.baseurl }}/images/news/GDHKExchange/lanzhong/celeb/CaiLiYun.jpg" alt="Host Ms. Cai Liyun"><figcaption>Host Ms. Cai Liyun</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/GDHKExchange/lanzhong/celeb/Zhu.jpg" alt="Mr. Zhu Xiaojun speaking"><figcaption>Mr. Zhu Xiaojun</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/GDHKExchange/lanzhong/celeb/Ge.jpg" alt="Dr. Elizabeth Quat speaking"><figcaption>Dr. Elizabeth Quat</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/GDHKExchange/lanzhong/celeb/Lin.jpg" alt="Mr. Lin Zhichun speaking"><figcaption>Mr. Lin Zhichun</figcaption></figure>
 </div>
+<p class="news-caption">The host and speakers at the conference.</p>
 
-<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/GDHKExchange/lanzhong/celeb/Ge.jpg" alt="Dr. Elizabeth Quat" 
-       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/GDHKExchange/lanzhong/celeb/Lin.jpg" alt="Mr. Lin Zhichun" 
-      style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
+### Industry showcase
+
+The project roadshow featured leading enterprises such as **EHang**, **Kobot** and **Fengyi Technology**, presenting advances in autonomous aerial vehicles (AAVs), drone delivery networks and AI-driven air traffic management. Of particular interest to TASLAB was **Shenzhen-based Lingling Infinite Technology**, which demonstrated lightweight drone solutions for smart city applications, an area that aligns with PolyU's research in trustworthy autonomous systems.
+
+<div class="news-photos" data-cols="2" data-fit="contain">
+  <figure><img src="{{ site.baseurl }}/images/news/GDHKExchange/lanzhong/Lanzhong1.jpg" alt="Lanz Technology demonstrating their products"></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/GDHKExchange/lanzhong/Lanzhong2.jpg" alt="Lanz Technology Module X300"></figure>
 </div>
+<p class="news-caption">Lanz Technology demonstrating their products, including the Module X300.</p>
 
-#### Cutting-Edge Industry Showcase
-The project roadshow segment featured leading enterprises such as **EHang**, **Kobot**, and **Fengyi Technology**, showcasing advancements in autonomous aerial vehicles (AAVs), drone delivery networks, and AI-driven air traffic management. Of particular interest to our lab was **Shenzhen-based Lingling Infinite Technology**, which demonstrated lightweight drone solutions for smart city applications—an area aligning with PolyU’s research in trustworthy autonomous systems.
+### PolyU's role in the low-altitude ecosystem
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/GDHKExchange/lanzhong/Lanzhong1.jpg" alt="Lanz Technology Demonstrate their products" 
-       style="width: 45%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/GDHKExchange/lanzhong/Lanzhong2.jpg" alt="Lanz Technology Module X300" 
-       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
-</div>
+The conference themes showed strong synergies with TASLAB's work on safety, reliability and AI ethics in autonomous aviation. The event reinforced the potential for Hong Kong's academic institutions to partner with mainland counterparts in R&D and commercialisation, particularly in UAM and cross-border regulatory sandboxes.
 
-#### PolyU’s Role in the Low-Altitude Ecosystem
-As a member of PolyU’s Trustworthy Autonomous System Lab, I observed strong synergies between the conference’s themes and our lab’s work on safety, reliability, and AI ethics in autonomous aviation. The event reinforced the potential for Hong Kong’s academic institutions to partner with mainland counterparts in R&D and commercialization, particularly in UAM and cross-border regulatory sandboxes.
-
-The conference concluded with a networking session, where I connected with industry stakeholders to explore collaborative R&D and talent exchange initiatives. With the Guangdong-Hong Kong-Macao Greater Bay Area positioning itself as a global leader in low-altitude innovation, PolyU’s expertise in autonomous systems is poised to play a pivotal role in shaping this emerging sector.
-
+The conference concluded with a networking session, where the TASLAB representative connected with industry stakeholders to explore collaborative R&D and talent exchange initiatives. With the Guangdong-Hong Kong-Macao Greater Bay Area positioning itself as a global leader in low-altitude innovation, PolyU's expertise in autonomous systems is well placed to help shape this emerging sector.

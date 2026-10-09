@@ -2,7 +2,7 @@
 title: Development of an Assisted Navigation and Collision Avoidance System using AI and Location-based Service
 subtitle: Knowledge Transfer to Unmanned Autonomous Systems
 # author: XNG
-image: images/project/stf/demo_gif.gif
+image: images/project/stf/demo_gif.jpg
 tags: Positioning Services, Multi-Vehicle Collaborative Sensing, AI aided GNSS, GNSS Signal Tracing, Sensor Integration
 research_direction: fusion
 order: 
@@ -32,15 +32,14 @@ Completed
 ## System Framework
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/stf/pipeline.png" alt="Team Banner" 
+  <img src="{{ site.baseurl }}/images/project/stf/pipeline.png" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
 ## Demonstration
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/stf/demo_gif.gif" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <video src="{{ site.baseurl }}/images/project/stf/demo_gif.mp4" poster="{{ site.baseurl }}/images/project/stf/demo_gif.jpg" autoplay loop muted playsinline preload="metadata" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;"></video>
 </div>
 
 ## Achievements

@@ -1,9 +1,9 @@
 ---
 name: Akida Tursun
 image: images/team/Akida.jpg
-role: ra  # pi / postdoc / phd / ms / under / ra / visiting
+role: alumni  # pi / postdoc / phd / ms / under / ra / visiting / alumni
 affiliation: PolyU-Wuxi Technology and innovation Research Institute
-order: 11
+order: 31
 
 links:
   orcid: 

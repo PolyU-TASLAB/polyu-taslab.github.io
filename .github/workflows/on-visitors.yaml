@@ -1,0 +1,17 @@
+name: on-visitors
+run-name: daily rebuild to refresh visitor map
+
+on:
+  schedule:
+    - cron: "0 20 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-site:
+    if: github.repository != 'greenelab/lab-website-template'
+    uses: ./.github/workflows/build-site.yaml
+    secrets: inherit

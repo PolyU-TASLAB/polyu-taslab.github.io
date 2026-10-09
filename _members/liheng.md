@@ -1,9 +1,9 @@
 ---
 name: Li Heng
 image: images/team/LiHeng.jpg
-role: ra
+role: alumni
 affiliation: Hong Kong Polytechnic University
-order: 9
+order: 34
 
 links:
   home-page: 
@@ -13,8 +13,8 @@ links:
   email: shannon-h.li@polyu.edu.hk
   profile: 
 
-display_1: Research Assistant,B.Eng. (DLPU), R&D Engineer(Unmanned Systems Field, Shenzhen ,China)
-display_2: Spring 2025 -- Present
+display_1: Former Research Assistant, B.Eng. (DLPU)
+display_2: Spring 2025 - 2026
 
 ---
 

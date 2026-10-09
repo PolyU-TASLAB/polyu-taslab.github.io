@@ -2,7 +2,7 @@
 title: News
 nav:
   order: 1
-  tooltip: Events and news
+  tooltip: Awards, visits, talks and lab life
 ---
 
 # {% include icon.html icon="fa-solid fa-newspaper" %}News

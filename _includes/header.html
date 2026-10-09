@@ -1,22 +1,11 @@
-{% assign image = page.header | default: site.header | relative_url %}
-{% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
-
 {% assign svg = "images/logo.svg" | file_exists %}
 {% assign png = "images/logo.png" | file_exists %}
 {% assign jpg = "images/logo.jpg" | file_exists %}
 {% assign logo = svg | default: png | default: jpg | default: nil %}
+{% assign current_url = page.url %}
 
-<header
-  class="background"
-  style="--image: url('{{ image }}')"
-  {% if dark == true or dark == false %}
-    data-dark="{{ dark }}"
-  {% endif %}
-  {% if page.url == "/" %}
-    data-big
-  {% endif %}
->
-  <a href="{{ "/" | relative_url }}" class="home">
+<header class="site-header">
+  <a href="{{ "/" | relative_url }}" class="home" aria-label="{{ site.title }} home">
     {% if logo %}
       <span class="logo">
         {% if svg %}
@@ -41,19 +30,22 @@
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
 
   <nav>
-    {% assign pages = site.pages
-      | where_exp: "page", "page.nav"
+    {% assign nav_pages = site.pages
+      | where_exp: "item", "item.nav"
       | sort: "nav.order"
     %}
-    {% for page in pages %}
-      {% if page.nav %}
-        <a
-          href="{{ page.dir | relative_url }}"
-          data-tooltip="{{ page.nav.tooltip }}"
-        >
-          {{ page.title }}
-        </a>
+    {% for nav_page in nav_pages %}
+      {% assign active = false %}
+      {% if current_url contains nav_page.dir and nav_page.dir != "/" %}
+        {% assign active = true %}
       {% endif %}
+      <a
+        href="{{ nav_page.dir | relative_url }}"
+        data-tooltip="{{ nav_page.nav.tooltip }}"
+        {% if active %}class="active" aria-current="page"{% endif %}
+      >
+        {{ nav_page.title }}
+      </a>
     {% endfor %}
   </nav>
 </header>

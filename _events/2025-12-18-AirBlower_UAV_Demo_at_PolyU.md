@@ -1,39 +1,27 @@
 ---
-title: T2 Airport Airlower UAV Demonstration at PolyU
+title: T2 Airport Airblower UAV Demonstration at PolyU
 subtitle: news
 image: images/news/1218/silent2.jpg
 tags: news
 ---
 
-## Team Demonstrates Airblower UAV Technology with Civil Aviation Department at PolyU
+On 18 December 2025, the team conducted a demonstration of airblower UAV technology with the Civil Aviation Department (CAD) at The Hong Kong Polytechnic University (PolyU). The demonstration presented the capabilities of the airblower UAV system to CAD representatives, highlighting its potential applications in urban environments and its compliance with aviation safety standards in enclosed areas.
 
-
-
-On December 18th, our team conducted a demonstration of airblower UAV technology in collaboration with the Civil Aviation Department at The Hong Kong Polytechnic University (PolyU).
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/1218/silent.jpg" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="2">
+  <figure><img src="{{ site.baseurl }}/images/news/1218/silent.jpg" alt="Team briefing CAD representatives next to the airblower UAV"></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/1218/silent2.jpg" alt="The airblower UAV"></figure>
 </div>
+<p class="news-caption">The demonstration at PolyU and the airblower UAV.</p>
 
-
-
-The demonstration showcased our airblower UAV system's capabilities to representatives from Hong Kong's Civil Aviation Department (CAD), highlighting the technology's potential applications in urban environments and its compliance with aviation safety standards in enclosed areas.
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <video controls style="width: 100%; max-width: 850px; border-radius: 15px;">
-    <source src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/1218/demo.mp4" type="video/mp4">
+<div class="news-video">
+  <video controls preload="metadata">
+    <source src="{{ site.baseurl }}/images/news/1218/demo.mp4" type="video/mp4">
   </video>
 </div>
+<p class="news-caption">Video of the airblower UAV demonstration.</p>
 
+### Advancing UAV applications in Hong Kong
 
-### Advancing UAV Applications in Hong Kong
+The UAV is a product of the collaboration with Gammon Construction Ltd. and represents an important step towards the field application of the airblower UAV system at the newly built T2 airport. The demonstration provided a practical example of how the technology can be used in real-world scenarios and helped build regulatory understanding and acceptance of specialised UAV applications in Hong Kong. It also provided valuable insights into the operational parameters and safety considerations of airblower UAV technology.
 
-The UAV is the product of this collaboration with the Gammon Construction Ltd., represents an important step in advancing the in field application of our airblower UAV system at the newly built T2 airport. The demonstration provided a practical example of how this technology can be used in real-world scenarios and helped to build regulatory understanding and acceptance of specialized UAV applications in Hong Kong. The demonstration provided valuable insights into the operational parameters and safety considerations of airblower UAV technology.
-
-Our team remains committed to working closely with aviation authorities to ensure that innovative UAV solutions can be safely integrated into Hong Kong's airspace, contributing to the development of the city's low-altitude economy.
-
-
-
-
-
-
+The team remains committed to working closely with aviation authorities so that innovative UAV solutions can be safely integrated into Hong Kong's airspace, contributing to the development of the city's low-altitude economy.

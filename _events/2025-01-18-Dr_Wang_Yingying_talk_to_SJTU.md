@@ -2,25 +2,25 @@
 title: Dr. WANG Yingying gave a talk at Shanghai Jiaotong University on 18th January
 subtitle: Example news
 # author: xxx
-image: images/news/Dr_Yingying_WANG_SJTU.png
+image: images/news/Dr_Yingying_WANG_SJTU.jpg
 tags: news
 order: 
 ---
-We are pleased to share that on January 18, 2025, our postdoc fellow WANG, Yingying, representing the TAS LAB, gave a talk at Shanghai Jiaotong University invited by the Institute for Sensing and Navigation. She shared non-intrusive pedestrian indoor localization research from the perspective of IMU and WiFi, especially the academic indoor pedestrian localization research in TAS LAB.
 
+On 18 January 2025, our postdoctoral fellow Dr. WANG Yingying, representing the Trustworthy AI and Autonomous Systems Laboratory (TASLAB), gave a talk at Shanghai Jiaotong University at the invitation of the Institute for Sensing and Navigation. She presented research on non-intrusive indoor pedestrian localization from the perspective of IMU and WiFi, with a focus on the indoor pedestrian localization research carried out at TASLAB.
 
-## Non-intrusive Pedestrian Indoor Localization, From the perspective of IMU & WiFi
-
-Low-cost, unobtrusive, and non-intrusive sensing for indoor pedestrian localization has been a research hotspot for decades. However, there is still no universal indoor localization solution that can be employed effectively without dedicated hardware. The high research interest in smartphone-based indoor localization is driven by the proliferation of embedded sensors, which provide an array of candidates that can be utilized in indoor localization. This talk will focus on two non-intrusive sensing modalities, inertial measurement unit and WiFi received signal strength indicator (RSSI). How deep learning techniques can improve the localization accuracy and robustness of these two localization modalities is illustrated. 
-
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Dr_Yingying_WANG_SJTU_group_photo.png" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/Dr_Yingying_WANG_SJTU_group_photo.jpg" alt="Group photo of Dr. WANG Yingying at Shanghai Jiaotong University"></figure>
 </div>
+<p class="news-caption">Group photo at Shanghai Jiaotong University.</p>
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/Dr_Yingying_WANG_SJTU.png" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+### Non-intrusive Pedestrian Indoor Localization: From the Perspective of IMU &amp; WiFi
+
+Low-cost, unobtrusive and non-intrusive sensing for indoor pedestrian localization has been a research hotspot for decades. However, there is still no universal indoor localization solution that works effectively without dedicated hardware. The strong research interest in smartphone-based indoor localization is driven by the spread of embedded sensors, which offer many candidates for indoor localization.
+
+The talk focused on two non-intrusive sensing modalities: the inertial measurement unit (IMU) and the WiFi received signal strength indicator (RSSI). It illustrated how deep learning techniques can improve the localization accuracy and robustness of both modalities.
+
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/Dr_Yingying_WANG_SJTU.jpg" alt="Poster of Dr. WANG Yingying's talk at Shanghai Jiaotong University"></figure>
 </div>
-
+<p class="news-caption">Poster of the talk at Shanghai Jiaotong University.</p>

@@ -2,13 +2,13 @@
 title: Team
 nav:
   order: 4
-  tooltip: About our team
+  tooltip: People, advisors, funders and partners
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
 <div style="text-align: center; margin-bottom: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/team/team.png" alt="Team Banner" 
+  <img src="{{ site.baseurl }}/images/team/team.png" alt="Team Banner" 
        style="width: 28%; height: auto; object-fit: cover; max-width: 230px; margin: 0 auto; border-radius: 10px;">
 </div>
 
@@ -30,10 +30,10 @@ Our lab is made up of a <b class="blue">highly engaged and collaborative team</b
   font-weight: 700;
   margin: 2em 0 0.5em 0;
   padding-bottom: 0.4em;
-  color: var(--primary, #0795d9);
+  color: var(--primary, #9e2435);
   letter-spacing: 0.01em;
   text-align: center;
-  border-bottom: 2px solid var(--primary, #0795d9);
+  border-bottom: 2px solid var(--primary, #9e2435);
 }
 .portrait-wrapper {
   width: 155px;
@@ -66,7 +66,7 @@ Our lab is made up of a <b class="blue">highly engaged and collaborative team</b
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 0.5em;
-  border: 2.5px solid var(--primary, #0795d9);
+  border: 2.5px solid var(--primary, #9e2435);
 }
 .portrait-name {
   font-size: 0.92em;
@@ -118,11 +118,11 @@ Our lab is made up of a <b class="blue">highly engaged and collaborative team</b
   padding: 2px;
 }
 .portrait-link-icon:hover {
-  color: var(--primary, #0795d9);
+  color: var(--primary, #9e2435);
 }
 .pi-bio-card {
-  background: #f9fbfd;
-  border-left: 4px solid var(--primary, #0795d9);
+  background: #faf7f8;
+  border-left: 4px solid var(--primary, #9e2435);
   border-radius: 8px;
   padding: 1.2em 1.4em;
   margin: 0.5em 0 2em 0;
@@ -146,15 +146,15 @@ Our lab is made up of a <b class="blue">highly engaged and collaborative team</b
 </div>
 
 <div class="pi-bio-card">
-<h4 style="margin:0 0 0.5em 0; color:var(--primary, #0795d9); font-size:1.05em;">About Dr. Weisong Wen — <a href="https://weisongwen.github.io/" style="color:var(--primary, #0795d9);">Homepage</a></h4>
-<p style="text-align:justify; margin:0 0 0.6em 0; font-size:0.92em; line-height:1.6; color:#333;">
-<b class="blue">Dr. Weisong Wen</b> is an <b class="blue">Assistant Professor</b> at the Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University, and the <b class="blue">Director of the Trustworthy AI and Autonomous Systems Laboratory (TAS Lab)</b>. He is also a member of <b class="blue">IEEE</b> and the <b class="blue">Institute of Navigation (ION)</b>. Dr. Wen aims to build algorithm foundations for <b class="blue">embodied AI</b> that enable trustworthy perception, navigation, and control of autonomous systems. In particular, he aims to develop practical embodied AI-driven autonomous systems (<b class="blue">drones</b>, <b class="blue">intelligent vehicles</b>, and <b class="blue">humanoid robots</b>) with end-to-end learning and safety certification capabilities, enabling them to perceive, reason, and interact with the physical world safely and reliably for the future society.
+<h4 style="margin:0 0 0.5em 0; color:var(--primary, #9e2435); font-size:1.05em;">About Dr. Weisong Wen — <a href="https://weisongwen.github.io/" style="color:var(--primary, #9e2435);">Homepage</a></h4>
+<p style="text-align:left; margin:0 0 0.6em 0; font-size:0.92em; line-height:1.6;">
+<b class="blue">Dr. Weisong Wen</b> is an <b class="blue">Assistant Professor</b> at the Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University, and the <b class="blue">Founding Director of the Trustworthy AI and Autonomous Systems Laboratory (TAS Lab)</b>. He also directs the <b class="blue">PolyU-Wuxi Intelligent Transportation and Unmanned Systems Center</b> and the <b class="blue">PolyU-LinXAI</b> and <b class="blue">PolyU-Simple AI Joint Laboratories</b>, and is the Faculty Advisor of the PolyU AI &amp; Robotics Club (200+ members). Dr. Wen aims to build algorithm foundations for <b class="blue">embodied AI</b> that enable trustworthy perception, navigation, and control of autonomous systems. In particular, he aims to develop practical embodied AI-driven autonomous systems (<b class="blue">drones</b>, <b class="blue">intelligent vehicles</b>, and <b class="blue">humanoid robots</b>) with end-to-end learning and safety certification capabilities, enabling them to perceive, reason, and interact with the physical world safely and reliably for the future society.
 </p>
-<p style="text-align:justify; margin:0 0 0.6em 0; font-size:0.92em; line-height:1.6; color:#333;">
+<p style="text-align:left; margin:0 0 0.6em 0; font-size:0.92em; line-height:1.6;">
 Dr. Wen received a BEng degree in Mechanical Engineering from <b class="blue">Beijing Information Science and Technology University (BISTU)</b> in 2015, and a MEng degree from the <b class="blue">China Agricultural University (CAU)</b> in 2017. He received a PhD degree from <b class="blue">The Hong Kong Polytechnic University (PolyU)</b> supervised by Dr. Li-ta Hsu in 2020. He was also a visiting PhD student at the <b class="blue">University of California, Berkeley (UC Berkeley)</b> in 2018, supervised by Dr. Zhan and Prof. Tomizuka.
 </p>
-<p style="text-align:justify; margin:0; font-size:0.92em; line-height:1.6; color:#333;">
-He has published more than <b class="blue">62 SCI journal papers</b> and <b class="blue">56 conference papers</b> (total citations: <b class="blue">2,600+</b>, h-index: <b class="blue">27</b>) and has secured over <b class="blue">HK$28M</b> in research funding as PI. He was ranked in the <b class="blue">World's Top 2% Most-cited Scientists</b> by Stanford University in both 2023 and 2024. He won the <b class="blue">Innovation Award from TechConnect 2021</b>, the <b class="blue">Best Presentation Award from ION in 2020</b>, the <b class="blue">Top Cited Paper Award from NAVIGATION (Journal of ION) in 2022</b>, and the <b class="blue">Faculty of Engineering Research Grant Achievement Award from PolyU in 2025</b>. He is also the <b class="blue">Associate Editor of IEEE Transactions on Vehicular Technology</b> (JCR Q1, IF: 7.1).
+<p style="text-align:left; margin:0; font-size:0.92em; line-height:1.6;">
+He has published <b class="blue">129 papers</b>, including <b class="blue">70 journal papers</b> (51 in JCR Q1) and <b class="blue">59 conference papers</b> (ICRA, IROS, ITSC, ION GNSS+), with <b class="blue">3,800+ citations</b> (Google Scholar h-index: <b class="blue">31</b>). He has led <b class="blue">35 research projects</b> as PI with government and industry partners, tackling trustworthy perception for drones in urban low-altitude airspace, safe end-to-end driving for logistics vehicles, and robust AI navigation for legged and humanoid robots. He was ranked among the <b class="blue">World's Top 2% Most-cited Scientists</b> (Stanford/Elsevier) in 2023, 2024 and 2025. His recognitions include the <b class="blue">Natural Science First Prize of the China Simulation Federation (2026)</b>, the <b class="blue">PolyU Faculty of Engineering Merit Award for Outstanding Early Career Researcher (2026)</b>, the <b class="blue">Faculty of Engineering Research Grant Achievement Award (2025)</b>, the <b class="blue">Best Student Paper Award at ION GNSS+ 2024</b> with his students, the <b class="blue">Top Cited Paper Award from NAVIGATION (2022)</b>, the <b class="blue">Innovation Award from TechConnect (2021)</b>, and the <b class="blue">Best Presentation Award from ION (2020)</b>. He serves as <b class="blue">Associate Editor of IEEE Transactions on Intelligent Vehicles</b> (2026–) and <b class="blue">IEEE Transactions on Vehicular Technology</b> (2024–), and as Associate Editor for ICRA and IROS (2025–26).
 </p>
 </div>
 
@@ -189,60 +189,38 @@ He has published more than <b class="blue">62 SCI journal papers</b> and <b clas
   {% include list_students.html data="members" component="portrait_students" filters="role == 'alumni'" %}
 </div>
 
----
+<div class="team-section-title" id="gallery">Gallery · Life at TAS Lab</div>
+<p class="team-section-lead">Team photos, competitions, field tests and visits. Click a photo to enlarge.</p>
+{% include gallery.html %}
 
-#### Inclusion and Diversity
+<div class="team-section-title" id="inclusion-and-diversity">Inclusion and Diversity</div>
+<p class="team-section-lead">
+  To advance collaborative, practical solutions to global challenges, TAS Lab fosters diversity, equity,
+  inclusion and belonging in everything we do.
+</p>
 
-To fulfill our mission to advance collaborative approaches and practical solutions to global challenges, <b class="blue">PolyU TAS Lab</b> strives to foster <b class="blue">diversity, equity, inclusion, and belonging</b> in all we do.
+<ul class="values-grid">
+  <li><span class="values-title">Diversity</span><span class="values-text">drives richer ideas and solutions.</span></li>
+  <li><span class="values-title">Equity</span><span class="values-text">ensures that every voice is heard and valued.</span></li>
+  <li><span class="values-title">Inclusion</span><span class="values-text">gives everyone a seat at the decision-making table.</span></li>
+  <li><span class="values-title">Belonging</span><span class="values-text">means we all feel welcome and confident in our roles.</span></li>
+</ul>
 
-We strive to do so as a moral imperative and also because:
-
-- <b class="blue">Diversity</b> drives richer ideas and solutions.
-- <b class="blue">Equity</b> ensures that all voices are heard and valued.
-- <b class="blue">Inclusion</b> results in a seat at the decision-making table.
-- <b class="blue">Belonging</b> means that we all feel welcome and confident in our roles.
-
-As such, TAS Lab is committed to:
-
-- Dedicating time and creating safe spaces for people to voice diverse perspectives in decision making, teaching, research, and in our work with community partners.
-- Acknowledging, working to understand, and repairing the power imbalances that have historically marginalized many voices, including in the field of international development.
-- Progressively becoming more diverse, equitable, and inclusive, and ultimately becoming an anti-racist organization.
-
-In this way, we aim for TAS Lab staff, students, and collaborators around the world to be able to design for a more equitable world.
-
----
-
-#### We are grateful for the continued support we receive from:
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/polyu_logo.png"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 250px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/aaelogo.png"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 250px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/feng.png"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 120px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/RIAM_Logo.png"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 130px; margin: 0 auto; vertical-align: middle;">
+<div class="values-commit">
+  <p class="values-commit-title">Our commitments</p>
+  <ul>
+    <li>Make time and safe space for diverse perspectives in decisions, teaching, research and work with partners.</li>
+    <li>Acknowledge and help repair the power imbalances that have marginalised many voices.</li>
+    <li>Keep becoming more diverse, equitable and inclusive as a lab.</li>
+  </ul>
 </div>
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/RILSlogo.png"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 180px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/UGC_logo.png"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 220px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/itc-logo.png"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 250px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/TD_logo.png"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 0 auto; vertical-align: middle;">
-</div>
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/RGC_logo.jpg"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 150px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/guangdong_logo.png"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 170px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/huawei_logo.webp"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 180px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/honor-logo-black.svg"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 120px; margin: 30px auto; vertical-align: middle;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/logo/meituan_logo.png"
-       style="width: 100%; height: auto; object-fit: cover; max-width: 120px; margin: 0 auto; vertical-align: middle;">
-</div>
+
+<div class="team-section-title" id="advisory-board">With gratitude to our Advisory Board ({{ site.data.advisors.size }})</div>
+<p class="team-section-lead">We sincerely thank our advisors, industry and academic leaders who generously share their time
+  and experience to guide our research, products and partnerships.</p>
+{% include advisors.html %}
+
+<div class="team-section-title" id="funders">With gratitude to our funders and partners</div>
+<p class="team-section-lead">Our work is made possible by government, industry and university support.</p>
+
+{% include partners.html %}

@@ -7,23 +7,18 @@ tags: news
 order: 
 ---
 
-## Dr. Wen is invited to join R&D and collaboration meetings with ASTRI in Hefei.
+Hefei, in Anhui Province, has been selected by the Central Air Traffic Management Committee as one of the pilot cities for low-altitude economy (LAE) reform. As part of this initiative, Hefei is actively developing its LAE industry and exploring new opportunities in the field.
 
-Hefei City, located in Anhui Province, has been selected as one of the pilot cities for low-altitude economy (LAE) reform by the Central Air Traffic Management Committee. As part of this initiative, Hefei is actively advancing its LAE industry and exploring new opportunities in this field.
+In March 2025, Dr. Wen was invited to take part in R&D and collaboration meetings with ASTRI and several key industrial partners from the Greater Bay Area (GBA). With support from the Hefei Government and the Advanced Technology Application and Promotion Centre, several LAE scenarios and related supply-chain initiatives were showcased, opening up potential collaborations in LAE development and smart mobility solutions.
 
-In March 2025, Dr. Wen was invited to participate in R&D and collaboration meetings with ASTRI and several GBA key industrial partners. With support from the Hefei Government and the Advanced Technology Application and Promotion Centre, several LAE scenarios and related supply chain initiatives were showcased, sparking potential collaborations in LAE development and smart mobility solutions.
-
-We look forward to the next phase of collaboration and advancing innovation in the low-altitude economy.
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/hefei_LAE/LAE_demo.jpg" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/hefei_LAE/LAE_demo.jpg" alt="LAE urban delivery scenario demonstration in Hefei"></figure>
 </div>
-The LAE scenario includes urban delivery.
+<p class="news-caption">The LAE scenarios include urban delivery.</p>
 
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/hefei_LAE/evtol.jpg" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="{{ site.baseurl }}/images/news/hefei_LAE/evtol.jpg" alt="eVTOL aircraft on display in Hefei"></figure>
 </div>
-The eVTOL has entered the mass production phase.
+<p class="news-caption">The eVTOL has entered the mass production phase.</p>
+
+TASLAB looks forward to the next phase of collaboration and to advancing innovation in the low-altitude economy.

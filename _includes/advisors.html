@@ -1,0 +1,14 @@
+<div class="advisor-grid">
+  {% for person in site.data.advisors %}
+  <div class="advisor-card">
+    <img class="advisor-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}" loading="lazy">
+    <span class="advisor-name">{{ person.name }}</span>
+    <div class="advisor-role-slot"><span class="advisor-role">{{ person.role }}</span></div>
+    <ul class="advisor-points">
+      {% for point in person.points %}
+      <li>{{ point }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>

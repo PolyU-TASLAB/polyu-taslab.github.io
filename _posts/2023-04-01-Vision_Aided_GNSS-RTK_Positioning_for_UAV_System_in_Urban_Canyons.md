@@ -2,7 +2,7 @@
 title: Vision Aided GNSS-RTK Positioning for UAV System in Urban Canyons
 subtitle: Fisheye Camera Aided GNSS NLOS Detection and Learning-based Pseudorange Bias Correction for Intelligent Vehicles in Urban Canyons
 # author: XNG
-image: images/project/Vision_aided_GNSS_RTK/framework.png
+image: images/project/Vision_aided_GNSS_RTK/framework.jpg
 tags: Artificial intelligence, Deep learning, GNSS
 research_direction: gnss
 order: 
@@ -27,21 +27,20 @@ Undergoing
 ## System Framework
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/Vision_aided_GNSS_RTK/framework.png" alt="Team Banner" 
+  <img src="{{ site.baseurl }}/images/project/Vision_aided_GNSS_RTK/framework.jpg" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
 ## NLOS Detection Results
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/Vision_aided_GNSS_RTK/NLOS.gif" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <video src="{{ site.baseurl }}/images/project/Vision_aided_GNSS_RTK/NLOS.mp4" poster="{{ site.baseurl }}/images/project/Vision_aided_GNSS_RTK/NLOS.jpg" autoplay loop muted playsinline preload="metadata" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;"></video>
 </div>
 
 ## Position Result
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/Vision_aided_GNSS_RTK/position.png" alt="Team Banner" 
+  <img src="{{ site.baseurl }}/images/project/Vision_aided_GNSS_RTK/position.jpg" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 

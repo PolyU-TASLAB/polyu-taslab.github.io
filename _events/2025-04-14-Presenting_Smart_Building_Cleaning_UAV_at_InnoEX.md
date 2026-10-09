@@ -7,53 +7,40 @@ tags: news
 order: 
 ---
 
-# Presenting Smart Building Cleaning UAV System at InnoEX 2025 to Jiangsu Enterprises
+On 14 April 2025, the Trustworthy AI and Autonomous Systems Laboratory (TASLAB) at The Hong Kong Polytechnic University (PolyU) presented its **Smart Building Cleaning UAV System** at **InnoEX 2025**, Asia's innovation and technology expo in Hong Kong. The system was demonstrated to a delegation of enterprise leaders from **Jiangsu Province**, China. It aims to transform high-rise building maintenance through autonomous aerial robotics, in line with national goals for smart city development and low-altitude economy (LAE) growth.
 
-**HONG KONG, April 2025** — Our Lab, the **Trustworthy Autonomous System (TAS) Lab** at The Hong Kong Polytechnic University, unveiled its groundbreaking **Smart Building Cleaning UAV System at InnoEX 2025**, Asia’s premier innovation and technology expo on April 14th, 2025. The system, demonstrated to a delegation of enterprise leaders from **Jiangsu Province**, China, promises to revolutionize high-rise building maintenance through autonomous aerial robotics, aligning with national goals for smart city development and low-altitude economy growth.
+Approval under the LAE Regulatory Sandbox enables TASLAB to conduct a series of real-world unmanned aerial vehicle (UAV) trials across key zones in Hong Kong, advancing the lab's work in **aerial robotics, low-altitude applications and smart city integration**.
 
-This approval enables TAS Lab to conduct a series of real-world unmanned aerial vehicle (UAV) trials across critical zones in Hong Kong, positioning the lab at the forefront of **aerial robotics, low-altitude applications, and smart city integration**.
-
-<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/InnoEX2025/event1.jpg" alt="Banner" 
-       style="width: 90%; height: auto; object-fit: cover; border-radius: 15px;">
+<div class="news-photos" data-cols="2">
+  <figure><img src="{{ site.baseurl }}/images/news/InnoEX2025/event1.jpg" alt="TASLAB presenting the UAV system at InnoEX 2025"></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/InnoEX2025/event2.jpg" alt="Jiangsu enterprise delegation at the TASLAB booth"></figure>
 </div>
+<p class="news-caption">TASLAB presented the Smart Building Cleaning UAV System to enterprise leaders from Jiangsu at InnoEX 2025.</p>
 
-## Key Features and Demonstration
+### Key features and demonstration
 
 The system showcased at InnoEX 2025 includes:
 
--**AI-Powered Navigation**: SLAM (Simultaneous Localization and Mapping) technology for obstacle avoidance in complex urban terrain.
+- **AI-Powered Navigation**: SLAM (Simultaneous Localization and Mapping) technology for obstacle avoidance in complex urban terrain.
+- **Adaptive Cleaning Modules**: water-efficient, chemical-free spray systems adjustable for glass, concrete and solar panels.
+- **Real-Time Structural Health Monitoring**: onboard sensors detect cracks, corrosion or thermal leaks and transmit the data to facility managers.
+- **Low-Altitude Compliance**: operates within Hong Kong's 300-foot AGL regulatory framework, validated through the LAE Regulatory Sandbox.
 
--**Adaptive Cleaning Modules**: Water-efficient, chemical-free spray systems adjustable for glass, concrete, and solar panels.
+### Strategic interest from Jiangsu enterprises
 
--**Real-Time Structural Health Monitoring**: Onboard sensors detect cracks, corrosion, or thermal leaks, transmitting data to facility managers.
-
--**Low-Altitude Compliance**: Operates within Hong Kong’s 300-foot AGL regulatory framework, validated through the LAE Regulatory Sandbox.
-
-
-
-<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/InnoEX2025/event2.jpg" alt="Banner" 
-       style="width: 90%; height: auto; object-fit: cover; border-radius: 15px;">
-</div>
-
-## Strategic Interest from Jiangsu Enterprises
-
-Jiangsu, home to over 60% of China’s skyscrapers above 200 meters, represents a key market for the technology. During the event, Nanjing Smart City Group and Suzhou Industrial Park Authority expressed intent to pilot the system for maintaining commercial towers and industrial facilities.
+Jiangsu, home to over 60% of China's skyscrapers above 200 meters, is a key market for the technology. During the event, Nanjing Smart City Group and Suzhou Industrial Park Authority expressed their intent to pilot the system for maintaining commercial towers and industrial facilities.
 
 Mr. Wei Zhang, CEO of Nanjing Smart City Group, remarked:
 
 > *"Hong Kong’s expertise in autonomous systems complements Jiangsu’s infrastructure needs. This UAV solution could reduce rooftop maintenance costs by 40% while enhancing worker safety—a win for our ESG goals."*
 
-## Next Steps: Cross-Boundary Collaboration
+### Next steps: cross-boundary collaboration
 
-Building on the LAE Sandbox trials, TAS Lab plans:
+Building on the LAE Sandbox trials, TASLAB plans:
 
--**Joint Pilots**: Deploy UAVs in Jiangsu’s Nanjing CBD and Suzhou Industrial Park in Q1 2026.
-
--**Regulatory Alignment**: Work with Mainland authorities to harmonize UAV operations across the Greater Bay Area.
-
--**AI Expansion**: Integrate generative AI for predictive maintenance scheduling based on sensor data.
+- **Joint Pilots**: deploy UAVs in Jiangsu's Nanjing CBD and Suzhou Industrial Park in Q1 2026.
+- **Regulatory Alignment**: work with Mainland authorities to harmonise UAV operations across the Greater Bay Area.
+- **AI Expansion**: integrate generative AI for predictive maintenance scheduling based on sensor data.
 <!-- ## Project Scope and Locations
 
 The approved project runs from **January 2 to December 30, 2025**, and includes UAV operations at:
@@ -66,9 +53,8 @@ These locations were chosen for their strategic importance in innovation, health
 
 <!-- ## Test Flight Route
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/flight_route.jpeg" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/flight_route.jpeg" alt="Map of the UAV test flight routes"></figure>
 </div>
 
 ### Flight route 

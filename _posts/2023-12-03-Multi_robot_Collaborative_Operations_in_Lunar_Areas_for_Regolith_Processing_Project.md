@@ -10,7 +10,7 @@ order:
 ## Abstract
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/rugged_surface_problem_lunar.jpg" alt="Team Banner" 
+  <img src="{{ site.baseurl }}/images/project/rugged_surface_problem_lunar.jpg" alt="Team Banner" 
        style="width: 50%; height: auto; object-fit: cover; max-width: 350px; margin: 0 auto; border-radius: 15px;">
 </div>
 
@@ -41,25 +41,23 @@ Ongoing
 ## System Framework
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/prototype.png" alt="Team Banner" 
+  <img src="{{ site.baseurl }}/images/project/prototype.png" alt="Team Banner" 
        style="width: 60%; height: auto; object-fit: cover; max-width: 320px; margin: 0 auto; border-radius: 15px;">
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/overall_architecture_lunar.jpg" alt="Team Banner" 
+  <img src="{{ site.baseurl }}/images/project/overall_architecture_lunar.jpg" alt="Team Banner" 
        style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
 </div>
 
 ## Mapping Results
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/speed_4_combined_arms.gif" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <video src="{{ site.baseurl }}/images/project/speed_4_combined_arms.mp4" poster="{{ site.baseurl }}/images/project/speed_4_combined_arms.jpg" autoplay loop muted playsinline preload="metadata" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;"></video>
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/project/speedy_clipped_ms_AO.gif" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+  <video src="{{ site.baseurl }}/images/project/speedy_clipped_ms_AO.mp4" poster="{{ site.baseurl }}/images/project/speedy_clipped_ms_AO.jpg" autoplay loop muted playsinline preload="metadata" style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;"></video>
 </div>
 
 ## Achievements

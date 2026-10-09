@@ -6,8 +6,8 @@ strong {
   font-weight: var(--bold);
 }
 
-// Blue bold emphasis for key terms
+// emphasis for key terms: weight only, so dense paragraphs stay calm to read
 .blue {
-  color: var(--primary);
-  font-weight: var(--bold);
+  color: inherit;
+  font-weight: var(--semi-bold);
 }

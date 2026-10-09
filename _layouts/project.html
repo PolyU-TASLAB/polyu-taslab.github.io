@@ -1,0 +1,130 @@
+---
+layout: default
+---
+
+{% include project-status.html project=page %}
+{% include project-direction.html direction=page.direction %}
+
+{% include section.html %}
+
+<div class="project-hero">
+  <a class="project-back" href="{{ '/projects/' | relative_url }}">← All projects</a>
+  <div class="project-hero-tags">
+    <span class="project-status" data-type="{{ page.type }}">{{ project_type_label }}</span>
+    <span class="project-state" data-status="{{ page.status }}">{{ project_status_label }}</span>
+    <span class="project-direction-pill">{{ direction_label }}</span>
+  </div>
+  <h1 class="project-title">{{ page.title }}</h1>
+  <p class="project-summary">{{ page.summary }}</p>
+
+  <dl class="project-facts-list">
+    {% if page.funder %}<div><dt>Funded by</dt><dd>{{ page.funder }}</dd></div>{% endif %}
+    {% if page.partners %}<div><dt>Partners</dt><dd>{{ page.partners }}</dd></div>{% endif %}
+    <div><dt>Period</dt><dd>{{ page.period | default: project_since }}</dd></div>
+    <div><dt>Status</dt><dd>{{ project_status_label }}</dd></div>
+    {% if page.role %}<div><dt>Lab role</dt><dd>{{ page.role }}</dd></div>{% endif %}
+  </dl>
+</div>
+
+{% if page.facts %}
+<ul class="oss-stats project-stats">
+  {% for f in page.facts %}
+  <li class="oss-stat"><span class="oss-stat-value">{{ f.value }}</span><span class="oss-stat-label">{{ f.label }}</span></li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% include section.html %}
+
+<div class="project-body">
+  {% assign hero = page.gallery | first %}
+  <figure class="project-feature">
+    <a href="{{ hero.image | relative_url }}" target="_blank" rel="noopener">
+      <img src="{{ hero.image | relative_url }}" alt="{{ hero.caption | default: page.title }}">
+    </a>
+    {% if hero.caption != "" %}<figcaption>{{ hero.caption }}</figcaption>{% endif %}
+  </figure>
+
+  <div class="project-text">
+    <div class="project-block">
+      <h2 class="project-block-title">Background &amp; challenge</h2>
+      <p>{{ page.challenge }}</p>
+    </div>
+    {% if page.objectives %}
+    <div class="project-block">
+      <h2 class="project-block-title">Objectives</h2>
+      <ol class="project-objectives">
+        {% for o in page.objectives %}<li>{{ o }}</li>{% endfor %}
+      </ol>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="project-columns">
+  <div class="project-block">
+    <h2 class="project-block-title">Our approach</h2>
+    <ul class="project-approach">
+      {% for a in page.approach %}<li>{{ a }}</li>{% endfor %}
+    </ul>
+  </div>
+  {% if page.outcomes %}
+  <div class="project-block">
+    <h2 class="project-block-title">Outcomes &amp; impact</h2>
+    <p>{{ page.outcomes }}</p>
+  </div>
+  {% endif %}
+  {{ content }}
+</div>
+
+{% assign completed_components = page.components | where: "status", "completed" %}
+{% if completed_components.size > 0 %}
+<h2 class="project-gallery-title">Completed projects in this programme ({{ completed_components.size }})</h2>
+<ul class="project-components">
+  {% for c in completed_components %}
+  <li class="project-component">
+    <div class="project-component-meta"><span>{% if c.period != "" %}{{ c.period }}{% else %}{{ c.start }}{% endif %}</span><span>{{ c.funder }}</span></div>
+    <h3 class="project-component-title">{{ c.title }}</h3>
+    <p class="project-component-text">{{ c.summary }}</p>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if page.gallery.size > 1 %}
+<h2 class="project-gallery-title">Gallery</h2>
+<div class="project-gallery">
+  {% for g in page.gallery offset: 1 %}
+  <figure>
+    <a href="{{ g.image | relative_url }}" target="_blank" rel="noopener">
+      <img src="{{ g.image | relative_url }}" alt="{{ g.caption | default: page.title }}" loading="lazy">
+    </a>
+    {% if g.caption != "" %}<figcaption>{{ g.caption }}</figcaption>{% endif %}
+  </figure>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if page.post %}
+{% assign post = site.posts | where_exp: "x", "x.path contains page.post" | first %}
+{% if post %}
+<p class="project-more">
+  <a class="btn btn-light btn-sm" href="{{ post.url | relative_url }}">Read the original project article</a>
+</p>
+{% endif %}
+{% endif %}
+
+{% include section.html %}
+
+{% assign all = site.projects | sort: "start" | reverse %}
+{% assign same = all | where: "direction", page.direction %}
+<h2 class="project-gallery-title">More in {{ direction_label }}</h2>
+<div class="oss-grid project-grid project-related">
+  {% assign shown = 0 %}
+  {% for p in same %}
+    {% if p.url != page.url and shown < 3 %}
+      {% include project-card.html project=p %}
+      {% assign shown = shown | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+</div>

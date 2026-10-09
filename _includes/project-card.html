@@ -1,0 +1,22 @@
+{% assign p = include.project %}
+{% include project-status.html project=p %}
+{% include project-direction.html direction=p.direction %}
+<a class="oss-card project-card" href="{{ p.url | relative_url }}" data-type="{{ p.type }}" data-status="{{ p.status }}" data-direction="{{ p.direction }}">
+  <div class="oss-image">
+    <img src="{{ p.cover | relative_url }}" alt="{{ p.title }}" loading="lazy">
+  </div>
+  <div class="oss-body">
+    <div class="oss-meta">
+      <span class="project-status" data-type="{{ p.type }}">{{ project_type_label }}</span>
+      <span class="project-state" data-status="{{ p.status }}">{{ project_status_label }}</span>
+      <span class="oss-stars">{{ project_since }}{% if p.components %}{% assign completed_components = p.components | where: "status", "completed" %} · {{ completed_components.size }} completed projects{% endif %}</span>
+    </div>
+    <h3 class="oss-title">{{ p.title }}</h3>
+    <p class="oss-desc">{{ p.summary }}</p>
+    <p class="project-card-funder"><b>Funded by</b> {{ p.funder }}</p>
+    <div class="project-card-foot">
+      <span class="project-direction">{{ direction_label }}</span>
+      <span class="project-card-more">Details →</span>
+    </div>
+  </div>
+</a>

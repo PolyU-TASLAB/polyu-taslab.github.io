@@ -1,0 +1,39 @@
+<div class="rw-grid">
+  {% for w in include.items %}
+  <article class="rw-card" id="{{ w.id }}">
+    <a class="rw-media" href="{{ w.cover | relative_url }}" target="_blank" rel="noopener">
+      <img src="{{ w.cover | relative_url }}" alt="{{ w.title }}" loading="lazy">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">{{ w.title }}</h3>
+      <p class="rw-summary">{{ w.summary }}</p>
+      {% if w.facts %}
+      <ul class="rw-facts">
+        {% for f in w.facts %}<li><b>{{ f.value }}</b> {{ f.label }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+      <details class="rw-more">
+        <summary>Problem, approach &amp; results</summary>
+        <p><span class="rw-label">Problem</span>{{ w.challenge }}</p>
+        <span class="rw-label">Approach</span>
+        <ul class="project-approach">
+          {% for a in w.approach %}<li>{{ a }}</li>{% endfor %}
+        </ul>
+        {% if w.outcomes %}<p><span class="rw-label">Results</span>{{ w.outcomes }}</p>{% endif %}
+        {% if w.gallery.size > 1 %}
+        <div class="rw-gallery">
+          {% for g in w.gallery %}
+          <figure>
+            <a href="{{ g.image | relative_url }}" target="_blank" rel="noopener">
+              <img src="{{ g.image | relative_url }}" alt="{{ g.caption | default: w.title }}" loading="lazy">
+            </a>
+            {% if g.caption != "" %}<figcaption>{{ g.caption }}</figcaption>{% endif %}
+          </figure>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </details>
+    </div>
+  </article>
+  {% endfor %}
+</div>

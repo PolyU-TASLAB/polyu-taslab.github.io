@@ -1,0 +1,14 @@
+# Numbers shown in the "Highlights" panel on the home page.
+# Source: TAS Lab introduction slides, fact sheet as of September 2026.
+# The GitHub stars line is computed automatically from the `stars:` fields in _opensource/.
+
+- value: "129"
+  label: Papers · 70 journal (51 JCR Q1) · 59 conference
+- value: "3,800+"
+  label: Google Scholar citations · h-index 31
+- value: "30+"
+  label: Members · 15 PhD · 11 MPhil · 3 postdocs
+- value: "5+"
+  label: Industry partners using our technology · 60K+ devices deployed
+- value: github-stars
+  label: GitHub stars on our open datasets & code

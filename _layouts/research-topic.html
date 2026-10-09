@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+<div class="rt-intro">
+  <a class="project-back" href="{{ '/research/' | relative_url }}">← All research directions</a>
+  <div class="rt-intro-grid{% unless page.figure %} rt-intro-single{% endunless %}">
+    <div class="rt-intro-text">
+      {{ page.intro | markdownify }}
+      {% if page.focus %}
+      <ul class="rt-chips">
+        {% for f in page.focus %}<li>{{ f }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    {% if page.figure %}
+    <figure class="rt-figure">
+      <a href="{{ page.figure.image | relative_url }}" target="_blank" rel="noopener">
+        <img src="{{ page.figure.image | relative_url }}" alt="{{ page.figure.caption | default: page.title }}">
+      </a>
+      {% if page.figure.caption %}<figcaption>{{ page.figure.caption }}</figcaption>{% endif %}
+    </figure>
+    {% endif %}
+  </div>
+</div>
+
+{% if page.pillars %}
+{% include section.html %}
+<h2 id="approach">Our Approach</h2>
+<ol class="rt-pillars" data-count="{{ page.pillars.size }}">
+  {% for p in page.pillars %}
+  <li>
+    <h3>{{ p.title }}</h3>
+    <p>{{ p.text }}</p>
+  </li>
+  {% endfor %}
+</ol>
+{% if page.approach_figure %}
+<figure class="rt-figure rt-figure-wide">
+  <a href="{{ page.approach_figure.image | relative_url }}" target="_blank" rel="noopener">
+    <img src="{{ page.approach_figure.image | relative_url }}" alt="{{ page.approach_figure.caption }}" loading="lazy">
+  </a>
+  <figcaption>{{ page.approach_figure.caption }}</figcaption>
+</figure>
+{% endif %}
+{% if page.applications %}
+<h3 class="rt-subtitle">Target applications</h3>
+<ul class="rt-applications">
+  {% for a in page.applications %}<li><b>{{ a.title }}</b><span>{{ a.text }}</span></li>{% endfor %}
+</ul>
+{% endif %}
+{% endif %}
+
+{% assign work = site.data.research_work | where: "topic", page.topic %}
+{% if work.size > 0 %}
+{% include section.html %}
+<h2 id="research-in-action">Research in Action</h2>
+<p class="rt-section-lead">Systems we have built and tested with partners. Open a card for the problem, our approach, results and photos.</p>
+{% include research-work.html items=work %}
+{% endif %}
+
+{% if page.videos %}
+{% include section.html %}
+<h2 id="videos">Video Demonstrations</h2>
+<div class="rt-videos">
+  {% for v in page.videos %}{% include video-card.html video=v %}{% endfor %}
+</div>
+{% endif %}
+
+{{ content }}
+
+<script>
+  document.addEventListener("click", function (event) {
+    var button = event.target.closest(".video-lite");
+    if (!button) return;
+    var frame = document.createElement("iframe");
+    frame.src = button.dataset.src;
+    frame.title = button.getAttribute("aria-label");
+    frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+    frame.allowFullscreen = true;
+    button.replaceWith(frame);
+  });
+</script>

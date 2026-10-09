@@ -1,0 +1,6 @@
+{%- case include.direction -%}
+  {%- when "drones" -%}{%- assign direction_label = "Drones & Low-Altitude Economy" -%}
+  {%- when "legged" -%}{%- assign direction_label = "Legged, Humanoid & Space Robots" -%}
+  {%- when "driving" -%}{%- assign direction_label = "Autonomous Driving & V2X" -%}
+  {%- else -%}{%- assign direction_label = "AI Perception & Multi-Sensor Fusion" -%}
+{%- endcase -%}

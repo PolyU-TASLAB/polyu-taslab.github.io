@@ -1,9 +1,9 @@
 ---
 name: Wu Haobo
 image: images/team/wu_haobo.jpg
-role: ra
+role: alumni
 affiliation: PolyU-Wuxi Technology and Innovation Research institute
-order: 6
+order: 30
 
 links:
   home-page: 

@@ -1,16 +1,15 @@
 ---
 ---
 
-$page: 1000px;
-$padding: 30px;
+$padding: 36px;
 
 section {
-  padding: $padding max($padding, calc((100% - $page) / 2));
+  padding: $padding max(20px, calc((100% - var(--page-width)) / 2));
   transition: background var(--transition), color var(--transition);
 }
 
 section[data-size="wide"] {
-  padding: $padding;
+  padding: $padding 20px;
 }
 
 section[data-size="full"] {
@@ -36,4 +35,6 @@ main > section:nth-of-type(odd) {
 
 main > section:nth-of-type(even) {
   background: var(--background-alt);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }

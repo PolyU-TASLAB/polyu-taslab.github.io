@@ -1,5 +1,5 @@
 ---
-title: Dr. Wen presented TAS Lab Research on LAE for HKGCC members on Feb 18, 2025
+title: Dr. Wen presented TASLAB Research on LAE for HKGCC members on Feb 18, 2025
 subtitle: news
 # author: xxx
 image: images/news/together1.jpg
@@ -7,25 +7,16 @@ tags: news
 order: 
 ---
 
-## Dr. Wen presented TAS Lab Research on LAE for HKGCC members on Feb 18, 2025
+On 18 February 2025, Dr. Weisong Wen gave a talk to fellows of the Hong Kong General Chamber of Commerce (HKGCC) at an event of the Research Centre for Low Altitude Economy (RCLAE), presenting the latest work of the Trustworthy AI and Autonomous Systems Laboratory (TASLAB). The presentation covered recent developments in unmanned aerial vehicle (UAV) technology for the low-altitude economy (LAE) and ended with a live demonstration of UAV trajectory following at the FJ005 Laboratory.
 
-On February 18, 2025, Dr. Wen Weisong delivered a captivating talk to the fellows from HKGCC (Hong Kong General Chamber of Commerce) at the RCLAE (Research Centre for Low Altitude Economy) event, presenting the latest advancements from TAS LAB (Trustworthy Autonomous Systems Laboratory). The presentation highlighted cutting-edge developments in unmanned aerial vehicle (UAV) technology, culminating in a live demonstration of UAV trajectory following at the FJ005 Laboratory.
-
-<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/talks.jpg" alt="Team Banner" 
-       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/lab1.jpg" alt="Dr. Wen Weisong Talk" 
-       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
+<div class="news-photos" data-cols="2">
+  <figure><img src="{{ site.baseurl }}/images/news/talks.jpg" alt="Dr. Weisong Wen giving his talk"></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/lab1.jpg" alt="UAV demonstration at the FJ005 Laboratory"></figure>
 </div>
-<div style="text-align: center; margin-bottom: 20px;">
-  Dr. Weisong Wen talk at the RCLAE (Research Centre for Low Altitude Economy) event and demonstrate at FJ005 Laboratory
+<p class="news-caption">Dr. Weisong Wen speaking at the RCLAE event and the demonstration at the FJ005 Laboratory.</p>
+
+<div class="news-photos" data-cols="2">
+  <figure><img src="{{ site.baseurl }}/images/news/together1.jpg" alt="Group photo at the event"></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/together.jpg" alt="Group photo at the event"></figure>
 </div>
-
-
-<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/together1.jpg" alt="Team Banner" 
-       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/together.jpg" alt="Dr. Wen Weisong Talk" 
-       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
-</div>
-
+<p class="news-caption">Group photos from the visit.</p>

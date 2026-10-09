@@ -1,5 +1,5 @@
 ---
-title: Successfully Application on Low-altitude Sandbox Project
+title: Successful Application for the Low-altitude Sandbox Project
 subtitle: news
 # author: Ziqi
 image: images/news/sandbox1.jpg
@@ -7,27 +7,23 @@ tags: news
 order: 
 ---
 
-# Successfully Application on Low-altitude Sandbox Project
+**HONG KONG, April 2025** — The Trustworthy AI and Autonomous Systems Laboratory (TASLAB) at The Hong Kong Polytechnic University (PolyU) has reached a key milestone in urban air mobility. In collaboration with **SUTPC Digital Technology (Hong Kong) Limited**, TASLAB has secured formal approval for trial operations under the **Low-altitude Economy (LAE) Regulatory Sandbox**, an initiative led by the **Transport and Logistics Bureau (TLB)** of the HKSAR Government.
 
-**HONG KONG, April 2025** — Our Lab, the **Trustworthy Autonomous System (TAS) Lab** at The Hong Kong Polytechnic University, has achieved a key milestone in advancing urban air mobility. In collaboration with **SUTPC Digital Technology (Hong Kong) Limited**, TAS Lab has secured formal approval for trial operations under the **Low-altitude Economy (LAE) Regulatory Sandbox**, an initiative led by the **Transport and Logistics Bureau (TLB)** of the HKSAR Government.
+This approval enables TASLAB to conduct a series of real-world unmanned aerial vehicle (UAV) trials across critical zones in Hong Kong, advancing its work in **aerial robotics, low-altitude applications and smart city integration**.
 
-This approval enables TAS Lab to conduct a series of real-world unmanned aerial vehicle (UAV) trials across critical zones in Hong Kong, positioning the lab at the forefront of **aerial robotics, low-altitude applications, and smart city integration**.
-
-## National Vision: A Smart Sky Economy
-
-In a recent public address, **Chief Executive Mr. John Lee** emphasized the LAE as:
-
-> *“One of our nation's strategic emerging industries, as well as the example in exploring new quality productive forces... It not only gives rise to a series of industries, but also brings along a very wide scope of application scenarios with tremendous potential. It is set to strengthen city management and business efficiency, and create a whole new experience of smart living for the public, making it an important growth engine for the economy.”*
-
-Mr. Lee reaffirmed the Government’s commitment to developing Hong Kong into both an **international innovation and technology centre** and a **hub for high-calibre talent**, with the LAE serving as a crucial pillar in this transformation. TAS Lab’s project contributes directly to this forward-looking initiative by combining academic research with field application.
-
-<div style="text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/sandbox1.jpg" alt="Banner" 
-       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/sandbox2.jpg" alt="Banner" 
-       style="width: 45%; height: auto; object-fit: cover; border-radius: 15px;">
+<div class="news-photos" data-cols="2" data-ratio="wide">
+  <figure><img src="{{ site.baseurl }}/images/news/sandbox1.jpg" alt="Chief Executive Mr. John Lee speaking at the LAE Regulatory Sandbox launch event"></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/sandbox2.jpg" alt="Officiating guests at the LAE Regulatory Sandbox launch event"></figure>
 </div>
+<p class="news-caption">The LAE Regulatory Sandbox launch event.</p>
 
+### National vision: a smart sky economy
+
+In a recent public address, **Chief Executive Mr. John Lee** described the low-altitude economy (LAE) as:
+
+> *"One of our nation's strategic emerging industries, as well as the example in exploring new quality productive forces... It not only gives rise to a series of industries, but also brings along a very wide scope of application scenarios with tremendous potential. It is set to strengthen city management and business efficiency, and create a whole new experience of smart living for the public, making it an important growth engine for the economy."*
+
+Mr. Lee reaffirmed the Government's commitment to developing Hong Kong into both an **international innovation and technology centre** and a **hub for high-calibre talent**, with the LAE as a crucial pillar of this transformation. The TASLAB project contributes directly to this initiative by combining academic research with field applications.
 
 <!-- ## Project Scope and Locations
 
@@ -41,9 +37,8 @@ These locations were chosen for their strategic importance in innovation, health
 
 <!-- ## Test Flight Route
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/flight_route.jpeg" alt="Team Banner" 
-       style="width: 100%; height: auto; object-fit: cover; max-width: 850px; margin: 0 auto; border-radius: 15px;">
+<div class="news-photos" data-cols="1">
+  <figure><img src="https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/news/flight_route.jpeg" alt="Test flight route map"></figure>
 </div>
 
 ### Flight route 
@@ -99,4 +94,4 @@ TAS Lab is proud to contribute to this pivotal national initiative that merges *
 
 --- -->
 
-For more about the Low-altitude Economy Regulatory Sandbox, visit [TLB’s official website](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html).
+For more about the Low-altitude Economy Regulatory Sandbox, visit [TLB's official website](https://www.tlb.gov.hk/eng/highlights/transport/low-altitude.html).

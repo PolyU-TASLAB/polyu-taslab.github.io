@@ -2,12 +2,19 @@
 title: Openings
 nav:
   order: 7
-  tooltip: Openings and contact
+  tooltip: PhD, MPhil, postdoc, RA and internship positions
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Openings
 
-We regularly have multiple openings for <b class="blue">Postdoc/PhD/MPhil/RA/Internships</b> (all year round) to work on research related to <b class="blue">AI-driven trustworthy autonomous systems</b>, with a focus on <b class="blue">end-to-end autonomous UAVs</b> and <b class="blue">end-to-end self-driving cars</b>. If you are a PolyU student (Undergraduate and MSc students seeking URIS or dissertation supervision) interested in working with me, feel free to drop me an email at <b class="blue">welson.wen@polyu.edu.hk</b> (together with your transcript and brief introduction) or walk into my office at <b class="blue">room R820</b>!
+We regularly have multiple openings for <b class="blue">Postdoc/PhD/MPhil/RA/Internships</b> (all year round) to work on research related to <b class="blue">AI-driven trustworthy autonomous systems</b>, with a focus on <b class="blue">end-to-end autonomous UAVs</b> and <b class="blue">end-to-end self-driving cars</b>. If you are a PolyU student (Undergraduate and MSc students seeking URIS or dissertation supervision) interested in working with me, please email me at <b class="blue">welson.wen@polyu.edu.hk</b> with your CV, transcript and a brief introduction.
+
+<div class="notice-card">
+  <strong>Interested in joining us? We would love to hear from you.</strong>
+  Please email <a href="mailto:welson.wen@polyu.edu.hk">welson.wen@polyu.edu.hk</a> with
+  <b>(1) your CV</b> and <b>(2) a research statement or a short slide deck</b> introducing your background, past work and the
+  research you would like to do. We review these materials first and will reply to arrange an interview if there is a good fit.
+</div>
 
 ---
 
@@ -26,13 +33,14 @@ For more specific topics, please refer to our [TAS Lab website](https://polyu-ta
 
 #### Application Requirements
 
-For those interested, please send the following materials to <b class="blue">welson.wen@polyu.edu.hk</b>:
+Interviews are arranged only after we have reviewed your materials. Please send the following to <b class="blue">welson.wen@polyu.edu.hk</b>:
 
-1. <b class="blue">CV</b> (with education background, publications, awards, and coding experience)
-2. <b class="blue">Representative publications list</b> (if any)
-3. <b class="blue">A detailed research proposal</b> (~6 pages) including abstract, background and literature review, research objectives, proposed methodology, expected outcomes, timeline, and references.
+1. <b class="blue">CV</b> (required): education background, publications, awards, projects and coding experience
+2. <b class="blue">Research statement</b> (required, 1–2 pages) <b>or a short slide deck</b> (about 10 slides): your background, representative work and the research you would like to pursue in TAS Lab
+3. <b class="blue">Representative publications or code</b> (if any): papers, GitHub repositories or demo videos
+4. For PhD/MPhil applicants: <b class="blue">a detailed research proposal</b> (~6 pages) with abstract, background and literature review, objectives, methodology, expected outcomes, timeline and references
 
-We will reply to you within one week if you are shortlisted for an interview.
+We will reply within one week if you are shortlisted for an interview.
 
 <b class="blue">For any candidate, you MUST have at least two of the following:</b>
 
@@ -50,7 +58,7 @@ We will reply to you within one week if you are shortlisted for an interview.
 - A vibrant, diverse, and inclusive research environment with <b class="blue">30+ lab members</b>
 - Funding support for <b class="blue">conference travel</b> and research equipment
 
-**Application materials:** CV + Publications/Coding portfolio + Research statement → <b class="blue">welson.wen@polyu.edu.hk</b>
+**Application materials:** CV + Research statement (or slides) + Publications/Coding portfolio → <b class="blue">welson.wen@polyu.edu.hk</b>
 
 {%
   include button.html
@@ -77,7 +85,7 @@ We will reply to you within one week if you are shortlisted for an interview.
 
 {%
   include figure.html
-  image="images/AboutPolyU_Campus3.png"
+  image="images/AboutPolyU_Campus3.jpg"
   width="66%"
   caption=" "
 %}

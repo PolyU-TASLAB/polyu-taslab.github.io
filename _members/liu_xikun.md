@@ -1,6 +1,6 @@
 ---
 name: Liu Xikun
-image: images/team/liu_xikun.png
+image: images/team/liu_xikun.jpg
 role: alumni  # pi / postdoc / phd / ms / under / ra / visiting / alumni
 affiliation: Hong Kong Polytechnic University
 order: 3

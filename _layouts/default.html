@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" data-dark="false">
   {% include head.html %}
-  <body>
+  {%- assign show_banner = false -%}
+  {%- if page.nav and page.url != "/" -%}{%- assign show_banner = true -%}{%- endif -%}
+  {%- if page.banner -%}{%- assign show_banner = true -%}{%- endif -%}
+  <body{% if show_banner %} class="has-banner"{% endif %}>
     {% include header.html %}
+    {% if show_banner %}{% include page-banner.html %}{% endif %}
     <main>
       {% include content.html content=content %}
     </main>

@@ -1,6 +1,6 @@
 ---
 name: WANG Liyang
-image: images/team/Wang_Liyang.png
+image: images/team/Wang_Liyang.jpg
 role: postdoc  # pi / postdoc / phd / ms / under / ra / visiting
 affiliation: The Hong Kong Polytechnic University
 order:

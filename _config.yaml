@@ -3,14 +3,14 @@ title: TAS LAB
 subtitle: Trustworthy AI and Autonomous Systems Laboratory
 description: Welcome to the Trustworthy AI and Autonomous Systems Laboratory at the Polytechnic University of Hong Kong. Our research focuses on the development of trustworthy autonomous systems, including autonomous vehicles, drones, and robots.
 header: images/AboutPolyU_Campus9.jpg
-footer: images/AboutPolyU_Campus1.png
+footer: images/AboutPolyU_Campus1.jpg
 # footer: <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=CmM_RDswnJ2Dr32mHU_bpOf-65JnKL60enMo8jUhdWw&co=224760&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
 proofer: false
 
 # site social media and other links
 links:
   email: tas.lab.polyu@gmail.com
-  orcid: 0000-0003-4158-0193
+  orcid: 0000-0003-4158-0913
   google-scholar: N-AFqt8AAAAJ
   github: https://github.com/PolyU-TASLAB
   twitter: PolyU-TASLAB
@@ -43,9 +43,17 @@ defaults:
   - scope:
       type: "opensource"
     values:
-      layout: post
+      layout: opensource
+  - scope:
+      type: "projects"
+    values:
+      layout: project
 
 collections:
+  # one page per funded project; hidden for now (set output: true and publish projects/index.md to show again)
+  projects:
+    output: false
+    permalink: /projects/:name/
   # generate page for each member
   members:
     output: true

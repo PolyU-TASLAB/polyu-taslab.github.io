@@ -1,0 +1,11 @@
+{%- comment -%}
+  Classifies a venue name (include.publisher) as journal, conference or preprint.
+{%- endcomment -%}
+{%- assign venue = include.publisher | downcase -%}
+{%- if venue contains "arxiv" or venue contains "preprint" -%}
+preprint
+{%- elsif venue contains "conference" or venue contains "symposium" or venue contains "meeting" or venue contains "ion gnss" or venue contains "archives of the photogrammetry" or venue contains "pnt" or venue contains "workshop" or venue contains "proceedings" or venue contains "congress" -%}
+conference
+{%- else -%}
+journal
+{%- endif -%}
