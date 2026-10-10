@@ -9,9 +9,9 @@
 # since: count visits from this date.
 # embed / stats_url: MapMyVisitors fallback, shown while goatcounter is empty.
 
-goatcounter: ""
-api_key: ""
-since: "2020-01-01"
+goatcounter: "taslab"
+api_key: "1jn06bl9dxpo31fi23wc2qwhgcs5ol7ltaxa151ypgkna1ndsd7"
+since: "2026-10-10"
 
 embed: |
   <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=7Bj3E_vCgHX_Sg01z-7ADkFbalVMmi3-OhZYtxk-p0k&cl=ffffff&w=a"></script>
