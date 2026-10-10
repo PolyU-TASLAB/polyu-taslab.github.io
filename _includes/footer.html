@@ -15,6 +15,14 @@
 
   <div class="footer-row footer-bottom">
     <span class="footer-copy">&copy; {{ site.time | date: "%Y" }} {{ site.subtitle }}, PolyU. All rights reserved.</span>
+    <div class="footer-end">
+    <nav class="footer-annals" aria-label="Annual reports">
+      <span>Annual Reports</span>
+      {% assign annals = "2026,2025,2024,2023" | split: "," %}
+      {% for year in annals %}
+        <a href="{{ '/assets/annals/TASLAB-Annual-Report-' | append: year | append: '.pdf' | relative_url }}" target="_blank" rel="noopener">{{ year }}</a>
+      {% endfor %}
+    </nav>
     <input
       type="checkbox"
       class="dark-toggle"
@@ -22,5 +30,6 @@
       aria-label="toggle dark mode"
       oninput="onDarkToggleChange(event)"
     >
+    </div>
   </div>
 </footer>
