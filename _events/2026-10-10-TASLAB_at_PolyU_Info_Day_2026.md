@@ -6,12 +6,12 @@ tags: news
 order:
 ---
 
-On 10 October 2026, the Trustworthy AI and Autonomous Systems Laboratory (TASLAB) took part in the [PolyU Information Day for Undergraduate Admissions 2026](https://www.polyu.edu.hk/study/events/) at The Hong Kong Polytechnic University (PolyU). At the Department of Aeronautical and Aviation Engineering (AAE) exhibition area, Dr Weisong Wen and TASLAB members presented the lab's trustworthy intelligent driving logistics vehicle to prospective students, parents and members of the public.
+On 10 October 2026, the Trustworthy AI and Autonomous Systems Laboratory (TASLAB) took part in the [PolyU Information Day for Undergraduate Admissions 2026](https://www.polyu.edu.hk/study/events/) at The Hong Kong Polytechnic University (PolyU). At the Department of Aeronautical and Aviation Engineering (AAE) exhibition area, Prof Weisong WEN and TASLAB members presented the lab's trustworthy intelligent driving logistics vehicle to prospective students, parents and members of the public.
 
 <div class="news-photos" data-cols="1">
-  <figure><img src="{{ site.baseurl }}/images/news/20261010_polyu_info_day/prof_wen_with_visitors.jpg" alt="Dr Weisong Wen talking with visitors next to the autonomous delivery vehicle"></figure>
+  <figure><img src="{{ site.baseurl }}/images/news/20261010_polyu_info_day/prof_wen_with_visitors.jpg" alt="Prof Weisong WEN talking with visitors next to the autonomous delivery vehicle"></figure>
 </div>
-<p class="news-caption">Dr Weisong Wen talking with prospective students and their families at the TASLAB exhibit.</p>
+<p class="news-caption">Prof Weisong WEN talking with prospective students and their families at the TASLAB exhibit.</p>
 
 ### Trustworthy intelligent driving logistics vehicle
 
