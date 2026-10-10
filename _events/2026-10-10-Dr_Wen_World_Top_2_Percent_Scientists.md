@@ -21,7 +21,7 @@ In the single-year ranking, which measures citations received during 2025, Dr We
 
 ### Recognition for career-long impact
 
-Dr Wen is also named in the career-long ranking, which measures the cumulative impact of a scientist's publications across their whole career. The career-long list is usually dominated by senior researchers with decades of publications. Among the members of PolyU's Research Institute for Land and Space (RILS) named on this year's career-long list, Dr Wen is the only Assistant Professor. This highlights the impact he has achieved at an early stage of his career.
+Dr Wen is also named in the career-long ranking, which measures the cumulative impact of a scientist's publications across their whole career. The career-long list is usually dominated by senior researchers with decades of publications, so his inclusion highlights the impact he has achieved at an early stage of his career.
 
 ### Research highlights
 
