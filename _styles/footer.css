@@ -58,6 +58,35 @@ footer .icon {
   color: var(--gray);
 }
 
+.footer-end {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 1.25rem;
+}
+
+.footer-annals {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2rem 0.75rem;
+  font-size: 0.85rem;
+}
+
+.footer-annals span {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.footer-annals a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.footer-annals a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 740px) {
   .footer-row {
     flex-direction: column;
