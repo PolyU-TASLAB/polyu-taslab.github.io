@@ -1638,12 +1638,22 @@ a.partner-tile:hover {
 
 .advisor-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   margin: 1rem 0 2rem;
   text-align: left;
 }
 
+@media (max-width: 760px) {
+  .advisor-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 480px) {
+  .advisor-grid {
+    grid-template-columns: 1fr;
+  }
+}
 .advisor-card {
   display: flex;
   flex-direction: column;
