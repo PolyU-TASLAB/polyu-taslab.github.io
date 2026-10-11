@@ -134,7 +134,6 @@ Our lab is made up of a <b class="blue">highly engaged and collaborative team</b
 {% assign postdoc_members = site.members | where: "role", "postdoc" %}
 {% assign phd_members = site.members | where: "role", "phd" %}
 {% assign ms_members = site.members | where: "role", "ms" %}
-{% assign phd_ms_count = phd_members.size | plus: ms_members.size %}
 {% assign ra_members = site.members | where: "role", "ra" %}
 {% assign under_members = site.members | where: "role", "under" %}
 {% assign visiting_members = site.members | where: "role", "visiting" %}
@@ -163,9 +162,13 @@ He has published <b class="blue">129 papers</b>, including <b class="blue">70 jo
   {% include list_students.html data="members" component="portrait_students" filters="role == 'postdoc'" %}
 </div>
 
-<div class="team-section-title">Ph.D. / MPhil Students ({{ phd_ms_count }})</div>
+<div class="team-section-title">Ph.D. Students ({{ phd_members.size }})</div>
 <div class="team-grid">
   {% include list_students.html data="members" component="portrait_students" filters="role == 'phd'" %}
+</div>
+
+<div class="team-section-title">MPhil Students ({{ ms_members.size }})</div>
+<div class="team-grid">
   {% include list_students.html data="members" component="portrait_students" filters="role == 'ms'" %}
 </div>
 
