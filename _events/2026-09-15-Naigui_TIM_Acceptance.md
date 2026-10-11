@@ -25,6 +25,13 @@ Its main technical contributions are:
 
 The system was evaluated on the public UrbanV2X benchmark and self-collected urban and indoor datasets. On UrbanV2X, the full self-calibrating LIUO configuration reduced APE RMSE from **12.374 m for FAST-LIO2 to 4.878 m**, while reducing the fitted long-distance drift rate from **6.18 to 3.16 mm/m**. The GPD-based NLOS detector achieved **92.39% precision**, with an average processing time of approximately **0.31 ms per UWB measurement**.
 
+### Field demonstrations
+
+<div class="news-photos" data-cols="1">
+  <figure><img loading="lazy" src="{{ site.baseurl }}/images/news/20260915_liuo_tim/field_results.gif" alt="LIUO localization and mapping demonstrations at Hong Kong Science Park and the PolyU-Wuxi building"></figure>
+</div>
+<p class="news-caption">LIUO localization and mapping results from Hong Kong Science Park and the PolyU-Wuxi building.</p>
+
 ### Open-source code and datasets
 
 The implementation and datasets are now available in the [PolyU-TASLAB/LIUO GitHub repository](https://github.com/PolyU-TASLAB/LIUO).
