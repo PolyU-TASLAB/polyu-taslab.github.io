@@ -1,7 +1,7 @@
 ---
 name: CHENG Yuling
 image: images/team/cheng_yuling.jpg
-role: ms
+role: alumni
 affiliation: Hong Kong Polytechnic University
 order: 1
 
@@ -13,14 +13,14 @@ links:
   email: yyuling.cheng@connect.polyu.hk
   profile: 
 
-display_1: B.Eng. (PolyU)
-display_2: Fall 2024 -- Present
+display_1: MPhil (PolyU), B.Eng. (PolyU)
+display_2: 2024 - 2026
 ---
 
 <!--  Add a short self introduction here -->
 <!-- Like Research Areas -->
 
-Happy study, happy life
+Yuling Cheng received her MPhil degree from the Department of Aeronautical and Aviation Engineering at The Hong Kong Polytechnic University in 2026, supervised by Prof. Weisong Wen. Her MPhil thesis focused on multimodal perception-driven semantic traversability mapping and path planning for quadruped robots.
 
 **Research Areas**
-Roadside Units; V2I; Autonomous Driving
+Quadruped Robots; Semantic Mapping; Path Planning; Autonomous Navigation
