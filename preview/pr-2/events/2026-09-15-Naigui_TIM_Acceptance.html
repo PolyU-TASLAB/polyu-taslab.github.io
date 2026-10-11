@@ -449,7 +449,7 @@
 
   <section class="background" data-size="1">
     <!--
-  background: images/team/XNG.jpg;
+  background: images/news/20260915_liuo_tim/cover.jpg;
   dark: ;
   size: 1;
 -->
@@ -506,16 +506,37 @@
 <div class="post-body">
 <p>We are pleased to share that the paper “<strong>Outlier-Aware LiDAR/IMU/UWB Integration with NLOS Mitigation and Anchor Self-Calibration in Complex Scenarios</strong>” has been accepted for publication in the <a href="https://ieee-ims.org/publication/ieee-tim">IEEE Transactions on Instrumentation and Measurement (TIM)</a> on 15 September 2026.</p>
 
-<p>The work was led by PhD student <strong>Naigui Xiao</strong> at the Trustworthy AI and Autonomous Systems Laboratory (TASLAB), The Hong Kong Polytechnic University (PolyU). The authors include Dr. Lu Bai (Beihang University, a former postdoctoral fellow at TASLAB), Xiangru Wang, Jiahao Hu, Qi Zhang, Dr. Jianhao Jiao, Zhen Lyu, Dr. Feng Huang and Prof. Weisong Wen.</p>
-
-<p>As its title indicates, the paper studies the integration of LiDAR, inertial (IMU) and ultra-wideband (UWB) measurements for positioning in complex scenarios, with attention to measurement outliers, non-line-of-sight (NLOS) UWB signals and the self-calibration of UWB anchors.</p>
+<p>The paper is authored by <strong>Naigui Xiao, Weisong Wen, Lu Bai, Xiangru Wang, Jiahao Hu, Qi Zhang, Jianhao Jiao, Zhen Lyu and Feng Huang</strong>. The work was led by PhD student Naigui Xiao at TASLAB, The Hong Kong Polytechnic University, in collaboration with Dr. Lu Bai at Chalmers University of Technology.</p>
 
 <div class="news-photos" data-cols="1">
-  <figure><img src="/preview/pr-/images/team/XNG.jpg" alt="Naigui Xiao, PhD student at TASLAB"></figure>
+  <figure><img src="/preview/pr-/images/news/20260915_liuo_tim/cover.jpg" alt="LIUO paper accepted by IEEE Transactions on Instrumentation and Measurement"></figure>
 </div>
-<p class="news-caption">Naigui Xiao, PhD student at TASLAB.</p>
+<p class="news-caption">LIUO integrates LiDAR, IMU and UWB for drift-bounded localization in GNSS-challenged environments.</p>
 
-<p>Congratulations to Naigui and all co-authors!</p>
+<p>The proposed <strong>LiDAR–inertial–UWB odometry (LIUO)</strong> framework addresses two practical obstacles to deploying UWB-aided localization: labor-intensive anchor calibration and degraded ranging measurements under non-line-of-sight (NLOS) propagation.</p>
+
+<p>Its main technical contributions are:</p>
+
+<ul>
+  <li>a continuous-time factor graph based on non-uniform B-splines that associates asynchronous LiDAR, IMU and UWB measurements with the trajectory at their original timestamps;</li>
+  <li>online self-calibration of 3D UWB anchor positions, jointly optimized with the vehicle trajectory and IMU biases; and</li>
+  <li>map-aware NLOS mitigation based on geometric penetration depth (GPD), which uses the LiDAR map to estimate signal-path obstruction and adapt the uncertainty of each UWB measurement.</li>
+</ul>
+
+<p>The system was evaluated on the public UrbanV2X benchmark and self-collected urban and indoor datasets. On UrbanV2X, the full self-calibrating LIUO configuration reduced APE RMSE from <strong>12.374 m for FAST-LIO2 to 4.878 m</strong>, while reducing the fitted long-distance drift rate from <strong>6.18 to 3.16 mm/m</strong>. The GPD-based NLOS detector achieved <strong>92.39% precision</strong>, with an average processing time of approximately <strong>0.31 ms per UWB measurement</strong>.</p>
+
+<h3 id="open-source-code-and-datasets">Open-source code and datasets</h3>
+
+<p>The implementation and datasets are now available in the <a href="https://github.com/PolyU-TASLAB/LIUO">PolyU-TASLAB/LIUO GitHub repository</a>.</p>
+
+<h3 id="video-demonstration">Video demonstration</h3>
+
+<div style="position:relative; width:100%; max-width:850px; margin:1em auto; padding-top:56.25%; overflow:hidden; border-radius:12px;">
+  <iframe src="https://www.youtube.com/embed/pGqk48h-OBc" title="LIUO video demonstration" style="position:absolute; inset:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+  </iframe>
+</div>
+
+<p>The video is also available directly on <a href="https://www.youtube.com/watch?v=pGqk48h-OBc">YouTube</a>. Congratulations to Naigui and all co-authors!</p>
 
 </div>
   </section>
