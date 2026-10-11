@@ -1,7 +1,7 @@
 ---
 title: GLIO2 Paper Now Available on arXiv
 subtitle: news
-image: images/news/20261011_glio2_arxiv/cover.jpg
+image: images/news/20261011_glio2_arxiv/video_poster.jpg
 tags: news
 order:
 ---
@@ -11,7 +11,7 @@ We are pleased to share that our new paper, "**GLIO2: A GPU-Parallelized Tightly
 The paper is authored by **Qi Zhang, Xikun Liu, Qijun Qin, Xiangru Wang, Junzhe Wang, Naigui Xiao, Jianhao Jiao and Weisong Wen**. The work was led by TASLAB MPhil student Qi Zhang.
 
 <div class="news-photos" data-cols="1">
-  <figure><a href="https://arxiv.org/abs/2610.12411"><img src="{{ site.baseurl }}/images/news/20261011_glio2_arxiv/cover.jpg" alt="GLIO2 paper now available on arXiv"></a></figure>
+  <figure><a href="https://arxiv.org/abs/2610.12411"><img src="{{ site.baseurl }}/images/news/20261011_glio2_arxiv/video_poster.jpg" alt="GLIO2 paper now available on arXiv"></a></figure>
 </div>
 <p class="news-caption">Read GLIO2 on <a href="https://arxiv.org/abs/2610.12411">arXiv:2610.12411</a>.</p>
 

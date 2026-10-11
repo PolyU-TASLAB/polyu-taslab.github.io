@@ -25,6 +25,21 @@ Its three main components are:
 
 The method was evaluated in 1,000 randomised CARLA test cases and through real-world UGV deployment. In noise-free simulation, ARSPO achieved a **90.1% success rate**, a **5.8% collision rate** and the shortest reaching time among the evaluated baselines. Under high perception noise, it retained an **80.8% success rate**, compared with **49.8% for Vanilla-SAC**.
 
+### Video explainer
+
+<div style="position:relative; width:100%; max-width:850px; margin:1em auto; padding-top:56.25%; overflow:hidden; border-radius:12px;">
+  <iframe
+    src="https://www.youtube.com/embed/6uTtNyseIl8"
+    title="ARSPO paper video explainer"
+    style="position:absolute; inset:0; width:100%; height:100%; border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+</div>
+
+The complete video introduces the motivation, ARSPO framework, simulation results and real-world validation.
+
 ### Real-world demonstration
 
 <video
@@ -38,6 +53,6 @@ The method was evaluated in 1,000 randomised CARLA test cases and through real-w
   Your browser does not support the video element.
 </video>
 
-The demonstration shows the UGV navigating around static obstacles and moving pedestrians in three outdoor scenes. It is also available on [YouTube](https://www.youtube.com/watch?v=6uTtNyseIl8).
+The short demonstration shows the UGV navigating around static obstacles and moving pedestrians in three outdoor scenes. The complete explainer is also available directly on [YouTube](https://www.youtube.com/watch?v=6uTtNyseIl8).
 
 Congratulations to Yuanyuan and all co-authors!
