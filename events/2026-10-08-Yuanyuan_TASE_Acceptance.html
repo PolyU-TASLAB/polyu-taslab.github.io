@@ -449,7 +449,7 @@
 
   <section class="background" data-size="1">
     <!--
-  background: images/team/zhang_yuanyuan.jpg;
+  background: images/news/20261008_arspo_tase/cover.jpg;
   dark: ;
   size: 1;
 -->
@@ -506,12 +506,35 @@
 <div class="post-body">
 <p>We are pleased to share that the paper “<strong>Adaptive Robust Safe Policy Optimization with Distributional Risk Modeling for Uncertainty-aware Autonomous Navigation</strong>” has been accepted for publication in the <a href="https://www.ieee-ras.org/publications/t-ase">IEEE Transactions on Automation Science and Engineering (T-ASE)</a> on 8 October 2026.</p>
 
-<p>The work was led by PhD student <strong>Yuanyuan Zhang</strong> at the Trustworthy AI and Autonomous Systems Laboratory (TASLAB), The Hong Kong Polytechnic University (PolyU), together with Dr. Yingying Wang and Prof. Weisong Wen. It continues TASLAB’s research on safe reinforcement learning for autonomous systems, using distributional risk modelling to make navigation policies robust to uncertainty.</p>
+<p>The paper is authored by <strong>Yuanyuan Zhang, Yingying Wang and Weisong Wen</strong>, with Dr. Yingying Wang as the corresponding author. The work was led by TASLAB PhD student Yuanyuan Zhang at The Hong Kong Polytechnic University.</p>
 
 <div class="news-photos" data-cols="1">
-  <figure><img src="/images/team/zhang_yuanyuan.jpg" alt="Yuanyuan Zhang, PhD student at TASLAB"></figure>
+  <figure><img src="/images/news/20261008_arspo_tase/cover.jpg" alt="ARSPO paper accepted by IEEE Transactions on Automation Science and Engineering"></figure>
 </div>
-<p class="news-caption">Yuanyuan Zhang, PhD student at TASLAB.</p>
+<p class="news-caption">ARSPO develops uncertainty-aware safe reinforcement learning for autonomous navigation.</p>
+
+<p>The proposed <strong>Adaptive Robust Safe Policy Optimization (ARSPO)</strong> framework targets mapless unmanned-ground-vehicle navigation in dynamic environments affected by perception noise and uncertain motion. Rather than treating a policy that is safe only on average as sufficient, ARSPO models the distribution and tail risk of both task returns and safety costs.</p>
+
+<p>Its three main components are:</p>
+
+<ul>
+  <li>
+<strong>distributional value–cost critics</strong>, which learn the full distributions of performance returns and safety costs;</li>
+  <li>a <strong>CVaR-based adaptive risk mechanism</strong>, which adjusts the policy between efficient exploration and cautious behaviour according to the estimated risk; and</li>
+  <li>
+<strong>robust transition augmentation</strong>, which adds physically consistent perturbed states during training to improve generalisation under sensor noise and stochastic dynamics.</li>
+</ul>
+
+<p>The method was evaluated in 1,000 randomised CARLA test cases and through real-world UGV deployment. In noise-free simulation, ARSPO achieved a <strong>90.1% success rate</strong>, a <strong>5.8% collision rate</strong> and the shortest reaching time among the evaluated baselines. Under high perception noise, it retained an <strong>80.8% success rate</strong>, compared with <strong>49.8% for Vanilla-SAC</strong>.</p>
+
+<h3 id="real-world-demonstration">Real-world demonstration</h3>
+
+<video controls="" muted="" playsinline="" preload="metadata" poster="/images/news/20261008_arspo_tase/demo_poster.jpg" style="display:block; width:100%; max-width:850px; margin:1em auto; border-radius:12px;">
+  <source src="/images/news/20261008_arspo_tase/arspo_real_world_demo.mp4" type="video/mp4"></source>
+  Your browser does not support the video element.
+</video>
+
+<p>The demonstration shows the UGV navigating around static obstacles and moving pedestrians in three outdoor scenes. It is also available on <a href="https://www.youtube.com/watch?v=6uTtNyseIl8">YouTube</a>.</p>
 
 <p>Congratulations to Yuanyuan and all co-authors!</p>
 
