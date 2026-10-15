@@ -69,7 +69,7 @@ The ongoing research focuses on fault-tolerant locomotion, adaptation to lunar g
 The project demonstration video presented progress in three areas: fault-tolerant locomotion under simulated leg failures, movement across simulated lunar terrain, and outdoor navigation trials with a physical quadruped robot. These demonstrations form part of the team's ongoing development towards more resilient and autonomous exploration systems.
 
 <div class="news-video" style="aspect-ratio: 3218 / 1664;">
-  <iframe src="https://www.youtube-nocookie.com/embed/ENdiA9d5dWM?rel=0&amp;playsinline=1" title="Quadruped Robot for Lunar Exploration — PolyU TASLAB | IAC 2026" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/ENdiA9d5dWM?rel=0&amp;playsinline=1" title="Quadruped Robot for Lunar Exploration — PolyU TASLAB — IAC 2026" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
 </div>
 <p class="news-caption">Full project demonstration: fault-tolerant locomotion, lunar terrain adaptation in simulation, and outdoor navigation with a physical quadruped robot. <a href="https://youtu.be/ENdiA9d5dWM">Watch on YouTube.</a></p>
 
