@@ -32,11 +32,9 @@ Visits to Chinese space-sector exhibits, including the **China Great Wall Indust
 </div>
 <p class="news-caption">Exhibition highlights: satellite models at the CGWIC booth and a humanoid robot displayed by ESA. <a href="{{ site.baseurl }}/images/news/20261009_iac2026/congress_highlights_collage.png">View the photo collage.</a></p>
 
-### PolyU's growing aerospace research
+### PolyU's aerospace research and academic exchanges
 
 The delegation's participation came as PolyU expanded its aerospace research through the newly established **PolyU Aerospace Research Academy (PARA)**. The Academy supports interdisciplinary research and talent development, technology transfer, and collaboration with industry, government and international partners. [RCDSE is one of PARA's constituent research units](https://www.polyu.edu.hk/research/labs-institutes-centres/), connecting the lunar robotics project with this wider research community. More about the Academy's development is available in [PolyU's announcement](https://www.polyu.edu.hk/rila/news-and-events/news/2026/0630_para/).
-
-### PolyU's forums and academic exchanges
 
 On **7 October**, PolyU hosted the Global Networking Forum (GNF) **“Space Governance: Hong Kong's Role and Perspective”**. **Prof. Hongyu Yu**, Executive Director of PARA, delivered the opening remarks, followed by a keynote by **Mr Steve Gao**, Associate Executive Director of PARA. A panel moderated by **Mr Wu Lei** of CGTN brought together representatives from international organisations, universities and industry to discuss space governance, international cooperation and sustainable space activities. The forum highlighted how Hong Kong's research strengths and international connections can contribute to the space sector. [PolyU's congress report](https://www.polyu.edu.hk/rio/news/2026/20261014---polyu-showcases-space-research-excellence-and-hosts-space-governance-forum-at-iac-2026/) provides further details.
 
