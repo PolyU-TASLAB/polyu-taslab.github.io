@@ -1,0 +1,166 @@
+/* per-paper detail page (business card header + summary sections) */
+.paper-breadcrumb {
+  max-width: 1080px;
+  margin: 0 auto 1rem;
+  text-align: left;
+}
+
+.paper-breadcrumb a {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.paper-breadcrumb a:hover {
+  color: var(--primary);
+}
+
+.paper-card {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+  align-items: stretch;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1.4rem 1.6rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  box-shadow: 0 2px 12px rgba(20, 20, 20, 0.06);
+}
+
+.paper-card-media {
+  flex: 0 0 400px;
+  max-width: 400px;
+}
+
+.paper-card-media img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  object-position: center top;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.paper-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+}
+
+.paper-card-body .citation-kind {
+  align-self: flex-start;
+}
+
+.paper-title {
+  margin: 0.15rem 0 0.2rem;
+  font-size: 1.42rem;
+  font-weight: 700;
+  line-height: 1.32;
+  text-align: left;
+}
+
+.paper-authors {
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.paper-venue {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.paper-publisher {
+  color: var(--primary);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.paper-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 0.5rem;
+}
+
+.paper-buttons .button-wrapper {
+  margin: 0;
+}
+
+.paper-buttons .button {
+  margin: 0;
+  padding: 0.25rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.82rem;
+}
+
+.paper-buttons .button:hover {
+  border-color: var(--primary);
+  background: var(--primary);
+  color: #ffffff;
+}
+
+.paper-tags {
+  margin-top: 0.4rem;
+}
+
+.paper-body {
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 0.98rem;
+  line-height: 1.75;
+}
+
+.paper-body h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.6rem 0 0.6rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--line);
+  color: var(--primary);
+  font-size: 1.18rem;
+  text-align: left;
+}
+
+.paper-body h2:first-child {
+  margin-top: 0;
+}
+
+.paper-body p {
+  margin: 0.5rem 0;
+}
+
+.paper-body ul {
+  margin: 0.4rem 0 0.8rem;
+  padding-left: 1.4rem;
+}
+
+.paper-body li {
+  margin: 0.3rem 0;
+}
+
+@media (max-width: 860px) {
+  .paper-card {
+    flex-direction: column;
+    padding: 1.1rem;
+  }
+  .paper-card-media {
+    flex: none;
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=paper.css.map */
