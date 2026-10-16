@@ -453,11 +453,10 @@
   repo: 
 
 
-- id: doi:10.1109/TIV.2024.3406756
+- id: doi:10.1109/icuas60882.2024.10556962
   type: paper
-  # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
-  # date: 2020-12-4
-  image: 
+  # description: LiDAR Stereo Visual Inertial Pose Estimation Based on Feedforward and Feedbacks
+  image:
   buttons:
     - type: manubot
       text: paper
@@ -465,7 +464,7 @@
   tags:
     - LiDAR Stereo Visual Inertial odometry
     - Feedforward-feedback LiDAR Visual Inertial System
-  repo: 
+  repo:
 
 # - id: doi:10.1109/TIV.2023.3339144
 #   type: paper
@@ -499,10 +498,6 @@
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
   image: images/papers/Bai_Real-Time_Gnss_Nlos.jpg
-  buttons:
-    - type: manubot
-      text: paper
-      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/Bai_Real-Time_Gnss_Nlos.pdf
   tags:
     - FGO
     - 3D LiDAR
@@ -988,10 +983,6 @@
   # description: GNSS Outliers Mitigation in Urban Areas Using Sparse Estimation Based on Factor Graph Optimization
   # date: 2022-11-1
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/xxx.png
-  buttons:
-    - type: manubot
-      text: paper
-      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/xxx.pdf
   tags:
     - 
   repo: 
@@ -1002,10 +993,6 @@
   # description: GNSS Outliers Mitigation in Urban Areas Using Sparse Estimation Based on Factor Graph Optimization
   # date: 2022-11-1
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/xxx.png
-  buttons:
-    - type: manubot
-      text: paper
-      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/xxx.pdf
   tags:
     - 
   repo: 
@@ -1015,10 +1002,6 @@
   # description: Real-time Factor Graph Optimization Aided by Graduated Non-convexity Based Outlier Mitigation for Smartphone Decimeter Challenge
   # date: 2022-11-1
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/xxx.png
-  buttons:
-    - type: manubot
-      text: paper
-      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/xxx.pdf
   tags:
     - 
   repo: 
@@ -1812,10 +1795,6 @@
   # description: Enhancing Smartphone-based Pedestrian Positioning:: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation
   # date: 2020-12-4
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/navi.590.full.png
-  buttons:
-    - type: manubot
-      text: paper
-      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/navi.590.full.pdf
   tags:
     - 3D vision
     - autonomous system
@@ -1942,10 +1921,6 @@
   type: paper
   date: 2025-01-09
   image: images/papers/Screenshot.jpg
-  buttons:
-    - type: manubot
-      text: paper
-      link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/A_Novel_Lie_Group-based_Reliable_IMM_Estimation_Method_for_SINS_GNSS_OD_NHC_Integrated_Navigation_in_Complex_Environments.pdf
   tags:
     - Autonomous vehicle
     - integrated navigation
