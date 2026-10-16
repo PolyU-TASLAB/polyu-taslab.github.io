@@ -18,6 +18,9 @@ links:
 
 ### jekyll settings
 
+# read all source files as UTF-8 (default on Linux; needed on Windows)
+encoding: utf-8
+
 # front matter defaults
 defaults:
   # all markdown files
@@ -48,6 +51,11 @@ defaults:
       type: "projects"
     values:
       layout: project
+  # markdown files in /_papers
+  - scope:
+      type: "papers"
+    values:
+      layout: paper
 
 collections:
   # one page per funded project; hidden for now (set output: true and publish projects/index.md to show again)
@@ -60,6 +68,10 @@ collections:
   # generate page for each post
   posts:
     output: true
+  # one detail page per publication paper
+  papers:
+    output: true
+    permalink: /publications/:name/
   # generate page for each project
   events:
     output: true

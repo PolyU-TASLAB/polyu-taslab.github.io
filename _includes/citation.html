@@ -11,18 +11,29 @@
 {% capture pub_kind %}{% include pub-kind.html publisher=citation.publisher %}{% endcapture %}
 {% assign pub_kind = pub_kind | strip %}
 
+{% comment %}
+  per-paper generated card image + internal detail page (if built)
+{% endcomment %}
+{% assign paper_card = site.data.paper_cards[citation.id] %}
+{% assign citation_image = paper_card.image | default: citation.image %}
+{% if paper_card.page %}
+  {% assign citation_href = paper_card.page | relative_url %}
+{% else %}
+  {% assign citation_href = citation.link %}
+{% endif %}
+
 <div class="citation-container" data-kind="{{ pub_kind }}">
   <div class="citation">
-    {% if include.style == "rich" and citation.image %}
+    {% if include.style == "rich" and citation_image %}
       <a
-        {% if citation.link %}
-          href="{{ citation.link | relative_url | uri_escape }}"
+        {% if citation_href %}
+          href="{{ citation_href | uri_escape }}"
         {% endif %}
         class="citation-image"
         aria-label="{{ citation.title | default: "citation link" | regex_strip }}"
       >
         <img
-          src="{{ citation.image | relative_url | uri_escape }}"
+          src="{{ citation_image | relative_url | uri_escape }}"
           alt="{{ citation.title | default: "citation image" | regex_strip }}"
           loading="lazy"
           {% include fallback.html %}
@@ -34,8 +45,8 @@
       <span class="citation-kind" data-kind="{{ pub_kind }}">{{ pub_kind }}</span>
 
       <a
-        {% if citation.link %}
-          href="{{ citation.link | relative_url | xml_escape }}"
+        {% if citation_href %}
+          href="{{ citation_href | xml_escape }}"
         {% endif %}
         class="citation-title"
       >

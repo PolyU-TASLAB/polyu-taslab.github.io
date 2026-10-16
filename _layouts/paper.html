@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+{% include section.html %}
+
+{% capture pub_kind %}{% include pub-kind.html publisher=page.publisher %}{% endcapture %}
+{% assign pub_kind = pub_kind | strip %}
+
+<nav class="paper-breadcrumb" aria-label="breadcrumb">
+  <a href="{{ '/publications/' | relative_url }}">← Back to Publications</a>
+</nav>
+
+<div class="paper-card">
+  {% if page.image %}
+    <div class="paper-card-media">
+      <img
+        src="{{ page.image | relative_url | uri_escape }}"
+        alt="{{ page.title | default: 'paper figure' | regex_strip }}"
+        loading="lazy"
+        {% include fallback.html %}
+      >
+    </div>
+  {% endif %}
+
+  <div class="paper-card-body">
+    <span class="citation-kind" data-kind="{{ pub_kind }}">{{ pub_kind }}</span>
+    <h1 class="paper-title">{{ page.title }}</h1>
+
+    {% if page.authors.size > 0 %}
+      <div class="paper-authors">{{ page.authors | join: ", " }}</div>
+    {% endif %}
+
+    <div class="paper-venue">
+      {% if page.publisher and page.publisher != "" %}
+        <span class="paper-publisher">{{ page.publisher }}</span>
+      {% endif %}
+      {% if page.date %}
+        &nbsp;·&nbsp;<span class="paper-date">{{ page.date | date: "%b %Y" }}</span>
+      {% endif %}
+    </div>
+
+    <div class="paper-buttons">
+      {% if page.doi and page.doi != "" %}
+        {%
+          include button.html
+          type="manubot"
+          text="publisher page"
+          link=page.doi
+          style="bare"
+        %}
+      {% endif %}
+      {% for button in page.buttons %}
+        {%
+          include button.html
+          type=button.type
+          icon=button.icon
+          text=button.text
+          link=button.link
+          style="bare"
+        %}
+      {% endfor %}
+    </div>
+
+    {% if page.tags.size > 0 or page.repo %}
+      <div class="paper-tags">
+        {% include tags.html tags=page.tags repo=page.repo %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% include section.html %}
+
+<div class="paper-body">
+  {{ content }}
+</div>
+
+{% include section.html %}
+
+<nav class="paper-breadcrumb" aria-label="breadcrumb">
+  <a href="{{ '/publications/' | relative_url }}">← Back to Publications</a>
+</nav>

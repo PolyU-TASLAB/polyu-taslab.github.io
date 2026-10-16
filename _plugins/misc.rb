@@ -1,5 +1,6 @@
 require 'liquid'
-require 'html-proofer'
+# html-proofer is required lazily inside the post_write hook below, so that
+# sites with `proofer: false` (and platforms without libcurl) can build fine.
 
 module Jekyll
   module MiscFilters
@@ -92,6 +93,7 @@ module Jekyll
 
     Jekyll::Hooks.register(:site, :post_write, priority: priority) do |site|
       if not site.config["proofer"] == false
+        require 'html-proofer'
         options = {
           allow_missing_href: true,
           enforce_https: false,
