@@ -20,8 +20,7 @@ citation_id: doi:10.5194/isprs-archives-XLVIII-1-W1-2023-175-2023
 
 ## Abstract
 
-This paper discusses ubiquitous smartphone pedestrian positioning challenges in urban canyons and GNSS-denied areas such as indoor spaces. Existing sensor-based techniques, including GNSS, INS, and VIO, have limitations that affect positioning accuracy and reliability. A machine learning-based approach is suggested to employ Support Vector Machine (SVM) to classify indoor/outdoor (IO) detection using GNSS measurement data. The proposed system integrates local estimates on VIO and 3D mapping aided (3DMA) 
-GNSS measurements using Factor Graph Optimization (FGO) with an IO detection switch to estimate precise pose and eliminate global drift. The effectiveness of the system is evaluated through real-world experiments that produce notable outcomes.
+This paper discusses ubiquitous smartphone pedestrian positioning challenges in urban canyons and GNSS-denied areas such as indoor spaces. Existing sensor-based techniques, including GNSS, INS, and VIO, have limitations that affect positioning accuracy and reliability. A machine learning-based approach is suggested to employ Support Vector Machine (SVM) to classify indoor/outdoor (IO) detection using GNSS measurement data. The proposed system integrates local estimates on VIO and 3D mapping aided (3DMA) GNSS measurements using Factor Graph Optimization (FGO) with an IO detection switch to estimate precise pose and eliminate global drift. The effectiveness of the system is evaluated through real-world experiments that produce notable outcomes. 1.
 
 ## Problem Addressed
 

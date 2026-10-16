@@ -4,7 +4,7 @@ authors:
 - Weisong Wen
 - Tim Pfeifer
 - Xiwei Bai
-- Li‐Ta Hsu
+- Li-Ta Hsu
 publisher: NAVIGATION
 date: '2021-05-22'
 doi: https://doi.org/gj5n6w

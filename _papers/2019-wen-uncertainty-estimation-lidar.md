@@ -5,7 +5,7 @@ authors:
 - X. Bai
 - W. Zhan
 - M. Tomizuka
-- L.‐T. Hsu
+- L.-T. Hsu
 publisher: Electronics Letters
 date: '2019-03-01'
 doi: https://doi.org/ggtk78

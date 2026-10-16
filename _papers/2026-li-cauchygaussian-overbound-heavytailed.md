@@ -23,25 +23,7 @@ citation_id: doi:10.33012/navi.749
 
 ## Abstract
 
-Overbounds of heavy-tailed measurement errors are essential for meeting stringent navigation requirements in integrity-monitoring applications. This paper proposes to leverage the bounding sharpness of the Cauchy distribution in the core and the Gaussian distribution in the tails to tightly bound heavy-tailed global navigation satellite system measurement errors. We develop a procedure to determine the overbounding parameters for both symmetric unimodal (SU) and non-symmetric unimodal (NSU) heavy-tailed errors and prove that the overbounding property is preserved through convolution. Experiment results on both simulated and real-world data sets reveal that our method can sharply bound heavy-tailed errors in both the core and tail regions. In the position domain, the proposed method reduces the average vertical protection level by 15% for 
-SU heavy-tailed errors compared with the single-cumulative-density-function 
-Gaussian overbound and by 21%-47% for NSU heavy-tailed errors compared with the navigation discrete envelope and two-step Gaussian overbounds.
-Keywords
-Cauchy distribution, global navigation satellite systems, heavy-tailed distributions, overbounding techniques
-O R I G I N A L A R T I C L E
-Cauchy-Gaussian Overbound for Heavy-Tailed GNSS 
-Measurement Errors
-Zhengdao Li  Penggao Yan*  Weisong Wen  Li-Ta Hsu
-Department of Aeronautical and Aviation 
-Engineering, The Hong Kong Polytechnic 
-University, Hong Kong, China
-Correspondence
-*Penggao Yan
-Department of Aeronautical and Aviation 
-Engineering, Faculty of Engineering, 
-Hong Kong Polytechnic University, 
-Hong Kong
-Email: peng-gao.yan@connect.polyu.hk
+Abstract Overbounds of heavy-tailed measurement errors are essential for meeting stringent navigation requirements in integrity-monitoring applications. This paper proposes to leverage the bounding sharpness of the Cauchy distribution in the core and the Gaussian distribution in the tails to tightly bound heavy-tailed global navigation satellite system measurement errors. We develop a procedure to determine the overbounding parameters for both symmetric unimodal (SU) and non-symmetric unimodal (NSU) heavy-tailed errors and prove that the overbounding property is preserved through convolution. Experiment results on both simulated and real-world data sets reveal that our method can sharply bound heavy-tailed errors in both the core and tail regions. In the position domain, the proposed method reduces the average vertical protection level by 15% for SU heavy-tailed errors compared with the single-cumulative-density-function Gaussian overbound and by 21%–47% for NSU heavy-tailed errors compared with the navigation discrete envelope and two-step Gaussian overbounds.
 
 ## Problem Addressed
 

@@ -25,64 +25,7 @@ citation_id: arXiv:2509.17198
 
 ## Abstract
 
-To provide backup and augmentation to global navigation satellite system (GNSS), Doppler shift from Low Earth
-Orbit (LEO) satellites can be employed as signals of opportunity (SOP) for position, navigation and timing (PNT). Since the Doppler positioning problem is non-convex, local searching methods may produce two types of estimates: a global optimum without notice or a local optimum given an inexact initial estimate. As exact initialization is unavailable in some unknown environments, a guaranteed global optimization method in no need of initialization becomes necessary. To achieve this goal, we propose a certifiably optimal LEO Doppler positioning method by utilizing convex optimization. In this paper, the certifiable positioning method is implemented through a graduated weight approximation (GWA) algorithm and semidefinite programming (SDP) relaxation. To guarantee the optimality, we derive the necessary conditions for optimality in ideal noiseless cases and sufficient noise bounds conditions in noisy cases. Simulation and real tests are conducted to evaluate the effectiveness and robustness of the proposed method.
-Specially, the real test using Iridium-NEXT satellites shows that the proposed method estimates an certifiably optimal solution with an
-Authors' addresses:
-Baoshan
-Song is with
-The
-Hong
-Kong
-Polytechnic
-University,
-Hong
-Kong,
-SAR,
-China,
-E-mail: (baoshan.song@connect.polyu.hk);
-Weisong
-Wen is with
-The
-Hong
-Kong
-Polytechnic
-University,
-Hong
-Kong,
-SAR,
-China,
-E-mail: (welson.wen@polyu.edu.hk);
-Qi
-Zhang is with
-The
-Hong
-Kong
-Polytechnic
-University,
-Hong
-Kong,
-SAR,
-China,
-E-mail: (qi915.zhang@connect.polyu.hk);
-Bing
-Xu is with
-The
-Hong
-Kong
-Polytechnic
-University,
-Hong
-Kong,
-SAR,
-China,
-E-mail: (pbing.xu@polyu.edu.hk); Li-Ta Hsu is with The Hong
-Kong Polytechnic University, Hong Kong, SAR, China, E-mail: (lt.hsu@polyu.edu.hk). (Corresponding authors: Li-Ta Hsu)
-The open-source code and data are open-sourced at https://github.com/
-Baoshan-Song/Certifiable-Doppler-positioning.
-Color versions of one or more of the figures in this article are available online at http://ieeexplore.ieee.org.
-0018-9251 © 2022 IEEE
-3D positioning error of 140 m without initia
+To provide backup and augmentation to global navigation satellite system (GNSS), Doppler shift from Low Earth Orbit (LEO) satellites can be employed as signals of opportunity (SOP) for position, navigation and timing (PNT). Since the Doppler positioning problem is non-convex, local searching methods may produce two types of estimates: a global optimum without notice or a local optimum given an inexact initial estimate. As exact initialization is unavailable in some unknown environments, a guaranteed global optimization method in no need of initialization becomes necessary. To achieve this goal, we propose a certifiably optimal LEO Doppler positioning method by utilizing convex optimization. In this paper, the certifiable positioning method is implemented through a graduated weight approximation (GWA) algorithm and semidefinite programming (SDP) relaxation. To guarantee the optimality, we derive the necessary conditions for optimality in ideal noiseless cases and sufficient noise bounds conditions in noisy cases. Simulation and real tests are conducted to evaluate the effectiveness and robustness of the proposed method. Specially, the real test using Iridium-NEXT satellites shows that the proposed method estimates an certifiably optimal solution with an 3D positioning error of 140 m without initial estimates while Gauss-Newton and Dog-Leg are trapped in local optima when the initial point is equal or larger than 1000 km away from the ground truth. Moreover, the certifiable estimation can also be used as initialization in local searching methods to lower down the 3D positioning error to 130 m.
 
 ## Problem Addressed
 

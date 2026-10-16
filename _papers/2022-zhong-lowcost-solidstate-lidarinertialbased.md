@@ -1,11 +1,11 @@
 ---
-title: Low‐cost solid‐state LiDAR/inertial‐based localization with prior map for autonomous systems in urban scenarios
+title: Low-cost solid-state LiDAR/inertial-based localization with prior map for autonomous systems in urban scenarios
 authors:
 - Yihan Zhong
 - Feng Huang
 - Jiachen Zhang
 - Weisong Wen
-- Li‐Ta Hsu
+- Li-Ta Hsu
 publisher: IET Intelligent Transport Systems
 date: '2022-09-20'
 doi: https://doi.org/g8t577

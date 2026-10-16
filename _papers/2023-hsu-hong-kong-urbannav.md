@@ -26,7 +26,7 @@ IPNL-POLYU/UrbanNavDataset.
 Keywords dynamic objects, gnss raw data, gnss/ins/lidar/camera, ground truth, localization, positioning, urban canyons
 
 HSU et al.
-     or open areas (Levinson et al., 2011) with good sky visibility for GNSS positioning and abundant environment features for lidar units and cameras. Unfortunately, the performance of existing positioning technologies is significantly degraded in the urban scenarios of megacities, such as Hong Kong, Tokyo, and New York City, due to complex building structures, unstable illumination conditions, and excessive expected dynamic objects.
+     or open areas (Levinson et al., 2011) with good sky visibility for GNSS positioning and abundant environment features for lidar units and cameras. Unfortunately, the performance of existing positioning technologies is significantly degraded in the urban scenarios of megacities, such as Hong Kong, Tokyo, and New York City, due to complex building structures, unstable illumination conditions, and excessive expected dynamic objects.
 Poor GNSS positioning in urban canyons: GNSS positioning is significantly degraded in urban canyons because of signal reflection
 
 ## Problem Addressed

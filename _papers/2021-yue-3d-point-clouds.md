@@ -26,9 +26,7 @@ citation_id: doi:10.1109/TVT.2021.3069212
 
 ## Abstract
 
-LiDAR odometry algorithms are extensively studied for vehicular positioning. However, achieving high-precision positioningusinglow-cost16-channelLiDARinurbancanyons remains a challenging problem due to the limited point cloud density from low-cost LiDAR and excessive dynamic surrounding objects. To
-fill this gap, this paper proposes enriching sparse 3D point clouds to denser clouds via a novel deep learning-based superresolution (SR) algorithm before its utilization in 3D LiDAR odometry. We validate the effectiveness of the proposed method using the KITTI dataset and a challenging dataset collected in an urban canyon (with complex environmental structures and dynamic objects) of
-Hong Kong. We conclude that significantly denser point clouds are achieved with considerable accuracy. In addition, significantly improved performance of 3D LiDAR odometry is obtained in the evaluated dataset collected in an urban canyon of Hong Kong.
+LiDAR odometry algorithms are extensively studied for vehicular positioning. However, achieving high-precision positioning using low-cost 16-channel LiDAR in urban canyons remains a challenging problem due to the limited point cloud density from low-cost LiDAR and excessive dynamic surrounding objects. To fill this gap, this paper proposes enriching sparse 3D point clouds to denser clouds via a novel deep learning-based superresolution (SR) algorithm before its utilization in 3D LiDAR odometry. We validate the effectiveness of the proposed method using the KITTI dataset and a challenging dataset collected in an urban canyon (with complex environmental structures and dynamic objects) of Hong Kong. We conclude that significantly denser point clouds are achieved with considerable accuracy. In addition, significantly improved performance of 3D LiDAR odometry is obtained in the evaluated dataset collected in an urban canyon of Hong Kong.
 
 ## Problem Addressed
 

@@ -1,5 +1,5 @@
 ---
-title: 'Enhancing Smartphone-based Pedestrian Positioning: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation'
+title: 'Enhancing Smartphone-based Pedestrian Positioning: Using Factor Graph Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State Estimation'
 authors:
 - Hiu-Yi Ho
 - Hoi-Fung Ng
@@ -27,7 +27,7 @@ citation_id: doi:10.47852/bonviewJDSIS42022961
 
 ## Abstract
 
-This paper explores the pervasive challenges of pedestrian positioning using smartphones in densely populated urban environments where global navigation satellite system (GNSS) signals are inaccessible, for example, in indoor areas. Existing sensor-based positioning methods, such as inertial navigation systems, GNSS, and visual-inertial odometry (VIO), suffer from inherent restrictions that compromise the accuracy and reliability of the positioning performance. An approach based on machine learning is proposed to address these limitations, employing the support vector machine (SVM) algorithm to accurately distinguish indoor/outdoor (IO) based on the measurement of GNSS. The proposed approach in this study seamlessly incorporates 3D mapping aided (3DMA) GNSS measurements and localized estimations derived by VIO via factor graph optimization (FGO), complemented by an IO detection switch, to achieve accurate pose estimation and effectively eliminate global drift. The system's effectiveness and robustness are rigorously assessed through comprehensive extensive real-life experiments, with an average reduction of 4 meters, leading to noteworthy and statistically significant findings.
+This paper explores the pervasive challenges of pedestrian positioning using smartphones in densely populated urban environments where global navigation satellite system (GNSS) signals are inaccessible, for example, in indoor areas. Existing sensor-based positioning methods, such as inertial navigation systems, GNSS, and visual-inertial odometry (VIO), suffer from inherent restrictions that compromise the accuracy and reliability of the positioning performance. An approach based on machine learning is proposed to address these limitations, employing the support vector machine (SVM) algorithm to accurately distinguish indoor/outdoor (IO) based on the measurement of GNSS. The proposed approach in this study seamlessly incorporates 3D mapping aided (3DMA) GNSS measurements and localized estimations derived by VIO via factor graph optimization (FGO), complemented by an IO detection switch, to achieve accurate pose estimation and effectively eliminate global drift. The system’s effectiveness and robustness are rigorously assessed through comprehensive extensive real-life experiments, with an average reduction of 4 meters, leading to noteworthy and statistically significant findings.
 
 ## Problem Addressed
 
