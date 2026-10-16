@@ -583,10 +583,6 @@
   file: sources.yaml
   type: paper
   image: images/papers/Screenshot.jpg
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/A_Novel_Lie_Group-based_Reliable_IMM_Estimation_Method_for_SINS_GNSS_OD_NHC_Integrated_Navigation_in_Complex_Environments.pdf
   tags:
   - Autonomous vehicle
   - integrated navigation
@@ -1010,10 +1006,11 @@
   buttons:
   - type: manubot
     text: paper
-    link: publications/papers/2024/WenyuYang2024LiDAR_Stereo_Visual_Inertial_Pose_Estimation_Based_on_Feedforward_and_Feedbacks.pdf
+    link: publications/papers/2024/SiyuanDu2024A_Novel_Consistent-Robust_SINS_GNSS_NHC_Integrated_Navigation_Method_for_Autonomous_Vehicles_Under_Intermittent_GNSS_Outage.pdf
   tags:
-  - LiDAR Stereo Visual Inertial odometry
-  - Feedforward-feedback LiDAR Visual Inertial System
+  - Autonomous vehicles
+  - Integrated navigation
+  - GNSS outage
   repo: null
 - id: doi:10.1109/TAES.2024.3430256
   title: Factor Graph Optimization-Based Smartphone IMU-Only Indoor SLAM With Multihypothesis
@@ -1253,8 +1250,18 @@
   date: '2024-06-04'
   link: https://doi.org/hcc4r2
   orcid: 0000-0003-4158-0913
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  buttons:
+  - type: manubot
+    text: paper
+    link: publications/papers/2024/WenyuYang2024LiDAR_Stereo_Visual_Inertial_Pose_Estimation_Based_on_Feedforward_and_Feedbacks.pdf
+  tags:
+  - LiDAR Stereo Visual Inertial odometry
+  - Feedforward-feedback LiDAR Visual Inertial System
+  repo: null
 - id: doi:10.1109/icra57147.2024.10611672
   title: 'CoLRIO: LiDAR-Ranging-Inertial Centralized State Estimation for Robotic
     Swarms'
@@ -2511,10 +2518,6 @@
   file: sources.yaml
   type: paper
   image: images/papers/Bai_Real-Time_Gnss_Nlos.jpg
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/Bai_Real-Time_Gnss_Nlos.pdf
   tags:
   - FGO
   - 3D LiDAR
@@ -3051,10 +3054,6 @@
   link: https://doi.org/g8t5rz
   type: paper
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/xxx.png
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/xxx.pdf
   tags:
   - null
   repo: null
@@ -3072,10 +3071,6 @@
   link: https://doi.org/g8t5r2
   type: paper
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/xxx.png
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/xxx.pdf
   tags:
   - null
   repo: null
@@ -3096,10 +3091,6 @@
   link: https://doi.org/g8t5r3
   type: paper
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/xxx.png
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/xxx.pdf
   tags:
   - null
   repo: null
@@ -3830,10 +3821,6 @@
   link: https://doi.org/g8t66d
   type: paper
   image: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/images/papers/navi.590.full.png
-  buttons:
-  - type: manubot
-    text: paper
-    link: https://github.com/PolyU-TASLAB/polyu-taslab.github.io/raw/main/publications/papers/navi.590.full.pdf
   tags:
   - 3D vision
   - autonomous system
