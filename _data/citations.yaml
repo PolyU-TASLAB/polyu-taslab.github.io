@@ -847,7 +847,7 @@
   - Penggao Yan
   - Zhengdao Li
   - Feng Huang
-  - Weisong Wen
+  - Weisong Wen,
   - Li-Ta Hsu
   publisher: 'NAVIGATION: Journal of the Institute of Navigation'
   date: '2025-03-19'
@@ -1037,9 +1037,8 @@
   - simultaneous localization and mapping (SLAM)
   repo: null
 - id: doi:10.47852/bonviewJDSIS42022961
-  title: "Enhancing Smartphone-based\u202FPedestrian Positioning: Using Factor Graph\
-    \ Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State\
-    \ Estimation"
+  title: 'Enhancing Smartphone-based Pedestrian Positioning: Using Factor Graph Optimization
+    with Indoor/Outdoor Detection for 3DMA GNSS/Visual-inertial State Estimation'
   authors:
   - Hiu-Yi Ho
   - Hoi-Fung Ng
