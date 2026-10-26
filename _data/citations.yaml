@@ -183,7 +183,7 @@
   - Weisong Wen
   - Li-Ta Hsu
   publisher: IEEE Transactions on Intelligent Transportation Systems
-  date: '2026-01-01'
+  date: '2026-10-01'
   link: https://doi.org/hcb4mq
   orcid: 0000-0003-4158-0913
   plugin: orcid.py
@@ -847,7 +847,7 @@
   - Penggao Yan
   - Zhengdao Li
   - Feng Huang
-  - Weisong Wen
+  - Weisong Wen,
   - Li-Ta Hsu
   publisher: 'NAVIGATION: Journal of the Institute of Navigation'
   date: '2025-03-19'
@@ -1037,9 +1037,8 @@
   - simultaneous localization and mapping (SLAM)
   repo: null
 - id: doi:10.47852/bonviewJDSIS42022961
-  title: "Enhancing Smartphone-based\u202FPedestrian Positioning: Using Factor Graph\
-    \ Optimization with Indoor/Outdoor Detection for 3DMA GNSS/Visual-Inertial State\
-    \ Estimation"
+  title: 'Enhancing Smartphone-based Pedestrian Positioning: Using Factor Graph Optimization
+    with Indoor/Outdoor Detection for 3DMA GNSS/Visual-inertial State Estimation'
   authors:
   - Hiu-Yi Ho
   - Hoi-Fung Ng
@@ -3964,12 +3963,15 @@
   plugin: sources.py
   file: sources.yaml
 - id: arXiv:2509.17198
-  title: Certifiably Optimal Doppler Positioning using Opportunistic LEO Satellites
+  title: 'Initialization-Free LEO Doppler Positioning via Semidefinite Relaxation:
+    A Cold-Start Approach'
   authors:
   - Baoshan Song
   - Weisong Wen
   - Qi Zhang
   - Bing Xu
+  - Penggao Yan
+  - Yuan Li
   - Li-Ta Hsu
   publisher: arXiv
   date: '2025-09-21'
