@@ -18,7 +18,8 @@ permissions:
 
 jobs:
   build-preview:
-    runs-on: ubuntu-latest
+    # ruby 3.1 binaries are not published for ubuntu-26.04 (ubuntu-latest since Oct 2026)
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Debug dump
