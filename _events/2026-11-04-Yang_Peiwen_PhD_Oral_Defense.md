@@ -26,9 +26,8 @@ The oral examination was conducted by a Board of Examiners comprising:
 
 - **Prof. Chih-Yung WEN**, The Hong Kong Polytechnic University — Chair of the Board of Examiners;
 - **Prof. Carlos Jorge Ferreira SILVESTRE**, University of Macau — External Examiner;
-- **Prof. Ning TAN**, Sun Yat-sen University — External Examiner;
-- **Prof. Weisong WEN**, The Hong Kong Polytechnic University — Internal Member; and
-- **Prof. Li-Ta HSU**, The Hong Kong Polytechnic University — Internal Member.
+- **Prof. Ning TAN**, Sun Yat-sen University — External Examiner; and
+- **Prof. Weisong WEN**, The Hong Kong Polytechnic University — Internal Member.
 
 We sincerely thank all members of the Board for their time, careful review of the thesis, and insightful questions and suggestions during the defense. We also thank Peiwen's supervisors and collaborators for their guidance and support throughout his PhD journey.
 
