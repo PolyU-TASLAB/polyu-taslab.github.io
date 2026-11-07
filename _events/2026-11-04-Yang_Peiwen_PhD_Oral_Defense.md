@@ -22,6 +22,14 @@ His doctoral research investigates how shared representations can improve agile 
 
 These contributions explore a common optimization language for aerial autonomy, supported by component-level evaluations in trajectory planning, simulation, quadrotor flight, dynamics calibration and noisy-positioning control tests.
 
-We sincerely thank the members of the examination panel for their time, careful review of the thesis, and insightful questions and suggestions during the defense. We also thank Peiwen's supervisors and collaborators for their guidance and support throughout his PhD journey.
+The oral examination was conducted by a Board of Examiners comprising:
+
+- **Prof. Chih-Yung WEN**, The Hong Kong Polytechnic University — Chair of the Board of Examiners;
+- **Prof. Carlos Jorge Ferreira SILVESTRE**, University of Macau — External Examiner;
+- **Prof. Ning TAN**, Sun Yat-sen University — External Examiner;
+- **Prof. Weisong WEN**, The Hong Kong Polytechnic University — Internal Member; and
+- **Prof. Li-Ta HSU**, The Hong Kong Polytechnic University — Internal Member.
+
+We sincerely thank all members of the Board for their time, careful review of the thesis, and insightful questions and suggestions during the defense. We also thank Peiwen's supervisors and collaborators for their guidance and support throughout his PhD journey.
 
 TASLAB warmly congratulates Peiwen on this important milestone and wishes him every success in the next stage of his career!
