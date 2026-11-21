@@ -13,6 +13,7 @@ links:
   profile:
 
 display_1: Ph.D.(CUHK), M.Eng.(NEU), B.Eng. (NEU)
+display_2: Aug. 2024 -- Present
 ---
 
 <!--  Add a short self introduction here -->
