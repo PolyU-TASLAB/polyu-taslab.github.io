@@ -1,7 +1,7 @@
 ---
 title: Three TASLAB Papers Accepted by IEEE/ION PLANS 2027
 subtitle: news
-image: images/team/team.png
+image: images/news/20261121_plans2027/banner.png
 tags: news
 order:
 ---
