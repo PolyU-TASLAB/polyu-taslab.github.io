@@ -3,14 +3,14 @@ name: Wang Yingying
 image: images/team/wang_yingying.jpg
 role: postdoc  # pi / postdoc / phd / ms / under / visiting
 affiliation: Hong Kong Polytechnic University
-order: 2
+order: 1
 
 links:
   home-page: https://yywang.pages.dev/
   orcid: 0000-0003-3293-0790
   google-scholar: bRwHOgwAAAAJ&hl=zh-CN
   email: ying5wang@polyu.edu.hk
-  profile: 
+  profile:
 
 display_1: Ph.D.(CUHK), M.Eng.(NEU), B.Eng. (NEU)
 ---

@@ -2,7 +2,7 @@
 name: ZHANG Panpan
 image: images/team/Zhang_Panpan.jpg
 role: postdoc
-order: 7
+order: 4
 affiliation: The Hong Kong Polytechnic University
 links:
   orcid: 0009-0003-0202-1227
